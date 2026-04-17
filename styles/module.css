@@ -1,1 +1,392 @@
-/* Heliana's Mechanics */
+/* ============================================================
+   Heliana's Mechanics — module stylesheet
+   ============================================================ */
+
+/* ---- Crafting Workshop layout ---- */
+
+.hm-crafting-app {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ---- Sidebar ---- */
+
+.hm-sidebar {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  overflow: hidden;
+}
+
+.hm-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+}
+
+.hm-tab {
+  flex: 1;
+  padding: 5px 4px;
+  font-size: 0.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.hm-tab:hover  { color: var(--color-text-dark-primary, #191813); }
+.hm-tab--active {
+  color: var(--color-text-dark-primary, #191813);
+  border-bottom-color: var(--color-border-highlight, #ff6400);
+  font-weight: 700;
+}
+
+.hm-search {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 6px;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+}
+.hm-search i { color: var(--color-text-dark-secondary, #4b4a44); font-size: 0.8rem; }
+.hm-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 0.8rem;
+  outline: none;
+}
+
+.hm-recipe-list {
+  flex: 1;
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 2px 0;
+}
+
+.hm-recipe-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.1s;
+}
+.hm-recipe-row:hover    { background: var(--color-hover-bg, rgba(0,0,0,0.05)); }
+.hm-recipe-row--active  { background: var(--color-select-bg, rgba(255,100,0,0.12)); }
+
+.hm-recipe-row__icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-radius: 2px;
+}
+.hm-recipe-row__name { font-size: 0.82rem; line-height: 1.2; }
+
+.hm-recipe-empty { padding: 8px; font-size: 0.8rem; color: var(--color-text-dark-secondary, #4b4a44); text-align: center; }
+
+.hm-recipe-count {
+  padding: 4px 8px;
+  font-size: 0.72rem;
+  text-align: center;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  border-top: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+}
+
+/* ---- Detail panel ---- */
+
+.hm-detail {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 10px 14px 14px;
+  gap: 6px;
+}
+
+.hm-detail__empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  gap: 8px;
+}
+.hm-detail__empty-icon { font-size: 2.5rem; opacity: 0.3; }
+
+.hm-detail__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+}
+.hm-detail__icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-radius: 4px;
+}
+.hm-detail__name   { margin: 0; font-size: 1rem; }
+.hm-detail__rarity { font-size: 0.75rem; color: var(--color-text-dark-secondary, #4b4a44); text-transform: capitalize; }
+
+/* ---- Sections ---- */
+
+.hm-section { display: flex; flex-direction: column; gap: 4px; }
+.hm-section__title {
+  margin: 0;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-dark-secondary, #4b4a44);
+}
+
+.hm-divider { border: none; border-top: 1px solid var(--color-border-light-tertiary, #c9c7b8); margin: 2px 0; }
+
+/* ---- Materials table ---- */
+
+.hm-materials-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.hm-mat-row td { padding: 2px 4px; }
+.hm-mat-row__name { width: 100%; }
+.hm-mat-row__qty  { white-space: nowrap; text-align: right; }
+.hm-mat-row__status { text-align: center; font-weight: 700; width: 20px; }
+.hm--found   { color: #2d8a4e; }
+.hm--missing { color: #b33e3e; }
+
+.hm-single-material { font-size: 0.82rem; margin: 0; }
+
+/* ---- Stats ---- */
+
+.hm-stats { gap: 2px; }
+.hm-stat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+}
+.hm-stat > span:first-child { color: var(--color-text-dark-secondary, #4b4a44); }
+
+/* ---- Essence drop zone ---- */
+
+.hm-essence-drop {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  padding: 4px 8px;
+  border: 2px dashed var(--color-border-light-secondary, #b5b3a4);
+  border-radius: 4px;
+  font-size: 0.82rem;
+  background: var(--color-bg-option, rgba(0,0,0,0.03));
+  transition: border-color 0.15s, background 0.15s;
+}
+.hm-essence-drop:hover { border-color: var(--color-border-highlight, #ff6400); }
+
+.hm-essence-placeholder { color: var(--color-text-dark-secondary, #4b4a44); font-style: italic; }
+.hm-essence-slotted { display: flex; align-items: center; gap: 4px; flex: 1; }
+.hm-essence-clear {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  font-size: 0.8rem;
+  padding: 0 2px;
+}
+.hm-essence-clear:hover { color: #b33e3e; }
+
+.hm-boon-cap { font-size: 0.78rem; color: var(--color-text-dark-secondary, #4b4a44); margin: 0; }
+
+/* ---- Roll section ---- */
+
+.hm-roll-section { gap: 6px; }
+
+.hm-formula {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.82rem;
+  background: var(--color-bg-option, rgba(0,0,0,0.04));
+  border: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-radius: 3px;
+  padding: 4px 8px;
+  margin: 0;
+  color: var(--color-text-dark-primary, #191813);
+}
+
+.hm-roll-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hm-roll-label { font-size: 0.82rem; white-space: nowrap; }
+.hm-roll-input {
+  width: 70px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 3px 6px;
+  border: 1px solid var(--color-border-light-secondary, #b5b3a4);
+  border-radius: 3px;
+}
+
+/* ---- Action buttons ---- */
+
+.hm-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+.hm-btn-primary {
+  padding: 6px 18px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  background: var(--color-bg-btn, #191813);
+  color: var(--color-text-light-primary, #f0ede0);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.hm-btn-primary:hover { background: var(--color-border-highlight, #ff6400); }
+
+/* ============================================================
+   Crafting Tracker
+   ============================================================ */
+
+.hm-tracker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 12px 14px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.hm-craft-card {
+  border: 1px solid var(--color-border-light-secondary, #b5b3a4);
+  border-radius: 4px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--color-bg-option, rgba(0,0,0,0.02));
+}
+
+.hm-craft-card__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hm-craft-card__icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-radius: 3px;
+}
+.hm-craft-card__name { font-weight: 700; font-size: 0.9rem; }
+
+.hm-progress-bar {
+  height: 10px;
+  background: var(--color-border-light-secondary, #b5b3a4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.hm-progress-bar__fill {
+  height: 100%;
+  background: var(--color-border-highlight, #ff6400);
+  border-radius: 5px;
+  transition: width 0.3s ease;
+  min-width: 4px;
+}
+
+.hm-craft-card__info { font-size: 0.75rem; margin: 0; color: var(--color-text-dark-secondary, #4b4a44); }
+
+.hm-craft-card__actions {
+  display: flex;
+  gap: 6px;
+}
+
+.hm-btn-sm {
+  padding: 3px 8px;
+  font-size: 0.78rem;
+  background: var(--color-bg-btn, #191813);
+  color: var(--color-text-light-primary, #f0ede0);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.hm-btn-sm:hover { background: var(--color-border-highlight, #ff6400); }
+.hm-btn-danger { background: #7a2020; margin-left: auto; }
+.hm-btn-danger:hover { background: #b33e3e; }
+
+.hm-tracker__empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  gap: 8px;
+  opacity: 0.5;
+}
+
+.hm-tracker__count {
+  font-size: 0.72rem;
+  text-align: center;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  margin: 0;
+}
+
+/* ============================================================
+   Recipe book banner (item sheet injection)
+   ============================================================ */
+
+.hm-recipe-book-banner {
+  display: flex;
+  gap: 12px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  background: var(--color-bg-option, rgba(255,100,0,0.06));
+  border: 1px solid var(--color-border-highlight, #ff6400);
+  border-radius: 4px;
+}
+.hm-recipe-book-banner__icon { font-size: 1.4rem; color: var(--color-border-highlight, #ff6400); padding-top: 2px; }
+.hm-recipe-book-banner__body { display: flex; flex-direction: column; gap: 4px; }
+.hm-recipe-book-banner__body strong { font-size: 0.9rem; }
+.hm-recipe-book-banner__body p { margin: 0; font-size: 0.8rem; color: var(--color-text-dark-secondary, #4b4a44); }
+
+.hm-btn-unlock {
+  align-self: flex-start;
+  padding: 4px 12px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  background: var(--color-border-highlight, #ff6400);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.hm-btn-unlock:disabled { opacity: 0.6; cursor: default; background: #4b4a44; }
+.hm-btn-unlock:not(:disabled):hover { opacity: 0.85; }
+
+/* ============================================================
+   Chat message styling
+   ============================================================ */
+
+.hm-chat-message h3 { margin: 0 0 6px; font-size: 0.95rem; }
+.hm-chat-message p  { margin: 2px 0; font-size: 0.82rem; }
+.hm-chat-message ul { margin: 2px 0 4px 16px; font-size: 0.82rem; }
+.hm-chat-message hr { border-color: var(--color-border-light-tertiary, #c9c7b8); margin: 6px 0; }
+.hm-warning { color: #8a5a00; font-style: italic; }

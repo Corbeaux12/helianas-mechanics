@@ -1,4 +1,70 @@
 {
   "HELIANAS": {
+    "ModuleTitle": "Heliana's Mechanics",
+
+    "Manufacturing": "Manufacturing",
+    "Enchanting":    "Enchanting",
+
+    "CraftingWorkshop": "Crafting Workshop",
+    "CraftingTracker":  "Crafting Tracker",
+
+    "SearchPlaceholder": "Search recipes…",
+    "NoRecipes":         "No recipes unlocked.",
+    "RecipesLabel":      "recipes",
+    "SelectRecipe":      "Select a recipe from the list to begin.",
+
+    "RequiredMaterials": "Required Materials",
+    "BaseItem":          "Base Item (mundane)",
+    "Component":         "Harvested Component",
+
+    "Tool":    "Tool",
+    "DC":      "DC",
+    "Time":    "Time",
+    "Hours":   "hrs",
+    "MaxBoons":"Max boons",
+
+    "EssenceOptional":  "Essence (optional — adds boon cap)",
+    "EssenceRequired":  "Essence (required)",
+    "DropEssenceHere":  "Drop an essence item here…",
+    "MaxBoonsCap":      "Max boons with this essence",
+    "NotAnEssence":     "That item is not an essence.",
+
+    "RollFormula": "Roll Formula",
+    "RollResult":  "Roll result",
+
+    "CraftItem":   "Craft Item",
+    "EnchantItem": "Enchant Item",
+
+    "NoFlaws": "No flaws.",
+    "NoBoons": "No boons.",
+    "Flaws":   "Flaws",
+    "Boons":   "Boons",
+
+    "TimeRequired":      "Time required",
+    "MaterialsConsumed": "Materials consumed",
+    "MaterialWarning":   "Could not find all materials for: {items}. They were not deducted.",
+
+    "ItemDestroyed":     "Item Destroyed",
+    "ItemDestroyedDesc": "The item was catastrophically ruined during crafting.",
+    "CraftStarted":      "Craft Started",
+    "CraftComplete":     "Craft Complete",
+
+    "EnterRollFirst":   "Enter the roll result before crafting.",
+    "NoActorSelected":  "No actor selected. Assign a character or control a token.",
+
+    "AddHour":    "+ 1 Hour",
+    "AddDay":     "+ 1 Day",
+    "CancelCraft":"✗ Cancel",
+
+    "CancelCraftTitle":   "Cancel Craft",
+    "CancelCraftConfirm": "Cancel this craft? Materials will not be refunded.",
+
+    "NoCraftsInProgress": "No crafts in progress.",
+    "CraftsInProgress":   "crafts in progress",
+
+    "RecipeBook":     "Recipe Book",
+    "RecipeBookDesc": "Reading this item will permanently unlock its recipes for your character.",
+    "UnlockRecipes":  "Read & Unlock Recipes",
+    "RecipesUnlocked":"Recipes Unlocked"
   }
 }

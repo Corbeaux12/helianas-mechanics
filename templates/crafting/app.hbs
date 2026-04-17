@@ -1,0 +1,167 @@
+<div class="hm-crafting-app">
+
+  {{!-- ===== LEFT SIDEBAR ===== --}}
+  <nav class="hm-sidebar">
+
+    <div class="hm-tabs" role="tablist">
+      <button class="hm-tab {{#if (eq activeTab 'manufacturing')}}hm-tab--active{{/if}}"
+              data-action="switchTab" data-tab="manufacturing" role="tab">
+        {{localize "HELIANAS.Manufacturing"}}
+      </button>
+      <button class="hm-tab {{#if (eq activeTab 'enchanting')}}hm-tab--active{{/if}}"
+              data-action="switchTab" data-tab="enchanting" role="tab">
+        {{localize "HELIANAS.Enchanting"}}
+      </button>
+    </div>
+
+    <label class="hm-search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input class="hm-search-input" type="search"
+             placeholder="{{localize "HELIANAS.SearchPlaceholder"}}"
+             value="{{searchQuery}}">
+    </label>
+
+    <ul class="hm-recipe-list" role="listbox">
+      {{#each recipes}}
+      <li class="hm-recipe-row {{#if selected}}hm-recipe-row--active{{/if}}"
+          data-recipe-id="{{id}}" data-action="selectRecipe" role="option">
+        <img class="hm-recipe-row__icon" src="{{img}}" alt="">
+        <span class="hm-recipe-row__name">{{name}}</span>
+      </li>
+      {{else}}
+      <li class="hm-recipe-empty">{{localize "HELIANAS.NoRecipes"}}</li>
+      {{/each}}
+    </ul>
+
+    <p class="hm-recipe-count">── {{recipeCount}} {{localize "HELIANAS.RecipesLabel"}} ──</p>
+
+  </nav>
+
+  {{!-- ===== RIGHT DETAIL PANEL ===== --}}
+  <div class="hm-detail">
+
+    {{#if detail}}
+
+      <div class="hm-detail__header">
+        <img class="hm-detail__icon" src="{{detail.img}}" alt="">
+        <div class="hm-detail__header-text">
+          <h2 class="hm-detail__name">{{detail.name}}</h2>
+          {{#if detail.rarity}}<span class="hm-detail__rarity">{{detail.rarity}}</span>{{/if}}
+        </div>
+      </div>
+
+      {{!-- Manufacturing materials --}}
+      {{#unless (eq detail.type "enchanting")}}
+      {{#if detail.materials}}
+      <section class="hm-section">
+        <h4 class="hm-section__title">{{localize "HELIANAS.RequiredMaterials"}}</h4>
+        <table class="hm-materials-table">
+          {{#each detail.materials}}
+          <tr class="hm-mat-row">
+            <td class="hm-mat-row__name">{{name}}</td>
+            <td class="hm-mat-row__qty">×{{quantity}}</td>
+            <td class="hm-mat-row__status {{#if found}}hm--found{{else}}hm--missing{{/if}}">
+              {{#if found}}✓{{else}}✗{{/if}}
+            </td>
+          </tr>
+          {{/each}}
+        </table>
+      </section>
+      {{/if}}
+      {{/unless}}
+
+      {{!-- Enchanting base item + component --}}
+      {{#if (eq detail.type "enchanting")}}
+      {{#if detail.baseItemName}}
+      <section class="hm-section">
+        <h4 class="hm-section__title">{{localize "HELIANAS.BaseItem"}}</h4>
+        <p class="hm-single-material">{{detail.baseItemName}} ×1</p>
+      </section>
+      {{/if}}
+      {{#if detail.componentName}}
+      <section class="hm-section">
+        <h4 class="hm-section__title">{{localize "HELIANAS.Component"}}</h4>
+        <p class="hm-single-material">{{detail.componentName}}</p>
+      </section>
+      {{/if}}
+      {{/if}}
+
+      {{!-- Stats row --}}
+      <section class="hm-section hm-stats">
+        {{#if detail.toolLabel}}
+        <div class="hm-stat">
+          <span>{{localize "HELIANAS.Tool"}}</span>
+          <span>{{detail.toolLabel}} ({{detail.abilityLabel}})</span>
+        </div>
+        {{/if}}
+        <div class="hm-stat">
+          <span>{{localize "HELIANAS.DC"}}</span>
+          <span>{{detail.dc}}</span>
+        </div>
+        <div class="hm-stat">
+          <span>{{localize "HELIANAS.Time"}}</span>
+          <span>{{detail.timeHours}} {{localize "HELIANAS.Hours"}}</span>
+        </div>
+      </section>
+
+      <hr class="hm-divider">
+
+      {{!-- Essence slot --}}
+      <section class="hm-section">
+        <h4 class="hm-section__title">
+          {{#if detail.essenceRequired}}
+            {{localize "HELIANAS.EssenceRequired"}}
+          {{else}}
+            {{localize "HELIANAS.EssenceOptional"}}
+          {{/if}}
+        </h4>
+        <div class="hm-essence-drop">
+          {{#if detail.slottedEssence}}
+            <span class="hm-essence-slotted">
+              <i class="fa-solid fa-gem"></i> {{detail.slottedEssence.name}}
+            </span>
+            <button class="hm-essence-clear" data-action="clearEssence" type="button">✕</button>
+          {{else}}
+            <span class="hm-essence-placeholder">{{localize "HELIANAS.DropEssenceHere"}}</span>
+          {{/if}}
+        </div>
+        {{#if detail.maxBoons}}
+        <p class="hm-boon-cap">{{localize "HELIANAS.MaxBoonsCap"}}: {{detail.maxBoons}}</p>
+        {{/if}}
+      </section>
+
+      <hr class="hm-divider">
+
+      {{!-- Roll formula + result --}}
+      <section class="hm-section hm-roll-section">
+        <h4 class="hm-section__title">{{localize "HELIANAS.RollFormula"}}</h4>
+        <p class="hm-formula">{{detail.rollFormula}}</p>
+        <div class="hm-roll-row">
+          <label class="hm-roll-label" for="hm-roll-input">{{localize "HELIANAS.RollResult"}}</label>
+          <input id="hm-roll-input" class="hm-roll-input" type="number"
+                 min="1" max="40" placeholder="—">
+        </div>
+      </section>
+
+      <div class="hm-actions">
+        <button class="hm-btn-primary" data-action="craftItem" type="button">
+          {{#if (eq detail.type "enchanting")}}
+            {{localize "HELIANAS.EnchantItem"}}
+          {{else}}
+            {{localize "HELIANAS.CraftItem"}}
+          {{/if}}
+        </button>
+      </div>
+
+    {{else}}
+
+      <div class="hm-detail__empty">
+        <i class="fa-solid fa-anvil hm-detail__empty-icon"></i>
+        <p>{{localize "HELIANAS.SelectRecipe"}}</p>
+      </div>
+
+    {{/if}}
+
+  </div>{{!-- .hm-detail --}}
+
+</div>{{!-- .hm-crafting-app --}}
