@@ -4,6 +4,8 @@ import { CraftingTracker } from "./crafting/CraftingTracker.mjs";
 import { RecipePageData }  from "./crafting/RecipePageData.mjs";
 import { RecipePageSheet } from "./crafting/RecipePageSheet.mjs";
 import { RECIPE_PAGE_TYPE } from "./crafting/Recipe.mjs";
+import { renderItemTagPanel } from "./crafting/ItemTagPanel.mjs";
+import { RecipeImporter } from "./crafting/RecipeImporter.mjs";
 
 // ------------------------------------------------------------------ init hook
 
@@ -45,6 +47,10 @@ Hooks.once("init", () => {
 
 Hooks.once("ready", async () => {
   console.log(`${MODULE_ID} | Heliana's Mechanics is ready`);
+
+  // Public API for macros: game.modules.get("helianas-mechanics").api.RecipeImporter
+  const moduleRef = game.modules.get(MODULE_ID);
+  if (moduleRef) moduleRef.api = { RecipeImporter };
 
   // One-shot migration: convert legacy flag-based recipes to new sub-type pages
   if (game.user.isGM) await migrateLegacyRecipes();
@@ -170,7 +176,12 @@ Hooks.on("getSceneControlButtons", (controls) => {
 
 // ------------------------------------------------------------------ item sheet injection (recipe books)
 
-Hooks.on("renderItemSheet", (app, html, _data) => {
+Hooks.on("renderItemSheet", (app, html, data) => {
+  renderItemTagPanel(app, html, data);
+  renderRecipeBookBanner(app, html, data);
+});
+
+function renderRecipeBookBanner(app, html, _data) {
   const item = app.document ?? app.object;
   if (!item) return;
 
@@ -211,4 +222,19 @@ Hooks.on("renderItemSheet", (app, html, _data) => {
   const el     = html instanceof HTMLElement ? html : html[0];
   const target = el.querySelector(".tab[data-tab='description']") ?? el.querySelector(".sheet-body");
   if (target) target.prepend(banner);
+}
+
+// ------------------------------------------------------------------ chat command hook (recipe importer)
+
+Hooks.on("chatMessage", (_chatLog, message, _data) => {
+  if (typeof message !== "string") return;
+  const trimmed = message.trim();
+  if (!trimmed.startsWith("/helianas-import")) return;
+  if (!game.user.isGM) {
+    ui.notifications.warn(game.i18n.localize("HELIANAS.ImporterGMOnly"));
+    return false;
+  }
+  const args = trimmed.slice("/helianas-import".length).trim();
+  RecipeImporter.runCommand(args);
+  return false;
 });

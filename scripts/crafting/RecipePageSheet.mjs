@@ -44,6 +44,8 @@ export class RecipePageSheet extends Base {
       recipeTypeOptions: [
         { value: "manufacturing", label: game.i18n.localize("HELIANAS.Manufacturing") },
         { value: "enchanting",    label: game.i18n.localize("HELIANAS.Enchanting") },
+        { value: "forging",       label: game.i18n.localize("HELIANAS.Forging") },
+        { value: "cooking",       label: game.i18n.localize("HELIANAS.Cooking") },
       ],
       toolOptions: [
         { value: "", label: game.i18n.localize("HELIANAS.None") },
@@ -122,6 +124,7 @@ export class RecipePageSheet extends Base {
 
   async #onDrop(event) {
     event.preventDefault();
+    event.stopPropagation();
     const el = event.currentTarget;
     el.classList.remove("hm-slot--hover");
 
@@ -154,6 +157,26 @@ export class RecipePageSheet extends Base {
       comp.img  = item.img;
       comp.uuid = item.uuid;
       await this.document.update({ "system.ingredients": ingredients });
+      return;
+    }
+    if (target === "ingredient") {
+      const ingId = el.dataset.ingredientId;
+      const ingredients = foundry.utils.deepClone(this.document.system.ingredients);
+      const ing = ingredients.find(i => i.id === ingId);
+      if (!ing) return;
+      const itemTags = item.flags?.["helianas-mechanics"]?.tags;
+      ing.components.push({
+        id:           foundry.utils.randomID(),
+        uuid:         item.uuid,
+        name:         item.name,
+        nameMode:     "exact",
+        img:          item.img,
+        quantity:     1,
+        tags:         Array.isArray(itemTags) ? [...itemTags] : [],
+        mode:         "some",
+        resourcePath: "",
+      });
+      await this.document.update({ "system.ingredients": ingredients });
     }
   }
 
@@ -184,6 +207,7 @@ export class RecipePageSheet extends Base {
       id:           foundry.utils.randomID(),
       uuid:         "",
       name:         game.i18n.localize("HELIANAS.NewComponent"),
+      nameMode:     "exact",
       img:          "",
       quantity:     1,
       tags:         [],

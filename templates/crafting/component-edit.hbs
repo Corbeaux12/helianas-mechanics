@@ -4,6 +4,14 @@
     <input type="text" name="name" value="{{name}}" autofocus>
   </div>
   <div class="form-group">
+    <label>{{localize "HELIANAS.NameMode"}}</label>
+    <select name="nameMode">
+      <option value="exact" {{#if (eq nameMode "exact")}}selected{{/if}}>{{localize "HELIANAS.NameModeExact"}}</option>
+      <option value="regex" {{#if (eq nameMode "regex")}}selected{{/if}}>{{localize "HELIANAS.NameModeRegex"}}</option>
+    </select>
+    <p class="hint">{{localize "HELIANAS.NameModeRegexHint"}}</p>
+  </div>
+  <div class="form-group">
     <label>{{localize "HELIANAS.ComponentUuid"}}</label>
     <input type="text" name="uuid" value="{{uuid}}" placeholder="Compendium.foo.bar">
   </div>

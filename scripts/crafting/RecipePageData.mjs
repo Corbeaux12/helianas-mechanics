@@ -5,6 +5,7 @@ function componentSchema() {
     id:           new StringField({ required: true, blank: false, initial: () => foundry.utils.randomID() }),
     uuid:         new StringField({ required: false, blank: true, initial: "" }),
     name:         new StringField({ required: true, blank: false, initial: "New Component" }),
+    nameMode:     new StringField({ choices: ["exact", "regex"], initial: "exact" }),
     img:          new StringField({ required: false, blank: true, initial: "" }),
     quantity:     new NumberField({ required: true, nullable: false, integer: true, min: 0, initial: 1 }),
     tags:         new ArrayField(new StringField({ blank: false })),
@@ -24,7 +25,7 @@ function ingredientSchema() {
 export class RecipePageData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
-      recipeType:     new StringField({ choices: ["manufacturing", "enchanting"], initial: "manufacturing" }),
+      recipeType:     new StringField({ choices: ["manufacturing", "enchanting", "forging", "cooking"], initial: "manufacturing" }),
       resultName:     new StringField({ required: true, blank: true, initial: "" }),
       resultImg:      new StringField({ required: false, blank: true, initial: "" }),
       resultUuid:     new StringField({ required: false, blank: true, initial: "" }),

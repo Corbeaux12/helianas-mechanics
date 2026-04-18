@@ -1,6 +1,6 @@
 # Heliana's Mechanics
 
-A Foundry VTT v14 module that implements the crafting system from *Heliana's Guide to Monster Hunting*: **Manufacturing**, **Enchanting**, quirk-based results, essence-tier boon capping, recipe books, an in-app recipe sheet, and a downtime tracker.
+A Foundry VTT v14 module that implements the crafting system from *Heliana's Guide to Monster Hunting*: **Manufacturing**, **Enchanting**, **Forging**, **Cooking**, quirk-based results, essence-tier boon capping, recipe books, an in-app recipe sheet, item-level crafting tags, and a downtime tracker.
 
 - System: **dnd5e** (tested)
 - Foundry compatibility: **v13–v14**
@@ -48,7 +48,7 @@ Recipes are **JournalEntryPage** documents of sub-type `helianas-mechanics.recip
 
 | Field | Type | Notes |
 |---|---|---|
-| `recipeType` | `"manufacturing"` \| `"enchanting"` | Workshop tab filter. |
+| `recipeType` | `"manufacturing"` \| `"enchanting"` \| `"forging"` \| `"cooking"` | Workshop tab filter. |
 | `resultName` / `resultImg` / `resultUuid` | string | Display + (optional) item to clone on completion. |
 | `resultQuantity` | integer ≥ 1 | |
 | `dc` | integer | Fixed DC the roll must meet. |
@@ -66,7 +66,8 @@ Each **ingredient** is a named slot (e.g. "Metal stock") containing one or more 
 
 | Component field | Purpose |
 |---|---|
-| `name` | Primary match — consumed by exact name. |
+| `name` | Primary match — consumed by exact name (or regex, see `nameMode`). |
+| `nameMode` | `"exact"` (default) \| `"regex"`. In regex mode, `name` is a JS pattern — bare patterns match case-insensitively, or use `/pattern/flags` literal form. |
 | `uuid` | Optional — matches items whose `flags.core.sourceId` equals this UUID. |
 | `quantity` | How many to consume. |
 | `tags` | Substitution tags. See below. |
@@ -82,20 +83,19 @@ Each **ingredient** is a named slot (e.g. "Metal stock") containing one or more 
 
 ### Tagging items for substitution
 
-To let a component accept an alternate item, add a module flag to the item:
+Every item sheet now has a **Crafting Tags** panel at the top of the description tab (provided by [ItemTagPanel](scripts/crafting/ItemTagPanel.mjs)). Type a tag, press Enter or click **Add**, and it is stored under `flags.helianas-mechanics.tags`. A ✕ on each chip removes it. The input autocompletes against the starter vocabulary plus any tag already used anywhere in the world.
+
+If you prefer scripting, the flag is still a plain string array — all three of these are equivalent:
 
 ```js
-// On any item the GM wants to be substitutable:
-item.setFlag("helianas-mechanics", "tags", ["metal", "ferrous"]);
-```
+// Via the module API (recommended)
+await item.setFlag("helianas-mechanics", "tags", ["metal", "ferrous"]);
 
-Or via **Item sheet → Advanced / Edit flag**:
-
-```
+// From an Item sheet → Advanced / Edit flag
 flags.helianas-mechanics.tags = ["metal", "ferrous"]
 ```
 
-Suggested starter vocabulary (purely convention, not enforced): `metal`, `wood`, `leather`, `cloth`, `stone`, `gem`, `herb`, `bone`, `scale`, `hide`, `essence`, `reagent`, `tool`, `ferrous`.
+Starter vocabulary (purely convention, not enforced): `metal`, `wood`, `leather`, `cloth`, `stone`, `gem`, `herb`, `bone`, `scale`, `hide`, `essence`, `reagent`, `tool`, `ferrous`.
 
 ---
 
@@ -105,16 +105,27 @@ Click the **🔨 Heliana's Mechanics** toolbar group (left sidebar) → **⚒ Cr
 
 The workshop is a two-pane window:
 
-- **Left:** tab switcher (Manufacturing / Enchanting), search box, recipe list filtered by your unlocked journals.
+- **Left:** tab switcher (Manufacturing 🔨 / Enchanting ✨ / Forging 🔥 / Cooking 🍴), search box, recipe list filtered by your unlocked journals.
 - **Right:**
   - **Crafter** dropdown — the actor whose sheet rolls the check.
   - **Inventory** dropdown — the actor whose items are consumed, and who receives the crafted item.
   - Ingredient rows with per-component availability (quantity in inventory / quantity required + ✓/✗).
   - Stats row: tool, DC, time.
   - Essence slot (drop an essence item onto it).
-  - Roll-formula display, roll-result input, **Craft / Enchant** button.
+  - Roll-formula display, roll-result input, **Craft / Enchant / Forge / Cook** button (adapts to recipe type).
 
 Clicking a component with more than one alternate selects that alternate for consumption.
+
+### Recipe types
+
+| Type | Who rolls | Roll formula | Essence | Notes |
+|---|---|---|---|---|
+| Manufacturing | Anyone proficient with the tool | `1d20 + ability mod + prof (tool)` | Optional (caps boons) | Mundane items. |
+| Enchanting | Spellcasters | `1d20 + spellcasting mod + skill` (skill determined by component creature type) | Required | Magic items from mundane + monster component + essence. |
+| Forging | Anyone proficient with the tool | `1d20 + ability mod + prof (tool) + spellcasting mod + skill` | Required | Combined manufacturing + enchanting in one pass. |
+| Cooking | Anyone proficient with Cook's Utensils | `1d20 + WIS mod + prof (Cook's Utensils)` | Optional | Meals, tonics, trail fare. |
+
+> Quirk tables currently reuse the manufacturing flaws/boons tables for all four recipe types. Type-specific quirks (enchanting, cooking) are planned.
 
 ### Two-actor pattern
 
@@ -236,34 +247,60 @@ await journal.createEmbeddedDocuments("JournalEntryPage", [{
 
 Recipes authored under the legacy flag shape are converted automatically on the next world load — see the **Legacy recipe migration** section above. Full design notes live in `docs/crafting-systems-design.md`.
 
+### Bulk import from the catalogue
+
+`scripts/crafting/RecipeImporter.mjs` parses the bundled `crafting_catalogue_foundry_reference.md` and converts each Part 7 table row into a recipe page, resolving the result item's UUID and icon from any enabled Item compendium.
+
+**Chat command (GM only):**
+
+```
+/helianas-import "Forge Recipes" 50
+```
+
+— imports up to 50 catalogue entries into the journal named "Forge Recipes". Rows whose result item cannot be found in any compendium are still imported, but without a `resultUuid` / `resultImg` (drop an item onto the sheet's result slot later to backfill).
+
+**Macro / API:**
+
+```js
+const api = game.modules.get("helianas-mechanics").api;
+const journal = game.journal.getName("Forge Recipes");
+const text    = await (await fetch("modules/helianas-mechanics/crafting_catalogue_foundry_reference.md")).text();
+const rows    = api.RecipeImporter.parseCatalogueMarkdown?.(text) ?? []; // or use your own rows
+await api.RecipeImporter.importRows(journal, rows, { max: 100 });
+```
+
+Each generated page carries DC, time, rarity, essence tier, creature type and attunement derived from the row; DC/time come from the Enchanting Rarity/DC/Time table (common → 12/1 hr … artifact → 30/100,000 hr). Tweak anything afterwards via the recipe sheet.
+
 ---
 
 ## Module structure
 
 ```
 scripts/
-  module.mjs                         entry point — hooks, migration, toolbar, socket
+  module.mjs                         entry point — hooks, migration, toolbar, socket, chat commands
   crafting/
     constants.mjs                    TOOLS, ESSENCE_TIERS, INGREDIENT_TAGS, MFG_FLAWS/BOONS
     RecipePageData.mjs               TypeDataModel schema for the recipe sub-type
-    RecipePageSheet.mjs              In-app GM sheet for recipe pages (drag/drop, add/delete)
-    Ingredient.mjs                   Ingredient / Component classes + tag matching
+    RecipePageSheet.mjs              In-app GM sheet for recipe pages (drag/drop result + ingredient + component)
+    Ingredient.mjs                   Ingredient / Component classes + tag and regex-name matching
     Recipe.mjs                       Recipe wrapper + consumeIngredients()
-    RecipeManager.mjs                journal → recipe discovery (permission-aware)
+    RecipeManager.mjs                journal → recipe discovery (permission-aware, four types)
+    RecipeImporter.mjs               Catalogue markdown parser + compendium UUID resolver
     QuirkEngine.mjs                  delta-based flaw/boon calculator
-    CraftingApp.mjs                  Workshop ApplicationV2
+    CraftingApp.mjs                  Workshop ApplicationV2 (manufacturing/enchanting/forging/cooking tabs)
     CraftingTracker.mjs              Tracker ApplicationV2
-    ComponentEditForm.mjs            DialogV2 component editor (tags / mode / resource path)
+    ComponentEditForm.mjs            DialogV2 component editor (nameMode / tags / resource path)
+    ItemTagPanel.mjs                 Crafting-tag editor injected into every Item sheet
 templates/crafting/
   app.hbs                            Workshop template
   tracker.hbs                        Tracker template
   recipe-page-edit.hbs               Recipe sheet — edit mode
   recipe-page-view.hbs               Recipe sheet — view mode
   component-edit.hbs                 Component editor dialog
-tests/                               Vitest unit tests (86 passing)
+tests/                               Vitest unit tests (111 passing)
 docs/
   crafting-systems-design.md         Full design spec
-crafting_catalogue_foundry_reference.md   Canonical rules reference
+crafting_catalogue_foundry_reference.md   Canonical rules reference (parsed by RecipeImporter)
 ```
 
 ---
@@ -294,14 +331,24 @@ No build step — just reload Foundry (`F5`) after editing source files.
 
 ## TODO / Roadmap
 
-Planned work, not yet implemented:
+Remaining follow-ups:
 
-- **Item tagging like mastercrafted** — a proper tag-management UI on item sheets (multi-select, autocomplete against `INGREDIENT_TAGS`, shared taxonomy), rather than hand-editing `flags.helianas-mechanics.tags`.
-- **Regex name options for ingredients** — allow a component's `name` field to be a regex (e.g. `/^.*\bIngot\b/i`) so one slot can match a family of items without enumerating every UUID.
-- **More visually appealing UI** — polish the workshop, tracker, and recipe sheet (better iconography, slot artwork, hover states, empty-state illustrations, responsive layout).
-- **Forging** — the third crafting type from the catalogue (tool check + spellcasting check combined), including its own quirk table and mixed essence / mundane ingredient handling.
-- **Cooking** — Cook's-Utensils-driven recipes with their own boon/flaw tables (buffs, rest-length modifiers, condition-curing meals).
-- **Pull UUIDs and automate recipe creation** — batch-import recipes from the catalogue by resolving the 100+ magic-item UUIDs from enabled compendiums and auto-generating `helianas-mechanics.recipe` pages (component tier, rarity, attunement, creature type all filled in).
+- **Type-specific quirk tables** — split out Enchanting, Forging, and Cooking quirk tables; today they all fall back to `MFG_FLAWS` / `MFG_BOONS`.
+- **Harvesting system** — the first half of the catalogue (Assess → Carve, creature-size timers, helpers, optional metatag/ruining/volatile rules) is still unimplemented.
+- **Familiars** — seven trainer-specific familiar trees, still unimplemented.
+- **Compendium packs** — ship the Harvest Tables, Essence Types, Mundane Ingredients, Magic Item Recipes, Familiars, and Quirk Tables as bundled compendiums so worlds don't have to run the importer.
+- **Full recipe browser / GM catalogue** — a Part 7–scoped browser with multi-select + "create selected as recipes" instead of the current all-at-once importer.
+- **Cooking buff effects** — once quirk tables exist, wire boons/flaws from cooked meals into the dnd5e Active Effects system.
+
+Completed in recent work:
+
+- ✅ Mastercrafted-style item-sheet tag editor (chips + autocomplete).
+- ✅ Regex name matching on components (`nameMode: "regex"`).
+- ✅ Visual polish: accent-colour variables, smoother drop slots, icon-led workshop tabs, tracker card shadows.
+- ✅ Forging recipe type (tool + spellcasting combined roll).
+- ✅ Cooking recipe type (Cook's Utensils tab).
+- ✅ Catalogue importer (`/helianas-import "Journal Name"` chat command + public API).
+- ✅ Droppable ingredient rows (drag an item onto a row to auto-add a new component).
 
 ## Credits
 

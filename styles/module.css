@@ -2,6 +2,20 @@
    Heliana's Mechanics — module stylesheet
    ============================================================ */
 
+:root, .app.helianas-mechanics, .application.helianas-mechanics {
+  --hm-accent:        #c84a00;
+  --hm-accent-soft:   rgba(200, 74, 0, 0.12);
+  --hm-accent-hover:  #ff6400;
+  --hm-border:        var(--color-border-light-tertiary, #c9c7b8);
+  --hm-border-strong: var(--color-border-light-secondary, #b5b3a4);
+  --hm-surface:       rgba(0, 0, 0, 0.03);
+  --hm-surface-raised:#fff;
+  --hm-ink:           var(--color-text-dark-primary, #191813);
+  --hm-ink-soft:      var(--color-text-dark-secondary, #4b4a44);
+  --hm-shadow:        0 1px 2px rgba(0, 0, 0, 0.08);
+  --hm-radius:        5px;
+}
+
 /* ---- Crafting Workshop layout ---- */
 
 .hm-crafting-app {
@@ -27,20 +41,22 @@
 
 .hm-tab {
   flex: 1;
-  padding: 5px 4px;
-  font-size: 0.75rem;
+  padding: 7px 4px;
+  font-size: 0.95rem;
   background: transparent;
   border: none;
   cursor: pointer;
   color: var(--color-text-dark-secondary, #4b4a44);
   border-bottom: 2px solid transparent;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
-.hm-tab:hover  { color: var(--color-text-dark-primary, #191813); }
-.hm-tab--active {
+.hm-tab:hover  {
   color: var(--color-text-dark-primary, #191813);
+  background: rgba(255, 100, 0, 0.06);
+}
+.hm-tab--active {
+  color: var(--color-border-highlight, #ff6400);
   border-bottom-color: var(--color-border-highlight, #ff6400);
-  font-weight: 700;
 }
 
 .hm-search {
@@ -143,8 +159,97 @@
   margin: 0;
   font-size: 0.72rem;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--color-text-dark-secondary, #4b4a44);
+  letter-spacing: 0.08em;
+  color: var(--hm-ink-soft);
+}
+
+/* ---- Actor picker row (two dropdowns at top of detail) ---- */
+
+.hm-actor-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 6px 8px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface);
+}
+.hm-actor-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.74rem;
+  color: var(--hm-ink-soft);
+}
+.hm-actor-label select {
+  font-size: 0.86rem;
+  padding: 2px 4px;
+  border: 1px solid var(--hm-border);
+  border-radius: 3px;
+  background: var(--hm-surface-raised);
+}
+
+/* ---- Ingredient list (workshop, read-only) ---- */
+
+.hm-ingredients { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.hm-ingredient {
+  padding: 6px 8px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface);
+}
+.hm-ingredient__name { font-size: 0.82rem; font-weight: 600; margin-bottom: 4px; }
+.hm-components { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.hm-component {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 6px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.hm-component:hover { background: var(--hm-accent-soft); }
+.hm-component--selected {
+  border-color: var(--hm-accent);
+  background: var(--hm-accent-soft);
+}
+.hm-component__icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border: 1px solid var(--hm-border);
+  border-radius: 3px;
+  background: #fff;
+}
+.hm-component__body { flex: 1; min-width: 0; }
+.hm-component__name { font-weight: 500; }
+.hm-component__meta { font-size: 0.72rem; color: var(--hm-ink-soft); }
+.hm-component__qty {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
+}
+.hm-qty-have { font-weight: 700; }
+.hm-qty-sep  { color: var(--hm-ink-soft); }
+.hm-qty-need { color: var(--hm-ink-soft); }
+.hm-component__status { margin-left: 4px; font-weight: 700; }
+.hm-component.hm--found .hm-component__status   { color: #2d8a4e; }
+.hm-component.hm--missing .hm-component__status { color: #b33e3e; }
+
+.hm-tag {
+  display: inline-block;
+  padding: 0 5px;
+  margin-right: 2px;
+  background: var(--hm-accent-soft);
+  color: var(--hm-accent);
+  border-radius: 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .hm-divider { border: none; border-top: 1px solid var(--color-border-light-tertiary, #c9c7b8); margin: 2px 0; }
@@ -272,14 +377,17 @@
 }
 
 .hm-craft-card {
-  border: 1px solid var(--color-border-light-secondary, #b5b3a4);
-  border-radius: 4px;
-  padding: 8px 10px;
+  border: 1px solid var(--hm-border);
+  border-left: 3px solid var(--hm-accent);
+  border-radius: var(--hm-radius);
+  padding: 10px 12px;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  background: var(--color-bg-option, rgba(0,0,0,0.02));
+  background: var(--hm-surface-raised);
+  box-shadow: var(--hm-shadow);
 }
+.hm-craft-card:hover { border-color: var(--hm-accent-hover); }
 
 .hm-craft-card__header {
   display: flex;
@@ -382,6 +490,88 @@
 .hm-btn-unlock:not(:disabled):hover { opacity: 0.85; }
 
 /* ============================================================
+   Item sheet — crafting tag panel
+   ============================================================ */
+
+.hm-item-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-radius: 4px;
+  background: var(--color-bg-option, rgba(0,0,0,0.03));
+}
+
+.hm-item-tags__header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.86rem;
+}
+.hm-item-tags__header i { color: var(--color-border-highlight, #ff6400); }
+
+.hm-tag-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-height: 22px;
+}
+
+.hm-tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 4px 2px 8px;
+  font-size: 0.78rem;
+  background: var(--color-border-highlight, #ff6400);
+  color: #fff;
+  border-radius: 10px;
+  line-height: 1.2;
+}
+
+.hm-tag-chip__remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  font-size: 0.66rem;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  cursor: pointer;
+}
+.hm-tag-chip__remove:hover { background: rgba(0, 0, 0, 0.6); }
+
+.hm-tag-empty {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-text-dark-secondary, #4b4a44);
+}
+
+.hm-tag-add {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.hm-tag-add__input {
+  flex: 1;
+  padding: 3px 6px;
+  font-size: 0.82rem;
+  border: 1px solid var(--color-border-light-secondary, #b5b3a4);
+  border-radius: 3px;
+}
+.hm-item-tags__hint {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--color-text-dark-secondary, #4b4a44);
+}
+
+/* ============================================================
    Chat message styling
    ============================================================ */
 
@@ -432,18 +622,22 @@
   position: relative;
   width: 56px;
   height: 56px;
-  border: 2px dashed var(--color-border-light-secondary, #b5b3a4);
-  border-radius: 4px;
-  background: var(--color-bg-option, rgba(0,0,0,0.04)) center/cover no-repeat;
+  border: 2px dashed var(--hm-border-strong);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface) center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: border-color 0.15s, background-color 0.15s;
+  box-shadow: var(--hm-shadow);
+  transition: border-color 0.15s, background-color 0.15s, transform 0.1s;
 }
 .hm-slot--hover,
-.hm-slot:hover { border-color: var(--color-border-highlight, #ff6400); }
-.hm-slot--empty { background-color: var(--color-bg-option, rgba(0,0,0,0.03)); }
+.hm-slot:hover {
+  border-color: var(--hm-accent-hover);
+  transform: translateY(-1px);
+}
+.hm-slot--empty { background-color: var(--hm-surface); }
 
 .hm-slot__placeholder {
   color: var(--color-text-dark-secondary, #4b4a44);
@@ -532,6 +726,11 @@
   border: 1px solid var(--color-border-light-tertiary, #c9c7b8);
   border-radius: 4px;
   background: var(--color-bg-option, rgba(0,0,0,0.02));
+  transition: border-color 0.15s, background 0.15s;
+}
+.hm-ing-row.hm-slot--hover {
+  border-color: var(--color-border-highlight, #ff6400);
+  background: rgba(255, 100, 0, 0.08);
 }
 .hm-ing-row__header { display: flex; align-items: center; gap: 6px; }
 .hm-ing-row__name {

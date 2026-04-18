@@ -14,10 +14,10 @@ export class RecipeManager {
    * Return all recipes the current user can see, grouped by recipeType.
    * A journal must be at least OBSERVER level for the user (or default).
    *
-   * @returns {{ manufacturing: Recipe[], enchanting: Recipe[] }}
+   * @returns {{ manufacturing: Recipe[], enchanting: Recipe[], forging: Recipe[], cooking: Recipe[] }}
    */
   static getUnlockedRecipes() {
-    const result = { manufacturing: [], enchanting: [] };
+    const result = { manufacturing: [], enchanting: [], forging: [], cooking: [] };
 
     for (const journal of game.journal.contents) {
       if (!RecipeManager._userCanView(journal)) continue;

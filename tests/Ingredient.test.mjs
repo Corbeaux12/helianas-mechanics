@@ -83,6 +83,48 @@ describe("Component.hasTags", () => {
   });
 });
 
+// ── Component.matchesName (regex mode) ────────────────────────────────────────
+
+describe("Component.matchesName", () => {
+  it("exact mode compares names verbatim", () => {
+    const c = new Component({ name: "Iron Ingot" });
+    expect(c.matchesName(mockItem({ name: "Iron Ingot" }))).toBe(true);
+    expect(c.matchesName(mockItem({ name: "Steel Ingot" }))).toBe(false);
+  });
+
+  it("regex mode treats a bare pattern as case-insensitive", () => {
+    const c = new Component({ name: "ingot$", nameMode: "regex" });
+    expect(c.matchesName(mockItem({ name: "Iron Ingot" }))).toBe(true);
+    expect(c.matchesName(mockItem({ name: "Ingot of Steel" }))).toBe(false);
+  });
+
+  it("regex mode supports /pattern/flags literal syntax", () => {
+    const c = new Component({ name: "/^(Iron|Steel) Ingot$/", nameMode: "regex" });
+    expect(c.matchesName(mockItem({ name: "Iron Ingot" }))).toBe(true);
+    expect(c.matchesName(mockItem({ name: "Steel Ingot" }))).toBe(true);
+    expect(c.matchesName(mockItem({ name: "Copper Ingot" }))).toBe(false);
+    // Case-sensitive (no i flag) — lowercase must fail
+    expect(c.matchesName(mockItem({ name: "iron ingot" }))).toBe(false);
+  });
+
+  it("regex mode with an invalid pattern safely returns false", () => {
+    const c = new Component({ name: "(unbalanced", nameMode: "regex" });
+    expect(c.matchesName(mockItem({ name: "anything" }))).toBe(false);
+  });
+
+  it("Ingredient.evaluate sums inventory using regex names", () => {
+    const actor = mockActor([
+      mockItem({ name: "Iron Ingot",  quantity: 2 }),
+      mockItem({ name: "Steel Ingot", quantity: 3 }),
+      mockItem({ name: "Copper Bar",  quantity: 9 }),
+    ]);
+    const ing = new Ingredient({
+      components: [{ id: "c1", name: "ingot$", nameMode: "regex", quantity: 2 }],
+    });
+    expect(ing.evaluate(actor).components[0].inventoryQuantity).toBe(5);
+  });
+});
+
 // ── Ingredient.evaluate ───────────────────────────────────────────────────────
 
 describe("Ingredient.evaluate", () => {

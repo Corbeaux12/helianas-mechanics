@@ -30,7 +30,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
   static open() { CraftingApp.instance.render({ force: true }); }
 
-  /** @type {"manufacturing"|"enchanting"} */
+  /** @type {"manufacturing"|"enchanting"|"forging"|"cooking"} */
   _activeTab = "manufacturing";
   /** @type {string|null} "${journalId}.${pageId}" */
   _selectedId = null;
@@ -97,7 +97,12 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
 
   _buildDetail(recipe, inventoryActor) {
-    const isEnchanting = recipe.recipeType === "enchanting";
+    const type         = recipe.recipeType;
+    const isEnchanting = type === "enchanting";
+    const isForging    = type === "forging";
+    const isCooking    = type === "cooking";
+    // Enchanting and forging both require an essence (forging = tool + spellcasting).
+    const essenceRequired = isEnchanting || isForging;
     const toolEntry    = TOOLS[recipe.toolKey];
     const selections   = this._componentSelections[this._selectedId] ?? {};
 
@@ -130,8 +135,11 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       : 0;
 
     return {
-      type:           recipe.recipeType,
+      type,
       isEnchanting,
+      isForging,
+      isCooking,
+      actionLabel:    this._actionLabel(type),
       name:           recipe.name,
       img:            recipe.img,
       dc:             recipe.dc,
@@ -143,20 +151,38 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       allAvailable,
       rarity:         recipe.rarity,
       attunement:     recipe.attunement,
-      essenceRequired: isEnchanting,
+      essenceRequired,
       maxBoons,
       slottedEssence: this._slottedEssence,
     };
   }
 
-  _rollFormula(recipe) {
-    if (recipe.recipeType === "enchanting") {
-      const skill = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
-      const type  = recipe.componentCreatureType ?? "";
-      return `1d20 + Spellcasting mod + ${skill}${type ? ` (${type})` : ""}`;
+  _actionLabel(type) {
+    switch (type) {
+      case "enchanting": return game.i18n.localize("HELIANAS.EnchantItem");
+      case "forging":    return game.i18n.localize("HELIANAS.ForgeItem");
+      case "cooking":    return game.i18n.localize("HELIANAS.CookMeal");
+      default:           return game.i18n.localize("HELIANAS.CraftItem");
     }
+  }
+
+  _rollFormula(recipe) {
     const ability = ABILITY_LABELS[recipe.toolAbility] ?? "MOD";
     const tool    = TOOLS[recipe.toolKey]?.label ?? recipe.toolKey ?? "Tool";
+
+    if (recipe.recipeType === "enchanting") {
+      const skill        = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
+      const creatureType = recipe.componentCreatureType ?? "";
+      return `1d20 + Spellcasting mod + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
+    }
+
+    if (recipe.recipeType === "forging") {
+      const skill        = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
+      const creatureType = recipe.componentCreatureType ?? "";
+      return `1d20 + ${ability} mod + Prof (${tool}) + Spellcasting mod + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
+    }
+
+    // manufacturing / cooking both resolve as a single tool-ability check.
     return `1d20 + ${ability} mod + Prof (${tool})`;
   }
 

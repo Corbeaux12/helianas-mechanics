@@ -36,7 +36,9 @@
     {{#if system.ingredients.length}}
     <div class="hm-ing-list">
       {{#each system.ingredients}}
-      <div class="hm-ing-row" data-ingredient-id="{{id}}">
+      <div class="hm-ing-row" data-ingredient-id="{{id}}"
+           data-drop="ingredient"
+           data-tooltip="{{localize 'HELIANAS.DropItemOnIngredient'}}">
         <div class="hm-ing-row__header">
           <input type="text" name="system.ingredients.{{@index}}.name" value="{{name}}" class="hm-ing-row__name">
           <button type="button" class="hm-icon-btn hm-icon-btn--danger" data-action="deleteIngredient"

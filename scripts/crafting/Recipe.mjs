@@ -66,7 +66,7 @@ export class Recipe {
       }
 
       const byName = component.matchingItems(actor)
-        .filter(i => i.name === component.name || i.flags?.core?.sourceId === component.uuid);
+        .filter(i => component.matchesName(i) || (component.uuid && i.flags?.core?.sourceId === component.uuid));
       const byTag = component.matchingItems(actor).filter(i => !byName.includes(i));
       for (const item of [...byName, ...byTag]) {
         if (needed <= 0) break;
