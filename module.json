@@ -16,6 +16,11 @@
   "esmodules": [
     "scripts/module.mjs"
   ],
+  "documentTypes": {
+    "JournalEntryPage": {
+      "recipe": {}
+    }
+  },
   "styles": [
     "styles/module.css"
   ],

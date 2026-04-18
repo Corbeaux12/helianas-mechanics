@@ -41,6 +41,22 @@ global.foundry = {
   utils: {
     randomID: () => Math.random().toString(36).slice(2),
     mergeObject: (a, b) => ({ ...a, ...b }),
+    getProperty: (obj, path) => {
+      if (!obj || !path) return undefined;
+      return path.split(".").reduce((acc, key) => (acc == null ? undefined : acc[key]), obj);
+    },
   },
   applications: { api: {} },
+  abstract: {
+    TypeDataModel: class {},
+  },
+  data: {
+    fields: {
+      SchemaField: class { constructor(schema) { this.schema = schema; } },
+      StringField: class { constructor(opts) { Object.assign(this, opts ?? {}); } },
+      NumberField: class { constructor(opts) { Object.assign(this, opts ?? {}); } },
+      ArrayField:  class { constructor(inner) { this.element = inner; } },
+      BooleanField:class { constructor(opts) { Object.assign(this, opts ?? {}); } },
+    },
+  },
 };

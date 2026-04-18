@@ -1,11 +1,28 @@
 import { MODULE_ID } from "./crafting/constants.mjs";
 import { CraftingApp }     from "./crafting/CraftingApp.mjs";
 import { CraftingTracker } from "./crafting/CraftingTracker.mjs";
+import { RecipePageData }  from "./crafting/RecipePageData.mjs";
+import { RecipePageSheet } from "./crafting/RecipePageSheet.mjs";
+import { RECIPE_PAGE_TYPE } from "./crafting/Recipe.mjs";
 
 // ------------------------------------------------------------------ init hook
 
 Hooks.once("init", () => {
   console.log(`${MODULE_ID} | Initializing Heliana's Mechanics`);
+
+  // Register the recipe JournalEntryPage sub-type data model
+  Object.assign(CONFIG.JournalEntryPage.dataModels, {
+    [RECIPE_PAGE_TYPE]: RecipePageData,
+  });
+
+  // Register the sheet used to edit / view recipe pages
+  foundry.applications.apps.DocumentSheetConfig.registerSheet(
+    JournalEntryPage, MODULE_ID, RecipePageSheet, {
+      types:       [RECIPE_PAGE_TYPE],
+      makeDefault: true,
+      label:       "HELIANAS.RecipeSheet",
+    },
+  );
 
   // Persist active crafts as a world-scoped setting (hidden from the config UI)
   game.settings.register(MODULE_ID, "activeCrafts", {
@@ -14,12 +31,23 @@ Hooks.once("init", () => {
     type:    Array,
     default: [],
   });
+
+  // Remember the user's preferred crafter / inventory-holder actors
+  game.settings.register(MODULE_ID, "craftingActorId", {
+    scope: "client", config: false, type: String, default: "",
+  });
+  game.settings.register(MODULE_ID, "inventoryActorId", {
+    scope: "client", config: false, type: String, default: "",
+  });
 });
 
 // ------------------------------------------------------------------ ready hook
 
-Hooks.once("ready", () => {
+Hooks.once("ready", async () => {
   console.log(`${MODULE_ID} | Heliana's Mechanics is ready`);
+
+  // One-shot migration: convert legacy flag-based recipes to new sub-type pages
+  if (game.user.isGM) await migrateLegacyRecipes();
 
   // Refresh tracker when a craft is started (fired by CraftingApp after saving)
   Hooks.on("helianas:craftStarted", () => {
@@ -51,32 +79,93 @@ Hooks.once("ready", () => {
   });
 });
 
+// ------------------------------------------------------------------ legacy recipe migration
+
+async function migrateLegacyRecipes() {
+  let migrated = 0;
+  for (const journal of game.journal.contents) {
+    const legacyPages = journal.pages.contents.filter(p => {
+      const f = p.flags?.[MODULE_ID];
+      return f?.isRecipe && f?.recipe && !f?.isMigrated && p.type !== RECIPE_PAGE_TYPE;
+    });
+    if (!legacyPages.length) continue;
+
+    const pagesToCreate = legacyPages.map(p => {
+      const old = p.flags[MODULE_ID].recipe;
+      const materials = old.materials ?? [];
+      return {
+        name: old.resultItemName ?? p.name,
+        type: RECIPE_PAGE_TYPE,
+        system: {
+          recipeType:     old.type === "enchanting" ? "enchanting" : "manufacturing",
+          resultName:     old.resultItemName ?? "",
+          resultImg:      old.resultItemImg ?? "",
+          resultUuid:     old.resultItemUuid ?? "",
+          resultQuantity: 1,
+          dc:             old.dc ?? 15,
+          timeHours:      old.timeHours ?? 8,
+          toolKey:        old.toolKey ?? "",
+          toolAbility:    old.toolAbility ?? "",
+          ingredients: materials.map(m => ({
+            id:   foundry.utils.randomID(),
+            name: m.name ?? "Material",
+            components: [{
+              id:       foundry.utils.randomID(),
+              uuid:     m.uuid ?? "",
+              name:     m.name ?? "",
+              img:      "",
+              quantity: m.quantity ?? 1,
+              tags:     [],
+              mode:     "some",
+              resourcePath: "",
+            }],
+          })),
+          essenceTierRequired:   old.essenceTierRequired ?? "",
+          componentCreatureType: old.componentCreatureType ?? "",
+          rarity:                old.rarity ?? "",
+          attunement:            old.attunement ?? "none",
+        },
+      };
+    });
+
+    await journal.createEmbeddedDocuments("JournalEntryPage", pagesToCreate);
+    await Promise.all(legacyPages.map(p => p.update({ [`flags.${MODULE_ID}.isMigrated`]: true })));
+    migrated += legacyPages.length;
+  }
+  if (migrated) {
+    ui.notifications.info(game.i18n.format("HELIANAS.MigrationComplete", { count: migrated }));
+  }
+}
+
 // ------------------------------------------------------------------ scene controls (toolbar)
 
 Hooks.on("getSceneControlButtons", (controls) => {
-  controls.push({
+  controls["helianas-mechanics"] = {
     name:       "helianas-mechanics",
     title:      game.i18n.localize("HELIANAS.ModuleTitle"),
     icon:       "fa-solid fa-hammer",
     layer:      "tokens",  // nearest valid canvas layer; sub-tools are buttons so no layer switch occurs on tool click
     activeTool: "workshop",
-    tools: [
-      {
-        name:    "workshop",
-        title:   game.i18n.localize("HELIANAS.CraftingWorkshop"),
-        icon:    "fa-solid fa-anvil",
-        button:  true,
-        onClick: () => CraftingApp.open(),
+    order:      20,
+    tools: {
+      workshop: {
+        name:     "workshop",
+        title:    game.i18n.localize("HELIANAS.CraftingWorkshop"),
+        icon:     "fa-solid fa-anvil",
+        button:   true,
+        order:    1,
+        onChange: () => CraftingApp.open(),
       },
-      {
-        name:    "tracker",
-        title:   game.i18n.localize("HELIANAS.CraftingTracker"),
-        icon:    "fa-regular fa-hourglass-half",
-        button:  true,
-        onClick: () => CraftingTracker.open(),
+      tracker: {
+        name:     "tracker",
+        title:    game.i18n.localize("HELIANAS.CraftingTracker"),
+        icon:     "fa-regular fa-hourglass-half",
+        button:   true,
+        order:    2,
+        onChange: () => CraftingTracker.open(),
       },
-    ],
-  });
+    },
+  };
 });
 
 // ------------------------------------------------------------------ item sheet injection (recipe books)

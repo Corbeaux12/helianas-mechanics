@@ -390,3 +390,187 @@
 .hm-chat-message ul { margin: 2px 0 4px 16px; font-size: 0.82rem; }
 .hm-chat-message hr { border-color: var(--color-border-light-tertiary, #c9c7b8); margin: 6px 0; }
 .hm-warning { color: #8a5a00; font-style: italic; }
+
+/* ============================================================
+   Recipe page sheet (edit mode) — drop-box layout
+   ============================================================ */
+
+.hm-recipe-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px 10px 14px;
+}
+
+.hm-recipe-edit__section { display: flex; flex-direction: column; gap: 6px; }
+
+.hm-recipe-edit__heading {
+  margin: 0;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  border-bottom: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  padding-bottom: 2px;
+}
+.hm-recipe-edit__heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hm-recipe-edit__heading-row .hm-recipe-edit__heading { flex: 1; border-bottom: none; }
+
+.hm-recipe-edit__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 10px;
+}
+
+/* ---- Generic slot (drop target) ---- */
+
+.hm-slot {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border: 2px dashed var(--color-border-light-secondary, #b5b3a4);
+  border-radius: 4px;
+  background: var(--color-bg-option, rgba(0,0,0,0.04)) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+.hm-slot--hover,
+.hm-slot:hover { border-color: var(--color-border-highlight, #ff6400); }
+.hm-slot--empty { background-color: var(--color-bg-option, rgba(0,0,0,0.03)); }
+
+.hm-slot__placeholder {
+  color: var(--color-text-dark-secondary, #4b4a44);
+  opacity: 0.4;
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+
+.hm-slot__qty {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 28px;
+  height: 18px;
+  padding: 0 2px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-align: center;
+  background: rgba(25, 24, 19, 0.82);
+  color: #f0ede0;
+  border: 1px solid rgba(0,0,0,0.4);
+  border-radius: 3px;
+}
+.hm-slot__qty:focus { background: #fff; color: #191813; outline: 1px solid var(--color-border-highlight, #ff6400); }
+
+.hm-slot__clear,
+.hm-slot__edit {
+  position: absolute;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  font-size: 0.66rem;
+  line-height: 1;
+  background: rgba(25, 24, 19, 0.72);
+  color: #f0ede0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.hm-slot__clear { right: 2px; }
+.hm-slot__edit  { left: 2px; }
+.hm-slot:hover .hm-slot__clear,
+.hm-slot:hover .hm-slot__edit { display: inline-flex; }
+.hm-slot__clear:hover { background: #b33e3e; }
+.hm-slot__edit:hover  { background: var(--color-border-highlight, #ff6400); }
+
+.hm-slot--add {
+  border-style: dashed;
+  background: transparent;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  font-size: 1rem;
+}
+
+/* ---- Result slot row ---- */
+
+.hm-result-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hm-slot--result { width: 72px; height: 72px; }
+.hm-result-meta { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.hm-result-meta__name { font-weight: 700; font-size: 0.92rem; }
+.hm-result-meta__uuid {
+  font-size: 0.7rem;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hm-result-meta .hint { margin: 0; font-size: 0.72rem; color: var(--color-text-dark-secondary, #4b4a44); }
+
+/* ---- Ingredient rows ---- */
+
+.hm-ing-list { display: flex; flex-direction: column; gap: 8px; }
+
+.hm-ing-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 6px 8px;
+  border: 1px solid var(--color-border-light-tertiary, #c9c7b8);
+  border-radius: 4px;
+  background: var(--color-bg-option, rgba(0,0,0,0.02));
+}
+.hm-ing-row__header { display: flex; align-items: center; gap: 6px; }
+.hm-ing-row__name {
+  flex: 1;
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 2px 4px;
+  border: 1px solid transparent;
+  background: transparent;
+}
+.hm-ing-row__name:hover,
+.hm-ing-row__name:focus { border-color: var(--color-border-light-secondary, #b5b3a4); background: #fff; }
+
+.hm-comp-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* ---- Icon buttons ---- */
+
+.hm-icon-btn {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid var(--color-border-light-secondary, #b5b3a4);
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.hm-icon-btn:hover {
+  background: var(--color-border-highlight, #ff6400);
+  color: #fff;
+  border-color: var(--color-border-highlight, #ff6400);
+}
+.hm-icon-btn--danger:hover { background: #b33e3e; border-color: #b33e3e; }

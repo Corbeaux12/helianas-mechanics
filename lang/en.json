@@ -1,6 +1,40 @@
 {
+  "TYPES": {
+    "JournalEntryPage": {
+      "helianas-mechanics.recipe": "Recipe"
+    }
+  },
   "HELIANAS": {
     "ModuleTitle": "Heliana's Mechanics",
+
+    "RecipeSheet":       "Recipe Sheet",
+    "RecipeType":        "Recipe Type",
+    "ResultName":        "Result Name",
+    "ResultImg":         "Result Image",
+    "ResultUuid":        "Result Item UUID (optional)",
+    "ResultQuantity":    "Result Quantity",
+    "ToolKey":           "Tool",
+    "ToolAbility":       "Ability",
+    "TimeHours":         "Time (hours)",
+    "EssenceTierRequired": "Essence Tier Required",
+    "CreatureType":      "Creature Type",
+    "Rarity":            "Rarity",
+    "Attunement":        "Attunement",
+    "IngredientsHint":   "Ingredients are authored via macro for now (see README).",
+    "AddIngredient":     "Add Ingredient",
+    "AddComponent":      "Add Component",
+    "DeleteIngredient":  "Delete Ingredient",
+    "DeleteComponent":   "Delete Component",
+    "EditTags":          "Edit Tags / Resource",
+    "NewIngredient":     "New Ingredient",
+    "NewComponent":      "New Component",
+    "NoIngredients":     "No ingredients yet. Click + to add one, then drop items onto the slots.",
+    "Result":            "Result",
+    "NoResultItem":      "No result item yet",
+    "DropItemHere":      "Drop an item here",
+    "DropResultHint":    "Drop an item onto the slot to set name, image, and source UUID.",
+    "ClearSlot":         "Clear slot",
+    "None":              "—",
 
     "Manufacturing": "Manufacturing",
     "Enchanting":    "Enchanting",
@@ -16,6 +50,31 @@
     "RequiredMaterials": "Required Materials",
     "BaseItem":          "Base Item (mundane)",
     "Component":         "Harvested Component",
+    "Ingredients":       "Ingredients",
+    "Resource":          "Resource",
+    "Tags":              "Tags",
+    "MissingIngredients":"Missing ingredients — you can still attempt the craft but results may warn.",
+
+    "Crafter":         "Crafter",
+    "InventoryHolder": "Inventory",
+
+    "ActorsLine":      "{crafter} crafts using {holder}'s supplies.",
+
+    "ComponentEdit":      "Edit Component",
+    "ComponentName":      "Name",
+    "ComponentUuid":      "Source UUID (optional)",
+    "ComponentImg":       "Image path (optional)",
+    "Quantity":           "Quantity",
+    "ComponentTags":      "Tags (comma-separated)",
+    "ComponentTagsHint":  "Items flagged with any matching tag will be accepted as substitutes.",
+    "ComponentTagMode":   "Tag match mode",
+    "ModeSome":           "Any tag matches",
+    "ModeEvery":          "All tags required",
+    "ResourcePath":       "Resource path (optional)",
+    "ResourcePathHint":   "e.g. \"attributes.hp\" to consume from actor.system instead of inventory.",
+    "Save":               "Save",
+
+    "MigrationComplete":  "Helianas: migrated {count} legacy recipe(s) to the new format.",
 
     "Tool":    "Tool",
     "DC":      "DC",

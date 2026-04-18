@@ -40,6 +40,26 @@
   {{!-- ===== RIGHT DETAIL PANEL ===== --}}
   <div class="hm-detail">
 
+    {{!-- Actor pickers (visible on every render) --}}
+    <section class="hm-actor-row">
+      <label class="hm-actor-label">
+        <span>{{localize "HELIANAS.Crafter"}}</span>
+        <select class="hm-actor-select-crafter">
+          {{#each actors}}
+          <option value="{{id}}" {{#if (eq id ../craftingActorId)}}selected{{/if}}>{{name}}</option>
+          {{/each}}
+        </select>
+      </label>
+      <label class="hm-actor-label">
+        <span>{{localize "HELIANAS.InventoryHolder"}}</span>
+        <select class="hm-actor-select-inventory">
+          {{#each actors}}
+          <option value="{{id}}" {{#if (eq id ../inventoryActorId)}}selected{{/if}}>{{name}}</option>
+          {{/each}}
+        </select>
+      </label>
+    </section>
+
     {{#if detail}}
 
       <div class="hm-detail__header">
@@ -50,40 +70,40 @@
         </div>
       </div>
 
-      {{!-- Manufacturing materials --}}
-      {{#unless (eq detail.type "enchanting")}}
-      {{#if detail.materials}}
+      {{!-- Unified ingredients block --}}
+      {{#if detail.ingredients.length}}
       <section class="hm-section">
-        <h4 class="hm-section__title">{{localize "HELIANAS.RequiredMaterials"}}</h4>
-        <table class="hm-materials-table">
-          {{#each detail.materials}}
-          <tr class="hm-mat-row">
-            <td class="hm-mat-row__name">{{name}}</td>
-            <td class="hm-mat-row__qty">×{{quantity}}</td>
-            <td class="hm-mat-row__status {{#if found}}hm--found{{else}}hm--missing{{/if}}">
-              {{#if found}}✓{{else}}✗{{/if}}
-            </td>
-          </tr>
+        <h4 class="hm-section__title">{{localize "HELIANAS.Ingredients"}}</h4>
+        <ul class="hm-ingredients">
+          {{#each detail.ingredients}}
+          <li class="hm-ingredient" data-ingredient-id="{{id}}">
+            <div class="hm-ingredient__name">{{name}}</div>
+            <ul class="hm-components">
+              {{#each components}}
+              <li class="hm-component {{#if selected}}hm-component--selected{{/if}} {{#if available}}hm--found{{else}}hm--missing{{/if}}"
+                  data-component-id="{{id}}" data-action="selectComponent">
+                <img class="hm-component__icon" src="{{img}}" alt="">
+                <div class="hm-component__body">
+                  <div class="hm-component__name">{{name}}</div>
+                  {{#if resourcePath}}
+                    <div class="hm-component__meta">{{localize "HELIANAS.Resource"}}: <code>{{resourcePath}}</code></div>
+                  {{else if tags.length}}
+                    <div class="hm-component__meta">{{localize "HELIANAS.Tags"}}: {{#each tags}}<span class="hm-tag">{{this}}</span>{{/each}}</div>
+                  {{/if}}
+                </div>
+                <div class="hm-component__qty">
+                  <span class="hm-qty-have">{{inventoryQty}}</span>
+                  <span class="hm-qty-sep">/</span>
+                  <span class="hm-qty-need">{{quantity}}</span>
+                  <span class="hm-component__status">{{#if available}}✓{{else}}✗{{/if}}</span>
+                </div>
+              </li>
+              {{/each}}
+            </ul>
+          </li>
           {{/each}}
-        </table>
+        </ul>
       </section>
-      {{/if}}
-      {{/unless}}
-
-      {{!-- Enchanting base item + component --}}
-      {{#if (eq detail.type "enchanting")}}
-      {{#if detail.baseItemName}}
-      <section class="hm-section">
-        <h4 class="hm-section__title">{{localize "HELIANAS.BaseItem"}}</h4>
-        <p class="hm-single-material">{{detail.baseItemName}} ×1</p>
-      </section>
-      {{/if}}
-      {{#if detail.componentName}}
-      <section class="hm-section">
-        <h4 class="hm-section__title">{{localize "HELIANAS.Component"}}</h4>
-        <p class="hm-single-material">{{detail.componentName}}</p>
-      </section>
-      {{/if}}
       {{/if}}
 
       {{!-- Stats row --}}
@@ -144,8 +164,9 @@
       </section>
 
       <div class="hm-actions">
-        <button class="hm-btn-primary" data-action="craftItem" type="button">
-          {{#if (eq detail.type "enchanting")}}
+        <button class="hm-btn-primary" data-action="craftItem" type="button"
+                {{#unless detail.allAvailable}}title="{{localize 'HELIANAS.MissingIngredients'}}"{{/unless}}>
+          {{#if detail.isEnchanting}}
             {{localize "HELIANAS.EnchantItem"}}
           {{else}}
             {{localize "HELIANAS.CraftItem"}}

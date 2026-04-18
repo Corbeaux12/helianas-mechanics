@@ -33,6 +33,12 @@ export const ABILITY_LABELS = {
   int: "INT", wis: "WIS", cha: "CHA",
 };
 
+export const INGREDIENT_TAGS = [
+  "metal", "wood", "leather", "cloth", "stone",
+  "gem", "herb", "bone", "scale", "hide",
+  "essence", "reagent", "tool", "ferrous",
+];
+
 export const CREATURE_TYPE_SKILLS = {
   aberration: "Arcana",
   beast:      "Survival",

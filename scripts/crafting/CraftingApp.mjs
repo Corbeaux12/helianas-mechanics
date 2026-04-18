@@ -7,13 +7,14 @@ const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "helianas-crafting-workshop",
-    position: { width: 780, height: 560 },
+    position: { width: 820, height: 620 },
     window: { title: "HELIANAS.CraftingWorkshop", resizable: true, icon: "fa-solid fa-anvil" },
     actions: {
-      selectRecipe: CraftingApp.#selectRecipe,
-      switchTab:    CraftingApp.#switchTab,
-      clearEssence: CraftingApp.#clearEssence,
-      craftItem:    CraftingApp.#craftItem,
+      selectRecipe:    CraftingApp.#selectRecipe,
+      switchTab:       CraftingApp.#switchTab,
+      selectComponent: CraftingApp.#selectComponent,
+      clearEssence:    CraftingApp.#clearEssence,
+      craftItem:       CraftingApp.#craftItem,
     },
   };
 
@@ -36,6 +37,24 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
   _searchQuery = "";
   /** @type {{ name: string, tier: string, uuid: string }|null} */
   _slottedEssence = null;
+  /** @type {Record<string, Record<string,string>>} recipeId → ingredientId → componentId */
+  _componentSelections = {};
+
+  // ------------------------------------------------------------------ actor pickers
+
+  _eligibleActors() {
+    return game.actors.filter(a => a.isOwner);
+  }
+
+  _craftingActor() {
+    const id = game.settings.get(MODULE_ID, "craftingActorId");
+    return game.actors.get(id) ?? game.user.character ?? this._eligibleActors()[0] ?? null;
+  }
+
+  _inventoryActor() {
+    const id = game.settings.get(MODULE_ID, "inventoryActorId");
+    return game.actors.get(id) ?? this._craftingActor();
+  }
 
   // ------------------------------------------------------------------ context
 
@@ -45,39 +64,65 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
     const q = this._searchQuery.toLowerCase();
     const filtered = q
-      ? tabRecipes.filter(r => r.recipe.resultItemName.toLowerCase().includes(q))
+      ? tabRecipes.filter(r => r.name.toLowerCase().includes(q))
       : tabRecipes;
 
-    const selectedEntry = this._selectedId
-      ? filtered.find(r => `${r.page.parent.id}.${r.page.id}` === this._selectedId)
+    const selectedRecipe = this._selectedId
+      ? filtered.find(r => this._recipeKey(r) === this._selectedId)
       : null;
+
+    const actors = this._eligibleActors().map(a => ({ id: a.id, name: a.name }));
+    const craftingActor  = this._craftingActor();
+    const inventoryActor = this._inventoryActor();
 
     return {
       activeTab:   this._activeTab,
       searchQuery: this._searchQuery,
       recipes: filtered.map(r => ({
-        id:       `${r.page.parent.id}.${r.page.id}`,
-        name:     r.recipe.resultItemName,
-        img:      r.recipe.resultItemImg || "icons/svg/item-bag.svg",
-        selected: `${r.page.parent.id}.${r.page.id}` === this._selectedId,
+        id:       this._recipeKey(r),
+        name:     r.name,
+        img:      r.img,
+        selected: this._recipeKey(r) === this._selectedId,
       })),
       recipeCount: filtered.length,
-      detail: selectedEntry ? this._buildDetail(selectedEntry) : null,
+      actors,
+      craftingActorId:  craftingActor?.id ?? "",
+      inventoryActorId: inventoryActor?.id ?? "",
+      detail: selectedRecipe ? this._buildDetail(selectedRecipe, inventoryActor) : null,
     };
   }
 
-  _buildDetail({ recipe }) {
-    const isEnchanting = recipe.type === "enchanting";
-    const toolEntry    = TOOLS[recipe.toolKey];
+  _recipeKey(recipe) {
+    return `${recipe.page.parent?.id ?? "j"}.${recipe.page.id}`;
+  }
 
-    const materials = (recipe.materials ?? []).map(m => {
-      const actor = this._actor();
-      const qty   = actor
-        ? actor.items.contents
-            .filter(i => (m.uuid && i.uuid === m.uuid) || i.name === m.name)
-            .reduce((s, i) => s + (i.system?.quantity ?? 1), 0)
-        : 0;
-      return { ...m, found: qty >= m.quantity };
+  _buildDetail(recipe, inventoryActor) {
+    const isEnchanting = recipe.recipeType === "enchanting";
+    const toolEntry    = TOOLS[recipe.toolKey];
+    const selections   = this._componentSelections[this._selectedId] ?? {};
+
+    const evaluated = recipe.evaluate(inventoryActor, selections);
+
+    const ingredients = evaluated.map(({ ingredient, components, selectedId }) => ({
+      id:         ingredient.id,
+      name:       ingredient.name,
+      selectedId,
+      components: components.map(c => ({
+        id:            c.id,
+        name:          c.name,
+        img:           c.img || "icons/svg/item-bag.svg",
+        quantity:      c.quantity,
+        tags:          c.tags,
+        resourcePath:  c.resourcePath,
+        inventoryQty:  c.inventoryQuantity,
+        available:     c.inventoryQuantity >= c.quantity,
+        selected:      c.selected,
+      })),
+    }));
+
+    const allAvailable = evaluated.every(e => {
+      const sel = e.components.find(c => c.id === e.selectedId);
+      return sel && sel.inventoryQuantity >= sel.quantity;
     });
 
     const maxBoons = this._slottedEssence
@@ -85,18 +130,17 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       : 0;
 
     return {
-      type:           recipe.type ?? "manufacturing",
-      name:           recipe.resultItemName,
-      img:            recipe.resultItemImg || "icons/svg/item-bag.svg",
+      type:           recipe.recipeType,
+      isEnchanting,
+      name:           recipe.name,
+      img:            recipe.img,
       dc:             recipe.dc,
       timeHours:      recipe.timeHours,
       toolLabel:      toolEntry?.label ?? recipe.toolKey,
       abilityLabel:   ABILITY_LABELS[recipe.toolAbility] ?? (recipe.toolAbility ?? "").toUpperCase(),
       rollFormula:    this._rollFormula(recipe),
-      materials:      isEnchanting ? [] : materials,
-      // enchanting fields
-      baseItemName:   recipe.baseItemName,
-      componentName:  recipe.componentName,
+      ingredients,
+      allAvailable,
       rarity:         recipe.rarity,
       attunement:     recipe.attunement,
       essenceRequired: isEnchanting,
@@ -106,26 +150,21 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
 
   _rollFormula(recipe) {
-    if (recipe.type === "enchanting") {
+    if (recipe.recipeType === "enchanting") {
       const skill = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
       const type  = recipe.componentCreatureType ?? "";
       return `1d20 + Spellcasting mod + ${skill}${type ? ` (${type})` : ""}`;
     }
-    // manufacturing (default)
     const ability = ABILITY_LABELS[recipe.toolAbility] ?? "MOD";
     const tool    = TOOLS[recipe.toolKey]?.label ?? recipe.toolKey ?? "Tool";
     return `1d20 + ${ability} mod + Prof (${tool})`;
-  }
-
-  _actor() {
-    return game.user.character ?? canvas.tokens?.controlled?.[0]?.actor ?? null;
   }
 
   // ------------------------------------------------------------------ actions
 
   static #selectRecipe(event, target) {
     const id = target.closest("[data-recipe-id]")?.dataset.recipeId ?? target.dataset.recipeId;
-    this._selectedId    = id === this._selectedId ? null : id;
+    this._selectedId     = id === this._selectedId ? null : id;
     this._slottedEssence = null;
     this.render();
   }
@@ -134,6 +173,15 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     this._activeTab      = target.dataset.tab;
     this._selectedId     = null;
     this._slottedEssence = null;
+    this.render();
+  }
+
+  static #selectComponent(event, target) {
+    const ingredientId = target.closest("[data-ingredient-id]")?.dataset.ingredientId;
+    const componentId  = target.closest("[data-component-id]")?.dataset.componentId;
+    if (!this._selectedId || !ingredientId || !componentId) return;
+    const sel = (this._componentSelections[this._selectedId] ??= {});
+    sel[ingredientId] = componentId;
     this.render();
   }
 
@@ -150,58 +198,55 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       return;
     }
 
-    const actor = this._actor();
-    if (!actor) {
+    const craftingActor  = this._craftingActor();
+    const inventoryActor = this._inventoryActor();
+    if (!craftingActor || !inventoryActor) {
       ui.notifications.warn(game.i18n.localize("HELIANAS.NoActorSelected"));
       return;
     }
 
     const allRecipes = RecipeManager.getUnlockedRecipes();
-    const entry = (allRecipes[this._activeTab] ?? [])
-      .find(r => `${r.page.parent.id}.${r.page.id}` === this._selectedId);
-    if (!entry) return;
+    const recipe = (allRecipes[this._activeTab] ?? [])
+      .find(r => this._recipeKey(r) === this._selectedId);
+    if (!recipe) return;
 
-    const { recipe } = entry;
+    const selections  = this._componentSelections[this._selectedId] ?? {};
     const essenceTier = this._slottedEssence?.tier ?? null;
     const quirks      = QuirkEngine.calculateQuirks(rollResult, recipe.dc, essenceTier);
 
     if (quirks.destroyed) {
+      // Destroyed on catastrophic failure — still consume materials
+      await recipe.consumeIngredients(inventoryActor, selections);
       ChatMessage.create({
         content: CraftingApp._chatHtml(
-          `⚒ ${recipe.resultItemName} — ${game.i18n.localize("HELIANAS.ItemDestroyed")}`,
+          `⚒ ${recipe.name} — ${game.i18n.localize("HELIANAS.ItemDestroyed")}`,
           `<p>${game.i18n.localize("HELIANAS.ItemDestroyedDesc")}</p>`
         ),
-        speaker: ChatMessage.getSpeaker({ actor }),
+        speaker: ChatMessage.getSpeaker({ actor: craftingActor }),
       });
+      this._selectedId     = null;
+      this._slottedEssence = null;
+      this.render();
       return;
     }
 
-    // Consume materials
-    const warnings = [];
-    for (const mat of (recipe.materials ?? [])) {
-      const items = actor.items.filter(i =>
-        (mat.uuid && i.uuid === mat.uuid) || i.name === mat.name
-      );
-      let needed = mat.quantity;
-      for (const item of items) {
-        if (needed <= 0) break;
-        const qty = item.system?.quantity ?? 1;
-        if (qty <= needed) { needed -= qty; await item.delete(); }
-        else { await item.update({ "system.quantity": qty - needed }); needed = 0; }
-      }
-      if (needed > 0) warnings.push(mat.name);
-    }
+    const warnings = await recipe.consumeIngredients(inventoryActor, selections);
 
-    // Store active craft
+    // Build a text summary of consumed components for chat
+    const consumedText = recipe.ingredients.map(ing => {
+      const c = ing.getComponent(selections[ing.id]) ?? ing.components[0];
+      return c ? `${c.name} ×${c.quantity}` : ing.name;
+    }).join(", ") || "—";
+
     const crafts = game.settings.get(MODULE_ID, "activeCrafts") ?? [];
     crafts.push({
       id:             foundry.utils.randomID(),
       userId:         game.user.id,
-      actorId:        actor.id,
-      recipeName:     recipe.resultItemName,
+      actorId:        inventoryActor.id,
+      recipeName:     recipe.name,
       resultItemData: {
-        name: recipe.resultItemName,
-        img:  recipe.resultItemImg || "icons/svg/item-bag.svg",
+        name: recipe.name,
+        img:  recipe.img,
         type: "equipment",
       },
       quirks:          quirks.flaws,
@@ -211,10 +256,8 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     });
     await game.settings.set(MODULE_ID, "activeCrafts", crafts);
 
-    // Chat
     const delta       = rollResult - recipe.dc;
     const sign        = delta >= 0 ? "+" : "";
-    const matText     = (recipe.materials ?? []).map(m => `${m.name} ×${m.quantity}`).join(", ") || "—";
     const flawList    = quirks.flaws.length
       ? quirks.flaws.map(f => `<li><strong>${f.name}:</strong> ${f.effect}</li>`).join("")
       : `<li>${game.i18n.localize("HELIANAS.NoFlaws")}</li>`;
@@ -224,18 +267,22 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const warnHtml    = warnings.length
       ? `<p class="hm-warning">⚠ ${game.i18n.format("HELIANAS.MaterialWarning", { items: warnings.join(", ") })}</p>`
       : "";
+    const actorsLine  = craftingActor.id === inventoryActor.id
+      ? ""
+      : `<p><em>${game.i18n.format("HELIANAS.ActorsLine", { crafter: craftingActor.name, holder: inventoryActor.name })}</em></p>`;
 
     ChatMessage.create({
       content: CraftingApp._chatHtml(
-        `⚒ ${recipe.resultItemName} — ${game.i18n.localize("HELIANAS.CraftStarted")}`,
-        `<p><strong>Roll:</strong> ${rollResult} · <strong>DC:</strong> ${recipe.dc} · <strong>Δ:</strong> ${sign}${delta}</p>
+        `⚒ ${recipe.name} — ${game.i18n.localize("HELIANAS.CraftStarted")}`,
+        `${actorsLine}
+         <p><strong>Roll:</strong> ${rollResult} · <strong>DC:</strong> ${recipe.dc} · <strong>Δ:</strong> ${sign}${delta}</p>
          <p><strong>${game.i18n.localize("HELIANAS.TimeRequired")}:</strong> ${recipe.timeHours} ${game.i18n.localize("HELIANAS.Hours")}</p>
          <p><strong>${game.i18n.localize("HELIANAS.Flaws")}:</strong></p><ul>${flawList}</ul>
          <p><strong>${game.i18n.localize("HELIANAS.Boons")}:</strong></p><ul>${boonList}</ul>
-         <hr><p><strong>${game.i18n.localize("HELIANAS.MaterialsConsumed")}:</strong> ${matText}</p>
+         <hr><p><strong>${game.i18n.localize("HELIANAS.MaterialsConsumed")}:</strong> ${consumedText}</p>
          ${warnHtml}`
       ),
-      speaker: ChatMessage.getSpeaker({ actor }),
+      speaker: ChatMessage.getSpeaker({ actor: craftingActor }),
     });
 
     this._selectedId     = null;
@@ -249,12 +296,11 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     return `<div class="hm-chat-message"><h3>${title}</h3>${body}</div>`;
   }
 
-  // ------------------------------------------------------------------ render
+  // ------------------------------------------------------------------ render hooks
 
   _onRender(context, options) {
     const el = this.element;
 
-    // Search input
     el.querySelector(".hm-search-input")?.addEventListener("input",
       foundry.utils.debounce(e => {
         this._searchQuery = e.target.value;
@@ -262,7 +308,15 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       }, 250)
     );
 
-    // Essence drop zone
+    el.querySelector(".hm-actor-select-crafter")?.addEventListener("change", async e => {
+      await game.settings.set(MODULE_ID, "craftingActorId", e.target.value);
+      this.render();
+    });
+    el.querySelector(".hm-actor-select-inventory")?.addEventListener("change", async e => {
+      await game.settings.set(MODULE_ID, "inventoryActorId", e.target.value);
+      this.render();
+    });
+
     const dropZone = el.querySelector(".hm-essence-drop");
     if (dropZone) {
       dropZone.addEventListener("dragover", e => e.preventDefault());

@@ -1,5 +1,7 @@
 # Crafting Systems — Design Document
 
+> **Revision 2 (2026-04-17):** Recipes now use a JournalEntryPage **sub-type** (`helianas-mechanics.recipe`) backed by a `TypeDataModel`, instead of flag-object storage. Materials were replaced by an `Ingredient → Component[]` tree with tag-based substitution and optional `resourcePath` consumption (pattern borrowed from the mastercrafted module). Manufacturing and enchanting use a single unified schema — the `recipeType` field is now a filter, not a shape split. The workshop also surfaces a two-actor pattern: a **Crafter** (who rolls the check) and an **Inventory Holder** (whose items are consumed and who receives the result). Quirks, essences, the recipe-book unlock flow, and the manual `+1 Hour / +1 Day` tracker are **unchanged**. See §6.1 for the new schema. Legacy flag-based recipes are auto-migrated on world load.
+
 ## Context
 
 Heliana's Mechanics is a Foundry VTT v14 module. This document designs the Manufacturing crafting system with a scene-controls toolbar entry point, journal-based configurable recipes (GM-authored, player-unlocked via recipe book items), a two-panel crafting workshop UI, and a time-progress tracker. Enchanting data structures are also scaffolded. No code is written until this document is approved.
@@ -302,37 +304,59 @@ Refresh Tracker window
 
 ## 6. Data Schemas
 
-### 6.1 Recipe (flags on JournalEntryPage)
+### 6.1 Recipe (JournalEntryPage sub-type `helianas-mechanics.recipe`)
+
+Recipes are stored on `page.system` (validated by the `RecipePageData` TypeDataModel). The flag-based schema below §6.1 is retained only as the **legacy** shape the migration shim reads from; new recipes use exclusively the structure below.
 
 ```js
-// page.flags["helianas-mechanics"]
+// page.type === "helianas-mechanics.recipe"
+// page.system:
 {
-  isRecipe: true,
-  recipe: {
-    type: "manufacturing",        // "manufacturing" | "enchanting"
-    resultItemName: "Iron Longsword",
-    resultItemUuid: "",           // filled in later by GM
-    resultItemImg: "icons/weapons/swords/sword-broad-blue.webp",
-    dc: 17,
-    timeHours: 8,
-    toolKey: "smiths-tools",      // key into TOOLS constant
-    toolAbility: "str",           // "str" | "dex" | "con" | "int"
-    // Manufacturing only:
-    materials: [
-      { name: "Iron Ingot", quantity: 2, uuid: "" },
-      { name: "Leather Strip", quantity: 1, uuid: "" }
-    ],
-    // Enchanting only:
-    essenceTierRequired: "potent",
-    componentName: "Dragon Scale",
-    componentUuid: "",
-    componentCreatureType: "dragon",
-    baseItemName: "Cloak (cloth)",
-    baseItemUuid: "",
-    rarity: "very-rare",
-    attunement: "required"        // "none"|"optional"|"required"|"required-spellcaster"
-  }
+  recipeType: "manufacturing",      // "manufacturing" | "enchanting" — filter only
+  resultName: "Iron Longsword",
+  resultImg:  "icons/weapons/swords/sword-broad-blue.webp",
+  resultUuid: "",                   // optional; if set, product can be cloned from this item
+  resultQuantity: 1,
+
+  dc: 17,
+  timeHours: 8,
+  toolKey: "smiths-tools",          // key into TOOLS constant
+  toolAbility: "str",               // "str" | "dex" | "con" | "int" | "wis" | "cha"
+
+  ingredients: [                    // each ingredient has 1+ alternate components
+    {
+      id: "abc123",
+      name: "Metal stock",
+      components: [
+        {
+          id:       "c1",
+          uuid:     "Compendium.foo.iron-ingot",
+          name:     "Iron Ingot",
+          img:      "icons/...",
+          quantity: 2,
+          tags:     ["metal", "ferrous"],   // accepted substitutes
+          mode:     "some",                  // "some" | "every"
+          resourcePath: ""                   // e.g. "attributes.hp" to consume from actor.system
+        }
+      ]
+    }
+  ],
+
+  // Enchanting-only (all optional — ignored when recipeType === "manufacturing"):
+  essenceTierRequired:   "potent",
+  componentCreatureType: "dragon",
+  rarity:                "very-rare",
+  attunement:            "required"  // "none"|"optional"|"required"|"required-spellcaster"
 }
+```
+
+**Matching semantics (see `Ingredient.evaluate` + `Recipe.consumeIngredients`):** For each selected component, the engine gathers candidate items from the inventory actor by (a) exact name match, (b) `flags.core.sourceId === component.uuid` match, then (c) tag match — items with `flags["helianas-mechanics"].tags` overlapping `component.tags` (`mode:"some"` = any tag; `mode:"every"` = all tags). If `resourcePath` is set, the engine reads/decrements `actor.system[resourcePath]` instead of consuming inventory items. Stacks are decremented; items are deleted when their stack reaches zero.
+
+**Legacy shape (auto-migrated on first world load):**
+
+```js
+// page.flags["helianas-mechanics"] — pre-Rev 2, retained only for migration
+{ isRecipe: true, recipe: { type, resultItemName, materials: [...], ... } }
 ```
 
 ### 6.2 Recipe Book (flags on Item)

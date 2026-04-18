@@ -1,18 +1,20 @@
-import { MODULE_ID } from "./constants.mjs";
+import { Recipe, RECIPE_PAGE_TYPE } from "./Recipe.mjs";
 
 export class RecipeManager {
-  /** Extract recipe data from a JournalEntryPage's flags. */
+  /**
+   * Returns a Recipe wrapper for a JournalEntryPage, or null if the page is
+   * not of the helianas-mechanics.recipe sub-type.
+   */
   static getRecipeFromPage(page) {
-    const flags = page.flags?.[MODULE_ID];
-    if (!flags?.isRecipe || !flags?.recipe) return null;
-    return flags.recipe;
+    if (!page || page.type !== RECIPE_PAGE_TYPE) return null;
+    return new Recipe(page);
   }
 
   /**
-   * Return all recipes the current user can see, grouped by type.
+   * Return all recipes the current user can see, grouped by recipeType.
    * A journal must be at least OBSERVER level for the user (or default).
    *
-   * @returns {{ manufacturing: Array, enchanting: Array }}
+   * @returns {{ manufacturing: Recipe[], enchanting: Recipe[] }}
    */
   static getUnlockedRecipes() {
     const result = { manufacturing: [], enchanting: [] };
@@ -22,8 +24,8 @@ export class RecipeManager {
       for (const page of journal.pages.contents) {
         const recipe = RecipeManager.getRecipeFromPage(page);
         if (!recipe) continue;
-        const type = recipe.type ?? "manufacturing";
-        if (result[type]) result[type].push({ page, recipe });
+        const type = recipe.recipeType ?? "manufacturing";
+        if (result[type]) result[type].push(recipe);
       }
     }
 

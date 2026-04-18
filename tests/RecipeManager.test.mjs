@@ -1,24 +1,33 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { RecipeManager } from "../scripts/crafting/RecipeManager.mjs";
-import { MODULE_ID } from "../scripts/crafting/constants.mjs";
+import { RECIPE_PAGE_TYPE } from "../scripts/crafting/Recipe.mjs";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-function makePage(recipeOverride = {}, flagOverride = {}) {
-  const recipe = {
-    type: "manufacturing",
-    resultItemName: "Iron Longsword",
-    dc: 17,
-    timeHours: 8,
-    toolKey: "smiths-tools",
-    toolAbility: "str",
-    materials: [],
-    ...recipeOverride,
-  };
+function makePage(systemOverride = {}, extra = {}) {
   return {
-    flags: {
-      [MODULE_ID]: { isRecipe: true, recipe, ...flagOverride },
+    id: foundry.utils.randomID(),
+    type: RECIPE_PAGE_TYPE,
+    name: systemOverride.resultName ?? "Iron Longsword",
+    parent: { id: "journal-1" },
+    system: {
+      recipeType: "manufacturing",
+      resultName: "Iron Longsword",
+      resultImg:  "",
+      resultUuid: "",
+      resultQuantity: 1,
+      dc: 17,
+      timeHours: 8,
+      toolKey: "smiths-tools",
+      toolAbility: "str",
+      ingredients: [],
+      essenceTierRequired: "",
+      componentCreatureType: "",
+      rarity: "",
+      attunement: "none",
+      ...systemOverride,
     },
+    ...extra,
   };
 }
 
@@ -32,44 +41,46 @@ function makeJournal(pages = [], ownershipOverride = {}) {
 // ── getRecipeFromPage ─────────────────────────────────────────────────────────
 
 describe("getRecipeFromPage", () => {
-  it("returns null when page has no flags", () => {
-    expect(RecipeManager.getRecipeFromPage({ flags: {} })).toBeNull();
+  it("returns null when page is null/undefined", () => {
+    expect(RecipeManager.getRecipeFromPage(null)).toBeNull();
+    expect(RecipeManager.getRecipeFromPage(undefined)).toBeNull();
   });
 
-  it("returns null when flags lack the module namespace", () => {
-    expect(RecipeManager.getRecipeFromPage({ flags: { other: {} } })).toBeNull();
-  });
-
-  it("returns null when isRecipe is false", () => {
-    const page = { flags: { [MODULE_ID]: { isRecipe: false, recipe: {} } } };
+  it("returns null when page is not of the recipe sub-type", () => {
+    const page = { type: "text", system: {} };
     expect(RecipeManager.getRecipeFromPage(page)).toBeNull();
   });
 
-  it("returns null when recipe key is missing", () => {
-    const page = { flags: { [MODULE_ID]: { isRecipe: true } } };
+  it("returns null for a legacy flag-only page (pre-migration)", () => {
+    const page = {
+      type: "text",
+      flags: { "helianas-mechanics": { isRecipe: true, recipe: { resultItemName: "x" } } },
+    };
     expect(RecipeManager.getRecipeFromPage(page)).toBeNull();
   });
 
-  it("returns the recipe object when flags are correct", () => {
+  it("returns a Recipe wrapper for a valid page", () => {
     const page = makePage();
-    const result = RecipeManager.getRecipeFromPage(page);
-    expect(result).not.toBeNull();
-    expect(result.resultItemName).toBe("Iron Longsword");
+    const recipe = RecipeManager.getRecipeFromPage(page);
+    expect(recipe).not.toBeNull();
+    expect(recipe.name).toBe("Iron Longsword");
+    expect(recipe.page).toBe(page);
   });
 
-  it("returns the exact recipe reference stored in flags", () => {
-    const page = makePage();
-    const result = RecipeManager.getRecipeFromPage(page);
-    expect(result).toBe(page.flags[MODULE_ID].recipe);
+  it("exposes recipeType, dc, timeHours, toolKey from system", () => {
+    const page = makePage({ recipeType: "enchanting", dc: 22, timeHours: 320, toolKey: "jewelers-tools" });
+    const r = RecipeManager.getRecipeFromPage(page);
+    expect(r.recipeType).toBe("enchanting");
+    expect(r.dc).toBe(22);
+    expect(r.timeHours).toBe(320);
+    expect(r.toolKey).toBe("jewelers-tools");
   });
 });
 
 // ── _userCanView ──────────────────────────────────────────────────────────────
 
 describe("_userCanView", () => {
-  beforeEach(() => {
-    game.user.id = "user-1";
-  });
+  beforeEach(() => { game.user.id = "user-1"; });
 
   it("returns true when user has OWNER level", () => {
     const journal = makeJournal([], { "user-1": CONST.DOCUMENT_OWNERSHIP_LEVELS.OWNER });
@@ -89,20 +100,12 @@ describe("_userCanView", () => {
     expect(RecipeManager._userCanView(journal)).toBe(false);
   });
 
-  it("returns false when user has NONE level", () => {
-    const journal = makeJournal([], {
-      "user-1": CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE,
-      default: CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE,
-    });
-    expect(RecipeManager._userCanView(journal)).toBe(false);
-  });
-
   it("falls back to default ownership when user not listed", () => {
     const journal = makeJournal([], { default: CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER });
     expect(RecipeManager._userCanView(journal)).toBe(true);
   });
 
-  it("denies when neither user nor default is set (undefined falls to 0)", () => {
+  it("denies when neither user nor default is set", () => {
     const journal = { ownership: {}, pages: { contents: [] } };
     expect(RecipeManager._userCanView(journal)).toBe(false);
   });
@@ -117,40 +120,25 @@ describe("getUnlockedRecipes", () => {
   });
 
   it("returns empty lists when there are no journals", () => {
-    const result = RecipeManager.getUnlockedRecipes();
-    expect(result).toEqual({ manufacturing: [], enchanting: [] });
+    expect(RecipeManager.getUnlockedRecipes()).toEqual({ manufacturing: [], enchanting: [] });
   });
 
   it("ignores journals the user cannot view", () => {
     game.journal.contents = [
-      makeJournal(
-        [makePage()],
-        { "user-1": CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE, default: CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE }
-      ),
+      makeJournal([makePage()], { "user-1": CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE, default: CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE }),
     ];
-    const result = RecipeManager.getUnlockedRecipes();
-    expect(result.manufacturing).toHaveLength(0);
-  });
-
-  it("includes recipes from journals the user can view", () => {
-    game.journal.contents = [makeJournal([makePage()])];
-    const result = RecipeManager.getUnlockedRecipes();
-    expect(result.manufacturing).toHaveLength(1);
+    expect(RecipeManager.getUnlockedRecipes().manufacturing).toHaveLength(0);
   });
 
   it("groups manufacturing recipes under 'manufacturing'", () => {
-    game.journal.contents = [
-      makeJournal([makePage({ type: "manufacturing" })]),
-    ];
+    game.journal.contents = [makeJournal([makePage({ recipeType: "manufacturing" })])];
     const result = RecipeManager.getUnlockedRecipes();
     expect(result.manufacturing).toHaveLength(1);
     expect(result.enchanting).toHaveLength(0);
   });
 
   it("groups enchanting recipes under 'enchanting'", () => {
-    game.journal.contents = [
-      makeJournal([makePage({ type: "enchanting" })]),
-    ];
+    game.journal.contents = [makeJournal([makePage({ recipeType: "enchanting" })])];
     const result = RecipeManager.getUnlockedRecipes();
     expect(result.enchanting).toHaveLength(1);
     expect(result.manufacturing).toHaveLength(0);
@@ -159,9 +147,9 @@ describe("getUnlockedRecipes", () => {
   it("handles a journal with mixed recipe types", () => {
     game.journal.contents = [
       makeJournal([
-        makePage({ type: "manufacturing" }),
-        makePage({ type: "enchanting" }),
-        makePage({ type: "manufacturing" }),
+        makePage({ recipeType: "manufacturing" }),
+        makePage({ recipeType: "enchanting" }),
+        makePage({ recipeType: "manufacturing" }),
       ]),
     ];
     const result = RecipeManager.getUnlockedRecipes();
@@ -169,25 +157,22 @@ describe("getUnlockedRecipes", () => {
     expect(result.enchanting).toHaveLength(1);
   });
 
-  it("skips pages without a valid recipe flag", () => {
+  it("skips pages whose type is not the recipe sub-type", () => {
     game.journal.contents = [
       makeJournal([
-        { flags: {} },
+        { type: "text", system: {}, parent: { id: "j" }, id: "x" },
         makePage(),
       ]),
     ];
-    const result = RecipeManager.getUnlockedRecipes();
-    expect(result.manufacturing).toHaveLength(1);
+    expect(RecipeManager.getUnlockedRecipes().manufacturing).toHaveLength(1);
   });
 
-  it("each result entry has {page, recipe} shape", () => {
+  it("each result entry is a Recipe wrapper with .page and .name", () => {
     const page = makePage();
     game.journal.contents = [makeJournal([page])];
-    const result = RecipeManager.getUnlockedRecipes();
-    const entry = result.manufacturing[0];
-    expect(entry).toHaveProperty("page");
-    expect(entry).toHaveProperty("recipe");
+    const entry = RecipeManager.getUnlockedRecipes().manufacturing[0];
     expect(entry.page).toBe(page);
+    expect(entry.name).toBe("Iron Longsword");
   });
 
   it("collects recipes across multiple visible journals", () => {
@@ -195,15 +180,13 @@ describe("getUnlockedRecipes", () => {
       makeJournal([makePage()]),
       makeJournal([makePage(), makePage()]),
     ];
-    const result = RecipeManager.getUnlockedRecipes();
-    expect(result.manufacturing).toHaveLength(3);
+    expect(RecipeManager.getUnlockedRecipes().manufacturing).toHaveLength(3);
   });
 
-  it("defaults missing recipe.type to 'manufacturing'", () => {
+  it("defaults missing system.recipeType to 'manufacturing'", () => {
     const page = makePage();
-    delete page.flags[MODULE_ID].recipe.type;
+    delete page.system.recipeType;
     game.journal.contents = [makeJournal([page])];
-    const result = RecipeManager.getUnlockedRecipes();
-    expect(result.manufacturing).toHaveLength(1);
+    expect(RecipeManager.getUnlockedRecipes().manufacturing).toHaveLength(1);
   });
 });
