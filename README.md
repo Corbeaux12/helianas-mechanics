@@ -4,7 +4,7 @@ A Foundry VTT v14 module that implements the crafting system from *Heliana's Gui
 
 - System: **dnd5e** (tested)
 - Foundry compatibility: **v13–v14**
-- Module version: **1.1.0**
+- Module version: **1.2.0**
 - No build step — ES modules load directly
 
 ---
@@ -125,7 +125,7 @@ Clicking a component with more than one alternate selects that alternate for con
 | Forging | Anyone proficient with the tool | `1d20 + ability mod + prof (tool) + spellcasting mod + skill` | Required | Combined manufacturing + enchanting in one pass. |
 | Cooking | Anyone proficient with Cook's Utensils | `1d20 + WIS mod + prof (Cook's Utensils)` | Optional | Meals, tonics, trail fare. |
 
-> Quirk tables currently reuse the manufacturing flaws/boons tables for all four recipe types. Type-specific quirks (enchanting, cooking) are planned.
+Each recipe type now draws from its own flaws/boons table: manufacturing (`MFG_FLAWS`/`MFG_BOONS`, 20 entries each), enchanting (`ENC_FLAWS`/`ENC_BOONS`, 15/15), forging (`FRG_FLAWS`/`FRG_BOONS`, 10/10), and cooking (`COOK_FLAWS`/`COOK_BOONS`, 10/10). Unknown recipe types fall back to manufacturing.
 
 ### Two-actor pattern
 
@@ -194,7 +194,7 @@ Calculated from `roll − dc` (**delta**) by [QuirkEngine](scripts/crafting/Quir
 | +10 to +12 | 3 boons |
 | ≥ +13 | 3 boons + 1 bonus boon |
 
-Boons are capped by the slotted essence tier. Quirk names/effects come from [`MFG_FLAWS`](scripts/crafting/constants.mjs) / [`MFG_BOONS`](scripts/crafting/constants.mjs). Enchanting quirk tables are not yet populated (manufacturing quirks are used as a fallback).
+Boons are capped by the slotted essence tier. Quirk names/effects come from the recipe-type-appropriate table — see `QUIRK_TABLES` in [constants.mjs](scripts/crafting/constants.mjs). When a **cooking** recipe completes, its boons/flaws are also attached to the produced consumable as **Active Effects** (1-hour duration) so they can be toggled when the meal is consumed — see [CookingEffects.mjs](scripts/crafting/CookingEffects.mjs).
 
 ---
 
@@ -251,6 +251,8 @@ Recipes authored under the legacy flag shape are converted automatically on the 
 
 `scripts/crafting/RecipeImporter.mjs` parses the bundled `crafting_catalogue_foundry_reference.md` and converts each Part 7 table row into a recipe page, resolving the result item's UUID and icon from any enabled Item compendium.
 
+**Catalogue Browser (GM only)** — open the **📖 Catalogue Browser** button in the Heliana's Mechanics toolbar group for a visual multi-select UI. It loads every Part 7 row, lets you filter by section ("Rings", "Potions", etc.) and search by name, and imports the selection into a chosen journal in one click. See [RecipeBrowser.mjs](scripts/crafting/RecipeBrowser.mjs).
+
 **Chat command (GM only):**
 
 ```
@@ -267,6 +269,9 @@ const journal = game.journal.getName("Forge Recipes");
 const text    = await (await fetch("modules/helianas-mechanics/crafting_catalogue_foundry_reference.md")).text();
 const rows    = api.RecipeImporter.parseCatalogueMarkdown?.(text) ?? []; // or use your own rows
 await api.RecipeImporter.importRows(journal, rows, { max: 100 });
+
+// Or open the interactive browser:
+api.RecipeBrowser.open();
 ```
 
 Each generated page carries DC, time, rarity, essence tier, creature type and attunement derived from the row; DC/time come from the Enchanting Rarity/DC/Time table (common → 12/1 hr … artifact → 30/100,000 hr). Tweak anything afterwards via the recipe sheet.
@@ -286,7 +291,9 @@ scripts/
     Recipe.mjs                       Recipe wrapper + consumeIngredients()
     RecipeManager.mjs                journal → recipe discovery (permission-aware, four types)
     RecipeImporter.mjs               Catalogue markdown parser + compendium UUID resolver
-    QuirkEngine.mjs                  delta-based flaw/boon calculator
+    RecipeBrowser.mjs                GM catalogue browser ApplicationV2 (multi-select import)
+    QuirkEngine.mjs                  delta-based flaw/boon calculator (per-type tables)
+    CookingEffects.mjs               Cooking boons/flaws → dnd5e ActiveEffect data
     CraftingApp.mjs                  Workshop ApplicationV2 (manufacturing/enchanting/forging/cooking tabs)
     CraftingTracker.mjs              Tracker ApplicationV2
     ComponentEditForm.mjs            DialogV2 component editor (nameMode / tags / resource path)
@@ -297,7 +304,8 @@ templates/crafting/
   recipe-page-edit.hbs               Recipe sheet — edit mode
   recipe-page-view.hbs               Recipe sheet — view mode
   component-edit.hbs                 Component editor dialog
-tests/                               Vitest unit tests (111 passing)
+  recipe-browser.hbs                 Catalogue Browser template
+tests/                               Vitest unit tests (149 passing)
 docs/
   crafting-systems-design.md         Full design spec
 crafting_catalogue_foundry_reference.md   Canonical rules reference (parsed by RecipeImporter)
@@ -333,15 +341,16 @@ No build step — just reload Foundry (`F5`) after editing source files.
 
 Remaining follow-ups:
 
-- **Type-specific quirk tables** — split out Enchanting, Forging, and Cooking quirk tables; today they all fall back to `MFG_FLAWS` / `MFG_BOONS`.
 - **Harvesting system** — the first half of the catalogue (Assess → Carve, creature-size timers, helpers, optional metatag/ruining/volatile rules) is still unimplemented.
 - **Familiars** — seven trainer-specific familiar trees, still unimplemented.
 - **Compendium packs** — ship the Harvest Tables, Essence Types, Mundane Ingredients, Magic Item Recipes, Familiars, and Quirk Tables as bundled compendiums so worlds don't have to run the importer.
-- **Full recipe browser / GM catalogue** — a Part 7–scoped browser with multi-select + "create selected as recipes" instead of the current all-at-once importer.
-- **Cooking buff effects** — once quirk tables exist, wire boons/flaws from cooked meals into the dnd5e Active Effects system.
+- **Expanded cooking-effect mappings** — today only a handful of boons (Fortifying/Warming/Nourishing) and flaws (Heavy) have numeric Active-Effect changes; the rest ship as descriptive effects only. Extend `CookingEffects.mjs` as new patterns settle.
 
 Completed in recent work:
 
+- ✅ **Type-specific quirk tables** — enchanting / forging / cooking each have their own flaws + boons tables (`QUIRK_TABLES` lookup); wired through `QuirkEngine.calculateQuirks(roll, dc, essenceTier, recipeType)`.
+- ✅ **Catalogue Browser UI** — GM-only `ApplicationV2` toolbar button with section filter, name search, multi-select, and journal picker. Imports selected rows via the existing `RecipeImporter.importRows()` path.
+- ✅ **Cooking → Active Effects** — boons and flaws from cooking recipes are attached to the produced consumable as dnd5e ActiveEffect data with 1-hour durations; a handful of boons already carry suggested `changes` entries.
 - ✅ Mastercrafted-style item-sheet tag editor (chips + autocomplete).
 - ✅ Regex name matching on components (`nameMode: "regex"`).
 - ✅ Visual polish: accent-colour variables, smoother drop slots, icon-led workshop tabs, tracker card shadows.

@@ -238,7 +238,8 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
     const selections  = this._componentSelections[this._selectedId] ?? {};
     const essenceTier = this._slottedEssence?.tier ?? null;
-    const quirks      = QuirkEngine.calculateQuirks(rollResult, recipe.dc, essenceTier);
+    const recipeType  = recipe.recipeType ?? this._activeTab;
+    const quirks      = QuirkEngine.calculateQuirks(rollResult, recipe.dc, essenceTier, recipeType);
 
     if (quirks.destroyed) {
       // Destroyed on catastrophic failure — still consume materials
@@ -270,6 +271,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       userId:         game.user.id,
       actorId:        inventoryActor.id,
       recipeName:     recipe.name,
+      recipeType,
       resultItemData: {
         name: recipe.name,
         img:  recipe.img,

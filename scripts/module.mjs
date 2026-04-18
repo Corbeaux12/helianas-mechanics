@@ -6,6 +6,7 @@ import { RecipePageSheet } from "./crafting/RecipePageSheet.mjs";
 import { RECIPE_PAGE_TYPE } from "./crafting/Recipe.mjs";
 import { renderItemTagPanel } from "./crafting/ItemTagPanel.mjs";
 import { RecipeImporter } from "./crafting/RecipeImporter.mjs";
+import { RecipeBrowser } from "./crafting/RecipeBrowser.mjs";
 
 // ------------------------------------------------------------------ init hook
 
@@ -50,7 +51,7 @@ Hooks.once("ready", async () => {
 
   // Public API for macros: game.modules.get("helianas-mechanics").api.RecipeImporter
   const moduleRef = game.modules.get(MODULE_ID);
-  if (moduleRef) moduleRef.api = { RecipeImporter };
+  if (moduleRef) moduleRef.api = { RecipeImporter, RecipeBrowser };
 
   // One-shot migration: convert legacy flag-based recipes to new sub-type pages
   if (game.user.isGM) await migrateLegacyRecipes();
@@ -170,6 +171,16 @@ Hooks.on("getSceneControlButtons", (controls) => {
         order:    2,
         onChange: () => CraftingTracker.open(),
       },
+      ...(game.user?.isGM ? {
+        browser: {
+          name:     "browser",
+          title:    game.i18n.localize("HELIANAS.RecipeBrowserTitle"),
+          icon:     "fa-solid fa-book-open",
+          button:   true,
+          order:    3,
+          onChange: () => RecipeBrowser.open(),
+        },
+      } : {}),
     },
   };
 });

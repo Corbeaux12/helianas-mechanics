@@ -150,6 +150,27 @@
     "ImporterStarted":     "Scanning compendiums for {count} catalogue entries…",
     "ImporterDone":        "Imported {created} recipe(s); {skipped} had no compendium match.",
     "ImporterUsage":       "Usage: /helianas-import <journalName> [max]. Example: /helianas-import \"Catalogue\" 20",
-    "ImporterNoJournal":   "No journal named \"{name}\" found. Create it first."
+    "ImporterNoJournal":   "No journal named \"{name}\" found. Create it first.",
+
+    "RecipeBrowserTitle":        "Catalogue Browser",
+    "RecipeBrowserHint":         "Filter and multi-select entries from the bundled crafting catalogue. Selected rows are imported as recipe pages into the chosen journal.",
+    "RecipeBrowserTargetJournal":"Target journal",
+    "RecipeBrowserSection":      "Section",
+    "RecipeBrowserAllSections":  "All sections",
+    "RecipeBrowserSearch":       "Search",
+    "RecipeBrowserSearchPlaceholder": "Search by name…",
+    "RecipeBrowserSelectAll":    "Select visible",
+    "RecipeBrowserSelectNone":   "Clear",
+    "RecipeBrowserInvert":       "Invert",
+    "RecipeBrowserSelected":     "selected",
+    "RecipeBrowserColName":      "Name",
+    "RecipeBrowserColSection":   "Section",
+    "RecipeBrowserColRarity":    "Rarity",
+    "RecipeBrowserColType":      "Creature Type",
+    "RecipeBrowserColComponent": "Component",
+    "RecipeBrowserColResolved":  "Found",
+    "RecipeBrowserEmpty":        "No rows match the current filters.",
+    "RecipeBrowserImport":       "Import selected",
+    "RecipeBrowserNoJournal":    "Pick a target journal before importing."
   }
 }

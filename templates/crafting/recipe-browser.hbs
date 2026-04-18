@@ -1,0 +1,97 @@
+<div class="hm-recipe-browser">
+
+  <header class="hm-rb-header">
+    <h3>{{localize "HELIANAS.RecipeBrowserTitle"}}</h3>
+    <p class="hm-rb-hint">{{localize "HELIANAS.RecipeBrowserHint"}}</p>
+  </header>
+
+  <section class="hm-rb-controls">
+    <label class="hm-rb-label">
+      <span>{{localize "HELIANAS.RecipeBrowserTargetJournal"}}</span>
+      <select class="hm-rb-journal">
+        {{#each journals}}
+        <option value="{{id}}" {{#if (eq id ../selectedJournalId)}}selected{{/if}}>{{name}}</option>
+        {{/each}}
+      </select>
+    </label>
+
+    <label class="hm-rb-label">
+      <span>{{localize "HELIANAS.RecipeBrowserSection"}}</span>
+      <select class="hm-rb-section">
+        <option value="" {{#unless selectedSection}}selected{{/unless}}>
+          {{localize "HELIANAS.RecipeBrowserAllSections"}}
+        </option>
+        {{#each sections}}
+        <option value="{{this}}" {{#if (eq this ../selectedSection)}}selected{{/if}}>{{this}}</option>
+        {{/each}}
+      </select>
+    </label>
+
+    <label class="hm-rb-label">
+      <span>{{localize "HELIANAS.RecipeBrowserSearch"}}</span>
+      <input type="search" class="hm-rb-search" value="{{searchQuery}}"
+             placeholder="{{localize 'HELIANAS.RecipeBrowserSearchPlaceholder'}}">
+    </label>
+  </section>
+
+  <section class="hm-rb-toolbar">
+    <button type="button" data-action="selectAll">
+      {{localize "HELIANAS.RecipeBrowserSelectAll"}}
+    </button>
+    <button type="button" data-action="selectNone">
+      {{localize "HELIANAS.RecipeBrowserSelectNone"}}
+    </button>
+    <button type="button" data-action="invertSelection">
+      {{localize "HELIANAS.RecipeBrowserInvert"}}
+    </button>
+    <span class="hm-rb-counter">
+      {{selectedCount}} / {{visibleCount}} {{localize "HELIANAS.RecipeBrowserSelected"}}
+    </span>
+  </section>
+
+  <section class="hm-rb-list">
+    {{#if visibleRows.length}}
+    <table class="hm-rb-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>{{localize "HELIANAS.RecipeBrowserColName"}}</th>
+          <th>{{localize "HELIANAS.RecipeBrowserColSection"}}</th>
+          <th>{{localize "HELIANAS.RecipeBrowserColRarity"}}</th>
+          <th>{{localize "HELIANAS.RecipeBrowserColType"}}</th>
+          <th>{{localize "HELIANAS.RecipeBrowserColComponent"}}</th>
+          <th>{{localize "HELIANAS.RecipeBrowserColResolved"}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each visibleRows}}
+        <tr class="{{#if selected}}hm-rb-row--selected{{/if}}">
+          <td>
+            <input type="checkbox" data-action="toggleRow" data-row-key="{{key}}"
+                   {{#if selected}}checked{{/if}}>
+          </td>
+          <td>{{name}}</td>
+          <td>{{section}}</td>
+          <td>{{rarity}}</td>
+          <td>{{type}}</td>
+          <td>{{component}}</td>
+          <td class="{{#if resolved}}hm-rb-ok{{else}}hm-rb-missing{{/if}}">
+            {{#if resolved}}✓{{else}}—{{/if}}
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+    {{else}}
+    <p class="hm-rb-empty">{{localize "HELIANAS.RecipeBrowserEmpty"}}</p>
+    {{/if}}
+  </section>
+
+  <footer class="hm-rb-footer">
+    <button type="button" data-action="importSelected" class="hm-btn-primary"
+            {{#unless selectedCount}}disabled{{/unless}}>
+      {{localize "HELIANAS.RecipeBrowserImport"}}
+    </button>
+  </footer>
+
+</div>

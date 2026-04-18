@@ -7,6 +7,13 @@ import {
   CREATURE_TYPE_SKILLS,
   MFG_FLAWS,
   MFG_BOONS,
+  ENC_FLAWS,
+  ENC_BOONS,
+  FRG_FLAWS,
+  FRG_BOONS,
+  COOK_FLAWS,
+  COOK_BOONS,
+  QUIRK_TABLES,
 } from "../scripts/crafting/constants.mjs";
 
 describe("MODULE_ID", () => {
@@ -133,5 +140,51 @@ describe("MFG_BOONS", () => {
   it("all names are unique", () => {
     const names = MFG_BOONS.map((b) => b.name);
     expect(new Set(names).size).toBe(names.length);
+  });
+});
+
+describe("Type-specific quirk tables", () => {
+  const tables = {
+    ENC_FLAWS, ENC_BOONS,
+    FRG_FLAWS, FRG_BOONS,
+    COOK_FLAWS, COOK_BOONS,
+  };
+
+  for (const [label, table] of Object.entries(tables)) {
+    it(`${label} has at least 5 entries`, () => {
+      expect(table.length).toBeGreaterThanOrEqual(5);
+    });
+
+    it(`${label} entries all have name and effect`, () => {
+      for (const row of table) {
+        expect(row).toHaveProperty("name");
+        expect(row).toHaveProperty("effect");
+      }
+    });
+
+    it(`${label} names are unique`, () => {
+      const names = table.map(r => r.name);
+      expect(new Set(names).size).toBe(names.length);
+    });
+  }
+});
+
+describe("QUIRK_TABLES", () => {
+  it("has all four recipe types", () => {
+    expect(Object.keys(QUIRK_TABLES).sort()).toEqual(
+      ["cooking", "enchanting", "forging", "manufacturing"],
+    );
+  });
+
+  it("each entry has flaws and boons arrays", () => {
+    for (const [type, pair] of Object.entries(QUIRK_TABLES)) {
+      expect(Array.isArray(pair.flaws), `${type}.flaws not array`).toBe(true);
+      expect(Array.isArray(pair.boons), `${type}.boons not array`).toBe(true);
+    }
+  });
+
+  it("manufacturing points at MFG tables", () => {
+    expect(QUIRK_TABLES.manufacturing.flaws).toBe(MFG_FLAWS);
+    expect(QUIRK_TABLES.manufacturing.boons).toBe(MFG_BOONS);
   });
 });

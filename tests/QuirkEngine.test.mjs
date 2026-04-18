@@ -1,6 +1,11 @@
 import { describe, it, expect, vi } from "vitest";
 import { QuirkEngine } from "../scripts/crafting/QuirkEngine.mjs";
-import { MFG_FLAWS, MFG_BOONS } from "../scripts/crafting/constants.mjs";
+import {
+  MFG_FLAWS, MFG_BOONS,
+  ENC_FLAWS, ENC_BOONS,
+  FRG_FLAWS, FRG_BOONS,
+  COOK_FLAWS, COOK_BOONS,
+} from "../scripts/crafting/constants.mjs";
 
 // ── Destruction boundary ──────────────────────────────────────────────────────
 
@@ -163,6 +168,50 @@ describe("calculateQuirks — result shape", () => {
     const r = QuirkEngine.calculateQuirks(30, 17, "potent");
     const names = r.boons.map((b) => b.name);
     expect(new Set(names).size).toBe(names.length);
+  });
+});
+
+// ── Type-specific quirk tables ────────────────────────────────────────────────
+
+describe("calculateQuirks — type-specific tables", () => {
+  it("uses manufacturing tables by default", () => {
+    const r = QuirkEngine.calculateQuirks(5, 17);
+    for (const flaw of r.flaws) expect(MFG_FLAWS).toContainEqual(flaw);
+  });
+
+  it("uses enchanting tables when recipeType='enchanting'", () => {
+    const r = QuirkEngine.calculateQuirks(5, 17, null, "enchanting");
+    for (const flaw of r.flaws) expect(ENC_FLAWS).toContainEqual(flaw);
+  });
+
+  it("draws enchanting boons when recipeType='enchanting'", () => {
+    const r = QuirkEngine.calculateQuirks(30, 17, "potent", "enchanting");
+    for (const boon of r.boons) expect(ENC_BOONS).toContainEqual(boon);
+  });
+
+  it("uses forging tables when recipeType='forging'", () => {
+    const r = QuirkEngine.calculateQuirks(5, 17, null, "forging");
+    for (const flaw of r.flaws) expect(FRG_FLAWS).toContainEqual(flaw);
+  });
+
+  it("draws forging boons when recipeType='forging'", () => {
+    const r = QuirkEngine.calculateQuirks(30, 17, "potent", "forging");
+    for (const boon of r.boons) expect(FRG_BOONS).toContainEqual(boon);
+  });
+
+  it("uses cooking tables when recipeType='cooking'", () => {
+    const r = QuirkEngine.calculateQuirks(5, 17, null, "cooking");
+    for (const flaw of r.flaws) expect(COOK_FLAWS).toContainEqual(flaw);
+  });
+
+  it("draws cooking boons when recipeType='cooking'", () => {
+    const r = QuirkEngine.calculateQuirks(30, 17, "potent", "cooking");
+    for (const boon of r.boons) expect(COOK_BOONS).toContainEqual(boon);
+  });
+
+  it("falls back to manufacturing tables on unknown recipeType", () => {
+    const r = QuirkEngine.calculateQuirks(5, 17, null, "not-a-real-type");
+    for (const flaw of r.flaws) expect(MFG_FLAWS).toContainEqual(flaw);
   });
 });
 
