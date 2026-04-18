@@ -1,9 +1,10 @@
 # Heliana's Mechanics
 
-A Foundry VTT v14 module that implements the crafting system from *Heliana's Guide to Monster Hunting*: **Manufacturing**, **Enchanting**, quirk-based results, essence-tier boon capping, recipe books, and a downtime tracker.
+A Foundry VTT v14 module that implements the crafting system from *Heliana's Guide to Monster Hunting*: **Manufacturing**, **Enchanting**, quirk-based results, essence-tier boon capping, recipe books, an in-app recipe sheet, and a downtime tracker.
 
 - System: **dnd5e** (tested)
 - Foundry compatibility: **v13–v14**
+- Module version: **1.1.0**
 - No build step — ES modules load directly
 
 ---
@@ -31,7 +32,7 @@ Alternatively, in Foundry's module browser use the manifest URL of your publishe
 ## Quick start (5 minutes)
 
 1. As GM, create a **Journal Entry** named e.g. "Forge Recipes".
-2. Add a page of type **Recipe** (`helianas-mechanics.recipe`). Fill in a result name, DC, time, tool, and one ingredient with a component.
+2. Add a page of type **Recipe** (`helianas-mechanics.recipe`). The custom sheet opens automatically — drop an item onto the result slot, add ingredients, drop items onto the component slots (or leave them name-matched), and set DC / time / tool.
 3. Grant players at least **Observer** ownership on the journal — or create a **Recipe Book item** (see below) that unlocks it when read.
 4. Players click the **🔨 anvil toolbar group** in the left sidebar → **Crafting Workshop**.
 5. They pick a **Crafter** (who rolls the check) and an **Inventory Holder** (who owns the ingredients), select the recipe, enter a roll result, and click **Craft**.
@@ -196,9 +197,14 @@ Chat will show `Helianas: migrated N legacy recipe(s) to the new format.` on com
 
 ## Authoring new recipes (GM)
 
-There is no in-app recipe editor yet. Two ways to author:
+Recipe pages ship with a custom sheet ([RecipePageSheet](scripts/crafting/RecipePageSheet.mjs)) that is registered as the default editor for `helianas-mechanics.recipe` pages. Opening a recipe page in edit mode gives you:
 
-**(a) Macro** — create a macro with body like:
+- A **result slot** — drag any world/compendium item onto it to populate `resultName`, `resultImg`, and `resultUuid` in one step. The ✗ button clears the slot.
+- An **ingredient list** with add / delete buttons. Each ingredient has a grid of **component slots** where you can add, delete, drag items onto, and edit (tags, mode, resource path) via the gear icon.
+- Scalar form fields for recipe type, DC, time, tool, tool ability, essence tier, creature type, rarity, and attunement. All fields auto-save on change.
+- A read-only view template when the sheet is opened in non-edit mode.
+
+For bulk creation you can still use a macro:
 
 ```js
 const journal = game.journal.getName("Forge Recipes");
@@ -228,9 +234,7 @@ await journal.createEmbeddedDocuments("JournalEntryPage", [{
 }]);
 ```
 
-**(b) Migration** — build recipes under the legacy flag shape (see commit history or v1.0 design doc) and let the migration shim upgrade them on next load.
-
-A proper GM sheet is a planned follow-up — see `docs/crafting-systems-design.md`.
+Recipes authored under the legacy flag shape are converted automatically on the next world load — see the **Legacy recipe migration** section above. Full design notes live in `docs/crafting-systems-design.md`.
 
 ---
 
@@ -242,18 +246,21 @@ scripts/
   crafting/
     constants.mjs                    TOOLS, ESSENCE_TIERS, INGREDIENT_TAGS, MFG_FLAWS/BOONS
     RecipePageData.mjs               TypeDataModel schema for the recipe sub-type
+    RecipePageSheet.mjs              In-app GM sheet for recipe pages (drag/drop, add/delete)
     Ingredient.mjs                   Ingredient / Component classes + tag matching
     Recipe.mjs                       Recipe wrapper + consumeIngredients()
     RecipeManager.mjs                journal → recipe discovery (permission-aware)
     QuirkEngine.mjs                  delta-based flaw/boon calculator
     CraftingApp.mjs                  Workshop ApplicationV2
     CraftingTracker.mjs              Tracker ApplicationV2
-    ComponentEditForm.mjs            DialogV2 stub for future GM sheet
+    ComponentEditForm.mjs            DialogV2 component editor (tags / mode / resource path)
 templates/crafting/
   app.hbs                            Workshop template
   tracker.hbs                        Tracker template
+  recipe-page-edit.hbs               Recipe sheet — edit mode
+  recipe-page-view.hbs               Recipe sheet — view mode
   component-edit.hbs                 Component editor dialog
-tests/                               Vitest unit tests (94 passing)
+tests/                               Vitest unit tests (86 passing)
 docs/
   crafting-systems-design.md         Full design spec
 crafting_catalogue_foundry_reference.md   Canonical rules reference
@@ -284,6 +291,17 @@ No build step — just reload Foundry (`F5`) after editing source files.
 | `inventoryActorId` | client | Last-used Inventory Holder dropdown selection. |
 
 ---
+
+## TODO / Roadmap
+
+Planned work, not yet implemented:
+
+- **Item tagging like mastercrafted** — a proper tag-management UI on item sheets (multi-select, autocomplete against `INGREDIENT_TAGS`, shared taxonomy), rather than hand-editing `flags.helianas-mechanics.tags`.
+- **Regex name options for ingredients** — allow a component's `name` field to be a regex (e.g. `/^.*\bIngot\b/i`) so one slot can match a family of items without enumerating every UUID.
+- **More visually appealing UI** — polish the workshop, tracker, and recipe sheet (better iconography, slot artwork, hover states, empty-state illustrations, responsive layout).
+- **Forging** — the third crafting type from the catalogue (tool check + spellcasting check combined), including its own quirk table and mixed essence / mundane ingredient handling.
+- **Cooking** — Cook's-Utensils-driven recipes with their own boon/flaw tables (buffs, rest-length modifiers, condition-curing meals).
+- **Pull UUIDs and automate recipe creation** — batch-import recipes from the catalogue by resolving the 100+ magic-item UUIDs from enabled compendiums and auto-generating `helianas-mechanics.recipe` pages (component tier, rarity, attunement, creature type all filled in).
 
 ## Credits
 
