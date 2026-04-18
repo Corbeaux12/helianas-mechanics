@@ -1,0 +1,157 @@
+<form class="hm-recipe-edit">
+
+  {{!-- ----- Result slot ----- --}}
+  <section class="hm-recipe-edit__section">
+    <h3 class="hm-recipe-edit__heading">{{localize "HELIANAS.Result"}}</h3>
+    <div class="hm-result-row">
+      <div class="hm-slot hm-slot--result {{#unless system.resultName}}hm-slot--empty{{/unless}}"
+           data-drop="result"
+           style="{{#if system.resultImg}}background-image:url('{{system.resultImg}}');{{/if}}"
+           data-tooltip="{{#if system.resultName}}{{system.resultName}}{{else}}{{localize 'HELIANAS.DropItemHere'}}{{/if}}">
+        {{#unless system.resultImg}}<i class="fa-solid fa-plus hm-slot__placeholder"></i>{{/unless}}
+        {{#if system.resultName}}
+        <button type="button" class="hm-slot__clear" data-action="clearResult" data-tooltip="{{localize 'HELIANAS.ClearSlot'}}">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        {{/if}}
+        <input type="number" name="system.resultQuantity" min="1" step="1" value="{{system.resultQuantity}}" class="hm-slot__qty">
+      </div>
+      <div class="hm-result-meta">
+        <div class="hm-result-meta__name">{{#if system.resultName}}{{system.resultName}}{{else}}<em>{{localize "HELIANAS.NoResultItem"}}</em>{{/if}}</div>
+        {{#if system.resultUuid}}<code class="hm-result-meta__uuid">{{system.resultUuid}}</code>{{/if}}
+        <p class="hint">{{localize "HELIANAS.DropResultHint"}}</p>
+      </div>
+    </div>
+  </section>
+
+  {{!-- ----- Ingredients grid ----- --}}
+  <section class="hm-recipe-edit__section">
+    <div class="hm-recipe-edit__heading-row">
+      <h3 class="hm-recipe-edit__heading">{{localize "HELIANAS.Ingredients"}}</h3>
+      <button type="button" class="hm-icon-btn" data-action="addIngredient" data-tooltip="{{localize 'HELIANAS.AddIngredient'}}">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+
+    {{#if system.ingredients.length}}
+    <div class="hm-ing-list">
+      {{#each system.ingredients}}
+      <div class="hm-ing-row" data-ingredient-id="{{id}}">
+        <div class="hm-ing-row__header">
+          <input type="text" name="system.ingredients.{{@index}}.name" value="{{name}}" class="hm-ing-row__name">
+          <button type="button" class="hm-icon-btn hm-icon-btn--danger" data-action="deleteIngredient"
+                  data-ingredient-id="{{id}}" data-tooltip="{{localize 'HELIANAS.DeleteIngredient'}}">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+        <div class="hm-comp-grid">
+          {{#each components}}
+          <div class="hm-slot hm-slot--comp"
+               data-drop="component"
+               data-ingredient-id="{{../id}}"
+               data-component-id="{{id}}"
+               style="{{#if img}}background-image:url('{{img}}');{{/if}}"
+               data-tooltip="{{name}}{{#if tags.length}} · {{#each tags}}{{this}} {{/each}}{{/if}}{{#if resourcePath}} · resource:{{resourcePath}}{{/if}}">
+            {{#unless img}}<i class="fa-solid fa-cube hm-slot__placeholder"></i>{{/unless}}
+            <input type="number" name="system.ingredients.{{@../index}}.components.{{@index}}.quantity"
+                   min="0" step="1" value="{{quantity}}" class="hm-slot__qty">
+            <button type="button" class="hm-slot__edit" data-action="editComponent"
+                    data-ingredient-id="{{../id}}" data-component-id="{{id}}"
+                    data-tooltip="{{localize 'HELIANAS.EditTags'}}">
+              <i class="fa-solid fa-gear"></i>
+            </button>
+            <button type="button" class="hm-slot__clear" data-action="deleteComponent"
+                    data-ingredient-id="{{../id}}" data-component-id="{{id}}"
+                    data-tooltip="{{localize 'HELIANAS.DeleteComponent'}}">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          {{/each}}
+          <button type="button" class="hm-slot hm-slot--add" data-action="addComponent"
+                  data-ingredient-id="{{id}}" data-tooltip="{{localize 'HELIANAS.AddComponent'}}">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    {{else}}
+    <p class="hint">{{localize "HELIANAS.NoIngredients"}}</p>
+    {{/if}}
+  </section>
+
+  <hr>
+
+  {{!-- ----- Scalar fields ----- --}}
+  <section class="hm-recipe-edit__grid">
+    <div class="form-group">
+      <label>{{localize "HELIANAS.RecipeType"}}</label>
+      <select name="system.recipeType">
+        {{#each recipeTypeOptions}}
+        <option value="{{value}}" {{#if (eq value ../system.recipeType)}}selected{{/if}}>{{label}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.DC"}}</label>
+      <input type="number" name="system.dc" min="0" step="1" value="{{system.dc}}">
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.TimeHours"}}</label>
+      <input type="number" name="system.timeHours" min="0" step="0.5" value="{{system.timeHours}}">
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.ToolKey"}}</label>
+      <select name="system.toolKey">
+        {{#each toolOptions}}
+        <option value="{{value}}" {{#if (eq value ../system.toolKey)}}selected{{/if}}>{{label}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.ToolAbility"}}</label>
+      <select name="system.toolAbility">
+        {{#each abilityOptions}}
+        <option value="{{value}}" {{#if (eq value ../system.toolAbility)}}selected{{/if}}>{{label}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.EssenceTierRequired"}}</label>
+      <select name="system.essenceTierRequired">
+        {{#each essenceOptions}}
+        <option value="{{value}}" {{#if (eq value ../system.essenceTierRequired)}}selected{{/if}}>{{label}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.CreatureType"}}</label>
+      <select name="system.componentCreatureType">
+        {{#each creatureTypeOptions}}
+        <option value="{{value}}" {{#if (eq value ../system.componentCreatureType)}}selected{{/if}}>{{label}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.Rarity"}}</label>
+      <input type="text" name="system.rarity" value="{{system.rarity}}" placeholder="common | uncommon | rare …">
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.Attunement"}}</label>
+      <select name="system.attunement">
+        {{#each attunementOptions}}
+        <option value="{{value}}" {{#if (eq value ../system.attunement)}}selected{{/if}}>{{label}}</option>
+        {{/each}}
+      </select>
+    </div>
+  </section>
+
+</form>

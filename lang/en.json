@@ -1,4 +1,129 @@
 {
+  "TYPES": {
+    "JournalEntryPage": {
+      "helianas-mechanics.recipe": "Recipe"
+    }
+  },
   "HELIANAS": {
+    "ModuleTitle": "Heliana's Mechanics",
+
+    "RecipeSheet":       "Recipe Sheet",
+    "RecipeType":        "Recipe Type",
+    "ResultName":        "Result Name",
+    "ResultImg":         "Result Image",
+    "ResultUuid":        "Result Item UUID (optional)",
+    "ResultQuantity":    "Result Quantity",
+    "ToolKey":           "Tool",
+    "ToolAbility":       "Ability",
+    "TimeHours":         "Time (hours)",
+    "EssenceTierRequired": "Essence Tier Required",
+    "CreatureType":      "Creature Type",
+    "Rarity":            "Rarity",
+    "Attunement":        "Attunement",
+    "IngredientsHint":   "Ingredients are authored via macro for now (see README).",
+    "AddIngredient":     "Add Ingredient",
+    "AddComponent":      "Add Component",
+    "DeleteIngredient":  "Delete Ingredient",
+    "DeleteComponent":   "Delete Component",
+    "EditTags":          "Edit Tags / Resource",
+    "NewIngredient":     "New Ingredient",
+    "NewComponent":      "New Component",
+    "NoIngredients":     "No ingredients yet. Click + to add one, then drop items onto the slots.",
+    "Result":            "Result",
+    "NoResultItem":      "No result item yet",
+    "DropItemHere":      "Drop an item here",
+    "DropResultHint":    "Drop an item onto the slot to set name, image, and source UUID.",
+    "ClearSlot":         "Clear slot",
+    "None":              "—",
+
+    "Manufacturing": "Manufacturing",
+    "Enchanting":    "Enchanting",
+
+    "CraftingWorkshop": "Crafting Workshop",
+    "CraftingTracker":  "Crafting Tracker",
+
+    "SearchPlaceholder": "Search recipes…",
+    "NoRecipes":         "No recipes unlocked.",
+    "RecipesLabel":      "recipes",
+    "SelectRecipe":      "Select a recipe from the list to begin.",
+
+    "RequiredMaterials": "Required Materials",
+    "BaseItem":          "Base Item (mundane)",
+    "Component":         "Harvested Component",
+    "Ingredients":       "Ingredients",
+    "Resource":          "Resource",
+    "Tags":              "Tags",
+    "MissingIngredients":"Missing ingredients — you can still attempt the craft but results may warn.",
+
+    "Crafter":         "Crafter",
+    "InventoryHolder": "Inventory",
+
+    "ActorsLine":      "{crafter} crafts using {holder}'s supplies.",
+
+    "ComponentEdit":      "Edit Component",
+    "ComponentName":      "Name",
+    "ComponentUuid":      "Source UUID (optional)",
+    "ComponentImg":       "Image path (optional)",
+    "Quantity":           "Quantity",
+    "ComponentTags":      "Tags (comma-separated)",
+    "ComponentTagsHint":  "Items flagged with any matching tag will be accepted as substitutes.",
+    "ComponentTagMode":   "Tag match mode",
+    "ModeSome":           "Any tag matches",
+    "ModeEvery":          "All tags required",
+    "ResourcePath":       "Resource path (optional)",
+    "ResourcePathHint":   "e.g. \"attributes.hp\" to consume from actor.system instead of inventory.",
+    "Save":               "Save",
+
+    "MigrationComplete":  "Helianas: migrated {count} legacy recipe(s) to the new format.",
+
+    "Tool":    "Tool",
+    "DC":      "DC",
+    "Time":    "Time",
+    "Hours":   "hrs",
+    "MaxBoons":"Max boons",
+
+    "EssenceOptional":  "Essence (optional — adds boon cap)",
+    "EssenceRequired":  "Essence (required)",
+    "DropEssenceHere":  "Drop an essence item here…",
+    "MaxBoonsCap":      "Max boons with this essence",
+    "NotAnEssence":     "That item is not an essence.",
+
+    "RollFormula": "Roll Formula",
+    "RollResult":  "Roll result",
+
+    "CraftItem":   "Craft Item",
+    "EnchantItem": "Enchant Item",
+
+    "NoFlaws": "No flaws.",
+    "NoBoons": "No boons.",
+    "Flaws":   "Flaws",
+    "Boons":   "Boons",
+
+    "TimeRequired":      "Time required",
+    "MaterialsConsumed": "Materials consumed",
+    "MaterialWarning":   "Could not find all materials for: {items}. They were not deducted.",
+
+    "ItemDestroyed":     "Item Destroyed",
+    "ItemDestroyedDesc": "The item was catastrophically ruined during crafting.",
+    "CraftStarted":      "Craft Started",
+    "CraftComplete":     "Craft Complete",
+
+    "EnterRollFirst":   "Enter the roll result before crafting.",
+    "NoActorSelected":  "No actor selected. Assign a character or control a token.",
+
+    "AddHour":    "+ 1 Hour",
+    "AddDay":     "+ 1 Day",
+    "CancelCraft":"✗ Cancel",
+
+    "CancelCraftTitle":   "Cancel Craft",
+    "CancelCraftConfirm": "Cancel this craft? Materials will not be refunded.",
+
+    "NoCraftsInProgress": "No crafts in progress.",
+    "CraftsInProgress":   "crafts in progress",
+
+    "RecipeBook":     "Recipe Book",
+    "RecipeBookDesc": "Reading this item will permanently unlock its recipes for your character.",
+    "UnlockRecipes":  "Read & Unlock Recipes",
+    "RecipesUnlocked":"Recipes Unlocked"
   }
 }

@@ -1,0 +1,35 @@
+<form class="hm-component-edit">
+  <div class="form-group">
+    <label>{{localize "HELIANAS.ComponentName"}}</label>
+    <input type="text" name="name" value="{{name}}" autofocus>
+  </div>
+  <div class="form-group">
+    <label>{{localize "HELIANAS.ComponentUuid"}}</label>
+    <input type="text" name="uuid" value="{{uuid}}" placeholder="Compendium.foo.bar">
+  </div>
+  <div class="form-group">
+    <label>{{localize "HELIANAS.ComponentImg"}}</label>
+    <input type="text" name="img" value="{{img}}" placeholder="icons/...">
+  </div>
+  <div class="form-group">
+    <label>{{localize "HELIANAS.Quantity"}}</label>
+    <input type="number" name="quantity" min="0" step="1" value="{{quantity}}">
+  </div>
+  <div class="form-group">
+    <label>{{localize "HELIANAS.ComponentTags"}}</label>
+    <input type="text" name="tags" value="{{tags}}" placeholder="{{tagSuggestions}}">
+    <p class="hint">{{localize "HELIANAS.ComponentTagsHint"}}</p>
+  </div>
+  <div class="form-group">
+    <label>{{localize "HELIANAS.ComponentTagMode"}}</label>
+    <select name="mode">
+      <option value="some" {{#if (eq mode "some")}}selected{{/if}}>{{localize "HELIANAS.ModeSome"}}</option>
+      <option value="every" {{#if (eq mode "every")}}selected{{/if}}>{{localize "HELIANAS.ModeEvery"}}</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label>{{localize "HELIANAS.ResourcePath"}}</label>
+    <input type="text" name="resourcePath" value="{{resourcePath}}" placeholder="attributes.hp">
+    <p class="hint">{{localize "HELIANAS.ResourcePathHint"}}</p>
+  </div>
+</form>

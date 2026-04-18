@@ -1,0 +1,45 @@
+<div class="hm-tracker">
+
+  {{#each crafts}}
+  <div class="hm-craft-card">
+
+    <div class="hm-craft-card__header">
+      <img class="hm-craft-card__icon" src="{{img}}" alt="">
+      <span class="hm-craft-card__name">{{name}}</span>
+    </div>
+
+    <div class="hm-progress-bar" title="{{completedHours}} / {{totalHours}} hrs">
+      <div class="hm-progress-bar__fill" style="width: {{pct}}%"></div>
+    </div>
+
+    <p class="hm-craft-card__info">
+      {{completedHours}} / {{totalHours}} {{localize "HELIANAS.Hours"}} ({{pct}}%)
+    </p>
+
+    <div class="hm-craft-card__actions">
+      <button class="hm-btn-sm" data-action="addHour" data-craft-id="{{id}}" type="button">
+        {{localize "HELIANAS.AddHour"}}
+      </button>
+      <button class="hm-btn-sm" data-action="addDay" data-craft-id="{{id}}" type="button">
+        {{localize "HELIANAS.AddDay"}}
+      </button>
+      <button class="hm-btn-sm hm-btn-danger" data-action="cancelCraft" data-craft-id="{{id}}" type="button">
+        {{localize "HELIANAS.CancelCraft"}}
+      </button>
+    </div>
+
+  </div>
+  {{else}}
+  <div class="hm-tracker__empty">
+    <i class="fa-solid fa-hourglass fa-2x"></i>
+    <p>{{localize "HELIANAS.NoCraftsInProgress"}}</p>
+  </div>
+  {{/each}}
+
+  {{#if crafts.length}}
+  <p class="hm-tracker__count">
+    ── {{crafts.length}} {{localize "HELIANAS.CraftsInProgress"}} ──
+  </p>
+  {{/if}}
+
+</div>

@@ -1,0 +1,43 @@
+<div class="hm-recipe-view">
+  <header class="hm-recipe-view__header">
+    {{#if system.resultImg}}<img class="hm-recipe-view__img" src="{{system.resultImg}}" alt="">{{/if}}
+    <div>
+      <h2>{{system.resultName}}</h2>
+      <p class="hm-recipe-view__meta">
+        <span class="hm-badge">{{system.recipeType}}</span>
+        {{#if system.rarity}}<span class="hm-badge">{{system.rarity}}</span>{{/if}}
+        {{#if system.attunement}}<span class="hm-badge">{{system.attunement}}</span>{{/if}}
+      </p>
+    </div>
+  </header>
+
+  <section class="hm-recipe-view__stats">
+    <div><strong>{{localize "HELIANAS.DC"}}:</strong> {{system.dc}}</div>
+    <div><strong>{{localize "HELIANAS.Time"}}:</strong> {{system.timeHours}} {{localize "HELIANAS.Hours"}}</div>
+    {{#if system.toolKey}}<div><strong>{{localize "HELIANAS.Tool"}}:</strong> {{system.toolKey}} ({{system.toolAbility}})</div>{{/if}}
+    {{#if system.essenceTierRequired}}<div><strong>{{localize "HELIANAS.EssenceTierRequired"}}:</strong> {{system.essenceTierRequired}}</div>{{/if}}
+    {{#if system.componentCreatureType}}<div><strong>{{localize "HELIANAS.CreatureType"}}:</strong> {{system.componentCreatureType}}</div>{{/if}}
+  </section>
+
+  {{#if system.ingredients.length}}
+  <section class="hm-recipe-view__ingredients">
+    <h3>{{localize "HELIANAS.Ingredients"}}</h3>
+    <ul>
+      {{#each system.ingredients}}
+      <li>
+        <strong>{{name}}</strong>
+        <ul>
+          {{#each components}}
+          <li>
+            {{name}} ×{{quantity}}
+            {{#if tags.length}} · tags: {{#each tags}}<code>{{this}}</code> {{/each}}{{/if}}
+            {{#if resourcePath}} · resource: <code>{{resourcePath}}</code>{{/if}}
+          </li>
+          {{/each}}
+        </ul>
+      </li>
+      {{/each}}
+    </ul>
+  </section>
+  {{/if}}
+</div>
