@@ -41,6 +41,10 @@ export class RecipePageSheet extends Base {
     const ctx    = await super._prepareContext(options);
     const system = this.document.system;
     const baseRecipe = await this.#resolveLinkedBaseRecipe(system.baseItemRecipeUuid);
+    const toolAbilities = TOOLS[system.toolKey]?.abilities ?? [];
+    const selectedToolAbilitiesLabel = toolAbilities.length
+      ? toolAbilities.map(a => ABILITY_LABELS[a] ?? a.toUpperCase()).join(" or ")
+      : "";
 
     return Object.assign(ctx, {
       system,
@@ -48,6 +52,7 @@ export class RecipePageSheet extends Base {
       isCooking: system.recipeType === "cooking",
       isManufacturing: system.recipeType === "manufacturing",
       baseRecipe,
+      selectedToolAbilitiesLabel,
       recipeTypeOptions: [
         { value: "manufacturing", label: game.i18n.localize("HELIANAS.Manufacturing") },
         { value: "cooking",       label: game.i18n.localize("HELIANAS.Cooking") },
@@ -55,11 +60,10 @@ export class RecipePageSheet extends Base {
       ],
       toolOptions: [
         { value: "", label: game.i18n.localize("HELIANAS.None") },
-        ...Object.entries(TOOLS).map(([key, t]) => ({ value: key, label: t.label })),
-      ],
-      abilityOptions: [
-        { value: "", label: game.i18n.localize("HELIANAS.None") },
-        ...Object.entries(ABILITY_LABELS).map(([key, label]) => ({ value: key, label })),
+        ...Object.entries(TOOLS).map(([key, t]) => ({
+          value: key,
+          label: `${t.label} (${(t.abilities ?? []).map(a => ABILITY_LABELS[a] ?? a.toUpperCase()).join(" or ")})`,
+        })),
       ],
       essenceOptions: [
         { value: "", label: game.i18n.localize("HELIANAS.None") },

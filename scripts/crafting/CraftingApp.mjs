@@ -154,27 +154,33 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     let mfgStats = null, encStats = null;
 
     if (isForge) {
-      const mfgDc     = baseRecipe?.dc ?? recipe.dc;
-      const mfgTime   = baseRecipe?.timeHours ?? recipe.timeHours;
-      const mfgTool   = TOOLS[baseRecipe?.toolKey];
-      const mfgAbil   = ABILITY_LABELS[baseRecipe?.toolAbility]
-        ?? (baseRecipe?.toolAbility ?? "").toUpperCase();
+      const mfgDc        = baseRecipe?.dc ?? recipe.dc;
+      const mfgTime      = baseRecipe?.timeHours ?? recipe.timeHours;
+      const mfgTool      = TOOLS[baseRecipe?.toolKey];
+      const mfgAbil      = this._toolAbilitiesLabel(baseRecipe?.toolKey);
       const mfgToolLabel = mfgTool?.label ?? baseRecipe?.toolKey ?? "";
 
-      const encDc   = recipe.enchantingDc;
-      const encTime = recipe.enchantingTimeHours;
-      const encFormula = this._enchantingFormula(recipe);
-      const mfgFormula = this._manufacturingFormula(baseRecipe);
+      const encDc      = recipe.enchantingDc;
+      const encTime    = recipe.enchantingTimeHours;
+      // Pure enchanting path uses spellcasting; forging-path "enchanting" check
+      // uses the same tool ability + prof as the manufacturing check.
+      const pureEncFormula    = this._enchantingFormula(recipe);
+      const forgingEncFormula = this._forgingEnchantingFormula(recipe, baseRecipe);
+      const mfgFormula        = this._manufacturingFormula(baseRecipe);
 
       mfgStats = { dc: mfgDc, timeHours: mfgTime, toolLabel: mfgToolLabel, abilityLabel: mfgAbil, formula: mfgFormula };
-      encStats = { dc: encDc, timeHours: encTime, formula: encFormula };
+      encStats = {
+        dc:        encDc,
+        timeHours: encTime,
+        formula:   path === "forging" ? forgingEncFormula : pureEncFormula,
+      };
 
       if (path === "enchanting") {
         dc           = encDc;
         timeHours    = encTime;
         toolLabel    = "";
         abilityLabel = "";
-        rollFormula  = encFormula;
+        rollFormula  = pureEncFormula;
         actionLabel  = game.i18n.localize("HELIANAS.EnchantItem");
       } else {
         dc           = mfgDc;
@@ -189,7 +195,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       dc           = recipe.dc;
       timeHours    = recipe.timeHours;
       toolLabel    = toolEntry?.label ?? recipe.toolKey;
-      abilityLabel = ABILITY_LABELS[recipe.toolAbility] ?? (recipe.toolAbility ?? "").toUpperCase();
+      abilityLabel = this._toolAbilitiesLabel(recipe.toolKey);
       rollFormula  = this._rollFormula(recipe);
       actionLabel  = this._actionLabel(type);
     }
@@ -235,9 +241,19 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     return this._manufacturingFormula(recipe);
   }
 
+  /**
+   * Joined ability label for a tool, e.g. "STR or DEX". Falls back to the
+   * generic "MOD" placeholder when the tool key is empty/unknown.
+   */
+  _toolAbilitiesLabel(toolKey) {
+    const abilities = TOOLS[toolKey]?.abilities;
+    if (!abilities?.length) return "MOD";
+    return abilities.map(a => ABILITY_LABELS[a] ?? a.toUpperCase()).join(" or ");
+  }
+
   _manufacturingFormula(recipe) {
     if (!recipe) return "";
-    const ability = ABILITY_LABELS[recipe.toolAbility] ?? "MOD";
+    const ability = this._toolAbilitiesLabel(recipe.toolKey);
     const tool    = TOOLS[recipe.toolKey]?.label ?? recipe.toolKey ?? "Tool";
     return `1d20 + ${ability} mod + Prof (${tool})`;
   }
@@ -248,12 +264,21 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     return `1d20 + Spellcasting mod + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
   }
 
-  _forgeFormula(recipe, baseRecipe) {
-    const ability = ABILITY_LABELS[baseRecipe?.toolAbility] ?? "MOD";
-    const tool    = TOOLS[baseRecipe?.toolKey]?.label ?? baseRecipe?.toolKey ?? "Tool";
+  /**
+   * Forging path "enchanting" check: spellcasters and non-spellcasters alike
+   * roll the tool's ability + proficiency, plus the creature-type skill.
+   */
+  _forgingEnchantingFormula(recipe, baseRecipe) {
+    if (!baseRecipe) return "";
+    const ability      = this._toolAbilitiesLabel(baseRecipe.toolKey);
+    const tool         = TOOLS[baseRecipe.toolKey]?.label ?? baseRecipe.toolKey ?? "Tool";
     const skill        = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
     const creatureType = recipe.componentCreatureType ?? "";
-    return `1d20 + ${ability} mod + Prof (${tool}) + Spellcasting mod + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
+    return `1d20 + ${ability} mod + Prof (${tool}) + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
+  }
+
+  _forgeFormula(recipe, baseRecipe) {
+    return this._forgingEnchantingFormula(recipe, baseRecipe);
   }
 
   // ------------------------------------------------------------------ actions

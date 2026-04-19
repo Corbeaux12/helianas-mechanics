@@ -145,15 +145,9 @@
         <option value="{{value}}" {{#if (eq value ../system.toolKey)}}selected{{/if}}>{{label}}</option>
         {{/each}}
       </select>
-    </div>
-
-    <div class="form-group">
-      <label>{{localize "HELIANAS.ToolAbility"}}</label>
-      <select name="system.toolAbility">
-        {{#each abilityOptions}}
-        <option value="{{value}}" {{#if (eq value ../system.toolAbility)}}selected{{/if}}>{{label}}</option>
-        {{/each}}
-      </select>
+      {{#if selectedToolAbilitiesLabel}}
+      <p class="hint">{{localize "HELIANAS.ToolAbility"}}: {{selectedToolAbilitiesLabel}}</p>
+      {{/if}}
     </div>
     {{/unless}}
 
