@@ -101,3 +101,102 @@ export const MFG_BOONS = [
   { name: "Swift",       effect: "Once per combat, you can attack as a bonus action." },
   { name: "True Strike",  effect: "Once per short rest, treat one attack roll as a natural 20." },
 ];
+
+export const ENC_FLAWS = [
+  { name: "Backlash",       effect: "When first attuned, the wearer takes 1d10 force damage." },
+  { name: "Bound Spirit",   effect: "The item whispers at night; disadvantage on the first Wisdom save each long rest." },
+  { name: "Dim Aura",       effect: "The item's magical effects are suppressed within 5 ft of another magic item of equal or greater rarity." },
+  { name: "Draining",       effect: "Each activation costs the user 1 extra hit point." },
+  { name: "Finicky",        effect: "The item only functions for one attuned creature at a time, chosen on creation." },
+  { name: "Flickering Glyph", effect: "On a natural 1 while activating the item, the effect fails and the charge (if any) is expended." },
+  { name: "Hungry",         effect: "The item must 'taste' a drop of blood from its bearer each dawn or cease functioning until fed." },
+  { name: "Jealous",        effect: "While attuned, the bearer has disadvantage on saves against other magic items trying to replace attunement." },
+  { name: "Leaky Essence",  effect: "The item radiates detectable magic at twice the normal range." },
+  { name: "Misaligned",     effect: "The item's save DC is 1 lower than normal. Cumulative." },
+  { name: "Restless",       effect: "The item vibrates in its sheath during combat, noisy and disruptive." },
+  { name: "Short Fuse",     effect: "Once per long rest, when you critically fail with the item, its charges (if any) reset to 0." },
+  { name: "Temperamental",  effect: "On a natural 1 with an attack or save using the item, roll on the Wild Magic surge table." },
+  { name: "Unstable",       effect: "The first use after a long rest requires an INT save DC 12 or the effect targets the bearer." },
+  { name: "Whispering",     effect: "The item speaks out of turn once per session at the GM's discretion." },
+];
+
+export const ENC_BOONS = [
+  { name: "Ambient Light",   effect: "The item sheds dim light in a 5-ft radius at will." },
+  { name: "Attuned Twin",    effect: "Attunement does not count against the bearer's normal limit." },
+  { name: "Bonded",          effect: "The item cannot be disarmed or stolen except by the bearer." },
+  { name: "Deep Well",       effect: "The item has one extra charge (if it has charges) or one extra daily use." },
+  { name: "Eidolon",         effect: "The item's magical effect ignores one common counter (e.g. silence, antimagic) once per long rest." },
+  { name: "Empathic",        effect: "The bearer senses the emotional state of attuned creatures within 30 ft." },
+  { name: "Ever-Bright",     effect: "The item never tarnishes, rusts, or dims even under powerful antimagic." },
+  { name: "Focused",         effect: "+1 to the item's save DC. Cumulative." },
+  { name: "Harmonious",      effect: "Attuning to the item takes 10 minutes instead of the normal hour." },
+  { name: "Piercing Light",  effect: "Magical effects from the item ignore resistance to force damage." },
+  { name: "Resonant",        effect: "When the bearer casts a cantrip using the item as a focus, they add +1 damage." },
+  { name: "Sanctified",      effect: "The item resists sundering; advantage on saves made by the item." },
+  { name: "Spiritguard",     effect: "Grants the bearer advantage on death saving throws once per long rest." },
+  { name: "Surging",         effect: "Once per long rest, the item's charges refill by 1 on a natural 20 with any d20 roll." },
+  { name: "Untiring",        effect: "The item does not require recharging at dawn; it recharges on any long rest." },
+];
+
+export const FRG_FLAWS = [
+  { name: "Cold Forge",     effect: "The item's magical effect deals 1 less damage. Cumulative." },
+  { name: "Crossed Glyphs", effect: "On a natural 1, both the weapon's attack and its magical effect fail." },
+  { name: "Disharmonic",    effect: "The mundane and magical sides of the item conflict; −1 to attack rolls OR −1 to save DC (wielder picks each use)." },
+  { name: "Half-Bound",     effect: "The item loses its magic if attuned by a creature without proficiency in the relevant tool." },
+  { name: "Hot-Headed",     effect: "The item emits heat; disadvantage on Stealth in cold climates, can't be used during a long rest." },
+  { name: "Overwrought",    effect: "Item weighs twice as much and deals +1 damage to the wielder on a critical miss." },
+  { name: "Seamed",         effect: "Visible forge seams glow under magic detection; cannot be hidden by illusion." },
+  { name: "Strained",       effect: "Item breaks on a natural 1 and cannot be repaired without re-forging." },
+  { name: "Twinned Flaw",   effect: "Roll once on MFG flaws and once on ENC flaws — the item gains both." },
+  { name: "Unsynced",       effect: "The item's charges reset at dusk, not dawn." },
+];
+
+export const FRG_BOONS = [
+  { name: "Adamant Core",    effect: "Item is immune to non-magical damage." },
+  { name: "Dual Attuned",    effect: "The item grants the wielder one additional use of their lowest-level spell slot per long rest." },
+  { name: "Forge-Sealed",    effect: "Item cannot be targeted by antimagic of 5th level or lower." },
+  { name: "Harmonised",      effect: "+1 to both attack rolls and save DCs when wielding. Cumulative to +2." },
+  { name: "Living Metal",    effect: "Item self-repairs 1 hp per hour if not reduced to 0 hp." },
+  { name: "Runeforged",      effect: "Grants resistance to one damage type (chosen at creation)." },
+  { name: "Soulbond",        effect: "The item returns to the wielder's hand at the start of their turn if within 30 ft." },
+  { name: "Storm-Tempered",  effect: "When wielded during a thunderstorm, attacks deal +1d4 lightning damage." },
+  { name: "Twinned Boon",    effect: "Roll once on MFG boons and once on ENC boons — the item gains both." },
+  { name: "Warded",          effect: "Grants the wielder advantage on saves vs. spells of 3rd level or lower." },
+];
+
+export const COOK_FLAWS = [
+  { name: "Bland",         effect: "The meal provides no nourishment; it counts as rations only, no buff granted." },
+  { name: "Burnt",         effect: "Eating the meal costs 1 hit point." },
+  { name: "Gassy",         effect: "For 1 hour after eating, disadvantage on Stealth checks." },
+  { name: "Greasy",        effect: "The meal's container is unusable for future cooking; discard it." },
+  { name: "Half-Cooked",   effect: "The eater must succeed on a CON save DC 10 or be poisoned for 10 minutes." },
+  { name: "Heavy",         effect: "After eating, the eater's speed is reduced by 5 ft for 1 hour." },
+  { name: "Oversalted",    effect: "The eater must drink double rations of water for the next day or gain one level of exhaustion." },
+  { name: "Repulsive",     effect: "The meal smells foul; disadvantage on Charisma checks for 1 hour after eating." },
+  { name: "Runny",         effect: "Half the meal spills on preparation; only half the normal number of servings produced." },
+  { name: "Scalding",      effect: "The first bite deals 1 fire damage." },
+];
+
+export const COOK_BOONS = [
+  { name: "Aromatic",      effect: "While the meal remains hot (1 hour), eaters gain advantage on Wisdom (Perception) checks that rely on smell." },
+  { name: "Fortifying",    effect: "Grants the eater temporary hit points equal to their proficiency bonus for 1 hour." },
+  { name: "Hearty",        effect: "Counts as a full meal even for creatures that normally require double rations." },
+  { name: "Invigorating",  effect: "Reduces one level of exhaustion when finished (once per long rest per eater)." },
+  { name: "Lively",        effect: "Advantage on the next initiative roll, within 1 hour of eating." },
+  { name: "Nourishing",    effect: "The eater regains an additional hit die worth of HP during their next short rest." },
+  { name: "Restorative",   effect: "Removes the effects of one disease or poison of common or lower tier." },
+  { name: "Savoury",       effect: "Advantage on the next Charisma (Persuasion) check, within 1 hour of eating." },
+  { name: "Soothing",      effect: "Grants advantage on saves against fear for 1 hour after eating." },
+  { name: "Warming",       effect: "The eater is immune to the effects of extreme cold for 1 hour." },
+];
+
+/**
+ * Lookup: recipeType → { flaws, boons } table pair used by QuirkEngine.
+ * Falls back to MFG_* for unknown or unset types.
+ */
+export const QUIRK_TABLES = {
+  manufacturing: { flaws: MFG_FLAWS,  boons: MFG_BOONS  },
+  enchanting:    { flaws: ENC_FLAWS,  boons: ENC_BOONS  },
+  forging:       { flaws: FRG_FLAWS,  boons: FRG_BOONS  },
+  cooking:       { flaws: COOK_FLAWS, boons: COOK_BOONS },
+};

@@ -36,9 +36,12 @@
     {{#if system.ingredients.length}}
     <div class="hm-ing-list">
       {{#each system.ingredients}}
-      <div class="hm-ing-row" data-ingredient-id="{{id}}">
+      <div class="hm-ing-row" data-ingredient-id="{{id}}"
+           data-drop="ingredient"
+           data-tooltip="{{localize 'HELIANAS.DropItemOnIngredient'}}">
         <div class="hm-ing-row__header">
-          <input type="text" name="system.ingredients.{{@index}}.name" value="{{name}}" class="hm-ing-row__name">
+          <input type="text" data-hm-field="ingredient.name" data-ingredient-id="{{id}}"
+                 value="{{name}}" class="hm-ing-row__name">
           <button type="button" class="hm-icon-btn hm-icon-btn--danger" data-action="deleteIngredient"
                   data-ingredient-id="{{id}}" data-tooltip="{{localize 'HELIANAS.DeleteIngredient'}}">
             <i class="fa-solid fa-trash"></i>
@@ -53,7 +56,9 @@
                style="{{#if img}}background-image:url('{{img}}');{{/if}}"
                data-tooltip="{{name}}{{#if tags.length}} · {{#each tags}}{{this}} {{/each}}{{/if}}{{#if resourcePath}} · resource:{{resourcePath}}{{/if}}">
             {{#unless img}}<i class="fa-solid fa-cube hm-slot__placeholder"></i>{{/unless}}
-            <input type="number" name="system.ingredients.{{@../index}}.components.{{@index}}.quantity"
+            <input type="number"
+                   data-hm-field="component.quantity"
+                   data-ingredient-id="{{../id}}" data-component-id="{{id}}"
                    min="0" step="1" value="{{quantity}}" class="hm-slot__qty">
             <button type="button" class="hm-slot__edit" data-action="editComponent"
                     data-ingredient-id="{{../id}}" data-component-id="{{id}}"

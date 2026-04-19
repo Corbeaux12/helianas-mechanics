@@ -44,6 +44,8 @@ export class RecipePageSheet extends Base {
       recipeTypeOptions: [
         { value: "manufacturing", label: game.i18n.localize("HELIANAS.Manufacturing") },
         { value: "enchanting",    label: game.i18n.localize("HELIANAS.Enchanting") },
+        { value: "forging",       label: game.i18n.localize("HELIANAS.Forging") },
+        { value: "cooking",       label: game.i18n.localize("HELIANAS.Cooking") },
       ],
       toolOptions: [
         { value: "", label: game.i18n.localize("HELIANAS.None") },
@@ -66,38 +68,6 @@ export class RecipePageSheet extends Base {
     });
   }
 
-  // ---------------------------------------------------------------- submit
-
-  /**
-   * The form only submits scalar fields (ingredient names, component quantities).
-   * Array entries in the schema carry extra state (id, uuid, img, tags, mode,
-   * resourcePath) that isn't in the form. Merge those back in by id so a simple
-   * quantity edit doesn't wipe an item-linked component.
-   */
-  _prepareSubmitData(event, form, formData, updateData) {
-    const data = super._prepareSubmitData(event, form, formData, updateData);
-    const fromForm = foundry.utils.getProperty(data, "system.ingredients");
-    if (!Array.isArray(fromForm)) return data;
-
-    const current = this.document.system.ingredients ?? [];
-    const merged = fromForm.map((ing, i) => {
-      const base = current.find(c => c.id === ing?.id) ?? current[i] ?? {};
-      const comps = Array.isArray(ing?.components) ? ing.components : [];
-      const baseComps = base.components ?? [];
-      return {
-        ...base,
-        ...ing,
-        id: base.id ?? ing?.id ?? foundry.utils.randomID(),
-        components: comps.map((c, j) => {
-          const cb = baseComps.find(bc => bc.id === c?.id) ?? baseComps[j] ?? {};
-          return { ...cb, ...c, id: cb.id ?? c?.id ?? foundry.utils.randomID() };
-        }),
-      };
-    });
-    foundry.utils.setProperty(data, "system.ingredients", merged);
-    return data;
-  }
-
   // ---------------------------------------------------------------- drag/drop
 
   _onRender(context, options) {
@@ -109,6 +79,39 @@ export class RecipePageSheet extends Base {
       slot.addEventListener("dragleave", this.#onDragLeave.bind(this));
       slot.addEventListener("drop",      this.#onDrop.bind(this));
     }
+    // Inline ingredient edits are routed through direct document.update calls
+    // instead of the form submission path — the form path round-trips through
+    // schema cleaning which strips components down to their `initial` values
+    // whenever any field changes on the page.
+    for (const input of root.querySelectorAll("[data-hm-field='ingredient.name']")) {
+      input.addEventListener("change", this.#onIngredientNameChange.bind(this));
+    }
+    for (const input of root.querySelectorAll("[data-hm-field='component.quantity']")) {
+      input.addEventListener("change", this.#onComponentQuantityChange.bind(this));
+    }
+  }
+
+  async #onIngredientNameChange(event) {
+    const input = event.currentTarget;
+    const ingId = input.dataset.ingredientId;
+    const ingredients = foundry.utils.deepClone(this.document.system.ingredients ?? []);
+    const ing = ingredients.find(i => i.id === ingId);
+    if (!ing) return;
+    ing.name = String(input.value ?? "");
+    await this.document.update({ "system.ingredients": ingredients });
+  }
+
+  async #onComponentQuantityChange(event) {
+    const input = event.currentTarget;
+    const ingId  = input.dataset.ingredientId;
+    const compId = input.dataset.componentId;
+    const q = Number(input.value);
+    if (!Number.isFinite(q)) return;
+    const ingredients = foundry.utils.deepClone(this.document.system.ingredients ?? []);
+    const comp = ingredients.find(i => i.id === ingId)?.components?.find(c => c.id === compId);
+    if (!comp) return;
+    comp.quantity = Math.max(0, Math.trunc(q));
+    await this.document.update({ "system.ingredients": ingredients });
   }
 
   #onDragOver(event) {
@@ -122,6 +125,7 @@ export class RecipePageSheet extends Base {
 
   async #onDrop(event) {
     event.preventDefault();
+    event.stopPropagation();
     const el = event.currentTarget;
     el.classList.remove("hm-slot--hover");
 
@@ -154,6 +158,26 @@ export class RecipePageSheet extends Base {
       comp.img  = item.img;
       comp.uuid = item.uuid;
       await this.document.update({ "system.ingredients": ingredients });
+      return;
+    }
+    if (target === "ingredient") {
+      const ingId = el.dataset.ingredientId;
+      const ingredients = foundry.utils.deepClone(this.document.system.ingredients);
+      const ing = ingredients.find(i => i.id === ingId);
+      if (!ing) return;
+      const itemTags = item.flags?.["helianas-mechanics"]?.tags;
+      ing.components.push({
+        id:           foundry.utils.randomID(),
+        uuid:         item.uuid,
+        name:         item.name,
+        nameMode:     "exact",
+        img:          item.img,
+        quantity:     1,
+        tags:         Array.isArray(itemTags) ? [...itemTags] : [],
+        mode:         "some",
+        resourcePath: "",
+      });
+      await this.document.update({ "system.ingredients": ingredients });
     }
   }
 
@@ -184,6 +208,7 @@ export class RecipePageSheet extends Base {
       id:           foundry.utils.randomID(),
       uuid:         "",
       name:         game.i18n.localize("HELIANAS.NewComponent"),
+      nameMode:     "exact",
       img:          "",
       quantity:     1,
       tags:         [],

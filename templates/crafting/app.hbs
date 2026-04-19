@@ -5,12 +5,24 @@
 
     <div class="hm-tabs" role="tablist">
       <button class="hm-tab {{#if (eq activeTab 'manufacturing')}}hm-tab--active{{/if}}"
-              data-action="switchTab" data-tab="manufacturing" role="tab">
-        {{localize "HELIANAS.Manufacturing"}}
+              data-action="switchTab" data-tab="manufacturing" role="tab"
+              title="{{localize 'HELIANAS.Manufacturing'}}">
+        <i class="fa-solid fa-hammer"></i>
       </button>
       <button class="hm-tab {{#if (eq activeTab 'enchanting')}}hm-tab--active{{/if}}"
-              data-action="switchTab" data-tab="enchanting" role="tab">
-        {{localize "HELIANAS.Enchanting"}}
+              data-action="switchTab" data-tab="enchanting" role="tab"
+              title="{{localize 'HELIANAS.Enchanting'}}">
+        <i class="fa-solid fa-wand-sparkles"></i>
+      </button>
+      <button class="hm-tab {{#if (eq activeTab 'forging')}}hm-tab--active{{/if}}"
+              data-action="switchTab" data-tab="forging" role="tab"
+              title="{{localize 'HELIANAS.ForgingLabel'}}">
+        <i class="fa-solid fa-fire"></i>
+      </button>
+      <button class="hm-tab {{#if (eq activeTab 'cooking')}}hm-tab--active{{/if}}"
+              data-action="switchTab" data-tab="cooking" role="tab"
+              title="{{localize 'HELIANAS.CookingLabel'}}">
+        <i class="fa-solid fa-utensils"></i>
       </button>
     </div>
 
@@ -166,11 +178,7 @@
       <div class="hm-actions">
         <button class="hm-btn-primary" data-action="craftItem" type="button"
                 {{#unless detail.allAvailable}}title="{{localize 'HELIANAS.MissingIngredients'}}"{{/unless}}>
-          {{#if detail.isEnchanting}}
-            {{localize "HELIANAS.EnchantItem"}}
-          {{else}}
-            {{localize "HELIANAS.CraftItem"}}
-          {{/if}}
+          {{detail.actionLabel}}
         </button>
       </div>
 

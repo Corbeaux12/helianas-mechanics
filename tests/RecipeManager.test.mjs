@@ -120,7 +120,22 @@ describe("getUnlockedRecipes", () => {
   });
 
   it("returns empty lists when there are no journals", () => {
-    expect(RecipeManager.getUnlockedRecipes()).toEqual({ manufacturing: [], enchanting: [] });
+    expect(RecipeManager.getUnlockedRecipes())
+      .toEqual({ manufacturing: [], enchanting: [], forging: [], cooking: [] });
+  });
+
+  it("groups forging and cooking recipes under their own buckets", () => {
+    game.journal.contents = [
+      makeJournal([
+        makePage({ recipeType: "forging" }),
+        makePage({ recipeType: "cooking" }),
+        makePage({ recipeType: "cooking" }),
+      ]),
+    ];
+    const result = RecipeManager.getUnlockedRecipes();
+    expect(result.forging).toHaveLength(1);
+    expect(result.cooking).toHaveLength(2);
+    expect(result.manufacturing).toHaveLength(0);
   });
 
   it("ignores journals the user cannot view", () => {

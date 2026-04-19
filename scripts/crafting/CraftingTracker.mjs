@@ -1,4 +1,5 @@
 import { MODULE_ID } from "./constants.mjs";
+import { buildCookingEffects } from "./CookingEffects.mjs";
 
 const { ApplicationV2, HandlebarsApplicationMixin, DialogV2 } = foundry.applications.api;
 
@@ -91,9 +92,18 @@ export class CraftingTracker extends HandlebarsApplicationMixin(ApplicationV2) {
     const actor = game.actors.get(craft.actorId);
     if (!actor) return;
 
+    const isCooking = craft.recipeType === "cooking";
+    const effects   = isCooking ? buildCookingEffects(craft.boons, craft.quirks) : [];
+
     await actor.createEmbeddedDocuments("Item", [{
       ...craft.resultItemData,
-      flags: { [MODULE_ID]: { quirks: craft.quirks, boons: craft.boons } },
+      ...(isCooking ? { type: "consumable" } : {}),
+      effects,
+      flags: { [MODULE_ID]: {
+        quirks:     craft.quirks,
+        boons:      craft.boons,
+        recipeType: craft.recipeType ?? null,
+      } },
     }]);
 
     const flawList = craft.quirks?.length

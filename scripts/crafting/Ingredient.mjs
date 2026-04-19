@@ -7,6 +7,7 @@ export class Component {
     this.id           = data.id ?? foundry.utils.randomID();
     this.uuid         = data.uuid ?? "";
     this.name         = data.name ?? "";
+    this.nameMode     = data.nameMode === "regex" ? "regex" : "exact";
     this.img          = data.img ?? "";
     this.quantity     = Number(data.quantity ?? 1);
     this.tags         = Array.isArray(data.tags) ? [...data.tags] : [];
@@ -16,6 +17,25 @@ export class Component {
 
     this.inventoryQuantity = 0;
     this.selected          = false;
+
+    this._nameRegex = null;
+    if (this.nameMode === "regex" && this.name) {
+      try { this._nameRegex = compileRegex(this.name); }
+      catch { this._nameRegex = null; }
+    }
+  }
+
+  /**
+   * True when an item's name matches this component's `name` field, honouring
+   * `nameMode` ("exact" or "regex"). Invalid regex patterns silently fall back
+   * to no match rather than throwing into the crafting flow.
+   */
+  matchesName(item) {
+    if (!item?.name || !this.name) return false;
+    if (this.nameMode === "regex") {
+      return this._nameRegex ? this._nameRegex.test(item.name) : false;
+    }
+    return item.name === this.name;
   }
 
   getItemTags(item) {
@@ -39,7 +59,7 @@ export class Component {
     if (!actor?.items) return [];
     const items = actor.items.contents ?? actor.items;
     const byName = items.filter(i => {
-      if (i.name === this.name) return true;
+      if (this.matchesName(i)) return true;
       const sourceId = i.flags?.core?.sourceId;
       if (this.uuid && sourceId && sourceId === this.uuid) return true;
       return false;
@@ -51,11 +71,21 @@ export class Component {
 
   toObject() {
     return {
-      id: this.id, uuid: this.uuid, name: this.name, img: this.img,
-      quantity: this.quantity, tags: [...this.tags], mode: this.mode,
+      id: this.id, uuid: this.uuid, name: this.name, nameMode: this.nameMode,
+      img: this.img, quantity: this.quantity, tags: [...this.tags], mode: this.mode,
       resourcePath: this.resourcePath,
     };
   }
+}
+
+/**
+ * Compile a name pattern into a RegExp. Accepts either a JS literal form
+ * (`/pattern/flags`) or a bare pattern which is treated as case-insensitive.
+ */
+function compileRegex(pattern) {
+  const literal = /^\/(.+)\/([a-z]*)$/i.exec(pattern);
+  if (literal) return new RegExp(literal[1], literal[2]);
+  return new RegExp(pattern, "i");
 }
 
 export class Ingredient {
