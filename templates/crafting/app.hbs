@@ -174,7 +174,7 @@
 
       <hr class="hm-divider">
 
-      {{!-- Essence slot --}}
+      {{!-- Essence picker --}}
       <section class="hm-section">
         <h4 class="hm-section__title">
           {{#if detail.essenceRequired}}
@@ -183,16 +183,15 @@
             {{localize "HELIANAS.EssenceOptional"}}
           {{/if}}
         </h4>
-        <div class="hm-essence-drop">
-          {{#if detail.slottedEssence}}
-            <span class="hm-essence-slotted">
-              <i class="fa-solid fa-gem"></i> {{detail.slottedEssence.name}}
-            </span>
-            <button class="hm-essence-clear" data-action="clearEssence" type="button">✕</button>
-          {{else}}
-            <span class="hm-essence-placeholder">{{localize "HELIANAS.DropEssenceHere"}}</span>
-          {{/if}}
-        </div>
+        <select class="hm-essence-select">
+          <option value="">{{localize "HELIANAS.SelectEssence"}}</option>
+          {{#each detail.essenceOptions}}
+          <option value="{{uuid}}" {{#if (eq uuid ../detail.slottedEssence.uuid)}}selected{{/if}}>{{label}}</option>
+          {{/each}}
+        </select>
+        {{#unless detail.essenceOptions.length}}
+        <p class="hint">{{localize "HELIANAS.NoEssencesInInventory"}}</p>
+        {{/unless}}
         {{#if detail.maxBoons}}
         <p class="hm-boon-cap">{{localize "HELIANAS.MaxBoonsCap"}}: {{detail.maxBoons}}</p>
         {{/if}}
@@ -202,15 +201,30 @@
 
       {{!-- Roll formula + result --}}
       <section class="hm-section hm-roll-section">
-        {{#unless detail.isForgingPath}}
-        <h4 class="hm-section__title">{{localize "HELIANAS.RollFormula"}}</h4>
-        <p class="hm-formula">{{detail.rollFormula}}</p>
-        {{/unless}}
-        <div class="hm-roll-row">
-          <label class="hm-roll-label" for="hm-roll-input">{{localize "HELIANAS.RollResult"}}</label>
-          <input id="hm-roll-input" class="hm-roll-input" type="number"
-                 min="1" max="40" placeholder="—">
-        </div>
+        {{#if detail.isForgingPath}}
+          <div class="hm-roll-row">
+            <label class="hm-roll-label" for="hm-roll-mfg">
+              {{localize "HELIANAS.Manufacturing"}} {{localize "HELIANAS.RollResult"}}
+            </label>
+            <input id="hm-roll-mfg" class="hm-roll-input hm-roll-input--mfg" type="number"
+                   min="1" max="40" placeholder="—">
+          </div>
+          <div class="hm-roll-row">
+            <label class="hm-roll-label" for="hm-roll-enc">
+              {{localize "HELIANAS.Enchanting"}} {{localize "HELIANAS.RollResult"}}
+            </label>
+            <input id="hm-roll-enc" class="hm-roll-input hm-roll-input--enc" type="number"
+                   min="1" max="40" placeholder="—">
+          </div>
+        {{else}}
+          <h4 class="hm-section__title">{{localize "HELIANAS.RollFormula"}}</h4>
+          <p class="hm-formula">{{detail.rollFormula}}</p>
+          <div class="hm-roll-row">
+            <label class="hm-roll-label" for="hm-roll-input">{{localize "HELIANAS.RollResult"}}</label>
+            <input id="hm-roll-input" class="hm-roll-input" type="number"
+                   min="1" max="40" placeholder="—">
+          </div>
+        {{/if}}
       </section>
 
       <div class="hm-actions">

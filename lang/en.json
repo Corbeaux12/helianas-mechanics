@@ -102,6 +102,8 @@
     "EssenceOptional":  "Essence (optional — adds boon cap)",
     "EssenceRequired":  "Essence (required)",
     "DropEssenceHere":  "Drop an essence item here…",
+    "SelectEssence":    "— Select an essence —",
+    "NoEssencesInInventory": "No essences in this actor's inventory.",
     "MaxBoonsCap":      "Max boons with this essence",
     "NotAnEssence":     "That item is not an essence.",
 
