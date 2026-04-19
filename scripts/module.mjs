@@ -4,7 +4,7 @@ import { CraftingTracker } from "./crafting/CraftingTracker.mjs";
 import { RecipePageData }  from "./crafting/RecipePageData.mjs";
 import { RecipePageSheet } from "./crafting/RecipePageSheet.mjs";
 import { RECIPE_PAGE_TYPE } from "./crafting/Recipe.mjs";
-import { renderItemTagPanel } from "./crafting/ItemTagPanel.mjs";
+import { attachItemTagControl, deriveTagsFromName } from "./crafting/ItemTagPanel.mjs";
 import { RecipeImporter } from "./crafting/RecipeImporter.mjs";
 import { RecipeBrowser } from "./crafting/RecipeBrowser.mjs";
 
@@ -188,8 +188,32 @@ Hooks.on("getSceneControlButtons", (controls) => {
 // ------------------------------------------------------------------ item sheet injection (recipe books)
 
 Hooks.on("renderItemSheet", (app, html, data) => {
-  renderItemTagPanel(app, html, data);
+  attachItemTagControl(app, html);
   renderRecipeBookBanner(app, html, data);
+});
+
+// dnd5e 4.x / Foundry v13+ item sheets extend ApplicationV2 and do NOT fire
+// the legacy renderItemSheet hook. Catch them here.
+Hooks.on("renderApplicationV2", (app, html) => {
+  if (app?.document?.documentName !== "Item") return;
+  attachItemTagControl(app, html);
+  renderRecipeBookBanner(app, html);
+});
+
+// Auto-populate flag tags from an item's name at creation time. Existing
+// items pick up name-derived tags at read time via readItemTags().
+Hooks.on("preCreateItem", (item, data) => {
+  const name = data?.name ?? item.name;
+  const nameTags = deriveTagsFromName(name);
+  if (!nameTags.length) return;
+  const rawExisting = foundry.utils.getProperty(data, `flags.${MODULE_ID}.tags`) ?? [];
+  const existing = Array.isArray(rawExisting) ? rawExisting
+                 : typeof rawExisting === "string" ? rawExisting.split(",") : [];
+  const merged = [...new Set([
+    ...existing.map(t => String(t).trim()).filter(Boolean),
+    ...nameTags,
+  ])];
+  item.updateSource({ [`flags.${MODULE_ID}.tags`]: merged });
 });
 
 function renderRecipeBookBanner(app, html, _data) {
@@ -230,7 +254,10 @@ function renderRecipeBookBanner(app, html, _data) {
   });
 
   // Insert above the description content
-  const el     = html instanceof HTMLElement ? html : html[0];
+  const appEl  = app.element instanceof HTMLElement ? app.element : app.element?.[0];
+  const el     = appEl ?? (html instanceof HTMLElement ? html : html?.[0]);
+  if (!el) return;
+  if (el.querySelector(".hm-recipe-book-banner")) return;
   const target = el.querySelector(".tab[data-tab='description']") ?? el.querySelector(".sheet-body");
   if (target) target.prepend(banner);
 }

@@ -83,7 +83,7 @@ Each **ingredient** is a named slot (e.g. "Metal stock") containing one or more 
 
 ### Tagging items for substitution
 
-Every item sheet now has a **Crafting Tags** panel at the top of the description tab (provided by [ItemTagPanel](scripts/crafting/ItemTagPanel.mjs)). Type a tag, press Enter or click **Add**, and it is stored under `flags.helianas-mechanics.tags`. A ✕ on each chip removes it. The input autocompletes against the starter vocabulary plus any tag already used anywhere in the world.
+Every item sheet has a **tags** button (🏷) in its window header controls (provided by [ItemTagPanel](scripts/crafting/ItemTagPanel.mjs)). Clicking it opens a dialog where you can add tags (type and press Enter, or paste a comma-separated list), remove them via the ✕ on each chip, or re-import words from the item's name. Tags are stored under `flags.helianas-mechanics.tags`, and new items are auto-tagged with the lowercase alphanumeric words of their name (filler words like *the*, *of*, *and* are skipped). Existing items without stored tags still match by name-derived tokens at read time.
 
 If you prefer scripting, the flag is still a plain string array — all three of these are equivalent:
 
@@ -297,7 +297,7 @@ scripts/
     CraftingApp.mjs                  Workshop ApplicationV2 (manufacturing/enchanting/forging/cooking tabs)
     CraftingTracker.mjs              Tracker ApplicationV2
     ComponentEditForm.mjs            DialogV2 component editor (nameMode / tags / resource path)
-    ItemTagPanel.mjs                 Crafting-tag editor injected into every Item sheet
+    ItemTagPanel.mjs                 Item-sheet header button + DialogV2 tag editor, name-derived auto-tags
 templates/crafting/
   app.hbs                            Workshop template
   tracker.hbs                        Tracker template

@@ -1,43 +1,61 @@
 <div class="hm-recipe-view">
+
+  {{!-- ----- Header / result ----- --}}
   <header class="hm-recipe-view__header">
-    {{#if system.resultImg}}<img class="hm-recipe-view__img" src="{{system.resultImg}}" alt="">{{/if}}
-    <div>
-      <h2>{{system.resultName}}</h2>
+    <div class="hm-slot hm-slot--result hm-slot--view {{#unless system.resultImg}}hm-slot--empty{{/unless}}"
+         style="{{#if system.resultImg}}background-image:url('{{system.resultImg}}');{{/if}}"
+         data-tooltip="{{#if system.resultName}}{{system.resultName}}{{else}}{{localize 'HELIANAS.NoResultItem'}}{{/if}}">
+      {{#unless system.resultImg}}<i class="fa-solid fa-flask-vial hm-slot__placeholder"></i>{{/unless}}
+      {{#if system.resultQuantity}}<span class="hm-slot__qty hm-slot__qty--view">×{{system.resultQuantity}}</span>{{/if}}
+    </div>
+    <div class="hm-recipe-view__head-meta">
+      <h2>{{#if system.resultName}}{{system.resultName}}{{else}}<em>{{localize "HELIANAS.NoResultItem"}}</em>{{/if}}</h2>
       <p class="hm-recipe-view__meta">
-        <span class="hm-badge">{{system.recipeType}}</span>
+        <span class="hm-badge hm-badge--type">{{system.recipeType}}</span>
         {{#if system.rarity}}<span class="hm-badge">{{system.rarity}}</span>{{/if}}
         {{#if system.attunement}}<span class="hm-badge">{{system.attunement}}</span>{{/if}}
       </p>
     </div>
   </header>
 
+  {{!-- ----- Stats strip ----- --}}
   <section class="hm-recipe-view__stats">
-    <div><strong>{{localize "HELIANAS.DC"}}:</strong> {{system.dc}}</div>
-    <div><strong>{{localize "HELIANAS.Time"}}:</strong> {{system.timeHours}} {{localize "HELIANAS.Hours"}}</div>
-    {{#if system.toolKey}}<div><strong>{{localize "HELIANAS.Tool"}}:</strong> {{system.toolKey}} ({{system.toolAbility}})</div>{{/if}}
-    {{#if system.essenceTierRequired}}<div><strong>{{localize "HELIANAS.EssenceTierRequired"}}:</strong> {{system.essenceTierRequired}}</div>{{/if}}
-    {{#if system.componentCreatureType}}<div><strong>{{localize "HELIANAS.CreatureType"}}:</strong> {{system.componentCreatureType}}</div>{{/if}}
+    <div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.DC"}}</span><span class="hm-stat__value">{{system.dc}}</span></div>
+    <div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.Time"}}</span><span class="hm-stat__value">{{system.timeHours}} {{localize "HELIANAS.Hours"}}</span></div>
+    {{#if system.toolKey}}<div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.Tool"}}</span><span class="hm-stat__value">{{system.toolKey}}{{#if system.toolAbility}} ({{system.toolAbility}}){{/if}}</span></div>{{/if}}
+    {{#if system.essenceTierRequired}}<div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.EssenceTierRequired"}}</span><span class="hm-stat__value">{{system.essenceTierRequired}}</span></div>{{/if}}
+    {{#if system.componentCreatureType}}<div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.CreatureType"}}</span><span class="hm-stat__value">{{system.componentCreatureType}}</span></div>{{/if}}
   </section>
 
+  {{!-- ----- Ingredients (image cards) ----- --}}
   {{#if system.ingredients.length}}
   <section class="hm-recipe-view__ingredients">
-    <h3>{{localize "HELIANAS.Ingredients"}}</h3>
-    <ul>
+    <h3 class="hm-recipe-view__heading">{{localize "HELIANAS.Ingredients"}}</h3>
+    <div class="hm-ing-list hm-ing-list--view">
       {{#each system.ingredients}}
-      <li>
-        <strong>{{name}}</strong>
-        <ul>
+      <div class="hm-ing-row hm-ing-row--view">
+        <div class="hm-ing-row__title">{{name}}</div>
+        <div class="hm-comp-grid hm-comp-grid--view">
           {{#each components}}
-          <li>
-            {{name}} ×{{quantity}}
-            {{#if tags.length}} · tags: {{#each tags}}<code>{{this}}</code> {{/each}}{{/if}}
-            {{#if resourcePath}} · resource: <code>{{resourcePath}}</code>{{/if}}
-          </li>
+          <div class="hm-comp-card">
+            <div class="hm-slot hm-slot--comp hm-slot--view {{#unless img}}hm-slot--empty{{/unless}}"
+                 style="{{#if img}}background-image:url('{{img}}');{{/if}}"
+                 data-tooltip="{{name}}{{#if tags.length}} · {{#each tags}}{{this}} {{/each}}{{/if}}{{#if resourcePath}} · resource:{{resourcePath}}{{/if}}">
+              {{#unless img}}<i class="fa-solid fa-cube hm-slot__placeholder"></i>{{/unless}}
+              <span class="hm-slot__qty hm-slot__qty--view">×{{quantity}}</span>
+            </div>
+            <div class="hm-comp-card__name">{{name}}</div>
+            {{#if tags.length}}
+            <div class="hm-comp-card__tags">
+              {{#each tags}}<span class="hm-comp-card__tag">{{this}}</span>{{/each}}
+            </div>
+            {{/if}}
+          </div>
           {{/each}}
-        </ul>
-      </li>
+        </div>
+      </div>
       {{/each}}
-    </ul>
+    </div>
   </section>
   {{/if}}
 </div>

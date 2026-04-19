@@ -130,11 +130,15 @@
     "RecipesUnlocked":"Recipes Unlocked",
 
     "ItemTagsTitle":       "Crafting Tags",
-    "ItemTagsHint":        "Tags let this item substitute for any recipe ingredient that accepts the same tag.",
+    "ItemTagsHint":        "Tags let this item substitute for any recipe ingredient that accepts the same tag. New items auto-tag from their name.",
     "NoTagsYet":           "No tags yet.",
     "AddTag":              "Add",
     "AddTagPlaceholder":   "Type a tag (e.g. metal, ferrous)…",
     "RemoveTag":           "Remove tag",
+    "ManageTagsTooltip":   "Manage crafting tags",
+    "ManageTagsFor":       "Crafting Tags — {name}",
+    "ApplyNameTags":       "Import tags from name",
+    "Close":               "Close",
 
     "NameMode":            "Name match",
     "NameModeExact":       "Exact match",
