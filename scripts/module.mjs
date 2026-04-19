@@ -104,7 +104,7 @@ async function migrateLegacyRecipes() {
         name: old.resultItemName ?? p.name,
         type: RECIPE_PAGE_TYPE,
         system: {
-          recipeType:     old.type === "enchanting" ? "enchanting" : "manufacturing",
+          recipeType:     "manufacturing",
           resultName:     old.resultItemName ?? "",
           resultImg:      old.resultItemImg ?? "",
           resultUuid:     old.resultItemUuid ?? "",

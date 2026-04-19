@@ -1,5 +1,6 @@
 import { TOOLS, ESSENCE_TIERS, CREATURE_TYPE_SKILLS, ABILITY_LABELS } from "./constants.mjs";
 import { editComponent } from "./ComponentEditForm.mjs";
+import { RECIPE_PAGE_TYPE } from "./Recipe.mjs";
 
 const Base = foundry.applications.sheets.journal.JournalEntryPageHandlebarsSheet;
 
@@ -12,12 +13,13 @@ export class RecipePageSheet extends Base {
       closeOnSubmit:  false,
     },
     actions: {
-      addIngredient:    RecipePageSheet.#onAddIngredient,
-      deleteIngredient: RecipePageSheet.#onDeleteIngredient,
-      addComponent:     RecipePageSheet.#onAddComponent,
-      deleteComponent:  RecipePageSheet.#onDeleteComponent,
-      editComponent:    RecipePageSheet.#onEditComponent,
-      clearResult:      RecipePageSheet.#onClearResult,
+      addIngredient:        RecipePageSheet.#onAddIngredient,
+      deleteIngredient:     RecipePageSheet.#onDeleteIngredient,
+      addComponent:         RecipePageSheet.#onAddComponent,
+      deleteComponent:      RecipePageSheet.#onDeleteComponent,
+      editComponent:        RecipePageSheet.#onEditComponent,
+      clearResult:          RecipePageSheet.#onClearResult,
+      clearBaseItemRecipe:  RecipePageSheet.#onClearBaseItemRecipe,
     },
   };
 
@@ -38,14 +40,18 @@ export class RecipePageSheet extends Base {
   async _prepareContext(options) {
     const ctx    = await super._prepareContext(options);
     const system = this.document.system;
+    const baseRecipe = await this.#resolveLinkedBaseRecipe(system.baseItemRecipeUuid);
 
     return Object.assign(ctx, {
       system,
+      isForge:   system.recipeType === "forge",
+      isCooking: system.recipeType === "cooking",
+      isManufacturing: system.recipeType === "manufacturing",
+      baseRecipe,
       recipeTypeOptions: [
         { value: "manufacturing", label: game.i18n.localize("HELIANAS.Manufacturing") },
-        { value: "enchanting",    label: game.i18n.localize("HELIANAS.Enchanting") },
-        { value: "forging",       label: game.i18n.localize("HELIANAS.Forging") },
         { value: "cooking",       label: game.i18n.localize("HELIANAS.Cooking") },
+        { value: "forge",         label: game.i18n.localize("HELIANAS.Forge") },
       ],
       toolOptions: [
         { value: "", label: game.i18n.localize("HELIANAS.None") },
@@ -66,6 +72,17 @@ export class RecipePageSheet extends Base {
       attunementOptions: ["none", "optional", "required", "required-spellcaster"]
         .map(v => ({ value: v, label: v })),
     });
+  }
+
+  async #resolveLinkedBaseRecipe(uuid) {
+    if (!uuid) return null;
+    const page = await fromUuid(uuid).catch(() => null);
+    if (!page || page.type !== RECIPE_PAGE_TYPE) return null;
+    return {
+      uuid,
+      name: page.system?.resultName || page.name || "",
+      img:  page.system?.resultImg || "icons/svg/item-bag.svg",
+    };
   }
 
   // ---------------------------------------------------------------- drag/drop
@@ -132,12 +149,31 @@ export class RecipePageSheet extends Base {
     let data;
     try { data = JSON.parse(event.dataTransfer.getData("text/plain")); }
     catch { return; }
-    if (data?.type !== "Item" || !data.uuid) return;
+    if (!data?.uuid) return;
+
+    const target = el.dataset.drop;
+
+    // Base-item recipe slot accepts a JournalEntryPage of the recipe sub-type
+    // whose own recipeType is "manufacturing".
+    if (target === "baseItemRecipe") {
+      const page = await fromUuid(data.uuid).catch(() => null);
+      if (!page || page.type !== RECIPE_PAGE_TYPE) {
+        ui.notifications?.warn(game.i18n.localize("HELIANAS.NotARecipePage"));
+        return;
+      }
+      if (page.system?.recipeType !== "manufacturing") {
+        ui.notifications?.warn(game.i18n.localize("HELIANAS.BaseItemNeedsManufacturing"));
+        return;
+      }
+      await this.document.update({ "system.baseItemRecipeUuid": page.uuid });
+      return;
+    }
+
+    if (data.type !== "Item") return;
 
     const item = await fromUuid(data.uuid);
     if (!item) return;
 
-    const target = el.dataset.drop;
     if (target === "result") {
       await this.document.update({
         "system.resultName": item.name,
@@ -248,5 +284,9 @@ export class RecipePageSheet extends Base {
       "system.resultImg":  "",
       "system.resultUuid": "",
     });
+  }
+
+  static async #onClearBaseItemRecipe() {
+    await this.document.update({ "system.baseItemRecipeUuid": "" });
   }
 }

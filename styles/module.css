@@ -280,6 +280,75 @@
 }
 .hm-stat > span:first-child { color: var(--color-text-dark-secondary, #4b4a44); }
 
+/* ---- Forge path toggle ---- */
+
+.hm-path-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface);
+}
+.hm-path-btn {
+  flex: 1;
+  padding: 5px 8px;
+  font-size: 0.82rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  color: var(--hm-ink-soft);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.hm-path-btn:hover { background: var(--hm-accent-soft); color: var(--hm-ink); }
+.hm-path-btn--active {
+  background: var(--hm-accent-soft);
+  color: var(--hm-accent);
+  border-color: var(--hm-accent);
+  font-weight: 600;
+}
+
+/* ---- Dual stats (forge recipes, forging path) ---- */
+
+.hm-stats-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.hm-stats-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 6px 8px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface);
+}
+.hm-stats-col__title {
+  margin: 0 0 2px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--hm-accent);
+  font-weight: 700;
+}
+.hm-stats-col .hm-formula {
+  font-size: 0.74rem;
+  margin-top: 2px;
+}
+.hm-stats-total {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: var(--hm-accent-soft);
+  border: 1px solid var(--hm-accent);
+  border-radius: var(--hm-radius);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
 /* ---- Essence drop zone ---- */
 
 .hm-essence-drop {

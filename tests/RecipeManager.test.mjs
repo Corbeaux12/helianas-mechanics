@@ -68,9 +68,9 @@ describe("getRecipeFromPage", () => {
   });
 
   it("exposes recipeType, dc, timeHours, toolKey from system", () => {
-    const page = makePage({ recipeType: "enchanting", dc: 22, timeHours: 320, toolKey: "jewelers-tools" });
+    const page = makePage({ recipeType: "forge", dc: 22, timeHours: 320, toolKey: "jewelers-tools" });
     const r = RecipeManager.getRecipeFromPage(page);
-    expect(r.recipeType).toBe("enchanting");
+    expect(r.recipeType).toBe("forge");
     expect(r.dc).toBe(22);
     expect(r.timeHours).toBe(320);
     expect(r.toolKey).toBe("jewelers-tools");
@@ -121,19 +121,19 @@ describe("getUnlockedRecipes", () => {
 
   it("returns empty lists when there are no journals", () => {
     expect(RecipeManager.getUnlockedRecipes())
-      .toEqual({ manufacturing: [], enchanting: [], forging: [], cooking: [] });
+      .toEqual({ manufacturing: [], cooking: [], forge: [] });
   });
 
-  it("groups forging and cooking recipes under their own buckets", () => {
+  it("groups forge and cooking recipes under their own buckets", () => {
     game.journal.contents = [
       makeJournal([
-        makePage({ recipeType: "forging" }),
+        makePage({ recipeType: "forge" }),
         makePage({ recipeType: "cooking" }),
         makePage({ recipeType: "cooking" }),
       ]),
     ];
     const result = RecipeManager.getUnlockedRecipes();
-    expect(result.forging).toHaveLength(1);
+    expect(result.forge).toHaveLength(1);
     expect(result.cooking).toHaveLength(2);
     expect(result.manufacturing).toHaveLength(0);
   });
@@ -149,13 +149,13 @@ describe("getUnlockedRecipes", () => {
     game.journal.contents = [makeJournal([makePage({ recipeType: "manufacturing" })])];
     const result = RecipeManager.getUnlockedRecipes();
     expect(result.manufacturing).toHaveLength(1);
-    expect(result.enchanting).toHaveLength(0);
+    expect(result.forge).toHaveLength(0);
   });
 
-  it("groups enchanting recipes under 'enchanting'", () => {
-    game.journal.contents = [makeJournal([makePage({ recipeType: "enchanting" })])];
+  it("groups forge recipes under 'forge'", () => {
+    game.journal.contents = [makeJournal([makePage({ recipeType: "forge" })])];
     const result = RecipeManager.getUnlockedRecipes();
-    expect(result.enchanting).toHaveLength(1);
+    expect(result.forge).toHaveLength(1);
     expect(result.manufacturing).toHaveLength(0);
   });
 
@@ -163,13 +163,13 @@ describe("getUnlockedRecipes", () => {
     game.journal.contents = [
       makeJournal([
         makePage({ recipeType: "manufacturing" }),
-        makePage({ recipeType: "enchanting" }),
+        makePage({ recipeType: "forge" }),
         makePage({ recipeType: "manufacturing" }),
       ]),
     ];
     const result = RecipeManager.getUnlockedRecipes();
     expect(result.manufacturing).toHaveLength(2);
-    expect(result.enchanting).toHaveLength(1);
+    expect(result.forge).toHaveLength(1);
   });
 
   it("skips pages whose type is not the recipe sub-type", () => {

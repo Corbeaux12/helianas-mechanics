@@ -39,6 +39,23 @@
 
     "Manufacturing": "Manufacturing",
     "Enchanting":    "Enchanting",
+    "Forge":         "Forge",
+
+    "BaseItem":                    "Base Item (mundane)",
+    "BaseItemRecipe":              "Base Item Recipe",
+    "BaseItemRecipeHint":          "Drag a manufacturing recipe here. Its raw materials feed the forging path; its result feeds the enchanting path.",
+    "DropManufacturingRecipe":     "Drop a manufacturing recipe here.",
+    "NoBaseRecipe":                "No base recipe linked",
+    "NotARecipePage":              "That is not a recipe page.",
+    "BaseItemNeedsManufacturing":  "Only manufacturing recipes can be linked as a base item.",
+    "SharedMagicComponents":       "Shared Magic Components",
+    "SharedMagicComponentsHint":   "These components are required on BOTH paths (e.g. the harvested creature part). The base item and raw materials come from the linked manufacturing recipe.",
+    "EnchantingDC":                "Enchanting DC",
+    "EnchantingTime":              "Enchanting Time (hours)",
+    "EnchantingPath":              "Enchanting",
+    "ForgingPath":                 "Forging",
+    "ForgeMissingBase":            "This forge recipe has no base manufacturing recipe linked.",
+    "TotalTime":                   "Total Time",
 
     "CraftingWorkshop": "Crafting Workshop",
     "CraftingTracker":  "Crafting Tracker",
@@ -49,7 +66,6 @@
     "SelectRecipe":      "Select a recipe from the list to begin.",
 
     "RequiredMaterials": "Required Materials",
-    "BaseItem":          "Base Item (mundane)",
     "Component":         "Harvested Component",
     "Ingredients":       "Ingredients",
     "Resource":          "Resource",

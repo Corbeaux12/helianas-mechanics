@@ -9,14 +9,9 @@
               title="{{localize 'HELIANAS.Manufacturing'}}">
         <i class="fa-solid fa-hammer"></i>
       </button>
-      <button class="hm-tab {{#if (eq activeTab 'enchanting')}}hm-tab--active{{/if}}"
-              data-action="switchTab" data-tab="enchanting" role="tab"
-              title="{{localize 'HELIANAS.Enchanting'}}">
-        <i class="fa-solid fa-wand-sparkles"></i>
-      </button>
-      <button class="hm-tab {{#if (eq activeTab 'forging')}}hm-tab--active{{/if}}"
-              data-action="switchTab" data-tab="forging" role="tab"
-              title="{{localize 'HELIANAS.ForgingLabel'}}">
+      <button class="hm-tab {{#if (eq activeTab 'forge')}}hm-tab--active{{/if}}"
+              data-action="switchTab" data-tab="forge" role="tab"
+              title="{{localize 'HELIANAS.Forge'}}">
         <i class="fa-solid fa-fire"></i>
       </button>
       <button class="hm-tab {{#if (eq activeTab 'cooking')}}hm-tab--active{{/if}}"
@@ -82,6 +77,23 @@
         </div>
       </div>
 
+      {{!-- Forge path toggle --}}
+      {{#if detail.isForge}}
+      <div class="hm-path-toggle" role="tablist">
+        <button class="hm-path-btn {{#if detail.isEnchantingPath}}hm-path-btn--active{{/if}}"
+                data-action="switchPath" data-path="enchanting" type="button">
+          <i class="fa-solid fa-wand-sparkles"></i> {{localize "HELIANAS.EnchantingPath"}}
+        </button>
+        <button class="hm-path-btn {{#if detail.isForgingPath}}hm-path-btn--active{{/if}}"
+                data-action="switchPath" data-path="forging" type="button">
+          <i class="fa-solid fa-fire"></i> {{localize "HELIANAS.ForgingPath"}}
+        </button>
+      </div>
+      {{#if detail.missingBaseRecipe}}
+      <p class="hm-warning">⚠ {{localize "HELIANAS.ForgeMissingBase"}}</p>
+      {{/if}}
+      {{/if}}
+
       {{!-- Unified ingredients block --}}
       {{#if detail.ingredients.length}}
       <section class="hm-section">
@@ -119,6 +131,29 @@
       {{/if}}
 
       {{!-- Stats row --}}
+      {{#if detail.isForgingPath}}
+      <section class="hm-section hm-stats-dual">
+        <div class="hm-stats-col">
+          <h5 class="hm-stats-col__title">{{localize "HELIANAS.Manufacturing"}}</h5>
+          {{#if detail.mfgStats.toolLabel}}
+          <div class="hm-stat"><span>{{localize "HELIANAS.Tool"}}</span><span>{{detail.mfgStats.toolLabel}} ({{detail.mfgStats.abilityLabel}})</span></div>
+          {{/if}}
+          <div class="hm-stat"><span>{{localize "HELIANAS.DC"}}</span><span>{{detail.mfgStats.dc}}</span></div>
+          <div class="hm-stat"><span>{{localize "HELIANAS.Time"}}</span><span>{{detail.mfgStats.timeHours}} {{localize "HELIANAS.Hours"}}</span></div>
+          <p class="hm-formula">{{detail.mfgStats.formula}}</p>
+        </div>
+        <div class="hm-stats-col">
+          <h5 class="hm-stats-col__title">{{localize "HELIANAS.Enchanting"}}</h5>
+          <div class="hm-stat"><span>{{localize "HELIANAS.DC"}}</span><span>{{detail.encStats.dc}}</span></div>
+          <div class="hm-stat"><span>{{localize "HELIANAS.Time"}}</span><span>{{detail.encStats.timeHours}} {{localize "HELIANAS.Hours"}}</span></div>
+          <p class="hm-formula">{{detail.encStats.formula}}</p>
+        </div>
+        <div class="hm-stats-total">
+          <span>{{localize "HELIANAS.TotalTime"}}</span>
+          <span>{{detail.timeHours}} {{localize "HELIANAS.Hours"}}</span>
+        </div>
+      </section>
+      {{else}}
       <section class="hm-section hm-stats">
         {{#if detail.toolLabel}}
         <div class="hm-stat">
@@ -135,6 +170,7 @@
           <span>{{detail.timeHours}} {{localize "HELIANAS.Hours"}}</span>
         </div>
       </section>
+      {{/if}}
 
       <hr class="hm-divider">
 
@@ -166,8 +202,10 @@
 
       {{!-- Roll formula + result --}}
       <section class="hm-section hm-roll-section">
+        {{#unless detail.isForgingPath}}
         <h4 class="hm-section__title">{{localize "HELIANAS.RollFormula"}}</h4>
         <p class="hm-formula">{{detail.rollFormula}}</p>
+        {{/unless}}
         <div class="hm-roll-row">
           <label class="hm-roll-label" for="hm-roll-input">{{localize "HELIANAS.RollResult"}}</label>
           <input id="hm-roll-input" class="hm-roll-input" type="number"

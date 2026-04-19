@@ -24,14 +24,41 @@
     </div>
   </section>
 
+  {{!-- ----- Base Item Recipe (forge only) ----- --}}
+  {{#if isForge}}
+  <section class="hm-recipe-edit__section">
+    <h3 class="hm-recipe-edit__heading">{{localize "HELIANAS.BaseItemRecipe"}}</h3>
+    <div class="hm-result-row">
+      <div class="hm-slot hm-slot--result {{#unless baseRecipe}}hm-slot--empty{{/unless}}"
+           data-drop="baseItemRecipe"
+           style="{{#if baseRecipe.img}}background-image:url('{{baseRecipe.img}}');{{/if}}"
+           data-tooltip="{{#if baseRecipe}}{{baseRecipe.name}}{{else}}{{localize 'HELIANAS.DropManufacturingRecipe'}}{{/if}}">
+        {{#unless baseRecipe}}<i class="fa-solid fa-link hm-slot__placeholder"></i>{{/unless}}
+        {{#if baseRecipe}}
+        <button type="button" class="hm-slot__clear" data-action="clearBaseItemRecipe" data-tooltip="{{localize 'HELIANAS.ClearSlot'}}">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        {{/if}}
+      </div>
+      <div class="hm-result-meta">
+        <div class="hm-result-meta__name">{{#if baseRecipe}}{{baseRecipe.name}}{{else}}<em>{{localize "HELIANAS.NoBaseRecipe"}}</em>{{/if}}</div>
+        <p class="hint">{{localize "HELIANAS.BaseItemRecipeHint"}}</p>
+      </div>
+    </div>
+  </section>
+  {{/if}}
+
   {{!-- ----- Ingredients grid ----- --}}
   <section class="hm-recipe-edit__section">
     <div class="hm-recipe-edit__heading-row">
-      <h3 class="hm-recipe-edit__heading">{{localize "HELIANAS.Ingredients"}}</h3>
+      <h3 class="hm-recipe-edit__heading">
+        {{#if isForge}}{{localize "HELIANAS.SharedMagicComponents"}}{{else}}{{localize "HELIANAS.Ingredients"}}{{/if}}
+      </h3>
       <button type="button" class="hm-icon-btn" data-action="addIngredient" data-tooltip="{{localize 'HELIANAS.AddIngredient'}}">
         <i class="fa-solid fa-plus"></i>
       </button>
     </div>
+    {{#if isForge}}<p class="hint">{{localize "HELIANAS.SharedMagicComponentsHint"}}</p>{{/if}}
 
     {{#if system.ingredients.length}}
     <div class="hm-ing-list">
@@ -98,6 +125,7 @@
       </select>
     </div>
 
+    {{#unless isForge}}
     <div class="form-group">
       <label>{{localize "HELIANAS.DC"}}</label>
       <input type="number" name="system.dc" min="0" step="1" value="{{system.dc}}">
@@ -107,7 +135,9 @@
       <label>{{localize "HELIANAS.TimeHours"}}</label>
       <input type="number" name="system.timeHours" min="0" step="0.5" value="{{system.timeHours}}">
     </div>
+    {{/unless}}
 
+    {{#unless isCooking}}
     <div class="form-group">
       <label>{{localize "HELIANAS.ToolKey"}}</label>
       <select name="system.toolKey">
@@ -125,6 +155,19 @@
         {{/each}}
       </select>
     </div>
+    {{/unless}}
+
+    {{#if isForge}}
+    <div class="form-group">
+      <label>{{localize "HELIANAS.EnchantingDC"}}</label>
+      <input type="number" name="system.enchantingDc" min="0" step="1" value="{{system.enchantingDc}}">
+    </div>
+
+    <div class="form-group">
+      <label>{{localize "HELIANAS.EnchantingTime"}}</label>
+      <input type="number" name="system.enchantingTimeHours" min="0" step="0.5" value="{{system.enchantingTimeHours}}">
+    </div>
+    {{/if}}
 
     <div class="form-group">
       <label>{{localize "HELIANAS.EssenceTierRequired"}}</label>
@@ -135,6 +178,7 @@
       </select>
     </div>
 
+    {{#unless isCooking}}
     <div class="form-group">
       <label>{{localize "HELIANAS.CreatureType"}}</label>
       <select name="system.componentCreatureType">
@@ -143,12 +187,14 @@
         {{/each}}
       </select>
     </div>
+    {{/unless}}
 
     <div class="form-group">
       <label>{{localize "HELIANAS.Rarity"}}</label>
       <input type="text" name="system.rarity" value="{{system.rarity}}" placeholder="common | uncommon | rare …">
     </div>
 
+    {{#if isForge}}
     <div class="form-group">
       <label>{{localize "HELIANAS.Attunement"}}</label>
       <select name="system.attunement">
@@ -157,6 +203,7 @@
         {{/each}}
       </select>
     </div>
+    {{/if}}
   </section>
 
 </form>

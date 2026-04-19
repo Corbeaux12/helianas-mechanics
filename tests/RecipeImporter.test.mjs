@@ -62,7 +62,7 @@ describe("parseCatalogueMarkdown", () => {
 describe("buildRecipeSystem", () => {
   it("maps a common catalogue row to manufacturing defaults", () => {
     const sys = buildRecipeSystem({ name: "Potion of Healing", rarity: "C", type: "Beast", component: "Fat" });
-    expect(sys.recipeType).toBe("enchanting");
+    expect(sys.recipeType).toBe("forge");
     expect(sys.resultName).toBe("Potion of Healing");
     expect(sys.dc).toBe(12);
     expect(sys.timeHours).toBe(1);
