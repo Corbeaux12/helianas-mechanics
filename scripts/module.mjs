@@ -148,12 +148,14 @@ async function migrateLegacyRecipes() {
 // ------------------------------------------------------------------ scene controls (toolbar)
 
 Hooks.on("getSceneControlButtons", (controls) => {
+  // Omit `activeTool` so Foundry does not auto-fire the default tool's
+  // onChange when the control group is first expanded, which would pop open
+  // the Crafting Workshop on every click of the hammer icon.
   controls["helianas-mechanics"] = {
     name:       "helianas-mechanics",
     title:      game.i18n.localize("HELIANAS.ModuleTitle"),
     icon:       "fa-solid fa-hammer",
-    layer:      "tokens",  // nearest valid canvas layer; sub-tools are buttons so no layer switch occurs on tool click
-    activeTool: "workshop",
+    layer:      "tokens",
     order:      20,
     tools: {
       workshop: {

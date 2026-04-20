@@ -31,5 +31,58 @@
       "path": "lang/en.json"
     }
   ],
+  "packs": [
+    {
+      "name": "mundane-items",
+      "label": "Heliana's Mundane Items",
+      "path": "packs/mundane-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "manufacturing-recipes",
+      "label": "Heliana's Manufacturing Recipes",
+      "path": "packs/manufacturing-recipes",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "forge-recipes",
+      "label": "Heliana's Forge Recipes",
+      "path": "packs/forge-recipes",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "cooking-recipes",
+      "label": "Heliana's Cooking Recipes",
+      "path": "packs/cooking-recipes",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "recipe-books",
+      "label": "Heliana's Recipe Books",
+      "path": "packs/recipe-books",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Heliana's Mechanics",
+      "sorting": "m",
+      "color": "#c84a00",
+      "packs": [
+        "mundane-items",
+        "recipe-books",
+        "manufacturing-recipes",
+        "forge-recipes",
+        "cooking-recipes"
+      ]
+    }
+  ],
   "flags": {}
 }

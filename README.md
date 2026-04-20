@@ -367,6 +367,35 @@ See [BulkTagger.mjs](scripts/crafting/BulkTagger.mjs).
 
 ---
 
+## Bundled compendiums
+
+The module ships five empty compendium packs grouped under a **Heliana's Mechanics** folder in the sidebar's Compendium tab. They're empty on install so each GM can fill them with their own content; import items/recipes from your world or another module into whichever pack fits.
+
+| Pack | Type | Purpose |
+|---|---|---|
+| Heliana's Mundane Items | Item (dnd5e) | Raw materials, tools, ingredients — anything a recipe consumes or produces at the manufacturing tier. |
+| Heliana's Recipe Books | Item (dnd5e) | Physical "book" items flagged with `isRecipeBook` + `recipeBookJournalUuid` that unlock a linked journal when a player reads them. |
+| Heliana's Manufacturing Recipes | JournalEntry | Journals whose pages are `helianas-mechanics.recipe` sub-type, type `manufacturing`. |
+| Heliana's Forge Recipes | JournalEntry | Same, type `forge`. These link to entries in the Manufacturing Recipes pack via `baseItemRecipeUuid`. |
+| Heliana's Cooking Recipes | JournalEntry | Same, type `cooking`. |
+
+All packs default to **Observer** for players and **Owner** for Assistant GMs, matching the rest of the sidebar UX. Foundry initializes the underlying LevelDB the first time you write to each pack, so no setup is required beyond enabling the module.
+
+To populate a pack:
+
+1. Author the item or recipe in your world (Items sidebar, or a Journal Entry with recipe pages).
+2. Right-click the document → **Import into Compendium** → pick the matching Heliana pack.
+3. Or drag the document straight onto the pack in the Compendium tab.
+
+For recipe-book Items, set the flags on the world copy *before* importing so the compendium entry carries them:
+
+```js
+await item.setFlag("helianas-mechanics", "isRecipeBook", true);
+await item.setFlag("helianas-mechanics", "recipeBookJournalUuid", "JournalEntry.xxxxxxxxxxxxxxxx");
+```
+
+---
+
 ## Module structure
 
 ```
