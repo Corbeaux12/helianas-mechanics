@@ -27,6 +27,46 @@
     {{#if system.componentCreatureType}}<div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.CreatureType"}}</span><span class="hm-stat__value">{{system.componentCreatureType}}</span></div>{{/if}}
   </section>
 
+  {{!-- ----- Forge: manufacturing process from base recipe ----- --}}
+  {{#if isForge}}{{#if baseRecipe}}
+  <section class="hm-recipe-view__section hm-recipe-view__mfg-section">
+    <h3 class="hm-recipe-view__heading">{{localize "HELIANAS.ManufacturingProcess"}}</h3>
+    <p class="hm-recipe-view__mfg-name">{{baseRecipe.name}}</p>
+    <div class="hm-recipe-view__stats">
+      <div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.DC"}}</span><span class="hm-stat__value">{{baseRecipe.dc}}</span></div>
+      <div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.Time"}}</span><span class="hm-stat__value">{{baseRecipe.timeHours}} {{localize "HELIANAS.Hours"}}</span></div>
+      {{#if baseRecipe.toolKey}}<div class="hm-stat"><span class="hm-stat__label">{{localize "HELIANAS.Tool"}}</span><span class="hm-stat__value">{{baseRecipe.toolKey}}{{#if baseRecipe.toolAbility}} ({{baseRecipe.toolAbility}}){{/if}}</span></div>{{/if}}
+    </div>
+    {{#if baseRecipe.ingredients.length}}
+    <div class="hm-ing-list hm-ing-list--view">
+      {{#each baseRecipe.ingredients}}
+      <div class="hm-ing-row hm-ing-row--view">
+        <div class="hm-ing-row__title">{{name}}</div>
+        <div class="hm-comp-grid hm-comp-grid--view">
+          {{#each components}}
+          <div class="hm-comp-card">
+            <div class="hm-slot hm-slot--comp hm-slot--view {{#unless img}}hm-slot--empty{{/unless}}"
+                 style="{{#if img}}background-image:url('{{img}}');{{/if}}"
+                 data-tooltip="{{name}}{{#if tags.length}} · {{#each tags}}{{this}} {{/each}}{{/if}}">
+              {{#unless img}}<i class="fa-solid fa-cube hm-slot__placeholder"></i>{{/unless}}
+              <span class="hm-slot__qty hm-slot__qty--view">×{{quantity}}</span>
+            </div>
+            <div class="hm-comp-card__name">{{name}}</div>
+            {{#if tags.length}}
+            <div class="hm-comp-card__tags">
+              {{#each tags}}<span class="hm-comp-card__tag">{{this}}</span>{{/each}}
+            </div>
+            {{/if}}
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    {{/if}}
+  </section>
+  {{/if}}{{/if}}
+
   {{!-- ----- Ingredients (image cards) ----- --}}
   {{#if system.ingredients.length}}
   <section class="hm-recipe-view__ingredients">

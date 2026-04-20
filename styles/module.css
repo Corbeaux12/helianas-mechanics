@@ -1121,6 +1121,18 @@
   line-height: 1.4;
 }
 
+/* --- Forge: manufacturing process sub-section --- */
+.hm-recipe-view__mfg-section {
+  border-top: 2px dashed var(--hm-border, #c9c7b8);
+  padding-top: 10px;
+}
+.hm-recipe-view__mfg-name {
+  margin: 0 0 6px;
+  font-size: 0.88rem;
+  font-style: italic;
+  color: var(--hm-muted, #888);
+}
+
 /* ---- Bulk Tagger ---- */
 
 .hm-bulk-tagger {

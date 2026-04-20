@@ -59,6 +59,7 @@
     "EnchantingPath":              "Enchanting",
     "ForgingPath":                 "Forging",
     "ForgeMissingBase":            "This forge recipe has no base manufacturing recipe linked.",
+    "ManufacturingProcess":        "Manufacturing Process",
     "TotalTime":                   "Total Time",
 
     "CraftingWorkshop": "Crafting Workshop",

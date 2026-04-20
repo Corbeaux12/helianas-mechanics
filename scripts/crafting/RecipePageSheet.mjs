@@ -2,6 +2,7 @@ import { TOOLS, ESSENCE_TIERS, CREATURE_TYPE_SKILLS, ABILITY_LABELS,
          MAGIC_RARITY_TABLE, MFG_ITEM_TABLE } from "./constants.mjs";
 import { editComponent } from "./ComponentEditForm.mjs";
 import { RECIPE_PAGE_TYPE } from "./Recipe.mjs";
+import { deriveTagsFromName } from "./ItemTagPanel.mjs";
 
 const Base = foundry.applications.sheets.journal.JournalEntryPageHandlebarsSheet;
 
@@ -322,8 +323,13 @@ export class RecipePageSheet extends Base {
     if (!page || page.type !== RECIPE_PAGE_TYPE) return null;
     return {
       uuid,
-      name: page.system?.resultName || page.name || "",
-      img:  page.system?.resultImg || "icons/svg/item-bag.svg",
+      name:        page.system?.resultName || page.name || "",
+      img:         page.system?.resultImg || "icons/svg/item-bag.svg",
+      dc:          page.system?.dc ?? 0,
+      timeHours:   page.system?.timeHours ?? 0,
+      toolKey:     page.system?.toolKey ?? "",
+      toolAbility: page.system?.toolAbility ?? "",
+      ingredients: page.system?.ingredients ?? [],
     };
   }
 
@@ -446,7 +452,9 @@ export class RecipePageSheet extends Base {
       const ingredients = foundry.utils.deepClone(this.document.system.ingredients);
       const ing = ingredients.find(i => i.id === ingId);
       if (!ing) return;
-      const itemTags = item.flags?.["helianas-mechanics"]?.tags;
+      const storedTags = item.flags?.["helianas-mechanics"]?.tags;
+      const storedArr = Array.isArray(storedTags) ? storedTags : [];
+      const tags = [...new Set([...storedArr, ...deriveTagsFromName(item.name)])];
       ing.components.push({
         id:           foundry.utils.randomID(),
         uuid:         item.uuid,
@@ -454,7 +462,7 @@ export class RecipePageSheet extends Base {
         nameMode:     "exact",
         img:          item.img,
         quantity:     1,
-        tags:         Array.isArray(itemTags) ? [...itemTags] : [],
+        tags,
         mode:         "some",
         resourcePath: "",
       });
