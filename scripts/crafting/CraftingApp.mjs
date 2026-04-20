@@ -453,6 +453,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       recipeName:     recipe.name,
       recipeType:     recipe.recipeType ?? this._activeTab,
       forgePath:      path,
+      resultUuid:     recipe.data.resultUuid ?? "",
       resultItemData: { name: recipe.name, img: recipe.img, type: "equipment" },
       quirks:          allFlaws,
       boons:           allBoons,

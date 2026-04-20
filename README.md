@@ -149,7 +149,7 @@ Some tools accept more than one ability (e.g. Carpenter's = STR **or** DEX, Smit
 
 The **Crafter** and **Inventory Holder** can be the same actor (default) or different. Use different actors when, e.g., a PC crafts with supplies from the party stash NPC, or a blacksmith NPC crafts for a PC.
 
-Speaker on the chat message is the Crafter; the crafted item appears on the Inventory Holder.
+Speaker on the chat message is the Crafter; the crafted item appears on the Inventory Holder. When a recipe's result slot is linked to a world or compendium item, the completed craft **clones that source item in full** — name, image, system data (description, activities, damage, saving throws, etc.), and existing effects — so the player receives the real item rather than a placeholder. The module only layers its own flags (quirks, boons, recipe type) and, for cooking, the 1-hour boon/flaw Active Effects on top.
 
 ### Essences
 

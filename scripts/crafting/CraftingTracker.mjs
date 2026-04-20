@@ -95,15 +95,37 @@ export class CraftingTracker extends HandlebarsApplicationMixin(ApplicationV2) {
     const isCooking = craft.recipeType === "cooking";
     const effects   = isCooking ? buildCookingEffects(craft.boons, craft.quirks) : [];
 
-    await actor.createEmbeddedDocuments("Item", [{
-      ...craft.resultItemData,
-      ...(isCooking ? { type: "consumable" } : {}),
-      effects,
-      flags: { [MODULE_ID]: {
+    // Clone the recipe's linked result item so the player receives a real copy
+    // — description, activities, damage, etc. all come along. When no UUID is
+    // linked (legacy crafts or authored-by-hand recipes), fall back to the
+    // stored name/img snapshot.
+    let base = null;
+    if (craft.resultUuid) {
+      const source = await fromUuid(craft.resultUuid).catch(() => null);
+      if (source) {
+        base = source.toObject();
+        delete base._id;
+        delete base.folder;
+        delete base.sort;
+        delete base.ownership;
+      }
+    }
+    if (!base) base = { ...craft.resultItemData };
+
+    const mergedFlags = foundry.utils.mergeObject(base.flags ?? {}, {
+      [MODULE_ID]: {
         quirks:     craft.quirks,
         boons:      craft.boons,
         recipeType: craft.recipeType ?? null,
-      } },
+      },
+    });
+    const mergedEffects = [...(base.effects ?? []), ...effects];
+
+    await actor.createEmbeddedDocuments("Item", [{
+      ...base,
+      ...(isCooking ? { type: "consumable" } : {}),
+      effects: mergedEffects,
+      flags:   mergedFlags,
     }]);
 
     const flawList = craft.quirks?.length

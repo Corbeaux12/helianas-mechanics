@@ -2,7 +2,7 @@
   "id": "helianas-mechanics",
   "title": "Heliana's Mechanics",
   "description": "A Foundry VTT module providing mechanics from Heliana's Guide to Monster Hunting.",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
