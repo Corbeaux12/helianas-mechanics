@@ -1,4 +1,4 @@
-import { MODULE_ID, TOOLS, ESSENCE_TIERS, ABILITY_LABELS, CREATURE_TYPE_SKILLS } from "./constants.mjs";
+import { MODULE_ID, TOOLS, ESSENCE_TIERS, ESSENCE_TIER_ORDER, ABILITY_LABELS, CREATURE_TYPE_SKILLS } from "./constants.mjs";
 import { RecipeManager } from "./RecipeManager.mjs";
 import { QuirkEngine } from "./QuirkEngine.mjs";
 
@@ -12,8 +12,8 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     actions: {
       selectRecipe:    CraftingApp.#selectRecipe,
       switchTab:       CraftingApp.#switchTab,
+      switchPath:      CraftingApp.#switchPath,
       selectComponent: CraftingApp.#selectComponent,
-      clearEssence:    CraftingApp.#clearEssence,
       craftItem:       CraftingApp.#craftItem,
     },
   };
@@ -30,10 +30,12 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
   static open() { CraftingApp.instance.render({ force: true }); }
 
-  /** @type {"manufacturing"|"enchanting"|"forging"|"cooking"} */
+  /** @type {"manufacturing"|"cooking"|"forge"} */
   _activeTab = "manufacturing";
   /** @type {string|null} "${journalId}.${pageId}" */
   _selectedId = null;
+  /** @type {"enchanting"|"forging"} */
+  _activePath = "enchanting";
   _searchQuery = "";
   /** @type {{ name: string, tier: string, uuid: string }|null} */
   _slottedEssence = null;
@@ -58,7 +60,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   // ------------------------------------------------------------------ context
 
-  _prepareContext(options) {
+  async _prepareContext(options) {
     const allRecipes = RecipeManager.getUnlockedRecipes();
     const tabRecipes = allRecipes[this._activeTab] ?? [];
 
@@ -88,7 +90,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       actors,
       craftingActorId:  craftingActor?.id ?? "",
       inventoryActorId: inventoryActor?.id ?? "",
-      detail: selectedRecipe ? this._buildDetail(selectedRecipe, inventoryActor) : null,
+      detail: selectedRecipe ? await this._buildDetail(selectedRecipe, inventoryActor) : null,
     };
   }
 
@@ -96,17 +98,27 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     return `${recipe.page.parent?.id ?? "j"}.${recipe.page.id}`;
   }
 
-  _buildDetail(recipe, inventoryActor) {
-    const type         = recipe.recipeType;
-    const isEnchanting = type === "enchanting";
-    const isForging    = type === "forging";
-    const isCooking    = type === "cooking";
-    // Enchanting and forging both require an essence (forging = tool + spellcasting).
-    const essenceRequired = isEnchanting || isForging;
-    const toolEntry    = TOOLS[recipe.toolKey];
-    const selections   = this._componentSelections[this._selectedId] ?? {};
+  async _buildDetail(recipe, inventoryActor) {
+    const type       = recipe.recipeType;
+    const isForge    = type === "forge";
+    const isCooking  = type === "cooking";
+    const selections = this._componentSelections[this._selectedId] ?? {};
 
-    const evaluated = recipe.evaluate(inventoryActor, selections);
+    // Forge recipes need their linked base manufacturing recipe to supply either
+    // the base item (enchanting path) or the raw materials (forging path).
+    let baseRecipe = null;
+    let missingBaseRecipe = false;
+    if (isForge) {
+      baseRecipe = await recipe.resolveBaseRecipe();
+      if (!baseRecipe) missingBaseRecipe = true;
+    }
+
+    const path = isForge ? this._activePath : null;
+    const effectiveList = isForge
+      ? recipe.effectiveIngredients(path, baseRecipe)
+      : recipe.ingredients;
+
+    const evaluated = recipe.evaluateList(effectiveList, inventoryActor, selections);
 
     const ingredients = evaluated.map(({ ingredient, components, selectedId }) => ({
       id:         ingredient.id,
@@ -125,65 +137,184 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       })),
     }));
 
-    const allAvailable = evaluated.every(e => {
+    const allAvailable = !missingBaseRecipe && evaluated.every(e => {
       const sel = e.components.find(c => c.id === e.selectedId);
       return sel && sel.inventoryQuantity >= sel.quantity;
     });
+
+    const essenceRequired = isForge;
 
     const maxBoons = this._slottedEssence
       ? (ESSENCE_TIERS[this._slottedEssence.tier]?.maxBoons ?? 0)
       : 0;
 
+    // Path-specific DC / time / formulas / labels for forge recipes.
+    let dc, timeHours, toolLabel, abilityLabel, rollFormula, actionLabel;
+    let mfgStats = null, encStats = null;
+
+    if (isForge) {
+      const mfgDc        = baseRecipe?.dc ?? recipe.dc;
+      const mfgTime      = baseRecipe?.timeHours ?? recipe.timeHours;
+      const mfgTool      = TOOLS[baseRecipe?.toolKey];
+      const mfgAbil      = this._toolAbilitiesLabel(baseRecipe?.toolKey);
+      const mfgToolLabel = mfgTool?.label ?? baseRecipe?.toolKey ?? "";
+
+      const encDc      = recipe.enchantingDc;
+      const encTime    = recipe.enchantingTimeHours;
+      // Pure enchanting path uses spellcasting; forging-path "enchanting" check
+      // uses the same tool ability + prof as the manufacturing check.
+      const pureEncFormula    = this._enchantingFormula(recipe);
+      const forgingEncFormula = this._forgingEnchantingFormula(recipe, baseRecipe);
+      const mfgFormula        = this._manufacturingFormula(baseRecipe);
+
+      mfgStats = { dc: mfgDc, timeHours: mfgTime, toolLabel: mfgToolLabel, abilityLabel: mfgAbil, formula: mfgFormula };
+      encStats = {
+        dc:        encDc,
+        timeHours: encTime,
+        formula:   path === "forging" ? forgingEncFormula : pureEncFormula,
+      };
+
+      if (path === "enchanting") {
+        dc           = encDc;
+        timeHours    = encTime;
+        toolLabel    = "";
+        abilityLabel = "";
+        rollFormula  = pureEncFormula;
+        actionLabel  = game.i18n.localize("HELIANAS.EnchantItem");
+      } else {
+        dc           = mfgDc;
+        timeHours    = Math.max(mfgTime, encTime);
+        toolLabel    = mfgToolLabel;
+        abilityLabel = mfgAbil;
+        rollFormula  = this._forgeFormula(recipe, baseRecipe);
+        actionLabel  = game.i18n.localize("HELIANAS.ForgeItem");
+      }
+    } else {
+      const toolEntry = TOOLS[recipe.toolKey];
+      dc           = recipe.dc;
+      timeHours    = recipe.timeHours;
+      toolLabel    = toolEntry?.label ?? recipe.toolKey;
+      abilityLabel = this._toolAbilitiesLabel(recipe.toolKey);
+      rollFormula  = this._rollFormula(recipe);
+      actionLabel  = this._actionLabel(type);
+    }
+
     return {
       type,
-      isEnchanting,
-      isForging,
+      isForge,
       isCooking,
-      actionLabel:    this._actionLabel(type),
+      activePath:       path,
+      isEnchantingPath: isForge && path === "enchanting",
+      isForgingPath:    isForge && path === "forging",
+      missingBaseRecipe,
+      actionLabel,
       name:           recipe.name,
       img:            recipe.img,
-      dc:             recipe.dc,
-      timeHours:      recipe.timeHours,
-      toolLabel:      toolEntry?.label ?? recipe.toolKey,
-      abilityLabel:   ABILITY_LABELS[recipe.toolAbility] ?? (recipe.toolAbility ?? "").toUpperCase(),
-      rollFormula:    this._rollFormula(recipe),
+      dc,
+      timeHours,
+      toolLabel,
+      abilityLabel,
+      rollFormula,
+      mfgStats,
+      encStats,
       ingredients,
       allAvailable,
       rarity:         recipe.rarity,
       attunement:     recipe.attunement,
       essenceRequired,
       maxBoons,
-      slottedEssence: this._slottedEssence,
+      slottedEssence:    this._slottedEssence,
+      essenceOptions:    this._collectEssenceOptions(inventoryActor, recipe.essenceTierRequired),
+      requiredTierLabel: ESSENCE_TIERS[recipe.essenceTierRequired]?.label ?? "",
     };
+  }
+
+  /**
+   * Build a select-friendly list of essences in an actor's inventory. An item
+   * counts as an essence when it has flags["helianas-mechanics"].isEssence or
+   * carries the "essence" crafting tag. Tier (and a max-boons hint) is read
+   * from flags["helianas-mechanics"].essenceTier when present.
+   *
+   * When `minTier` is set, essences whose tier ranks below it are filtered out
+   * so the player can only pick something at or above the recipe's minimum.
+   */
+  _collectEssenceOptions(actor, minTier = "") {
+    if (!actor?.items) return [];
+    const items = actor.items.contents ?? Array.from(actor.items);
+    const minRank = ESSENCE_TIER_ORDER[minTier] ?? 0;
+    const out = [];
+    for (const item of items) {
+      const flags = item.flags?.[MODULE_ID] ?? {};
+      const tags  = Array.isArray(flags.tags) ? flags.tags : [];
+      const isEssence = flags.isEssence === true || tags.includes("essence");
+      if (!isEssence) continue;
+      const tier      = tags[0] ?? "";
+      const rank      = ESSENCE_TIER_ORDER[tier] ?? 0;
+      if (rank < minRank) continue;
+      const tierLabel = ESSENCE_TIERS[tier]?.label ?? "";
+      const qty       = Number(item.system?.quantity ?? 1);
+      const suffix    = [tierLabel, qty > 1 ? `×${qty}` : null].filter(Boolean).join(" · ");
+      out.push({
+        uuid:  item.uuid,
+        name:  item.name,
+        tier,
+        label: suffix ? `${item.name} (${suffix})` : item.name,
+      });
+    }
+    return out.sort((a, b) => a.label.localeCompare(b.label));
   }
 
   _actionLabel(type) {
     switch (type) {
-      case "enchanting": return game.i18n.localize("HELIANAS.EnchantItem");
-      case "forging":    return game.i18n.localize("HELIANAS.ForgeItem");
-      case "cooking":    return game.i18n.localize("HELIANAS.CookMeal");
-      default:           return game.i18n.localize("HELIANAS.CraftItem");
+      case "forge":   return game.i18n.localize("HELIANAS.ForgeItem");
+      case "cooking": return game.i18n.localize("HELIANAS.CookMeal");
+      default:        return game.i18n.localize("HELIANAS.CraftItem");
     }
   }
 
   _rollFormula(recipe) {
-    const ability = ABILITY_LABELS[recipe.toolAbility] ?? "MOD";
+    // manufacturing / cooking — single tool-ability check.
+    return this._manufacturingFormula(recipe);
+  }
+
+  /**
+   * Joined ability label for a tool, e.g. "STR or DEX". Falls back to the
+   * generic "MOD" placeholder when the tool key is empty/unknown.
+   */
+  _toolAbilitiesLabel(toolKey) {
+    const abilities = TOOLS[toolKey]?.abilities;
+    if (!abilities?.length) return "MOD";
+    return abilities.map(a => ABILITY_LABELS[a] ?? a.toUpperCase()).join(" or ");
+  }
+
+  _manufacturingFormula(recipe) {
+    if (!recipe) return "";
+    const ability = this._toolAbilitiesLabel(recipe.toolKey);
     const tool    = TOOLS[recipe.toolKey]?.label ?? recipe.toolKey ?? "Tool";
-
-    if (recipe.recipeType === "enchanting") {
-      const skill        = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
-      const creatureType = recipe.componentCreatureType ?? "";
-      return `1d20 + Spellcasting mod + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
-    }
-
-    if (recipe.recipeType === "forging") {
-      const skill        = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
-      const creatureType = recipe.componentCreatureType ?? "";
-      return `1d20 + ${ability} mod + Prof (${tool}) + Spellcasting mod + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
-    }
-
-    // manufacturing / cooking both resolve as a single tool-ability check.
     return `1d20 + ${ability} mod + Prof (${tool})`;
+  }
+
+  _enchantingFormula(recipe) {
+    const skill        = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
+    const creatureType = recipe.componentCreatureType ?? "";
+    return `1d20 + Spellcasting mod + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
+  }
+
+  /**
+   * Forging path "enchanting" check: spellcasters and non-spellcasters alike
+   * roll the tool's ability + proficiency, plus the creature-type skill.
+   */
+  _forgingEnchantingFormula(recipe, baseRecipe) {
+    if (!baseRecipe) return "";
+    const ability      = this._toolAbilitiesLabel(baseRecipe.toolKey);
+    const tool         = TOOLS[baseRecipe.toolKey]?.label ?? baseRecipe.toolKey ?? "Tool";
+    const skill        = CREATURE_TYPE_SKILLS[recipe.componentCreatureType?.toLowerCase()] ?? "Skill";
+    const creatureType = recipe.componentCreatureType ?? "";
+    return `1d20 + ${ability} mod + Prof (${tool}) + ${skill}${creatureType ? ` (${creatureType})` : ""}`;
+  }
+
+  _forgeFormula(recipe, baseRecipe) {
+    return this._forgingEnchantingFormula(recipe, baseRecipe);
   }
 
   // ------------------------------------------------------------------ actions
@@ -192,6 +323,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const id = target.closest("[data-recipe-id]")?.dataset.recipeId ?? target.dataset.recipeId;
     this._selectedId     = id === this._selectedId ? null : id;
     this._slottedEssence = null;
+    this._activePath     = "enchanting";
     this.render();
   }
 
@@ -199,6 +331,14 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     this._activeTab      = target.dataset.tab;
     this._selectedId     = null;
     this._slottedEssence = null;
+    this._activePath     = "enchanting";
+    this.render();
+  }
+
+  static #switchPath(event, target) {
+    const path = target.dataset.path;
+    if (path !== "enchanting" && path !== "forging") return;
+    this._activePath = path;
     this.render();
   }
 
@@ -211,19 +351,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     this.render();
   }
 
-  static #clearEssence() {
-    this._slottedEssence = null;
-    this.render();
-  }
-
   static async #craftItem() {
-    const rollInput = this.element.querySelector(".hm-roll-input");
-    const rollResult = parseInt(rollInput?.value ?? "");
-    if (isNaN(rollResult)) {
-      ui.notifications.warn(game.i18n.localize("HELIANAS.EnterRollFirst"));
-      return;
-    }
-
     const craftingActor  = this._craftingActor();
     const inventoryActor = this._inventoryActor();
     if (!craftingActor || !inventoryActor) {
@@ -236,14 +364,58 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       .find(r => this._recipeKey(r) === this._selectedId);
     if (!recipe) return;
 
+    const isForge = recipe.recipeType === "forge";
+    let baseRecipe = null;
+    if (isForge) {
+      baseRecipe = await recipe.resolveBaseRecipe();
+      if (!baseRecipe) {
+        ui.notifications.warn(game.i18n.localize("HELIANAS.ForgeMissingBase"));
+        return;
+      }
+    }
+
+    const path = isForge ? this._activePath : null;
+    const isForgingPath = isForge && path === "forging";
+
+    // Forging path runs two checks (manufacturing + enchanting); every other
+    // path is a single check. Each entry: { label, dc, roll, quirkType }.
+    const checks = isForgingPath
+      ? [
+          { label: game.i18n.localize("HELIANAS.Manufacturing"),
+            dc:    baseRecipe?.dc ?? recipe.dc,
+            roll:  this._readRollInput(".hm-roll-input--mfg"),
+            quirkType: "manufacturing" },
+          { label: game.i18n.localize("HELIANAS.Enchanting"),
+            dc:    recipe.enchantingDc,
+            roll:  this._readRollInput(".hm-roll-input--enc"),
+            quirkType: "enchanting" },
+        ]
+      : [
+          { label: "",
+            dc:    isForge ? recipe.enchantingDc : recipe.dc,
+            roll:  this._readRollInput(".hm-roll-input"),
+            quirkType: isForge ? "enchanting" : (recipe.recipeType ?? this._activeTab) },
+        ];
+
+    if (checks.some(c => c.roll === null)) {
+      ui.notifications.warn(game.i18n.localize("HELIANAS.EnterRollFirst"));
+      return;
+    }
+
+    const effectiveList = isForge
+      ? recipe.effectiveIngredients(path, baseRecipe)
+      : recipe.ingredients;
     const selections  = this._componentSelections[this._selectedId] ?? {};
     const essenceTier = this._slottedEssence?.tier ?? null;
-    const recipeType  = recipe.recipeType ?? this._activeTab;
-    const quirks      = QuirkEngine.calculateQuirks(rollResult, recipe.dc, essenceTier, recipeType);
 
-    if (quirks.destroyed) {
-      // Destroyed on catastrophic failure — still consume materials
-      await recipe.consumeIngredients(inventoryActor, selections);
+    const results = checks.map(c => ({
+      ...c,
+      delta:  c.roll - c.dc,
+      quirks: QuirkEngine.calculateQuirks(c.roll, c.dc, essenceTier, c.quirkType),
+    }));
+
+    if (results.some(r => r.quirks.destroyed)) {
+      await recipe.consumeFromList(effectiveList, inventoryActor, selections);
       ChatMessage.create({
         content: CraftingApp._chatHtml(
           `⚒ ${recipe.name} — ${game.i18n.localize("HELIANAS.ItemDestroyed")}`,
@@ -257,13 +429,21 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       return;
     }
 
-    const warnings = await recipe.consumeIngredients(inventoryActor, selections);
+    const warnings = await recipe.consumeFromList(effectiveList, inventoryActor, selections);
 
-    // Build a text summary of consumed components for chat
-    const consumedText = recipe.ingredients.map(ing => {
+    const consumedText = effectiveList.map(ing => {
       const c = ing.getComponent(selections[ing.id]) ?? ing.components[0];
       return c ? `${c.name} ×${c.quantity}` : ing.name;
     }).join(", ") || "—";
+
+    const totalHours = isForge
+      ? (path === "enchanting"
+          ? recipe.enchantingTimeHours
+          : Math.max(baseRecipe?.timeHours ?? 0, recipe.enchantingTimeHours))
+      : recipe.timeHours;
+
+    const allFlaws = results.flatMap(r => r.quirks.flaws);
+    const allBoons = results.flatMap(r => r.quirks.boons);
 
     const crafts = game.settings.get(MODULE_ID, "activeCrafts") ?? [];
     crafts.push({
@@ -271,31 +451,33 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       userId:         game.user.id,
       actorId:        inventoryActor.id,
       recipeName:     recipe.name,
-      recipeType,
-      resultItemData: {
-        name: recipe.name,
-        img:  recipe.img,
-        type: "equipment",
-      },
-      quirks:          quirks.flaws,
-      boons:           quirks.boons,
-      totalHours:      recipe.timeHours,
+      recipeType:     recipe.recipeType ?? this._activeTab,
+      forgePath:      path,
+      resultUuid:     recipe.data.resultUuid ?? "",
+      resultItemData: { name: recipe.name, img: recipe.img, type: "equipment" },
+      quirks:          allFlaws,
+      boons:           allBoons,
+      totalHours,
       completedHours:  0,
     });
     await game.settings.set(MODULE_ID, "activeCrafts", crafts);
 
-    const delta       = rollResult - recipe.dc;
-    const sign        = delta >= 0 ? "+" : "";
-    const flawList    = quirks.flaws.length
-      ? quirks.flaws.map(f => `<li><strong>${f.name}:</strong> ${f.effect}</li>`).join("")
-      : `<li>${game.i18n.localize("HELIANAS.NoFlaws")}</li>`;
-    const boonList    = quirks.boons.length
-      ? quirks.boons.map(b => `<li><strong>${b.name}:</strong> ${b.effect}</li>`).join("")
-      : `<li>${game.i18n.localize("HELIANAS.NoBoons")}</li>`;
-    const warnHtml    = warnings.length
+    const checkLines = results.map(r => {
+      const sign = r.delta >= 0 ? "+" : "";
+      const head = r.label ? `<strong>${r.label}</strong> · ` : "";
+      return `<p>${head}<strong>Roll:</strong> ${r.roll} · <strong>DC:</strong> ${r.dc} · <strong>Δ:</strong> ${sign}${r.delta}</p>`;
+    }).join("");
+
+    const renderQuirkList = (entries, emptyKey) => entries.length
+      ? entries.map(e => `<li><strong>${e.name}:</strong> ${e.effect}</li>`).join("")
+      : `<li>${game.i18n.localize(emptyKey)}</li>`;
+
+    const flawList = renderQuirkList(allFlaws, "HELIANAS.NoFlaws");
+    const boonList = renderQuirkList(allBoons, "HELIANAS.NoBoons");
+    const warnHtml = warnings.length
       ? `<p class="hm-warning">⚠ ${game.i18n.format("HELIANAS.MaterialWarning", { items: warnings.join(", ") })}</p>`
       : "";
-    const actorsLine  = craftingActor.id === inventoryActor.id
+    const actorsLine = craftingActor.id === inventoryActor.id
       ? ""
       : `<p><em>${game.i18n.format("HELIANAS.ActorsLine", { crafter: craftingActor.name, holder: inventoryActor.name })}</em></p>`;
 
@@ -303,8 +485,8 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       content: CraftingApp._chatHtml(
         `⚒ ${recipe.name} — ${game.i18n.localize("HELIANAS.CraftStarted")}`,
         `${actorsLine}
-         <p><strong>Roll:</strong> ${rollResult} · <strong>DC:</strong> ${recipe.dc} · <strong>Δ:</strong> ${sign}${delta}</p>
-         <p><strong>${game.i18n.localize("HELIANAS.TimeRequired")}:</strong> ${recipe.timeHours} ${game.i18n.localize("HELIANAS.Hours")}</p>
+         ${checkLines}
+         <p><strong>${game.i18n.localize("HELIANAS.TimeRequired")}:</strong> ${totalHours} ${game.i18n.localize("HELIANAS.Hours")}</p>
          <p><strong>${game.i18n.localize("HELIANAS.Flaws")}:</strong></p><ul>${flawList}</ul>
          <p><strong>${game.i18n.localize("HELIANAS.Boons")}:</strong></p><ul>${boonList}</ul>
          <hr><p><strong>${game.i18n.localize("HELIANAS.MaterialsConsumed")}:</strong> ${consumedText}</p>
@@ -318,6 +500,14 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
     this.render();
 
     Hooks.callAll("helianas:craftStarted");
+  }
+
+  /** Returns the parsed roll value for a selector, or null when blank/invalid. */
+  _readRollInput(selector) {
+    const raw = this.element.querySelector(selector)?.value;
+    if (raw === undefined || raw === null || raw === "") return null;
+    const n = parseInt(raw, 10);
+    return Number.isNaN(n) ? null : n;
   }
 
   static _chatHtml(title, body) {
@@ -345,28 +535,25 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       this.render();
     });
 
-    const dropZone = el.querySelector(".hm-essence-drop");
-    if (dropZone) {
-      dropZone.addEventListener("dragover", e => e.preventDefault());
-      dropZone.addEventListener("drop", e => this._onDropEssence(e));
-    }
+    el.querySelector(".hm-essence-select")?.addEventListener("change", e => {
+      this._onSelectEssence(e.target.value);
+    });
   }
 
-  async _onDropEssence(event) {
-    event.preventDefault();
-    let data;
-    try { data = JSON.parse(event.dataTransfer.getData("text/plain")); } catch { return; }
-    if (data.type !== "Item") return;
-
-    const item = await fromUuid(data.uuid);
-    if (!item) return;
-
-    const flags = item.flags?.[MODULE_ID];
-    if (!flags?.isEssence) {
-      ui.notifications.warn(game.i18n.localize("HELIANAS.NotAnEssence"));
+  async _onSelectEssence(uuid) {
+    if (!uuid) {
+      this._slottedEssence = null;
+      this.render();
       return;
     }
-    this._slottedEssence = { name: item.name, tier: flags.essenceTier, uuid: item.uuid };
+    const item = await fromUuid(uuid);
+    if (!item) {
+      this._slottedEssence = null;
+      this.render();
+      return;
+    }
+    const flags = item.flags?.[MODULE_ID] ?? {};
+    this._slottedEssence = { name: item.name, tier: flags.essenceTier ?? "", uuid };
     this.render();
   }
 }

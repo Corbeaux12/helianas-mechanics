@@ -23,23 +23,30 @@ describe("MODULE_ID", () => {
 });
 
 describe("TOOLS", () => {
-  it("every entry has a label and ability", () => {
+  it("every entry has a label and a non-empty abilities array", () => {
     for (const [key, tool] of Object.entries(TOOLS)) {
       expect(tool, `${key} missing label`).toHaveProperty("label");
-      expect(tool, `${key} missing ability`).toHaveProperty("ability");
+      expect(Array.isArray(tool.abilities), `${key}.abilities is not an array`).toBe(true);
+      expect(tool.abilities.length, `${key}.abilities is empty`).toBeGreaterThan(0);
     }
   });
 
   it("all abilities are valid 5e stat abbreviations", () => {
     const valid = new Set(["str", "dex", "con", "int", "wis", "cha"]);
     for (const [key, tool] of Object.entries(TOOLS)) {
-      expect(valid.has(tool.ability), `${key} has invalid ability '${tool.ability}'`).toBe(true);
+      for (const a of tool.abilities) {
+        expect(valid.has(a), `${key} has invalid ability '${a}'`).toBe(true);
+      }
     }
   });
 
-  it("includes smiths-tools", () => {
+  it("smiths-tools accepts CON or STR", () => {
     expect(TOOLS["smiths-tools"]).toBeDefined();
-    expect(TOOLS["smiths-tools"].ability).toBe("str");
+    expect(TOOLS["smiths-tools"].abilities).toEqual(["con", "str"]);
+  });
+
+  it("carpenters-tools accepts DEX or STR", () => {
+    expect(TOOLS["carpenters-tools"].abilities).toEqual(["dex", "str"]);
   });
 });
 

@@ -7,6 +7,7 @@ import { RECIPE_PAGE_TYPE } from "./crafting/Recipe.mjs";
 import { attachItemTagControl, deriveTagsFromName } from "./crafting/ItemTagPanel.mjs";
 import { RecipeImporter } from "./crafting/RecipeImporter.mjs";
 import { RecipeBrowser } from "./crafting/RecipeBrowser.mjs";
+import { BulkTagger } from "./crafting/BulkTagger.mjs";
 
 // ------------------------------------------------------------------ init hook
 
@@ -51,7 +52,7 @@ Hooks.once("ready", async () => {
 
   // Public API for macros: game.modules.get("helianas-mechanics").api.RecipeImporter
   const moduleRef = game.modules.get(MODULE_ID);
-  if (moduleRef) moduleRef.api = { RecipeImporter, RecipeBrowser };
+  if (moduleRef) moduleRef.api = { RecipeImporter, RecipeBrowser, BulkTagger };
 
   // One-shot migration: convert legacy flag-based recipes to new sub-type pages
   if (game.user.isGM) await migrateLegacyRecipes();
@@ -104,7 +105,7 @@ async function migrateLegacyRecipes() {
         name: old.resultItemName ?? p.name,
         type: RECIPE_PAGE_TYPE,
         system: {
-          recipeType:     old.type === "enchanting" ? "enchanting" : "manufacturing",
+          recipeType:     "manufacturing",
           resultName:     old.resultItemName ?? "",
           resultImg:      old.resultItemImg ?? "",
           resultUuid:     old.resultItemUuid ?? "",
@@ -147,12 +148,14 @@ async function migrateLegacyRecipes() {
 // ------------------------------------------------------------------ scene controls (toolbar)
 
 Hooks.on("getSceneControlButtons", (controls) => {
+  // Omit `activeTool` so Foundry does not auto-fire the default tool's
+  // onChange when the control group is first expanded, which would pop open
+  // the Crafting Workshop on every click of the hammer icon.
   controls["helianas-mechanics"] = {
     name:       "helianas-mechanics",
     title:      game.i18n.localize("HELIANAS.ModuleTitle"),
     icon:       "fa-solid fa-hammer",
-    layer:      "tokens",  // nearest valid canvas layer; sub-tools are buttons so no layer switch occurs on tool click
-    activeTool: "workshop",
+    layer:      "tokens",
     order:      20,
     tools: {
       workshop: {
@@ -179,6 +182,14 @@ Hooks.on("getSceneControlButtons", (controls) => {
           button:   true,
           order:    3,
           onChange: () => RecipeBrowser.open(),
+        },
+        bulkTagger: {
+          name:     "bulkTagger",
+          title:    game.i18n.localize("HELIANAS.BulkTaggerTitle"),
+          icon:     "fa-solid fa-tags",
+          button:   true,
+          order:    4,
+          onChange: () => BulkTagger.open(),
         },
       } : {}),
     },

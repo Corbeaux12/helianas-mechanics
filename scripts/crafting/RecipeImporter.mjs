@@ -84,15 +84,18 @@ export function buildRecipeSystem(row, resolved = null) {
   const componentName = cleanComponentName(row.component ?? "");
 
   return {
-    recipeType:     "enchanting",
-    resultName:     resolved?.name ?? row.name,
-    resultImg:      resolved?.img ?? "",
-    resultUuid:     resolved?.uuid ?? "",
-    resultQuantity: 1,
-    dc:             meta.dc,
-    timeHours:      meta.hours,
-    toolKey:        "",
-    toolAbility:    "",
+    recipeType:         "forge",
+    baseItemRecipeUuid: "",
+    resultName:         resolved?.name ?? row.name,
+    resultImg:          resolved?.img ?? "",
+    resultUuid:         resolved?.uuid ?? "",
+    resultQuantity:     1,
+    dc:                 meta.dc,
+    timeHours:          meta.hours,
+    enchantingDc:       meta.dc,
+    enchantingTimeHours: meta.hours,
+    toolKey:            "",
+    toolAbility:        "",
     ingredients: componentName ? [{
       id:   foundry.utils.randomID(),
       name: "Monster Component",

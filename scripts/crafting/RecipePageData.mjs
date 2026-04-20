@@ -25,7 +25,7 @@ function ingredientSchema() {
 export class RecipePageData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
-      recipeType:     new StringField({ choices: ["manufacturing", "enchanting", "forging", "cooking"], initial: "manufacturing" }),
+      recipeType:     new StringField({ choices: ["manufacturing", "cooking", "forge"], initial: "manufacturing" }),
       resultName:     new StringField({ required: true, blank: true, initial: "" }),
       resultImg:      new StringField({ required: false, blank: true, initial: "" }),
       resultUuid:     new StringField({ required: false, blank: true, initial: "" }),
@@ -42,6 +42,10 @@ export class RecipePageData extends foundry.abstract.TypeDataModel {
       componentCreatureType: new StringField({ required: false, blank: true, initial: "" }),
       rarity:                new StringField({ required: false, blank: true, initial: "" }),
       attunement:            new StringField({ required: false, blank: true, initial: "none" }),
+
+      baseItemRecipeUuid:  new StringField({ required: false, blank: true, initial: "" }),
+      enchantingDc:        new NumberField({ integer: true, min: 0, initial: 15 }),
+      enchantingTimeHours: new NumberField({ nullable: false, min: 0, initial: 8 }),
     };
   }
 }

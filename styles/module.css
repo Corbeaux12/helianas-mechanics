@@ -2,6 +2,8 @@
    Heliana's Mechanics — module stylesheet
    ============================================================ */
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+
 :root, .app.helianas-mechanics, .application.helianas-mechanics {
   --hm-accent:        #c84a00;
   --hm-accent-soft:   rgba(200, 74, 0, 0.12);
@@ -14,6 +16,24 @@
   --hm-ink-soft:      var(--color-text-dark-secondary, #4b4a44);
   --hm-shadow:        0 1px 2px rgba(0, 0, 0, 0.08);
   --hm-radius:        5px;
+  --hm-ok:            #2d8a4e;
+  --hm-ok-soft:       rgba(45, 138, 78, 0.10);
+  --hm-neutral-soft:  rgba(0, 0, 0, 0.05);
+  --hm-font:          "Nunito", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Scope the softer font to our own surfaces so we don't restyle Foundry. */
+.application.helianas-mechanics,
+.hm-crafting-app,
+.hm-recipe-edit,
+.hm-recipe-view,
+.hm-tracker,
+.hm-recipe-browser,
+.hm-bulk-tagger,
+.hm-recipe-book-banner,
+.hm-tag-dialog,
+.hm-chat-message {
+  font-family: var(--hm-font);
 }
 
 /* ---- Crafting Workshop layout ---- */
@@ -211,10 +231,10 @@
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
 }
-.hm-component:hover { background: var(--hm-accent-soft); }
+.hm-component:hover { background: var(--hm-neutral-soft); }
 .hm-component--selected {
-  border-color: var(--hm-accent);
-  background: var(--hm-accent-soft);
+  border-color: var(--hm-ok);
+  background: var(--hm-ok-soft);
 }
 .hm-component__icon {
   width: 24px;
@@ -280,6 +300,75 @@
 }
 .hm-stat > span:first-child { color: var(--color-text-dark-secondary, #4b4a44); }
 
+/* ---- Forge path toggle ---- */
+
+.hm-path-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface);
+}
+.hm-path-btn {
+  flex: 1;
+  padding: 5px 8px;
+  font-size: 0.82rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  color: var(--hm-ink-soft);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.hm-path-btn:hover { background: var(--hm-accent-soft); color: var(--hm-ink); }
+.hm-path-btn--active {
+  background: var(--hm-accent-soft);
+  color: var(--hm-accent);
+  border-color: var(--hm-accent);
+  font-weight: 600;
+}
+
+/* ---- Dual stats (forge recipes, forging path) ---- */
+
+.hm-stats-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.hm-stats-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 6px 8px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface);
+}
+.hm-stats-col__title {
+  margin: 0 0 2px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--hm-accent);
+  font-weight: 700;
+}
+.hm-stats-col .hm-formula {
+  font-size: 0.74rem;
+  margin-top: 2px;
+}
+.hm-stats-total {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: var(--hm-accent-soft);
+  border: 1px solid var(--hm-accent);
+  border-radius: var(--hm-radius);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
 /* ---- Essence drop zone ---- */
 
 .hm-essence-drop {
@@ -307,6 +396,15 @@
   padding: 0 2px;
 }
 .hm-essence-clear:hover { color: #b33e3e; }
+
+.hm-essence-min {
+  margin-left: 6px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  font-size: 0.78rem;
+}
 
 .hm-boon-cap { font-size: 0.78rem; color: var(--color-text-dark-secondary, #4b4a44); margin: 0; }
 
@@ -585,6 +683,24 @@
 }
 
 .hm-recipe-edit__section { display: flex; flex-direction: column; gap: 6px; }
+
+.hm-recipe-edit__name { gap: 4px; }
+.hm-recipe-edit__name-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hm-recipe-edit__name-label > span {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-dark-secondary, #4b4a44);
+}
+.hm-recipe-edit__name-input {
+  flex: 1;
+  font-weight: 600;
+  font-size: 1rem;
+}
 
 .hm-recipe-edit__heading {
   margin: 0;
@@ -1003,4 +1119,141 @@
   color: var(--hm-accent, #ff6400);
   border-radius: 6px;
   line-height: 1.4;
+}
+
+/* ---- Bulk Tagger ---- */
+
+.hm-bulk-tagger {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 8px;
+  padding: 8px;
+  overflow: hidden;
+}
+.hm-bt-header h3 { margin: 0 0 2px; }
+.hm-bt-hint { margin: 0; font-size: 0.78rem; color: var(--hm-ink-soft); }
+
+.hm-bt-controls {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr auto;
+  gap: 8px;
+  align-items: end;
+}
+.hm-bt-label { display: flex; flex-direction: column; gap: 2px; font-size: 0.8rem; }
+.hm-bt-label > span { color: var(--hm-ink-soft); }
+.hm-bt-label > select,
+.hm-bt-label > input {
+  font-size: 0.85rem;
+  padding: 4px 6px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+}
+.hm-bt-refresh {
+  padding: 5px 10px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  cursor: pointer;
+}
+
+.hm-bt-toolbar {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 0.82rem;
+}
+.hm-bt-toolbar button {
+  padding: 3px 8px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  cursor: pointer;
+}
+.hm-bt-counter { font-weight: 600; margin-left: auto; }
+.hm-bt-total   { color: var(--hm-ink-soft); }
+
+.hm-bt-list {
+  flex: 1;
+  overflow: auto;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+}
+.hm-bt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.hm-bt-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--hm-surface);
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--hm-border);
+  font-weight: 600;
+}
+.hm-bt-table tbody td {
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--hm-border);
+  vertical-align: middle;
+}
+.hm-bt-row--selected td { background: var(--hm-ok-soft); }
+.hm-bt-name { display: flex; align-items: center; gap: 6px; }
+.hm-bt-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  border: 1px solid var(--hm-border);
+  border-radius: 3px;
+  background: #fff;
+}
+.hm-bt-tags { display: flex; flex-wrap: wrap; gap: 3px; }
+
+.hm-bt-empty {
+  padding: 16px;
+  text-align: center;
+  color: var(--hm-ink-soft);
+}
+
+.hm-bt-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 4px;
+  border-top: 1px solid var(--hm-border);
+}
+.hm-bt-action-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.hm-bt-action-row > input[type="text"] {
+  flex: 1;
+  padding: 4px 6px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  font-size: 0.85rem;
+}
+.hm-bt-action-row > button {
+  padding: 4px 10px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  cursor: pointer;
+  font-size: 0.82rem;
+}
+.hm-bt-action-row > .hm-btn-primary {
+  background: var(--hm-ok);
+  color: #fff;
+  border-color: var(--hm-ok);
+}
+.hm-bt-action-row > .hm-btn-danger {
+  background: #b33e3e;
+  color: #fff;
+  border-color: #b33e3e;
+  margin-left: auto;
 }

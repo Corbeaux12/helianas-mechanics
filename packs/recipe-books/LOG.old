@@ -1,0 +1,4 @@
+2026/04/20-16:39:02.603 84ec Log #7: 0 ops saved to Table #8 OK
+2026/04/20-16:39:02.603 84ec Archiving D:\Foundry\data\Data\modules\helianas-mechanics\packs\recipe-books/000007.log: OK
+2026/04/20-16:39:02.605 84ec Archiving D:\Foundry\data\Data\modules\helianas-mechanics\packs\recipe-books/MANIFEST-000006: OK
+2026/04/20-16:39:02.606 84ec **** Repaired leveldb D:\Foundry\data\Data\modules\helianas-mechanics\packs\recipe-books; recovered 0 files; 0 bytes. Some data may have been lost. ****
