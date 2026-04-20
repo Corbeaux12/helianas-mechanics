@@ -2,6 +2,8 @@
    Heliana's Mechanics — module stylesheet
    ============================================================ */
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+
 :root, .app.helianas-mechanics, .application.helianas-mechanics {
   --hm-accent:        #c84a00;
   --hm-accent-soft:   rgba(200, 74, 0, 0.12);
@@ -14,6 +16,23 @@
   --hm-ink-soft:      var(--color-text-dark-secondary, #4b4a44);
   --hm-shadow:        0 1px 2px rgba(0, 0, 0, 0.08);
   --hm-radius:        5px;
+  --hm-ok:            #2d8a4e;
+  --hm-ok-soft:       rgba(45, 138, 78, 0.10);
+  --hm-neutral-soft:  rgba(0, 0, 0, 0.05);
+  --hm-font:          "Nunito", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Scope the softer font to our own surfaces so we don't restyle Foundry. */
+.application.helianas-mechanics,
+.hm-crafting-app,
+.hm-recipe-edit,
+.hm-recipe-view,
+.hm-tracker,
+.hm-recipe-browser,
+.hm-recipe-book-banner,
+.hm-tag-dialog,
+.hm-chat-message {
+  font-family: var(--hm-font);
 }
 
 /* ---- Crafting Workshop layout ---- */
@@ -211,10 +230,10 @@
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
 }
-.hm-component:hover { background: var(--hm-accent-soft); }
+.hm-component:hover { background: var(--hm-neutral-soft); }
 .hm-component--selected {
-  border-color: var(--hm-accent);
-  background: var(--hm-accent-soft);
+  border-color: var(--hm-ok);
+  background: var(--hm-ok-soft);
 }
 .hm-component__icon {
   width: 24px;

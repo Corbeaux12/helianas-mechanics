@@ -4,6 +4,17 @@ import { RECIPE_PAGE_TYPE } from "./Recipe.mjs";
 
 const Base = foundry.applications.sheets.journal.JournalEntryPageHandlebarsSheet;
 
+// Rarity → default essence tier, DC, and crafting time (hours).
+// Used when an item is dropped onto the Result slot to pre-fill the recipe.
+const RARITY_DEFAULTS = {
+  "common":    { tier: "",       dc: 12, hours:   1 },
+  "uncommon":  { tier: "frail",  dc: 15, hours:  10 },
+  "rare":      { tier: "robust", dc: 18, hours:  40 },
+  "very rare": { tier: "potent", dc: 21, hours: 160 },
+  "legendary": { tier: "mythic", dc: 25, hours: 640 },
+  "artifact":  { tier: "deific", dc: 30, hours: 100000 },
+};
+
 export class RecipePageSheet extends Base {
   static DEFAULT_OPTIONS = {
     classes: ["helianas-mechanics", "recipe-page-sheet"],
@@ -76,6 +87,63 @@ export class RecipePageSheet extends Base {
       attunementOptions: ["none", "optional", "required", "required-spellcaster"]
         .map(v => ({ value: v, label: v })),
     });
+  }
+
+  /**
+   * Writes rarity/attunement/tier/DC/time fields onto the given update patch
+   * based on the dropped item. Only overwrites fields that are still at their
+   * schema defaults so we don't stomp on authored values.
+   */
+  #mergeAutoFillFromItem(update, item) {
+    const sys = this.document.system;
+    const itemSys = item.system ?? {};
+
+    const rarity = this.#normalizeRarity(itemSys.rarity);
+    if (rarity && !sys.rarity) update["system.rarity"] = rarity;
+
+    const attunement = this.#normalizeAttunement(itemSys.attunement);
+    if (attunement && sys.attunement === "none") update["system.attunement"] = attunement;
+
+    const meta = RARITY_DEFAULTS[rarity];
+    if (!meta) return;
+
+    const isForge = sys.recipeType === "forge";
+
+    if (!sys.essenceTierRequired && meta.tier) {
+      update["system.essenceTierRequired"] = meta.tier;
+    }
+    // Only auto-fill DC/time when they still look like the schema defaults
+    // (dc=15, timeHours=8). That way we don't clobber intentional values.
+    if (sys.dc === 15) update["system.dc"] = meta.dc;
+    if (sys.timeHours === 8) update["system.timeHours"] = meta.hours;
+    if (isForge) {
+      if (sys.enchantingDc === 15) update["system.enchantingDc"] = meta.dc;
+      if (sys.enchantingTimeHours === 8) update["system.enchantingTimeHours"] = meta.hours;
+    }
+  }
+
+  #normalizeRarity(raw) {
+    if (!raw) return "";
+    const s = String(raw).toLowerCase().replace(/[_\s]+/g, "");
+    const map = {
+      common:    "common",
+      uncommon:  "uncommon",
+      rare:      "rare",
+      veryrare:  "very rare",
+      legendary: "legendary",
+      artifact:  "artifact",
+    };
+    return map[s] ?? "";
+  }
+
+  #normalizeAttunement(raw) {
+    if (raw === 1 || raw === "1") return "required";
+    if (raw === 2 || raw === "2") return "optional";
+    const s = String(raw ?? "").toLowerCase();
+    if (s === "required" || s === "req" || s === "req+") return "required";
+    if (s === "optional" || s === "opt") return "optional";
+    if (s === "required-spellcaster" || s === "req_s") return "required-spellcaster";
+    return "";
   }
 
   async #resolveLinkedBaseRecipe(uuid) {
@@ -179,11 +247,13 @@ export class RecipePageSheet extends Base {
     if (!item) return;
 
     if (target === "result") {
-      await this.document.update({
+      const update = {
         "system.resultName": item.name,
         "system.resultImg":  item.img,
         "system.resultUuid": item.uuid,
-      });
+      };
+      this.#mergeAutoFillFromItem(update, item);
+      await this.document.update(update);
       return;
     }
     if (target === "component") {
