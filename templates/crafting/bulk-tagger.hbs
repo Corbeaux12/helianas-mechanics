@@ -1,0 +1,114 @@
+<div class="hm-bulk-tagger">
+
+  <header class="hm-bt-header">
+    <h3>{{localize "HELIANAS.BulkTaggerTitle"}}</h3>
+    <p class="hm-bt-hint">{{localize "HELIANAS.BulkTaggerHint"}}</p>
+  </header>
+
+  <section class="hm-bt-controls">
+    <label class="hm-bt-label">
+      <span>{{localize "HELIANAS.BulkTaggerSource"}}</span>
+      <select class="hm-bt-source">
+        {{#each sources}}
+        <option value="{{id}}" {{#if (eq id ../selectedSource)}}selected{{/if}}>{{label}}</option>
+        {{/each}}
+      </select>
+    </label>
+
+    <label class="hm-bt-label">
+      <span>{{localize "HELIANAS.BulkTaggerSearch"}}</span>
+      <input type="search" class="hm-bt-search" value="{{search}}"
+             placeholder="{{localize 'HELIANAS.BulkTaggerSearchPlaceholder'}}">
+    </label>
+
+    <label class="hm-bt-label">
+      <span>{{localize "HELIANAS.BulkTaggerTagFilter"}}</span>
+      <input type="search" class="hm-bt-tag-filter" value="{{tagFilter}}"
+             placeholder="{{localize 'HELIANAS.BulkTaggerTagFilterPlaceholder'}}">
+    </label>
+
+    <button type="button" class="hm-bt-refresh" data-action="refresh"
+            title="{{localize 'HELIANAS.BulkTaggerRefresh'}}">
+      <i class="fa-solid fa-arrows-rotate"></i>
+    </button>
+  </section>
+
+  <section class="hm-bt-toolbar">
+    <button type="button" data-action="selectAll">
+      {{localize "HELIANAS.RecipeBrowserSelectAll"}}
+    </button>
+    <button type="button" data-action="selectNone">
+      {{localize "HELIANAS.RecipeBrowserSelectNone"}}
+    </button>
+    <button type="button" data-action="invertSelection">
+      {{localize "HELIANAS.RecipeBrowserInvert"}}
+    </button>
+    <span class="hm-bt-counter">{{selectedCount}} / {{visibleCount}}</span>
+    <span class="hm-bt-total">({{totalRows}} {{localize "HELIANAS.BulkTaggerTotal"}})</span>
+  </section>
+
+  <section class="hm-bt-list">
+    {{#if rows.length}}
+    <table class="hm-bt-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>{{localize "HELIANAS.BulkTaggerColName"}}</th>
+          <th>{{localize "HELIANAS.BulkTaggerColType"}}</th>
+          <th>{{localize "HELIANAS.BulkTaggerColTags"}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each rows}}
+        <tr class="{{#if selected}}hm-bt-row--selected{{/if}}">
+          <td>
+            <input type="checkbox" data-action="toggleRow" data-row-id="{{id}}"
+                   {{#if selected}}checked{{/if}}>
+          </td>
+          <td class="hm-bt-name">
+            <img class="hm-bt-icon" src="{{img}}" alt="">
+            <span>{{name}}</span>
+          </td>
+          <td>{{type}}</td>
+          <td class="hm-bt-tags">
+            {{#each tags}}<span class="hm-tag">{{this}}</span>{{/each}}
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+    {{else}}
+    <p class="hm-bt-empty">{{localize "HELIANAS.BulkTaggerEmpty"}}</p>
+    {{/if}}
+  </section>
+
+  <footer class="hm-bt-actions">
+    <div class="hm-bt-action-row">
+      <input type="text" class="hm-bt-add-input"
+             placeholder="{{localize 'HELIANAS.BulkTaggerAddPlaceholder'}}">
+      <button type="button" class="hm-btn-primary" data-action="addTags"
+              {{#if busy}}disabled{{/if}}>
+        <i class="fa-solid fa-plus"></i> {{localize "HELIANAS.BulkTaggerAdd"}}
+      </button>
+    </div>
+    <div class="hm-bt-action-row">
+      <input type="text" class="hm-bt-remove-input"
+             placeholder="{{localize 'HELIANAS.BulkTaggerRemovePlaceholder'}}">
+      <button type="button" data-action="removeTags"
+              {{#if busy}}disabled{{/if}}>
+        <i class="fa-solid fa-minus"></i> {{localize "HELIANAS.BulkTaggerRemove"}}
+      </button>
+    </div>
+    <div class="hm-bt-action-row">
+      <button type="button" data-action="applyNameTags"
+              {{#if busy}}disabled{{/if}}>
+        <i class="fa-solid fa-wand-sparkles"></i> {{localize "HELIANAS.BulkTaggerApplyNameTags"}}
+      </button>
+      <button type="button" class="hm-btn-danger" data-action="clearTags"
+              {{#if busy}}disabled{{/if}}>
+        <i class="fa-solid fa-trash"></i> {{localize "HELIANAS.BulkTaggerClear"}}
+      </button>
+    </div>
+  </footer>
+
+</div>

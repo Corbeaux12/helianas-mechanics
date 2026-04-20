@@ -29,6 +29,7 @@
 .hm-recipe-view,
 .hm-tracker,
 .hm-recipe-browser,
+.hm-bulk-tagger,
 .hm-recipe-book-banner,
 .hm-tag-dialog,
 .hm-chat-message {
@@ -1091,4 +1092,141 @@
   color: var(--hm-accent, #ff6400);
   border-radius: 6px;
   line-height: 1.4;
+}
+
+/* ---- Bulk Tagger ---- */
+
+.hm-bulk-tagger {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 8px;
+  padding: 8px;
+  overflow: hidden;
+}
+.hm-bt-header h3 { margin: 0 0 2px; }
+.hm-bt-hint { margin: 0; font-size: 0.78rem; color: var(--hm-ink-soft); }
+
+.hm-bt-controls {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr auto;
+  gap: 8px;
+  align-items: end;
+}
+.hm-bt-label { display: flex; flex-direction: column; gap: 2px; font-size: 0.8rem; }
+.hm-bt-label > span { color: var(--hm-ink-soft); }
+.hm-bt-label > select,
+.hm-bt-label > input {
+  font-size: 0.85rem;
+  padding: 4px 6px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+}
+.hm-bt-refresh {
+  padding: 5px 10px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  cursor: pointer;
+}
+
+.hm-bt-toolbar {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 0.82rem;
+}
+.hm-bt-toolbar button {
+  padding: 3px 8px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  cursor: pointer;
+}
+.hm-bt-counter { font-weight: 600; margin-left: auto; }
+.hm-bt-total   { color: var(--hm-ink-soft); }
+
+.hm-bt-list {
+  flex: 1;
+  overflow: auto;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+}
+.hm-bt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.hm-bt-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--hm-surface);
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--hm-border);
+  font-weight: 600;
+}
+.hm-bt-table tbody td {
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--hm-border);
+  vertical-align: middle;
+}
+.hm-bt-row--selected td { background: var(--hm-ok-soft); }
+.hm-bt-name { display: flex; align-items: center; gap: 6px; }
+.hm-bt-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  border: 1px solid var(--hm-border);
+  border-radius: 3px;
+  background: #fff;
+}
+.hm-bt-tags { display: flex; flex-wrap: wrap; gap: 3px; }
+
+.hm-bt-empty {
+  padding: 16px;
+  text-align: center;
+  color: var(--hm-ink-soft);
+}
+
+.hm-bt-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 4px;
+  border-top: 1px solid var(--hm-border);
+}
+.hm-bt-action-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.hm-bt-action-row > input[type="text"] {
+  flex: 1;
+  padding: 4px 6px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  font-size: 0.85rem;
+}
+.hm-bt-action-row > button {
+  padding: 4px 10px;
+  border: 1px solid var(--hm-border);
+  border-radius: var(--hm-radius);
+  background: var(--hm-surface-raised);
+  cursor: pointer;
+  font-size: 0.82rem;
+}
+.hm-bt-action-row > .hm-btn-primary {
+  background: var(--hm-ok);
+  color: #fff;
+  border-color: var(--hm-ok);
+}
+.hm-bt-action-row > .hm-btn-danger {
+  background: #b33e3e;
+  color: #fff;
+  border-color: #b33e3e;
+  margin-left: auto;
 }
