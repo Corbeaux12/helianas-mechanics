@@ -248,7 +248,7 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       const tags  = Array.isArray(flags.tags) ? flags.tags : [];
       const isEssence = flags.isEssence === true || tags.includes("essence");
       if (!isEssence) continue;
-      const tier      = typeof flags.essenceTier === "string" ? flags.essenceTier : "";
+      const tier      = tags[0] ?? "";
       const rank      = ESSENCE_TIER_ORDER[tier] ?? 0;
       if (rank < minRank) continue;
       const tierLabel = ESSENCE_TIERS[tier]?.label ?? "";
