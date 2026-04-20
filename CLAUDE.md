@@ -36,6 +36,7 @@ There is no build step. To develop:
 - New templates: place Handlebars files under `templates/` and render with `renderTemplate("modules/helianas-mechanics/templates/foo.hbs", data)`.
 - New localisation keys: add them to `lang/en.json` under the `HELIANAS` namespace.
 - Bump `version` in `module.json` with every release.
+- **Always update `README.md` after adding or changing a user-visible feature.** Any schema change, new recipe type, new tool, new ApplicationV2, new chat command, new hook surface, or changed UX flow must be reflected in the README in the same commit as the code change. Include at minimum: the feature's purpose, how to open/invoke it, any new flags or schema fields it introduces, and — if relevant — a bullet under the "Completed in recent work" list near the end. Bug fixes and pure refactors don't need a README change unless they alter documented behavior.
 
 ## Crafting Catalogue Reference
 

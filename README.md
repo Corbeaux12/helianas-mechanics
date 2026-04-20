@@ -1,10 +1,10 @@
 # Heliana's Mechanics
 
-A Foundry VTT v14 module that implements the crafting system from *Heliana's Guide to Monster Hunting*: **Manufacturing**, **Enchanting**, **Forging**, **Cooking**, quirk-based results, essence-tier boon capping, recipe books, an in-app recipe sheet, item-level crafting tags, and a downtime tracker.
+A Foundry VTT v14 module that implements the crafting system from *Heliana's Guide to Monster Hunting*: **Manufacturing**, **Cooking**, and a unified **Forge** type that exposes both an **Enchanting path** (pre-made base item + monster part + essence) and a **Forging path** (raw materials + monster part + essence) from a single recipe. Plus quirk-based results, essence-tier boon capping, recipe books, an in-app recipe sheet, item-level crafting tags, a **bulk item tagger**, and a downtime tracker.
 
 - System: **dnd5e** (tested)
 - Foundry compatibility: **v13–v14**
-- Module version: **1.2.0**
+- Module version: **1.4.0**
 - No build step — ES modules load directly
 
 ---
@@ -48,17 +48,29 @@ Recipes are **JournalEntryPage** documents of sub-type `helianas-mechanics.recip
 
 | Field | Type | Notes |
 |---|---|---|
-| `recipeType` | `"manufacturing"` \| `"enchanting"` \| `"forging"` \| `"cooking"` | Workshop tab filter. |
+| `recipeType` | `"manufacturing"` \| `"cooking"` \| `"forge"` | Workshop tab filter. `forge` exposes both enchanting and forging paths (see below). |
 | `resultName` / `resultImg` / `resultUuid` | string | Display + (optional) item to clone on completion. |
 | `resultQuantity` | integer ≥ 1 | |
-| `dc` | integer | Fixed DC the roll must meet. |
-| `timeHours` | number | Advance via tracker. |
-| `toolKey` | string | Key from [`TOOLS`](scripts/crafting/constants.mjs) (e.g. `smiths-tools`). |
-| `toolAbility` | `"str"…"cha"` | |
+| `dc` | integer | Base DC for the single-roll types (manufacturing / cooking). On forge recipes it's only used for the Forging path's manufacturing check, falling back to the linked base recipe's DC if present. |
+| `timeHours` | number | Advance via tracker. On forge recipes, the forging path uses `max(baseRecipe.timeHours, enchantingTimeHours)`. |
+| `toolKey` | string | Key from [`TOOLS`](scripts/crafting/constants.mjs) (e.g. `smiths-tools`). Each tool carries a list of valid abilities — see [Multi-ability tools](#multi-ability-tools). |
+| `toolAbility` | legacy | No longer authored per recipe; the tool's own ability list drives the roll. Left on the schema so older pages keep loading. |
 | `ingredients` | array | See below. |
-| `essenceTierRequired` | `""` \| `"frail"…"deific"` | Enchanting: required tier. Manufacturing: optional; caps boons when slotted. |
-| `componentCreatureType` | string | Enchanting roll-skill lookup. |
-| `rarity` / `attunement` | strings | Display-only. |
+| `essenceTierRequired` | `""` \| `"frail"…"deific"` | Required for forge recipes. Optional for manufacturing/cooking (a slotted essence just caps boons). |
+| `componentCreatureType` | string | Enchanting-path roll-skill lookup. |
+| `rarity` / `attunement` | strings | Display + used by the [result-slot auto-fill](#result-slot-auto-fill). |
+| `baseItemRecipeUuid` | string | **Forge only.** UUID of a linked manufacturing recipe page. Its raw materials feed the forging path; its result feeds the enchanting path. |
+| `enchantingDc` | integer | **Forge only.** DC of the enchanting check (both paths run this check). |
+| `enchantingTimeHours` | number | **Forge only.** Hours for the enchanting portion. |
+
+### Forge recipes (unified Enchanting + Forging)
+
+A forge recipe is a single page that collapses what used to be two separate recipes for every magic item. It holds the **shared** data — the monster component, essence tier, creature type, rarity, attunement, and the result item — and links to one manufacturing recipe for the mundane base item. At craft time the player picks which path to run:
+
+- **Enchanting path.** Player must already have the pre-made base item (e.g. a mundane Longsword) plus the shared monster component and essence. One roll: the selected tool's ability + proficiency, plus a skill determined by the component creature type.
+- **Forging path.** Player supplies the raw materials from the linked manufacturing recipe plus the shared monster component and essence. **Two rolls, two quirk passes**: a manufacturing check (tool ability + prof) and an enchanting check (same tool ability + prof + creature-type skill). Flaws and boons are rolled separately against each DC, so a great enchanting roll can still save a flubbed smelt and vice versa.
+
+If a forge recipe has no `baseItemRecipeUuid` the workshop shows a warning and disables crafting. Create the manufacturing recipe first, then drag it onto the forge recipe's **Base Item Recipe** slot.
 
 ### Ingredients and Components
 
@@ -105,27 +117,33 @@ Click the **🔨 Heliana's Mechanics** toolbar group (left sidebar) → **⚒ Cr
 
 The workshop is a two-pane window:
 
-- **Left:** tab switcher (Manufacturing 🔨 / Enchanting ✨ / Forging 🔥 / Cooking 🍴), search box, recipe list filtered by your unlocked journals.
+- **Left:** tab switcher (Manufacturing 🔨 / Forge 🔥 / Cooking 🍴), search box, recipe list filtered by your unlocked journals.
 - **Right:**
   - **Crafter** dropdown — the actor whose sheet rolls the check.
   - **Inventory** dropdown — the actor whose items are consumed, and who receives the crafted item.
-  - Ingredient rows with per-component availability (quantity in inventory / quantity required + ✓/✗).
-  - Stats row: tool, DC, time.
-  - Essence slot (drop an essence item onto it).
-  - Roll-formula display, roll-result input, **Craft / Enchant / Forge / Cook** button (adapts to recipe type).
+  - **Path toggle** (forge recipes only): Enchanting / Forging.
+  - Ingredient rows with per-component availability (quantity in inventory / quantity required + ✓/✗). Hover is a neutral grey, selected is soft green so it never fights the availability ✓ marker.
+  - Stats row: tool + ability list, DC, time. Forging path shows **two** DC/time/formula blocks side-by-side plus a total-time line.
+  - **Essence dropdown** — populated from the inventory holder's items that are flagged as essences or carry the `essence` crafting tag. No dragging required.
+  - Roll-result input(s): one for single-roll types, two (Manufacturing + Enchanting) for the forging path. Each roll gets its own quirk pass.
+  - **Craft / Enchant / Forge / Cook** button — adapts to the active recipe type and path.
 
 Clicking a component with more than one alternate selects that alternate for consumption.
 
-### Recipe types
+### Recipe types and paths
 
-| Type | Who rolls | Roll formula | Essence | Notes |
-|---|---|---|---|---|
-| Manufacturing | Anyone proficient with the tool | `1d20 + ability mod + prof (tool)` | Optional (caps boons) | Mundane items. |
-| Enchanting | Spellcasters | `1d20 + spellcasting mod + skill` (skill determined by component creature type) | Required | Magic items from mundane + monster component + essence. |
-| Forging | Anyone proficient with the tool | `1d20 + ability mod + prof (tool) + spellcasting mod + skill` | Required | Combined manufacturing + enchanting in one pass. |
-| Cooking | Anyone proficient with Cook's Utensils | `1d20 + WIS mod + prof (Cook's Utensils)` | Optional | Meals, tonics, trail fare. |
+| Type / Path | Who rolls | Roll formula | Essence | Rolls | Notes |
+|---|---|---|---|---|---|
+| Manufacturing | Anyone proficient with the tool | `1d20 + ability mod + prof (tool)` | Optional (caps boons) | 1 | Mundane items. |
+| Forge — Enchanting path | Anyone proficient with the tool | `1d20 + ability mod + prof (tool) + skill` (skill from creature type) | Required | 1 | Consumes the base item + monster part + essence. |
+| Forge — Forging path | Same as above | Manufacturing check: `1d20 + ability mod + prof (tool)` · Enchanting check: `1d20 + ability mod + prof (tool) + skill` | Required | **2** | Consumes the base recipe's raw materials + monster part + essence. Each roll produces its own flaws/boons. |
+| Cooking | Anyone proficient with Cook's Utensils | `1d20 + WIS mod + prof (Cook's Utensils)` | Optional | 1 | Meals, tonics, trail fare. |
 
-Each recipe type now draws from its own flaws/boons table: manufacturing (`MFG_FLAWS`/`MFG_BOONS`, 20 entries each), enchanting (`ENC_FLAWS`/`ENC_BOONS`, 15/15), forging (`FRG_FLAWS`/`FRG_BOONS`, 10/10), and cooking (`COOK_FLAWS`/`COOK_BOONS`, 10/10). Unknown recipe types fall back to manufacturing.
+Each flow draws from a recipe-type-appropriate flaws/boons table: manufacturing (`MFG_FLAWS`/`MFG_BOONS`, 20 entries each), enchanting (`ENC_FLAWS`/`ENC_BOONS`, 15/15) — used on the forge enchanting path, forging (`FRG_FLAWS`/`FRG_BOONS`, 10/10) — used on the forge forging path's manufacturing half, and cooking (`COOK_FLAWS`/`COOK_BOONS`, 10/10). Unknown recipe types fall back to manufacturing.
+
+### Multi-ability tools
+
+Some tools accept more than one ability (e.g. Carpenter's = STR **or** DEX, Smith's = CON **or** STR, Weaver's = DEX **or** INT). Each `TOOLS[key]` now stores an `abilities: string[]` list instead of a single ability. The workshop picks the character's highest eligible mod at roll time, and the UI (recipe sheet tool dropdown, workshop stats row) displays all valid abilities joined with "or" (e.g. "Carpenter's Tools (STR or DEX)"). Recipes no longer override the ability per page.
 
 ### Two-actor pattern
 
@@ -135,7 +153,7 @@ Speaker on the chat message is the Crafter; the crafted item appears on the Inve
 
 ### Essences
 
-Drag any item flagged as an essence onto the essence slot:
+The essence picker is a **dropdown** listing the inventory holder's items that are either flagged as an essence or carry the `essence` crafting tag. Tag items as essences by adding the `essence` tag via the tag dialog (see [Tagging items](#tagging-items-for-substitution)), or flag them explicitly:
 
 ```
 flags.helianas-mechanics.isEssence   = true
@@ -150,6 +168,8 @@ Slotted essence caps the **maximum boons** rolled on a successful craft:
 | Frail | 1 |
 | Robust | 2 |
 | Potent / Mythic / Deific | 3 |
+
+If the recipe type requires an essence (currently just `forge`), the Craft button stays disabled until one is selected.
 
 ---
 
@@ -210,16 +230,35 @@ Chat will show `Helianas: migrated N legacy recipe(s) to the new format.` on com
 
 Recipe pages ship with a custom sheet ([RecipePageSheet](scripts/crafting/RecipePageSheet.mjs)) that is registered as the default editor for `helianas-mechanics.recipe` pages. Opening a recipe page in edit mode gives you:
 
-- A **result slot** — drag any world/compendium item onto it to populate `resultName`, `resultImg`, and `resultUuid` in one step. The ✗ button clears the slot.
-- An **ingredient list** with add / delete buttons. Each ingredient has a grid of **component slots** where you can add, delete, drag items onto, and edit (tags, mode, resource path) via the gear icon.
-- Scalar form fields for recipe type, DC, time, tool, tool ability, essence tier, creature type, rarity, and attunement. All fields auto-save on change.
+- A **result slot** — drag any world/compendium item onto it to populate `resultName`, `resultImg`, and `resultUuid`. See [Result-slot auto-fill](#result-slot-auto-fill) for the values that also get pre-populated from the dropped item.
+- An **ingredient list** with add / delete buttons. New ingredient rows default to the name "Ingredient" (previously "New Ingredient"). Each ingredient has a grid of **component slots** where you can add, delete, drag items onto, and edit (tags, mode, resource path) via the gear icon.
+- Scalar form fields for recipe type, DC, time, tool, essence tier, creature type, rarity, and attunement. All fields auto-save on change.
+- A **Base Item Recipe** drop slot (forge recipes only) that accepts a manufacturing recipe page; drops are rejected if the page isn't a manufacturing recipe.
+- **Enchanting DC** and **Enchanting Time** number inputs (forge recipes only).
 - A read-only view template when the sheet is opened in non-edit mode.
+
+### Result-slot auto-fill
+
+When you drag an item onto a recipe's result slot, the sheet also inspects the item's `system.rarity` and `system.attunement` and fills in matching recipe fields — but **only if the corresponding recipe field is still at its schema default**, so it won't clobber values you already authored. The rarity → tier/DC/hours mapping follows the spec's Appendix A:
+
+| dnd5e rarity | Essence tier | DC | Time (hours) |
+|---|---|---|---|
+| common | — | 12 | 1 |
+| uncommon | frail | 15 | 10 |
+| rare | robust | 18 | 40 |
+| very rare | potent | 21 | 160 |
+| legendary | mythic | 25 | 640 |
+| artifact | deific | 30 | 100,000 |
+
+On forge recipes, both `dc`/`timeHours` **and** `enchantingDc`/`enchantingTimeHours` get the same defaults, which you then tune per half.
 
 For bulk creation you can still use a macro:
 
 ```js
 const journal = game.journal.getName("Forge Recipes");
-await journal.createEmbeddedDocuments("JournalEntryPage", [{
+
+// Manufacturing recipe (the base item for forge recipes to reference).
+const [longswordRecipe] = await journal.createEmbeddedDocuments("JournalEntryPage", [{
   name: "Iron Longsword",
   type: "helianas-mechanics.recipe",
   system: {
@@ -229,7 +268,6 @@ await journal.createEmbeddedDocuments("JournalEntryPage", [{
     dc: 17,
     timeHours: 8,
     toolKey: "smiths-tools",
-    toolAbility: "str",
     ingredients: [{
       id: foundry.utils.randomID(),
       name: "Metal stock",
@@ -238,6 +276,38 @@ await journal.createEmbeddedDocuments("JournalEntryPage", [{
         name: "Iron Ingot",
         quantity: 2,
         tags: ["metal", "ferrous"],
+        mode: "some",
+      }],
+    }],
+  },
+}]);
+
+// Forge recipe linked to the above — the forging path will auto-pull the
+// iron ingots; the enchanting path will expect an Iron Longsword in inventory.
+await journal.createEmbeddedDocuments("JournalEntryPage", [{
+  name: "Flame Tongue Longsword",
+  type: "helianas-mechanics.recipe",
+  system: {
+    recipeType:           "forge",
+    baseItemRecipeUuid:   longswordRecipe.uuid,
+    resultName:           "Flame Tongue Longsword",
+    dc:                   17,  // fallback for forging-path mfg check if baseRecipe missing
+    timeHours:            8,
+    enchantingDc:         18,
+    enchantingTimeHours:  24,
+    essenceTierRequired:  "potent",
+    componentCreatureType:"dragon",
+    rarity:               "rare",
+    attunement:           "required",
+    toolKey:              "smiths-tools",
+    ingredients: [{
+      id: foundry.utils.randomID(),
+      name: "Shared magic component",
+      components: [{
+        id: foundry.utils.randomID(),
+        name: "Dragon Breath Sac",
+        quantity: 1,
+        tags: ["dragon", "breath"],
         mode: "some",
       }],
     }],
@@ -278,34 +348,55 @@ Each generated page carries DC, time, rarity, essence tier, creature type and at
 
 ---
 
+## Bulk Item Tagger (GM)
+
+Tagging items one-by-one doesn't scale past a handful of recipes. The **Bulk Item Tagger** (anvil toolbar → 🏷 Tags icon, GM-only) edits crafting tags on many items in a single pass.
+
+- **Source picker.** World Items sidebar, or any Item compendium pack.
+- **Filters.** Name search and an "Has tag" filter, plus select-all / clear / invert.
+- **Bulk actions.** Add tags (comma-separated), remove tags, "Apply name-derived tags" (runs the same tokenizer that auto-tags new items), or clear all stored tags (guarded by a confirm dialog).
+- **Compendium safety.** Locked packs are unlocked for the update and re-locked afterwards. Per-item failures are caught and counted, so one read-only document doesn't abort the batch.
+
+Also exposed on the module API:
+
+```js
+game.modules.get("helianas-mechanics").api.BulkTagger.open();
+```
+
+See [BulkTagger.mjs](scripts/crafting/BulkTagger.mjs).
+
+---
+
 ## Module structure
 
 ```
 scripts/
   module.mjs                         entry point — hooks, migration, toolbar, socket, chat commands
   crafting/
-    constants.mjs                    TOOLS, ESSENCE_TIERS, INGREDIENT_TAGS, MFG_FLAWS/BOONS
-    RecipePageData.mjs               TypeDataModel schema for the recipe sub-type
-    RecipePageSheet.mjs              In-app GM sheet for recipe pages (drag/drop result + ingredient + component)
+    constants.mjs                    TOOLS (multi-ability), ESSENCE_TIERS, INGREDIENT_TAGS, QUIRK_TABLES
+    RecipePageData.mjs               TypeDataModel schema for the recipe sub-type (incl. forge fields)
+    RecipePageSheet.mjs              In-app GM sheet for recipe pages — drop slots, auto-fill from rarity
     Ingredient.mjs                   Ingredient / Component classes + tag and regex-name matching
-    Recipe.mjs                       Recipe wrapper + consumeIngredients()
-    RecipeManager.mjs                journal → recipe discovery (permission-aware, four types)
+    Recipe.mjs                       Recipe wrapper + resolveBaseRecipe() + effectiveIngredients(path)
+    RecipeManager.mjs                journal → recipe discovery (permission-aware, three types)
     RecipeImporter.mjs               Catalogue markdown parser + compendium UUID resolver
     RecipeBrowser.mjs                GM catalogue browser ApplicationV2 (multi-select import)
+    BulkTagger.mjs                   GM bulk item tagger ApplicationV2 (world Items + compendium packs)
     QuirkEngine.mjs                  delta-based flaw/boon calculator (per-type tables)
     CookingEffects.mjs               Cooking boons/flaws → dnd5e ActiveEffect data
-    CraftingApp.mjs                  Workshop ApplicationV2 (manufacturing/enchanting/forging/cooking tabs)
+    CraftingApp.mjs                  Workshop ApplicationV2 (manufacturing/forge/cooking tabs + path toggle)
     CraftingTracker.mjs              Tracker ApplicationV2
     ComponentEditForm.mjs            DialogV2 component editor (nameMode / tags / resource path)
     ItemTagPanel.mjs                 Item-sheet header button + DialogV2 tag editor, name-derived auto-tags
 templates/crafting/
-  app.hbs                            Workshop template
+  app.hbs                            Workshop template (path toggle, dual roll inputs, essence dropdown)
   tracker.hbs                        Tracker template
   recipe-page-edit.hbs               Recipe sheet — edit mode
   recipe-page-view.hbs               Recipe sheet — view mode
   component-edit.hbs                 Component editor dialog
   recipe-browser.hbs                 Catalogue Browser template
-tests/                               Vitest unit tests (149 passing)
+  bulk-tagger.hbs                    Bulk Item Tagger template
+tests/                               Vitest unit tests
 docs/
   crafting-systems-design.md         Full design spec
 crafting_catalogue_foundry_reference.md   Canonical rules reference (parsed by RecipeImporter)
@@ -348,13 +439,19 @@ Remaining follow-ups:
 
 Completed in recent work:
 
-- ✅ **Type-specific quirk tables** — enchanting / forging / cooking each have their own flaws + boons tables (`QUIRK_TABLES` lookup); wired through `QuirkEngine.calculateQuirks(roll, dc, essenceTier, recipeType)`.
+- ✅ **Unified Forge recipes** — dropped the separate `enchanting` and `forging` types; a single `forge` recipe exposes both paths by linking to a manufacturing recipe for the mundane base. One source of truth per magic item.
+- ✅ **Dual-roll forging path** — the forging path asks for a manufacturing *and* an enchanting roll, and runs `QuirkEngine.calculateQuirks` twice so each check contributes its own flaws and boons.
+- ✅ **Multi-ability tools** — `TOOLS[key].abilities` is now an array; Carpenter's Tools (STR/DEX), Smith's Tools (CON/STR), Weaver's Tools (DEX/INT) and friends are displayed and rolled correctly.
+- ✅ **Inventory-based essence picker** — dropped the essence drop slot in favour of a dropdown populated from the inventory holder's tagged/flagged items.
+- ✅ **Result-slot auto-fill** — dropping an item onto a recipe's result slot pre-fills rarity, attunement, essence tier, DC, and time (only when the fields are still at their schema defaults).
+- ✅ **Bulk Item Tagger** — GM-only `ApplicationV2` that edits crafting tags across world Items or any Item compendium pack, with auto-unlock/re-lock of packs.
+- ✅ **Softer UI** — Nunito web font scoped to module surfaces only; the ingredient-row highlight is now neutral/green so it no longer clashes with the green ✓ status marker.
+- ✅ **Type-specific quirk tables** — manufacturing / enchanting / forging / cooking each have their own flaws + boons tables (`QUIRK_TABLES` lookup); wired through `QuirkEngine.calculateQuirks(roll, dc, essenceTier, recipeType)`.
 - ✅ **Catalogue Browser UI** — GM-only `ApplicationV2` toolbar button with section filter, name search, multi-select, and journal picker. Imports selected rows via the existing `RecipeImporter.importRows()` path.
 - ✅ **Cooking → Active Effects** — boons and flaws from cooking recipes are attached to the produced consumable as dnd5e ActiveEffect data with 1-hour durations; a handful of boons already carry suggested `changes` entries.
 - ✅ Mastercrafted-style item-sheet tag editor (chips + autocomplete).
 - ✅ Regex name matching on components (`nameMode: "regex"`).
 - ✅ Visual polish: accent-colour variables, smoother drop slots, icon-led workshop tabs, tracker card shadows.
-- ✅ Forging recipe type (tool + spellcasting combined roll).
 - ✅ Cooking recipe type (Cook's Utensils tab).
 - ✅ Catalogue importer (`/helianas-import "Journal Name"` chat command + public API).
 - ✅ Droppable ingredient rows (drag an item onto a row to auto-add a new component).
