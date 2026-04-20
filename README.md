@@ -123,8 +123,8 @@ The workshop is a two-pane window:
   - **Inventory** dropdown — the actor whose items are consumed, and who receives the crafted item.
   - **Path toggle** (forge recipes only): Enchanting / Forging.
   - Ingredient rows with per-component availability (quantity in inventory / quantity required + ✓/✗). Hover is a neutral grey, selected is soft green so it never fights the availability ✓ marker.
+  - **Essence dropdown** — rendered directly under the ingredients list. Populated from the inventory holder's items that are flagged as essences or carry the `essence` crafting tag, and **filtered to tiers that meet or exceed** the recipe's minimum `essenceTierRequired`. Labelled "Essence (required — Minimum tier: X)" when a floor is set.
   - Stats row: tool + ability list, DC, time. Forging path shows **two** DC/time/formula blocks side-by-side plus a total-time line.
-  - **Essence dropdown** — populated from the inventory holder's items that are flagged as essences or carry the `essence` crafting tag. No dragging required.
   - Roll-result input(s): one for single-roll types, two (Manufacturing + Enchanting) for the forging path. Each roll gets its own quirk pass.
   - **Craft / Enchant / Forge / Cook** button — adapts to the active recipe type and path.
 
@@ -153,7 +153,7 @@ Speaker on the chat message is the Crafter; the crafted item appears on the Inve
 
 ### Essences
 
-The essence picker is a **dropdown** listing the inventory holder's items that are either flagged as an essence or carry the `essence` crafting tag. Tag items as essences by adding the `essence` tag via the tag dialog (see [Tagging items](#tagging-items-for-substitution)), or flag them explicitly:
+The essence picker is a **dropdown**, placed directly under the ingredient list, listing the inventory holder's items that are either flagged as an essence or carry the `essence` crafting tag. When a recipe sets a minimum `essenceTierRequired`, the dropdown hides any essence whose tier ranks below it using the order `frail < robust < potent < mythic < deific`, so a recipe requiring *potent* will refuse a frail or robust essence. Tag items as essences by adding the `essence` tag via the tag dialog (see [Tagging items](#tagging-items-for-substitution)), or flag them explicitly:
 
 ```
 flags.helianas-mechanics.isEssence   = true
@@ -230,7 +230,8 @@ Chat will show `Helianas: migrated N legacy recipe(s) to the new format.` on com
 
 Recipe pages ship with a custom sheet ([RecipePageSheet](scripts/crafting/RecipePageSheet.mjs)) that is registered as the default editor for `helianas-mechanics.recipe` pages. Opening a recipe page in edit mode gives you:
 
-- A **result slot** — drag any world/compendium item onto it to populate `resultName`, `resultImg`, and `resultUuid`. See [Result-slot auto-fill](#result-slot-auto-fill) for the values that also get pre-populated from the dropped item.
+- A **Name** input at the very top of the sheet that edits the underlying `JournalEntryPage.name` directly. Dropping an item onto the result slot also overwrites the page title with the dropped item's name.
+- A **result slot** — drag any world/compendium item onto it to populate `resultName`, `resultImg`, `resultUuid`, **and the page title**. See [Result-slot auto-fill](#result-slot-auto-fill) for the values that also get pre-populated from the dropped item.
 - An **ingredient list** with add / delete buttons. New ingredient rows default to the name "Ingredient" (previously "New Ingredient"). Each ingredient has a grid of **component slots** where you can add, delete, drag items onto, and edit (tags, mode, resource path) via the gear icon.
 - Scalar form fields for recipe type, DC, time, tool, essence tier, creature type, rarity, and attunement. All fields auto-save on change.
 - A **Base Item Recipe** drop slot (forge recipes only) that accepts a manufacturing recipe page; drops are rejected if the page isn't a manufacturing recipe.
@@ -239,18 +240,31 @@ Recipe pages ship with a custom sheet ([RecipePageSheet](scripts/crafting/Recipe
 
 ### Result-slot auto-fill
 
-When you drag an item onto a recipe's result slot, the sheet also inspects the item's `system.rarity` and `system.attunement` and fills in matching recipe fields — but **only if the corresponding recipe field is still at its schema default**, so it won't clobber values you already authored. The rarity → tier/DC/hours mapping follows the spec's Appendix A:
+When you drag an item onto a recipe's result slot, the sheet inspects the dropped item and fills in matching recipe fields — but **only if the corresponding recipe field is still at its schema default**, so it won't clobber values you already authored. The rules:
 
-| dnd5e rarity | Essence tier | DC | Time (hours) |
-|---|---|---|---|
-| common | — | 12 | 1 |
-| uncommon | frail | 15 | 10 |
-| rare | robust | 18 | 40 |
-| very rare | potent | 21 | 160 |
-| legendary | mythic | 25 | 640 |
-| artifact | deific | 30 | 100,000 |
+- **Rarity** and **attunement** are copied from the item when the recipe's corresponding fields are blank.
+- **Essence tier** is copied from the rarity column below when the recipe doesn't already require a tier.
+- **Tool** is auto-filled based on the dnd5e item's `type` / subtype / `baseItem` (smith's tools for metal weapons and heavy armour, woodcarver's for bows and staves, leatherworker's for hide / leather, weaver's for padded / cloth, calligrapher's for scrolls, alchemist's supplies for potions, and so on). Cooking recipes always use **Cook's Utensils**.
+- **DC and hours** are picked differently depending on recipe type:
+  - **Manufacturing & cooking** recipes use the Manufacturing DC & Time table, keyed off the item's sub-type (e.g. martial weapon, plate armour, potion base, wondrous item). A cooking recipe whose dropped item has a rarity falls through to the magic table so exotic meals still get proper defaults.
+  - **Forge** recipes pull `enchantingDc` / `enchantingTimeHours` from the Enchanting DC & Time table, indexed by rarity × item-kind. The manufacturing side of a forge recipe inherits its DC/time from the linked base recipe at craft time — so the `dc` / `timeHours` on the forge page are only fallbacks.
 
-On forge recipes, both `dc`/`timeHours` **and** `enchantingDc`/`enchantingTimeHours` get the same defaults, which you then tune per half.
+The Enchanting DC & Time table has three columns keyed off how the item is carried once crafted:
+
+- **Consumable** — `item.type === "consumable"` (potions, scrolls, single-use charges).
+- **Attunement** — `item.system.attunement` is `required` or `optional`.
+- **Non-attunement** — everything else.
+
+| Rarity | Essence | DC | Consumable hrs | Non-attunement hrs | Attunement hrs |
+|---|---|---|---|---|---|
+| common | — | 12 | 0.5 | 1 | 2 |
+| uncommon | frail | 15 | 4 | 10 | 20 |
+| rare | robust | 18 | 20 | 40 | 80 |
+| very rare | potent | 21 | 80 | 160 | 320 |
+| legendary | mythic | 25 | 320 | 640 | 1,280 |
+| artifact | deific | 30 | 50,000 | 100,000 | 200,000 |
+
+The Manufacturing DC & Time table (mirrors the catalogue reference) is keyed by dnd5e item sub-type: adventuring gear (DC 11 / 2 h), ammunition ×20 (13 / 1), padded + hide + shield (13 / 8), leather + chain shirt + ring mail (15 / 16), chain mail (16 / 32), studded + scale (17 / 24), breastplate + splint (18 / 40), half plate (19 / 80), plate (20 / 200), instrument (15 / 16), potion base (15 / 2), ring (15 / 8), rod/staff/wand (17 / 8), spell scroll base (15 / 2), simple weapon (14 / 8), martial weapon (17 / 16), magitech firearm (19 / 24), wondrous item (15 / 8).
 
 For bulk creation you can still use a macro:
 
@@ -472,7 +486,9 @@ Completed in recent work:
 - ✅ **Dual-roll forging path** — the forging path asks for a manufacturing *and* an enchanting roll, and runs `QuirkEngine.calculateQuirks` twice so each check contributes its own flaws and boons.
 - ✅ **Multi-ability tools** — `TOOLS[key].abilities` is now an array; Carpenter's Tools (STR/DEX), Smith's Tools (CON/STR), Weaver's Tools (DEX/INT) and friends are displayed and rolled correctly.
 - ✅ **Inventory-based essence picker** — dropped the essence drop slot in favour of a dropdown populated from the inventory holder's tagged/flagged items.
-- ✅ **Result-slot auto-fill** — dropping an item onto a recipe's result slot pre-fills rarity, attunement, essence tier, DC, and time (only when the fields are still at their schema defaults).
+- ✅ **Result-slot auto-fill** — dropping an item onto a recipe's result slot pre-fills rarity, attunement, essence tier, tool, DC, and time (only when the fields are still at their schema defaults). DC/time are picked from the Manufacturing DC & Time table (manufacturing/cooking) or the Enchanting DC & Time table (forge), and the Enchanting columns are selected by item-kind — consumable, attunement, or non-attunement.
+- ✅ **Editable page title** — a Name input at the top of the recipe sheet edits `JournalEntryPage.name` directly; dropping a result item also overwrites the title with that item's name.
+- ✅ **Essence-slot tier filter** — the Crafting Workshop's essence dropdown now appears directly under the ingredients list and only offers essences whose tier meets or exceeds the recipe's minimum required tier.
 - ✅ **Bulk Item Tagger** — GM-only `ApplicationV2` that edits crafting tags across world Items or any Item compendium pack, with auto-unlock/re-lock of packs.
 - ✅ **Softer UI** — Nunito web font scoped to module surfaces only; the ingredient-row highlight is now neutral/green so it no longer clashes with the green ✓ status marker.
 - ✅ **Type-specific quirk tables** — manufacturing / enchanting / forging / cooking each have their own flaws + boons tables (`QUIRK_TABLES` lookup); wired through `QuirkEngine.calculateQuirks(roll, dc, essenceTier, recipeType)`.

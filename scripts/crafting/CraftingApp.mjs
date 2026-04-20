@@ -1,4 +1,4 @@
-import { MODULE_ID, TOOLS, ESSENCE_TIERS, ABILITY_LABELS, CREATURE_TYPE_SKILLS } from "./constants.mjs";
+import { MODULE_ID, TOOLS, ESSENCE_TIERS, ESSENCE_TIER_ORDER, ABILITY_LABELS, CREATURE_TYPE_SKILLS } from "./constants.mjs";
 import { RecipeManager } from "./RecipeManager.mjs";
 import { QuirkEngine } from "./QuirkEngine.mjs";
 
@@ -223,8 +223,9 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       attunement:     recipe.attunement,
       essenceRequired,
       maxBoons,
-      slottedEssence: this._slottedEssence,
-      essenceOptions: this._collectEssenceOptions(inventoryActor),
+      slottedEssence:    this._slottedEssence,
+      essenceOptions:    this._collectEssenceOptions(inventoryActor, recipe.essenceTierRequired),
+      requiredTierLabel: ESSENCE_TIERS[recipe.essenceTierRequired]?.label ?? "",
     };
   }
 
@@ -233,10 +234,14 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
    * counts as an essence when it has flags["helianas-mechanics"].isEssence or
    * carries the "essence" crafting tag. Tier (and a max-boons hint) is read
    * from flags["helianas-mechanics"].essenceTier when present.
+   *
+   * When `minTier` is set, essences whose tier ranks below it are filtered out
+   * so the player can only pick something at or above the recipe's minimum.
    */
-  _collectEssenceOptions(actor) {
+  _collectEssenceOptions(actor, minTier = "") {
     if (!actor?.items) return [];
     const items = actor.items.contents ?? Array.from(actor.items);
+    const minRank = ESSENCE_TIER_ORDER[minTier] ?? 0;
     const out = [];
     for (const item of items) {
       const flags = item.flags?.[MODULE_ID] ?? {};
@@ -244,6 +249,8 @@ export class CraftingApp extends HandlebarsApplicationMixin(ApplicationV2) {
       const isEssence = flags.isEssence === true || tags.includes("essence");
       if (!isEssence) continue;
       const tier      = typeof flags.essenceTier === "string" ? flags.essenceTier : "";
+      const rank      = ESSENCE_TIER_ORDER[tier] ?? 0;
+      if (rank < minRank) continue;
       const tierLabel = ESSENCE_TIERS[tier]?.label ?? "";
       const qty       = Number(item.system?.quantity ?? 1);
       const suffix    = [tierLabel, qty > 1 ? `×${qty}` : null].filter(Boolean).join(" · ");

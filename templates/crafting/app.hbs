@@ -130,6 +130,32 @@
       </section>
       {{/if}}
 
+      {{!-- Essence picker (placed under ingredients) --}}
+      <section class="hm-section">
+        <h4 class="hm-section__title">
+          {{#if detail.essenceRequired}}
+            {{localize "HELIANAS.EssenceRequired"}}
+          {{else}}
+            {{localize "HELIANAS.EssenceOptional"}}
+          {{/if}}
+          {{#if detail.requiredTierLabel}}
+          <span class="hm-essence-min">· {{localize "HELIANAS.MinEssenceTier"}}: {{detail.requiredTierLabel}}</span>
+          {{/if}}
+        </h4>
+        <select class="hm-essence-select">
+          <option value="">{{localize "HELIANAS.SelectEssence"}}</option>
+          {{#each detail.essenceOptions}}
+          <option value="{{uuid}}" {{#if (eq uuid ../detail.slottedEssence.uuid)}}selected{{/if}}>{{label}}</option>
+          {{/each}}
+        </select>
+        {{#unless detail.essenceOptions.length}}
+        <p class="hint">{{localize "HELIANAS.NoEssencesInInventory"}}</p>
+        {{/unless}}
+        {{#if detail.maxBoons}}
+        <p class="hm-boon-cap">{{localize "HELIANAS.MaxBoonsCap"}}: {{detail.maxBoons}}</p>
+        {{/if}}
+      </section>
+
       {{!-- Stats row --}}
       {{#if detail.isForgingPath}}
       <section class="hm-section hm-stats-dual">
@@ -171,31 +197,6 @@
         </div>
       </section>
       {{/if}}
-
-      <hr class="hm-divider">
-
-      {{!-- Essence picker --}}
-      <section class="hm-section">
-        <h4 class="hm-section__title">
-          {{#if detail.essenceRequired}}
-            {{localize "HELIANAS.EssenceRequired"}}
-          {{else}}
-            {{localize "HELIANAS.EssenceOptional"}}
-          {{/if}}
-        </h4>
-        <select class="hm-essence-select">
-          <option value="">{{localize "HELIANAS.SelectEssence"}}</option>
-          {{#each detail.essenceOptions}}
-          <option value="{{uuid}}" {{#if (eq uuid ../detail.slottedEssence.uuid)}}selected{{/if}}>{{label}}</option>
-          {{/each}}
-        </select>
-        {{#unless detail.essenceOptions.length}}
-        <p class="hint">{{localize "HELIANAS.NoEssencesInInventory"}}</p>
-        {{/unless}}
-        {{#if detail.maxBoons}}
-        <p class="hm-boon-cap">{{localize "HELIANAS.MaxBoonsCap"}}: {{detail.maxBoons}}</p>
-        {{/if}}
-      </section>
 
       <hr class="hm-divider">
 

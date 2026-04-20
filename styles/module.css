@@ -397,6 +397,15 @@
 }
 .hm-essence-clear:hover { color: #b33e3e; }
 
+.hm-essence-min {
+  margin-left: 6px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  font-size: 0.78rem;
+}
+
 .hm-boon-cap { font-size: 0.78rem; color: var(--color-text-dark-secondary, #4b4a44); margin: 0; }
 
 /* ---- Roll section ---- */
@@ -674,6 +683,24 @@
 }
 
 .hm-recipe-edit__section { display: flex; flex-direction: column; gap: 6px; }
+
+.hm-recipe-edit__name { gap: 4px; }
+.hm-recipe-edit__name-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hm-recipe-edit__name-label > span {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-dark-secondary, #4b4a44);
+}
+.hm-recipe-edit__name-input {
+  flex: 1;
+  font-weight: 600;
+  font-size: 1rem;
+}
 
 .hm-recipe-edit__heading {
   margin: 0;

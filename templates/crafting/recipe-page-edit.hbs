@@ -1,5 +1,16 @@
 <form class="hm-recipe-edit">
 
+  {{!-- ----- Page title ----- --}}
+  <section class="hm-recipe-edit__section hm-recipe-edit__name">
+    <label class="hm-recipe-edit__name-label">
+      <span>{{localize "HELIANAS.RecipeName"}}</span>
+      <input type="text" name="name" value="{{document.name}}"
+             placeholder="{{localize 'HELIANAS.RecipeNamePlaceholder'}}"
+             class="hm-recipe-edit__name-input">
+    </label>
+    <p class="hint">{{localize "HELIANAS.RecipeNameHint"}}</p>
+  </section>
+
   {{!-- ----- Result slot ----- --}}
   <section class="hm-recipe-edit__section">
     <h3 class="hm-recipe-edit__heading">{{localize "HELIANAS.Result"}}</h3>

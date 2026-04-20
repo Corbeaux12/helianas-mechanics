@@ -28,6 +28,54 @@ export const ESSENCE_TIERS = {
   deific: { label: "Deific", maxBoons: 3 },
 };
 
+// Ordered weakest→strongest; used to filter essence choices by a recipe's
+// minimum required tier. "" (no requirement) ranks as 0 so any tier qualifies.
+export const ESSENCE_TIER_ORDER = {
+  "":       0,
+  frail:    1,
+  robust:   2,
+  potent:   3,
+  mythic:   4,
+  deific:   5,
+};
+
+// Enchanting / forge result-slot auto-fill table.
+// Columns map to item "kind" detected from the dropped Item:
+//   consumable     → item.type === "consumable"
+//   attunement     → item.system.attunement is "required" or "optional"
+//   non-attunement → everything else
+export const MAGIC_RARITY_TABLE = {
+  common:      { tier: "",       dc: 12, consumable: 0.5, "non-attunement":      1, attunement:      2 },
+  uncommon:    { tier: "frail",  dc: 15, consumable: 4,   "non-attunement":     10, attunement:     20 },
+  rare:        { tier: "robust", dc: 18, consumable: 20,  "non-attunement":     40, attunement:     80 },
+  "very rare": { tier: "potent", dc: 21, consumable: 80,  "non-attunement":    160, attunement:    320 },
+  legendary:   { tier: "mythic", dc: 25, consumable: 320, "non-attunement":    640, attunement:   1280 },
+  artifact:    { tier: "deific", dc: 30, consumable: 50000, "non-attunement": 100000, attunement: 200000 },
+};
+
+// Manufacturing DC & Time table keyed by a normalized item sub-type. Picked by
+// detectMfgSubtype() based on the dnd5e item's type/subtype/baseItem.
+export const MFG_ITEM_TABLE = {
+  "adventuring-gear":     { dc: 11, hours:   2 },
+  "ammunition":           { dc: 13, hours:   1 },
+  "padded-hide-shield":   { dc: 13, hours:   8 },
+  "leather-chain-ring":   { dc: 15, hours:  16 },
+  "chain-mail":           { dc: 16, hours:  32 },
+  "studded-scale":        { dc: 17, hours:  24 },
+  "breastplate-splint":   { dc: 18, hours:  40 },
+  "half-plate":           { dc: 19, hours:  80 },
+  "plate":                { dc: 20, hours: 200 },
+  "instrument":           { dc: 15, hours:  16 },
+  "potion-base":          { dc: 15, hours:   2 },
+  "ring":                 { dc: 15, hours:   8 },
+  "rod-staff-wand":       { dc: 17, hours:   8 },
+  "spell-scroll-base":    { dc: 15, hours:   2 },
+  "simple-weapon":        { dc: 14, hours:   8 },
+  "martial-weapon":       { dc: 17, hours:  16 },
+  "magitech-firearm":     { dc: 19, hours:  24 },
+  "wondrous-item":        { dc: 15, hours:   8 },
+};
+
 export const ABILITY_LABELS = {
   str: "STR", dex: "DEX", con: "CON",
   int: "INT", wis: "WIS", cha: "CHA",

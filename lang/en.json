@@ -9,6 +9,10 @@
 
     "RecipeSheet":       "Recipe Sheet",
     "RecipeType":        "Recipe Type",
+    "RecipeName":        "Name",
+    "RecipeNamePlaceholder": "Recipe title",
+    "RecipeNameHint":    "Titles the journal page. Dropping a result item here overwrites it.",
+    "MinEssenceTier":    "Minimum tier",
     "ResultName":        "Result Name",
     "ResultImg":         "Result Image",
     "ResultUuid":        "Result Item UUID (optional)",

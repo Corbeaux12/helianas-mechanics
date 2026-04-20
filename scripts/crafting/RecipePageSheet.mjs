@@ -1,19 +1,22 @@
-import { TOOLS, ESSENCE_TIERS, CREATURE_TYPE_SKILLS, ABILITY_LABELS } from "./constants.mjs";
+import { TOOLS, ESSENCE_TIERS, CREATURE_TYPE_SKILLS, ABILITY_LABELS,
+         MAGIC_RARITY_TABLE, MFG_ITEM_TABLE } from "./constants.mjs";
 import { editComponent } from "./ComponentEditForm.mjs";
 import { RECIPE_PAGE_TYPE } from "./Recipe.mjs";
 
 const Base = foundry.applications.sheets.journal.JournalEntryPageHandlebarsSheet;
 
-// Rarity → default essence tier, DC, and crafting time (hours).
-// Used when an item is dropped onto the Result slot to pre-fill the recipe.
-const RARITY_DEFAULTS = {
-  "common":    { tier: "",       dc: 12, hours:   1 },
-  "uncommon":  { tier: "frail",  dc: 15, hours:  10 },
-  "rare":      { tier: "robust", dc: 18, hours:  40 },
-  "very rare": { tier: "potent", dc: 21, hours: 160 },
-  "legendary": { tier: "mythic", dc: 25, hours: 640 },
-  "artifact":  { tier: "deific", dc: 30, hours: 100000 },
-};
+// dnd5e weapon baseItem → forged vs carved classification for tool pick.
+const METAL_WEAPON_BASES = new Set([
+  "battleaxe", "greataxe", "handaxe", "dagger", "flail", "glaive", "greatsword",
+  "halberd", "lance", "longsword", "mace", "maul", "morningstar", "pike", "pick",
+  "rapier", "scimitar", "shortsword", "sickle", "trident", "warhammer", "warpick",
+  "whip",
+]);
+const WOOD_WEAPON_BASES = new Set([
+  "club", "greatclub", "quarterstaff", "spear", "javelin", "dart", "longbow",
+  "shortbow", "blowgun", "sling", "lightcrossbow", "heavycrossbow", "handcrossbow",
+  "net",
+]);
 
 export class RecipePageSheet extends Base {
   static DEFAULT_OPTIONS = {
@@ -90,36 +93,203 @@ export class RecipePageSheet extends Base {
   }
 
   /**
-   * Writes rarity/attunement/tier/DC/time fields onto the given update patch
-   * based on the dropped item. Only overwrites fields that are still at their
-   * schema defaults so we don't stomp on authored values.
+   * Writes rarity/attunement/tier/DC/time/tool fields onto the given update
+   * patch based on the dropped item. Only overwrites fields that are still at
+   * their schema defaults so we don't stomp on authored values.
+   *
+   * Sources:
+   *   - Enchanting DC and time come from the Enchanting Rarity/DC/Time table,
+   *     indexed by (rarity, item-kind) where kind is consumable/attunement/
+   *     non-attunement — see `#detectItemKind`.
+   *   - Manufacturing DC and time come from the Manufacturing DC & Time table,
+   *     indexed by the dnd5e item sub-type — see `#detectMfgSubtype`.
+   *   - Tool suggestion comes from `#detectToolKey`.
    */
   #mergeAutoFillFromItem(update, item) {
     const sys = this.document.system;
-    const itemSys = item.system ?? {};
 
-    const rarity = this.#normalizeRarity(itemSys.rarity);
+    const rarity = this.#normalizeRarity(item.system?.rarity);
     if (rarity && !sys.rarity) update["system.rarity"] = rarity;
 
-    const attunement = this.#normalizeAttunement(itemSys.attunement);
+    const attunement = this.#normalizeAttunement(item.system?.attunement);
     if (attunement && sys.attunement === "none") update["system.attunement"] = attunement;
 
-    const meta = RARITY_DEFAULTS[rarity];
-    if (!meta) return;
+    const kind       = this.#detectItemKind(item);           // consumable | attunement | non-attunement
+    const toolKey    = this.#detectToolKey(item);            // TOOLS key or ""
+    const mfgSubtype = this.#detectMfgSubtype(item);         // MFG_ITEM_TABLE key
+    const magicRow   = rarity ? MAGIC_RARITY_TABLE[rarity] : null;
+    const mfgRow     = MFG_ITEM_TABLE[mfgSubtype];
 
-    const isForge = sys.recipeType === "forge";
+    const isForge         = sys.recipeType === "forge";
+    const isManufacturing = sys.recipeType === "manufacturing";
+    const isCooking       = sys.recipeType === "cooking";
 
-    if (!sys.essenceTierRequired && meta.tier) {
-      update["system.essenceTierRequired"] = meta.tier;
+    // Auto-fill essence tier from rarity.
+    if (!sys.essenceTierRequired && magicRow?.tier) {
+      update["system.essenceTierRequired"] = magicRow.tier;
     }
-    // Only auto-fill DC/time when they still look like the schema defaults
-    // (dc=15, timeHours=8). That way we don't clobber intentional values.
-    if (sys.dc === 15) update["system.dc"] = meta.dc;
-    if (sys.timeHours === 8) update["system.timeHours"] = meta.hours;
-    if (isForge) {
-      if (sys.enchantingDc === 15) update["system.enchantingDc"] = meta.dc;
-      if (sys.enchantingTimeHours === 8) update["system.enchantingTimeHours"] = meta.hours;
+
+    // Auto-fill tool when the user hasn't picked one yet.
+    // Cooking recipes always use Cook's Utensils.
+    if (!sys.toolKey) {
+      if (isCooking) update["system.toolKey"] = "cooks-utensils";
+      else if (toolKey) update["system.toolKey"] = toolKey;
     }
+
+    // Manufacturing recipes: DC/time come from the mundane-item table.
+    if (isManufacturing && mfgRow) {
+      if (sys.dc === 15)       update["system.dc"]        = mfgRow.dc;
+      if (sys.timeHours === 8) update["system.timeHours"] = mfgRow.hours;
+    }
+
+    // Cooking: fall back to the manufacturing table too (most cooking results
+    // are mundane food). If the item carries a rarity, the magic row instead
+    // wins so exotic meals still get reasonable defaults.
+    if (isCooking) {
+      if (magicRow) {
+        const hours = magicRow[kind];
+        if (sys.dc === 15)       update["system.dc"]        = magicRow.dc;
+        if (sys.timeHours === 8) update["system.timeHours"] = hours;
+      } else if (mfgRow) {
+        if (sys.dc === 15)       update["system.dc"]        = mfgRow.dc;
+        if (sys.timeHours === 8) update["system.timeHours"] = mfgRow.hours;
+      }
+    }
+
+    // Forge recipes split their values: the manufacturing-side dc/time are
+    // inherited from the linked base recipe at craft time, so we only need to
+    // auto-fill the enchanting-side DC/time from the magic table here.
+    if (isForge && magicRow) {
+      const hours = magicRow[kind];
+      if (sys.enchantingDc === 15)       update["system.enchantingDc"]        = magicRow.dc;
+      if (sys.enchantingTimeHours === 8) update["system.enchantingTimeHours"] = hours;
+    }
+  }
+
+  /**
+   * Classify a dnd5e item for the Enchanting DC/Time table. The table's three
+   * time columns correspond to:
+   *   - "consumable"     — single-use items (potions, scrolls, charges that
+   *                        expire). dnd5e item.type === "consumable".
+   *   - "attunement"     — items that require or offer attunement.
+   *   - "non-attunement" — everything else (e.g. a non-attuned magic sword).
+   */
+  #detectItemKind(item) {
+    if (item?.type === "consumable") return "consumable";
+    const raw = item?.system?.attunement;
+    const attun = typeof raw === "string" ? raw.toLowerCase() : raw;
+    if (attun === "required" || attun === "optional" || attun === 1 || attun === 2 || attun === "1" || attun === "2") {
+      return "attunement";
+    }
+    return "non-attunement";
+  }
+
+  /**
+   * Best-guess tool key for the dnd5e item. The mapping follows the catalogue
+   * reference's Tools-and-Their-Products table. Returns "" if nothing matches
+   * — the user can still pick a tool manually.
+   */
+  #detectToolKey(item) {
+    const type = item?.type;
+    const sub  = item?.system?.type?.value ?? "";
+    const base = String(item?.system?.type?.baseItem ?? "").toLowerCase();
+
+    if (type === "consumable") {
+      if (sub === "potion")   return "alchemists-supplies";
+      if (sub === "scroll")   return "calligraphers-supplies";
+      if (sub === "poison")   return "alchemists-supplies";
+      if (sub === "food")     return "cooks-utensils";
+      if (sub === "ammo")     return "smiths-tools";
+      return "alchemists-supplies";
+    }
+
+    if (type === "weapon") {
+      if (METAL_WEAPON_BASES.has(base)) return "smiths-tools";
+      if (WOOD_WEAPON_BASES.has(base))  return "woodcarvers-tools";
+      // Fall back by weapon category when base isn't recognised.
+      if (typeof sub === "string" && sub.startsWith("martial")) return "smiths-tools";
+      return "smiths-tools";
+    }
+
+    if (type === "equipment") {
+      // dnd5e armour types: "light", "medium", "heavy", "shield", "clothing", "trinket".
+      if (sub === "light") {
+        if (base === "padded")              return "weavers-tools";
+        if (base === "leather")             return "leatherworkers-tools";
+        if (base === "studdedleather")      return "leatherworkers-tools";
+        return "leatherworkers-tools";
+      }
+      if (sub === "medium") {
+        if (base === "hide") return "leatherworkers-tools";
+        return "smiths-tools";
+      }
+      if (sub === "heavy")    return "smiths-tools";
+      if (sub === "shield")   return "smiths-tools";
+      if (sub === "clothing") return "weavers-tools";
+      if (sub === "trinket")  return "jewelers-tools";
+    }
+
+    if (type === "tool")      return "tinkers-tools";
+    if (type === "loot")      return "";
+    if (type === "container") return "leatherworkers-tools";
+
+    return "";
+  }
+
+  /**
+   * Map a dnd5e item to a key in MFG_ITEM_TABLE. Keeps the match reasonably
+   * conservative — unknown shapes fall through to "adventuring-gear".
+   */
+  #detectMfgSubtype(item) {
+    const type = item?.type;
+    const sub  = item?.system?.type?.value ?? "";
+    const base = String(item?.system?.type?.baseItem ?? "").toLowerCase();
+
+    if (type === "consumable") {
+      if (sub === "potion")   return "potion-base";
+      if (sub === "scroll")   return "spell-scroll-base";
+      if (sub === "ammo")     return "ammunition";
+      return "adventuring-gear";
+    }
+
+    if (type === "weapon") {
+      if (typeof sub === "string" && sub.startsWith("martial")) return "martial-weapon";
+      return "simple-weapon";
+    }
+
+    if (type === "equipment") {
+      if (sub === "light") {
+        if (base === "padded")          return "padded-hide-shield";
+        if (base === "leather")         return "leather-chain-ring";
+        if (base === "studdedleather")  return "studded-scale";
+        return "leather-chain-ring";
+      }
+      if (sub === "medium") {
+        if (base === "hide")         return "padded-hide-shield";
+        if (base === "chainshirt")   return "leather-chain-ring";
+        if (base === "scalemail")    return "studded-scale";
+        if (base === "breastplate")  return "breastplate-splint";
+        if (base === "halfplate")    return "half-plate";
+        return "leather-chain-ring";
+      }
+      if (sub === "heavy") {
+        if (base === "ringmail")  return "leather-chain-ring";
+        if (base === "chainmail") return "chain-mail";
+        if (base === "splint")    return "breastplate-splint";
+        if (base === "plate")     return "plate";
+        return "chain-mail";
+      }
+      if (sub === "shield")   return "padded-hide-shield";
+      if (sub === "trinket")  return "wondrous-item";
+      if (sub === "clothing") return "adventuring-gear";
+    }
+
+    if (type === "tool") {
+      if (/instrument/i.test(base) || /instrument/i.test(item?.name ?? "")) return "instrument";
+      return "adventuring-gear";
+    }
+
+    return "adventuring-gear";
   }
 
   #normalizeRarity(raw) {
@@ -248,6 +418,7 @@ export class RecipePageSheet extends Base {
 
     if (target === "result") {
       const update = {
+        name:                item.name,
         "system.resultName": item.name,
         "system.resultImg":  item.img,
         "system.resultUuid": item.uuid,
