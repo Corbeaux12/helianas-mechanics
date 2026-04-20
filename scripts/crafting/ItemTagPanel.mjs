@@ -2,23 +2,22 @@ import { MODULE_ID, INGREDIENT_TAGS } from "./constants.mjs";
 
 const { DialogV2 } = foundry.applications.api;
 
-// Common English filler words that would add noise if included as tags.
-const STOP_WORDS = new Set([
-  "a", "an", "the", "of", "and", "or", "to", "in", "on", "for", "with",
-]);
-
 /**
- * Splits an item name into lowercase alphanumeric tokens suitable for use as
- * crafting tags. Drops very short fragments and common English filler words.
+ * Derives tags from an item name using hyphenated slugs.
+ * If the name contains a parenthetical, e.g. "Pouch of Fey Feathers (Suneater Owlbear)",
+ * two tags are produced: "pouch-of-fey-feathers" and "suneater-owlbear".
+ * Otherwise the whole name becomes a single hyphenated slug.
  */
 export function deriveTagsFromName(name) {
   if (!name) return [];
-  return [...new Set(
-    String(name)
-      .toLowerCase()
-      .split(/[^a-z0-9]+/)
-      .filter(w => w.length >= 2 && !STOP_WORDS.has(w)),
-  )];
+  const str = String(name);
+  const toSlug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const parenMatch = str.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  if (parenMatch) {
+    return [...new Set([toSlug(parenMatch[1]), toSlug(parenMatch[2])].filter(Boolean))];
+  }
+  const slug = toSlug(str);
+  return slug ? [slug] : [];
 }
 
 /** Stored tags only (what lives in flags, minus any runtime derivation). */
