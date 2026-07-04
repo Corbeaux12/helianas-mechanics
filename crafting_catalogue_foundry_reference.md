@@ -797,6 +797,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Armor of Resistance (Psychic) | 1,100+ | U→R | Req | Aberration | Aboleth | Brain |
 | Armor of Resistance (Radiant) | 1,100+ | U→R | Req | Celestial | Planetar | Bone |
 | Armor of Resistance (Thunder) | 1,100+ | U→R | Req | Giant | Storm | Bone |
+| Mariner's Armor | 300+ | U | — | Beast | Shark | Fin |
 | Mithral Armor | 400+ | U | — | Material | | Mithral |
 | Armor of Invulnerability | 18,000 | L | Req | Construct | Golem | Plating |
 | Demon Armor | 3,000 | R→V | Req | Fiend | Demon | Bone |
@@ -811,6 +812,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Arrow-Catching Shield | 5,000 | R | Req | Celestial | | Skin |
 | Dragonmaw Shield | 2,300 | R | — | Construct | Koboldzilla | Plating |
 | Overgrown Barkshield | 650 / 2,400 / 10,000 | U/R/V | Req | Plant | Treant | Bark |
+| Sentinel Shield | 500+ | U | — | Celestial | | Eye |
 | Shield of Missile Attraction | 5,000 | R | Req | Dragon | Magnetite | Horn |
 | Spellguard Shield | 25,000 | V | Req | Construct | Shield guardian | Plating |
 | +1 Shield | 1,500+ | R→U | — | Beast | Beetle | Pouch of scales |
@@ -820,6 +822,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 ### Potions
 | Name | Value | Rarity | Type | Metatag | Component |
 |------|-------|--------|------|---------|-----------|
+| Elixir of Health | 850 | R | Celestial | | Phial of blood |
 | Oil of Etherealness | 1,900 | R | Undead | | Ethereal ichor |
 | Oil of Sharpness | 4,800 | V | Fey | | Fat |
 | Oil of Slipperiness | 480 | U | Construct | | Phial of oil |
@@ -829,6 +832,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Potion of Climbing | 50 | C | Beast | Spider | Pouch of claws |
 | Potion of Cloud Giant Strength | 6,000 | V | Giant | Cloud | Nail |
 | Potion of Diminution | 270 | U→R | Humanoid | Gnome | Phial of blood |
+| Potion of Fire Breath | 150 | U | Dragon | [fire-breather] | Phial of blood |
 | Potion of Fire Giant Strength | 3,000 | R | Giant | Fire | Nail |
 | Potion of Flying | 900 | R→V | Dragon | | Fat |
 | Potion of Frost Giant Strength | 1,500 | R | Giant | Frost | Nail |
@@ -839,6 +843,8 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Potion of Heroism | 180 | U→R | Celestial | | Phial of blood |
 | Potion of Hill Giant Strength | 500 | U | Giant | Hill | Nail |
 | Potion of Invisibility | 900 | R→V | Humanoid | Duergar | Skin |
+| Potion of Invulnerability | 960 | R | Construct | Golem | Phial of oil |
+| Potion of Longevity | 4,500 | V | Fey | | Phial of blood |
 | Potion of Mind Reading | 180 | U→R | Aberration | Aboleth | Phial of mucus |
 | Potion of Poison | 180 | U | Plant | | Poison gland |
 | Potion of Resistance (Acid) | 240 | U | Elemental | | Volatile mote of water |
@@ -855,6 +861,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Potion of Stone Giant Strength | 1,500 | R | Giant | Stone | Nail |
 | Potion of Storm Giant Strength | 30,000 | L | Giant | Storm | Nail |
 | Potion of Superior Healing | 1,000 | R | Monstrosity | | Liver |
+| Potion of Vitality | 4,000 | V | Celestial | | Phial of blood |
 | Potion of Supreme Healing | 5,000 | V | Monstrosity | | Fat and Liver |
 | Potion of Water Breathing | 180 | U | Beast | | Fin |
 
@@ -898,8 +905,10 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Rod of Absorption | 41,600 | L | Req | Construct | | Stone |
 | Rod of Alertness | 25,000 | V | Req | Fey | | Eye |
 | Rod of Lordly Might | 35,000 | L | Req | Fiend | Pit fiend | Pouch of teeth |
+| Rod of Resurrection | 41,600 | L | Req+ | Celestial | Planetar | Heart |
 | Rod of Rulership | 6,000 | R | Req | Fiend | Incubus or succubus | Pouch of dust |
 | Rod of Security | 20,000 | V | — | Celestial | Unicorn | Horn |
+| Rod of the Pact Keeper | 750 / 1,500 / 6,200 | U/R/V | Req_s | Fiend | | Bone |
 | Sporespreader | 1,000 / 4,500 | U/R | Req | Plant | Hyphan | Spore-filled gills |
 | Suncatcher | 900 / 2,300 / 9,800 | U/R/V | Req_s | Fey | Suneater | Beak |
 
@@ -931,6 +940,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Staff of Swarming Insects | 5,000 | R | Req+ | Beast | Beetle or insect | Stinger |
 | Staff of Thunder and Lightning | 10,000 | V | Req | Elemental | Djinni | Volatile mote of air |
 | Staff of Withering | 2,500 | R | Req+ | Undead | Wight | Bone |
+| Staff of the Adder | 900 | U | Req+ | Beast | Snake | Poison gland |
 | Staff of the Magi | 4,000,000 | A→L | Req+ | Monstrosity | Kraken | Tentacle |
 | Staff of the Python | 1,200 | U | Req+ | Beast | Snake | Pouch of scales |
 | Staff of the Woodlands | 22,000 | V→R | Req+ | Plant | Dryad | Bundle of roots |
@@ -987,10 +997,13 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Holy Avenger | 150,000 | L | Req+ | Celestial | Solar | Heart |
 | Luck Blade | 170,000 | L | Req | Fey | | Psyche |
 | Nine Lives Stealer | 9,400 | V | Req | Beast | Cat | Heart |
+| Sword of Answering (any sword) | 26,000 | L | Req | Construct | | Lifespark |
 | Sword of Life Stealing | 2,100 | R | Req | Undead | Wraith | Ethereal ichor |
 | Sword of Sharpness | 2,100 | R→V | Req | Giant | | Tooth |
 | Sword of Wounding | 2,100 | R | Req | Humanoid | | Pouch of teeth |
+| Sword of Vengeance | 500 | U | Req | Undead | | Phial of congealed blood |
 | Vicious Weapon | 350 | U→R | — | Undead | | Pouch of teeth |
+| Weapon of Warning | 1,200 | U | Req | Monstrosity | Ankheg | Antenna |
 | Kobold Wristbow (hand crossbow) | 50 | C | Req | Construct | | Gears |
 | Javelin of Lightning | 1,200 | U | — | Elemental | | Primordial dust |
 | Oathbow (longbow) | 9,400 | V | Req | Fey | | Tongue |
@@ -1011,6 +1024,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 ### Wondrous Items (Selected Key Items)
 | Name | Value | Rarity | Att | Type | Metatag | Component |
 |------|-------|--------|-----|------|---------|-----------|
+| Alchemy Jug | 500 | U | — | Ooze | | Vesicle |
 | Amulet of Health | 7,000 | R | Req | Beast | Mammoth | Heart |
 | Amulet of Proof vs Detection | 1,000 | U | Req | Fey | | Antenna |
 | Amulet of the Planes | 20,000 | V | Req | Fiend | | Soul |
@@ -1064,6 +1078,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Dimensional Doorknob | 500 | U | — | Construct | | Gears |
 | Dimensional Shackles | 2,500 | R | — | Aberration | | Fat |
 | Dreamy the Lucid | 200 | U | — | Aberration | Dreamholder | Subeye |
+| Driftglobe | 750 | U | — | Celestial | | Pouch of dust |
 | Dust of Disappearance | 250 | U | —,C | Elemental | | Primordial dust |
 | Dust of Dryness | 180 | U | —,C | Celestial | | Pouch of dust |
 | Dust of Sneezing and Choking | 480 | U | —,C | Fiend | | Pouch of dust |
@@ -1156,6 +1171,7 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Necklace of Prayer Beads (Smiting) | 600 | U | Req+ | Celestial | | Pouch of teeth |
 | Necklace of Prayer Beads (Summons) | 6,400 | V | Req+ | Celestial | | Pouch of teeth |
 | Necklace of Prayer Beads (Wind Walk) | 6,400 | V | Req+ | Celestial | | Pouch of teeth |
+| Necklace of Strangulation | 350 | U | — | Undead | | Phial of congealed blood |
 | Oozemat Coat | 3,500 | R | Req | Ooze | Polyhedrooze | Membrane |
 | Orb of Dragonkind | 4,000,000 | A | Req | Dragon | | Heart |
 | Pearl of Power | 1,000 | U | Req_s | Aberration | | Pouch of teeth |
@@ -1175,7 +1191,9 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Rolly Turrit | 2,100 | R | Req | Construct | Koboldzilla | Instructions |
 | Rope of Climbing | 900 | U | — | Monstrosity | | Talon |
 | Rope of Entanglement | 2,000 | R | — | Monstrosity | | Pincer |
+| Saddle of the Cavalier | 500 | U | — | Beast | Horse | Pelt |
 | Scarab of Protection | 41,600 | L | Req | Undead | Lich | Undying heart |
+| Sending Stones | 600 | U | — | Aberration | | Antenna |
 | Shard Crown | 2,800/10,000/41,600 | R/V/L | Req | Dragon | Magnetite | Horn |
 | Slime-in-a-Skull | 700 / 10,000 | U/V | Req | Ooze | Polyhedrooze | Vesicle |
 | Slippers of Spider Climbing | 1,500 | U | Req | Beast | Spider | Pouch of claws |
@@ -1206,6 +1224,8 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Wyrm's Breath Grenade (Copper) | 1,250 | R | — | Dragon | Copper | Breath sac |
 | Wyrm's Breath Grenade (Gold) | 3,200 | V | — | Dragon | Gold | Breath sac |
 | Wyrm's Breath Grenade (Silver) | 18,000 | L | — | Dragon | Silver | Breath sac |
+
+**Reconstructed entries:** The following rows were not in the original transcription and were added with creature type / component / value inferred from the catalogue's own patterns — verify against the book and correct if needed: Elixir of Health, Potion of Fire Breath, Potion of Invulnerability, Potion of Longevity, Potion of Vitality, Mariner's Armor, Sentinel Shield, Rod of Resurrection, Rod of the Pact Keeper, Staff of the Adder, Sword of Answering, Sword of Vengeance, Weapon of Warning, Alchemy Jug, Driftglobe, Necklace of Strangulation, Saddle of the Cavalier, Sending Stones.
 
 ---
 

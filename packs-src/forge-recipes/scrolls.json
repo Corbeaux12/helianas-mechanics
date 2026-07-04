@@ -1,0 +1,533 @@
+{
+  "_id": "j6d50hKXewVVa966",
+  "_key": "!journal!j6d50hKXewVVa966",
+  "name": "Scrolls",
+  "pages": [
+    {
+      "_id": "zkFFyfo2S3zsYql9",
+      "name": "Cantrip Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "Cantrip Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fJ4CvDeeUlVcZOcY",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PMwYjktP7S1Wn0Fn",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "common",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.zkFFyfo2S3zsYql9"
+    },
+    {
+      "_id": "cgt0VGm48meyUdfD",
+      "name": "1st-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "1st-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "S37bY3N3IE66Zd9e",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qtuN6nbRK7VJpJ03",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "common",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.cgt0VGm48meyUdfD"
+    },
+    {
+      "_id": "VlGw4zGS05XMhENb",
+      "name": "2nd-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "2nd-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "InCqWu2dovn3JhE3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Yc8RhVtj8ffVtMCM",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.VlGw4zGS05XMhENb"
+    },
+    {
+      "_id": "ZX0jGhISr52jSg9l",
+      "name": "3rd-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "3rd-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YT1On115GqdJhIvU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Kr0Wkw8R4g5bDxgy",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.ZX0jGhISr52jSg9l"
+    },
+    {
+      "_id": "N19kBgOYXY4PA9pJ",
+      "name": "4th-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "4th-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JuJ6AAYIz0NoulaZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MODGStCbKsB78gcc",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.N19kBgOYXY4PA9pJ"
+    },
+    {
+      "_id": "3Zc4bXsms4wwNfWH",
+      "name": "5th-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "5th-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Yvdr4UslW2Itfuax",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "z7UjjVd8AtHgSM1C",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.3Zc4bXsms4wwNfWH"
+    },
+    {
+      "_id": "KUkOVroDEJOPzZFU",
+      "name": "6th-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "6th-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "m1x4ZQxB0pQ43AXS",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2QMkw9aRPZI9tas3",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.KUkOVroDEJOPzZFU"
+    },
+    {
+      "_id": "hirvHxw5Gw6IVfet",
+      "name": "7th-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "7th-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "exmOw64D125TiN5p",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zuCmMtJXBQDNMpkF",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.hirvHxw5Gw6IVfet"
+    },
+    {
+      "_id": "GXD5Floz9SnXPTQ4",
+      "name": "8th-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "8th-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Xd23sgSf4sFasXVy",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1pwYLTVm0Nxqj3Ws",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.GXD5Floz9SnXPTQ4"
+    },
+    {
+      "_id": "H4RYs3NDJuViVf7c",
+      "name": "9th-level Scroll",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.RxCAnXAF42B1qAg3",
+        "resultName": "9th-level Scroll",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "jsHyVXcJEbO5wZca",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "a4lMXXP2Oqm7bo0C",
+                "uuid": "",
+                "name": "Any",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j6d50hKXewVVa966.H4RYs3NDJuViVf7c"
+    }
+  ],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

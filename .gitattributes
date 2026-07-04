@@ -1,0 +1,4 @@
+# LevelDB compendium packs are binary data — never apply line-ending
+# conversion or diffs. Without this, core.autocrlf=true corrupts the
+# CURRENT files on Windows checkouts and Foundry cannot open the packs.
+packs/** binary

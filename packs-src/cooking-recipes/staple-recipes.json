@@ -1,0 +1,1619 @@
+{
+  "_id": "GofXS2gRIAt3HA9u",
+  "_key": "!journal!GofXS2gRIAt3HA9u",
+  "name": "Staple Recipes",
+  "pages": [
+    {
+      "_id": "nZDVUwfHgdl28DEf",
+      "name": "Keyebob",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Keyebob",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bfm3oIx2m0sZangY",
+            "name": "Eye",
+            "components": [
+              {
+                "id": "d3KF2CkbBV0wjaGu",
+                "uuid": "",
+                "name": "Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.nZDVUwfHgdl28DEf"
+    },
+    {
+      "_id": "B5vYRIFub7SZsiJi",
+      "name": "Tempura",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Tempura",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2JvP8tro895F3unM",
+            "name": "Fat",
+            "components": [
+              {
+                "id": "O5XnW53mQf8zqoyT",
+                "uuid": "",
+                "name": "Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.B5vYRIFub7SZsiJi"
+    },
+    {
+      "_id": "wckPu5TlvTJaz8lv",
+      "name": "Steak",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Steak",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9pJ9fkGu3SMYDutA",
+            "name": "Flesh",
+            "components": [
+              {
+                "id": "L8976Bn52digV5r7",
+                "uuid": "",
+                "name": "Flesh",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.wckPu5TlvTJaz8lv"
+    },
+    {
+      "_id": "wmil3ohQOpqEuicu",
+      "name": "Blood Curd",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Blood Curd",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "seiDyPBFDm0G58dq",
+            "name": "Blood",
+            "components": [
+              {
+                "id": "Bvv4IDH533ih75DT",
+                "uuid": "",
+                "name": "Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.wmil3ohQOpqEuicu"
+    },
+    {
+      "_id": "xX5eRFCpMB7lBo9p",
+      "name": "Bone Broth",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Bone Broth",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "s5H62wWHNaFr027D",
+            "name": "Bone",
+            "components": [
+              {
+                "id": "VL79fT2Fb3HVlNyZ",
+                "uuid": "",
+                "name": "Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.xX5eRFCpMB7lBo9p"
+    },
+    {
+      "_id": "xo02uiTM6lW8TDkU",
+      "name": "Egg Dumpling",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Egg Dumpling",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Av47r5DU7Ps1GkSH",
+            "name": "Egg",
+            "components": [
+              {
+                "id": "uJCkVbvZ2VjmzDUv",
+                "uuid": "",
+                "name": "Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.xo02uiTM6lW8TDkU"
+    },
+    {
+      "_id": "RRv9bqt7rIIZG0lx",
+      "name": "Hearty Stew",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Hearty Stew",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "oe0tgZofqiihYI8y",
+            "name": "Heart",
+            "components": [
+              {
+                "id": "KHCgGnu5c9ViqOi6",
+                "uuid": "",
+                "name": "Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.RRv9bqt7rIIZG0lx"
+    },
+    {
+      "_id": "Y18sydZwSIIfOzLM",
+      "name": "Liverwurst",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Liverwurst",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "X3K2YJQjC9J0bEjV",
+            "name": "Liver",
+            "components": [
+              {
+                "id": "Q72wuL8MI0PrfzhZ",
+                "uuid": "",
+                "name": "Liver",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "liver"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.Y18sydZwSIIfOzLM"
+    },
+    {
+      "_id": "vjJFZ9XTj2igqpRU",
+      "name": "Meaty Masala",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Meaty Masala",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mIIdzXS49cp0wMgh",
+            "name": "Flesh",
+            "components": [
+              {
+                "id": "0jRBK2hKcJklWbf7",
+                "uuid": "",
+                "name": "Flesh",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "9bNqoU9WLRHffO1H",
+            "name": "Spice",
+            "components": [
+              {
+                "id": "6RTEV7PXrku2BESV",
+                "uuid": "",
+                "name": "Spice",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spice"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.vjJFZ9XTj2igqpRU"
+    },
+    {
+      "_id": "aG5Hz4n2Afu5d5P3",
+      "name": "Tofeye Apple",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Tofeye Apple",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4glK7wTZdxGGcQn8",
+            "name": "Bone",
+            "components": [
+              {
+                "id": "bE0cA4K2rTjStZ05",
+                "uuid": "",
+                "name": "Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "bY2DwuuEiVsgRhvq",
+            "name": "Eye",
+            "components": [
+              {
+                "id": "TOLuR9dLKUwiPhVL",
+                "uuid": "",
+                "name": "Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.aG5Hz4n2Afu5d5P3"
+    },
+    {
+      "_id": "mEYJVLxUEbcsB6Fq",
+      "name": "Dwarven Scotch",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Dwarven Scotch",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Zzz8M6ejoD0om2jG",
+            "name": "Egg",
+            "components": [
+              {
+                "id": "V9MHRF6RVWFb1NuE",
+                "uuid": "",
+                "name": "Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "F5pbn3XFnZKMEKHX",
+            "name": "Flesh",
+            "components": [
+              {
+                "id": "r60cwEiVm8FXUj3r",
+                "uuid": "",
+                "name": "Flesh",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.mEYJVLxUEbcsB6Fq"
+    },
+    {
+      "_id": "5GJLs0KJDeygD8zG",
+      "name": "Gobbois Gras",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Gobbois Gras",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KH0zAHxv5V0zwBBh",
+            "name": "Fat",
+            "components": [
+              {
+                "id": "iM76qwIpzKSw2xt8",
+                "uuid": "",
+                "name": "Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "0dfjJKcRg4MqLyym",
+            "name": "Liver",
+            "components": [
+              {
+                "id": "lL89UFHJ0nsIiaE6",
+                "uuid": "",
+                "name": "Liver",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "liver"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.5GJLs0KJDeygD8zG"
+    },
+    {
+      "_id": "pqfkbtgwbxRod5Vi",
+      "name": "Devilled Egg",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Devilled Egg",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xOd7jkIbxylbq8nJ",
+            "name": "Egg",
+            "components": [
+              {
+                "id": "g00RAiJzW7NydvoQ",
+                "uuid": "",
+                "name": "Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "QBMZMD6C3kmonqeO",
+            "name": "Spice",
+            "components": [
+              {
+                "id": "HSekzQahvQzSFwB8",
+                "uuid": "",
+                "name": "Spice",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spice"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.pqfkbtgwbxRod5Vi"
+    },
+    {
+      "_id": "6dJHRzPcjRazBQWx",
+      "name": "Black Pudding",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Black Pudding",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "tCKHYfVlT2GqgCvY",
+            "name": "Blood",
+            "components": [
+              {
+                "id": "aRknRXM4f06JPLDJ",
+                "uuid": "",
+                "name": "Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "YHhJyS9rAV5ab2Xu",
+            "name": "Fat",
+            "components": [
+              {
+                "id": "24yJa2Rf5cCdHpt2",
+                "uuid": "",
+                "name": "Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.6dJHRzPcjRazBQWx"
+    },
+    {
+      "_id": "boMxjOGpfc4o7Q0E",
+      "name": "Bloody Gazpacho",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Bloody Gazpacho",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2465d23w5EwrTI5H",
+            "name": "Blood",
+            "components": [
+              {
+                "id": "mktSD8hyuaHYKQ9f",
+                "uuid": "",
+                "name": "Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "Q5GrjY5U46noBK9e",
+            "name": "Spice",
+            "components": [
+              {
+                "id": "MDqBXwlT7UzZFoNM",
+                "uuid": "",
+                "name": "Spice",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spice"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.boMxjOGpfc4o7Q0E"
+    },
+    {
+      "_id": "V4Zz931CmldOGbA7",
+      "name": "Carrion Delight",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Carrion Delight",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "H4ZFAiYb2m6EG4es",
+            "name": "Bone",
+            "components": [
+              {
+                "id": "0dIJ8FIGp9VqJ0wB",
+                "uuid": "",
+                "name": "Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "ejHMitBMaFk34GYf",
+            "name": "Fat",
+            "components": [
+              {
+                "id": "QSu02SG8dd1QqsP5",
+                "uuid": "",
+                "name": "Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.V4Zz931CmldOGbA7"
+    },
+    {
+      "_id": "FkixieoxbQjGI7zW",
+      "name": "Chronomancer's Slow Cooked Joint",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Chronomancer's Slow Cooked Joint",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 20,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3zUG4rTUFS4FrVsM",
+            "name": "Bone",
+            "components": [
+              {
+                "id": "5xaZPzibYIMs8Rbs",
+                "uuid": "",
+                "name": "Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "7wGp0Dd3dhJIxfF5",
+            "name": "Fat",
+            "components": [
+              {
+                "id": "w0FsuHTnzthvjtYQ",
+                "uuid": "",
+                "name": "Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "Ls1p4Q4ZsOpKiXYn",
+            "name": "Flesh",
+            "components": [
+              {
+                "id": "Ni4hiPtxhXje3OtH",
+                "uuid": "",
+                "name": "Flesh",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.FkixieoxbQjGI7zW"
+    },
+    {
+      "_id": "lCWdCHV2FUtPqJJQ",
+      "name": "Offally Good Stew",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Offally Good Stew",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 20,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "naFNsQNKL9p6u2kx",
+            "name": "Brain",
+            "components": [
+              {
+                "id": "KlTG1FrQkpvBLmli",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "88dFYC7MI6EoWns2",
+            "name": "Heart",
+            "components": [
+              {
+                "id": "IUxrAP6OSf9zJRNo",
+                "uuid": "",
+                "name": "Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "8athGPPr3ycVbawz",
+            "name": "Liver",
+            "components": [
+              {
+                "id": "3dwgt6MCNonlJ6bE",
+                "uuid": "",
+                "name": "Liver",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "liver"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.lCWdCHV2FUtPqJJQ"
+    },
+    {
+      "_id": "MX63hgop06I03sgt",
+      "name": "Draconic Delight",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Draconic Delight",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 20,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "39y24yl71kHKit4J",
+            "name": "Egg",
+            "components": [
+              {
+                "id": "fd8SNvWBlqgehY2I",
+                "uuid": "",
+                "name": "Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "oIcm3iAIt658yoBc",
+            "name": "Flesh",
+            "components": [
+              {
+                "id": "709QISrCYQ6YJd5m",
+                "uuid": "",
+                "name": "Flesh",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "53lXJEp3baUIMfjj",
+            "name": "Spice",
+            "components": [
+              {
+                "id": "mbyQRqQhnT4F2udr",
+                "uuid": "",
+                "name": "Spice",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spice"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.MX63hgop06I03sgt"
+    },
+    {
+      "_id": "Fhx3aoi1mBF1Jqiv",
+      "name": "Brain Barbacoa",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Brain Barbacoa",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 20,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QGr03lzOq9J1HvaJ",
+            "name": "Bone",
+            "components": [
+              {
+                "id": "1gvgtVkaiiPv9fVY",
+                "uuid": "",
+                "name": "Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "x7avU3jueqkUt1z8",
+            "name": "Brain",
+            "components": [
+              {
+                "id": "RVKyHB0aqPn7Lzwe",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "QMYd4yVCrQZx2Mu6",
+            "name": "Eye",
+            "components": [
+              {
+                "id": "OrA1iX2SjegT6K1J",
+                "uuid": "",
+                "name": "Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.Fhx3aoi1mBF1Jqiv"
+    },
+    {
+      "_id": "myVEFzU56mqgk3nO",
+      "name": "Scarlet Eye Flan",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Scarlet Eye Flan",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 24,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0p7UlufxO8k47H69",
+            "name": "Blood",
+            "components": [
+              {
+                "id": "Ee4A3YXfjpCNsbJC",
+                "uuid": "",
+                "name": "Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "K0HONYQH7oPZj9Tz",
+            "name": "Brain",
+            "components": [
+              {
+                "id": "Oqvz3a91oQboXJWl",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "jagQdUFoPejefchl",
+            "name": "Eye",
+            "components": [
+              {
+                "id": "9UikB7TR6Tj8m2Tk",
+                "uuid": "",
+                "name": "Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "qzUGsmD32ChyhiJK",
+            "name": "Fat",
+            "components": [
+              {
+                "id": "2Or8K93G36eIn4G3",
+                "uuid": "",
+                "name": "Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.myVEFzU56mqgk3nO"
+    },
+    {
+      "_id": "5x34zHgJy2NFtqO1",
+      "name": "Beastial Bourguignon",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Beastial Bourguignon",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 24,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bkG7TEX6utUHKXTC",
+            "name": "Flesh",
+            "components": [
+              {
+                "id": "0CBBzUNyZJoCOQKE",
+                "uuid": "",
+                "name": "Flesh",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "0uE0KbIN5HVIonF6",
+            "name": "Heart",
+            "components": [
+              {
+                "id": "WC9B2bhXeCu2R47Z",
+                "uuid": "",
+                "name": "Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "2j92KtvXR9ovgBpn",
+            "name": "Liver",
+            "components": [
+              {
+                "id": "u9wuYpqNBhKkUSG2",
+                "uuid": "",
+                "name": "Liver",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "liver"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "9JUFC3CfUmPlICO3",
+            "name": "Spice",
+            "components": [
+              {
+                "id": "x2o1410KSwFC6jw1",
+                "uuid": "",
+                "name": "Spice",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spice"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GofXS2gRIAt3HA9u.5x34zHgJy2NFtqO1"
+    }
+  ],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

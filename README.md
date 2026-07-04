@@ -4,7 +4,7 @@ A Foundry VTT v14 module that implements the crafting system from *Heliana's Gui
 
 - System: **dnd5e** (tested)
 - Foundry compatibility: **v13–v14**
-- Module version: **1.4.0**
+- Module version: **1.6.0**
 - No build step — ES modules load directly
 
 ---
@@ -383,23 +383,29 @@ See [BulkTagger.mjs](scripts/crafting/BulkTagger.mjs).
 
 ## Bundled compendiums
 
-The module ships five empty compendium packs grouped under a **Heliana's Mechanics** folder in the sidebar's Compendium tab. They're empty on install so each GM can fill them with their own content; import items/recipes from your world or another module into whichever pack fits.
+The module ships five compendium packs grouped under a **Heliana's Mechanics** folder in the sidebar's Compendium tab. As of v1.6.0 the three recipe packs come **pre-populated from the bundled catalogue** — no importer run needed:
 
-| Pack | Type | Purpose |
+| Pack | Type | Contents |
 |---|---|---|
-| Heliana's Mundane Items | Item (dnd5e) | Raw materials, tools, ingredients — anything a recipe consumes or produces at the manufacturing tier. |
-| Heliana's Recipe Books | Item (dnd5e) | Physical "book" items flagged with `isRecipeBook` + `recipeBookJournalUuid` that unlock a linked journal when a player reads them. |
-| Heliana's Manufacturing Recipes | JournalEntry | Journals whose pages are `helianas-mechanics.recipe` sub-type, type `manufacturing`. |
-| Heliana's Forge Recipes | JournalEntry | Same, type `forge`. These link to entries in the Manufacturing Recipes pack via `baseItemRecipeUuid`. |
-| Heliana's Cooking Recipes | JournalEntry | Same, type `cooking`. |
+| Heliana's Mundane Items | Item (dnd5e) | Raw materials (ores → ingots, fibres → cloth, wood → planks/poles, leather, steel, glass bottles…) consumed by the base recipes. |
+| Heliana's Recipe Books | Item (dnd5e) | Empty — author "book" items flagged with `isRecipeBook` + `recipeBookJournalUuid` here. |
+| Heliana's Manufacturing Recipes | JournalEntry | **Base Item Recipes** journal: 27 mundane base recipes (armour types, weapons, ring, rod/staff/wand, potion & scroll bases…) from the Manufacturing DC & Time table, with ingredients wired to the Mundane Items pack. |
+| Heliana's Forge Recipes | JournalEntry | 10 journals (one per catalogue Part 7 section) holding **409 magic-item recipes**, each pre-linked to its base recipe via `baseItemRecipeUuid` so both forge paths work out of the box. |
+| Heliana's Cooking Recipes | JournalEntry | **Staple Recipes** (22 dishes, DC 12–24) and **Boss Monster Recipes** (10 dishes) journals. |
 
-All packs default to **Observer** for players and **Owner** for Assistant GMs, matching the rest of the sidebar UX. Foundry initializes the underlying LevelDB the first time you write to each pack, so no setup is required beyond enabling the module.
+To use the recipes in a world: open the pack, right-click a journal → **Import**, then grant players Observer on the imported journal (or bind it to a recipe-book item). The workshop lists recipes from **world** journals only. Imported forge recipes keep working links to the compendium base recipes, so you don't need to import the Manufacturing pack unless you want to edit the bases. Recipe result slots ship without linked result items (`resultUuid` is empty) — drop an item from your own compendiums onto a recipe's result slot to backfill it.
 
-To populate a pack:
+All packs default to **Observer** for players and **Owner** for Assistant GMs.
 
-1. Author the item or recipe in your world (Items sidebar, or a Journal Entry with recipe pages).
-2. Right-click the document → **Import into Compendium** → pick the matching Heliana pack.
-3. Or drag the document straight onto the pack in the Compendium tab.
+### Rebuilding the packs
+
+The three recipe packs are generated — don't edit them in Foundry and commit the result. Sources live in `packs-src/` (JSON, reviewable) and are produced by:
+
+```bash
+npm run build:packs   # parses the catalogue → packs-src/ → LevelDB packs/
+```
+
+Document IDs are deterministic, so rebuilding after a catalogue change yields stable diffs and preserves the forge → base recipe links. The Mundane Items and Recipe Books packs are hand-authored and untouched by the build.
 
 For recipe-book Items, set the flags on the world copy *before* importing so the compendium entry carries them:
 
@@ -440,9 +446,13 @@ templates/crafting/
   recipe-browser.hbs                 Catalogue Browser template
   bulk-tagger.hbs                    Bulk Item Tagger template
 tests/                               Vitest unit tests
+tools/
+  build-packs.mjs                    Generates packs-src/ + LevelDB recipe packs from the catalogue
+packs-src/                           Generated JSON sources for the recipe packs (committed for review)
+packs/                               LevelDB compendium packs (binary — see .gitattributes)
 docs/
   crafting-systems-design.md         Full design spec
-crafting_catalogue_foundry_reference.md   Canonical rules reference (parsed by RecipeImporter)
+crafting_catalogue_foundry_reference.md   Canonical rules reference (parsed by RecipeImporter & build-packs)
 ```
 
 ---
@@ -451,8 +461,9 @@ crafting_catalogue_foundry_reference.md   Canonical rules reference (parsed by R
 
 ```bash
 npm install
-npm test          # run once
+npm test              # run once
 npm run test:watch
+npm run build:packs   # regenerate the bundled recipe compendiums from the catalogue
 ```
 
 Tests use Vitest with a minimal Foundry mock in [tests/setup.mjs](tests/setup.mjs). The suite covers constants, QuirkEngine, RecipeManager, and the Ingredient/Component matching + consumption engine.
@@ -477,11 +488,15 @@ Remaining follow-ups:
 
 - **Harvesting system** — the first half of the catalogue (Assess → Carve, creature-size timers, helpers, optional metatag/ruining/volatile rules) is still unimplemented.
 - **Familiars** — seven trainer-specific familiar trees, still unimplemented.
-- **Compendium packs** — ship the Harvest Tables, Essence Types, Mundane Ingredients, Magic Item Recipes, Familiars, and Quirk Tables as bundled compendiums so worlds don't have to run the importer.
+- **Compendium packs** — Magic Item / base / cooking recipes now ship pre-built (v1.6.0); Harvest Tables, Essence Types, Familiars, and Quirk Tables remain to be packaged.
 - **Expanded cooking-effect mappings** — today only a handful of boons (Fortifying/Warming/Nourishing) and flaws (Heavy) have numeric Active-Effect changes; the rest ship as descriptive effects only. Extend `CookingEffects.mjs` as new patterns settle.
 
 Completed in recent work:
 
+- ✅ **Pre-built recipe compendiums** — `npm run build:packs` (`tools/build-packs.mjs`) generates the three recipe packs from the catalogue: 27 mundane base recipes, 409 forge recipes (each pre-linked to its base recipe so the forging *and* enchanting paths are enabled out of the box), and 32 cooking recipes. Generated JSON sources are committed under `packs-src/`; document IDs are deterministic for stable diffs.
+- ✅ **Windows pack corruption fix** — added `.gitattributes` marking `packs/**` as binary; previously `core.autocrlf` mangled the LevelDB `CURRENT` files on Windows checkouts, making every bundled pack unopenable.
+- ✅ **Mundane Items pack fixes** — renamed the misspelled *Mitral Ingot* → **Mithral Ingot** (tags updated) and added the missing **Gold Ingot** (used by the Ring base recipe).
+- ✅ **Catalogue gap-fill** — 18 missing DMG magic items added to Part 7 of the bundled catalogue (Elixir of Health, Potions of Fire Breath / Invulnerability / Longevity / Vitality, Mariner's Armor, Sentinel Shield, Rod of Resurrection, Rod of the Pact Keeper, Staff of the Adder, Sword of Answering, Sword of Vengeance, Weapon of Warning, Alchemy Jug, Driftglobe, Necklace of Strangulation, Saddle of the Cavalier, Sending Stones). Creature type / component / value were reconstructed from the catalogue's own patterns — a note at the end of Part 7 lists them for verification against the book.
 - ✅ **Unified Forge recipes** — dropped the separate `enchanting` and `forging` types; a single `forge` recipe exposes both paths by linking to a manufacturing recipe for the mundane base. One source of truth per magic item.
 - ✅ **Dual-roll forging path** — the forging path asks for a manufacturing *and* an enchanting roll, and runs `QuirkEngine.calculateQuirks` twice so each check contributes its own flaws and boons.
 - ✅ **Multi-ability tools** — `TOOLS[key].abilities` is now an array; Carpenter's Tools (STR/DEX), Smith's Tools (CON/STR), Weaver's Tools (DEX/INT) and friends are displayed and rolled correctly.

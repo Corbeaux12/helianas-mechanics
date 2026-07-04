@@ -1,0 +1,1877 @@
+{
+  "_id": "W1EWHyk9IlLYQwEx",
+  "_key": "!journal!W1EWHyk9IlLYQwEx",
+  "name": "Base Item Recipes",
+  "pages": [
+    {
+      "_id": "3hmYRMP1DasAzvJX",
+      "name": "Adventuring Gear",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Adventuring Gear",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 11,
+        "timeHours": 2,
+        "toolKey": "tinkers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rTKyv23ry4kwf9dA",
+            "name": "Materials",
+            "components": [
+              {
+                "id": "squzes7Zj6tf2YMf",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "Hb3KMBN3ZbGPkOqX",
+                "uuid": "",
+                "name": "Basic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "basic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "66YIWHU8tr6Txm4b",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "3t5IbffcYKDBY6Li",
+                "uuid": "",
+                "name": "Cotton Cloth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "cotton",
+                  "cloth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.3hmYRMP1DasAzvJX"
+    },
+    {
+      "_id": "EP1H0eT029WC1GDz",
+      "name": "Ammunition",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Ammunition",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 20,
+        "dc": 13,
+        "timeHours": 1,
+        "toolKey": "carpenters-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "axgZq5raE5OgX01O",
+            "name": "Shafts",
+            "components": [
+              {
+                "id": "ri0J4zoDW03C09he",
+                "uuid": "",
+                "name": "Basic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "basic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "fmkwxI3Ku2U9ubzb",
+            "name": "Heads",
+            "components": [
+              {
+                "id": "Vkrz4W70NhkcAUJp",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.EP1H0eT029WC1GDz"
+    },
+    {
+      "_id": "kJGRUrVX8w30SgTQ",
+      "name": "Padded Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Padded Armor",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 13,
+        "timeHours": 8,
+        "toolKey": "weavers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vr7hI7iIOULgVS2D",
+            "name": "Cloth",
+            "components": [
+              {
+                "id": "2sP8cALFqh4Jlqct",
+                "uuid": "",
+                "name": "Cotton Cloth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 4,
+                "tags": [
+                  "cotton",
+                  "cloth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.kJGRUrVX8w30SgTQ"
+    },
+    {
+      "_id": "xBg8FTUAnqxjnJqI",
+      "name": "Hide Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Hide Armor",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 13,
+        "timeHours": 8,
+        "toolKey": "leatherworkers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "W21Oun1IOXSFn9do",
+            "name": "Hides",
+            "components": [
+              {
+                "id": "cq3avKYEWcPXiv7c",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 4,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.xBg8FTUAnqxjnJqI"
+    },
+    {
+      "_id": "Iz2JUqiD2c9iORyn",
+      "name": "Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Shield",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 13,
+        "timeHours": 8,
+        "toolKey": "carpenters-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bXd51q70D50JHJcX",
+            "name": "Wood",
+            "components": [
+              {
+                "id": "UkQUNDevf0xAyATX",
+                "uuid": "",
+                "name": "Basic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 3,
+                "tags": [
+                  "basic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.Iz2JUqiD2c9iORyn"
+    },
+    {
+      "_id": "ptmxaTGoSD5sOSws",
+      "name": "Leather Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Leather Armor",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 16,
+        "toolKey": "leatherworkers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JnqR1UnM3x5SXOI5",
+            "name": "Leather",
+            "components": [
+              {
+                "id": "oyI7yCyJZiXqkN4k",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 5,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.ptmxaTGoSD5sOSws"
+    },
+    {
+      "_id": "oOa1uRDVPICe2bUz",
+      "name": "Chain Shirt",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Chain Shirt",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 16,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PKU0k2hcILlur2fN",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "Fb5jffehsYf7VgnK",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 6,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.oOa1uRDVPICe2bUz"
+    },
+    {
+      "_id": "6eBAb12jrEfrt88r",
+      "name": "Ring Mail",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Ring Mail",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 16,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "iD2aO4oDG3er7EUl",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "WE7KiALKgUawLSba",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 8,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "my5bzETrBgD7xu9D",
+            "name": "Backing",
+            "components": [
+              {
+                "id": "CZBqhS1wSS8XvGln",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.6eBAb12jrEfrt88r"
+    },
+    {
+      "_id": "sxRto2Is4jRL73tx",
+      "name": "Chain Mail",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Chain Mail",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 32,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "P8dI25nsJcvD2w2D",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "Ecd6hO9mDh68iCbd",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 10,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.sxRto2Is4jRL73tx"
+    },
+    {
+      "_id": "cR6aFVA4DYkM6F2t",
+      "name": "Studded Leather Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Studded Leather Armor",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 17,
+        "timeHours": 24,
+        "toolKey": "leatherworkers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1K3ha5eF8kNo0KGE",
+            "name": "Leather",
+            "components": [
+              {
+                "id": "g80CTwahknD9LeCN",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 5,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "U3uBq0L90AmfykoN",
+            "name": "Studs",
+            "components": [
+              {
+                "id": "jKhYPfRcaiudiSLi",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.cR6aFVA4DYkM6F2t"
+    },
+    {
+      "_id": "ZJvHWQpW3SmoApzZ",
+      "name": "Scale Mail",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Scale Mail",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 17,
+        "timeHours": 24,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BBOzMpv5jB96q28z",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "aTQlnC9ZAx5Az4t0",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 8,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "4smvqbT9okLBpNLj",
+            "name": "Backing",
+            "components": [
+              {
+                "id": "CiEmfxltUX4cWTkm",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.ZJvHWQpW3SmoApzZ"
+    },
+    {
+      "_id": "WzbsZ0y90f9rcXpM",
+      "name": "Breastplate",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Breastplate",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5wfq3hweOBBc72JP",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "yShf4v7pT76uPY14",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 8,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "5zCaUV4wtEaSd17t",
+            "name": "Fittings",
+            "components": [
+              {
+                "id": "4BGIqOw83cpQ2o15",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.WzbsZ0y90f9rcXpM"
+    },
+    {
+      "_id": "zm5K4fJcOlpc7oE2",
+      "name": "Splint Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Splint Armor",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "oO04ecP6k5H8qr7t",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "udl7mN1XpPLzrP1K",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 10,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "kMLhSwkfR7PEDP56",
+            "name": "Fittings",
+            "components": [
+              {
+                "id": "op6qRzFo4TCxZ5QV",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.zm5K4fJcOlpc7oE2"
+    },
+    {
+      "_id": "YGQHtL8W9SF6NpgB",
+      "name": "Half Plate Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Half Plate Armor",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 19,
+        "timeHours": 80,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "S4TlyWAWjfWfDNgi",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "ACRikgxyC4UUwhQ3",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 12,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "gGzRz5UxlfbvLfrH",
+            "name": "Fittings",
+            "components": [
+              {
+                "id": "upVsKrDfHvW89jma",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.YGQHtL8W9SF6NpgB"
+    },
+    {
+      "_id": "SJbFgJmeQKYqogMj",
+      "name": "Plate Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Plate Armor",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 20,
+        "timeHours": 200,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KxFiE27ITstM90Ir",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "tr3rtq0xQZzDq15v",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 16,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "u7Cwr1xj1mWyZz0m",
+            "name": "Fittings",
+            "components": [
+              {
+                "id": "e3VBGujXrP5LJRuq",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.SJbFgJmeQKYqogMj"
+    },
+    {
+      "_id": "vpdXQ7O41Lz3RAvK",
+      "name": "Instrument",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Instrument",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 16,
+        "toolKey": "woodcarvers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "51OqTjOBZi8v1GCZ",
+            "name": "Wood",
+            "components": [
+              {
+                "id": "nUVBzXxrRQfPNVxn",
+                "uuid": "",
+                "name": "Exotic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "exotic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.vpdXQ7O41Lz3RAvK"
+    },
+    {
+      "_id": "D3al85ivKdcBw21g",
+      "name": "Potion Base",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Potion Base",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 2,
+        "toolKey": "alchemists-supplies",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "t0Y4oPI1y7hfzXJD",
+            "name": "Vessel",
+            "components": [
+              {
+                "id": "881BIgraj1BhXn28",
+                "uuid": "",
+                "name": "Bottle, Glass",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bottle",
+                  "glass"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.D3al85ivKdcBw21g"
+    },
+    {
+      "_id": "dW4V3wRkSD1agfwo",
+      "name": "Ring",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Ring",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 8,
+        "toolKey": "jewelers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hLGJOrbYMm58YF8i",
+            "name": "Precious metal",
+            "components": [
+              {
+                "id": "RvHbjAHIPSgQZc8E",
+                "uuid": "",
+                "name": "Gold Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "gold",
+                  "ingot"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "ZSXqrHkkVbfLyU1D",
+                "uuid": "",
+                "name": "Silver Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "silver",
+                  "ingot"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "Vryt7I3GrKm4ifSa",
+                "uuid": "",
+                "name": "Platinum Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "platinum",
+                  "ingot"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.dW4V3wRkSD1agfwo"
+    },
+    {
+      "_id": "0bp87EadOLnfu79L",
+      "name": "Rod",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Rod",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 17,
+        "timeHours": 8,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CFW5tv0S1bxn08ad",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "a7YI4OvJgWIrTTis",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.0bp87EadOLnfu79L"
+    },
+    {
+      "_id": "hMAiblmPcjkEUXoD",
+      "name": "Staff",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Staff",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 17,
+        "timeHours": 8,
+        "toolKey": "woodcarvers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Swo8ugwTu9sCajaI",
+            "name": "Wood",
+            "components": [
+              {
+                "id": "cp1WhYTivuAdSNuy",
+                "uuid": "",
+                "name": "Exotic Wood Pole",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "exotic",
+                  "wood",
+                  "pole"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.hMAiblmPcjkEUXoD"
+    },
+    {
+      "_id": "TkGgr7eNsG9b2qxl",
+      "name": "Wand",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Wand",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 17,
+        "timeHours": 8,
+        "toolKey": "woodcarvers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xViu3Ul73Yh3zi8s",
+            "name": "Wood",
+            "components": [
+              {
+                "id": "ORtLKt4k74Q6dcku",
+                "uuid": "",
+                "name": "Exotic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "exotic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.TkGgr7eNsG9b2qxl"
+    },
+    {
+      "_id": "RxCAnXAF42B1qAg3",
+      "name": "Spell Scroll Base",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Spell Scroll Base",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 2,
+        "toolKey": "calligraphers-supplies",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "NwVhtEDAO6ND23GD",
+            "name": "Parchment",
+            "components": [
+              {
+                "id": "NBStY1c6vd2Tzzmx",
+                "uuid": "",
+                "name": "Parchment",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "parchment",
+                  "paper",
+                  "cloth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.RxCAnXAF42B1qAg3"
+    },
+    {
+      "_id": "HK7X1aAesYlpzbdi",
+      "name": "Simple Weapon",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Simple Weapon",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 14,
+        "timeHours": 8,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7Vai3sO5Fgxt5rLd",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "dvgGQYAlrJhidM1J",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "uNZ5a1qzz6KVedlb",
+            "name": "Haft",
+            "components": [
+              {
+                "id": "5QMic73bJxav8fCW",
+                "uuid": "",
+                "name": "Basic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "basic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.HK7X1aAesYlpzbdi"
+    },
+    {
+      "_id": "ncs660Nb6YH2RLuM",
+      "name": "Martial Weapon",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Martial Weapon",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 17,
+        "timeHours": 16,
+        "toolKey": "smiths-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "nZN8nR3GIjBMnkA0",
+            "name": "Metal stock",
+            "components": [
+              {
+                "id": "VuXNX9r3Zy9FSHIq",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 3,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "cPtpRQ3gBpDpH6G1",
+            "name": "Haft",
+            "components": [
+              {
+                "id": "0yJy5NoQLV6joGLH",
+                "uuid": "",
+                "name": "Basic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "basic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.ncs660Nb6YH2RLuM"
+    },
+    {
+      "_id": "ZDAfzcVl69bc8W8J",
+      "name": "Bow",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Bow",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 17,
+        "timeHours": 16,
+        "toolKey": "woodcarvers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4zoN0XJqdfZ21VGc",
+            "name": "Stave",
+            "components": [
+              {
+                "id": "ag4TRJpJSYYNB6P8",
+                "uuid": "",
+                "name": "Exotic Wood Pole",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "exotic",
+                  "wood",
+                  "pole"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "VcFIEepCJfcLG7pN",
+            "name": "String",
+            "components": [
+              {
+                "id": "QrAZwueJN7Uabmt4",
+                "uuid": "",
+                "name": "Cotton Cloth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "cotton",
+                  "cloth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.ZDAfzcVl69bc8W8J"
+    },
+    {
+      "_id": "fEVJgQtmmxVLRGMI",
+      "name": "Magitech Firearm",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Magitech Firearm",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 19,
+        "timeHours": 24,
+        "toolKey": "tinkers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "TSXfP7R6jlxmQhPo",
+            "name": "Steel parts",
+            "components": [
+              {
+                "id": "j37Q79RplhU4fM22",
+                "uuid": "",
+                "name": "Steel",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [
+                  "steel",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "tpCm0aFOQPI8dhkH",
+            "name": "Stock",
+            "components": [
+              {
+                "id": "P56q0zFdleSxvzou",
+                "uuid": "",
+                "name": "Exotic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "exotic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.fEVJgQtmmxVLRGMI"
+    },
+    {
+      "_id": "UFaNSpsjvKULF5Il",
+      "name": "Wondrous Item",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "manufacturing",
+        "resultName": "Wondrous Item",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 8,
+        "toolKey": "tinkers-tools",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YZH7QCvlFO7pXr5d",
+            "name": "Materials",
+            "components": [
+              {
+                "id": "4ecGOh4sr1kS3iq5",
+                "uuid": "",
+                "name": "Iron Ingot",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "iron",
+                  "ingot",
+                  "metal"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "83M1UmGG9nBTUTM1",
+                "uuid": "",
+                "name": "Leather",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "leather",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "69wcTf6EitX4ln4V",
+                "uuid": "",
+                "name": "Cotton Cloth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "cotton",
+                  "cloth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              },
+              {
+                "id": "VqHhFyGH6N35tXMf",
+                "uuid": "",
+                "name": "Exotic Wood Plank",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "exotic",
+                  "wood",
+                  "plank"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!W1EWHyk9IlLYQwEx.UFaNSpsjvKULF5Il"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
