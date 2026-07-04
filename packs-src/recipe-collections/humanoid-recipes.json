@@ -1,0 +1,760 @@
+{
+  "_id": "IWeivbDVPMgyqlGT",
+  "_key": "!journal!IWeivbDVPMgyqlGT",
+  "name": "Humanoid Recipes",
+  "pages": [
+    {
+      "_id": "8tJVNxRq185NR16U",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfDimin]{Potion of Diminution}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfInvis]{Potion of Invisibility}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfThreeWi]{Ring of Three Wishes}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSwordOfWoundi]{Sword of Wounding}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgChimeOfOpenin]{Chime of Opening}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHeadbandOfInt]{Headband of Intellect}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.iDSmOpjpIjl0pWbC]{Heliana's Guide to Monster Hunting (Uncommon)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.AGXAe1Z4k3E4lwB4]{Heliana's Guide to Monster Hunting (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.DdnWilWK0aTyGMLf]{Infested Cultist's Skull (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.fltozneYEWBJRkvN]{Infested Cultist's Skull (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgManualOfGainf]{Manual of Gainful Exercise}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRobeOfUsefulI]{Robe of Useful Items}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStoneOfGoodLu]{Stone of Good Luck (Luckstone)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.8tJVNxRq185NR16U"
+    },
+    {
+      "_id": "Ge9tg0lJslmAAeMi",
+      "name": "Potion of Diminution",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Diminution",
+        "resultImg": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfDimin",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "J20ptF9yorzgiqSz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QJJWeU2mLac9tP9r",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.79aJ7ySW6dmb0635",
+                "name": "Phial of Humanoid Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.Ge9tg0lJslmAAeMi"
+    },
+    {
+      "_id": "jP5p4rjCYuNeR4Ge",
+      "name": "Potion of Invisibility",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Invisibility",
+        "resultImg": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfInvis",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "t4M642wRleoZWqXO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JkmGd2vd31fCGbxr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vCRuBwLkS3GCozMC",
+                "name": "Humanoid Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-pelt-cured.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.jP5p4rjCYuNeR4Ge"
+    },
+    {
+      "_id": "RCNXZd8wit2ZIxGs",
+      "name": "Ring of Three Wishes",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Three Wishes",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfThreeWi",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sK8uxJ5mGNqo5xbB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "XkpkHEn9P6EQY4H4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IQty2wmvgO8Mkh5u",
+                "name": "Humanoid Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "humanoid",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.RCNXZd8wit2ZIxGs"
+    },
+    {
+      "_id": "ju50A5lR45FyNtQs",
+      "name": "Sword of Wounding",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Sword of Wounding",
+        "resultImg": "icons/skills/melee/strike-sword-blood-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSwordOfWoundi",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "HQIKYg5KA6x4tjxn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Y5Ccmt8HokqAl8z2",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.RKu20rYg91awVGn9",
+                "name": "Pouch of Humanoid Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.ju50A5lR45FyNtQs"
+    },
+    {
+      "_id": "cKjFqpmrlJ1LNeG5",
+      "name": "Chime of Opening",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Chime of Opening",
+        "resultImg": "icons/commodities/tech/pipe-cylinder.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgChimeOfOpenin",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zXJ2CQwIWz4mep40",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1H2mvbo536wThGTd",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.khcaAhWbTgPlLsZy",
+                "name": "Humanoid Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-simple-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.cKjFqpmrlJ1LNeG5"
+    },
+    {
+      "_id": "iG2wDfLGuB2GWoke",
+      "name": "Headband of Intellect",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Headband of Intellect",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHeadbandOfInt",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MfqhtkYbuUQsXxHG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "XrNHVS2uhRqxG42V",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.k8OOk9mRHLO4FIYd",
+                "name": "Humanoid Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.iG2wDfLGuB2GWoke"
+    },
+    {
+      "_id": "lrw6kAR6A3OBzQrT",
+      "name": "Heliana's Guide (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Heliana's Guide to Monster Hunting (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/loot-tavern/LootTavern_Helianas-Guide-to-Monster-Hunting.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.iDSmOpjpIjl0pWbC",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "i0tqybAYDiVv62xf",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2673WZvfa2n6fW4B",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.k8OOk9mRHLO4FIYd",
+                "name": "Humanoid Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.lrw6kAR6A3OBzQrT"
+    },
+    {
+      "_id": "IHc1Tt2MEUORc725",
+      "name": "Heliana's Guide (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Heliana's Guide to Monster Hunting (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/images/loot-tavern/LootTavern_Helianas-Guide-to-Monster-Hunting.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.AGXAe1Z4k3E4lwB4",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2az1Mkr8L1MBiA6n",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ZkP71UlycuLWZQfR",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.k8OOk9mRHLO4FIYd",
+                "name": "Humanoid Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "humanoid",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.IHc1Tt2MEUORc725"
+    },
+    {
+      "_id": "Of2V0A4M0T8RJnqF",
+      "name": "Infested Cultist's Skull (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Infested Cultist's Skull (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/infestedcultistskull_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.DdnWilWK0aTyGMLf",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3BF4uxqVmdD2Ie6w",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jYmZ8bMbBbOTJt1u",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.khcaAhWbTgPlLsZy",
+                "name": "Humanoid Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-simple-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.Of2V0A4M0T8RJnqF"
+    },
+    {
+      "_id": "2olMHXVaej85OkVe",
+      "name": "Infested Cultist's Skull (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Infested Cultist's Skull (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/infestedcultistskull_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.fltozneYEWBJRkvN",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qrZ1E8A8zq0edo9N",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "nGKt3KOkwe5Ifs5A",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.khcaAhWbTgPlLsZy",
+                "name": "Humanoid Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-simple-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "humanoid",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.2olMHXVaej85OkVe"
+    },
+    {
+      "_id": "fO2Ygi0dI6iA4Ld0",
+      "name": "Ioun Stone (Reserve)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8oKemK94HGAHFC3f",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "losSFflOi6ZY5b27",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.k8OOk9mRHLO4FIYd",
+                "name": "Humanoid Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-pink-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.fO2Ygi0dI6iA4Ld0"
+    },
+    {
+      "_id": "lN0uTIzIlwGQZVac",
+      "name": "Manual of Gainful Exercise",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Manual of Gainful Exercise",
+        "resultImg": "icons/sundries/books/book-symbol-axe-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgManualOfGainf",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "XwFjV5QIW651Dm87",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "91GJB65Ir38OsZ4k",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.L55KPHnnjtY5zFRv",
+                "name": "Humanoid Liver",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "humanoid",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.lN0uTIzIlwGQZVac"
+    },
+    {
+      "_id": "nLPq0xz27rm1h9EV",
+      "name": "Robe of Useful Items",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Robe of Useful Items",
+        "resultImg": "icons/equipment/back/cloak-simple-tan.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRobeOfUsefulI",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eQkKSf3eZtXUB54O",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "C36Es95N6zxoM5KE",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vCRuBwLkS3GCozMC",
+                "name": "Humanoid Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-pelt-cured.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.nLPq0xz27rm1h9EV"
+    },
+    {
+      "_id": "qKy5jgnHFvEbTAnz",
+      "name": "Stone of Good Luck",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Stone of Good Luck (Luckstone)",
+        "resultImg": "icons/commodities/gems/gem-rough-rectangle-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStoneOfGoodLu",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WkHjQfuzclLT5beR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MIW7qKa5OiuKNEeS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IQty2wmvgO8Mkh5u",
+                "name": "Humanoid Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!IWeivbDVPMgyqlGT.qKy5jgnHFvEbTAnz"
+    }
+  ],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

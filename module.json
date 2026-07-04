@@ -2,7 +2,7 @@
   "id": "helianas-mechanics",
   "title": "Heliana's Mechanics",
   "description": "A Foundry VTT module providing mechanics from Heliana's Guide to Monster Hunting.",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
@@ -68,6 +68,21 @@
       "type": "Item",
       "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "recipe-collections",
+      "label": "Heliana's Recipe Collections",
+      "path": "packs/recipe-collections",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "hunt-items",
+      "label": "Heliana's Hunt Items",
+      "path": "packs/hunt-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     }
   ],
   "relationships": {
@@ -86,7 +101,9 @@
         "recipe-books",
         "manufacturing-recipes",
         "forge-recipes",
-        "cooking-recipes"
+        "cooking-recipes",
+        "recipe-collections",
+        "hunt-items"
       ]
     }
   ],

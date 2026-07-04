@@ -1,0 +1,2060 @@
+{
+  "_id": "7LeM7zUcnrd2W6fv",
+  "_key": "!journal!7LeM7zUcnrd2W6fv",
+  "name": "Construct Recipes",
+  "pages": [
+    {
+      "_id": "yM4b0IFDdDkxNzXp",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfInvuln]{Armor of Invulnerability}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAnimatedShiel]{Animated Shield}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.8POKvNQx4lrZAUnH]{Dragonmaw Shield}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSpellguardShi]{Spellguard Shield}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfSlipperi]{Oil of Slipperiness}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfInvul]{Potion of Invulnerability}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfProtect]{Ring of Protection}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRodOfAbsorpti]{Rod of Absorption}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.nak7XKRMJfrwjgmS]{Gunnspier Halberd (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.7O0lA0jFQHWOZpLz]{Gunnspier Halberd (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.1pCVvRhtpeHsDKa4]{Splinterspray  Light Tommybow (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L2oNNmgbK3nYVS9l]{Splinterspray  Light Tommybow (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.6lj7QaN2g1YMzrFt]{Splinterspray  Light Tommybow (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDancingSword0]{Dancing Sword}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDefender00000]{Defender}</p><p>Sword of Answering (any sword)</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.Nft1Tr4jggWqpSia]{Kobold Wristbow}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.UeM278b3lSNwEpum]{Pneuma Longsword (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.0dYI4qU6QbAkcMU1]{Pneuma Longsword (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgMaceOfSmiting]{Mace of Smiting}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgApparatusOfKw]{Apparatus of the Crab}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBeadOfForce00]{Bead of Force}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBootsOfStridi]{Boots of Striding and Springing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCubeOfForce00]{Cube of Force}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.r6SZrft7OUyAAcrY]{Dimensional Doorknob}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHelmOfCompreh]{Helm of Comprehending Languages}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDaernsInstant]{Instant Fortress}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIronFlask0000]{Iron Flask}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.kAGnllMGs3vUhcRY]{Kobbold Flaymefrower (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.vqACI7lPdY4IK3wp]{Kobbold Flaymefrower (Very Rare)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.YCmZddY7eM9gz79C]{L’Arsène’s Quadnoculars}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgManualOfGolem]{Manual of Golems}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.2MO31KEBHTKHVVbY]{Rolly Turrit}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgTomeOfClearTh]{Tome of Clear Thought}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.yM4b0IFDdDkxNzXp"
+    },
+    {
+      "_id": "eh3L8tSIOTKNcD1h",
+      "name": "Armor of Resistance (Force)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Kr8fnQxChlSf0wp3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2moeer0i2Bb4isAv",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PNBpZzmeBSHtuJJX",
+                "name": "Construct Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-broken-grey-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.eh3L8tSIOTKNcD1h"
+    },
+    {
+      "_id": "fZewhZi4TOc9DPu2",
+      "name": "Armor of Invulnerability",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Invulnerability",
+        "resultImg": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfInvuln",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JcjMyH1XKum5yV2L",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RQczs5nxzWtd4QPI",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.fZewhZi4TOc9DPu2"
+    },
+    {
+      "_id": "OryhIX4lCouTmMBT",
+      "name": "Animated Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Animated Shield",
+        "resultImg": "icons/skills/melee/shield-block-gray-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAnimatedShiel",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LiAxvRgbXKrqfNnU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rcjipc6KN0L3bR3N",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.OryhIX4lCouTmMBT"
+    },
+    {
+      "_id": "5l4dinV9zIbA84yi",
+      "name": "Dragonmaw Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Dragonmaw Shield",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Dragonmaw_Shield.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.8POKvNQx4lrZAUnH",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3uSyTgnjvKG3GpLG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Sit5WgrX5ZFmin1a",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.5l4dinV9zIbA84yi"
+    },
+    {
+      "_id": "O6GAfo6hp5ImqcAC",
+      "name": "Spellguard Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Spellguard Shield",
+        "resultImg": "icons/equipment/shield/kite-wooden-sigil-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSpellguardShi",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LndWkZt1siTKq6R4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "EVuJ7oez5ay0AHBt",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.O6GAfo6hp5ImqcAC"
+    },
+    {
+      "_id": "xuUKdJell5dYfzlP",
+      "name": "Oil of Slipperiness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Oil of Slipperiness",
+        "resultImg": "icons/consumables/potions/bottle-circular-corked-labeled-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgOilOfSlipperi",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "76AR7wIId24GKpdA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "b54Rdmmkknlfzzg8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xl6yAscw4bGt63y1",
+                "name": "Phial of Construct Oil",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.xuUKdJell5dYfzlP"
+    },
+    {
+      "_id": "GX2APWSeU05b9CnF",
+      "name": "Potion of Invulnerability",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Invulnerability",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfInvul",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DYqTFlF7dSRb6ZNf",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7lHGpmPw3xQ719K4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xl6yAscw4bGt63y1",
+                "name": "Phial of Construct Oil",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.GX2APWSeU05b9CnF"
+    },
+    {
+      "_id": "k3FXYaEcZLB1JVDR",
+      "name": "Ring of Protection",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Protection",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfProtect",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1Uf8w94GDA5pIiVy",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9XJ4cx4j4adtANc6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.k3FXYaEcZLB1JVDR"
+    },
+    {
+      "_id": "xhgw73VGV2w0Fr5D",
+      "name": "Rod of Absorption",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of Absorption",
+        "resultImg": "icons/weapons/wands/wand-carved-fire.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfAbsorpti",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Mx4lJdRlirs91xZu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "eZnEBRdJEA22sVoC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qcmPfB2BqQgzGyKm",
+                "name": "Construct Stone",
+                "nameMode": "exact",
+                "img": "icons/commodities/stone/masonry-block-cube-grey-teal.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.xhgw73VGV2w0Fr5D"
+    },
+    {
+      "_id": "PORafLc3LmrIO0Zk",
+      "name": "Gunnspier (any polearm**) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Gunnspier Halberd (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Gunnspier_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.nak7XKRMJfrwjgmS",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CntB70ruFUIDQQ5p",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "NvlVc4qxbQIS65RY",
+                "uuid": "",
+                "name": "Gearing",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.PORafLc3LmrIO0Zk"
+    },
+    {
+      "_id": "B0A7FSWH40eFqnp0",
+      "name": "Gunnspier (any polearm**) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Gunnspier Halberd (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Gunnspier_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.7O0lA0jFQHWOZpLz",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "SGWFdsA6NnhDADf9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8qMzseWaKMLtaD32",
+                "uuid": "",
+                "name": "Gearing",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.B0A7FSWH40eFqnp0"
+    },
+    {
+      "_id": "Gk31hi64BNd45xt3",
+      "name": "Splinterspray Tommybow (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Splinterspray  Light Tommybow (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Rakshasa_Splinterspray-Tommybow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.1pCVvRhtpeHsDKa4",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "N54nhc6SRCB3zLSg",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vEE0kCjtiuFPBS1W",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.Gk31hi64BNd45xt3"
+    },
+    {
+      "_id": "DmclegUXCol30Ov3",
+      "name": "Splinterspray Tommybow (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Splinterspray  Light Tommybow (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Rakshasa_Splinterspray-Tommybow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L2oNNmgbK3nYVS9l",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1e6NnCag8XAQLuTO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lfaEVINmCSLgoAE4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.DmclegUXCol30Ov3"
+    },
+    {
+      "_id": "sSNtUyInFit1I7dp",
+      "name": "Splinterspray Tommybow (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Splinterspray  Light Tommybow (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Rakshasa_Splinterspray-Tommybow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.6lj7QaN2g1YMzrFt",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rZsUPD8HFaQAhtft",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5wvIMzV0FUFX54S5",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.sSNtUyInFit1I7dp"
+    },
+    {
+      "_id": "EX1lt5aHFV0OflGn",
+      "name": "Dancing Sword",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Dancing Sword",
+        "resultImg": "icons/skills/melee/sword-twirl-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDancingSword0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rvc6XjODLKU821eh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WDljSKzo6lRpiKQC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.EX1lt5aHFV0OflGn"
+    },
+    {
+      "_id": "JmHNGI6YxHpFwqcO",
+      "name": "Defender",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Defender",
+        "resultImg": "icons/weapons/swords/greatsword-guard-jewel-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDefender00000",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qw1pOKKeBUsF0CFh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tm3BLVy2d6wH0Mkr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.JmHNGI6YxHpFwqcO"
+    },
+    {
+      "_id": "M6in8G9jNbloHu3F",
+      "name": "Sword of Answering (any sword)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Sword of Answering (any sword)",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "n5BmdgtjFBndYsS2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2S2lUF9IaaB5Xdvc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.M6in8G9jNbloHu3F"
+    },
+    {
+      "_id": "VhKCHYjmZrSjMpXW",
+      "name": "Kobold Wristbow (hand crossbow)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Kobold Wristbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Koboldzilla_Kobold-Wristbow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.Nft1Tr4jggWqpSia",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5qXq9a5l4lsR4oJk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6oboMIHsXqjka2bG",
+                "uuid": "",
+                "name": "Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "construct",
+        "rarity": "common",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.VhKCHYjmZrSjMpXW"
+    },
+    {
+      "_id": "gIm1AaqdoGE4FV7h",
+      "name": "Pneuma Blade (longsword or greatsword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Pneuma Longsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Pneuma_Blade_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.UeM278b3lSNwEpum",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yTZdZRCuABbiIXOf",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "sLee7HYKeTvqMzQ0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.gIm1AaqdoGE4FV7h"
+    },
+    {
+      "_id": "J9HVMDr4N6drmw6A",
+      "name": "Pneuma Blade (longsword or greatsword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Pneuma Longsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Pneuma_Blade_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.0dYI4qU6QbAkcMU1",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YPLw3SIbrmOYX4OB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9Gk2BRdA2ph0Px8Z",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.J9HVMDr4N6drmw6A"
+    },
+    {
+      "_id": "tRpdOMunIbi7qxvw",
+      "name": "Mace of Smiting",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "resultName": "Mace of Smiting",
+        "resultImg": "icons/weapons/maces/mace-studded-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMaceOfSmiting",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "SWXsWW9AFjh3h8Tk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "H9Wln64gRGYzKCjN",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PNBpZzmeBSHtuJJX",
+                "name": "Construct Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-broken-grey-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.tRpdOMunIbi7qxvw"
+    },
+    {
+      "_id": "fh0kAJh5jBLmuDnO",
+      "name": "Apparatus of the Crab",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Apparatus of the Crab",
+        "resultImg": "icons/containers/barrels/barrel-walnut-steel-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgApparatusOfKw",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "tDRAXXTM1EOezmgV",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "T9WYcWYoNmMa5eEi",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Flywz49U8ViqIZPL",
+                "name": "Construct Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.fh0kAJh5jBLmuDnO"
+    },
+    {
+      "_id": "pW8BXSiQUkZgeJ1y",
+      "name": "Bead of Force",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bead of Force",
+        "resultImg": "icons/commodities/gems/pearl-purple-dark.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBeadOfForce00",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "t2cByTUHtQpsEbLE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uZJLd4NNzkBb2qjR",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.pW8BXSiQUkZgeJ1y"
+    },
+    {
+      "_id": "oNhU5LGSPC52EtDM",
+      "name": "Boots of Striding and Springing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Boots of Striding and Springing",
+        "resultImg": "icons/equipment/feet/boots-collared-leather-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBootsOfStridi",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "djAzG1E9E0vxS8OZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ycub8A20sAeje0yY",
+                "uuid": "",
+                "name": "Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.oNhU5LGSPC52EtDM"
+    },
+    {
+      "_id": "rkxoZNDtfaeL7o2A",
+      "name": "Cube of Force",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Cube of Force",
+        "resultImg": "icons/sundries/gaming/dice-runed-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCubeOfForce00",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MI4S9cret1lzCJhX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Xf5nL597CpCPl1Sb",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.rkxoZNDtfaeL7o2A"
+    },
+    {
+      "_id": "5TE1GiPjEPrF96oj",
+      "name": "Dimensional Doorknob",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Dimensional Doorknob",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Koboldzilla_Dimensional-Doorknob.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.r6SZrft7OUyAAcrY",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mvau0pfM21gxX1CX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6ndijWtFpra3zT0Q",
+                "uuid": "",
+                "name": "Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.5TE1GiPjEPrF96oj"
+    },
+    {
+      "_id": "SZFj4QWHJEQ3k7D8",
+      "name": "Helm of Comprehending Languages",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Helm of Comprehending Languages",
+        "resultImg": "icons/equipment/head/helm-spangen-ridged.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHelmOfCompreh",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3NDPepotDVpIioph",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HB51ZiFVXVqTorq6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Flywz49U8ViqIZPL",
+                "name": "Construct Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.SZFj4QWHJEQ3k7D8"
+    },
+    {
+      "_id": "nQQDdZhJZIBrRXm2",
+      "name": "Instant Fortress",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Instant Fortress",
+        "resultImg": "icons/commodities/treasure/token-engraved-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDaernsInstant",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Wrk94yRxyP2oD4zf",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WE5OCCI1eZgLPQSy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PNBpZzmeBSHtuJJX",
+                "name": "Construct Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-broken-grey-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.nQQDdZhJZIBrRXm2"
+    },
+    {
+      "_id": "u1rRtRH3yUmVEV6o",
+      "name": "Ioun Stone (Greater Absorption)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "o6Rdm9OyHTXs3yPk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "w55af23F0w1OW1Ka",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.u1rRtRH3yUmVEV6o"
+    },
+    {
+      "_id": "AO7r2P5Q088VCzqu",
+      "name": "Iron Flask",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Iron Flask",
+        "resultImg": "icons/consumables/potions/bottle-round-empty-glass.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIronFlask0000",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EXpL58gIgEhIQXii",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SVyNHvG29rie06QC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.AO7r2P5Q088VCzqu"
+    },
+    {
+      "_id": "GaXipSrg9M4vMq74",
+      "name": "Kobbold Flaymefrower (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Kobbold Flaymefrower (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Kobbold_Flaymefrower.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.kAGnllMGs3vUhcRY",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3k4a0qjRlggLaNly",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jCWpxKZptckRI4Px",
+                "uuid": "",
+                "name": "Arcanothermic core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.GaXipSrg9M4vMq74"
+    },
+    {
+      "_id": "RCLz20Z8g8kpsxV7",
+      "name": "Kobbold Flaymefrower (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Kobbold Flaymefrower (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Kobbold_Flaymefrower_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.vqACI7lPdY4IK3wp",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "daBt1sJIu7gEFzWw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xnnHx6CnpaVGIolS",
+                "uuid": "",
+                "name": "Arcanothermic core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.RCLz20Z8g8kpsxV7"
+    },
+    {
+      "_id": "LpnEjAE7ofiuNInF",
+      "name": "L'Arsène's Quadnoculars",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "L’Arsène’s Quadnoculars",
+        "resultImg": "modules/heliana-core/assets/images/loot-tavern/LootTavern_LArsenes-Quadnoculars.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.YCmZddY7eM9gz79C",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RWFj9DrPYRr1Knbz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "M9aPa5gfb8iEKuML",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Flywz49U8ViqIZPL",
+                "name": "Construct Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.LpnEjAE7ofiuNInF"
+    },
+    {
+      "_id": "uwzkG0waozsUAcRJ",
+      "name": "Manual of Clay Golems",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Manual of Golems",
+        "resultImg": "icons/sundries/books/book-eye-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgManualOfGolem",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "NYQ5PJ0PbCrapDDr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Fw4KQkRb9KQbpMjA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qcmPfB2BqQgzGyKm",
+                "name": "Construct Stone",
+                "nameMode": "exact",
+                "img": "icons/commodities/stone/masonry-block-cube-grey-teal.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.uwzkG0waozsUAcRJ"
+    },
+    {
+      "_id": "72BYKGxF7b71IMV8",
+      "name": "Manual of Flesh Golems",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Manual of Golems",
+        "resultImg": "icons/sundries/books/book-eye-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgManualOfGolem",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "prmaHA3S1PbVnNLQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "whh5NhRxQJkkIGzm",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.9b5oDdUgbmFnmCzh",
+                "name": "Construct Flesh",
+                "nameMode": "exact",
+                "img": "icons/consumables/meat/steak-spoiled-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.72BYKGxF7b71IMV8"
+    },
+    {
+      "_id": "gFqHLfso5Mc6sHvM",
+      "name": "Manual of Iron Golems",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Manual of Golems",
+        "resultImg": "icons/sundries/books/book-eye-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgManualOfGolem",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6OcIUW9iQYy2wUJL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0zgbwaEEz8duf5Kc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.gFqHLfso5Mc6sHvM"
+    },
+    {
+      "_id": "4jX6FVrYbuJ5obZn",
+      "name": "Manual of Stone Golems",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Manual of Golems",
+        "resultImg": "icons/sundries/books/book-eye-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgManualOfGolem",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BiR0eY5yHHC3I34i",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q48Dj31PNPeXrNvH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qcmPfB2BqQgzGyKm",
+                "name": "Construct Stone",
+                "nameMode": "exact",
+                "img": "icons/commodities/stone/masonry-block-cube-grey-teal.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.4jX6FVrYbuJ5obZn"
+    },
+    {
+      "_id": "iwzE9KbnuwIMgrzs",
+      "name": "Rolly Turrit",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Rolly Turrit",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/actors/Rolly_Turrit.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.2MO31KEBHTKHVVbY",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3khF2UFwDzZHYYZ1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q0XSDq2lYpwc276I",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.iwzE9KbnuwIMgrzs"
+    },
+    {
+      "_id": "8kIXRlcfJc59LSln",
+      "name": "Tome of Clear Thought",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tome of Clear Thought",
+        "resultImg": "icons/sundries/books/book-symbol-triangle-silver-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgTomeOfClearTh",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "898E2u6vaWNUy9Tj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "oC0u65xVRqqy12YW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DbBMwWcAQ6sHlts7",
+                "name": "Phial of Construct Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7LeM7zUcnrd2W6fv.8kIXRlcfJc59LSln"
+    }
+  ],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

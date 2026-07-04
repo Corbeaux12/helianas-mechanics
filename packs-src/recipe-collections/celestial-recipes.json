@@ -1,0 +1,1696 @@
+{
+  "_id": "c6CtwnLSdR5SMv7z",
+  "_key": "!journal!c6CtwnLSdR5SMv7z",
+  "name": "Celestial Recipes",
+  "pages": [
+    {
+      "_id": "UmJitF6PW541N7zn",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArrowcatching]{Arrow-Catching Shield}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSentinelShiel]{Sentinel Shield}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgElixirOfHealt]{Elixir of Health}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfClair]{Potion of Clairvoyance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfHeroi]{Potion of Heroism}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfResis]{Potion of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfVital]{Potion of Vitality}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRodOfResurrec]{Rod of Resurrection}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRodOfSecurity]{Rod of Security}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfHealin]{Staff of Healing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHolyAvenger00]{Holy Avenger}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSunBlade00000]{Sun Blade}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCrystalBall00]{Crystal Ball}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDeckOfIllusio]{Deck of Illusions}</p><p>Driftglobe</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDryness]{Dust of Dryness}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgGemOfBrightne]{Gem of Brightness}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgGemOfSeeing00]{Gem of Seeing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHelmOfBrillia]{Helm of Brilliance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgNecklaceOfPra]{Necklace of Prayer Beads}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgTalismanOfPur]{Talisman of Pure Good}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgTalismanOfThe]{Talisman of the Sphere}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgTomeOfLeaders]{Tome of Leadership and Influence}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWingsOfFlying]{Wings of Flying}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.UmJitF6PW541N7zn"
+    },
+    {
+      "_id": "zdZAzeWBebx42CrC",
+      "name": "Armor of Resistance (Radiant)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "73vWVekytMfQVt1o",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "VikWw9XxBGEF7dEM",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oYlfu54Ps2NiTXBz",
+                "name": "Celestial Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-simple-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.zdZAzeWBebx42CrC"
+    },
+    {
+      "_id": "sHWkJZqFViGzt0S2",
+      "name": "Arrow-Catching Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Arrow-Catching Shield",
+        "resultImg": "icons/skills/melee/shield-block-fire-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArrowcatching",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0sMgG216GJanosEy",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "u3hdNN1Ho0g8CE0H",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.lB2NvUMY9yA5K26r",
+                "name": "Celestial Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-bolt-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.sHWkJZqFViGzt0S2"
+    },
+    {
+      "_id": "AlwhtyxEOwTirV6W",
+      "name": "Sentinel Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Sentinel Shield",
+        "resultImg": "icons/equipment/shield/targe-copper-eye.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSentinelShiel",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Ws5fWOP2ORrVaaCx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "85LytJ7aBJaZ0IS9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0vzWxq07ZRNSb0P",
+                "name": "Celestial Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.AlwhtyxEOwTirV6W"
+    },
+    {
+      "_id": "CMOzjFFZTRxhF3eB",
+      "name": "Elixir of Health",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Elixir of Health",
+        "resultImg": "icons/consumables/potions/potion-flask-corked-shiny-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgElixirOfHealt",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZV0RKmgDLh2ZJ4fq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "N459JPrVnZj8i8Da",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.tCjYYmrWoOGWAIJ5",
+                "name": "Phial of Celestial Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/potion-vial-tube-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.CMOzjFFZTRxhF3eB"
+    },
+    {
+      "_id": "hY0sxLZKgtEq8BB8",
+      "name": "Potion of Clairvoyance",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Clairvoyance",
+        "resultImg": "icons/consumables/potions/bottle-conical-corked-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfClair",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YZ6ielLly2G0tUb7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q4xmqGZFUretZbuf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0vzWxq07ZRNSb0P",
+                "name": "Celestial Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.hY0sxLZKgtEq8BB8"
+    },
+    {
+      "_id": "az7jiU8ajCJUBQ5X",
+      "name": "Potion of Heroism",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Heroism",
+        "resultImg": "icons/consumables/potions/bottle-conical-bubbling-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfHeroi",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3ZYWqeupoYMRwAzQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "V256OoIh4wiRvXP5",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.tCjYYmrWoOGWAIJ5",
+                "name": "Phial of Celestial Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/potion-vial-tube-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.az7jiU8ajCJUBQ5X"
+    },
+    {
+      "_id": "S0MT30MzdhRDl8R6",
+      "name": "Potion of Resistance (Radiant)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "IVjnTnCGjvlAUh73",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4bzxvAH51gPC7aW3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6MLu1IWoxEKhpSQd",
+                "name": "Celestial Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.S0MT30MzdhRDl8R6"
+    },
+    {
+      "_id": "iYIkud1ImNETfD7g",
+      "name": "Potion of Vitality",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Vitality",
+        "resultImg": "icons/consumables/potions/potion-flask-corled-pink-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfVital",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "baObAxIPqXdqg1Si",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "XAT023OIG2qckUim",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.tCjYYmrWoOGWAIJ5",
+                "name": "Phial of Celestial Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/potion-vial-tube-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.iYIkud1ImNETfD7g"
+    },
+    {
+      "_id": "dLZ30kbYCoKxZIaR",
+      "name": "Rod of Resurrection",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of Resurrection",
+        "resultImg": "icons/weapons/staves/staff-spiked-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfResurrec",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RnGQ5cY03QQ6Iy3F",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ceH09ADQQFOfhVWG",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.c0VpQ2VOOOS2dRkA",
+                "name": "Celestial Heart",
+                "nameMode": "exact",
+                "img": "icons/consumables/meat/heart-organ-realistic-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "celestial",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.dLZ30kbYCoKxZIaR"
+    },
+    {
+      "_id": "SkRgxJgYTL6HiY4u",
+      "name": "Rod of Security",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of Security",
+        "resultImg": "icons/weapons/maces/mace-round-ornate-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfSecurity",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YQwR2lMdFRKFeUjY",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "XQ1xSvlo8jwW0UEK",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aMzAJ1jEth8pAepp",
+                "name": "Celestial Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.SkRgxJgYTL6HiY4u"
+    },
+    {
+      "_id": "2M0orZ2d1Uw44X1T",
+      "name": "Staff of Healing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Healing",
+        "resultImg": "icons/weapons/staves/staff-ornate-cross.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfHealin",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rxShHVhAXQ2aTlof",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "au9HVTN90I2rwDgZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aMzAJ1jEth8pAepp",
+                "name": "Celestial Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.2M0orZ2d1Uw44X1T"
+    },
+    {
+      "_id": "K0DhS9iryvgeImdE",
+      "name": "Holy Avenger",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Holy Avenger",
+        "resultImg": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHolyAvenger00",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VlxeRm7JO1izU5M5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7vWcf1A32Vw54Jht",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.c0VpQ2VOOOS2dRkA",
+                "name": "Celestial Heart",
+                "nameMode": "exact",
+                "img": "icons/consumables/meat/heart-organ-realistic-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "celestial",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.K0DhS9iryvgeImdE"
+    },
+    {
+      "_id": "BQJd19tUo3IUOic1",
+      "name": "Sun Blade (longsword)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Sun Blade",
+        "resultImg": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSunBlade00000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RvtWyS6dq4TceB0y",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KDCEHVl8CObwrBXV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HPprrBKDy38nCPzu",
+                "name": "Pouch of Celestial Dust",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.BQJd19tUo3IUOic1"
+    },
+    {
+      "_id": "3JtUQdHLzaCeu1oe",
+      "name": "Crystal Ball",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Crystal Ball",
+        "resultImg": "icons/commodities/materials/glass-orb.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCrystalBall00",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "a1tMzy5mX5IwfUh6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "krH8E62ieRVzjhYc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0vzWxq07ZRNSb0P",
+                "name": "Celestial Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.3JtUQdHLzaCeu1oe"
+    },
+    {
+      "_id": "SE8zd7Xfk6akpBcb",
+      "name": "Deck of Illusions",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Deck of Illusions",
+        "resultImg": "icons/sundries/gaming/playing-cards-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDeckOfIllusio",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "E05oRjucIf1QZMr0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "f7FSmfCZZD2p9A5X",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Hfq7q7Kam5fNd97o",
+                "name": "Celestial Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.SE8zd7Xfk6akpBcb"
+    },
+    {
+      "_id": "nZKVnBe98nRh9VCh",
+      "name": "Driftglobe",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Driftglobe",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "nGT3IMgc7U3fiAAp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "e4vTNTbIiUNaOLpF",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HPprrBKDy38nCPzu",
+                "name": "Pouch of Celestial Dust",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.nZKVnBe98nRh9VCh"
+    },
+    {
+      "_id": "J6lMGcWFF7kIDwu0",
+      "name": "Dust of Dryness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Dust of Dryness",
+        "resultImg": "icons/commodities/materials/bowl-powder-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDustOfDryness",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7Ii2bxnEej0lrl4W",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1L8sfq2ucEm8KKpV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HPprrBKDy38nCPzu",
+                "name": "Pouch of Celestial Dust",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.J6lMGcWFF7kIDwu0"
+    },
+    {
+      "_id": "7sNXJ7RgOuT3YOSu",
+      "name": "Gem of Brightness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Gem of Brightness",
+        "resultImg": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGemOfBrightne",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "A93dMb1TjyXgoZC9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "re6Hk1unirzCjqgq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6MLu1IWoxEKhpSQd",
+                "name": "Celestial Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.7sNXJ7RgOuT3YOSu"
+    },
+    {
+      "_id": "hUTbPOR2urxGedNQ",
+      "name": "Gem of Seeing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Gem of Seeing",
+        "resultImg": "icons/commodities/gems/gem-rough-rose-teal.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGemOfSeeing00",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "P3tp0t0QiDSTdNjM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lxjwRj7Fre14xTP0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0vzWxq07ZRNSb0P",
+                "name": "Celestial Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.hUTbPOR2urxGedNQ"
+    },
+    {
+      "_id": "0JxilC8TbVrV2FRK",
+      "name": "Helm of Brilliance",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Helm of Brilliance",
+        "resultImg": "icons/equipment/head/helm-norman-engraved.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHelmOfBrillia",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qX4x6X6S4BTsTS06",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mdi5Tl7l6peYv4qb",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ba4zNUpWFrEBsWlN",
+                "name": "Pouch of Celestial Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.0JxilC8TbVrV2FRK"
+    },
+    {
+      "_id": "oAm16e22Rrt6gKWf",
+      "name": "Ioun Stone (Insight)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "gsOctku2edKOaUmi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tPYb2Lv5CE4xB3V3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Hfq7q7Kam5fNd97o",
+                "name": "Celestial Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.oAm16e22Rrt6gKWf"
+    },
+    {
+      "_id": "D54bRYvZHcInfjoI",
+      "name": "Ioun Stone (Leadership)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "m7Hq676N6RYk5FvX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hu42jKYIusLPufea",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Hfq7q7Kam5fNd97o",
+                "name": "Celestial Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.D54bRYvZHcInfjoI"
+    },
+    {
+      "_id": "qqcZ90TePFxHQSkU",
+      "name": "Necklace of Prayer Beads (Bless)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Prayer Beads",
+        "resultImg": "icons/equipment/neck/necklace-runed-white-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfPra",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "quKL6TetY2BvcGPO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xHrkRmPwrPjbm8sF",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cAlKUufC49wyZipR",
+                "name": "Pouch of Celestial Teeth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/teeth-sharp-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.qqcZ90TePFxHQSkU"
+    },
+    {
+      "_id": "Zc0ocWSu10vhZfSO",
+      "name": "Necklace of Prayer Beads (Curing)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Prayer Beads",
+        "resultImg": "icons/equipment/neck/necklace-runed-white-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfPra",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OlLWujl98hVLQRgB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "V03mLmGoIXHg7rkl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cAlKUufC49wyZipR",
+                "name": "Pouch of Celestial Teeth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/teeth-sharp-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.Zc0ocWSu10vhZfSO"
+    },
+    {
+      "_id": "dR01gqoGVzmyL4xO",
+      "name": "Necklace of Prayer Beads (Favor)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Prayer Beads",
+        "resultImg": "icons/equipment/neck/necklace-runed-white-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfPra",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6scPWgIwTLVq1IkD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "V27pDrzWJgPclB4g",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cAlKUufC49wyZipR",
+                "name": "Pouch of Celestial Teeth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/teeth-sharp-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.dR01gqoGVzmyL4xO"
+    },
+    {
+      "_id": "uK33dJvtwj06PdkD",
+      "name": "Necklace of Prayer Beads (Smiting)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Prayer Beads",
+        "resultImg": "icons/equipment/neck/necklace-runed-white-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfPra",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vA9HGbeITWK4ZBcx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Klwrv1x1FgVcS2y1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cAlKUufC49wyZipR",
+                "name": "Pouch of Celestial Teeth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/teeth-sharp-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "celestial",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.uK33dJvtwj06PdkD"
+    },
+    {
+      "_id": "HhUtl1L7hERq4MKx",
+      "name": "Necklace of Prayer Beads (Summons)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Prayer Beads",
+        "resultImg": "icons/equipment/neck/necklace-runed-white-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfPra",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "21ZInf7qA54X9r32",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GD65667jY23Xvk2K",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cAlKUufC49wyZipR",
+                "name": "Pouch of Celestial Teeth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/teeth-sharp-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.HhUtl1L7hERq4MKx"
+    },
+    {
+      "_id": "vrM7Z4y4ITxixQ7y",
+      "name": "Necklace of Prayer Beads (Wind Walk)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Prayer Beads",
+        "resultImg": "icons/equipment/neck/necklace-runed-white-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfPra",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "csw6tQdqEVPK9mdI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "XUsnUTExkZ46e9E0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cAlKUufC49wyZipR",
+                "name": "Pouch of Celestial Teeth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/teeth-sharp-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.vrM7Z4y4ITxixQ7y"
+    },
+    {
+      "_id": "LtvAEtwCCeR0Fs7M",
+      "name": "Talisman of Pure Good",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Talisman of Pure Good",
+        "resultImg": "icons/equipment/neck/amulet-geometric-blue-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgTalismanOfPur",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EhrzI6Dhg6huk8UU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5QChCP1MJMu9c7hQ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.c0VpQ2VOOOS2dRkA",
+                "name": "Celestial Heart",
+                "nameMode": "exact",
+                "img": "icons/consumables/meat/heart-organ-realistic-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "celestial",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.LtvAEtwCCeR0Fs7M"
+    },
+    {
+      "_id": "BxwCHtgbb1DEZ1Bq",
+      "name": "Talisman of the Sphere",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Talisman of the Sphere",
+        "resultImg": "icons/commodities/treasure/brooch-jeweled-pink.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgTalismanOfThe",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3aiAxe46rIUCtK34",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Mo6pfWhvS2xsCJax",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0vzWxq07ZRNSb0P",
+                "name": "Celestial Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.BxwCHtgbb1DEZ1Bq"
+    },
+    {
+      "_id": "ock2LwYpHIAbEDoL",
+      "name": "Tome of Leadership and Influence",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tome of Leadership and Influence",
+        "resultImg": "icons/sundries/books/book-symbol-triangle-silver-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgTomeOfLeaders",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "TZG1EXnb6nhtI4M9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "UN4hIzmqGFNIVdsw",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aMzAJ1jEth8pAepp",
+                "name": "Celestial Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "celestial",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.ock2LwYpHIAbEDoL"
+    },
+    {
+      "_id": "nIhWOFTM5EAWbdBp",
+      "name": "Wings of Flying",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Wings of Flying",
+        "resultImg": "icons/equipment/back/cloak-layered-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWingsOfFlying",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VLkCqmPJvk1jxML6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tFkaL7pP6zDGnmRk",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.OXzIMGFo0mABAkbE",
+                "name": "Pouch of Celestial Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "celestial",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c6CtwnLSdR5SMv7z.nIhWOFTM5EAWbdBp"
+    }
+  ],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

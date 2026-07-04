@@ -1,0 +1,1176 @@
+{
+  "_id": "NaXdY2vUcpKju5pr",
+  "_key": "!journal!NaXdY2vUcpKju5pr",
+  "name": "Giant Recipes",
+  "pages": [
+    {
+      "_id": "hm400g7TJfH2wSnM",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.items.Item.lAcTZgNtpmks2Mo5]{Potion of Cloud Giant Strength}</p><p>@UUID[Compendium.dnd5e.items.Item.bEZOY6uvHRweMM56]{Potion of Fire Giant Strength}</p><p>@UUID[Compendium.dnd5e.items.Item.TevMHicE3A70AlmP]{Potion of Frost Giant Strength}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfGrowt]{Potion of Growth}</p><p>@UUID[Compendium.dnd5e.items.Item.mhFBTY0egW8AeCHe]{Potion of Hill Giant Strength}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfResis]{Potion of Resistance}</p><p>@UUID[Compendium.dnd5e.items.Item.4ZiJsDTRA1GgcWKP]{Potion of Stone Giant Strength}</p><p>@UUID[Compendium.dnd5e.items.Item.1KMSpOSU0EliUBm2]{Potion of Storm Giant Strength}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfPower0]{Staff of Power}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgGiantSlayer00]{Giant Slayer}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSwordOfSharpn]{Sword of Sharpness}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHammerOfThund]{Hammer of Thunderbolts}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDwarvenThrowe]{Dwarven Thrower}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgfirBeltofGian]{Belt of Giant Strength (fire)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgfroBeltofGian]{Belt of Giant Strength (frost)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmghilBeltofGian]{Belt of Giant Strength (hill)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgstoBeltofGian]{Belt of Giant Strength (stone)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgstmBeltofGian]{Belt of Giant Strength (storm)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgGauntletsOfOg]{Gauntlets of Ogre Power}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgManualOfBodil]{Manual of Bodily Health}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.hm400g7TJfH2wSnM"
+    },
+    {
+      "_id": "HXRf8SMmsLc41D4E",
+      "name": "Armor of Resistance (Thunder)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MrnMU2gCDrkescwO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "3nGFoPrYH02LmCGQ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qvJJUacV1hJNsjqW",
+                "name": "Giant Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-simple-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "giant",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.HXRf8SMmsLc41D4E"
+    },
+    {
+      "_id": "rPRf8U1CG3mld5hw",
+      "name": "Potion of Cloud Giant Strength",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Cloud Giant Strength",
+        "resultImg": "icons/consumables/potions/bottle-round-corked-blue.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.lAcTZgNtpmks2Mo5",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "tzqP5IEg2hy94RG2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iCAq3dMRG5f4yF07",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wvy5lLUwe4khoWFZ",
+                "name": "Giant Nail",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-shark-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.rPRf8U1CG3mld5hw"
+    },
+    {
+      "_id": "v13HebJiJBJwys3d",
+      "name": "Potion of Fire Giant Strength",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Fire Giant Strength",
+        "resultImg": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.bEZOY6uvHRweMM56",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MEhGrPQHo4jm0nXO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6OOSghN6invA0l0i",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wvy5lLUwe4khoWFZ",
+                "name": "Giant Nail",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-shark-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "giant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.v13HebJiJBJwys3d"
+    },
+    {
+      "_id": "dyLuAoUP7UDpJU7Q",
+      "name": "Potion of Frost Giant Strength",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Frost Giant Strength",
+        "resultImg": "icons/consumables/potions/bottle-round-corked-blue.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.TevMHicE3A70AlmP",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "I4515CfOXrUzu7hO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "phzKv2wT56xfE17b",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wvy5lLUwe4khoWFZ",
+                "name": "Giant Nail",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-shark-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "giant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.dyLuAoUP7UDpJU7Q"
+    },
+    {
+      "_id": "R7uA5XJgQt1Sc9hR",
+      "name": "Potion of Growth",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Growth",
+        "resultImg": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfGrowt",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JBAuQjQn646JdPD5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "UaDjPrq0mYQKfR11",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.zloMUkaNBGzuKVQk",
+                "name": "Phial of Giant Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "giant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.R7uA5XJgQt1Sc9hR"
+    },
+    {
+      "_id": "9syl2XMCaByKZP9l",
+      "name": "Potion of Hill Giant Strength",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Hill Giant Strength",
+        "resultImg": "icons/consumables/potions/bottle-bulb-corked-green.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.mhFBTY0egW8AeCHe",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YzeSishFgn3c0V2H",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OdtTi4wZaaikkN6o",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wvy5lLUwe4khoWFZ",
+                "name": "Giant Nail",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-shark-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "giant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.9syl2XMCaByKZP9l"
+    },
+    {
+      "_id": "Z7dhAOrpzLHv3X2g",
+      "name": "Potion of Resistance (Thunder)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Tkx1pQIzY4R6ObV5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HzOdmOJ1D0QiiN09",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.hT3V8qWDXKbiRKGI",
+                "name": "Giant Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "giant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.Z7dhAOrpzLHv3X2g"
+    },
+    {
+      "_id": "i72YUoQ405miNHsQ",
+      "name": "Potion of Stone Giant Strength",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Stone Giant Strength",
+        "resultImg": "icons/consumables/potions/bottle-bulb-corked-green.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.4ZiJsDTRA1GgcWKP",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xGAVYWh5LMLUHXJD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ly4fXLcuQwzxXnKp",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wvy5lLUwe4khoWFZ",
+                "name": "Giant Nail",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-shark-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "giant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.i72YUoQ405miNHsQ"
+    },
+    {
+      "_id": "nzBwVyR7uGlu3wAb",
+      "name": "Potion of Storm Giant Strength",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Storm Giant Strength",
+        "resultImg": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.1KMSpOSU0EliUBm2",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OBMr5WZHeU9RbpQ5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PrRjMdmxlUXVQKtG",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wvy5lLUwe4khoWFZ",
+                "name": "Giant Nail",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-shark-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "giant",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.nzBwVyR7uGlu3wAb"
+    },
+    {
+      "_id": "aSo8WVOVTS25lL7t",
+      "name": "Staff of Power",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Power",
+        "resultImg": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfPower0",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "dTm2bVdEXlRBeevq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zbG2m8FmM2t5HEyn",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.B3KAXOUbXXneKhEb",
+                "name": "Giant Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "giant",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.aSo8WVOVTS25lL7t"
+    },
+    {
+      "_id": "MIY5NgTrg602Xibi",
+      "name": "Giant Slayer",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Giant Slayer",
+        "resultImg": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGiantSlayer00",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "x4hBh9AIWz2J71sM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JW5duWN5yuOLQNEg",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.B3KAXOUbXXneKhEb",
+                "name": "Giant Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "giant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.MIY5NgTrg602Xibi"
+    },
+    {
+      "_id": "ZL7aTO9cicDaifhZ",
+      "name": "Sword of Sharpness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Sword of Sharpness",
+        "resultImg": "icons/weapons/swords/scimitar-guard-wood.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSwordOfSharpn",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rn8bugYUHfJTh6lO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JZ24kzqG8RYEuky0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.LVCVAX3viWeE3l3t",
+                "name": "Giant Tooth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-molar-white-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "giant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.ZL7aTO9cicDaifhZ"
+    },
+    {
+      "_id": "C5TVV5yrGW2Jzgvm",
+      "name": "Hammer of Thunderbolts (maul)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Hammer of Thunderbolts",
+        "resultImg": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHammerOfThund",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bPYvXcAIIu7Q3QYD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "t3Ehnv4JmBae0ek1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qvJJUacV1hJNsjqW",
+                "name": "Giant Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-simple-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.C5TVV5yrGW2Jzgvm"
+    },
+    {
+      "_id": "Ik7Ydl269CCWfFne",
+      "name": "Dwarven Thrower (warhammer)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Dwarven Thrower",
+        "resultImg": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDwarvenThrowe",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1yFRyLHMZb8px2aI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "f41m8f2fAvT70zH9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.LVCVAX3viWeE3l3t",
+                "name": "Giant Tooth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/tooth-molar-white-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.Ik7Ydl269CCWfFne"
+    },
+    {
+      "_id": "QDWGwT65lTlx6DGp",
+      "name": "Belt of Giant Strength (Fire)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Belt of Giant Strength (fire)",
+        "resultImg": "icons/equipment/waist/belt-coiled-leather-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgfirBeltofGian",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "agysXX91TRwzRvOx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mdGe7TWgB2cQ60RE",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.2ugxh5VDYE9BSQyn",
+                "name": "Giant Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-bolt-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.QDWGwT65lTlx6DGp"
+    },
+    {
+      "_id": "dkwElifKilkxtygI",
+      "name": "Belt of Giant Strength (Frost)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Belt of Giant Strength (frost)",
+        "resultImg": "icons/equipment/waist/belt-buckle-gold-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgfroBeltofGian",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VwgV3BsIaKYAw61w",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yI0hNQlhgbL6KUdH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.2ugxh5VDYE9BSQyn",
+                "name": "Giant Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-bolt-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.dkwElifKilkxtygI"
+    },
+    {
+      "_id": "3qUlAus40gZk497Y",
+      "name": "Belt of Giant Strength (Hill)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Belt of Giant Strength (hill)",
+        "resultImg": "icons/equipment/waist/belt-buckle-arrow-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmghilBeltofGian",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "b1DbTHRQ4Hn6i4cK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RuWb6XfdgpoAl6yJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.2ugxh5VDYE9BSQyn",
+                "name": "Giant Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-bolt-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "giant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.3qUlAus40gZk497Y"
+    },
+    {
+      "_id": "0iB0VYq1WNLl5Q0I",
+      "name": "Belt of Giant Strength (Stone)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Belt of Giant Strength (stone)",
+        "resultImg": "icons/equipment/waist/belt-armored-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgstoBeltofGian",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QQbawMGTPNq3Y23h",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Fj5DhPopMK2Tb4tT",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.2ugxh5VDYE9BSQyn",
+                "name": "Giant Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-bolt-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.0iB0VYq1WNLl5Q0I"
+    },
+    {
+      "_id": "Z7d2Rhv4k077u2Ml",
+      "name": "Belt of Giant Strength (Storm)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Belt of Giant Strength (storm)",
+        "resultImg": "icons/equipment/waist/belt-thick-gemmed-gold-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgstmBeltofGian",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Xi28qvU4cvuM2xUJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iU7BH4FBU11H98EA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.2ugxh5VDYE9BSQyn",
+                "name": "Giant Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/leather-bolt-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "giant",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.Z7d2Rhv4k077u2Ml"
+    },
+    {
+      "_id": "IcN3ofySFAOex4Dk",
+      "name": "Gauntlets of Ogre Power",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Gauntlets of Ogre Power",
+        "resultImg": "icons/equipment/hand/gauntlet-armored-steel-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGauntletsOfOg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "07qpLtYZzoAueH4G",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8b3TeWdYYyQ28XUX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qvJJUacV1hJNsjqW",
+                "name": "Giant Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-simple-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "giant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.IcN3ofySFAOex4Dk"
+    },
+    {
+      "_id": "U6xPz8rB9VPfJD4C",
+      "name": "Ioun Stone (Regeneration)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "f4AgGX9MPcn0rKKX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Pg2ynBjAptXzk2fR",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.keqUwwbcZ6A7Uj6V",
+                "name": "Giant Liver",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.U6xPz8rB9VPfJD4C"
+    },
+    {
+      "_id": "0Q1rYKQg5HS4BHSN",
+      "name": "Manual of Bodily Health",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Manual of Bodily Health",
+        "resultImg": "icons/sundries/books/book-red-square.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgManualOfBodil",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pjqD1jdjP3xp6ApR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "D71BujHQuoZMFKGJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.keqUwwbcZ6A7Uj6V",
+                "name": "Giant Liver",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "giant",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!NaXdY2vUcpKju5pr.0Q1rYKQg5HS4BHSN"
+    }
+  ],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

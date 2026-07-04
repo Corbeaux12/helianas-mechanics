@@ -1,0 +1,575 @@
+{
+  "_id": "XlB4aUxUN4Ee06UT",
+  "_key": "!journal!XlB4aUxUN4Ee06UT",
+  "name": "Pygmy Rakshasa Recipes",
+  "pages": [
+    {
+      "_id": "Nyq1wKJymX88OKCb",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.ueaLvZu7Ku8ARbzU]{Eye of the Tiger (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.5xildBjvrcPx4UaT]{Eye of the Tiger (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.V3zXn7hI8AfoEezL]{Tail's End Longsword (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.qiJS42Wsz4JoOCN3]{Tail's End Longsword (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L77hgzeKYactApSd]{Claws of Corruption (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.Pbxg9hGZV7SVY7Mo]{Claws of Corruption (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.yrxe0JeqllmiAx1s]{Feline's Fury Light Tommybow (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.KH9VJB5EkvznX9oV]{Felinobelix (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.CTKUSwOjbiQblY0a]{Felinobelix (Legendary)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.rmR6enIKGjFUSrHT]{Rakoyaki (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.Nyq1wKJymX88OKCb"
+    },
+    {
+      "_id": "6AkumAjwzfVgnAmh",
+      "name": "Eye of the Tiger (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Eye of the Tiger (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Eye_of_the_Tiger_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.ueaLvZu7Ku8ARbzU",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "wyCTTZMZs5Tb6C1t",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "NZZoXwmeEbM3F7vx",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.avkxkX9FIr7TeRPq",
+                "name": "Fiend Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.6AkumAjwzfVgnAmh"
+    },
+    {
+      "_id": "FXxLxU9qnUs3cggo",
+      "name": "Eye of the Tiger (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Eye of the Tiger (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Eye_of_the_Tiger_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.5xildBjvrcPx4UaT",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Fv5wIdXe4ZwVAgEI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ae0eaIisedvxHxuJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.avkxkX9FIr7TeRPq",
+                "name": "Fiend Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.FXxLxU9qnUs3cggo"
+    },
+    {
+      "_id": "IgMsIrKrMGaEOew3",
+      "name": "Tail's End (any sword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Tail's End Longsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Tails_End_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.V3zXn7hI8AfoEezL",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qWqqNxfbgtDqYUJK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0jjQyOJf1gpSLZp2",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.IgMsIrKrMGaEOew3"
+    },
+    {
+      "_id": "fr7pMpekD72b90oo",
+      "name": "Tail's End (any sword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Tail's End Longsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Tails_End_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.qiJS42Wsz4JoOCN3",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "au5zr4Ev9nk5zRY3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tQv56KVq7TdHdcv3",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.fr7pMpekD72b90oo"
+    },
+    {
+      "_id": "vBIXiFwF3PEQyONJ",
+      "name": "Claws of Corruption (claw) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Claws of Corruption (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Claws_of_Corruption_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L77hgzeKYactApSd",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xcCwFtDKlFGPLAsl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TiLyYppDtS7UySoO",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oq3GyTaSEiQTERc2",
+                "name": "Pouch of Fiend Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.vBIXiFwF3PEQyONJ"
+    },
+    {
+      "_id": "17v22E5N2NYDn4of",
+      "name": "Claws of Corruption (claw) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Claws of Corruption (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Claws_of_Corruption_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.Pbxg9hGZV7SVY7Mo",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yQZP4jGJofhZosIr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "BWtRu5jNII5RdXXO",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oq3GyTaSEiQTERc2",
+                "name": "Pouch of Fiend Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.17v22E5N2NYDn4of"
+    },
+    {
+      "_id": "NfXlKQhfjnjrAPjN",
+      "name": "Feline's Fury",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Feline's Fury Light Tommybow (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Felines_Fury.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.yrxe0JeqllmiAx1s",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sPnY6Bc29zSHKqPX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "o0eLWgsSyLQ2Cf9b",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.NfXlKQhfjnjrAPjN"
+    },
+    {
+      "_id": "2YaIXfZkAGkNhDE8",
+      "name": "Felinobelix (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Felinobelix (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Felinobelix_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.KH9VJB5EkvznX9oV",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2WuW5WWvPJjk6hzE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "n1rOOVhQ7QAIbsmx",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.2YaIXfZkAGkNhDE8"
+    },
+    {
+      "_id": "YWgTifPXc6F6gA56",
+      "name": "Felinobelix (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Felinobelix (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Felinobelix_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.CTKUSwOjbiQblY0a",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "iUwgPneYh7j25mFc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "49yqSyEH0kGoBmzy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.YWgTifPXc6F6gA56"
+    },
+    {
+      "_id": "Ex5G6F7HUEXj6jm1",
+      "name": "Rakoyaki",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Rakoyaki (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/crafting/Cooking-Raveyeoli.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.rmR6enIKGjFUSrHT",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "J3qIwnxNmeTXKJqs",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "xAU6NrSVEgUskSxG",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "brain",
+                  "pygmy",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "BYsX6ycfy7xEJivY",
+            "name": "Blood",
+            "components": [
+              {
+                "id": "ZI3vOoKXmxwnEFlg",
+                "uuid": "",
+                "name": "Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!XlB4aUxUN4Ee06UT.Ex5G6F7HUEXj6jm1"
+    }
+  ],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,614 @@
+{
+  "_id": "dXD5iq85rI0MUsoB",
+  "_key": "!journal!dXD5iq85rI0MUsoB",
+  "name": "Tar-rasque Recipes",
+  "pages": [
+    {
+      "_id": "Pa0Twv41tF5Nl4Zn",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.ADJ57sgxiHaV0TTS]{Jaw Breakers (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.fF67CE6kmS4e1nuP]{Jaw Breakers (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.K0Xy2uKDjzbHadjh]{Terrorasque Greatsword (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.HWSHuug3j3EY1Fy9]{Terrorasque Greatsword (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.pgUGJRiXkg7lio0E]{Tarrobe (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.jFKBJ3ZoFMcBNCxz]{Tarrobe (Legendary)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.WSPvIao9BwGHkBrf]{Viscous Symbiote (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.XutG4Is1Fa8DxlUY]{Viscous Symbiote (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.IY9CDlEgRAwSWXGi]{Viscous Symbiote (Legendary)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.RCDeXTayu0pDpbrz]{Tar-rasque Marrow Broth (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.Pa0Twv41tF5Nl4Zn"
+    },
+    {
+      "_id": "OOZlF27VrWqlI5x5",
+      "name": "Jaw Breakers (any two melee) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Jaw Breakers (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Jaw_Breakers_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.ADJ57sgxiHaV0TTS",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VvmOgHSECkKVPo2y",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "bCzqLifSm6RCmE0p",
+                "uuid": "",
+                "name": "Pouch of teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.OOZlF27VrWqlI5x5"
+    },
+    {
+      "_id": "pwy8CIlrPW1Q7Xm8",
+      "name": "Jaw Breakers (any two melee) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Jaw Breakers (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Jaw_Breakers_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.fF67CE6kmS4e1nuP",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5y1KunBDNWStzyBO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "CeNt0MvSeighqbI1",
+                "uuid": "",
+                "name": "Pouch of teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.pwy8CIlrPW1Q7Xm8"
+    },
+    {
+      "_id": "pQsbmr4MNA3iuBKI",
+      "name": "Terrorasque (any sword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Terrorasque Greatsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Terrorasque_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.K0Xy2uKDjzbHadjh",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GR7X7s1d9cFpmHLT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "XAE29EX6YFY15U10",
+                "uuid": "",
+                "name": "Pouch of claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.pQsbmr4MNA3iuBKI"
+    },
+    {
+      "_id": "HKWaiB75o2g0h1yd",
+      "name": "Terrorasque (any sword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Terrorasque Greatsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Terrorasque_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.HWSHuug3j3EY1Fy9",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zNUQXyv7pvPju2Dw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Z2SV1Np9PTrFQ8PI",
+                "uuid": "",
+                "name": "Pouch of claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.HKWaiB75o2g0h1yd"
+    },
+    {
+      "_id": "ZuV07FCGinRth2qj",
+      "name": "Tarrobe (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tarrobe (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Tarrobe_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.pgUGJRiXkg7lio0E",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "L4022valQw2BhmLM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rDt2Ni0pNz4643zW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jUFUsMaVoPSawVE3",
+                "name": "Volatile Mote of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/orb-water-bubbles-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.ZuV07FCGinRth2qj"
+    },
+    {
+      "_id": "fztdFxYYyhcvBl6q",
+      "name": "Tarrobe (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tarrobe (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Tarrobe_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.jFKBJ3ZoFMcBNCxz",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "R1U3Z0xtNBZOZil4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PShuhEMYlo3qejX7",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jUFUsMaVoPSawVE3",
+                "name": "Volatile Mote of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/orb-water-bubbles-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.fztdFxYYyhcvBl6q"
+    },
+    {
+      "_id": "T0irEAIURKzDEAi9",
+      "name": "Viscous Symbiote (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Viscous Symbiote (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Vicious_Symbiote_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.WSPvIao9BwGHkBrf",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZtAvROqk6yilTOUq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HtoessDTyHwq6xnf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.luaMc79eAJ1KJyIF",
+                "name": "Core of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.T0irEAIURKzDEAi9"
+    },
+    {
+      "_id": "dcgpbF3d0xdVaP01",
+      "name": "Viscous Symbiote (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Viscous Symbiote (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Vicious_Symbiote_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.XutG4Is1Fa8DxlUY",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "a8LSCKf20hAf251T",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "h0659Lm428MAJbC4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.luaMc79eAJ1KJyIF",
+                "name": "Core of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.dcgpbF3d0xdVaP01"
+    },
+    {
+      "_id": "otnb63jZKZEnNyuY",
+      "name": "Viscous Symbiote (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Viscous Symbiote (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Vicious_Symbiote_3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.IY9CDlEgRAwSWXGi",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bRsn9RRDCwBu71cq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "NE4STCkBptKDgmST",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.luaMc79eAJ1KJyIF",
+                "name": "Core of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.otnb63jZKZEnNyuY"
+    },
+    {
+      "_id": "eM9eBKzuX0ZkS6cB",
+      "name": "Tar-rasque Marrow Broth",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Tar-rasque Marrow Broth (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/crafting/Cooking-Tarrasque_broth.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.RCDeXTayu0pDpbrz",
+        "resultQuantity": 1,
+        "dc": 24,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4MiptUBLQHEl3jtL",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "O3qHrbq6xRK4qrmy",
+                "uuid": "",
+                "name": "Marrow",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "marrow",
+                  "tar-rasque",
+                  "elemental",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "2HLl37YPKtfWg5r3",
+            "name": "Heart",
+            "components": [
+              {
+                "id": "aLqmpMEloGJOZmLE",
+                "uuid": "",
+                "name": "Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "861ELYVwvhOKGijC",
+            "name": "Liver",
+            "components": [
+              {
+                "id": "8I4RaSrPbqLYorbI",
+                "uuid": "",
+                "name": "Liver",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "liver"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "JVVvmVISduMrj7YQ",
+            "name": "Spice",
+            "components": [
+              {
+                "id": "mGfRchhsJcPztS3z",
+                "uuid": "",
+                "name": "Spice",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spice"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!dXD5iq85rI0MUsoB.eM9eBKzuX0ZkS6cB"
+    }
+  ],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

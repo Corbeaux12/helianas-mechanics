@@ -1,0 +1,37 @@
+{
+  "_id": "kRTQLiLqTO5MiKZ7",
+  "_key": "!items!kRTQLiLqTO5MiKZ7",
+  "name": "Calamarmour (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (light, medium, or heavy), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (cracker kraken) tentacle</p><p>During the forging process, this armour must be periodically doused with seawater. Once complete, it sometimes releases this water as salty seafoam, which forms into a distinguished moustache or magnificent beard on the face of the wearer. A must-have for any sea captain incapable of growing their own facial hair!</p><p>You have a +1 bonus to AC while wearing this armour.</p><p><strong>Draining Touch.</strong> When a creature touches you or hits you with a melee attack, you can use your reaction to drain some of its moisture. The creature must make a DC 16 Constitution saving throw, taking 3d6 necrotic damage on a failed save, or half as much damage on a successful one. Creatures without body moisture, such as some Undead, Constructs, and Elementals (GM's discretion) take no damage from this property.</p><p><strong>Revitalising Fluids.</strong> While wearing this armour, you can use a bonus action to enhance its absorptive power for 1 minute, using the moisture it drinks in to revitalise yourself. For the duration, you regain 2d6 hit points when you end your turn at least partially submerged in water, and when the Draining Touch property deals damage, you also regain hit points equal to half the damage taken. Once this property of the armour has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13, the damage to 2d6, and the hit points you regain if partially submerged in water to 1d6. Remove the bonus to AC.</p><p><strong>Rare variant:</strong> Reduce the DC to 15. Remove the bonus to AC.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11850,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

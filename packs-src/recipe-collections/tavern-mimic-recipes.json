@@ -1,0 +1,576 @@
+{
+  "_id": "TKGOShUq1Ot1Nxb8",
+  "_key": "!journal!TKGOShUq1Ot1Nxb8",
+  "name": "Tavern Mimic Recipes",
+  "pages": [
+    {
+      "_id": "8RzSk0r7h2tKjWKS",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.2ZzGQ8tNPqQ3fjk0]{Breastplank Breastplate (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.inPk4Vtiy40xooA9]{Breastplank Breastplate (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.PyKu7ji5XO378W7I]{Breastplank Breastplate (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.iCWvs0g7AyqOfsko]{Headbanger Lute Club (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.Tf6rbW6BK6Xy7WpI]{Headbanger Lute Club (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.zKGtNf7Tn8kWvbiO]{Mawling Maul (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.vBxC91LftrUsIpla]{Mawling Maul (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.xsGns2jwY2MFq8Eb]{Spelleater Tome (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.reBHnGOdfGs6wynu]{Spelleater Tome (Rare)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.e8WP4rDlAO0REjWF]{Tongue Twister Tart (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.8RzSk0r7h2tKjWKS"
+    },
+    {
+      "_id": "N9gMFmbPWjSxSqaB",
+      "name": "Breastplank (plate) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.2ZzGQ8tNPqQ3fjk0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "wl2fvf37kB44NP63",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "b4RU61FtwIMlAwr7",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.N9gMFmbPWjSxSqaB"
+    },
+    {
+      "_id": "5LiV8wrJ72lAeCIc",
+      "name": "Breastplank (plate) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.inPk4Vtiy40xooA9",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "w8tAU4sOWXED8zir",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Hhbs4IvqyP3ZHCO6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.5LiV8wrJ72lAeCIc"
+    },
+    {
+      "_id": "bmjSZWlV8cQ3QJ68",
+      "name": "Breastplank (plate) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.PyKu7ji5XO378W7I",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mhdEg0gtTusQz5sC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "LDnTtqjzrMgwy0yH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.bmjSZWlV8cQ3QJ68"
+    },
+    {
+      "_id": "n35f6rHLQZwN1aUJ",
+      "name": "Headbanger Lute (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Headbanger Lute Club (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicInstrument1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.iCWvs0g7AyqOfsko",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7TWncia4TsqlQ96D",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "I5dBsYQsSGgirf1O",
+                "uuid": "",
+                "name": "Stomach",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.n35f6rHLQZwN1aUJ"
+    },
+    {
+      "_id": "I2hPpKVMxtX6TkHo",
+      "name": "Headbanger Lute (any hammer*) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Headbanger Lute Club (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicInstrument2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.Tf6rbW6BK6Xy7WpI",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1p6Cimq30oiJPSaA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Q8Lxhi0FSxHQbceE",
+                "uuid": "",
+                "name": "Stomach",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.I2hPpKVMxtX6TkHo"
+    },
+    {
+      "_id": "pFLV3l00OSCuZNxZ",
+      "name": "Mawling Maul (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Mawling Maul (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicMaul1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.zKGtNf7Tn8kWvbiO",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "lESa0meddkFz0rE0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "CMcW2U4mcCMTcvF9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.pFLV3l00OSCuZNxZ"
+    },
+    {
+      "_id": "QZz4NTFA93fDskVF",
+      "name": "Mawling Maul (any hammer*) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Mawling Maul (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicMaul2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.vBxC91LftrUsIpla",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "FJm6wyMxZ12d806j",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hE8p97sE42bXB25s",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.QZz4NTFA93fDskVF"
+    },
+    {
+      "_id": "HjFQs3bwFny40JcU",
+      "name": "Spelleater Tome (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Spelleater Tome (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicBook1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.xsGns2jwY2MFq8Eb",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "kJ5TAEC8ZHj27l4b",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "UjAIpvoEz7KZ76x4",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.HjFQs3bwFny40JcU"
+    },
+    {
+      "_id": "FRnwZxtxnADRn3Li",
+      "name": "Spelleater Tome (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Spelleater Tome (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicBook2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.reBHnGOdfGs6wynu",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YE4hL2Ltu9suWZ6w",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aOec5kt3T0eBb80Y",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.FRnwZxtxnADRn3Li"
+    },
+    {
+      "_id": "EZUHgWztZk7Xj8IG",
+      "name": "Tongue Twister Tart",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Tongue Twister Tart (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/crafting/Cooking-Mimic_tongue_pie.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.e8WP4rDlAO0REjWF",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hzXEoHm50o2P9jWS",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "SQGV5z0JLaqiC4ct",
+                "uuid": "",
+                "name": "Tongue",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tongue",
+                  "tavern-mimic",
+                  "monstrosity",
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "DUu3kMTD7px38nCT",
+            "name": "Brain",
+            "components": [
+              {
+                "id": "KNY74bfHGpUUFtox",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TKGOShUq1Ot1Nxb8.EZUHgWztZk7Xj8IG"
+    }
+  ],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,1748 @@
+{
+  "_id": "7BWfnuCT0v24bE4J",
+  "_key": "!journal!7BWfnuCT0v24bE4J",
+  "name": "Dragon Recipes",
+  "pages": [
+    {
+      "_id": "zDvcwiG777Rbjuc8",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAmmunition12o]{Ammunition, +1, +2, or +3}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmor12or3000]{Armor, +1, +2, or +3}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDwarvenPlate0]{Dwarven Plate}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDragonScaleMa]{Dragon Scale Mail}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.1q2PqC5KtxXjoUwL]{Haemscale Breastplate (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.eebb36CEqeBoVJQa]{Haemscale Breastplate (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.Hg1iQfYYNYOOtJNd]{Haemscale Breastplate (Legendary)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgShieldOfMissi]{Shield of Missile Attraction}</p><p>@UUID[Compendium.dnd5e.items.Item.WfqBg3yBNoJQtVEB]{Shield +3}</p><p>Potion of Fire Breath</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfFlyin]{Potion of Flying}</p><p>@UUID[Compendium.dnd5e.items.Item.5SorTMl8NKDO9Yge]{Ring of Poison Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]{Ring of Resistance}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.PHtEZnbwhGkF8bY2]{Haemstrike Warhammer (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.8O5T7DXE3aXZN0Nd]{Haemstrike Warhammer (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.dcKr76Hvox3S4LUp]{Haemstrike Warhammer (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWeapon12or300]{Weapon, +1, +2, or +3}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDragonSlayer0]{Dragon Slayer}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFlameTongue00]{Flame Tongue}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFrostBrand000]{Frost Brand}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHornOfBlastin]{Horn of Blasting}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgNecklaceOfFir]{Necklace of Fireballs}</p><p>@UUID[Compendium.dnd5e.items.Item.1RwJWOAeyoideLKe]{Orb of Dragonkind}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.NFob5URZyJOZqvfA]{Shard Crown (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.hfw2bJmVlvhdw7ch]{Shard Crown (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.GCopiV4snVEk6J6b]{Shard Crown (Legendary)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.jZNriCc96Itg8ppW]{Wyrm's Breath Grenade (Sleep)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.1FX6HD6Skt6paQlg]{Wyrm's Breath Grenade (Repulsion)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.7AkqieeWxCbt4Uz0]{Wyrm's Breath Grenade (Slow)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.FsO9i7QpAhwDyHIc]{Wyrm's Breath Grenade (Weakening)}</p><p>@UUID[Compendium.heliana-core.items-heliana-reign-of-iron.Item.K2tSANSJYUAoTgfu]{Wyrm's Breath Grenade (Paralysing)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.zDvcwiG777Rbjuc8"
+    },
+    {
+      "_id": "kJI0ciOblvVV1TJP",
+      "name": "+3 Ammunition",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.EP1H0eT029WC1GDz",
+        "resultName": "Ammunition, +1, +2, or +3",
+        "resultImg": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAmmunition12o",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4n2zeFSJzc9nfJcw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qMd2dBmTCrbBvzwF",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VBr0hd4emdEZIEvh",
+                "name": "Pouch of Dragon Teeth",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/teeth-sharp-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.kJI0ciOblvVV1TJP"
+    },
+    {
+      "_id": "Mw7JPxXjzI1gHNCF",
+      "name": "+3 Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor, +1, +2, or +3",
+        "resultImg": "icons/equipment/chest/breastplate-gorget-steel-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmor12or3000",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "C67sCOzMeqdnYMKH",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9g9G8fCVuuCupa3s",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.Mw7JPxXjzI1gHNCF"
+    },
+    {
+      "_id": "DpRSgOLS83XTIh12",
+      "name": "Dwarven Plate",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.SJbFgJmeQKYqogMj",
+        "resultName": "Dwarven Plate",
+        "resultImg": "icons/equipment/chest/breastplate-layered-steel-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDwarvenPlate0",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "a7ZhuMw6D7aaQav1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HkcuIC3VyMiUdmcG",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.eqFKrrfW66rlnFBx",
+                "name": "Phial of Dragon Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.DpRSgOLS83XTIh12"
+    },
+    {
+      "_id": "mTKoD4zy4YOp1BND",
+      "name": "Dragon Scale Mail (each color)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
+        "resultName": "Dragon Scale Mail",
+        "resultImg": "icons/equipment/chest/breastplate-banded-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDragonScaleMa",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "FoivmJz5p4ujmrVC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iYrrYVu0vNNLJGT4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.mTKoD4zy4YOp1BND"
+    },
+    {
+      "_id": "UNCI8JLmso66u68R",
+      "name": "Haemscale (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
+        "resultName": "Haemscale Breastplate (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemscale_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.1q2PqC5KtxXjoUwL",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "jwOJOaw6R6atZEJt",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1ky1pFM3vXfqE3JJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.UNCI8JLmso66u68R"
+    },
+    {
+      "_id": "XPD9gwdlIkr591Le",
+      "name": "Haemscale (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
+        "resultName": "Haemscale Breastplate (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemscale_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.eebb36CEqeBoVJQa",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6VageT9mJ95VeVfX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "w0FqvvUYMCTe92xq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.XPD9gwdlIkr591Le"
+    },
+    {
+      "_id": "lyMBQcJY5YSkVAml",
+      "name": "Haemscale (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
+        "resultName": "Haemscale Breastplate (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemscale_3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.Hg1iQfYYNYOOtJNd",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ICMZYU7Q6bEbtCNK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "X4MVMBac0CsJsxWu",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.lyMBQcJY5YSkVAml"
+    },
+    {
+      "_id": "6A1UhLcCQAxl4aVy",
+      "name": "Shield of Missile Attraction",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Shield of Missile Attraction",
+        "resultImg": "icons/equipment/shield/kite-decorative-steel-claws.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgShieldOfMissi",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GOU4hg3y1hhPiH1k",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "LTCf85FhfFs16eV5",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.6A1UhLcCQAxl4aVy"
+    },
+    {
+      "_id": "HUMnNhV4j5w9KmEr",
+      "name": "+3 Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Shield +3",
+        "resultImg": "icons/equipment/shield/heater-embossed-gold.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.WfqBg3yBNoJQtVEB",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YZllFK51wIpUXjwt",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "BRLG6PI6kVMu7y7x",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.HUMnNhV4j5w9KmEr"
+    },
+    {
+      "_id": "nrkxGcQhBRH5FuNA",
+      "name": "Potion of Fire Breath",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Fire Breath",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mq8OlLtBDOkWCsCE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pwQLKy5BzUDADBxx",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.eqFKrrfW66rlnFBx",
+                "name": "Phial of Dragon Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.nrkxGcQhBRH5FuNA"
+    },
+    {
+      "_id": "TNqkE36JKVwgtQoD",
+      "name": "Potion of Flying",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Flying",
+        "resultImg": "icons/consumables/potions/potion-bottle-corked-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfFlyin",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "iXdiIVtWuzw9XoI5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "nFgsm0gWTI34V3kt",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.EF8ieZM5f27C4RyP",
+                "name": "Dragon Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.TNqkE36JKVwgtQoD"
+    },
+    {
+      "_id": "D9kMfXyK6Ekip7UU",
+      "name": "Ring of Poison Resistance",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Poison Resistance",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.5SorTMl8NKDO9Yge",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "FK7bUfjs5eARQPfQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Jiirx1JbnP0kq40w",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.A3qPzoyg2OTWBJOl",
+                "name": "Dragon Eye",
+                "nameMode": "exact",
+                "img": "icons/creatures/eyes/lizard-single-slit-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.D9kMfXyK6Ekip7UU"
+    },
+    {
+      "_id": "M1WWowbaddWLBUUa",
+      "name": "Ring of Resistance (all types)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Resistance",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfResista",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "uZBq3198SAzDNe2i",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zPKYojbWkFlww3Sa",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.A3qPzoyg2OTWBJOl",
+                "name": "Dragon Eye",
+                "nameMode": "exact",
+                "img": "icons/creatures/eyes/lizard-single-slit-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.M1WWowbaddWLBUUa"
+    },
+    {
+      "_id": "ibVDnyyqBK2pHImy",
+      "name": "Haemstrike (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Haemstrike Warhammer (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemstrike_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.PHtEZnbwhGkF8bY2",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BljLvHLcst9Ys9yQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "CxG0MMIanSTanVrk",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.ibVDnyyqBK2pHImy"
+    },
+    {
+      "_id": "lPhORj6xuA3fpS9U",
+      "name": "Haemstrike (any hammer*) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Haemstrike Warhammer (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemstrike_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.8O5T7DXE3aXZN0Nd",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "s6LTP7FCcyI34H9c",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "beGC4NTo5nZIcDr0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.lPhORj6xuA3fpS9U"
+    },
+    {
+      "_id": "W9w7wff1D6gTM3Vj",
+      "name": "Haemstrike (any hammer*) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Haemstrike Warhammer (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemstrike_3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.dcKr76Hvox3S4LUp",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vd561GXz9TZISRHi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "R7s4tO7KowaoI5ju",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.W9w7wff1D6gTM3Vj"
+    },
+    {
+      "_id": "cX7UlLXx377uD6tO",
+      "name": "+3 Weapon",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Weapon, +1, +2, or +3",
+        "resultImg": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWeapon12or300",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "11baQLr0GklfWNbJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zIH2s0d8jt59vK6w",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZFt4UhHc5Mggky7H",
+                "name": "Pouch of Dragon Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.cX7UlLXx377uD6tO"
+    },
+    {
+      "_id": "jy9nnj5d5gP47cBL",
+      "name": "Dragon Slayer",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Dragon Slayer",
+        "resultImg": "icons/weapons/swords/sword-jeweled-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDragonSlayer0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "TuMo0haVFRlYpb1O",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "I9m45B1H5CAlDovh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YU6uabBB9mAR4B5O",
+                "name": "Dragon Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-liver-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.jy9nnj5d5gP47cBL"
+    },
+    {
+      "_id": "LT0KQ4wTaLWJst5I",
+      "name": "Flame Tongue",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Flame Tongue",
+        "resultImg": "icons/weapons/swords/greatsword-crossguard-flanged-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgFlameTongue00",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9gIKFrM12balxiUi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qQW1pVuS6LNLBsPC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.LT0KQ4wTaLWJst5I"
+    },
+    {
+      "_id": "1UPhXby70f7S1iZu",
+      "name": "Frost Brand",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Frost Brand",
+        "resultImg": "icons/weapons/swords/greatsword-flamberge.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgFrostBrand000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aOLPUnj5cdkfznjR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Qo9pki79YtfzAXUS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.1UPhXby70f7S1iZu"
+    },
+    {
+      "_id": "YBCusDmgIETBIQKw",
+      "name": "Horn of Blasting",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Horn of Blasting",
+        "resultImg": "icons/tools/instruments/flute-simple-wood.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHornOfBlastin",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Oj4DV6RpLpVgPJBh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5kAzAGVawwsZwcRc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.YBCusDmgIETBIQKw"
+    },
+    {
+      "_id": "yiGX1v0Pwftpk7dU",
+      "name": "Ioun Stone (Awareness)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "G7N707dTUdNSFjPq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "S6QH3lHd1B5hqSdl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YU6uabBB9mAR4B5O",
+                "name": "Dragon Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-liver-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.yiGX1v0Pwftpk7dU"
+    },
+    {
+      "_id": "oppOtpvKH6TT4T9U",
+      "name": "Ioun Stone (Strength)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CnT5x1ZbfRqINFQk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "67mRC8zTt3KFJLI4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.oppOtpvKH6TT4T9U"
+    },
+    {
+      "_id": "FphTAINzMjqlomJ7",
+      "name": "Necklace of Fireballs",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Fireballs",
+        "resultImg": "icons/equipment/neck/pendant-faceted-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfFir",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "IcQKpvkXl4yXeXSU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "BCJ5aWI0SuBNOoY6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.FphTAINzMjqlomJ7"
+    },
+    {
+      "_id": "AxoWglVRFGw1Dv88",
+      "name": "Orb of Dragonkind",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Orb of Dragonkind",
+        "resultImg": "icons/commodities/gems/pearl-storm.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.1RwJWOAeyoideLKe",
+        "resultQuantity": 1,
+        "dc": 30,
+        "timeHours": 100000,
+        "enchantingDc": 30,
+        "enchantingTimeHours": 100000,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JgBJZpt7q6vC1hJm",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MM3R7TAb13ZHHJ8N",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YU6uabBB9mAR4B5O",
+                "name": "Dragon Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-liver-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "deific",
+        "componentCreatureType": "dragon",
+        "rarity": "artifact",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.AxoWglVRFGw1Dv88"
+    },
+    {
+      "_id": "D3ozYCgX64bmFTeY",
+      "name": "Shard Crown (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Shard Crown (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Shardcrown_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.NFob5URZyJOZqvfA",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "cq4VLIPO00Savi6o",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lNSM1wHbEHC2rdoE",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.D3ozYCgX64bmFTeY"
+    },
+    {
+      "_id": "WH1uTSQUhadFm0R4",
+      "name": "Shard Crown (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Shard Crown (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Shardcrown_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.hfw2bJmVlvhdw7ch",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "wNoWTA8S7yc1qA4I",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rvdZQiTUCkQ5fcFy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.WH1uTSQUhadFm0R4"
+    },
+    {
+      "_id": "3Qok5y17MFk85ky1",
+      "name": "Shard Crown (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Shard Crown (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Shardcrown_3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.GCopiV4snVEk6J6b",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EhO0MfuaAFFipiBq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JzVMjoPlkKSGc74u",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.3Qok5y17MFk85ky1"
+    },
+    {
+      "_id": "FaKK5B6Tjr0NxT2M",
+      "name": "Wyrm's Breath Grenade (Brass)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Wyrm's Breath Grenade (Sleep)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Magnetite_Wyrms-Breath-Grenade.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.jZNriCc96Itg8ppW",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0aq0d96d7ZyW4TBW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0RMzhfji1mNAGx6a",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.FaKK5B6Tjr0NxT2M"
+    },
+    {
+      "_id": "bXe3R3mK5SPZXUdo",
+      "name": "Wyrm's Breath Grenade (Bronze)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Wyrm's Breath Grenade (Repulsion)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Magnetite_Wyrms-Breath-Grenade.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.1FX6HD6Skt6paQlg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GifC3d4w9XeDRLFv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vorrLpAqfSNSLQE8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.bXe3R3mK5SPZXUdo"
+    },
+    {
+      "_id": "khM7yMb68BA1cjR2",
+      "name": "Wyrm's Breath Grenade (Copper)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Wyrm's Breath Grenade (Slow)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Magnetite_Wyrms-Breath-Grenade.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.7AkqieeWxCbt4Uz0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vf5A9R2yIXwQvz3X",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qeFCpjFeIUKHgD0Z",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.khM7yMb68BA1cjR2"
+    },
+    {
+      "_id": "q9xHVGK1OkqPbwwe",
+      "name": "Wyrm's Breath Grenade (Gold)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Wyrm's Breath Grenade (Weakening)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Magnetite_Wyrms-Breath-Grenade.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.FsO9i7QpAhwDyHIc",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "krCjrilZQ4NWPipP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tgENRemGSwTg41vC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.q9xHVGK1OkqPbwwe"
+    },
+    {
+      "_id": "rF10iAASH2FbxePe",
+      "name": "Wyrm's Breath Grenade (Silver)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Wyrm's Breath Grenade (Paralysing)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Magnetite_Wyrms-Breath-Grenade.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.K2tSANSJYUAoTgfu",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sFyNsvMyTEzbhCsl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TJct5j050737BTUy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!7BWfnuCT0v24bE4J.rF10iAASH2FbxePe"
+    }
+  ],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

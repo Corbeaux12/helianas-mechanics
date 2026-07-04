@@ -18,7 +18,7 @@
  * are NOT touched by this script.
  */
 
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -442,6 +442,10 @@ function baseFor(section, name) {
   }
 }
 
+/** Every built forge recipe page, for reuse by the themed collections pack. */
+const FORGE_PAGE_SPECS = [];
+const COOKING_SPECS = [];
+
 /** Order journals the way the catalogue orders its sections. */
 const FORGE_SECTION_ORDER = [
   "Ammunition", "Armour", "Potions", "Rings", "Rods",
@@ -536,6 +540,7 @@ function buildForgeJournals(rows) {
           ing.components.forEach((c, ci) => { c.id = did(`comp:${seed}:${pageName}:${ii}:${ci}`); });
         });
 
+        FORGE_PAGE_SPECS.push({ section, pageName, metatag: String(row.metatag ?? ""), sys });
         pages.push(pageDoc(seed, pageName, sys, (pages.length + 1) * 100));
       });
     }
@@ -628,23 +633,246 @@ function buildCookingJournals() {
 
   const bossSeed = "cooking:boss";
   const boss = journalDoc(bossSeed, "Boss Monster Recipes",
-    BOSS_RECIPES.map((r, i) => pageDoc(bossSeed, r.name, cookingSystem(`${bossSeed}:${r.name}`, r), (i + 1) * 100)), 200);
+    BOSS_RECIPES.map((r, i) => {
+      const sys = cookingSystem(`${bossSeed}:${r.name}`, r);
+      COOKING_SPECS.push({ pageName: r.name, sys });
+      return pageDoc(bossSeed, r.name, sys, (i + 1) * 100);
+    }), 200);
 
   return [staples, boss];
 }
 
+// ---------------------------------------------------- recipe collections pack
+//
+// Small themed journals modelled on hand-authored "Broodmother Recipes"
+// journals: a "Craftable Items" text page with @UUID links, followed by
+// copies of the relevant recipe pages. One journal per Heliana boss and one
+// per creature type. Handy as recipe-book unlock targets.
+
+const BOSS_COLLECTIONS = [
+  { name: "Broodmother Recipes",       match: /broodmother/i,             meal: "Aboleth Ramen" },
+  { name: "Dreamholder Recipes",       match: /dreamholder/i,             meal: "Dumpleyengs" },
+  { name: "Mecha-Koboldzilla Recipes", match: /koboldzilla/i,             meal: "Skrapyard Sosig" },
+  { name: "Polyhedrooze Recipes",      match: /polyhedrooze/i,            meal: "Jello Shot" },
+  { name: "Tavern Mimic Recipes",      match: /tavern mimic/i,            meal: "Tongue Twister Tart" },
+  { name: "Hyphan Recipes",            match: /hyphan/i,                  meal: "Mushroom Mélange" },
+  { name: "Suneater Recipes",          match: /suneater/i,                meal: "Suneater Steak and Eggs" },
+  { name: "Magnetite Recipes",         match: /magnetite/i,               meal: "Magnetite Curry" },
+  { name: "Tar-rasque Recipes",        match: /tar-rasque/i,              meal: "Tar-rasque Marrow Broth" },
+  { name: "Pygmy Rakshasa Recipes",    match: /pygmy rakshasa|handler/i,  meal: "Rakoyaki" },
+];
+
+const CREATURE_TYPES = ["aberration", "beast", "celestial", "construct", "dragon", "elemental",
+  "fey", "fiend", "giant", "humanoid", "monstrosity", "ooze", "plant", "undead"];
+
+function textPageDoc(journalSeed, name, html, sort) {
+  return {
+    _id: did(`page:${journalSeed}:${name}`), name, type: "text",
+    title: { show: true, level: 1 }, text: { format: 1, content: html },
+    sort, ownership: { default: -1 }, flags: {},
+  };
+}
+
+function copyRecipePage(journalSeed, spec, sort) {
+  const sys = structuredClone(spec.sys);
+  sys.ingredients.forEach((ing, ii) => {
+    ing.id = did(`ing:${journalSeed}:${spec.pageName}:${ii}`);
+    ing.components.forEach((c, ci) => { c.id = did(`comp:${journalSeed}:${spec.pageName}:${ii}:${ci}`); });
+  });
+  return pageDoc(journalSeed, spec.pageName, sys, sort);
+}
+
+function collectionJournal(seed, name, specs, jSort) {
+  const links = [];
+  const seen = new Set();
+  for (const s of specs) {
+    const key = s.sys.resultUuid || s.pageName;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    links.push(s.sys.resultUuid
+      ? `<p>@UUID[${s.sys.resultUuid}]{${s.sys.resultName}}</p>`
+      : `<p>${s.sys.resultName}</p>`);
+  }
+  const pages = [textPageDoc(seed, "Craftable Items", links.join(""), 10)];
+  specs.forEach((s, i) => pages.push(copyRecipePage(seed, s, (i + 2) * 100)));
+  return journalDoc(seed, name, pages, jSort);
+}
+
+function buildCollectionJournals() {
+  const journals = [];
+  let jSort = 0;
+
+  for (const boss of BOSS_COLLECTIONS) {
+    const specs = FORGE_PAGE_SPECS.filter(s => boss.match.test(s.metatag));
+    const meal = COOKING_SPECS.find(c => c.pageName === boss.meal);
+    if (meal) specs.push(meal);
+    if (!specs.length) continue;
+    journals.push(collectionJournal(`collection:boss:${boss.name}`, boss.name, specs, (jSort += 100)));
+  }
+
+  for (const type of CREATURE_TYPES) {
+    const specs = FORGE_PAGE_SPECS.filter(s => s.sys.componentCreatureType === type);
+    if (!specs.length) continue;
+    const label = type[0].toUpperCase() + type.slice(1);
+    journals.push(collectionJournal(`collection:type:${type}`, `${label} Recipes`, specs, (jSort += 100)));
+  }
+
+  return journals;
+}
+
+// ---------------------------------------------------------------- hunt packs
+//
+// Hand-authored hunt data files (tools/data/hunts/*.json, transcribed from
+// the Loot Tavern hunt PDFs under DndAssets) compile into:
+//   hunt-items pack        — craftable items (one per rarity tier), harvested
+//                            component items, and a recipe-book item per hunt
+//   recipe-collections     — one journal per hunt: item links, the hunt PDF,
+//                            and forge recipes per tier
+
+const DND_RARITY = { "common": "common", "uncommon": "uncommon", "rare": "rare", "very rare": "veryRare", "legendary": "legendary", "artifact": "artifact" };
+
+// Enchanting DC / time / essence tier by rarity (matches RecipeImporter's table).
+const HUNT_RARITY_META = {
+  "common":    { tier: "",       dc: 12, hours: 1 },
+  "uncommon":  { tier: "frail",  dc: 15, hours: 10 },
+  "rare":      { tier: "robust", dc: 18, hours: 40 },
+  "very rare": { tier: "potent", dc: 21, hours: 160 },
+  "legendary": { tier: "mythic", dc: 25, hours: 640 },
+  "artifact":  { tier: "deific", dc: 30, hours: 100000 },
+};
+
+function huntItemDoc(seed, name, { type = "loot", img = "", description = "", rarity = "", attunement = "", price = 0, tags = [], flags = {} }) {
+  const _id = did(`huntitem:${seed}:${name}`);
+  return {
+    _id, _key: `!items!${_id}`,
+    name, type,
+    img: img || "icons/svg/item-bag.svg",
+    system: {
+      description: { value: description, chat: "" },
+      quantity: 1,
+      rarity: DND_RARITY[rarity] ?? "",
+      attunement: attunement === "required" ? "required" : "",
+      price: { value: price, denomination: "gp" },
+      identified: true,
+      weight: { value: 0, units: "lb" },
+      properties: [],
+      type: { value: "", subtype: "" },
+    },
+    effects: [],
+    folder: null, sort: 0,
+    ownership: { default: 0 },
+    flags,
+  };
+}
+
+function buildHuntPacks() {
+  const huntsDir = path.join(ROOT, "tools", "data", "hunts");
+  const huntFiles = (() => {
+    try { return readdirSync(huntsDir).filter(f => f.endsWith(".json")); }
+    catch { return []; }
+  })();
+
+  const itemDocs = [];
+  const journals = [];
+  let jSort = 10000;
+
+  for (const file of huntFiles) {
+    const hunt = JSON.parse(readFileSync(path.join(huntsDir, file), "utf8"));
+    const seed = `hunt:${hunt.name}`;
+    const journalSeed = `collection:hunt:${hunt.name}`;
+    const journalId = did(`journal:${journalSeed}`);
+    const journalUuid = `Compendium.${MODULE_ID}.recipe-collections.JournalEntry.${journalId}`;
+
+    // Component items
+    const componentIds = {};
+    for (const c of hunt.components) {
+      const doc = huntItemDoc(seed, c.name, {
+        description: `<p>Harvested from a ${hunt.name.toLowerCase()} (${hunt.creatureType}). See ${hunt.source}.</p>`,
+        price: c.price ?? 0,
+        flags: { [MODULE_ID]: { tags: c.tags ?? [] } },
+      });
+      componentIds[c.name] = doc._id;
+      itemDocs.push(doc);
+    }
+
+    // Craftable items (one per tier) + recipes
+    const links = [];
+    const recipePages = [];
+    for (const item of hunt.items) {
+      for (const tier of item.tiers) {
+        const label = tier.rarity.replace(/(^|\s)\w/g, m => m.toUpperCase());
+        const itemName = `${item.name} (${label})`;
+        const doc = huntItemDoc(seed, itemName, {
+          type: item.itemType,
+          description: item.description,
+          rarity: tier.rarity,
+          attunement: item.attunement,
+          price: tier.value,
+        });
+        itemDocs.push(doc);
+        const itemUuid = `Compendium.${MODULE_ID}.hunt-items.Item.${doc._id}`;
+        links.push(`<p>@UUID[${itemUuid}]{${itemName}}</p>`);
+
+        const meta = HUNT_RARITY_META[tier.rarity] ?? HUNT_RARITY_META.uncommon;
+        const compId = componentIds[item.component];
+        const sys = recipeSystem({
+          recipeType: "forge",
+          resultName: itemName,
+          resultUuid: itemUuid,
+          dc: meta.dc, timeHours: meta.hours,
+          enchantingDc: meta.dc, enchantingTimeHours: meta.hours,
+          essenceTierRequired: meta.tier,
+          componentCreatureType: hunt.creatureType,
+          rarity: tier.rarity,
+          attunement: item.attunement,
+          baseItemRecipeUuid: item.baseRecipe ? baseRecipeUuid(item.baseRecipe) : "",
+          ingredients: [ingredient(`${seed}:${itemName}`, "Monster Component", [
+            { ...comp(`${seed}:${itemName}`, item.component, 1,
+                (hunt.components.find(c => c.name === item.component)?.tags) ?? []),
+              uuid: compId ? `Compendium.${MODULE_ID}.hunt-items.Item.${compId}` : "" },
+          ])],
+        });
+        recipePages.push({ pageName: itemName, sys });
+      }
+    }
+
+    // Recipe book item
+    itemDocs.push(huntItemDoc(seed, `${hunt.name} Hunt Notes`, {
+      description: `<p>Field notes on hunting and harvesting the ${hunt.name.toLowerCase()}, with crafting recipes for its unique items.</p><p>Source: ${hunt.source}</p>`,
+      price: 25,
+      flags: { [MODULE_ID]: { isRecipeBook: true, recipeBookJournalUuid: journalUuid } },
+    }));
+
+    // Hunt journal: links page, PDF page, recipe pages
+    const harvestRows = hunt.harvest.map(h => `<tr><td>${h.dc}</td><td>${h.components.join(", ")}</td></tr>`).join("");
+    const intro = `<p><em>${hunt.source}</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody>${harvestRows}</tbody></table><h2>Craftable Items</h2>${links.join("")}`;
+    const pages = [textPageDoc(journalSeed, "Craftable Items", intro, 10)];
+    if (hunt.pdf) {
+      pages.push({
+        _id: did(`page:${journalSeed}:pdf`), name: `${hunt.name} (PDF)`, type: "pdf",
+        src: hunt.pdf, title: { show: true, level: 1 }, sort: 20,
+        ownership: { default: -1 }, flags: {},
+      });
+    }
+    recipePages.forEach((s, i) => pages.push(copyRecipePage(journalSeed, s, (i + 1) * 100 + 100)));
+    journals.push(journalDoc(journalSeed, `${hunt.name} Recipes`, pages, (jSort += 100)));
+  }
+
+  return { itemDocs, journals };
+}
+
 // ------------------------------------------------------------------ build
 
-async function writeSourcesAndCompile(packName, journals) {
+async function writeSourcesAndCompile(packName, docs) {
   const srcDir = path.join(ROOT, "packs-src", packName);
   rmSync(srcDir, { recursive: true, force: true });
   mkdirSync(srcDir, { recursive: true });
-  for (const j of journals) {
-    writeFileSync(path.join(srcDir, `${slug(j.name)}.json`), JSON.stringify(j, null, 2) + "\n");
+  for (const d of docs) {
+    writeFileSync(path.join(srcDir, `${slug(d.name)}.json`), JSON.stringify(d, null, 2) + "\n");
   }
   await compilePack(srcDir, path.join(ROOT, "packs", packName), { log: false });
-  const pageCount = journals.reduce((n, j) => n + j.pages.length, 0);
-  console.log(`${packName}: ${journals.length} journal(s), ${pageCount} recipe page(s)`);
+  const pageCount = docs.reduce((n, d) => n + (d.pages?.length ?? 0), 0);
+  console.log(`${packName}: ${docs.length} document(s)${pageCount ? `, ${pageCount} page(s)` : ""}`);
 }
 
 const catalogue = readFileSync(path.join(ROOT, "crafting_catalogue_foundry_reference.md"), "utf8");
@@ -654,5 +882,8 @@ if (!rows.length) throw new Error("Catalogue parse produced no rows");
 await writeSourcesAndCompile(MFG_PACK, [buildManufacturingJournal()]);
 await writeSourcesAndCompile("forge-recipes", buildForgeJournals(rows));
 await writeSourcesAndCompile("cooking-recipes", buildCookingJournals());
+const huntPacks = buildHuntPacks();
+await writeSourcesAndCompile("recipe-collections", [...buildCollectionJournals(), ...huntPacks.journals]);
+await writeSourcesAndCompile("hunt-items", huntPacks.itemDocs);
 
 console.log("Done.");

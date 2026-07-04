@@ -1,0 +1,760 @@
+{
+  "_id": "o9y2I4I5Zu0Wlw7p",
+  "_key": "!journal!o9y2I4I5Zu0Wlw7p",
+  "name": "Undead Recipes",
+  "pages": [
+    {
+      "_id": "U4SMy5nLCbA7xvq1",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPlateArmorOfE]{Plate Armor of Etherealness}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfEthereal]{Oil of Etherealness}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfResis]{Potion of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfWither]{Staff of Withering}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfFear000]{Wand of Fear}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSwordOfLifeSt]{Sword of Life Stealing}</p><p>Sword of Vengeance</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgViciousWeapon]{Vicious Weapon}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgMaceOfDisrupt]{Mace of Disruption}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgMirrorOfLifeT]{Mirror of Life Trapping}</p><p>Necklace of Strangulation</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgScarabOfProte]{Scarab of Protection}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.U4SMy5nLCbA7xvq1"
+    },
+    {
+      "_id": "pK3cupWq4bgJ1BeM",
+      "name": "Armor of Resistance (Necrotic)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "XkfmCynEMs3exlOd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "I4BvQEblkdajzn6J",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.TzCPgT7JhpP04SkE",
+                "name": "Undead Undying Flesh",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.pK3cupWq4bgJ1BeM"
+    },
+    {
+      "_id": "ZynMBCMUbcfxwvhs",
+      "name": "Plate Armor of Etherealness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.SJbFgJmeQKYqogMj",
+        "resultName": "Plate Armor of Etherealness",
+        "resultImg": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPlateArmorOfE",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eSlqsqhaY7dA4SPJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "UPYne2kAqGE2ZgF3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-ornate-skull-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "undead",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.ZynMBCMUbcfxwvhs"
+    },
+    {
+      "_id": "Qc4xl8OkJX2OhDyg",
+      "name": "Oil of Etherealness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Oil of Etherealness",
+        "resultImg": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgOilOfEthereal",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "r67uM3MHd47wdvLG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "YBRocxkjnCj56i2G",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-ornate-skull-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.Qc4xl8OkJX2OhDyg"
+    },
+    {
+      "_id": "OKjV4tD5BJ6kV4VA",
+      "name": "Potion of Resistance (Necrotic)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "dYAZ7psiZSOsq4HR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "nVio8x3hvhuu1NRl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HWfsNczOK8yvTgre",
+                "name": "Phial of Undead Congealed Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/conical-mushroom-poison-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.OKjV4tD5BJ6kV4VA"
+    },
+    {
+      "_id": "3ZQ3yZ78o23cCVay",
+      "name": "Staff of Withering",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Withering",
+        "resultImg": "icons/weapons/staves/staff-animal-skull-bull.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfWither",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "T27mM7OpE743mA47",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1PQUsrqTQNOzNxWW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1t71vPhsR3YOWkcY",
+                "name": "Undead Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.3ZQ3yZ78o23cCVay"
+    },
+    {
+      "_id": "9dsbUv09L2GoANhm",
+      "name": "Wand of Fear",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Fear",
+        "resultImg": "icons/weapons/staves/staff-animal-skull-horned.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfFear000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Nn13dOzzXD21LPDj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GNRaVTSFxHEJFCbu",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-ornate-skull-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.9dsbUv09L2GoANhm"
+    },
+    {
+      "_id": "hKM6qvAqqVNDnAi5",
+      "name": "Sword of Life Stealing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Sword of Life Stealing",
+        "resultImg": "icons/weapons/swords/sword-guard-worn.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSwordOfLifeSt",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "19HnrnroS8FV1HOF",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "r2knRZ2eBCEuKniZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-ornate-skull-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.hKM6qvAqqVNDnAi5"
+    },
+    {
+      "_id": "PX6uFDfh4MPAN0Xx",
+      "name": "Sword of Vengeance",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Sword of Vengeance",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RkJk3yj4EMvpC17E",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "FqUbpYf98NYM8za3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HWfsNczOK8yvTgre",
+                "name": "Phial of Undead Congealed Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/conical-mushroom-poison-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.PX6uFDfh4MPAN0Xx"
+    },
+    {
+      "_id": "suD6R9CT3NKF3FaD",
+      "name": "Vicious Weapon",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Vicious Weapon",
+        "resultImg": "icons/weapons/sickles/sickle-hooked-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgViciousWeapon",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "U78kNLW0u38LCqvW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ctLFebWrBsNrl1qm",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.lbj5EH5IVfSFjwWD",
+                "name": "Pouch of Undead Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.suD6R9CT3NKF3FaD"
+    },
+    {
+      "_id": "GrPa3MhFiUNBirZC",
+      "name": "Mace of Disruption",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "resultName": "Mace of Disruption",
+        "resultImg": "icons/weapons/maces/shortmace-ornate-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMaceOfDisrupt",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9q1YFRAjwFun2n1N",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "a5jMphpHHfD7rRZn",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.BvCRGl3GnJB492aE",
+                "name": "Undead Marrow",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-broken-marrow-white-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.GrPa3MhFiUNBirZC"
+    },
+    {
+      "_id": "TVcVvf8OjA2dRk5a",
+      "name": "Ioun Stone (Sustenance)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "jP2tgLg7EDEs4g1z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Sw01qLrLxAEUmHxz",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.MlB2e2DOagQFNSIy",
+                "name": "Undead Undying Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-black.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.TVcVvf8OjA2dRk5a"
+    },
+    {
+      "_id": "r4in0BjTrwBTipte",
+      "name": "Mirror of Life Trapping",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Mirror of Life Trapping",
+        "resultImg": "icons/magic/air/wind-vortex-swirl-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMirrorOfLifeT",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0iQ03ie2ub3sr2P0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "kySLq2WKahA6sicC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.8RVwd96ncBeqkOZF",
+                "name": "Undead Eye",
+                "nameMode": "exact",
+                "img": "icons/creatures/eyes/lizard-single-slit-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.r4in0BjTrwBTipte"
+    },
+    {
+      "_id": "i2favcrrbdPR635r",
+      "name": "Necklace of Strangulation",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Strangulation",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OYyeaTBhEsbmQNyU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mFSrMKII55rBi13e",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HWfsNczOK8yvTgre",
+                "name": "Phial of Undead Congealed Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/conical-mushroom-poison-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.i2favcrrbdPR635r"
+    },
+    {
+      "_id": "vzh18BeBoHHkgqUv",
+      "name": "Scarab of Protection",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Scarab of Protection",
+        "resultImg": "icons/environment/creatures/bug-larva-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgScarabOfProte",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "p46ffuoXgUN3Jw67",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "VYvBvQd75udKQMT9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.MlB2e2DOagQFNSIy",
+                "name": "Undead Undying Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-black.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "undead",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o9y2I4I5Zu0Wlw7p.vzh18BeBoHHkgqUv"
+    }
+  ],
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

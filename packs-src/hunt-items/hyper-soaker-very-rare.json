@@ -1,0 +1,37 @@
+{
+  "_id": "3XY7OWZVhXPWhVRE",
+  "_key": "!items!3XY7OWZVhXPWhVRE",
+  "name": "Hyper Soaker (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any firearm), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity (cracker kraken) beak</p><p>Don't let the name fool you! This strange contraption is not a mere child's toy, but a powerful weapon capable of discharging jets of water at high enough pressure to cut through pure steel. And all it requires in return is for you to give up a tiny smidge of your own vitality. What a deal!</p><p>This weapon doesn't require normal ammunition. Instead of bullets that deal the weapon's normal damage type, it shoots blasts of water that deal bludgeoning damage. Whenever you reload the weapon, you take 1 necrotic damage that can't be reduced or prevented in any way, as the gun drains some of your body's moisture to refill itself.</p><p><strong>Pressure Cutter.</strong> As an action while holding this weapon, you can shoot a thin jet of water in a 100-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 4d6 piercing damage on a failure, or half as much damage on a success. Objects in the line also take this damage. Creatures don't benefit from cover thinner than 2 feet, as the jet of water pierces straight through it. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the piercing damage to 5d6. This weapon deals an extra 1d6 cold damage to the first target it hits on each of your turns.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the piercing damage to 8d6. This weapon deals an extra 1d10 cold damage to the first target it hits on each of your turns.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 8530,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

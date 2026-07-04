@@ -1,0 +1,2493 @@
+{
+  "_id": "K7S9YE5kenSbaBHm",
+  "_key": "!journal!K7S9YE5kenSbaBHm",
+  "name": "Monstrosity Recipes",
+  "pages": [
+    {
+      "_id": "Yl3ftBlLNH5q5nPO",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAmmunition12o]{Ammunition, +1, +2, or +3}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.2ZzGQ8tNPqQ3fjk0]{Breastplank Breastplate (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.inPk4Vtiy40xooA9]{Breastplank Breastplate (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.PyKu7ji5XO378W7I]{Breastplank Breastplate (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmor12or3000]{Armor, +1, +2, or +3}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.items.Item.xzZQIIxXjNJwNqnp]{Shield +2}</p><p>@UUID[Compendium.dnd5e.items.Item.5m9ErO9In8Uc5yyf]{Potion of Superior Healing}</p><p>@UUID[Compendium.dnd5e.items.Item.JFiSlgcm3uSSBM5t]{Potion of Supreme Healing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfTheMag]{Staff of the Magi}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfEnemyDe]{Wand of Enemy Detection}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfMagicDe]{Wand of Magic Detection}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfMagicMi]{Wand of Magic Missiles}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfParalys]{Wand of Paralysis}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfPolymor]{Wand of Polymorph}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.iCWvs0g7AyqOfsko]{Headbanger Lute Club (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.Tf6rbW6BK6Xy7WpI]{Headbanger Lute Club (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.zKGtNf7Tn8kWvbiO]{Mawling Maul (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.vBxC91LftrUsIpla]{Mawling Maul (Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgVorpalSword00]{Vorpal Sword}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWeapon12or300]{Weapon, +1, +2, or +3}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWeaponOfWarni]{Weapon of Warning}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgMaceOfTerror0]{Mace of Terror}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBagOfDevourin]{Bag of Devouring}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBeltOfDwarven]{Belt of Dwarvenkind}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBracersOfArch]{Bracers of Archery}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBracersOfDefe]{Bracers of Defense}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBroochOfShiel]{Brooch of Shielding}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCapeOfTheMoun]{Cape of the Mountebank}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCircletOfBlas]{Circlet of Blasting}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCloakOfDispla]{Cloak of Displacement}</p><p>Eyes of Googly</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFanQuaalsFeat]{Feather Token (Fan)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSwanBoatQuaal]{Feather Token (Swan Boat)}</p><p>@UUID[Compendium.dnd5e.items.Item.CI58LNiwrTpmWYMp]{Figurine of Wondrous Power (Bronze Griffon)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgGogglesOfNigh]{Goggles of Night}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHorseshoesOfA]{Horseshoes of a Zephyr}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgNecklaceOfAda]{Necklace of Adaptation}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPeriaptOfHeal]{Periapt of Health}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPipesOfTheSew]{Pipes of the Sewers}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRobeOfEyes000]{Robe of Eyes}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRopeOfClimbin]{Rope of Climbing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRopeOfEntangl]{Rope of Entanglement}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.xsGns2jwY2MFq8Eb]{Spelleater Tome (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.reBHnGOdfGs6wynu]{Spelleater Tome (Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWindFan000000]{Wind Fan}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.Yl3ftBlLNH5q5nPO"
+    },
+    {
+      "_id": "sSHYauakDpXpc4un",
+      "name": "+2 Ammunition",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.EP1H0eT029WC1GDz",
+        "resultName": "Ammunition, +1, +2, or +3",
+        "resultImg": "icons/weapons/ammunition/arrow-head-war-flight.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAmmunition12o",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "c7R9b5vQ7AXMFZxs",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "oafmayrDDDlcwcTk",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.sSHYauakDpXpc4un"
+    },
+    {
+      "_id": "JMVBgWEkdwA91AOz",
+      "name": "Breastplank (plate) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.2ZzGQ8tNPqQ3fjk0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LdIHikXz9WMsosQ9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hDwKKcglK5nhH27y",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.JMVBgWEkdwA91AOz"
+    },
+    {
+      "_id": "mIOPlCAAbbZkp974",
+      "name": "Breastplank (plate) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.inPk4Vtiy40xooA9",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vGkAAiKt5j4peI2N",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iPTS63JPxFr3Z1Wv",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.mIOPlCAAbbZkp974"
+    },
+    {
+      "_id": "Gfgudm5yCiVE91ZL",
+      "name": "Breastplank (plate) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.PyKu7ji5XO378W7I",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JsrONbSib6tY6dI8",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "23EClrGKTgJM137X",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.Gfgudm5yCiVE91ZL"
+    },
+    {
+      "_id": "DiWmRf48RoiF6ekj",
+      "name": "+2 Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor, +1, +2, or +3",
+        "resultImg": "icons/equipment/chest/breastplate-gorget-steel-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmor12or3000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8aE316pkPo6Rzbez",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "L37FAh0pvSaJ6e7Y",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IXByIg9HWtqoURaE",
+                "name": "Monstrosity Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-joint-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.DiWmRf48RoiF6ekj"
+    },
+    {
+      "_id": "fyAcQYBewBbyilIN",
+      "name": "Armor of Resistance (Poison)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aHxSa45t5JX9Fo1f",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "23YFx9Wf4339bhS8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vlNoBGcKR48rqFN8",
+                "name": "Monstrosity Liver",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.fyAcQYBewBbyilIN"
+    },
+    {
+      "_id": "TeK7kKB80GAcQY00",
+      "name": "+2 Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Shield +2",
+        "resultImg": "icons/equipment/shield/heater-steel-spiral.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.xzZQIIxXjNJwNqnp",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pZy7b66fARNhEPX9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fn1tHliAdSJC1Iit",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DmmvAWOXEPDmLeJX",
+                "name": "Pouch of Monstrosity Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.TeK7kKB80GAcQY00"
+    },
+    {
+      "_id": "s5hDCQ77rfJi4bQ7",
+      "name": "Potion of Superior Healing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Superior Healing",
+        "resultImg": "icons/consumables/potions/bottle-round-corked-red.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.5m9ErO9In8Uc5yyf",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "N6uMUnZRs6V4PTxf",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "r3nrIevRceZetM0G",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vlNoBGcKR48rqFN8",
+                "name": "Monstrosity Liver",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.s5hDCQ77rfJi4bQ7"
+    },
+    {
+      "_id": "jEEcXac7jdF2bq4D",
+      "name": "Potion of Supreme Healing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Supreme Healing",
+        "resultImg": "icons/consumables/potions/potion-flask-stopped-red.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.JFiSlgcm3uSSBM5t",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3U4HzwWYiAU2rR1G",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "LWpJ46PScenS8azf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ODgZjv1bCzx1fVhw",
+                "name": "Monstrosity Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "YG4Xg0d3ZCfJjb4t",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "IxQG2oogqTbgUh71",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vlNoBGcKR48rqFN8",
+                "name": "Monstrosity Liver",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.jEEcXac7jdF2bq4D"
+    },
+    {
+      "_id": "Rqd2Y2Ww9F37L8xm",
+      "name": "Staff of the Magi",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of the Magi",
+        "resultImg": "icons/weapons/staves/staff-ornate-eye.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfTheMag",
+        "resultQuantity": 1,
+        "dc": 30,
+        "timeHours": 100000,
+        "enchantingDc": 30,
+        "enchantingTimeHours": 100000,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "puP8AVeDe9mpI1uL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OMLqZkzGotpNU2e4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.rW1Xodor47cpyhCL",
+                "name": "Monstrosity Tentacle",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tail-rodent-striped-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "deific",
+        "componentCreatureType": "monstrosity",
+        "rarity": "artifact",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.Rqd2Y2Ww9F37L8xm"
+    },
+    {
+      "_id": "M3DAV0Ed4Gedk0Cx",
+      "name": "Wand of Enemy Detection",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Enemy Detection",
+        "resultImg": "icons/weapons/wands/wand-simple-eye.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfEnemyDe",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Eio5dXdtP0NH15Fu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QGJIa4vYMrYfiAm3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Hkbv1jrFWbD43g0G",
+                "name": "Monstrosity Antenna",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tentacle-thorned-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.M3DAV0Ed4Gedk0Cx"
+    },
+    {
+      "_id": "UkeZAuIxz12cnZmA",
+      "name": "Wand of Magic Detection",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Magic Detection",
+        "resultImg": "icons/weapons/wands/wand-gem-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfMagicDe",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2GSz4t7T1J5f6xK5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SAnyw2Dtz3Ket22u",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YFvz364KlQjcCgnY",
+                "name": "Monstrosity Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-green-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.UkeZAuIxz12cnZmA"
+    },
+    {
+      "_id": "WMtlkeUxDmM8IgnU",
+      "name": "Wand of Magic Missiles",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Magic Missiles",
+        "resultImg": "icons/weapons/wands/wand-gem-pink.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfMagicMi",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "stAPOcddVBm6oIVl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "bRb5tOS9WhKuSokl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7WBaUdAs6QRcw6LX",
+                "name": "Phial of Monstrosity Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-round-label-cork-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.WMtlkeUxDmM8IgnU"
+    },
+    {
+      "_id": "Znq3tfutAulxS2IM",
+      "name": "Wand of Paralysis",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Paralysis",
+        "resultImg": "icons/weapons/wands/wand-gem-violet.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfParalys",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8PWoyUmj4FuGdB4K",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GNpdFKjWJaJdo90C",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.scRplQg5saStEwcd",
+                "name": "Monstrosity Stinger",
+                "nameMode": "exact",
+                "img": "icons/creatures/abilities/stinger-poison-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.Znq3tfutAulxS2IM"
+    },
+    {
+      "_id": "5fIXm6mgnNjfSTlS",
+      "name": "Wand of Polymorph",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Polymorph",
+        "resultImg": "icons/weapons/wands/wand-gem-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfPolymor",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "y1Qj6XI2Xxg9y20F",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JfefnfDnXp4RwIOr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.gQADm2mPJwrV5LNQ",
+                "name": "Monstrosity Flesh",
+                "nameMode": "exact",
+                "img": "icons/consumables/meat/fillet-fish-purple-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.5fIXm6mgnNjfSTlS"
+    },
+    {
+      "_id": "OBva0HN109637rhE",
+      "name": "Headbanger Lute (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Headbanger Lute Club (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicInstrument1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.iCWvs0g7AyqOfsko",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "dKeVJMpMLPnHNa7m",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7DUuJr95TflhBCD1",
+                "uuid": "",
+                "name": "Stomach",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.OBva0HN109637rhE"
+    },
+    {
+      "_id": "i0O8Cfid9Tx99hkL",
+      "name": "Headbanger Lute (any hammer*) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Headbanger Lute Club (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicInstrument2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.Tf6rbW6BK6Xy7WpI",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QQUQa655TiH4BQE0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iQMSKs2DMLs9hkqh",
+                "uuid": "",
+                "name": "Stomach",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.i0O8Cfid9Tx99hkL"
+    },
+    {
+      "_id": "3griFufVgt0rVGgp",
+      "name": "Mawling Maul (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Mawling Maul (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicMaul1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.zKGtNf7Tn8kWvbiO",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4HCXhRCJVRFfjbLl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "AAwLKpUg803mH5g1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.3griFufVgt0rVGgp"
+    },
+    {
+      "_id": "Xkf468hC5kl5bzSi",
+      "name": "Mawling Maul (any hammer*) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Mawling Maul (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicMaul2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.vBxC91LftrUsIpla",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "P5Dht3GBiawLAz4t",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "VBj0zyly7K7JDhtW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.Xkf468hC5kl5bzSi"
+    },
+    {
+      "_id": "Ixug7J5Bxg31xuxE",
+      "name": "Vorpal Sword (any sword)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Vorpal Sword",
+        "resultImg": "icons/weapons/swords/scimitar-guard-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgVorpalSword00",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "64yeHwf25rPVumef",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2R424klQYkJ4PdEb",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "monstrosity",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.Ixug7J5Bxg31xuxE"
+    },
+    {
+      "_id": "v0sjLJsnSbbRaXDA",
+      "name": "+2 Weapon",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Weapon, +1, +2, or +3",
+        "resultImg": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWeapon12or300",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BTXne8e3msEVccwd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WZQzCPlss9YUhXzV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.bbmChVcW5DLYk6lw",
+                "name": "Pouch of Monstrosity Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.v0sjLJsnSbbRaXDA"
+    },
+    {
+      "_id": "bWTPdrw3auiAo5pZ",
+      "name": "Weapon of Warning",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Weapon of Warning",
+        "resultImg": "icons/weapons/hammers/hammer-double-engraved-ruby.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWeaponOfWarni",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sGv3TcuoVRv3cgK9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7ehn0vbMnEkw3i3a",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Hkbv1jrFWbD43g0G",
+                "name": "Monstrosity Antenna",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tentacle-thorned-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.bWTPdrw3auiAo5pZ"
+    },
+    {
+      "_id": "7650ijc9HYEF2bnl",
+      "name": "Mace of Terror",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "resultName": "Mace of Terror",
+        "resultImg": "icons/weapons/maces/mace-spiked-skull.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMaceOfTerror0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "stVw30K6EuqFLteO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "nLdCPMzoOXKvkss1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IXByIg9HWtqoURaE",
+                "name": "Monstrosity Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-joint-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.7650ijc9HYEF2bnl"
+    },
+    {
+      "_id": "amCsb1LFcxg1gpe9",
+      "name": "Bag of Devouring",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bag of Devouring",
+        "resultImg": "icons/containers/bags/pack-engraved-leather-tan.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBagOfDevourin",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "jd2TXeZkdaFp7UIv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fOZxxa7ddIUoNBwg",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.amCsb1LFcxg1gpe9"
+    },
+    {
+      "_id": "3I0Uhn00P57soyw2",
+      "name": "Belt of Dwarvenkind",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Belt of Dwarvenkind",
+        "resultImg": "icons/equipment/waist/belt-armored-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBeltOfDwarven",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xqkv77MistFbQRYq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ztSPzpBDKVb2tikl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.3I0Uhn00P57soyw2"
+    },
+    {
+      "_id": "tpYXW2CrNPx3e9Gw",
+      "name": "Bracers of Archery",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bracers of Archery",
+        "resultImg": "icons/equipment/wrist/bracer-banded-leather.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBracersOfArch",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7uteJVLIYMhAhlDQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2bSnY79ouD14yABO",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.tpYXW2CrNPx3e9Gw"
+    },
+    {
+      "_id": "Z4K8ygdF4k61UcOI",
+      "name": "Bracers of Defense",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bracers of Defense",
+        "resultImg": "icons/equipment/wrist/bracer-yellow-fancy.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBracersOfDefe",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JAl5Jy7NZeeWugOX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RUu1Vz7Lmc5aWWu6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ucusMCaHQqzR0jsS",
+                "name": "Monstrosity Chitin",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/shell-ribbed-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.Z4K8ygdF4k61UcOI"
+    },
+    {
+      "_id": "6JaB17rD4Bkvnn7j",
+      "name": "Brooch of Shielding",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Brooch of Shielding",
+        "resultImg": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBroochOfShiel",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DbbORMVg8juSuP00",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Fxtp5SVchUz9m5hX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DmmvAWOXEPDmLeJX",
+                "name": "Pouch of Monstrosity Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.6JaB17rD4Bkvnn7j"
+    },
+    {
+      "_id": "IhBDTecO72U9H6Ri",
+      "name": "Cape of the Mountebank",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Cape of the Mountebank",
+        "resultImg": "icons/equipment/head/hood-cloth-trimmed-pink-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCapeOfTheMoun",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YAHvS703tgnP2A6O",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mPBb2NGr9zoFkxVS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.IhBDTecO72U9H6Ri"
+    },
+    {
+      "_id": "fEmMviFydif1IOzy",
+      "name": "Circlet of Blasting",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Circlet of Blasting",
+        "resultImg": "icons/equipment/finger/ring-cabochon-notched-gold-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCircletOfBlas",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "V6PPkm6EGEAvv7j6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QNDa1gyh5NY5AHnF",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Mg44MtvSc2kXWCYW",
+                "name": "Monstrosity Antler",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-antler-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.fEmMviFydif1IOzy"
+    },
+    {
+      "_id": "J2svdCA7UhycfkYg",
+      "name": "Cloak of Displacement",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Cloak of Displacement",
+        "resultImg": "icons/equipment/back/cloak-brown-accent-brown-layered-collared-fur.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCloakOfDispla",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Hzuw9o108uGMcipB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0eh2ZrN9rXReELUN",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "monstrosity",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.J2svdCA7UhycfkYg"
+    },
+    {
+      "_id": "VFJll223OjwMoxW1",
+      "name": "Eyes of Googly",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Eyes of Googly",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "P1C24TL0Mk7lIZ7W",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QHe0dYGmD3vSh11S",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YFvz364KlQjcCgnY",
+                "name": "Monstrosity Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-green-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "monstrosity",
+        "rarity": "common",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.VFJll223OjwMoxW1"
+    },
+    {
+      "_id": "9hEvrVbaXEQtkH6e",
+      "name": "Feather Token (Fan)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Feather Token (Fan)",
+        "resultImg": "icons/commodities/materials/feather-colored-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgFanQuaalsFeat",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "cYgNiNw7NebkTnoB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lSugueuAM5ZZyX8d",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0Vhn42XB5wryuBx",
+                "name": "Pouch of Monstrosity Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.9hEvrVbaXEQtkH6e"
+    },
+    {
+      "_id": "5x2gz0t6nDCtA3nn",
+      "name": "Feather Token (Swan Boat)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Feather Token (Swan Boat)",
+        "resultImg": "icons/commodities/materials/feather-blue-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSwanBoatQuaal",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "es9f7GlmYHHOEq2Q",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "H2ExAE32ulZdSxEM",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.sBFCK8wOVWgkoY3r",
+                "name": "Monstrosity Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/skull-bird-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.5x2gz0t6nDCtA3nn"
+    },
+    {
+      "_id": "tw6skuc9eXLQ9goO",
+      "name": "Figurine: Bronze Griffon",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Figurine of Wondrous Power (Bronze Griffon)",
+        "resultImg": "icons/commodities/bones/hurn-curved-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.CI58LNiwrTpmWYMp",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "57GMZ5gAUM24EcR9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "w60izB42xkfjFZ2Y",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0Vhn42XB5wryuBx",
+                "name": "Pouch of Monstrosity Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.tw6skuc9eXLQ9goO"
+    },
+    {
+      "_id": "XIKePvmfFOZjrdQD",
+      "name": "Goggles of Night",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Goggles of Night",
+        "resultImg": "icons/equipment/head/goggles-leather-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGogglesOfNigh",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Xc0XhADuA7OeNApd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GdFmlpHwgwZJglCA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YFvz364KlQjcCgnY",
+                "name": "Monstrosity Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-green-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.XIKePvmfFOZjrdQD"
+    },
+    {
+      "_id": "re0vRbZG0wFJ6Z44",
+      "name": "Horseshoes of a Zephyr",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Horseshoes of a Zephyr",
+        "resultImg": "icons/tools/smithing/horsehoe-worn-steel-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHorseshoesOfA",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "p0W5y3Dp9MJRIYqF",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "M9WOALNocW41UMxM",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.bbmChVcW5DLYk6lw",
+                "name": "Pouch of Monstrosity Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.re0vRbZG0wFJ6Z44"
+    },
+    {
+      "_id": "FIfXol67Ce1FolC7",
+      "name": "Ioun Stone (Protection)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "j1ANwbzu79DSva79",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0XxXQZ7gThQSml6T",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.4uUFCJoP8b0h4l6o",
+                "name": "Monstrosity Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-curved-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.FIfXol67Ce1FolC7"
+    },
+    {
+      "_id": "jr6pzmKMcKaqG2JH",
+      "name": "Necklace of Adaptation",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Necklace of Adaptation",
+        "resultImg": "icons/equipment/neck/amulet-carved-stone-spiral-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNecklaceOfAda",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CzW64EjtXCATq6bo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "w32F5o3iB6bMOGY2",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.el7BNKRgRzizWRJ5",
+                "name": "Monstrosity Poison Gland",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tail-scaled-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.jr6pzmKMcKaqG2JH"
+    },
+    {
+      "_id": "0y5qOatm3QdrH5bN",
+      "name": "Periapt of Health",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Periapt of Health",
+        "resultImg": "icons/equipment/neck/pendant-faceted-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPeriaptOfHeal",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZzpCRRko65PwgdKu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dnKk6112BALcjI70",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SyvUpNIEZv3kl0nZ",
+                "name": "Monstrosity Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-black.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.0y5qOatm3QdrH5bN"
+    },
+    {
+      "_id": "P2vvkX51FI9gCnBB",
+      "name": "Pipes of the Sewers",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Pipes of the Sewers",
+        "resultImg": "icons/tools/instruments/flute-simple-wood.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPipesOfTheSew",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "D9DVH7tKUN78RCLA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "EIJIyCyh8h9YGq3z",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IXByIg9HWtqoURaE",
+                "name": "Monstrosity Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-joint-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.P2vvkX51FI9gCnBB"
+    },
+    {
+      "_id": "4HjmSUuj1aVlqpAQ",
+      "name": "Robe of Eyes",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Robe of Eyes",
+        "resultImg": "icons/equipment/head/hood-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRobeOfEyes000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bn2QyeqH6XBLsbqz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6e5YdviwfdLX33gC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YFvz364KlQjcCgnY",
+                "name": "Monstrosity Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-green-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.4HjmSUuj1aVlqpAQ"
+    },
+    {
+      "_id": "QACHCAC9OkFuHvBv",
+      "name": "Rope of Climbing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Rope of Climbing",
+        "resultImg": "icons/sundries/survival/rope-wrapped-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRopeOfClimbin",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6S1OF9otPW7tww2S",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ezlq5NVwMA6GQLTy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.wzAvPyeqFw5Gr7kT",
+                "name": "Monstrosity Talon",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-simple-beige.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.QACHCAC9OkFuHvBv"
+    },
+    {
+      "_id": "uBajDUzj3ElkNo2f",
+      "name": "Rope of Entanglement",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Rope of Entanglement",
+        "resultImg": "icons/sundries/survival/rope-wrapped-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRopeOfEntangl",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VdBNqi9BkHrVIkaS",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mR21wE09aqMmWel4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.OoCfBFim4pHc1mQJ",
+                "name": "Monstrosity Pincer",
+                "nameMode": "exact",
+                "img": "icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.uBajDUzj3ElkNo2f"
+    },
+    {
+      "_id": "rBRKTK0jnNdPXIG1",
+      "name": "Spelleater Tome (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Spelleater Tome (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicBook1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.xsGns2jwY2MFq8Eb",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QFaqEMrg667qWNpq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6g00OxKqsbFYW6y1",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.rBRKTK0jnNdPXIG1"
+    },
+    {
+      "_id": "LgrR8eWv8WO2oWzz",
+      "name": "Spelleater Tome (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Spelleater Tome (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicBook2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.reBHnGOdfGs6wynu",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Q0CkURczyxxp1C4z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fofYs0HoHqSt7T6c",
+                "uuid": "",
+                "name": "Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.LgrR8eWv8WO2oWzz"
+    },
+    {
+      "_id": "RZXOejpwaL500oMM",
+      "name": "Wind Fan",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Wind Fan",
+        "resultImg": "icons/commodities/treasure/trinket-wing-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWindFan000000",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ApimxSsQZDdcEF2s",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "j3rvT5VyCkspCHSq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0Vhn42XB5wryuBx",
+                "name": "Pouch of Monstrosity Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!K7S9YE5kenSbaBHm.RZXOejpwaL500oMM"
+    }
+  ],
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

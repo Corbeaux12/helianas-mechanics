@@ -1,0 +1,594 @@
+{
+  "_id": "4xnSpm2pBT38tCTS",
+  "_key": "!journal!4xnSpm2pBT38tCTS",
+  "name": "Suneater Recipes",
+  "pages": [
+    {
+      "_id": "CnENflI6Sxl4RO3h",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tsnpncn5CErE4f8n]{Suncatcher Rod (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.wmIaiTcwXQ1nHi8I]{Suncatcher Rod (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.xKJt77xnje00Xd93]{Suncatcher Rod (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tWENFuLIkHtLbUic]{Sunwing Bow (Uncommon) Longbow}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.sMHLeULD8ruEp4Yg]{Sunwing Bow (Rare) Longbow}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.z6jhHrSbht3rqEgn]{Sunwing Bow (Very Rare) Longbow}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.VhUNbDcaNonESRXa]{Sunfeather Shroud (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.ztbhQLd7JcidbLq4]{Sunfeather Shroud (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.Uu3yl2BiWN9v1hju]{Sunfeather Shroud (Very Rare)}</p><p>Suneater Steak and Eggs</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.CnENflI6Sxl4RO3h"
+    },
+    {
+      "_id": "7eavsgZXZ3zCS4bA",
+      "name": "Suncatcher (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tsnpncn5CErE4f8n",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "K1zxWP15RmppXyjr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HY1PsOeaHq6yMtvF",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.7eavsgZXZ3zCS4bA"
+    },
+    {
+      "_id": "dbJUz6Gmhq03hboJ",
+      "name": "Suncatcher (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.wmIaiTcwXQ1nHi8I",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "TOB6A10qgptxUyEE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "FIiNlDJrPVNJrOFE",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.dbJUz6Gmhq03hboJ"
+    },
+    {
+      "_id": "WG3fhj5CGwFALIrE",
+      "name": "Suncatcher (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.xKJt77xnje00Xd93",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0rswfXBj1l647Vws",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "UZO04dgiSXfgMEPJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.WG3fhj5CGwFALIrE"
+    },
+    {
+      "_id": "h4nsLvgIA7KqGPoR",
+      "name": "Sunwing Bow (any bow) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Uncommon) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tWENFuLIkHtLbUic",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "kWp2tBspf9Osrr3g",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dcntYueZZ7wuVXVD",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.h4nsLvgIA7KqGPoR"
+    },
+    {
+      "_id": "kNG61BZ0JsSf5W3D",
+      "name": "Sunwing Bow (any bow) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Rare) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.sMHLeULD8ruEp4Yg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rBUujIsLfOdsogiU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "28pfIdQUbRAfV7Gl",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.kNG61BZ0JsSf5W3D"
+    },
+    {
+      "_id": "a7QF8k06SYhxrzFS",
+      "name": "Sunwing Bow (any bow) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Very Rare) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.z6jhHrSbht3rqEgn",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "tyYT5bL9siN3MxmC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q78ztE1Gh0wPyKXO",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.a7QF8k06SYhxrzFS"
+    },
+    {
+      "_id": "HrT4G3xcR4BPX43Q",
+      "name": "Sunfeather Shroud (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sunfeather Shroud (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Sunfeather_Shroud.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.VhUNbDcaNonESRXa",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "q9OF93Aa9E0m6n5J",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "gcLlzb47ihltmi5U",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.HrT4G3xcR4BPX43Q"
+    },
+    {
+      "_id": "BNNphIReYnuYnu1K",
+      "name": "Sunfeather Shroud (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sunfeather Shroud (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Sunfeather_Shroud2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.ztbhQLd7JcidbLq4",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1dt0SMpKI6r6aB9W",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "kcWedBEGgyJXPd1n",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.BNNphIReYnuYnu1K"
+    },
+    {
+      "_id": "n1l0YjgOCmEA1kui",
+      "name": "Sunfeather Shroud (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sunfeather Shroud (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Sunfeather_Shroud3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.Uu3yl2BiWN9v1hju",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "f1Do8FV1NI1kJbGX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jUQcasqt98o6ww6X",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.n1l0YjgOCmEA1kui"
+    },
+    {
+      "_id": "tUjTItJTv6KpGHKt",
+      "name": "Suneater Steak and Eggs",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Suneater Steak and Eggs",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 20,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8CAwFY9b5vGJSGPV",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "KHlDRHLf6C6Ab01P",
+                "uuid": "",
+                "name": "Flesh",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "flesh",
+                  "suneater",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "Fx2ZZSjTprYu4S6I",
+            "name": "Blood",
+            "components": [
+              {
+                "id": "Fth3SrEFFSLB9rdk",
+                "uuid": "",
+                "name": "Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "79nKUQY87ezcx8jl",
+            "name": "Egg",
+            "components": [
+              {
+                "id": "aE7n0gHe37JVWULp",
+                "uuid": "",
+                "name": "Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!4xnSpm2pBT38tCTS.tUjTItJTv6KpGHKt"
+    }
+  ],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

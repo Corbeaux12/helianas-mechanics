@@ -1,0 +1,576 @@
+{
+  "_id": "GjZzXoKt7Yg774kj",
+  "_key": "!journal!GjZzXoKt7Yg774kj",
+  "name": "Hyphan Recipes",
+  "pages": [
+    {
+      "_id": "HuPJuQBauP9XmxSj",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rCt4IpMCGwQSSOR5]{Ring of Fungal Symbiosis (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.2Z3TKPH0NAcBWuLD]{Ring of Fungal Symbiosis (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.V0FvP3zYkwtHDhpt]{Sporespreader Rod (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.9irxf4SNg1er8TP1]{Sporespreader Rod (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Lu2KymlT0K94U1s7]{Painblinder Mycaxe Battleaxe (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.PfUNlPNDWpJfek09]{Painblinder Mycaxe Battleaxe (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.XyQEY3jEM2lalQCH]{Longspike (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.mUn74Pt6PhZkBvuG]{Longspike (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rNPS84VXxjAo4iNF]{Mycelial Cloak (Rare)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.rYh7vfK5GZfe6p5N]{Mushroom Mélange (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.HuPJuQBauP9XmxSj"
+    },
+    {
+      "_id": "Nh5ZwtZpSkfhPDak",
+      "name": "Ring of Fungal Symbiosis (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Fungal Symbiosis (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Ring_of_Fungal_Symbiosis-Uncommon-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rCt4IpMCGwQSSOR5",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CyKRVOg6EmB1txmD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "J6cusOjSeTro5W9e",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.Nh5ZwtZpSkfhPDak"
+    },
+    {
+      "_id": "2VWqQosT26lRcm9X",
+      "name": "Ring of Fungal Symbiosis (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Fungal Symbiosis (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Ring_of_Fungal_Symbiosis_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.2Z3TKPH0NAcBWuLD",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vJLxHxnCtFRav4mG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "oh0f2n9y8NMcqSLC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.2VWqQosT26lRcm9X"
+    },
+    {
+      "_id": "uIAy4FB5heKPiNss",
+      "name": "Sporespreader (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Sporespreader Rod (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Spore_Spreader.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.V0FvP3zYkwtHDhpt",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "wJXo7uMeBBlo7LmL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MFRe79jdTwhAUPSZ",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.uIAy4FB5heKPiNss"
+    },
+    {
+      "_id": "zmCt7YNaMFlQbLsk",
+      "name": "Sporespreader (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Sporespreader Rod (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Spore_Spreader_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.9irxf4SNg1er8TP1",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "w8Kti3mgvm9oqeJB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "K3JzU3Q9DGB6fy9O",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.zmCt7YNaMFlQbLsk"
+    },
+    {
+      "_id": "0wSomFY51nJ3ufmy",
+      "name": "Painblinder Mycaxe (any axe) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Painblinder Mycaxe Battleaxe (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Painblinder_Mycaxe.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Lu2KymlT0K94U1s7",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hZE5IonZkp8X2D2C",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dXHjwf0NeBXSnT5a",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.0wSomFY51nJ3ufmy"
+    },
+    {
+      "_id": "qTuG6FHTvahf6UUj",
+      "name": "Painblinder Mycaxe (any axe) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Painblinder Mycaxe Battleaxe (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Painblinder_Mycaxe_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.PfUNlPNDWpJfek09",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JRS6IsXSxPn5JUlA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Y2ewDqkD9fSww4Gc",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.qTuG6FHTvahf6UUj"
+    },
+    {
+      "_id": "zfZmj8tixQ2xumjY",
+      "name": "Longspike (rapier) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Longspike (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Longspike-Uncommon-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.XyQEY3jEM2lalQCH",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GuEChXZSFo64eviw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Zo86Chg5Q7yEEean",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dQf3AhmCdhXWly5c",
+                "name": "Pouch of Plant Hyphae",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-gold-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.zfZmj8tixQ2xumjY"
+    },
+    {
+      "_id": "KLSCNBWiG55pyAzV",
+      "name": "Longspike (rapier) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Longspike (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Longspike-VeryRare-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.mUn74Pt6PhZkBvuG",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JI5LGY2WeV0k9O4u",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2VqMWCGmtEmGMsB5",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dQf3AhmCdhXWly5c",
+                "name": "Pouch of Plant Hyphae",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-gold-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.KLSCNBWiG55pyAzV"
+    },
+    {
+      "_id": "OwWox6CRlISHnr7z",
+      "name": "Mycelial Cloak",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Mycelial Cloak (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Mycelial_Cloak-Rare-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rNPS84VXxjAo4iNF",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DJoiYcISLI6oKXBw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "r8QeixtPu26b9Tqh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jxo80IYK5IY1IQXf",
+                "name": "Plant Membrane",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/leaf-old-dried-curled-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.OwWox6CRlISHnr7z"
+    },
+    {
+      "_id": "7t7bZZwOVmMEtBOQ",
+      "name": "Mushroom Mélange",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Mushroom Mélange (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/crafting/Cooking-Mushroom_melange.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.rYh7vfK5GZfe6p5N",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8l6WmULVfUExlz6p",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "5HCyUiYqjLlTwAuY",
+                "uuid": "",
+                "name": "Pouch of spores",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spores",
+                  "hyphan",
+                  "plant",
+                  "spice"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "tjKNLxn56QpGXVIX",
+            "name": "Fat",
+            "components": [
+              {
+                "id": "TcMkFEh8K7OFrV1N",
+                "uuid": "",
+                "name": "Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!GjZzXoKt7Yg774kj.7t7bZZwOVmMEtBOQ"
+    }
+  ],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

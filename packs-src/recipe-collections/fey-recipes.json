@@ -1,0 +1,1956 @@
+{
+  "_id": "Hr6kjq5bbNiGT2ep",
+  "_key": "!journal!Hr6kjq5bbNiGT2ep",
+  "name": "Fey Recipes",
+  "pages": [
+    {
+      "_id": "IQjWPbOpzdBZQCUC",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgGlamouredStud]{Glamoured Studded Leather}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgElvenChain000]{Elven Chain}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfSharpnes]{Oil of Sharpness}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPhilterOfLove]{Philter of Love}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfLonge]{Potion of Longevity}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfSpeed]{Potion of Speed}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfEvasion]{Ring of Evasion}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfSpellSt]{Ring of Spell Storing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRodOfAlertnes]{Rod of Alertness}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tsnpncn5CErE4f8n]{Suncatcher Rod (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.wmIaiTcwXQ1nHi8I]{Suncatcher Rod (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.xKJt77xnje00Xd93]{Suncatcher Rod (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfStriki]{Staff of Striking}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfWonder0]{Wand of Wonder}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tWENFuLIkHtLbUic]{Sunwing Bow (Uncommon) Longbow}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.sMHLeULD8ruEp4Yg]{Sunwing Bow (Rare) Longbow}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.z6jhHrSbht3rqEgn]{Sunwing Bow (Very Rare) Longbow}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgLuckBlade0000]{Luck Blade}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgOathbow000000]{Oathbow}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgScimitarOfSpe]{Scimitar of Speed}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAmuletOfProof]{Amulet of Proof against Detection and Location}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBagOfTricks00]{Gray Bag of Tricks}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBootsOfLevita]{Boots of Levitation}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBootsOfSpeed0]{Boots of Speed}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgQuiverOfEhlon]{Efficient Quiver}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEyesOfCharmin]{Eyes of Charming}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgGlovesOfMissi]{Gloves of Missile Snaring}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHelmOfTelepor]{Helm of Teleportation}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgLanternOfReve]{Lantern of Revealing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgManualOfQuick]{Manual of Quickness of Action}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPeriaptOfProo]{Periapt of Proof against Poison}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPipesOfHaunti]{Pipes of Haunting}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.VhUNbDcaNonESRXa]{Sunfeather Shroud (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.ztbhQLd7JcidbLq4]{Sunfeather Shroud (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.Uu3yl2BiWN9v1hju]{Sunfeather Shroud (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.IQjWPbOpzdBZQCUC"
+    },
+    {
+      "_id": "8yhusGl0vCpkB194",
+      "name": "Glamoured Studded Leather",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.cR6aFVA4DYkM6F2t",
+        "resultName": "Glamoured Studded Leather",
+        "resultImg": "icons/equipment/chest/breastplate-rivited-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGlamouredStud",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Z0eWUW3ryQZVbzqo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aiaU43dlfHHGFStX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yeRCgjVwQ7DyusFf",
+                "name": "Phial of Fey Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-decorated-label-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.8yhusGl0vCpkB194"
+    },
+    {
+      "_id": "vUDamItVaflWkdT8",
+      "name": "Elven Chain",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.oOa1uRDVPICe2bUz",
+        "resultName": "Elven Chain",
+        "resultImg": "icons/equipment/back/mantle-collared-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgElvenChain000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "04csCjibVJkVxrDw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1AYfN2lGtdGvnMSl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.H8M3EbG0rpQLdr0O",
+                "name": "Pouch of Fey Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.vUDamItVaflWkdT8"
+    },
+    {
+      "_id": "MYeCi0VWIe6Q4Lrk",
+      "name": "Oil of Sharpness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Oil of Sharpness",
+        "resultImg": "icons/consumables/potions/vial-ornet-silver-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgOilOfSharpnes",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "HzmebW0ozBi7IBW8",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Yc5mD9brQS5xKWhh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xIsX4yO6XCAAX0AA",
+                "name": "Fey Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.MYeCi0VWIe6Q4Lrk"
+    },
+    {
+      "_id": "pd0svu3uh5RhSgLr",
+      "name": "Philter of Love",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Philter of Love",
+        "resultImg": "icons/consumables/potions/potion-bottle-corked-labeled-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPhilterOfLove",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BWyYPsM3xRToggx2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dT12rMIdre9nJI0e",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yeRCgjVwQ7DyusFf",
+                "name": "Phial of Fey Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-decorated-label-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.pd0svu3uh5RhSgLr"
+    },
+    {
+      "_id": "B4GE2xqDmKcM1pvY",
+      "name": "Potion of Longevity",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Longevity",
+        "resultImg": "icons/consumables/potions/potion-flask-corked-shiny-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfLonge",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KFqd14Shc7uZzERK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "LHk1XB6U3FNu9937",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yeRCgjVwQ7DyusFf",
+                "name": "Phial of Fey Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-decorated-label-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.B4GE2xqDmKcM1pvY"
+    },
+    {
+      "_id": "BnYrezEKli9QGxjT",
+      "name": "Potion of Speed",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Speed",
+        "resultImg": "icons/consumables/potions/potion-bottle-corked-stopper-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfSpeed",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "gECWdOozpTTHv340",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "umU8XwpC7cLH4njR",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oU1RT4tJPp4IzHfG",
+                "name": "Fey Liver",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.BnYrezEKli9QGxjT"
+    },
+    {
+      "_id": "swJ3mVh4ysjTPEzW",
+      "name": "Ring of Evasion",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Evasion",
+        "resultImg": "icons/equipment/finger/ring-eye-silver-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfEvasion",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1l83t00PR6BcEaMC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "00X5JyRxQDvxz4Ol",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.swJ3mVh4ysjTPEzW"
+    },
+    {
+      "_id": "qUh5pa2pbf5FnnK3",
+      "name": "Ring of Spell Storing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Spell Storing",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfSpellSt",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PEwJmH3c4Cr6EGW1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JXIsoP0wu2r7Wg1L",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NmoGNwrTuccgoDT9",
+                "name": "Fey Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-rib-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.qUh5pa2pbf5FnnK3"
+    },
+    {
+      "_id": "lQgpdnmt6e8DvQYm",
+      "name": "Rod of Alertness",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of Alertness",
+        "resultImg": "icons/weapons/maces/mace-round-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfAlertnes",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vfrF0584Mc4BVhJ7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5bVW4f6D8CmQJ84U",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.64sgJIggFsgi0L7u",
+                "name": "Fey Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-green-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.lQgpdnmt6e8DvQYm"
+    },
+    {
+      "_id": "E8haCoSiGVjo7Wzy",
+      "name": "Suncatcher (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tsnpncn5CErE4f8n",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "re4JHe9e53dcNxns",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tK2DMvbGpGf8jvDC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.E8haCoSiGVjo7Wzy"
+    },
+    {
+      "_id": "jIb62HgqFK7gUAsH",
+      "name": "Suncatcher (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.wmIaiTcwXQ1nHi8I",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vO8Oze46HXJIZiEi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0Xmxroh2BRaWqMez",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.jIb62HgqFK7gUAsH"
+    },
+    {
+      "_id": "HCb1n4xWD4EmVV2z",
+      "name": "Suncatcher (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.xKJt77xnje00Xd93",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rP6z4J7PiSmxAlpL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2iqy5zctyjORySpl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.HCb1n4xWD4EmVV2z"
+    },
+    {
+      "_id": "47nlMe5FdSjt1Q7E",
+      "name": "Staff of Striking",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Striking",
+        "resultImg": "icons/weapons/staves/staff-ornate-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfStriki",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RQEdtrJuHgR729Sl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "sdQ07lRJRe0n6SIU",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/circled-gem-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.47nlMe5FdSjt1Q7E"
+    },
+    {
+      "_id": "Oy0nnhCayo5kjdin",
+      "name": "Wand of Wonder",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Wonder",
+        "resultImg": "icons/weapons/wands/wand-totem.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfWonder0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CExotmRX3YoIxztk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5m5YRzrVpM3uDQD0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.0CJU10TbDGph88GY",
+                "name": "Fey Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.Oy0nnhCayo5kjdin"
+    },
+    {
+      "_id": "lo2Cfaq6TRAvnGPi",
+      "name": "Sunwing Bow (any bow) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Uncommon) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tWENFuLIkHtLbUic",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "T2YoUcwC7baPG2bt",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7nTHLTLT2S5ax2y3",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.lo2Cfaq6TRAvnGPi"
+    },
+    {
+      "_id": "75fNrf0uwiYAeWVs",
+      "name": "Sunwing Bow (any bow) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Rare) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.sMHLeULD8ruEp4Yg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pA9hAUly0FlSUSMY",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fTtzeNpmw1drk0Tg",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.75fNrf0uwiYAeWVs"
+    },
+    {
+      "_id": "0Xy5OqKqhTfTl5nz",
+      "name": "Sunwing Bow (any bow) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Very Rare) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.z6jhHrSbht3rqEgn",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PYr9K1SGOT2UK8w4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OU0l4ZhekNnm0xdm",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.0Xy5OqKqhTfTl5nz"
+    },
+    {
+      "_id": "s4MX9DiSmg8LWN3a",
+      "name": "Luck Blade",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Luck Blade",
+        "resultImg": "icons/weapons/swords/sword-guard-worn-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgLuckBlade0000",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LaC8hxRHYTuu62mq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uQBDNdHfeRawUBfD",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/circled-gem-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fey",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.s4MX9DiSmg8LWN3a"
+    },
+    {
+      "_id": "jRrkR3MtroTBC2OD",
+      "name": "Oathbow (longbow)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Oathbow",
+        "resultImg": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgOathbow000000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "TyMATx407xSZ3V3c",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Iw6Igy4TQJsgVsaV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.0IN26XvZJMUEAYV8",
+                "name": "Fey Tongue",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tongue-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.jRrkR3MtroTBC2OD"
+    },
+    {
+      "_id": "Ek5T9zKzmXZCvpsT",
+      "name": "Scimitar of Speed",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Scimitar of Speed",
+        "resultImg": "icons/weapons/swords/scimitar-guard-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgScimitarOfSpe",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3r0XnQ9rz8lChagk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "m61rWkmNXvbfzzE6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.Ek5T9zKzmXZCvpsT"
+    },
+    {
+      "_id": "Pzrw6bX8Q3qqZBg6",
+      "name": "Amulet of Proof vs Detection",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Amulet of Proof against Detection and Location",
+        "resultImg": "icons/equipment/neck/pendant-faceted-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAmuletOfProof",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KxSbTeS7MOSRxkGv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QCujYC8IwjfsOolG",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.zG8LGapbh4k8O3EZ",
+                "name": "Fey Antenna",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tail-puff-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.Pzrw6bX8Q3qqZBg6"
+    },
+    {
+      "_id": "7GCVSQVunOhpSp15",
+      "name": "Bag of Tricks",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Gray Bag of Tricks",
+        "resultImg": "icons/containers/bags/coinpouch-leather-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBagOfTricks00",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "czW9EAjz3eTf7EVM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Acu0XxQEvMM5lPXr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.38jKtQMrqQuY4rDu",
+                "name": "Fey Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.7GCVSQVunOhpSp15"
+    },
+    {
+      "_id": "y49L2rG2a4kOywu6",
+      "name": "Boots of Levitation",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Boots of Levitation",
+        "resultImg": "icons/equipment/feet/boots-armored-steel-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBootsOfLevita",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4tX1Ubgwp4nnlEhO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4sY4R2W643XxKWCM",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.38jKtQMrqQuY4rDu",
+                "name": "Fey Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.y49L2rG2a4kOywu6"
+    },
+    {
+      "_id": "fY9kkkm7STkJ54jy",
+      "name": "Boots of Speed",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Boots of Speed",
+        "resultImg": "icons/equipment/feet/boots-leather-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBootsOfSpeed0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8dWXrs1Xu3BWa1NZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yLgxVOB2LEiXaHkH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.sLDAHwZgbSQgGdWW",
+                "name": "Fey Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.fY9kkkm7STkJ54jy"
+    },
+    {
+      "_id": "pr78zIrW5bSDfU6S",
+      "name": "Efficient Quiver",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Efficient Quiver",
+        "resultImg": "icons/containers/ammunition/arrows-quiver-brown-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgQuiverOfEhlon",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yPlxdSfAkSQI4aHx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9Xb0z5jyaxorGyNG",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.16sVLmlX0K7dM08Q",
+                "name": "Pouch of Fey Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.pr78zIrW5bSDfU6S"
+    },
+    {
+      "_id": "kwUwR64e0aW8YJCL",
+      "name": "Eyes of Charming",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Eyes of Charming",
+        "resultImg": "icons/tools/scribal/spectacles-glasses.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgEyesOfCharmin",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WLstjuTD8RTH7q2Z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Dzkp9IDHUk2Y3l4J",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.64sgJIggFsgi0L7u",
+                "name": "Fey Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-green-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.kwUwR64e0aW8YJCL"
+    },
+    {
+      "_id": "YdLAFhFRZZuRvoEb",
+      "name": "Gloves of Missile Snaring",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Gloves of Missile Snaring",
+        "resultImg": "icons/equipment/hand/glove-tooled-leather-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGlovesOfMissi",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "h42y8k2wmfd5YTUv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Mq2ovUVHEnkxZSmr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.sLDAHwZgbSQgGdWW",
+                "name": "Fey Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.YdLAFhFRZZuRvoEb"
+    },
+    {
+      "_id": "cvnpFkFCdJ44ULO9",
+      "name": "Helm of Teleportation",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Helm of Teleportation",
+        "resultImg": "icons/equipment/head/helm-norman-horned-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHelmOfTelepor",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LliDHs5VYv4kaMzj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "n7r93YdM8w0RGqt4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.FjeqPxwD0Eh1bFeZ",
+                "name": "Fey Tentacle",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tentacle-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.cvnpFkFCdJ44ULO9"
+    },
+    {
+      "_id": "DSGFLXkv9zbr6bOS",
+      "name": "Ioun Stone (Agility)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "lHG0nPnL10BymqXC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "W9jb3qaf0XtRB6vZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/circled-gem-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.DSGFLXkv9zbr6bOS"
+    },
+    {
+      "_id": "GRwXL6Yyj52uDczl",
+      "name": "Ioun Stone (Intellect)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "F9ZO05s4eLuP862V",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qEOuWE6JiCMAryL1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/circled-gem-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.GRwXL6Yyj52uDczl"
+    },
+    {
+      "_id": "YpE1gosneCBn1AOq",
+      "name": "Lantern of Revealing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Lantern of Revealing",
+        "resultImg": "icons/sundries/lights/lantern-iron-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgLanternOfReve",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EGvHp8F7koD2I2sE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vuv1L2nFdvmps6yL",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.64sgJIggFsgi0L7u",
+                "name": "Fey Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-green-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.YpE1gosneCBn1AOq"
+    },
+    {
+      "_id": "UBwVRHArAzdIcFUC",
+      "name": "Manual of Quickness of Action",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Manual of Quickness of Action",
+        "resultImg": "icons/sundries/books/book-symbol-lightning-silver-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgManualOfQuick",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PSq3rUv58LaBgxUY",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vdbxkTDxafxE75j4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yeRCgjVwQ7DyusFf",
+                "name": "Phial of Fey Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/flask-decorated-label-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.UBwVRHArAzdIcFUC"
+    },
+    {
+      "_id": "qL2pWP36WWlm7asX",
+      "name": "Periapt of Proof against Poison",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Periapt of Proof against Poison",
+        "resultImg": "icons/equipment/neck/necklace-hook-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPeriaptOfProo",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "i2ePn46m18ATny0t",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QIcIXh077bP23c8i",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PbL9tdLPXpOBJdoi",
+                "name": "Fey Poison Gland",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/mouth-pincer-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.qL2pWP36WWlm7asX"
+    },
+    {
+      "_id": "Fp0ZZ5sH6aX62gI5",
+      "name": "Pipes of Haunting",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Pipes of Haunting",
+        "resultImg": "icons/tools/instruments/flute-simple-wood.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPipesOfHaunti",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZVmete9qKf2G7mPO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Hpjm7UkLKcThxCHS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NmoGNwrTuccgoDT9",
+                "name": "Fey Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-rib-white.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.Fp0ZZ5sH6aX62gI5"
+    },
+    {
+      "_id": "HIJPLZ3Xy9wAZr24",
+      "name": "Sunfeather Shroud (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sunfeather Shroud (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Sunfeather_Shroud.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.VhUNbDcaNonESRXa",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Ys39CCy0iAz4akrC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "p2ww9pgTZ0mxlCFi",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.HIJPLZ3Xy9wAZr24"
+    },
+    {
+      "_id": "I0SyDvAv6B6n5aBg",
+      "name": "Sunfeather Shroud (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sunfeather Shroud (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Sunfeather_Shroud2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.ztbhQLd7JcidbLq4",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8vlzJ8JWXtPZ6F5F",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uPujyxpZpWqTS9ud",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.I0SyDvAv6B6n5aBg"
+    },
+    {
+      "_id": "MwU0MLQUGGaGwxF6",
+      "name": "Sunfeather Shroud (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sunfeather Shroud (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Sunfeather_Shroud3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.Uu3yl2BiWN9v1hju",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OxNsuu8JZKVeafgC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8HHUaOUaTRID8jaj",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Hr6kjq5bbNiGT2ep.MwU0MLQUGGaGwxF6"
+    }
+  ],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

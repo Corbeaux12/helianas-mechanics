@@ -1,0 +1,699 @@
+{
+  "_id": "QnJguiSMiyq6KYg7",
+  "_key": "!journal!QnJguiSMiyq6KYg7",
+  "name": "Dreamholder Recipes",
+  "pages": [
+    {
+      "_id": "fBf1Y6DqB4LUqcnC",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfResis]{Potion of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfTelekin]{Ring of Telekinesis}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.nO0QF0oqHa4YQD3z]{Time Splitter Battleaxe (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.WhRcClTfUWtYaI90]{Time Splitter Battleaxe (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.u3Fp5y4RQwcwhqkM]{Hammer Time Warhammer (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.d8owBPMJ9sKMt34B]{Hammer Time Warhammer (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.hXXW52XIgazC4GoP]{Astral Luggage (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.o0AzhrdvTHavWJ4L]{Astral Luggage (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.LMsnhbu2o7NvROQx]{Dreamy the Lucid (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.5DtemouOTvqr1UPX]{Robes of Beaurêve (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-dream-weaver.Item.8R2uhHbarcYAWVXG]{Robes of Beaurêve (Legendary)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.pp9TTZkrjh8TJjLa]{Dumpleyengs (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.fBf1Y6DqB4LUqcnC"
+    },
+    {
+      "_id": "cVgfOddl0cG7Hflm",
+      "name": "Potion of Resistance (Psychic)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Q1O0BlkuxbqxNLpy",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TUEy7aggZh9roae7",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.OiGzKrl04YHEirj1",
+                "name": "Aberration Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.cVgfOddl0cG7Hflm"
+    },
+    {
+      "_id": "FDU1g6Y938hxTNK7",
+      "name": "Ring of Telekinesis",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Telekinesis",
+        "resultImg": "icons/equipment/finger/ring-inlay-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfTelekin",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6oC3kWJfRwz5YQE4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iMPfbt27s0aZRDF9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.pnzfqU0ghGOwCnW7",
+                "name": "Aberration Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "aberration",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.FDU1g6Y938hxTNK7"
+    },
+    {
+      "_id": "cSHQ9xCxqpNicGFk",
+      "name": "Time Splitter (any axe) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Time Splitter Battleaxe (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/timesplitter.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.nO0QF0oqHa4YQD3z",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7TfmyOYyWzX7IQYn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MLSu0qm0w2Wkaooz",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.d7A1YuHfTxhACcuj",
+                "name": "Aberration Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-curved-grey-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.cSHQ9xCxqpNicGFk"
+    },
+    {
+      "_id": "6tntNU9vny5sZeD0",
+      "name": "Time Splitter (any axe) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Time Splitter Battleaxe (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/Timecutter2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.WhRcClTfUWtYaI90",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bhXjOo4k59BsudYo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ypxO2wNvbN0kPcPD",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.d7A1YuHfTxhACcuj",
+                "name": "Aberration Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-curved-grey-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "aberration",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.6tntNU9vny5sZeD0"
+    },
+    {
+      "_id": "AKhxP3Zj0FpWWwBB",
+      "name": "Hammer Time (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Hammer Time Warhammer (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/Hammertime.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.u3Fp5y4RQwcwhqkM",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "z5yo5VgfnW9X1mvc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5FwmZxUyBZDRlxBS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vnyhV87jkWP7Mrng",
+                "name": "Aberration Main Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.AKhxP3Zj0FpWWwBB"
+    },
+    {
+      "_id": "mX9IGPlFmnwFwGLD",
+      "name": "Hammer Time (any hammer*) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Hammer Time Warhammer (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/Hammertime2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.d8owBPMJ9sKMt34B",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6RAdsqd90IfqKniA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uDKHOHiP4i447eFS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vnyhV87jkWP7Mrng",
+                "name": "Aberration Main Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "aberration",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.mX9IGPlFmnwFwGLD"
+    },
+    {
+      "_id": "Q9LyHBRlKuK4meTv",
+      "name": "Astral Luggage (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Astral Luggage (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/astralluggage.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.hXXW52XIgazC4GoP",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pSA6P5GWisM76hYm",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "64ssPOSv9RJY4JRx",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.pnzfqU0ghGOwCnW7",
+                "name": "Aberration Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.Q9LyHBRlKuK4meTv"
+    },
+    {
+      "_id": "9tEKauXyXo0WSngZ",
+      "name": "Astral Luggage (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Astral Luggage (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/astralluggage2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.o0AzhrdvTHavWJ4L",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "P5E4FPRCHz5bR3xR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uHYzDmCWrDjf0v4W",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.pnzfqU0ghGOwCnW7",
+                "name": "Aberration Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "aberration",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.9tEKauXyXo0WSngZ"
+    },
+    {
+      "_id": "Rh2SORGbUco8UcUT",
+      "name": "Dreamy the Lucid",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Dreamy the Lucid (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/Dreamythelucid.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.LMsnhbu2o7NvROQx",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "IpGM6DQXUBe7L6K2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tOzY2atdWErHaVEP",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.WRVzZBddWzDpZBHG",
+                "name": "Aberration Subeye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.Rh2SORGbUco8UcUT"
+    },
+    {
+      "_id": "fGd80QX5exAFPVZq",
+      "name": "Robes of Beaurêve (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Robes of Beaurêve (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/DreamWeaver_Robes-of-Beaureve-Rare.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.5DtemouOTvqr1UPX",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3pFstAMgOkQFeTo3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "y1Aa8GGsleUImgDY",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NzaynVVgPInD2LZv",
+                "name": "Aberration Hide",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scale-chitin-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "aberration",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.fGd80QX5exAFPVZq"
+    },
+    {
+      "_id": "7DOnQ5SJ4uewLpvE",
+      "name": "Robes of Beaurêve (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Robes of Beaurêve (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/DreamWeaver_Robes-of-Beaureve-Legendary.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.8R2uhHbarcYAWVXG",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CGbDJF6DaucY1BMj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "g36BOr14EBqYbB37",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NzaynVVgPInD2LZv",
+                "name": "Aberration Hide",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scale-chitin-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "aberration",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.7DOnQ5SJ4uewLpvE"
+    },
+    {
+      "_id": "GDDDrSYbK7wess3y",
+      "name": "Dumpleyengs",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Dumpleyengs (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/crafting/Cooking-Magnetite_Curry.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.pp9TTZkrjh8TJjLa",
+        "resultQuantity": 1,
+        "dc": 20,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pA0adep4cbt13jGN",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "2VQtPlqClrv0IHC9",
+                "uuid": "",
+                "name": "Subeye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "subeye",
+                  "dreamholder",
+                  "aberration",
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "U39uSknmEWisUgA5",
+            "name": "Blood",
+            "components": [
+              {
+                "id": "6T4UsS13YOGDiNTb",
+                "uuid": "",
+                "name": "Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "iipTdmkOlPTo0QIG",
+            "name": "Heart",
+            "components": [
+              {
+                "id": "wZoVXwoO7h6loMbm",
+                "uuid": "",
+                "name": "Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!QnJguiSMiyq6KYg7.GDDDrSYbK7wess3y"
+    }
+  ],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

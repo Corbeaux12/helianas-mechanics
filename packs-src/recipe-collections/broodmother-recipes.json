@@ -1,0 +1,557 @@
+{
+  "_id": "JFJs1FpheJSYF9nn",
+  "_key": "!journal!JFJs1FpheJSYF9nn",
+  "name": "Broodmother Recipes",
+  "pages": [
+    {
+      "_id": "0D3iGc0vdL61g5xu",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.B0gPazBhXG3urcFg]{Broodmother's Embrace (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.M7199Nx22deeIdCL]{Broodmother's Embrace (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.Oxbxh2ekNRsBuMLL]{Broodmother's Embrace (Legendary)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.v9DmBUHPEkcMAYUz]{Broodslinger (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.dzsg0qsRqeCXDvq2]{Broodslinger (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.Jq6ZrJ0Uwh84iVGV]{Broodslinger (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.xUJczStSAB0SrHit]{Tome of Living Memories (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.9DFVPfmV6fSSdcta]{Tome of Living Memories (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.htdjtNt92nbesmbT]{Tome of Living Memories (Very Rare)}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.pqZc51z1cxGvt4yq]{Aboleth Ramen (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.0D3iGc0vdL61g5xu"
+    },
+    {
+      "_id": "2Qoc1cGIxYeLL23f",
+      "name": "Broodmother's Embrace (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Broodmother's Embrace (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Broodmothers_Embrace1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.B0gPazBhXG3urcFg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GzcqO9RYGISl1tVp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ydkz6QnX99QfK5x5",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NzaynVVgPInD2LZv",
+                "name": "Aberration Hide",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scale-chitin-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "aberration",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.2Qoc1cGIxYeLL23f"
+    },
+    {
+      "_id": "n3ioF1bNNRqMVOvb",
+      "name": "Broodmother's Embrace (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Broodmother's Embrace (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Broodmothers_Embrace2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.M7199Nx22deeIdCL",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RMsTBLT0bynk6Ldo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mYZezcPcGY4pFpKI",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NzaynVVgPInD2LZv",
+                "name": "Aberration Hide",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scale-chitin-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "aberration",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.n3ioF1bNNRqMVOvb"
+    },
+    {
+      "_id": "qbhxbtwP65x0seOM",
+      "name": "Broodmother's Embrace (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Broodmother's Embrace (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Broodmothers_Embrace3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.Oxbxh2ekNRsBuMLL",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "g8ImrDN0FmBVt2PO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "11sLSk5L7LB1p2bw",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NzaynVVgPInD2LZv",
+                "name": "Aberration Hide",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scale-chitin-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "aberration",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.qbhxbtwP65x0seOM"
+    },
+    {
+      "_id": "WOYqwrL31Ao4dRIn",
+      "name": "Broodslinger (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Broodslinger (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Broodslinger2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.v9DmBUHPEkcMAYUz",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0u9mVCKWCw5ze0Oe",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "VOM7jxok0EkS4Mi2",
+                "uuid": "",
+                "name": "Broodling sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.WOYqwrL31Ao4dRIn"
+    },
+    {
+      "_id": "WNJzworyAmOrWMHy",
+      "name": "Broodslinger (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Broodslinger (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Broodslinger2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.dzsg0qsRqeCXDvq2",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "a7YMiuyXSd5kjrTb",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RwJOTKiJeQRCA0A2",
+                "uuid": "",
+                "name": "Broodling sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "aberration",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.WNJzworyAmOrWMHy"
+    },
+    {
+      "_id": "rRIlZBqB2VBDxIMQ",
+      "name": "Broodslinger (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Broodslinger (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Broodslinger2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.Jq6ZrJ0Uwh84iVGV",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VSU68pQ4tpfFE3qv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6YmRGyQ2Dlh1LNBJ",
+                "uuid": "",
+                "name": "Broodling sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "aberration",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.rRIlZBqB2VBDxIMQ"
+    },
+    {
+      "_id": "3jV0AfSotA1tdv1w",
+      "name": "Tome of Living Memories (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tome of Living Memories (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Tome_of_Living_Memories1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.xUJczStSAB0SrHit",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5kNBy7BInF2k74Wu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4kiOp0WKtPT2DAw1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.FFvArli2j1V6vQ17",
+                "name": "Aberration Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.3jV0AfSotA1tdv1w"
+    },
+    {
+      "_id": "tLBXG2QwoqyQ2X8b",
+      "name": "Tome of Living Memories (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tome of Living Memories (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Tome_of_Living_Memories2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.9DFVPfmV6fSSdcta",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "G2EdfNfiqcfodOGF",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "S55d4nnG9mcZN3t1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.FFvArli2j1V6vQ17",
+                "name": "Aberration Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 2,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "aberration",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.tLBXG2QwoqyQ2X8b"
+    },
+    {
+      "_id": "Y3gEEP0f7JGzHvR0",
+      "name": "Tome of Living Memories (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tome of Living Memories (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-shadow-of-the-broodmother/images/items/Tome_of_Living_Memories3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-shadow-of-the-broodmother.Item.htdjtNt92nbesmbT",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Q1amcNBtmZFCUmdn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tmLar43vO31n45qd",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.FFvArli2j1V6vQ17",
+                "name": "Aberration Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 3,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "aberration",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.Y3gEEP0f7JGzHvR0"
+    },
+    {
+      "_id": "ZMZlesMn40nBtaJN",
+      "name": "Aboleth Ramen",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Aboleth Ramen (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/crafting/Cooking-Aboleth_ramen.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.pqZc51z1cxGvt4yq",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aYLoCY1LmWx09FSp",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "TQbxYHhIjUuPFUpw",
+                "uuid": "",
+                "name": "Tentacle",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tentacle",
+                  "broodmother",
+                  "aberration",
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!JFJs1FpheJSYF9nn.ZMZlesMn40nBtaJN"
+    }
+  ],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,1904 @@
+{
+  "_id": "V2OtSmE9ojRcqSDP",
+  "_key": "!journal!V2OtSmE9ojRcqSDP",
+  "name": "Fiend Recipes",
+  "pages": [
+    {
+      "_id": "MUepJEqjSXAwJqmq",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDemonArmor000]{Demon Armor}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner]{Armor of Vulnerability}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfResis]{Potion of Resistance}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.ueaLvZu7Ku8ARbzU]{Eye of the Tiger (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.5xildBjvrcPx4UaT]{Eye of the Tiger (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfSpellTu]{Ring of Spell Turning}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRodOfLordlyMi]{Rod of Lordly Might}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRodOfRulershi]{Rod of Rulership}</p><p>Rod of the Pact Keeper (Uncommon)</p><p>Rod of the Pact Keeper (Rare)</p><p>Rod of the Pact Keeper (Very Rare)</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfCharmi]{Staff of Charming}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.V3zXn7hI8AfoEezL]{Tail's End Longsword (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.qiJS42Wsz4JoOCN3]{Tail's End Longsword (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L77hgzeKYactApSd]{Claws of Corruption (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.Pbxg9hGZV7SVY7Mo]{Claws of Corruption (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDaggerOfVenom]{Dagger of Venom}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBerserkerAxe0]{Berserker Axe}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAmuletOfThePl]{Amulet of the Planes}</p><p>@UUID[Compendium.dnd5e.items.Item.oSarKEU8x1AupB6z]{Deck of Many Things}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin]{Dust of Sneezing and Choking}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.yrxe0JeqllmiAx1s]{Feline's Fury Light Tommybow (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.KH9VJB5EkvznX9oV]{Felinobelix (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.CTKUSwOjbiQblY0a]{Felinobelix (Legendary)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHatOfDisguise]{Hat of Disguise}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgHelmOfTelepat]{Helm of Telepathy}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIronHornOfVal]{Iron Horn of Valhalla}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgMantleOfSpell]{Mantle of Spell Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSphereOfAnnih]{Sphere of Annihilation}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgTalismanOfUlt]{Talisman of Ultimate Evil}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWingedBoots00]{Winged Boots}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.MUepJEqjSXAwJqmq"
+    },
+    {
+      "_id": "P6IWEEXytupJwPgR",
+      "name": "Armor of Resistance (Cold)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sn1aexsRJxwkz5TI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "CYEMuAfW9VvcfFeZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scales-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.P6IWEEXytupJwPgR"
+    },
+    {
+      "_id": "O3sA6vn3TMi8CX7O",
+      "name": "Demon Armor",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Demon Armor",
+        "resultImg": "icons/equipment/chest/breastplate-layered-leather-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDemonArmor000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RtUQCJy6r0IaOtmO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dSOXbG6aWg33P2qz",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.O3sA6vn3TMi8CX7O"
+    },
+    {
+      "_id": "tzfrJN2LDmV1p3G4",
+      "name": "Armor of Vulnerability",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Vulnerability",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gilded-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "M5nSruvrvWVrTaCl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uOGiZdUsWLdVA5Lg",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HQTWHFdCv4WHSKso",
+                "name": "Phial of Fiend Blood",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-corked-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.tzfrJN2LDmV1p3G4"
+    },
+    {
+      "_id": "M7lFFSuHVPMapiAZ",
+      "name": "Potion of Resistance (Cold)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hJRusCGN7FzFz9sa",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7qsd5kdCWZS1CEHh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aJgfKtcgq9heFRDX",
+                "name": "Fiend Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.M7lFFSuHVPMapiAZ"
+    },
+    {
+      "_id": "vnOJ0WJ1gcoc2Fhh",
+      "name": "Potion of Resistance (Fire)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CXSQbzzMp9lE331Z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Ts4Bt93PPd83yciW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aJgfKtcgq9heFRDX",
+                "name": "Fiend Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.vnOJ0WJ1gcoc2Fhh"
+    },
+    {
+      "_id": "DmRpVopVWOdcXs4k",
+      "name": "Potion of Resistance (Poison)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "oksLOmPOt8GEZu3a",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "anEk3T6FUefOc9cB",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aJgfKtcgq9heFRDX",
+                "name": "Fiend Fat",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.DmRpVopVWOdcXs4k"
+    },
+    {
+      "_id": "6VDNa83KTc0H1fav",
+      "name": "Eye of the Tiger (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Eye of the Tiger (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Eye_of_the_Tiger_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.ueaLvZu7Ku8ARbzU",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qITeswtLCz4RRFOP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ohq9tU4XyvkqCqId",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.avkxkX9FIr7TeRPq",
+                "name": "Fiend Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.6VDNa83KTc0H1fav"
+    },
+    {
+      "_id": "nHCJjqxEqy02ZwEH",
+      "name": "Eye of the Tiger (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Eye of the Tiger (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Eye_of_the_Tiger_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.5xildBjvrcPx4UaT",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BB8d45L0eCwa40N8",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "J1gK3uRBgnmO9qrZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.avkxkX9FIr7TeRPq",
+                "name": "Fiend Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.nHCJjqxEqy02ZwEH"
+    },
+    {
+      "_id": "1EaIj5j0rgdZdlSb",
+      "name": "Ring of Spell Turning",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Spell Turning",
+        "resultImg": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfSpellTu",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7pWSlVViWcw864L7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fG1s4QxhJ4IZ8VRl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scales-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.1EaIj5j0rgdZdlSb"
+    },
+    {
+      "_id": "AggP42PrNhK76kTC",
+      "name": "Rod of Lordly Might",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of Lordly Might",
+        "resultImg": "icons/weapons/staves/staff-ornate-gold-jeweled.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfLordlyMi",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WbNyeiGbmBJtB6JN",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lsKrqBsGfruyGorJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.x0QkmzQiyfpTzgys",
+                "name": "Pouch of Fiend Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.AggP42PrNhK76kTC"
+    },
+    {
+      "_id": "JbGpvZsdfWt0O6Ay",
+      "name": "Rod of Rulership",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of Rulership",
+        "resultImg": "icons/weapons/staves/staff-ornate-orb-steel-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfRulershi",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0GThs1migaYTIlSJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WtHlDuDhQ8SkTi4m",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.hEuQaTZsBW9h8LAP",
+                "name": "Pouch of Fiend Dust",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.JbGpvZsdfWt0O6Ay"
+    },
+    {
+      "_id": "C4LOrlR039nXc7c6",
+      "name": "Rod of the Pact Keeper (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of the Pact Keeper (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RukH8GgR6UHCLLAn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dW9105OKgg66QoSg",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.C4LOrlR039nXc7c6"
+    },
+    {
+      "_id": "3bMDDxf726vqMMIG",
+      "name": "Rod of the Pact Keeper (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of the Pact Keeper (Rare)",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7v60V3sW3HVOEZrZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KehPPv3eMHk0eI9q",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.3bMDDxf726vqMMIG"
+    },
+    {
+      "_id": "ViYGvo0pF2B22x8y",
+      "name": "Rod of the Pact Keeper (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of the Pact Keeper (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zMUULK3GknIJ567D",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QEBfrjmpUrhq6CJX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.ViYGvo0pF2B22x8y"
+    },
+    {
+      "_id": "26Pap0DDe5IyGWW4",
+      "name": "Staff of Charming",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Charming",
+        "resultImg": "icons/weapons/staves/staff-ornate-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfCharmi",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zSUS4ZOXetUKg5xE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xfY7RvQuavgmGwHl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.iIeA2wkTaNdOAlCT",
+                "name": "Fiend Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-black.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.26Pap0DDe5IyGWW4"
+    },
+    {
+      "_id": "LKkjeEWyKGsHILLs",
+      "name": "Tail's End (any sword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Tail's End Longsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Tails_End_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.V3zXn7hI8AfoEezL",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "27RMXpuvaqnZ5Vi2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aV56pwdsQWs8811V",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.LKkjeEWyKGsHILLs"
+    },
+    {
+      "_id": "qcti2astPpAeqZXC",
+      "name": "Tail's End (any sword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Tail's End Longsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Tails_End_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.qiJS42Wsz4JoOCN3",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "n3FKQVC1aHVUFSaQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HLS83ywL4PHxHh2C",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.qcti2astPpAeqZXC"
+    },
+    {
+      "_id": "9pCxroYTIo5L12eq",
+      "name": "Claws of Corruption (claw) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Claws of Corruption (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Claws_of_Corruption_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L77hgzeKYactApSd",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KE0RWGnCEdKFsNmT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jRWAFzmyZh45ngRD",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oq3GyTaSEiQTERc2",
+                "name": "Pouch of Fiend Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.9pCxroYTIo5L12eq"
+    },
+    {
+      "_id": "TCFFR218JunmilT8",
+      "name": "Claws of Corruption (claw) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Claws of Corruption (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Claws_of_Corruption_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.Pbxg9hGZV7SVY7Mo",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qgEHILKW01J7Dl4x",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "a0BXEv1mkF0oas6V",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oq3GyTaSEiQTERc2",
+                "name": "Pouch of Fiend Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.TCFFR218JunmilT8"
+    },
+    {
+      "_id": "Q2V4SwB1FYAtsk6A",
+      "name": "Dagger of Venom",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "resultName": "Dagger of Venom",
+        "resultImg": "icons/weapons/daggers/dagger-double-skull-pink.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDaggerOfVenom",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2avl9uQ3jeJWegpT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PIa7hJHltIeSIIlq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.X3dMh8s2AslCkadb",
+                "name": "Fiend Poison Gland",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/tail-scaled-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.Q2V4SwB1FYAtsk6A"
+    },
+    {
+      "_id": "i5L3q1n6S67fQAG4",
+      "name": "Berserker Axe",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Berserker Axe",
+        "resultImg": "icons/weapons/axes/axe-battle-skull-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBerserkerAxe0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0z2LUqQ1eRwmte1T",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "25Ns7Dy758HP16c5",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.i5L3q1n6S67fQAG4"
+    },
+    {
+      "_id": "0PWA5AzADzsjOrfN",
+      "name": "Amulet of the Planes",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Amulet of the Planes",
+        "resultImg": "icons/equipment/neck/pendant-faceted-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAmuletOfThePl",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2dFDI3lE57GUmuA0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xzN22efdJs7uvVPJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.0PWA5AzADzsjOrfN"
+    },
+    {
+      "_id": "zTanJTLEbXFcGaF1",
+      "name": "Deck of Many Things",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Deck of Many Things",
+        "resultImg": "icons/sundries/gaming/playing-cards-grey.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.oSarKEU8x1AupB6z",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LZbcqy5bBs5Yd8MA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q6n604c2WHfP2KDH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.zTanJTLEbXFcGaF1"
+    },
+    {
+      "_id": "HYPXCrZFWLMcBaNe",
+      "name": "Dust of Sneezing and Choking",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Dust of Sneezing and Choking",
+        "resultImg": "icons/magic/water/bubbles-air-water-light.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DLwvBcrQG06pcJm7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "A3msWGQTMnSI1usf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.hEuQaTZsBW9h8LAP",
+                "name": "Pouch of Fiend Dust",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.HYPXCrZFWLMcBaNe"
+    },
+    {
+      "_id": "GoJ00xYYiKg27D0B",
+      "name": "Feline's Fury",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Feline's Fury Light Tommybow (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Felines_Fury.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.yrxe0JeqllmiAx1s",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "reNSM5U0xQisCFse",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5H2UknKaYn6P4Ksf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.GoJ00xYYiKg27D0B"
+    },
+    {
+      "_id": "BXEyWToFTQiOoAss",
+      "name": "Felinobelix (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Felinobelix (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Felinobelix_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.KH9VJB5EkvznX9oV",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aecni2fI0DxYNURi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "E5866wYuve221Bkw",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.BXEyWToFTQiOoAss"
+    },
+    {
+      "_id": "meQUUyhDPfhtd3pd",
+      "name": "Felinobelix (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Felinobelix (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Felinobelix_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.CTKUSwOjbiQblY0a",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CHz2UMQanqH7dhLe",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1Po0uA87TyfmdZmN",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.meQUUyhDPfhtd3pd"
+    },
+    {
+      "_id": "31vRYyzM1pHvdNNZ",
+      "name": "Hat of Disguise",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Hat of Disguise",
+        "resultImg": "icons/equipment/head/hat-belted-simple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHatOfDisguise",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yyRcavQvYa731F0H",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "eMOSjiEPfmvFnfYx",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scales-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.31vRYyzM1pHvdNNZ"
+    },
+    {
+      "_id": "TKo18fcip4ddcH8f",
+      "name": "Helm of Telepathy",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Helm of Telepathy",
+        "resultImg": "icons/equipment/head/helm-spangen.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHelmOfTelepat",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "nYsHjpqeNB06h9Jb",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "YCwjtm6B2fi9L4MS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cft5xyACBpRZsZs6",
+                "name": "Fiend Brain",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-brain-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.TKo18fcip4ddcH8f"
+    },
+    {
+      "_id": "DfMwz2gQTxjVARiy",
+      "name": "Horn of Valhalla (Iron)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Iron Horn of Valhalla",
+        "resultImg": "icons/tools/instruments/flute-simple-wood.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIronHornOfVal",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "nZ8S23BpdBQYaBtb",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "u6EG660F1njYqIEl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ohUOCyBVcWk0pYvv",
+                "name": "Fiend Horn",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-jagged-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.DfMwz2gQTxjVARiy"
+    },
+    {
+      "_id": "qwlqBterN5hekU1A",
+      "name": "Ioun Stone (Fortitude)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LRkdRmdbXXDpfG7g",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "67eFY5jdgQd8Lq2c",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.qwlqBterN5hekU1A"
+    },
+    {
+      "_id": "7O3HkbvLntP4YDuD",
+      "name": "Ioun Stone (Mastery)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ioun Stone",
+        "resultImg": "icons/commodities/gems/gem-rough-ball-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgIounStone0000",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Sbq60WaKkTS9OG01",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Ftf9ct94P0BKGkI8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.KH2nNTWu5d1C5D8z",
+                "name": "Fiend Soul",
+                "nameMode": "exact",
+                "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.7O3HkbvLntP4YDuD"
+    },
+    {
+      "_id": "6U37VNnqsNsAQ7XV",
+      "name": "Mantle of Spell Resistance",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Mantle of Spell Resistance",
+        "resultImg": "icons/equipment/back/cape-layered-violet-white-swirl.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMantleOfSpell",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aYnvn0L1a482MAVJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "wyRN2kyltJVFBQ9T",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/scales-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.6U37VNnqsNsAQ7XV"
+    },
+    {
+      "_id": "WHGIyDg8imF4stwX",
+      "name": "Sphere of Annihilation",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sphere of Annihilation",
+        "resultImg": "icons/magic/unholy/orb-beam-pink.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSphereOfAnnih",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0fhOJMTcFUf5oQ5F",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "cLASMf3ZWWk4JaXi",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.avkxkX9FIr7TeRPq",
+                "name": "Fiend Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.WHGIyDg8imF4stwX"
+    },
+    {
+      "_id": "xFNhHFhqOV3Y4Bby",
+      "name": "Talisman of Ultimate Evil",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Talisman of Ultimate Evil",
+        "resultImg": "icons/magic/death/skull-horned-goat-pentagram-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgTalismanOfUlt",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "es61oYmMj4X8L26I",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hqu30HVOeY7ZX18q",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.iIeA2wkTaNdOAlCT",
+                "name": "Fiend Heart",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/organ-heart-black.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.xFNhHFhqOV3Y4Bby"
+    },
+    {
+      "_id": "Wsq5kDoLY3SR6ftA",
+      "name": "Winged Boots",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Winged Boots",
+        "resultImg": "icons/skills/movement/feet-winged-boots-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWingedBoots00",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2SS7v1xIos7ek3Ha",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "U6TttA0cRlIDnRHn",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jSTYBrGVxdDO3Xms",
+                "name": "Pouch of Fiend Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!V2OtSmE9ojRcqSDP.Wsq5kDoLY3SR6ftA"
+    }
+  ],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

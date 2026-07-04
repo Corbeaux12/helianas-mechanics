@@ -1,0 +1,1852 @@
+{
+  "_id": "o8YtWEsZW4Me7Z52",
+  "_key": "!journal!o8YtWEsZW4Me7Z52",
+  "name": "Plant Recipes",
+  "pages": [
+    {
+      "_id": "ogbj6fQwBQ18TWcM",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.8EqD5p3xNszBWPWK]{Overgrown Barkshield (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Y8x9RBBWTihLic9E]{Overgrown Barkshield (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.joXJJ6bASHe1da76]{Overgrown Barkshield (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfPoiso]{Potion of Poison}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.Z2igvjqZ5yK4Rn7w]{Ring of Birdseye Maple}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfFreeAct]{Ring of Free Action}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rCt4IpMCGwQSSOR5]{Ring of Fungal Symbiosis (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.2Z3TKPH0NAcBWuLD]{Ring of Fungal Symbiosis (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfRegener]{Ring of Regeneration}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.V0FvP3zYkwtHDhpt]{Sporespreader Rod (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.9irxf4SNg1er8TP1]{Sporespreader Rod (Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfTheWoo]{Staff of the Woodlands}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfBinding]{Wand of Binding}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Lu2KymlT0K94U1s7]{Painblinder Mycaxe Battleaxe (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.PfUNlPNDWpJfek09]{Painblinder Mycaxe Battleaxe (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.JA9G9Kc11muv87A1]{Bonze’s Bokken, Wind Ripper (Longsword) (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.vjHDp1DJrfkb0yK5]{Bonze’s Bokken, Wind Ripper (Longsword) (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.QXKq2wlDZ1eMmejK]{Bonze’s Bokken, Wind Ripper (Longsword) (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-shining-shrine.Item.byphrUADVeUtp2rP]{Bonze’s Bokken, Wind Ripper (Longsword) (Legendary)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.XyQEY3jEM2lalQCH]{Longspike (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.mUn74Pt6PhZkBvuG]{Longspike (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBagOfBeans000]{Bag of Beans}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBootsOfElvenk]{Boots of Elvenkind}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBroomOfFlying]{Broom of Flying}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCarpetOfFlyin]{Carpet of Flying}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCloakOfElvenk]{Cloak of Elvenkind}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEversmokingBo]{Eversmoking Bottle}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAnchorQuaalsF]{Feather Token (Anchor)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgTreeQuaalsFea]{Feather Token (Tree)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFoldingBoat00]{Folding Boat}</p><p>@UUID[Compendium.dnd5e.items.Item.E9G4jALlSA96fKAN]{Iron Bands of Binding}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgNolzursMarvel]{Marvelous Pigments}</p><p>@UUID[Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rNPS84VXxjAo4iNF]{Mycelial Cloak (Rare)}</p><p>@UUID[Compendium.dnd5e.items.Item.VmcgAIsRCyrjBguC]{Restorative Ointment}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRobeOfScintil]{Robe of Scintillating Colors}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.ogbj6fQwBQ18TWcM"
+    },
+    {
+      "_id": "WK3zqOw9L2uMcgd0",
+      "name": "Overgrown Barkshield (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Overgrown Barkshield (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Barkshield_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.8EqD5p3xNszBWPWK",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9g14WKMGcXCrfMjK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "a87lVfmE7wJNzobI",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.WK3zqOw9L2uMcgd0"
+    },
+    {
+      "_id": "GOQKb3LiW63FNOUL",
+      "name": "Overgrown Barkshield (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Overgrown Barkshield (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Barkshield_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Y8x9RBBWTihLic9E",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0F610xxAvGyr1g7q",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9TWy6m8q0i0eQ3ew",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.GOQKb3LiW63FNOUL"
+    },
+    {
+      "_id": "6eSlRfQFi5YLJsbJ",
+      "name": "Overgrown Barkshield (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Overgrown Barkshield (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Barkshield_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.joXJJ6bASHe1da76",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PxG0u3bzsRjtXoXP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rh63hpFjFJkGFAUl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.6eSlRfQFi5YLJsbJ"
+    },
+    {
+      "_id": "2u910WevzE2Ld7hw",
+      "name": "Potion of Poison",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Poison",
+        "resultImg": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfPoiso",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2W4FbtqG8FWr2EJO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KQq7MltZWn4yKDc7",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.m2qvItypCKPwOaMS",
+                "name": "Plant Poison Gland",
+                "nameMode": "exact",
+                "img": "icons/commodities/materials/slime-thick-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.2u910WevzE2Ld7hw"
+    },
+    {
+      "_id": "SYa5tSgjT7OV6gCH",
+      "name": "Ring of Birdseye Maple",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Birdseye Maple",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Ring-of-Birdseye-Maple.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.Z2igvjqZ5yK4Rn7w",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "NOrTm87BPeU2WCbO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "e5PbH8w6PXrmeweN",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.SYa5tSgjT7OV6gCH"
+    },
+    {
+      "_id": "QO7vG7L8ixpmgEao",
+      "name": "Ring of Free Action",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Free Action",
+        "resultImg": "icons/equipment/finger/ring-shield-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfFreeAct",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PMjNWrJawuDwhztx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "CVvQcUyYTVAQE2wr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.QO7vG7L8ixpmgEao"
+    },
+    {
+      "_id": "GfC0xS1Q3b6PVEUR",
+      "name": "Ring of Fungal Symbiosis (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Fungal Symbiosis (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Ring_of_Fungal_Symbiosis-Uncommon-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rCt4IpMCGwQSSOR5",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7JaQnnTnVrh62UPv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JYGo8UfMk1n1uDod",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.GfC0xS1Q3b6PVEUR"
+    },
+    {
+      "_id": "Fz6wk5vQtTfSyfSl",
+      "name": "Ring of Fungal Symbiosis (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Fungal Symbiosis (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Ring_of_Fungal_Symbiosis_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.2Z3TKPH0NAcBWuLD",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9vFg5WhhAYmVzR2c",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iz77HxLgWzG4wdYA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.Fz6wk5vQtTfSyfSl"
+    },
+    {
+      "_id": "wZTR2uk2aksRQXDx",
+      "name": "Ring of Regeneration",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Regeneration",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfRegener",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Owu3g8e25klOWiQz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Iw738yrbpXm7HOFj",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jxo80IYK5IY1IQXf",
+                "name": "Plant Membrane",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/leaf-old-dried-curled-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.wZTR2uk2aksRQXDx"
+    },
+    {
+      "_id": "MUmU1b2Px2NTHM53",
+      "name": "Sporespreader (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Sporespreader Rod (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Spore_Spreader.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.V0FvP3zYkwtHDhpt",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eXlmqqqeNczU96mJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5qMKw5ttdVDgNakV",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.MUmU1b2Px2NTHM53"
+    },
+    {
+      "_id": "u9AXCf2k6VKs7XZa",
+      "name": "Sporespreader (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Sporespreader Rod (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Spore_Spreader_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.9irxf4SNg1er8TP1",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "55SZdtLqVoFXyb8S",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Gx74g1kqO8LvWGkM",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.u9AXCf2k6VKs7XZa"
+    },
+    {
+      "_id": "HqL2iE81SsgvbCX1",
+      "name": "Staff of the Woodlands",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of the Woodlands",
+        "resultImg": "icons/weapons/staves/staff-nature-spiral.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfTheWoo",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "E5fH7eSQM1SisrBv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "246qNHQz2FIXRN4P",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.HqL2iE81SsgvbCX1"
+    },
+    {
+      "_id": "wGwnRA6XubbWNvCb",
+      "name": "Wand of Binding",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Binding",
+        "resultImg": "icons/weapons/wands/wand-skull-feathers.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfBinding",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "m00ZSCkAq6gtoQRu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fi0VQ5ts8GvSLBmU",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dQf3AhmCdhXWly5c",
+                "name": "Pouch of Plant Hyphae",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-gold-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.wGwnRA6XubbWNvCb"
+    },
+    {
+      "_id": "GWsyiOYUsUMevjqG",
+      "name": "Painblinder Mycaxe (any axe) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Painblinder Mycaxe Battleaxe (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Painblinder_Mycaxe.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Lu2KymlT0K94U1s7",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "SyjPE4k8Gs4QXUbu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "y8fqK13Q45ci1UbP",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.GWsyiOYUsUMevjqG"
+    },
+    {
+      "_id": "dfIkUJ7KJrsUPq76",
+      "name": "Painblinder Mycaxe (any axe) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Painblinder Mycaxe Battleaxe (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Painblinder_Mycaxe_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.PfUNlPNDWpJfek09",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7yBvCA2Ci7ve4fyw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "su2FSlAxrUC0O087",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.dfIkUJ7KJrsUPq76"
+    },
+    {
+      "_id": "gLOaR58mmYB64gzQ",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.JA9G9Kc11muv87A1",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2RhjSIBZTUrYmyfP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "O6mzflaiOWhk0Z5p",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.gLOaR58mmYB64gzQ"
+    },
+    {
+      "_id": "o0f5Vr1CiU6RhHOm",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.vjHDp1DJrfkb0yK5",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bHAFSMxndRAcMrkn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pqC8q44oBMGJ1LGJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.o0f5Vr1CiU6RhHOm"
+    },
+    {
+      "_id": "T8AZyvO1sjysC6sF",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.QXKq2wlDZ1eMmejK",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1EWRuN2Svgp0yrFU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "UtF2E6ckUgeYcoEo",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.T8AZyvO1sjysC6sF"
+    },
+    {
+      "_id": "fs7KcCX62V0VoBo0",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.byphrUADVeUtp2rP",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "tKNNJKVJJlBcV6pp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OPHLrYmw47zCnhDq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "plant",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.fs7KcCX62V0VoBo0"
+    },
+    {
+      "_id": "3hD5PorglfkuJD8T",
+      "name": "Longspike (rapier) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Longspike (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Longspike-Uncommon-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.XyQEY3jEM2lalQCH",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Es694Y21ziF66luH",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9XU6zEBLwiRJOrAr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dQf3AhmCdhXWly5c",
+                "name": "Pouch of Plant Hyphae",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-gold-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.3hD5PorglfkuJD8T"
+    },
+    {
+      "_id": "41pcIUegOphD7eYu",
+      "name": "Longspike (rapier) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Longspike (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Longspike-VeryRare-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.mUn74Pt6PhZkBvuG",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZdfppjFEMyXp4iGx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pvc4wKDAOMUUFPmD",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dQf3AhmCdhXWly5c",
+                "name": "Pouch of Plant Hyphae",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-gold-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.41pcIUegOphD7eYu"
+    },
+    {
+      "_id": "CXwbzT2zRWPxTLBa",
+      "name": "Bag of Beans",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bag of Beans",
+        "resultImg": "icons/containers/bags/coinpouch-simple-leather-tan.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBagOfBeans000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2ZlsA6Wa7z57DIw7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0greqCHSeS1nRmWy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.CXwbzT2zRWPxTLBa"
+    },
+    {
+      "_id": "VQ9MbISsbiOnDt0k",
+      "name": "Boots of Elvenkind",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Boots of Elvenkind",
+        "resultImg": "icons/equipment/feet/boots-pointed-cloth-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBootsOfElvenk",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "93zpFqgmECa93I5E",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ccKk3hltd1DYc2fc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.VQ9MbISsbiOnDt0k"
+    },
+    {
+      "_id": "k5Mn0bRJ82Z81pNs",
+      "name": "Broom of Flying",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Broom of Flying",
+        "resultImg": "icons/tools/hand/broom-straw-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBroomOfFlying",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "jvIfr1VNhw3J5NKL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TcVHki17fzBOhf67",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.k5Mn0bRJ82Z81pNs"
+    },
+    {
+      "_id": "0YOmiOuYsKNFrVQr",
+      "name": "Carpet of Flying (all sizes)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Carpet of Flying",
+        "resultImg": "icons/commodities/cloth/cloth-bolt-embroidered-pink.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCarpetOfFlyin",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VnCRUeIcDlvLhHRJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "VkjfMFVxBv6fQj9r",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.0YOmiOuYsKNFrVQr"
+    },
+    {
+      "_id": "oT2uYWAp4jFU06Wl",
+      "name": "Cloak of Elvenkind",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Cloak of Elvenkind",
+        "resultImg": "icons/equipment/back/cloak-collared-feathers-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCloakOfElvenk",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "gyO1NQ813pj0JTnE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MdjFYdI0j9d1wHQB",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.oT2uYWAp4jFU06Wl"
+    },
+    {
+      "_id": "nzlhzl6zxkwgJCge",
+      "name": "Eversmoking Bottle",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Eversmoking Bottle",
+        "resultImg": "icons/commodities/tech/smoke-bomb-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgEversmokingBo",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JFvJz2XGyi1HGNZF",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "u64yS74UoP0EJOKc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.nzlhzl6zxkwgJCge"
+    },
+    {
+      "_id": "9ovHinyYUUIhXFzN",
+      "name": "Feather Token (Anchor)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Feather Token (Anchor)",
+        "resultImg": "icons/commodities/materials/feather-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAnchorQuaalsF",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ExFqUdDFqoYAQmN5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0u1a0gaM1nix1d5v",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "plant",
+        "rarity": "common",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.9ovHinyYUUIhXFzN"
+    },
+    {
+      "_id": "Q71n23r1XwAjmQ6o",
+      "name": "Feather Token (Tree)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Feather Token (Tree)",
+        "resultImg": "icons/commodities/materials/feather-colored-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgTreeQuaalsFea",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "t32zsvnevBTLaGsG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Q3VtbiqfDaOW2EMx",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "plant",
+        "rarity": "common",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.Q71n23r1XwAjmQ6o"
+    },
+    {
+      "_id": "o2w7vyPhGkmkW4dQ",
+      "name": "Folding Boat",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Folding Boat",
+        "resultImg": "icons/environment/settlement/ship.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgFoldingBoat00",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rS4CyIlz75AGMqul",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ny4L2vGKZhsSYuLs",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.o2w7vyPhGkmkW4dQ"
+    },
+    {
+      "_id": "G3yF1ZRNe0dxXCZs",
+      "name": "Iron Bands of Binding",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Iron Bands of Binding",
+        "resultImg": "icons/commodities/metal/clasp-steel-braid.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.E9G4jALlSA96fKAN",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Qdl385381TJdsx7e",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fecEve2TLCNiBpK9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.G3yF1ZRNe0dxXCZs"
+    },
+    {
+      "_id": "N3V8cyDTsvM0hU2R",
+      "name": "Marvelous Pigments",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Marvelous Pigments",
+        "resultImg": "icons/commodities/materials/powder-red-green-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNolzursMarvel",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "F91uPxoK7zzO94SQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KQC8detz1WiLNTlH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nTwG7qOPr4O1KdIb",
+                "name": "Phial of Plant Wax",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/round-decorated-snake-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.N3V8cyDTsvM0hU2R"
+    },
+    {
+      "_id": "43s0VLTjFJ9RcIeg",
+      "name": "Mycelial Cloak",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Mycelial Cloak (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Mycelial_Cloak-Rare-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rNPS84VXxjAo4iNF",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Bt4MpIlQaZLITZXA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0vwrUJ2y34U6sydB",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jxo80IYK5IY1IQXf",
+                "name": "Plant Membrane",
+                "nameMode": "exact",
+                "img": "icons/consumables/plants/leaf-old-dried-curled-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.43s0VLTjFJ9RcIeg"
+    },
+    {
+      "_id": "w1JvIyKzEKhXQy65",
+      "name": "Restorative Ointment",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Restorative Ointment",
+        "resultImg": "icons/commodities/materials/liquid-orange.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.VmcgAIsRCyrjBguC",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eyfgsTkqSO8p2Rjw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "piul02Zz1w4Fd0KB",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XjSnUMOXytj9f2Gy",
+                "name": "Pouch of Plant Leaves",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-leather-leaf-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.w1JvIyKzEKhXQy65"
+    },
+    {
+      "_id": "QuWZZxBcYgauSqmS",
+      "name": "Robe of Scintillating Colors",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Robe of Scintillating Colors",
+        "resultImg": "icons/equipment/chest/robe-layered-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRobeOfScintil",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1BjgOYf5PznPji06",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "R5kpJAWlnBkpBEBC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YGbRAmidY8RtiI6K",
+                "name": "Pouch of Plant Pollen",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-leather-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!o8YtWEsZW4Me7Z52.QuWZZxBcYgauSqmS"
+    }
+  ],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

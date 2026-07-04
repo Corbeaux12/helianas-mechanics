@@ -1,0 +1,829 @@
+{
+  "_id": "0V6JkEdM33UmTlbP",
+  "_key": "!journal!0V6JkEdM33UmTlbP",
+  "name": "Ooze Recipes",
+  "pages": [
+    {
+      "_id": "KPY44QuaBBz4lRi1",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfGaseo]{Potion of Gaseous Form}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.0s4tn2dQ2GiCCTz2]{Flooze (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.dTcAE0Sj20tneAk5]{Flooze (Very Rare)}</p><p>@UUID[Compendium.dnd5e.items.Item.TZggpdbOYqOCG7mY]{Alchemy Jug}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.kN6AZ4RROm4Fkxh0]{Bomboozler (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.lFBNxHkAtuxZ3mHR]{Bomboozler (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.ejscpl8MOOO114Lj]{Caltrooze (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.v0W0xemy5AN4JWIy]{Oozemat Coat (Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPeriaptOfWoun]{Periapt of Wound Closure}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.3bpwEyYmpcdCOfTq]{Slime-in-a-Skull (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.42o2uqakOjE8P3Ty]{Slime-in-a-Skull (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgSovereignGlue]{Sovereign Glue}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgUniversalSolv]{Universal Solvent}</p><p>@UUID[Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.45v9mZiFzq0mrpxU]{Ventilation Unit D-20 (Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.KPY44QuaBBz4lRi1"
+    },
+    {
+      "_id": "KKGQaSdCOiKBVkdG",
+      "name": "Armor of Resistance (Acid)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "jUXB5cOXLnpgTzC5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hFVhx32z2ONSnTqf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yV25NETDeHuwL0KW",
+                "name": "Ooze Membrane",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/suckers-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.KKGQaSdCOiKBVkdG"
+    },
+    {
+      "_id": "UltK0YL9EtNlPPSt",
+      "name": "Potion of Gaseous Form",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Gaseous Form",
+        "resultImg": "icons/consumables/potions/bottle-conical-fumes-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfGaseo",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ycuu5gEWqsUNRGVX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0sfKrj6pV4wX10hp",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.p3RuPY4B6v8GC4tY",
+                "name": "Ooze Vesicle",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/stinger-insect-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.UltK0YL9EtNlPPSt"
+    },
+    {
+      "_id": "x6liTl8vWODGoPPx",
+      "name": "Flooze (flail) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Flooze (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/Flooze1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.0s4tn2dQ2GiCCTz2",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7kX4XmvVvJIHmK1V",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "d27FEpHr5n8Cxow3",
+                "uuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.Ot8825mW1YZ9xj7V",
+                "name": "Ooze Gooey Wishbone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-antler-pink.webp",
+                "quantity": 3,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.x6liTl8vWODGoPPx"
+    },
+    {
+      "_id": "RTCRUCs2Dgzr8BKN",
+      "name": "Flooze (flail) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Flooze (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/Flooze2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.dTcAE0Sj20tneAk5",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "nxe6Vk3VOAnqgT32",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "U6TVoOw7AqVRuPZO",
+                "uuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.Ot8825mW1YZ9xj7V",
+                "name": "Ooze Gooey Wishbone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-antler-pink.webp",
+                "quantity": 3,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.RTCRUCs2Dgzr8BKN"
+    },
+    {
+      "_id": "3Q7XWET5RX7xKkUO",
+      "name": "Alchemy Jug",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Alchemy Jug",
+        "resultImg": "icons/consumables/drinks/clay-jar-glowing-orange-blue.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.TZggpdbOYqOCG7mY",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YW1uup5J5fsXjt0j",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xijHhyRCkKisVWTf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.p3RuPY4B6v8GC4tY",
+                "name": "Ooze Vesicle",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/stinger-insect-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.3Q7XWET5RX7xKkUO"
+    },
+    {
+      "_id": "Jp54VxPpGt5N3o8g",
+      "name": "Bomboozler (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bomboozler (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/Bomboozler1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.kN6AZ4RROm4Fkxh0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xO59zF4Dlp54pO5d",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iffK3Zj6sulN5uXH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.EJ6ukmLOW0AVI2ax",
+                "name": "Phial of Ooze Acid",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.Jp54VxPpGt5N3o8g"
+    },
+    {
+      "_id": "MuCbbLaKZSNDodVs",
+      "name": "Bomboozler (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bomboozler (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/Bomboozler2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.lFBNxHkAtuxZ3mHR",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Ozumfqmc83IW0BtO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "eHUOBOds5I4AOKeJ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.EJ6ukmLOW0AVI2ax",
+                "name": "Phial of Ooze Acid",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.MuCbbLaKZSNDodVs"
+    },
+    {
+      "_id": "2pFIB99HDJp9TWPz",
+      "name": "Caltrooze",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Caltrooze (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/Caltrooze.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.ejscpl8MOOO114Lj",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "tDcLXtTvMHQnlM9D",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "G2rOUlysbwY5ekYp",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6faKGTlnoB9qaEGV",
+                "name": "Phial of Ooze Mucus",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-fumes-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.2pFIB99HDJp9TWPz"
+    },
+    {
+      "_id": "2zrhEDINCR3XyUh1",
+      "name": "Oozemat Coat",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Oozemat Coat (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/OozematCoat.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.v0W0xemy5AN4JWIy",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "h6TjFJQ7aKhOjdkp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "k65ifOXRnLBRQuVW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yV25NETDeHuwL0KW",
+                "name": "Ooze Membrane",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/suckers-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.2zrhEDINCR3XyUh1"
+    },
+    {
+      "_id": "TvqgHSPDHmMij8ii",
+      "name": "Periapt of Wound Closure",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Periapt of Wound Closure",
+        "resultImg": "icons/equipment/neck/pendant-faceted-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPeriaptOfWoun",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0d28sPqOZEbxvRCm",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4o6E94iAe0yajb6R",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6faKGTlnoB9qaEGV",
+                "name": "Phial of Ooze Mucus",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-fumes-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.TvqgHSPDHmMij8ii"
+    },
+    {
+      "_id": "o3lbvN65Vq5p8deL",
+      "name": "Slime-in-a-Skull (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Slime-in-a-Skull (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/SlimeinaSkull.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.3bpwEyYmpcdCOfTq",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7jPKIo3kNTEh5yYl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "P9MX5chAbJbsAiIt",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.p3RuPY4B6v8GC4tY",
+                "name": "Ooze Vesicle",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/stinger-insect-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.o3lbvN65Vq5p8deL"
+    },
+    {
+      "_id": "EhB3yzznqiRDGitf",
+      "name": "Slime-in-a-Skull (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Slime-in-a-Skull (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/OozeWyvernMount.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.42o2uqakOjE8P3Ty",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vNydYmTKcdQwRuHU",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zTVzqj3BeB2eowvK",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.p3RuPY4B6v8GC4tY",
+                "name": "Ooze Vesicle",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/stinger-insect-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.EhB3yzznqiRDGitf"
+    },
+    {
+      "_id": "MSbPL8RS32pSe890",
+      "name": "Sovereign Glue",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Sovereign Glue",
+        "resultImg": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSovereignGlue",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KK6Mc3RQ2jjhpARR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2SY7eqn7oXtOE724",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6faKGTlnoB9qaEGV",
+                "name": "Phial of Ooze Mucus",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-fumes-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.MSbPL8RS32pSe890"
+    },
+    {
+      "_id": "d7HfOpEzp9FvtNpn",
+      "name": "Universal Solvent",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Universal Solvent",
+        "resultImg": "icons/consumables/potions/potion-bottle-corked-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgUniversalSolv",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "09NVNrfFDzihfGBj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "73nXvDLykoon0gY6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.EJ6ukmLOW0AVI2ax",
+                "name": "Phial of Ooze Acid",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "ooze",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.d7HfOpEzp9FvtNpn"
+    },
+    {
+      "_id": "X7rGFDvke4XxrukP",
+      "name": "Ventilation Unit D-20",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Ventilation Unit D-20 (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/VentilationUnitD-20.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.45v9mZiFzq0mrpxU",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mUnoWBbIp3OgADUF",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "XGkS3sVXnAnzbxIT",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.EJ6ukmLOW0AVI2ax",
+                "name": "Phial of Ooze Acid",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "aN2vwG20zcugI4qG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6apewKj7ibbLGvdX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6faKGTlnoB9qaEGV",
+                "name": "Phial of Ooze Mucus",
+                "nameMode": "exact",
+                "img": "icons/consumables/potions/bottle-conical-fumes-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0V6JkEdM33UmTlbP.X7rGFDvke4XxrukP"
+    }
+  ],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

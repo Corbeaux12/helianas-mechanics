@@ -1,0 +1,37 @@
+{
+  "_id": "aZyuKHvIcfOrwTZE",
+  "_key": "!items!aZyuKHvIcfOrwTZE",
+  "name": "Torrential Mantle (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (cracker kraken) heart</p><p>The power of rushing water is not to be underestimated. Crashing waves reduce rock to rubble; inescapable currents pull poor souls to their doom; and rising tides drown entire settlements. Water truly is a force of nature—and now you can be one too.</p><p><strong>Rush of Water.</strong> As a bonus action while wearing this cloak, you can briefly transform into a waterspout and move to an unoccupied space within 30 feet of you without provoking opportunity attacks, after which you transform back into your original form. Each creature within 10 feet of the space you end this move in must make a DC 15 Strength saving throw. On a failed save, a creature is knocked prone as a wave of water crashes down on it. After this property of the cloak has been used, roll a d6. On a 2 or lower, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13, the area of effect to within 5 feet of the space you end the move in, and the d6 to a d4.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. Creatures that make a saving throw against the Rush of Water property also take 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3440,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

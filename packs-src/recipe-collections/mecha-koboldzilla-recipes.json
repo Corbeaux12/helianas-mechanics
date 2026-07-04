@@ -1,0 +1,593 @@
+{
+  "_id": "PSvjSzlTX7JqRS6H",
+  "_key": "!journal!PSvjSzlTX7JqRS6H",
+  "name": "Mecha-Koboldzilla Recipes",
+  "pages": [
+    {
+      "_id": "cAAFqMgT5BtTLA8l",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.8POKvNQx4lrZAUnH]{Dragonmaw Shield}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.nak7XKRMJfrwjgmS]{Gunnspier Halberd (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.7O0lA0jFQHWOZpLz]{Gunnspier Halberd (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.UeM278b3lSNwEpum]{Pneuma Longsword (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.0dYI4qU6QbAkcMU1]{Pneuma Longsword (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.XB66KdRmZ952xIEr]{Crawly Turrit}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.kAGnllMGs3vUhcRY]{Kobbold Flaymefrower (Uncommon)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.vqACI7lPdY4IK3wp]{Kobbold Flaymefrower (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.2MO31KEBHTKHVVbY]{Rolly Turrit}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.1k7Ny0MctLWTjcZ2]{Skrapyard Sosig (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.cAAFqMgT5BtTLA8l"
+    },
+    {
+      "_id": "aBflzZr1AgR6FCiT",
+      "name": "Dragonmaw Shield",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Dragonmaw Shield",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Dragonmaw_Shield.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.8POKvNQx4lrZAUnH",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WMmWT26Q6ozSIkta",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7vUDEonKGhkA6c6L",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.aBflzZr1AgR6FCiT"
+    },
+    {
+      "_id": "8AFT02GwZ5iKkYu1",
+      "name": "Gunnspier (any polearm**) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Gunnspier Halberd (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Gunnspier_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.nak7XKRMJfrwjgmS",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "IlgTwVC6p7c3KpD9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GC3DGEo8WLJXSTPp",
+                "uuid": "",
+                "name": "Gearing",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.8AFT02GwZ5iKkYu1"
+    },
+    {
+      "_id": "DaLsNfTPF3BhqWDj",
+      "name": "Gunnspier (any polearm**) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Gunnspier Halberd (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Gunnspier_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.7O0lA0jFQHWOZpLz",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DTKl2Qx1Rzo6UKVQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dkTWRcsJySxzoLyH",
+                "uuid": "",
+                "name": "Gearing",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.DaLsNfTPF3BhqWDj"
+    },
+    {
+      "_id": "cF5gBR6gqoCiOSuL",
+      "name": "Pneuma Blade (longsword or greatsword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Pneuma Longsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Pneuma_Blade_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.UeM278b3lSNwEpum",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7akJQzPymDyvqh6A",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SAvGoJwEPE4WUifc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.cF5gBR6gqoCiOSuL"
+    },
+    {
+      "_id": "6o5pdmh06Cg9cDdI",
+      "name": "Pneuma Blade (longsword or greatsword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Pneuma Longsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Pneuma_Blade_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.0dYI4qU6QbAkcMU1",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sAfQf87abcmcVb6e",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "s1PnoCGDWbnADmmU",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.6o5pdmh06Cg9cDdI"
+    },
+    {
+      "_id": "amgcb5K952jyCphk",
+      "name": "Crawly Turrit",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Crawly Turrit",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/actors/Crawley_Turrit.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.XB66KdRmZ952xIEr",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5TMQZqL2yLyvC573",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KuTsP2o06jsA5Xn1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "IIVvhJutrC2iFa7c",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Z5c7s6QxhCykUACa",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/pustules-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.amgcb5K952jyCphk"
+    },
+    {
+      "_id": "vBrf3wejSqm7Axp2",
+      "name": "Kobbold Flaymefrower (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Kobbold Flaymefrower (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Kobbold_Flaymefrower.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.kAGnllMGs3vUhcRY",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fDGzE4HzBQIS9HeR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GKC8f4P75hvcGSbx",
+                "uuid": "",
+                "name": "Arcanothermic core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.vBrf3wejSqm7Axp2"
+    },
+    {
+      "_id": "nmIKvPBXwRs2xQ7t",
+      "name": "Kobbold Flaymefrower (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Kobbold Flaymefrower (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Kobbold_Flaymefrower_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.vqACI7lPdY4IK3wp",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "UCAuk1wT7EUH5rK4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2EFMqWvEdfp3lkoD",
+                "uuid": "",
+                "name": "Arcanothermic core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.nmIKvPBXwRs2xQ7t"
+    },
+    {
+      "_id": "TfK8zL5Le1GKFif3",
+      "name": "Rolly Turrit",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Rolly Turrit",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/actors/Rolly_Turrit.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.2MO31KEBHTKHVVbY",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bMDpskJ9n93oIXJR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "gMOW2viaaJP7EGru",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.TfK8zL5Le1GKFif3"
+    },
+    {
+      "_id": "69IM6AL130iDT7XR",
+      "name": "Skrapyard Sosig",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "cooking",
+        "resultName": "Skrapyard Sosig (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/images/crafting/Cooking-MechaKobold_Sosig.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.1k7Ny0MctLWTjcZ2",
+        "resultQuantity": 1,
+        "dc": 16,
+        "timeHours": 1,
+        "toolKey": "cooks-utensils",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MxcVx5TwbN3dd244",
+            "name": "Boss Ingredient",
+            "components": [
+              {
+                "id": "V1HKd6vizDMcnb3S",
+                "uuid": "",
+                "name": "Tubing",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tubing",
+                  "koboldzilla",
+                  "construct",
+                  "flesh"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "P8YsNjWI0tRPK0sL",
+            "name": "Egg",
+            "components": [
+              {
+                "id": "HBwP1U7fZiMmmjhN",
+                "uuid": "",
+                "name": "Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "",
+        "rarity": "",
+        "attunement": "none",
+        "baseItemRecipeUuid": "",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 8
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PSvjSzlTX7JqRS6H.69IM6AL130iDT7XR"
+    }
+  ],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

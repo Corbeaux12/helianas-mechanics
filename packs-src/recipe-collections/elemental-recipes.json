@@ -1,0 +1,1852 @@
+{
+  "_id": "PdnJKETHWjAsq4uL",
+  "_key": "!journal!PdnJKETHWjAsq4uL",
+  "name": "Elemental Recipes",
+  "pages": [
+    {
+      "_id": "QcLnsZKbxTCVnKd8",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgArmorOfResist]{Armor of Resistance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgPotionOfResis]{Potion of Resistance}</p><p>@UUID[Compendium.dnd5e.items.Item.XZWHQ20ynJBK6xmU]{Ring of Air Elemental Command}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfDjinniS]{Ring of Djinni Summoning}</p><p>@UUID[Compendium.dnd5e.items.Item.Zf7kBZa5f4WBepn1]{Ring of Earth Elemental Command}</p><p>@UUID[Compendium.dnd5e.items.Item.L9KBLub5vfb3mTDz]{Ring of Fire Elemental Command}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfInvisib]{Ring of Invisibility}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfWarmth0]{Ring of Warmth}</p><p>@UUID[Compendium.dnd5e.items.Item.HnIERWmmra74hSCw]{Ring of Water Elemental Command}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfFire00]{Staff of Fire}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfFrost0]{Staff of Frost}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStaffOfThunde]{Staff of Thunder and Lightning}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfFirebal]{Wand of Fireballs}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfLightni]{Wand of Lightning Bolts}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.ADJ57sgxiHaV0TTS]{Jaw Breakers (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.fF67CE6kmS4e1nuP]{Jaw Breakers (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.K0Xy2uKDjzbHadjh]{Terrorasque Greatsword (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.HWSHuug3j3EY1Fy9]{Terrorasque Greatsword (Very Rare)}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgJavelinOfLigh]{Javelin of Lightning}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBowlOfCommand]{Bowl of Commanding Water Elementals}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgBrazierOfComm]{Brazier of Commanding Fire Elementals}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCenserOfContr]{Censer of Controlling Air Elementals}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgCubicGate0000]{Cubic Gate}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDecanterOfEnd]{Decanter of Endless Water}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe]{Dust of Disappearance}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEfreetiBottle]{Efreeti Bottle}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgElementalGem0]{Elemental Gem}</p><p>@UUID[Compendium.heliana-core.magical-items.Item.3SC2Bai8xZYltwRd]{Grill of Barbecuing}</p><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgStoneOfContro]{Stone of Controlling Earth Elementals}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.pgUGJRiXkg7lio0E]{Tarrobe (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.jFKBJ3ZoFMcBNCxz]{Tarrobe (Legendary)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.WSPvIao9BwGHkBrf]{Viscous Symbiote (Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.XutG4Is1Fa8DxlUY]{Viscous Symbiote (Very Rare)}</p><p>@UUID[Compendium.heliana-core.items-heliana-tarchaeology.Item.IY9CDlEgRAwSWXGi]{Viscous Symbiote (Legendary)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.QcLnsZKbxTCVnKd8"
+    },
+    {
+      "_id": "gDaq0GrS0Q3kILDH",
+      "name": "Armor of Resistance (Fire)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6gqVdgq6vYdBw1Cw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "IiPqdMhBi8Ntj830",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xMIlw7VW2cfWQjCO",
+                "name": "Elemental Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-spine-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.gDaq0GrS0Q3kILDH"
+    },
+    {
+      "_id": "NNb3ZDJDOFk6HpLd",
+      "name": "Armor of Resistance (Lightning)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rUjR1YMOtSu1hRQy",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RXD120vRAe6nt9D4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xMIlw7VW2cfWQjCO",
+                "name": "Elemental Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-spine-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.NNb3ZDJDOFk6HpLd"
+    },
+    {
+      "_id": "3drbI0QaONlyILHN",
+      "name": "Potion of Resistance (Acid)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "resultName": "Potion of Resistance",
+        "resultImg": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPotionOfResis",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rb5Rvmd9FCzIC9mq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ygk2Jk6n25Q59o3f",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "icons/magic/water/orb-water-ice-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.3drbI0QaONlyILHN"
+    },
+    {
+      "_id": "V45CxTJfdoy6fG88",
+      "name": "Ring of Air Elemental Command",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Air Elemental Command",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.XZWHQ20ynJBK6xmU",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RBkQdo1cROY6fiW3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yfbpUXsLIZw4zmk1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.T0h4LS1FgWbtW1Yl",
+                "name": "Core of Elemental Air",
+                "nameMode": "exact",
+                "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.V45CxTJfdoy6fG88"
+    },
+    {
+      "_id": "8sLX75F7XDs0us4c",
+      "name": "Ring of Djinni Summoning",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Djinni Summoning",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfDjinniS",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4Sfx4FoKK6UQJVL4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5P6Zx9wVSeeRG3ln",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.T0h4LS1FgWbtW1Yl",
+                "name": "Core of Elemental Air",
+                "nameMode": "exact",
+                "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.8sLX75F7XDs0us4c"
+    },
+    {
+      "_id": "GM3lyoHUVQdQyYXo",
+      "name": "Ring of Earth Elemental Command",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Earth Elemental Command",
+        "resultImg": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.Zf7kBZa5f4WBepn1",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "B3YrIEX7j1nUKY10",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "S0TFC6Mh0UJ515pR",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.JXKfw1i3zfca4FpO",
+                "name": "Core of Elemental Earth",
+                "nameMode": "exact",
+                "img": "icons/magic/earth/projectile-moonrock-asteroid.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.GM3lyoHUVQdQyYXo"
+    },
+    {
+      "_id": "gWMO3EonRcBxet68",
+      "name": "Ring of Fire Elemental Command",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Fire Elemental Command",
+        "resultImg": "icons/equipment/finger/ring-inlay-red.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.L9KBLub5vfb3mTDz",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pGSDHF0urfxJo6HA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "IDo8oGkTSlHYfW4R",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.GcYYTzakq3RAdrWA",
+                "name": "Core of Elemental Fire",
+                "nameMode": "exact",
+                "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.gWMO3EonRcBxet68"
+    },
+    {
+      "_id": "MS6BDkuzgScK5Muf",
+      "name": "Ring of Invisibility",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Invisibility",
+        "resultImg": "icons/equipment/finger/ring-eye-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfInvisib",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VTmfi8o2wH0s1Uht",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0BUllK16ZbZ5VrzR",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DrRWMM7zhbFMSzSX",
+                "name": "Elemental Primordial Dust",
+                "nameMode": "exact",
+                "img": "icons/commodities/materials/bowl-powder-teal.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.MS6BDkuzgScK5Muf"
+    },
+    {
+      "_id": "ScVdMHoXGCXDEqbL",
+      "name": "Ring of Warmth",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Warmth",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfWarmth0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bQfl7EYTSd53GUVl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "o0wSdwr0LoivXYgD",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Dp3nZiuONDzG0WNe",
+                "name": "Elemental Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-lizard-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.ScVdMHoXGCXDEqbL"
+    },
+    {
+      "_id": "r1BVjBbG37DcWyq1",
+      "name": "Ring of Water Elemental Command",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Water Elemental Command",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.HnIERWmmra74hSCw",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "H228IpM4pAOygoUH",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "J7B20UVeTND0HH35",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Nca66iDNA3u3nZVR",
+                "name": "Core of Elemental Water",
+                "nameMode": "exact",
+                "img": "icons/magic/water/bubbles-air-water-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.r1BVjBbG37DcWyq1"
+    },
+    {
+      "_id": "MdzSCHjaQbwFYLMv",
+      "name": "Staff of Fire",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Fire",
+        "resultImg": "icons/weapons/staves/staff-ornate-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfFire00",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "J47I2VepeuPYz9Cb",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5K2CktoMnBCRz6fz",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ipqCzs5yfdZshALV",
+                "name": "Volatile Mote of Elemental Fire",
+                "nameMode": "exact",
+                "img": "icons/magic/earth/orb-lava-ball-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.MdzSCHjaQbwFYLMv"
+    },
+    {
+      "_id": "MDHQSwdYsgCYwdd7",
+      "name": "Staff of Frost",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Frost",
+        "resultImg": "icons/weapons/staves/staff-ornate-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfFrost0",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "J3xqLAY5w5atXu6j",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "oGpiQVhi7BfiZNB8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "icons/magic/water/orb-water-ice-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.MDHQSwdYsgCYwdd7"
+    },
+    {
+      "_id": "90QTdu8e6YMcaS9G",
+      "name": "Staff of Thunder and Lightning",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "resultName": "Staff of Thunder and Lightning",
+        "resultImg": "icons/weapons/staves/staff-ornate-teal.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStaffOfThunde",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "u1pn6hTr7aliVSPc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "A8VQ1KmS1kTZaibc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6j0yj0EAdskYL9Xu",
+                "name": "Volatile Mote of Elemental Air",
+                "nameMode": "exact",
+                "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.90QTdu8e6YMcaS9G"
+    },
+    {
+      "_id": "9iBmoCmDkJXZDkIf",
+      "name": "Wand of Fireballs",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Fireballs",
+        "resultImg": "icons/weapons/staves/staff-obsidian.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfFirebal",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sCGr7rkJg9lKvT5z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uaAce760G6GUz330",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ipqCzs5yfdZshALV",
+                "name": "Volatile Mote of Elemental Fire",
+                "nameMode": "exact",
+                "img": "icons/magic/earth/orb-lava-ball-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.9iBmoCmDkJXZDkIf"
+    },
+    {
+      "_id": "8KhXQ2pyxQdLfLJe",
+      "name": "Wand of Lightning Bolts",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.TkGgr7eNsG9b2qxl",
+        "resultName": "Wand of Lightning Bolts",
+        "resultImg": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWandOfLightni",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "wJNeVJhD4KqyrPDL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7FABsiBOfDT1QKo9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6j0yj0EAdskYL9Xu",
+                "name": "Volatile Mote of Elemental Air",
+                "nameMode": "exact",
+                "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.8KhXQ2pyxQdLfLJe"
+    },
+    {
+      "_id": "AVpRng9IXNVs9LXg",
+      "name": "Jaw Breakers (any two melee) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Jaw Breakers (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Jaw_Breakers_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.ADJ57sgxiHaV0TTS",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "nWN180DwLEva1TS1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4xFCp0ZtOQA5ckN8",
+                "uuid": "",
+                "name": "Pouch of teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.AVpRng9IXNVs9LXg"
+    },
+    {
+      "_id": "CtKZcTRVUmApIKiG",
+      "name": "Jaw Breakers (any two melee) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Jaw Breakers (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Jaw_Breakers_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.fF67CE6kmS4e1nuP",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hwyyOxZIZ7zK6Q3P",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MnNdUr3z1eUu2782",
+                "uuid": "",
+                "name": "Pouch of teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.CtKZcTRVUmApIKiG"
+    },
+    {
+      "_id": "6srTN3FK2QOLeh7g",
+      "name": "Terrorasque (any sword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Terrorasque Greatsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Terrorasque_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.K0Xy2uKDjzbHadjh",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZEEk3Dwd3fkaBWDX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "YSQ5Ldpe27n7UKlR",
+                "uuid": "",
+                "name": "Pouch of claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.6srTN3FK2QOLeh7g"
+    },
+    {
+      "_id": "qM0jGqn5VNGsIM6f",
+      "name": "Terrorasque (any sword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Terrorasque Greatsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Terrorasque_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.HWSHuug3j3EY1Fy9",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "cO8gxRBSXhN2HJ0e",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4eBdIivuaucxUXHB",
+                "uuid": "",
+                "name": "Pouch of claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.qM0jGqn5VNGsIM6f"
+    },
+    {
+      "_id": "LeT0Jn5IhporW69P",
+      "name": "Javelin of Lightning",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "resultName": "Javelin of Lightning",
+        "resultImg": "icons/weapons/polearms/spear-barbed-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgJavelinOfLigh",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EA5ffMcc3mE1T11e",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1oRJFUJVZmtnxw49",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DrRWMM7zhbFMSzSX",
+                "name": "Elemental Primordial Dust",
+                "nameMode": "exact",
+                "img": "icons/commodities/materials/bowl-powder-teal.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.LeT0Jn5IhporW69P"
+    },
+    {
+      "_id": "ljipcOYGNvRQTAvK",
+      "name": "Bowl of Commanding Water Elementals",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Bowl of Commanding Water Elementals",
+        "resultImg": "icons/commodities/materials/bowl-liquid-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBowlOfCommand",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ioNyzk7N7mUnCF1Z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hZpyQR4xpcOG1D7L",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Nca66iDNA3u3nZVR",
+                "name": "Core of Elemental Water",
+                "nameMode": "exact",
+                "img": "icons/magic/water/bubbles-air-water-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.ljipcOYGNvRQTAvK"
+    },
+    {
+      "_id": "RaJKuqmrk5nXF8Dr",
+      "name": "Brazier of Commanding Fire Elementals",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Brazier of Commanding Fire Elementals",
+        "resultImg": "icons/tools/laboratory/bowl-liquid-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBrazierOfComm",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "AGstU67h9negza83",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tdua4iBi1bNdm4CV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.GcYYTzakq3RAdrWA",
+                "name": "Core of Elemental Fire",
+                "nameMode": "exact",
+                "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.RaJKuqmrk5nXF8Dr"
+    },
+    {
+      "_id": "vJNYy5Ir0qv3fJUF",
+      "name": "Censer of Controlling Air Elementals",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Censer of Controlling Air Elementals",
+        "resultImg": "icons/commodities/treasure/goblet-worn-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCenserOfContr",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mQeREjQpFfibBPU9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6tJQhbZ6XWHko5A1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.T0h4LS1FgWbtW1Yl",
+                "name": "Core of Elemental Air",
+                "nameMode": "exact",
+                "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.vJNYy5Ir0qv3fJUF"
+    },
+    {
+      "_id": "gtfh99lF6jsLsoZk",
+      "name": "Cubic Gate",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Cubic Gate",
+        "resultImg": "icons/commodities/treasure/puzzle-box-glowing-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgCubicGate0000",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xYxkJYDzxLJIBmjA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PmP6lh7zKm5v3Oes",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DrRWMM7zhbFMSzSX",
+                "name": "Elemental Primordial Dust",
+                "nameMode": "exact",
+                "img": "icons/commodities/materials/bowl-powder-teal.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.gtfh99lF6jsLsoZk"
+    },
+    {
+      "_id": "sngoJ4kUQ5Dc0VVw",
+      "name": "Decanter of Endless Water",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Decanter of Endless Water",
+        "resultImg": "icons/consumables/potions/potion-flask-corked-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDecanterOfEnd",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JNCD2bNhcfKULHOI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Pbh5ao7V5HIsxors",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "icons/magic/water/orb-water-ice-pink.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.sngoJ4kUQ5Dc0VVw"
+    },
+    {
+      "_id": "HuArjjNAHCD0pITb",
+      "name": "Dust of Disappearance",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Dust of Disappearance",
+        "resultImg": "icons/magic/water/bubbles-air-water-light.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5Ni75Fdio8Wb80Yq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PTEpYNDUidAxG0zm",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DrRWMM7zhbFMSzSX",
+                "name": "Elemental Primordial Dust",
+                "nameMode": "exact",
+                "img": "icons/commodities/materials/bowl-powder-teal.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.HuArjjNAHCD0pITb"
+    },
+    {
+      "_id": "58NwbdpU4exFJaQi",
+      "name": "Efreeti Bottle",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Efreeti Bottle",
+        "resultImg": "icons/consumables/potions/potion-flask-corked-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgEfreetiBottle",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3JrVPN21Q3t2lMFn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "IfXXUPKnjl2DBGOl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.GcYYTzakq3RAdrWA",
+                "name": "Core of Elemental Fire",
+                "nameMode": "exact",
+                "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.58NwbdpU4exFJaQi"
+    },
+    {
+      "_id": "c8MERIuvj1aQ0pyL",
+      "name": "Elemental Gem (all types)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Elemental Gem",
+        "resultImg": "icons/commodities/gems/gem-rough-rose-teal.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgElementalGem0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "d136jLE2dMFfJLzM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "x1md9wSZbQBxoNhV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Dp3nZiuONDzG0WNe",
+                "name": "Elemental Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-lizard-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.c8MERIuvj1aQ0pyL"
+    },
+    {
+      "_id": "JzQ6cKT25UhwnlYM",
+      "name": "Grill of Barbecuing",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Grill of Barbecuing",
+        "resultImg": "modules/heliana-core/assets/images/loot-tavern/LootTavern_Grill-of-Barbecuing.webp",
+        "resultUuid": "Compendium.heliana-core.magical-items.Item.3SC2Bai8xZYltwRd",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Az27AaDFEdjl4iT4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HzRI0FjQ4uJE3fS8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ipqCzs5yfdZshALV",
+                "name": "Volatile Mote of Elemental Fire",
+                "nameMode": "exact",
+                "img": "icons/magic/earth/orb-lava-ball-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.JzQ6cKT25UhwnlYM"
+    },
+    {
+      "_id": "U3qK3vDe5Vat4Z5W",
+      "name": "Stone of Controlling Earth Elementals",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Stone of Controlling Earth Elementals",
+        "resultImg": "icons/commodities/stone/engraved-symbol-water-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgStoneOfContro",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3gsQLF6phfAjxla0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "BX1LK6LFc17bbIBM",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.JXKfw1i3zfca4FpO",
+                "name": "Core of Elemental Earth",
+                "nameMode": "exact",
+                "img": "icons/magic/earth/projectile-moonrock-asteroid.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.U3qK3vDe5Vat4Z5W"
+    },
+    {
+      "_id": "8M6DcWhO0u1UJeLA",
+      "name": "Tarrobe (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tarrobe (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Tarrobe_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.pgUGJRiXkg7lio0E",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "syD5Wovss1C3v1nC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "b25K8xAWa7UW56Kw",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jUFUsMaVoPSawVE3",
+                "name": "Volatile Mote of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/orb-water-bubbles-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.8M6DcWhO0u1UJeLA"
+    },
+    {
+      "_id": "FJ1RuEEUPjU9qQ9C",
+      "name": "Tarrobe (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Tarrobe (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Tarrobe_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.jFKBJ3ZoFMcBNCxz",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bb5VGwe8M5XIuohk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "LvZ7FquKAFctryc1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jUFUsMaVoPSawVE3",
+                "name": "Volatile Mote of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/orb-water-bubbles-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.FJ1RuEEUPjU9qQ9C"
+    },
+    {
+      "_id": "G3R3dGL1m95XDslc",
+      "name": "Viscous Symbiote (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Viscous Symbiote (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Vicious_Symbiote_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.WSPvIao9BwGHkBrf",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "t3wqfQyRjBrUh91W",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q1f1KTAP8Qz7JUoI",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.luaMc79eAJ1KJyIF",
+                "name": "Core of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.G3R3dGL1m95XDslc"
+    },
+    {
+      "_id": "mzpgC21YN3gjkN7H",
+      "name": "Viscous Symbiote (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Viscous Symbiote (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Vicious_Symbiote_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.XutG4Is1Fa8DxlUY",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "sggFJ2Te3IO1Ur9a",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Nuc5TbrWSAbbZcfc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.luaMc79eAJ1KJyIF",
+                "name": "Core of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.mzpgC21YN3gjkN7H"
+    },
+    {
+      "_id": "XRJarCqwAqawGCJ9",
+      "name": "Viscous Symbiote (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "resultName": "Viscous Symbiote (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Vicious_Symbiote_3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.IY9CDlEgRAwSWXGi",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "07PWJxbUz5Vhwiy4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1WD1WUEqlJL3EMNO",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.luaMc79eAJ1KJyIF",
+                "name": "Core of Elemental Tar",
+                "nameMode": "exact",
+                "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!PdnJKETHWjAsq4uL.XRJarCqwAqawGCJ9"
+    }
+  ],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

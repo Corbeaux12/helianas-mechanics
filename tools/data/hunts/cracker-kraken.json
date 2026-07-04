@@ -1,0 +1,59 @@
+{
+  "name": "Cracker Kraken",
+  "source": "Release the Kraken (Loot Tavern hunt, APL 5/9/14)",
+  "creatureType": "monstrosity",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Release the Kraken/Release the Kraken (Pages) - v1.1.pdf",
+  "harvest": [
+    { "dc": 10, "components": ["Beak"] },
+    { "dc": 15, "components": ["Heart", "Tentacle"] }
+  ],
+  "components": [
+    { "name": "Cracker Kraken Beak",     "tags": ["beak", "cracker-kraken", "monstrosity"],     "price": 50 },
+    { "name": "Cracker Kraken Heart",    "tags": ["heart", "cracker-kraken", "monstrosity"],    "price": 90 },
+    { "name": "Cracker Kraken Tentacle", "tags": ["tentacle", "cracker-kraken", "monstrosity"], "price": 90 }
+  ],
+  "items": [
+    {
+      "name": "Calamarmour",
+      "itemType": "equipment",
+      "kind": "Armour (light, medium, or heavy)",
+      "component": "Cracker Kraken Tentacle",
+      "baseRecipe": "Leather Armor",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 820 },
+        { "rarity": "rare",      "value": 4110 },
+        { "rarity": "very rare", "value": 11850 }
+      ],
+      "description": "<p><em>Armour (light, medium, or heavy), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (cracker kraken) tentacle</p><p>During the forging process, this armour must be periodically doused with seawater. Once complete, it sometimes releases this water as salty seafoam, which forms into a distinguished moustache or magnificent beard on the face of the wearer. A must-have for any sea captain incapable of growing their own facial hair!</p><p>You have a +1 bonus to AC while wearing this armour.</p><p><strong>Draining Touch.</strong> When a creature touches you or hits you with a melee attack, you can use your reaction to drain some of its moisture. The creature must make a DC 16 Constitution saving throw, taking 3d6 necrotic damage on a failed save, or half as much damage on a successful one. Creatures without body moisture, such as some Undead, Constructs, and Elementals (GM's discretion) take no damage from this property.</p><p><strong>Revitalising Fluids.</strong> While wearing this armour, you can use a bonus action to enhance its absorptive power for 1 minute, using the moisture it drinks in to revitalise yourself. For the duration, you regain 2d6 hit points when you end your turn at least partially submerged in water, and when the Draining Touch property deals damage, you also regain hit points equal to half the damage taken. Once this property of the armour has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13, the damage to 2d6, and the hit points you regain if partially submerged in water to 1d6. Remove the bonus to AC.</p><p><strong>Rare variant:</strong> Reduce the DC to 15. Remove the bonus to AC.</p>"
+    },
+    {
+      "name": "Hyper Soaker",
+      "itemType": "weapon",
+      "kind": "Weapon (any firearm)",
+      "component": "Cracker Kraken Beak",
+      "baseRecipe": "Magitech Firearm",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 450 },
+        { "rarity": "rare",      "value": 1900 },
+        { "rarity": "very rare", "value": 8530 }
+      ],
+      "description": "<p><em>Weapon (any firearm), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity (cracker kraken) beak</p><p>Don't let the name fool you! This strange contraption is not a mere child's toy, but a powerful weapon capable of discharging jets of water at high enough pressure to cut through pure steel. And all it requires in return is for you to give up a tiny smidge of your own vitality. What a deal!</p><p>This weapon doesn't require normal ammunition. Instead of bullets that deal the weapon's normal damage type, it shoots blasts of water that deal bludgeoning damage. Whenever you reload the weapon, you take 1 necrotic damage that can't be reduced or prevented in any way, as the gun drains some of your body's moisture to refill itself.</p><p><strong>Pressure Cutter.</strong> As an action while holding this weapon, you can shoot a thin jet of water in a 100-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 4d6 piercing damage on a failure, or half as much damage on a success. Objects in the line also take this damage. Creatures don't benefit from cover thinner than 2 feet, as the jet of water pierces straight through it. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the piercing damage to 5d6. This weapon deals an extra 1d6 cold damage to the first target it hits on each of your turns.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the piercing damage to 8d6. This weapon deals an extra 1d10 cold damage to the first target it hits on each of your turns.</p>"
+    },
+    {
+      "name": "Torrential Mantle",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Cracker Kraken Heart",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 800 },
+        { "rarity": "rare",      "value": 3440 },
+        { "rarity": "very rare", "value": 11200 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (cracker kraken) heart</p><p>The power of rushing water is not to be underestimated. Crashing waves reduce rock to rubble; inescapable currents pull poor souls to their doom; and rising tides drown entire settlements. Water truly is a force of nature—and now you can be one too.</p><p><strong>Rush of Water.</strong> As a bonus action while wearing this cloak, you can briefly transform into a waterspout and move to an unoccupied space within 30 feet of you without provoking opportunity attacks, after which you transform back into your original form. Each creature within 10 feet of the space you end this move in must make a DC 15 Strength saving throw. On a failed save, a creature is knocked prone as a wave of water crashes down on it. After this property of the cloak has been used, roll a d6. On a 2 or lower, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13, the area of effect to within 5 feet of the space you end the move in, and the d6 to a d4.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. Creatures that make a saving throw against the Rush of Water property also take 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</p>"
+    }
+  ]
+}

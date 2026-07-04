@@ -1,0 +1,552 @@
+{
+  "_id": "pm21t1Sw4iLMljoa",
+  "_key": "!journal!pm21t1Sw4iLMljoa",
+  "name": "Cracker Kraken Recipes",
+  "pages": [
+    {
+      "_id": "bPR3gBLUQ9siRkzp",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Release the Kraken (Loot Tavern hunt, APL 5/9/14)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>10</td><td>Beak</td></tr><tr><td>15</td><td>Heart, Tentacle</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.bnYmKSE3y0jaiPLZ]{Calamarmour (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.BrI6GcSeOREkXKf9]{Calamarmour (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.kRTQLiLqTO5MiKZ7]{Calamarmour (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.y3QmbhNWa6Q6WI9V]{Hyper Soaker (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WpZ5DG1sm9qYGKs4]{Hyper Soaker (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.3XY7OWZVhXPWhVRE]{Hyper Soaker (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.JHv41656xGXb8TEd]{Torrential Mantle (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.aZyuKHvIcfOrwTZE]{Torrential Mantle (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.2wzJl6P7jQ49TmUl]{Torrential Mantle (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.bPR3gBLUQ9siRkzp"
+    },
+    {
+      "_id": "PSb5MHPtb1NqcLSG",
+      "name": "Cracker Kraken (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Release the Kraken/Release the Kraken (Pages) - v1.1.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.PSb5MHPtb1NqcLSG"
+    },
+    {
+      "_id": "B1PDXxnyZnSDDDnU",
+      "name": "Calamarmour (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Calamarmour (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.bnYmKSE3y0jaiPLZ",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BjcKK3M9JftWcoos",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "kyzFHMbOFEyM2Z6N",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.H4sLPBE2hnv3upBn",
+                "name": "Cracker Kraken Tentacle",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tentacle",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.B1PDXxnyZnSDDDnU"
+    },
+    {
+      "_id": "XzOLNN9WpxJqlShZ",
+      "name": "Calamarmour (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Calamarmour (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.BrI6GcSeOREkXKf9",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "wsA7gxyH3Iu9FdiK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4Q7A5fHAunVQLrT2",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.H4sLPBE2hnv3upBn",
+                "name": "Cracker Kraken Tentacle",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tentacle",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.XzOLNN9WpxJqlShZ"
+    },
+    {
+      "_id": "5h0or4onr13E3iDL",
+      "name": "Calamarmour (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Calamarmour (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.kRTQLiLqTO5MiKZ7",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Dqg225CpMNzR68H7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KglcKqd0Xfq1anB1",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.H4sLPBE2hnv3upBn",
+                "name": "Cracker Kraken Tentacle",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tentacle",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.5h0or4onr13E3iDL"
+    },
+    {
+      "_id": "A3D4oimOwM7W1jhg",
+      "name": "Hyper Soaker (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hyper Soaker (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.y3QmbhNWa6Q6WI9V",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PvmfdYqm8GeOGx6S",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "X1G6Qt7lH5b6XVZm",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9gb9q7OyskZAg56V",
+                "name": "Cracker Kraken Beak",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beak",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.A3D4oimOwM7W1jhg"
+    },
+    {
+      "_id": "Nm7fmVF3DhtE7dtf",
+      "name": "Hyper Soaker (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hyper Soaker (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WpZ5DG1sm9qYGKs4",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "I3AReRMSZ5aipKZX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "B0VLnzbnubOyrkxc",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9gb9q7OyskZAg56V",
+                "name": "Cracker Kraken Beak",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beak",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.Nm7fmVF3DhtE7dtf"
+    },
+    {
+      "_id": "G1Aza2C5LG3xifzY",
+      "name": "Hyper Soaker (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hyper Soaker (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.3XY7OWZVhXPWhVRE",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6qCVV9QT1kJrH1E8",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lGxlabWEZkVgz8hj",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9gb9q7OyskZAg56V",
+                "name": "Cracker Kraken Beak",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beak",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.G1Aza2C5LG3xifzY"
+    },
+    {
+      "_id": "cnPZNvV4fY2Ebvtz",
+      "name": "Torrential Mantle (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Torrential Mantle (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.JHv41656xGXb8TEd",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JtWlnsTP9D3paco5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WCD4NG3kY5zwQF9V",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.VbxjXKA2t2BF7eFC",
+                "name": "Cracker Kraken Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.cnPZNvV4fY2Ebvtz"
+    },
+    {
+      "_id": "hULm2F1Q5aKBbuV4",
+      "name": "Torrential Mantle (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Torrential Mantle (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.aZyuKHvIcfOrwTZE",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rnTDaZEOf1D447wJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "y8ir4d5iQXruDd5H",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.VbxjXKA2t2BF7eFC",
+                "name": "Cracker Kraken Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.hULm2F1Q5aKBbuV4"
+    },
+    {
+      "_id": "gCTJ4Bm2BFLaMHpM",
+      "name": "Torrential Mantle (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Torrential Mantle (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.2wzJl6P7jQ49TmUl",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ptZtwDx4RTBWzERQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "LW7WPVyEZVezZhEF",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.VbxjXKA2t2BF7eFC",
+                "name": "Cracker Kraken Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "cracker-kraken",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!pm21t1Sw4iLMljoa.gCTJ4Bm2BFLaMHpM"
+    }
+  ],
+  "folder": null,
+  "sort": 10100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
