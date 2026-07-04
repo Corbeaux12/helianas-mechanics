@@ -1,0 +1,42 @@
+{
+  "_id": "z2qlcrxSvsVLf1t6",
+  "_key": "!items!z2qlcrxSvsVLf1t6",
+  "name": "Bloodhound Hunt Notes",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Field notes on hunting and harvesting the bloodhound, with crafting recipes for its unique items.</p><p>Source: The Twilight Hunter (Loot Tavern hunt, APL 3/7/12)</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "isRecipeBook": true,
+      "recipeBookJournalUuid": "Compendium.helianas-mechanics.recipe-collections.JournalEntry.CaMe16dp2exnllBz"
+    }
+  }
+}

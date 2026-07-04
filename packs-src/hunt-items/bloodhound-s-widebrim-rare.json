@@ -1,0 +1,37 @@
+{
+  "_id": "Meyv7Me85u36g6m4",
+  "_key": "!items!Meyv7Me85u36g6m4",
+  "name": "Bloodhound's Widebrim (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Construct (bloodhound) pelt</p><p>Adorned with the teeth of a bloodhound and the feathers of a falcon, this ragged hat honours some of the most tenacious trackers in the animal kingdom and calls upon their gifts in the service of monster hunters far and wide. Wisps of crimson occasionally form in the eyes of its wearer, only to fade a moment later.</p><p>This hat has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Hunter's Spirit.</strong> As an action while wearing this hat, you can expend 1 charge to summon a spectral red hunter to your side for 1 hour or until you dismiss it as a bonus action. This hunter takes the form of either a bloodhound or a falcon (your choice), doesn't occupy its space, can't interact physically with creatures or objects, and never leaves your side. As a bonus action, you can make the hunter invisible to all creatures but you, or visible again.</p><ul><li><strong>Bloodhound.</strong> When you make a Perception check that relies on smell, you can do so through your spectral companion, gaining advantage on the check. In addition, you can track a scent whose origin is up to 1 mile away.</li><li><strong>Falcon.</strong> When you make a Perception check that relies on sight, you can do so through your spectral companion, gaining advantage on the check. In addition, you can see clearly up to 3 miles away, as long as no obstructions are present, and make out small details of objects or creatures at that distance.</li></ul><p><strong>Rare variant:</strong> The item has the Sic 'Em property.</p><p><strong>Sic 'Em.</strong> As a bonus action while the spectral hunter is summoned, you can order it to attack a creature of your choice that you can see within 30 feet of you. Make a ranged spell attack against the target (+7 to hit). The effects of the attack depend on the form of the spectral hunter, which disappears after the effect ends.</p><ul><li><strong>Bloodhound.</strong> On a hit, the attack deals 5d4 force damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone and have a speed of 0 feet until the end of its next turn, as the bloodhound holds it in place.</li><li><strong>Falcon.</strong> On a hit, the attack deals 2d4 force damage, and the target must succeed on a DC 15 Dexterity saving throw or be blinded until the end of its next turn, as the falcon claws at its eyes.</li></ul><p><strong>Very rare variant:</strong> The bloodhound can track a scent up to 10 miles away and the falcon can see up to 30 miles away. The item has the Sic 'Em property; increase the attack modifier to +8, the save DCs to 16, Bloodhound's damage to 10d6, and the Falcon's damage to 6d6.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 2600,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

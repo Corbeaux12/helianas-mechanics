@@ -1,0 +1,45 @@
+{
+  "_id": "c2mZGaKbuKQQe4u5",
+  "_key": "!items!c2mZGaKbuKQQe4u5",
+  "name": "Bloodhound Bone",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a bloodhound (construct). See The Twilight Hunter (Loot Tavern hunt, APL 3/7/12).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 30,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "bone",
+        "bloodhound",
+        "construct"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Bloodhound",
+  "source": "The Twilight Hunter (Loot Tavern hunt, APL 3/7/12)",
+  "creatureType": "construct",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Twilight Hunter/The Twilight Hunter - Version 1.2 PAGES.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Phial of blood (∞, edible)"] },
+    { "dc": 10, "components": ["Bone (10)"] },
+    { "dc": 15, "components": ["Claw (2)"] },
+    { "dc": 20, "components": ["Pelt (1)"] }
+  ],
+  "components": [
+    { "name": "Phial of Bloodhound Blood",    "tags": ["blood", "bloodhound", "construct"], "price": 15 },
+    { "name": "Bloodhound Bone",              "tags": ["bone", "bloodhound", "construct"],  "price": 30 },
+    { "name": "Bloodhound Claw",              "tags": ["claw", "bloodhound", "construct"],  "price": 70 },
+    { "name": "Bloodhound Pelt",              "tags": ["pelt", "bloodhound", "construct"],  "price": 110 },
+    { "name": "Pouch of Bloodhound Teeth",    "tags": ["teeth", "bloodhound", "construct"], "price": 40 }
+  ],
+  "items": [
+    {
+      "name": "Bloodhound's Caress",
+      "itemType": "weapon",
+      "kind": "Weapon (claw)",
+      "component": "Bloodhound Claw",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 350 },
+        { "rarity": "rare",      "value": 1350 },
+        { "rarity": "very rare", "value": 6300 }
+      ],
+      "description": "<p><em>Weapon (claw), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Construct (bloodhound) claw</p><p>The Bloodhounds, an enigmatic order of monster hunters, track their quarry by the scent of their spilled blood. The bloodhound's caress is designed to draw blood from its victims, ensuring a trail of blood can be followed back to the victim's lair, where any young can be dispatched before they grow to be menaces.</p><p>This claw has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Arterial Slash.</strong> When you hit a creature with an attack using this weapon, you can expend 1 charge to attempt to slice a crucial blood vessel, forcing the creature to make a DC 13 Constitution saving throw. On a failed save, the creature begins to bleed profusely for 1 minute. While bleeding, the creature takes 1d6 slashing damage at the end of each of its turns, and any time it regains any hit points, it regains only half as many. A creature without blood automatically succeeds on this saving throw. A creature can end this effect on itself or a willing creature within 5 feet of it by using its action to make a successful DC 13 Wisdom (Medicine) check.</p><p><strong>Rare variant:</strong> Increase the charges to 6, the recharge to 1d4 + 2, the DCs to 15, and the damage to 1d10.</p><p><strong>Very rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, the DCs to 16, and the damage to 2d6.</p>"
+    },
+    {
+      "name": "Bloodhound's Immobiliser",
+      "itemType": "weapon",
+      "kind": "Weapon (any firearm)",
+      "components": ["Bloodhound Bone", "Pouch of Bloodhound Teeth"],
+      "baseRecipe": "Magitech Firearm",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 320 },
+        { "rarity": "rare",      "value": 1400 },
+        { "rarity": "very rare", "value": 6500 }
+      ],
+      "description": "<p><em>Weapon (any firearm), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Construct (bloodhound) bone, pouch of Construct (bloodhound) teeth</p><p>The Bloodhounds are not just hack-and-slash monster hunters; they're experts on monster habits, anatomy, and harvesting. This nail gun grants these hunters the ability to immobilise their prey, allowing the horrors to be studied in greater detail. The more experienced the bloodhound, the more decrepit their firearm; whenever a foe of especially great might is felled by the gun, a notch spontaneously forms on its dark metal.</p><p>This firearm has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Dead Stop.</strong> A special chamber within the firearm is loaded with sharp iron nails rather than normal ammunition. Once on each of your turns when you make an attack against a creature with this weapon, you can expend 1 charge to fire a nail instead, which magically increases in size to become a 9-inch-long metal spike, dealing an extra 1d6 piercing damage on a hit.</p><p>In addition, if the target is a Large or smaller creature that isn't immune to the grappled or restrained conditions, it must succeed on a DC 13 Strength saving throw or be pinned against an adjacent surface (GM's discretion). If there's no surface to pin the creature to, it automatically succeeds on this saving throw. While pinned in this way, the creature's speed is 0 feet. A creature within 5 feet of the pinned creature (including itself) can use an action to make a DC 13 Strength (Athletics) check, removing the spike and freeing the creature on a success.</p><p><strong>Rare variant:</strong> Increase the charges to 6, the recharge to 1d6, the extra piercing damage to 2d6, and the DCs to 15.</p><p><strong>Very rare variant:</strong> Increase the total number of charges to 8, the recharge to 1d8, the extra piercing damage to 3d6, and the DCs to 16.</p>"
+    },
+    {
+      "name": "Bloodhound's Widebrim",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Bloodhound Pelt",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 550 },
+        { "rarity": "rare",      "value": 2600 },
+        { "rarity": "very rare", "value": 9900 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Construct (bloodhound) pelt</p><p>Adorned with the teeth of a bloodhound and the feathers of a falcon, this ragged hat honours some of the most tenacious trackers in the animal kingdom and calls upon their gifts in the service of monster hunters far and wide. Wisps of crimson occasionally form in the eyes of its wearer, only to fade a moment later.</p><p>This hat has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Hunter's Spirit.</strong> As an action while wearing this hat, you can expend 1 charge to summon a spectral red hunter to your side for 1 hour or until you dismiss it as a bonus action. This hunter takes the form of either a bloodhound or a falcon (your choice), doesn't occupy its space, can't interact physically with creatures or objects, and never leaves your side. As a bonus action, you can make the hunter invisible to all creatures but you, or visible again.</p><ul><li><strong>Bloodhound.</strong> When you make a Perception check that relies on smell, you can do so through your spectral companion, gaining advantage on the check. In addition, you can track a scent whose origin is up to 1 mile away.</li><li><strong>Falcon.</strong> When you make a Perception check that relies on sight, you can do so through your spectral companion, gaining advantage on the check. In addition, you can see clearly up to 3 miles away, as long as no obstructions are present, and make out small details of objects or creatures at that distance.</li></ul><p><strong>Rare variant:</strong> The item has the Sic 'Em property.</p><p><strong>Sic 'Em.</strong> As a bonus action while the spectral hunter is summoned, you can order it to attack a creature of your choice that you can see within 30 feet of you. Make a ranged spell attack against the target (+7 to hit). The effects of the attack depend on the form of the spectral hunter, which disappears after the effect ends.</p><ul><li><strong>Bloodhound.</strong> On a hit, the attack deals 5d4 force damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone and have a speed of 0 feet until the end of its next turn, as the bloodhound holds it in place.</li><li><strong>Falcon.</strong> On a hit, the attack deals 2d4 force damage, and the target must succeed on a DC 15 Dexterity saving throw or be blinded until the end of its next turn, as the falcon claws at its eyes.</li></ul><p><strong>Very rare variant:</strong> The bloodhound can track a scent up to 10 miles away and the falcon can see up to 30 miles away. The item has the Sic 'Em property; increase the attack modifier to +8, the save DCs to 16, Bloodhound's damage to 10d6, and the Falcon's damage to 6d6.</p>"
+    },
+    {
+      "name": "Cranium Rat Cowl",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Beast Brain",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 500 },
+        { "rarity": "rare",      "value": 2600 },
+        { "rarity": "very rare", "value": 9000 },
+        { "rarity": "legendary", "value": 30000 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare / legendary (requires attunement)</em></p><p><strong>Component:</strong> Beast (Small or Tiny) brain</p><p>From the pelt and brain of a cranium rat is crafted this morbidly cute headgear. During 'The Occupation', such cowls were worn as a means of avoiding detection by the hive-minded, telepathic bjorg, a race bent on subjugating all free thought. The Night Hospitaller would ferry escapees across bjorg lines before delivering them to an underground steam-powered locomotive.</p><p><strong>Illumination.</strong> As a bonus action while you wear the cowl, you can cause it to shed bright light in a radius of up to 20 feet and dim light for an additional number of feet equal to the chosen radius, or extinguish the light.</p><p><strong>Psionics.</strong> While you wear this cowl, you can cast the following spells (save DC 15): <em>command</em>, <em>comprehend languages</em>, and <em>detect thoughts</em>. After you cast a spell in this way, roll a d8. If you roll equal to or lower than the spell's level, this property can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the die of the Psionics property to a d4. Remove the <em>detect thoughts</em> spell from the list.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. Add <em>confusion</em> and <em>dominate person</em> to the spells that can be cast with the Psionics property. The item has the Telepathic Shroud property.</p><p><strong>Telepathic Shroud.</strong> While wearing the cowl, you are immune to any effect that would sense your emotions, read your thoughts, determine whether you are lying, or know your alignment.</p><p><strong>Legendary variant:</strong> Increase the DC to 18 and the die of the Psionics property to a d10. Add <em>confusion</em>, <em>dominate person</em>, and <em>dominate monster</em> to the spells that can be cast with the Psionics property. While wearing the cowl, you have advantage on saving throws against divination spells. The item has the Telepathic Shroud property.</p>"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "WUDJexmPEZcnCYV7",
+  "_key": "!items!WUDJexmPEZcnCYV7",
+  "name": "Herculean Horn (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (lance), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity horn</p><p>Hardened by alchemical processes and complex enchantments alike, the chitinous tip of this lance, fashioned in the likeness of the hercules beetle, has been known to perforate inch-thick plates of pure adamantine.</p><p>This lance has 2 charges and regains all expended charges daily at dawn.</p><p><strong>Aerial Agility.</strong> You only need one hand to wield this lance if you're flying. Additionally, if you fly at least 15 feet straight toward a target and immediately attack it using this lance, you gain advantage on the attack roll.</p><p><strong>Slinging Scarab.</strong> When you hit a Medium or smaller creature with an attack using this lance, you can expend 1 charge to try to throw it behind you, forcing the creature to make a DC 15 Strength saving throw. On a failed save, the creature is tossed onto an unoccupied space within 15 feet of you and lands prone.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13. The lance doesn't have the Aerial Agility property.</p><p><strong>Very rare variant:</strong> Increase the charges to 5 and the DC to 16. You can use the Slinging Scarab property on Large or smaller creatures.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "53K4ohUdyXwaZJC2",
+  "_key": "!items!53K4ohUdyXwaZJC2",
+  "name": "Beetle Buckler (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (shield), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Scarab) carapace</p><p>Carved from hardened chitin, this robust shield is easily mistaken for a large beetle; the sublime fey craftsmanship is augmented by enchantments that cause the wings to buzz and flutter. These animate wings provide both enhanced defensive capabilities and a means of flitting across thorny battlefields.</p><p>This shield has 4 charges and regains all expended charges daily at dawn.</p><p><strong>Under Wing.</strong> While wielding this shield, when a creature you can see hits a target other than you that is within 5 feet of you with an attack, you can use your reaction and expend 1 charge to have the shield open its wings in front of the target, giving it a +2 bonus to AC against that attack and potentially causing it to miss.</p><p><strong>Soaring Scarab.</strong> You can speak this shield's command word to don it or doff it as a bonus action. When you doff the shield in this manner, you can cause it to attach to your back and spread its wings, granting you a flying speed of 15 feet on your turn only, as long as you and anything you're wearing or carrying don't weigh over 400 pounds.</p><p><strong>Uncommon variant:</strong> The shield doesn't have the Soaring Scarab property.</p><p><strong>Very rare variant:</strong> Increase the charges to 6, the flying speed to 30 feet, and the weight limit to 800 pounds.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

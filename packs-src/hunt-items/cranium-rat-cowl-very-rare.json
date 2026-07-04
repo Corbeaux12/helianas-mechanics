@@ -1,0 +1,37 @@
+{
+  "_id": "GGsJPGXITsh5T3iW",
+  "_key": "!items!GGsJPGXITsh5T3iW",
+  "name": "Cranium Rat Cowl (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare / legendary (requires attunement)</em></p><p><strong>Component:</strong> Beast (Small or Tiny) brain</p><p>From the pelt and brain of a cranium rat is crafted this morbidly cute headgear. During 'The Occupation', such cowls were worn as a means of avoiding detection by the hive-minded, telepathic bjorg, a race bent on subjugating all free thought. The Night Hospitaller would ferry escapees across bjorg lines before delivering them to an underground steam-powered locomotive.</p><p><strong>Illumination.</strong> As a bonus action while you wear the cowl, you can cause it to shed bright light in a radius of up to 20 feet and dim light for an additional number of feet equal to the chosen radius, or extinguish the light.</p><p><strong>Psionics.</strong> While you wear this cowl, you can cast the following spells (save DC 15): <em>command</em>, <em>comprehend languages</em>, and <em>detect thoughts</em>. After you cast a spell in this way, roll a d8. If you roll equal to or lower than the spell's level, this property can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the die of the Psionics property to a d4. Remove the <em>detect thoughts</em> spell from the list.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. Add <em>confusion</em> and <em>dominate person</em> to the spells that can be cast with the Psionics property. The item has the Telepathic Shroud property.</p><p><strong>Telepathic Shroud.</strong> While wearing the cowl, you are immune to any effect that would sense your emotions, read your thoughts, determine whether you are lying, or know your alignment.</p><p><strong>Legendary variant:</strong> Increase the DC to 18 and the die of the Psionics property to a d10. Add <em>confusion</em>, <em>dominate person</em>, and <em>dominate monster</em> to the spells that can be cast with the Psionics property. While wearing the cowl, you have advantage on saving throws against divination spells. The item has the Telepathic Shroud property.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 9000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,570 @@
+{
+  "_id": "Ykd9r7jOn8gv5yx9",
+  "_key": "!journal!Ykd9r7jOn8gv5yx9",
+  "name": "Jörmungummdr Recipes",
+  "pages": [
+    {
+      "_id": "Ya3jO4BWnBBtu1uY",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Ascent of the Sour Serpent (Loot Tavern hunt, APL 3/7/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Blood syrup (1)</td></tr><tr><td>10</td><td>Gummy scales (3)</td></tr><tr><td>15</td><td>Wafer spine (1)</td></tr><tr><td>20</td><td>Gummy heart (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.SMXxvH5YyMsuK6sz]{Crystal Candy Sword (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.GbLlE2l5y5bX3ZhO]{Crystal Candy Sword (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.tmyW4blqEWavedCx]{Crystal Candy Sword (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.tg1XhqfCRGZbGzkC]{Wafer Shield of Sliding (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.1BDDbufr6Vb44rgk]{Wafer Shield of Sliding (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.rV2meeF8QEIsviud]{Gummythral Breastplate (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.rUM45U2FunfTXfz1]{Gummythral Breastplate (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WPPh6Rtud1wxVIx6]{Gummythral Breastplate (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.Ya3jO4BWnBBtu1uY"
+    },
+    {
+      "_id": "DcHu5Ib4ZQ3FBIzk",
+      "name": "Jörmungummdr (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Ascent of the Sour Serpant/Ascent of the Sour Serpent v1.3 - PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.DcHu5Ib4ZQ3FBIzk"
+    },
+    {
+      "_id": "2dquMkyvrTUoi5zX",
+      "name": "Crystal Candy Sword (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Crystal Candy Sword (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.SMXxvH5YyMsuK6sz",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "UJCxhLwJVK4lwqCP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PxYZo1V4wNMTJnfp",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.pUrHPQ7ci3Sx3kfp",
+                "name": "Phial of Jörmungummdr Blood Syrup",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood",
+                  "syrup",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.2dquMkyvrTUoi5zX"
+    },
+    {
+      "_id": "HZUC8kttgBBJCoUe",
+      "name": "Crystal Candy Sword (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Crystal Candy Sword (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.GbLlE2l5y5bX3ZhO",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mi3FzxeIuJItN6ps",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0GOpS6hjBNyt89BL",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.pUrHPQ7ci3Sx3kfp",
+                "name": "Phial of Jörmungummdr Blood Syrup",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood",
+                  "syrup",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.HZUC8kttgBBJCoUe"
+    },
+    {
+      "_id": "R3gFhQDcuE4ZH2cP",
+      "name": "Crystal Candy Sword (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Crystal Candy Sword (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.tmyW4blqEWavedCx",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MFVqrA5brSCGQx0D",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "DNGveODAIFFML8Ej",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.pUrHPQ7ci3Sx3kfp",
+                "name": "Phial of Jörmungummdr Blood Syrup",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "blood",
+                  "syrup",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.R3gFhQDcuE4ZH2cP"
+    },
+    {
+      "_id": "QcTJq3vVjqKEKMlb",
+      "name": "Wafer Shield of Sliding (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Wafer Shield of Sliding (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.tg1XhqfCRGZbGzkC",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7d6TzZUKcQ9hDr9x",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "cMJW6BYGiZ7EIU2H",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2VBQonRrPkYy2aFO",
+                "name": "Jörmungummdr Wafer Spine",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spine",
+                  "wafer",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.QcTJq3vVjqKEKMlb"
+    },
+    {
+      "_id": "etuaHCmWZ3p3zIlf",
+      "name": "Wafer Shield of Sliding (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Wafer Shield of Sliding (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.1BDDbufr6Vb44rgk",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KhXQ3Zd3za4DkSdZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SniJtBbAKgJiAw4p",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2VBQonRrPkYy2aFO",
+                "name": "Jörmungummdr Wafer Spine",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "spine",
+                  "wafer",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.etuaHCmWZ3p3zIlf"
+    },
+    {
+      "_id": "fy5o941AytptHtF6",
+      "name": "Gummythral Breastplate (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gummythral Breastplate (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.rV2meeF8QEIsviud",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6nGuMA6yV3PwgfNj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aWMI1k4GLSrkVKBm",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.q2gPuW4e5LaO5mfy",
+                "name": "Jörmungummdr Gummy Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "gummy",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "9gQTrvedhojfY0le",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yLIIRew32jqXBHgw",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ZLrI0pZp1V3HAVfd",
+                "name": "Pouch of Jörmungummdr Gummy Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "scales",
+                  "gummy",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.fy5o941AytptHtF6"
+    },
+    {
+      "_id": "5mAFynI1N7SFDEuN",
+      "name": "Gummythral Breastplate (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gummythral Breastplate (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.rUM45U2FunfTXfz1",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "dBg58uvU0dC2y1j2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pkcU31JLfCQrhuJp",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.q2gPuW4e5LaO5mfy",
+                "name": "Jörmungummdr Gummy Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "gummy",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "hKF74eHTuo8I4Bcd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QzmNWaoAS8fbGUzT",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ZLrI0pZp1V3HAVfd",
+                "name": "Pouch of Jörmungummdr Gummy Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "scales",
+                  "gummy",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.5mAFynI1N7SFDEuN"
+    },
+    {
+      "_id": "gaX66V3fevGbTGJH",
+      "name": "Gummythral Breastplate (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gummythral Breastplate (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WPPh6Rtud1wxVIx6",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Gy8lBxiRX75C1egE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "BXjAS6I1QEEisUNX",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.q2gPuW4e5LaO5mfy",
+                "name": "Jörmungummdr Gummy Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "gummy",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "bgj9ZEBjklDup0OO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aWGBBWGSVntofVAR",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ZLrI0pZp1V3HAVfd",
+                "name": "Pouch of Jörmungummdr Gummy Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "scales",
+                  "gummy",
+                  "jormungummdr",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Ykd9r7jOn8gv5yx9.gaX66V3fevGbTGJH"
+    }
+  ],
+  "folder": null,
+  "sort": 10400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

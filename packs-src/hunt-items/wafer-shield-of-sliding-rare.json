@@ -1,0 +1,37 @@
+{
+  "_id": "1BDDbufr6Vb44rgk",
+  "_key": "!items!1BDDbufr6Vb44rgk",
+  "name": "Wafer Shield of Sliding (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (shield), uncommon / rare (requires attunement)</em></p><p><strong>Component:</strong> dragon (jörmungummdr) wafer spine</p><p>Contrived as a means of quickly navigating the Grand Bakery of Babaganoush, wafer shields that surf on their torrents of icing have become an increasingly common occurrence.</p><p><strong>Sugar Slide.</strong> As a bonus action while wielding this shield, you can doff it, throw it to the ground, and jump atop it as it spouts a torrent of magical icing. For 1 minute or until you use a bonus action to hop off the shield and don it once more, you move by riding the shield, which glides on the icing it produces at a speed equal to your walking speed. While moving in this way, you don't provoke opportunity attacks, and if you travel 20 feet in a straight line towards a creature and then immediately hit it with a melee weapon attack, the creature must succeed on a DC 13 Strength saving throw or be knocked prone.</p><p>Once this property of the shield has been used, roll a d4. On a 1 or 2, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the DC to 15. The item has the Hot Chocolate property.</p><p><strong>Hot Chocolate.</strong> Whilst surfing on the shield, you splash scalding hot chocolate to either side. When you move within 5 feet of another creature, it must succeed on a DC 15 Dexterity saving throw or take 1d8 fire damage. A creature can only take this damage once on each turn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 4390,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

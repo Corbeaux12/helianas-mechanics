@@ -1,0 +1,37 @@
+{
+  "_id": "8XrhqYGOy6s95TXN",
+  "_key": "!items!8XrhqYGOy6s95TXN",
+  "name": "Cloak of the Moth Rider (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Adelifae) wings</p><p>The reclusive giant moths of the Plane of Fey are a perfect representation of the mysterious, gloomy whimsy of their home plane and this cloak, made from their fur, is a rare treasure. To slay one of these noble beasts is a nigh unforgivable offence to the unseelie fey. However, for a giant moth to willingly bestow its fur to a creature is a tremendous honour, and a sign of the friendship of the fey.</p><p><strong>Flight of the Giant Moth.</strong> As an action while wearing this cloak, you can cause it to transform into a giant moth, which appears in an unoccupied space of your choice within 5 feet of you. The moth is friendly to you and your companions, it obeys your verbal commands, and it disappears after 1 hour, if you dismiss it as an action, or when it drops to 0 hit points, at which point it transforms back into the cloak. Once this property of the cloak is used, it can't be used again until the next dawn.</p><p><strong>Fearsome Visage.</strong> While wearing this cloak, you have advantage on Intimidation checks. Additionally, you can use an action to cause the pattern on the cloak to shift into the shape of a terrifying face and animate it as you desire. When you do, you can cast the <em>fear</em> spell (save DC 15), targeting each creature of your choice that can see you within 15 feet of you, instead of those in a 30-foot cone. Once this spell is cast in this way, it can't be cast again until the next dawn.</p><p><strong>Uncommon variant:</strong> The item doesn't have the Fearsome Visage property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. Casting the <em>fear</em> spell using the cloak doesn't require concentration.</p><p><em>Giant Moth: Large fey, AC 14, HP 59 (7d10+21), Speed 30 ft., climb 30 ft., fly 60 ft.; STR 16 DEX 18 CON 16 INT 10 WIS 15 CHA 13; Saves Dex +6, Wis +4, Cha +3; Perception +6; darkvision 120 ft.; understands Common and Sylvan; CR 2. Spider Climb. Bite: +6 to hit, reach 5 ft., 11 (2d6+4) piercing.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3800,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

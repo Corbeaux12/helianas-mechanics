@@ -1,0 +1,46 @@
+{
+  "_id": "pUrHPQ7ci3Sx3kfp",
+  "_key": "!items!pUrHPQ7ci3Sx3kfp",
+  "name": "Phial of Jörmungummdr Blood Syrup",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a jörmungummdr (dragon). See Ascent of the Sour Serpent (Loot Tavern hunt, APL 3/7/12).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 20,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "blood",
+        "syrup",
+        "jormungummdr",
+        "dragon"
+      ]
+    }
+  }
+}

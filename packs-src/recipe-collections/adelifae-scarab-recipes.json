@@ -1,0 +1,1050 @@
+{
+  "_id": "lxgOGaZNz5TJVWFP",
+  "_key": "!journal!lxgOGaZNz5TJVWFP",
+  "name": "Adelifae & Scarab Recipes",
+  "pages": [
+    {
+      "_id": "NTIp56NgKDqFlqZ9",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Garden of Dark Delights (Loot Tavern hunt, APL 3/7/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>15</td><td>Adelifae: Proboscis (1); Scarab: Horn (1)</td></tr><tr><td>20</td><td>Adelifae: Wings (1); Scarab: Carapace (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.53K4ohUdyXwaZJC2]{Beetle Buckler (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.qkS8rNJwQzq6H7eY]{Beetle Buckler (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.p9V1Htc9mLIsJfJt]{Beetle Buckler (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.rEXLwApsQGDurMLV]{Cloak of the Moth Rider (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.8XrhqYGOy6s95TXN]{Cloak of the Moth Rider (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Hy0x6PR03a0EoTHY]{Cloak of the Moth Rider (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.g55F6szMEYDsFPtI]{Flutterblade (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.0kY6kkrFY0mhpXgY]{Flutterblade (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Ifvqqd9KBKzWIu7v]{Flutterblade (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.e2ur37E808wkcMLD]{Kabuto (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.19QngSugAPXnGjjt]{Kabuto (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.lCmDnyZeBZ8DOkWg]{Kabuto (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WUDJexmPEZcnCYV7]{Herculean Horn (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.J02vgB88EcJkSQOF]{Herculean Horn (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.henBvAkTDchYRprd]{Herculean Horn (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.UWeny8LJa0AQDs8M]{Silkspun Lantern (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.2dvaN1PHf2GpUwwa]{Silkspun Lantern (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.98yBln2wcm9NE2jD]{Silkspun Lantern (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.NTIp56NgKDqFlqZ9"
+    },
+    {
+      "_id": "DpHev3Nasc3wasqM",
+      "name": "Adelifae & Scarab (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Garden of Dark Delights/Garden of Dark Delights - v1.5 - PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.DpHev3Nasc3wasqM"
+    },
+    {
+      "_id": "a8ODQCpG8cxNVH3T",
+      "name": "Beetle Buckler (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Beetle Buckler (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.53K4ohUdyXwaZJC2",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Gbs22IEELJWcdsgI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Jzek4C6DyWvwt2Za",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.5gkxYgtNJZDqsM8n",
+                "name": "Scarab Carapace",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "carapace",
+                  "scarab",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.a8ODQCpG8cxNVH3T"
+    },
+    {
+      "_id": "5O2uPmdQfp630p9O",
+      "name": "Beetle Buckler (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Beetle Buckler (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.qkS8rNJwQzq6H7eY",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "C9xlN977e2Lvyew6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "NykrjYBDcsrElGfu",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.5gkxYgtNJZDqsM8n",
+                "name": "Scarab Carapace",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "carapace",
+                  "scarab",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.5O2uPmdQfp630p9O"
+    },
+    {
+      "_id": "SVzjGIetaKNQ0yHK",
+      "name": "Beetle Buckler (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Beetle Buckler (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.p9V1Htc9mLIsJfJt",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GMxXgDeEAvJU27G9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "i18c4X0ZBDRgUNzq",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.5gkxYgtNJZDqsM8n",
+                "name": "Scarab Carapace",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "carapace",
+                  "scarab",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.SVzjGIetaKNQ0yHK"
+    },
+    {
+      "_id": "wVFA3BkMJ90VuT36",
+      "name": "Cloak of the Moth Rider (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cloak of the Moth Rider (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.rEXLwApsQGDurMLV",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "v7xduPJ9uhmtuHPF",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xNW6wPSNHOT5I4TI",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.WUMVfMq8oXs0E2zh",
+                "name": "Adelifae Wings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wings",
+                  "adelifae",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.wVFA3BkMJ90VuT36"
+    },
+    {
+      "_id": "7Nhr8AoDdul1JhiJ",
+      "name": "Cloak of the Moth Rider (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cloak of the Moth Rider (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.8XrhqYGOy6s95TXN",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "D6pUniSymeggJEWa",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "D2dZmHVIIX3QiCe1",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.WUMVfMq8oXs0E2zh",
+                "name": "Adelifae Wings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wings",
+                  "adelifae",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.7Nhr8AoDdul1JhiJ"
+    },
+    {
+      "_id": "nc7jhz0PV8jCrz9S",
+      "name": "Cloak of the Moth Rider (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cloak of the Moth Rider (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Hy0x6PR03a0EoTHY",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6WDupC3yoAdZ0qhE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "s8CMar707iyXGawx",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.WUMVfMq8oXs0E2zh",
+                "name": "Adelifae Wings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wings",
+                  "adelifae",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.nc7jhz0PV8jCrz9S"
+    },
+    {
+      "_id": "fnbcKrQpBuF4XkHV",
+      "name": "Flutterblade (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Flutterblade (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.g55F6szMEYDsFPtI",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DooJqQKh3dO8VSPe",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5JtALr7FjUSYWdyd",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.C1dB8XJPhl3profn",
+                "name": "Adelifae Proboscis",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "proboscis",
+                  "adelifae",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.fnbcKrQpBuF4XkHV"
+    },
+    {
+      "_id": "aLePedN79zmcVnaj",
+      "name": "Flutterblade (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Flutterblade (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.0kY6kkrFY0mhpXgY",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hCk5bJwfcyFaaFZR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MzVtJgfdSjlUDcPm",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.C1dB8XJPhl3profn",
+                "name": "Adelifae Proboscis",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "proboscis",
+                  "adelifae",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.aLePedN79zmcVnaj"
+    },
+    {
+      "_id": "n0UkzDRBZIhoVIV1",
+      "name": "Flutterblade (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Flutterblade (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Ifvqqd9KBKzWIu7v",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "isQdccWQFsOrnfZ3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "DobJ7pSYa6F7hRAC",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.C1dB8XJPhl3profn",
+                "name": "Adelifae Proboscis",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "proboscis",
+                  "adelifae",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.n0UkzDRBZIhoVIV1"
+    },
+    {
+      "_id": "XSO3GEyumxTGSz8T",
+      "name": "Kabuto (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Kabuto (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.e2ur37E808wkcMLD",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ugW4szLC5uOl6vSZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "FdHdEra29ZpiyWic",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.DFpyuUO3Qi0wlJOa",
+                "name": "Scarab Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "horn",
+                  "scarab",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.XSO3GEyumxTGSz8T"
+    },
+    {
+      "_id": "6d1BtPlZLmWGqLaP",
+      "name": "Kabuto (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Kabuto (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.19QngSugAPXnGjjt",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OwyXvor7vFvU58yA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GPcH5kNfcmOnQvAx",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.DFpyuUO3Qi0wlJOa",
+                "name": "Scarab Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "horn",
+                  "scarab",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.6d1BtPlZLmWGqLaP"
+    },
+    {
+      "_id": "HKI1xYJJoQ8VZ0eb",
+      "name": "Kabuto (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Kabuto (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.lCmDnyZeBZ8DOkWg",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "HRCGXuTip4HDvurx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MUWyWORBuq06DRoT",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.DFpyuUO3Qi0wlJOa",
+                "name": "Scarab Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "horn",
+                  "scarab",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.HKI1xYJJoQ8VZ0eb"
+    },
+    {
+      "_id": "S419Kf6hS2dIgpDO",
+      "name": "Herculean Horn (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Herculean Horn (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WUDJexmPEZcnCYV7",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YV52QcqlI6aKfBrC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zOCaEnsvnIPvbjxf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.4uUFCJoP8b0h4l6o",
+                "name": "Monstrosity Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.S419Kf6hS2dIgpDO"
+    },
+    {
+      "_id": "jRV4zBKLH9KVv9RX",
+      "name": "Herculean Horn (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Herculean Horn (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.J02vgB88EcJkSQOF",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OvvKLQv4Kj26mMYe",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "kQ8c6KF6kpwHL1Us",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.4uUFCJoP8b0h4l6o",
+                "name": "Monstrosity Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.jRV4zBKLH9KVv9RX"
+    },
+    {
+      "_id": "wLPi6v184uXyHL8P",
+      "name": "Herculean Horn (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Herculean Horn (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.henBvAkTDchYRprd",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "XxwuYP1h8NS9x66c",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jm2dc0tZDoBsdzPP",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.4uUFCJoP8b0h4l6o",
+                "name": "Monstrosity Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.wLPi6v184uXyHL8P"
+    },
+    {
+      "_id": "u8NXWKdwV7xuQCnt",
+      "name": "Silkspun Lantern (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Silkspun Lantern (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.UWeny8LJa0AQDs8M",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "oKi7dH8R16JKxeJv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "w4gYDCGh71gLCojv",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.a2xU08NYFn9F6vzA",
+                "name": "Fey Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.u8NXWKdwV7xuQCnt"
+    },
+    {
+      "_id": "Nr6gYPDgmyp8H4Ov",
+      "name": "Silkspun Lantern (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Silkspun Lantern (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.2dvaN1PHf2GpUwwa",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "67R6AoWm9Jcn5M4i",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "81U7ucPg8BaSuih7",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.a2xU08NYFn9F6vzA",
+                "name": "Fey Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.Nr6gYPDgmyp8H4Ov"
+    },
+    {
+      "_id": "MSWxim5Y7DZKH6EL",
+      "name": "Silkspun Lantern (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Silkspun Lantern (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.98yBln2wcm9NE2jD",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aI5501155Emc2ryg",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5UyuhoQyX2trhipw",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.a2xU08NYFn9F6vzA",
+                "name": "Fey Egg",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "egg"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lxgOGaZNz5TJVWFP.MSWxim5Y7DZKH6EL"
+    }
+  ],
+  "folder": null,
+  "sort": 10100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

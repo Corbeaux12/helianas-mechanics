@@ -1,0 +1,37 @@
+{
+  "_id": "GbLlE2l5y5bX3ZhO",
+  "_key": "!items!GbLlE2l5y5bX3ZhO",
+  "name": "Crystal Candy Sword (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any sword), uncommon / rare / very rare</em></p><p><strong>Component:</strong> phial of dragon (jörmungummdr) blood syrup</p><p>Tempered in succulent strengthening syrup, then honed to a razor's edge upon the rock-candy whetstone of the sugarsmith, this multihued blade is as sweet as it is sharp.</p><p><strong>Sugar Coated.</strong> As a bonus action while holding this sword, you can lick it, regaining 1d6 hit points and casting the <em>sugar rush</em> spell on yourself. Once this property of the sword has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the hit points regained to 2d6. When you use the Sugar Coated property, roll a d4. On a 1 or 2, the property can't be used again until the next dawn.</p><p><strong>Very rare variant:</strong> Increase the hit points regained to 3d6. Casting the <em>sugar rush</em> spell with this item doesn't require concentration. When you use the Sugar Coated property, roll a d4. On a 1 or 2, the property can't be used again until the next dawn.</p><p><em>Sugar Rush (2nd-level biomancy, 1 action, 30 ft., V/S/M, conc. 1 min): a willing creature gains +15 ft. speed and +1 AC, and can Dash/Disengage/Hide/Use an Object as a bonus action; when the spell ends, or if it doesn't spend its movement, it is poisoned until the end of its next turn.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1980,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

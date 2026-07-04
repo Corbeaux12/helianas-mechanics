@@ -814,7 +814,7 @@ function buildHuntPacks() {
         links.push(`<p>@UUID[${itemUuid}]{${itemName}}</p>`);
 
         const meta = HUNT_RARITY_META[tier.rarity] ?? HUNT_RARITY_META.uncommon;
-        const compId = componentIds[item.component];
+        const compNames = item.components ?? [item.component];
         const sys = recipeSystem({
           recipeType: "forge",
           resultName: itemName,
@@ -826,11 +826,19 @@ function buildHuntPacks() {
           rarity: tier.rarity,
           attunement: item.attunement,
           baseItemRecipeUuid: item.baseRecipe ? baseRecipeUuid(item.baseRecipe) : "",
-          ingredients: [ingredient(`${seed}:${itemName}`, "Monster Component", [
-            { ...comp(`${seed}:${itemName}`, item.component, 1,
-                (hunt.components.find(c => c.name === item.component)?.tags) ?? []),
-              uuid: compId ? `Compendium.${MODULE_ID}.hunt-items.Item.${compId}` : "" },
-          ])],
+          ingredients: compNames.map((compName, ci) => {
+            const compId = componentIds[compName];
+            // Hunt-local component item, or a generic one from the indexed packs
+            // (e.g. the harvesting module's "Monstrosity Horn")
+            const uuid = compId ? `Compendium.${MODULE_ID}.hunt-items.Item.${compId}`
+              : (lookup([compName], { forComponent: true })?.uuid ?? "");
+            return ingredient(`${seed}:${itemName}:${ci}`, "Monster Component", [
+              { ...comp(`${seed}:${itemName}:${ci}`, compName, 1,
+                  (hunt.components.find(c => c.name === compName)?.tags)
+                    ?? compName.toLowerCase().split(/\s+/).filter(w => w.length > 2)),
+                uuid },
+            ]);
+          }),
         });
         recipePages.push({ pageName: itemName, sys });
       }

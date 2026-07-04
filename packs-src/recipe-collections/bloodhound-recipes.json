@@ -1,0 +1,835 @@
+{
+  "_id": "CaMe16dp2exnllBz",
+  "_key": "!journal!CaMe16dp2exnllBz",
+  "name": "Bloodhound Recipes",
+  "pages": [
+    {
+      "_id": "Q4mf3SBChdt1JcfN",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>The Twilight Hunter (Loot Tavern hunt, APL 3/7/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Phial of blood (∞, edible)</td></tr><tr><td>10</td><td>Bone (10)</td></tr><tr><td>15</td><td>Claw (2)</td></tr><tr><td>20</td><td>Pelt (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.6iyl90rWhhZf5pQn]{Bloodhound's Caress (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.n3gJuWnDIIBDCLyI]{Bloodhound's Caress (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.YpLJ9FH8UILGdLCu]{Bloodhound's Caress (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.PU6atfQlAIh397dM]{Bloodhound's Immobiliser (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.OYHIqNiaqE6LnlVL]{Bloodhound's Immobiliser (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.hYejAqBFGuduW5ZP]{Bloodhound's Immobiliser (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yLgMXFhExWT3ypsV]{Bloodhound's Widebrim (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Meyv7Me85u36g6m4]{Bloodhound's Widebrim (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.CTJaJgJoXC6PGGxC]{Bloodhound's Widebrim (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ExiC3wJm5usl1bEg]{Cranium Rat Cowl (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.TX12CHLADJSRjAYo]{Cranium Rat Cowl (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.GGsJPGXITsh5T3iW]{Cranium Rat Cowl (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5aQh2L45lgwZ6qJJ]{Cranium Rat Cowl (Legendary)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.Q4mf3SBChdt1JcfN"
+    },
+    {
+      "_id": "Nlha2Xw7R9k27XZI",
+      "name": "Bloodhound (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Twilight Hunter/The Twilight Hunter - Version 1.2 PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.Nlha2Xw7R9k27XZI"
+    },
+    {
+      "_id": "ut23pk0maBi9coKD",
+      "name": "Bloodhound's Caress (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Caress (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.6iyl90rWhhZf5pQn",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ffiMg6obDeQlMcsa",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "isjStwMzE4GHvx61",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.oFZhsQ4Tu6CvxPoa",
+                "name": "Bloodhound Claw",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "claw",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.ut23pk0maBi9coKD"
+    },
+    {
+      "_id": "I7fYoa724e84dUI1",
+      "name": "Bloodhound's Caress (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Caress (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.n3gJuWnDIIBDCLyI",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GVQmX1jk0GY7kGnW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "A3HSu0PjsETVR9Wx",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.oFZhsQ4Tu6CvxPoa",
+                "name": "Bloodhound Claw",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "claw",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.I7fYoa724e84dUI1"
+    },
+    {
+      "_id": "EXIRVvOrha3W6k6X",
+      "name": "Bloodhound's Caress (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Caress (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.YpLJ9FH8UILGdLCu",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "iaLyqvBTqWSgRI5U",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8ysfNgCTYelTX99H",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.oFZhsQ4Tu6CvxPoa",
+                "name": "Bloodhound Claw",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "claw",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.EXIRVvOrha3W6k6X"
+    },
+    {
+      "_id": "3g9hk86euWP4RT00",
+      "name": "Bloodhound's Immobiliser (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Immobiliser (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.PU6atfQlAIh397dM",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Hpi9BsiU46GP50Uq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SD0U5GzOk6fdxOIo",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.c2mZGaKbuKQQe4u5",
+                "name": "Bloodhound Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "3wTdEAHzNGrIdPX9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mOxvuoRB56230rUO",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.BnQkQh52RYeKoL9A",
+                "name": "Pouch of Bloodhound Teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "teeth",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.3g9hk86euWP4RT00"
+    },
+    {
+      "_id": "d7sTpbFWlPV8bDTi",
+      "name": "Bloodhound's Immobiliser (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Immobiliser (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.OYHIqNiaqE6LnlVL",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4KQNtnU6ygg9jXpY",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pR5lBv9E10LuiBQl",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.c2mZGaKbuKQQe4u5",
+                "name": "Bloodhound Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "k66gYmN63PqzlP7o",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "bM460ST2a1XLLwM3",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.BnQkQh52RYeKoL9A",
+                "name": "Pouch of Bloodhound Teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "teeth",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.d7sTpbFWlPV8bDTi"
+    },
+    {
+      "_id": "1epQBn12L4MmRBGb",
+      "name": "Bloodhound's Immobiliser (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Immobiliser (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.hYejAqBFGuduW5ZP",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EdNwJtVZ7D15UYaT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7ZsG2Aw2Z9rrxlK3",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.c2mZGaKbuKQQe4u5",
+                "name": "Bloodhound Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "ddpqenDDkwhVZ5Cv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "IGlrJMHq1BQF152L",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.BnQkQh52RYeKoL9A",
+                "name": "Pouch of Bloodhound Teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "teeth",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.1epQBn12L4MmRBGb"
+    },
+    {
+      "_id": "PMg8hSc1i8PWWs91",
+      "name": "Bloodhound's Widebrim (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Widebrim (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yLgMXFhExWT3ypsV",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "guANEz01lOhrrAOX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "a6HrN5zUj0dP4o00",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.12vj4LH7wZtEWFcd",
+                "name": "Bloodhound Pelt",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pelt",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.PMg8hSc1i8PWWs91"
+    },
+    {
+      "_id": "qm32cDlk28otqolD",
+      "name": "Bloodhound's Widebrim (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Widebrim (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Meyv7Me85u36g6m4",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Bn1Xx38ocsCqexQ5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "nFZj3CrY0q4vneNp",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.12vj4LH7wZtEWFcd",
+                "name": "Bloodhound Pelt",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pelt",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.qm32cDlk28otqolD"
+    },
+    {
+      "_id": "4h3266VXsNx88Hv1",
+      "name": "Bloodhound's Widebrim (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodhound's Widebrim (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.CTJaJgJoXC6PGGxC",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "HVwifuyWDpL7cL1c",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0UsH660GvItKmAgd",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.12vj4LH7wZtEWFcd",
+                "name": "Bloodhound Pelt",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pelt",
+                  "bloodhound",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.4h3266VXsNx88Hv1"
+    },
+    {
+      "_id": "eDLmFJMPTrTZu8uk",
+      "name": "Cranium Rat Cowl (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cranium Rat Cowl (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ExiC3wJm5usl1bEg",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zCVyVz6PR02CV61o",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Q0O8SLBd1HBnfR5U",
+                "uuid": "",
+                "name": "Beast Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beast",
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.eDLmFJMPTrTZu8uk"
+    },
+    {
+      "_id": "WY7sr1IrZ5BpZApF",
+      "name": "Cranium Rat Cowl (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cranium Rat Cowl (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.TX12CHLADJSRjAYo",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "IvO0IBkfTVTO1QtK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "00KV0CQ3zU8jcMuZ",
+                "uuid": "",
+                "name": "Beast Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beast",
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.WY7sr1IrZ5BpZApF"
+    },
+    {
+      "_id": "KeyoWiLfsAuh1GmD",
+      "name": "Cranium Rat Cowl (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cranium Rat Cowl (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.GGsJPGXITsh5T3iW",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2Yc795HNmlHw03Rh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "k41UrL6Uc9TIDchp",
+                "uuid": "",
+                "name": "Beast Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beast",
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.KeyoWiLfsAuh1GmD"
+    },
+    {
+      "_id": "gx2Fzl6BjsH2g4kU",
+      "name": "Cranium Rat Cowl (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cranium Rat Cowl (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5aQh2L45lgwZ6qJJ",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "27b6eo2pGn3lgYny",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "DgEw5rNYv2waYRKE",
+                "uuid": "",
+                "name": "Beast Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beast",
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "construct",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CaMe16dp2exnllBz.gx2Fzl6BjsH2g4kU"
+    }
+  ],
+  "folder": null,
+  "sort": 10200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

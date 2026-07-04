@@ -1,0 +1,37 @@
+{
+  "_id": "YpLJ9FH8UILGdLCu",
+  "_key": "!items!YpLJ9FH8UILGdLCu",
+  "name": "Bloodhound's Caress (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (claw), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Construct (bloodhound) claw</p><p>The Bloodhounds, an enigmatic order of monster hunters, track their quarry by the scent of their spilled blood. The bloodhound's caress is designed to draw blood from its victims, ensuring a trail of blood can be followed back to the victim's lair, where any young can be dispatched before they grow to be menaces.</p><p>This claw has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Arterial Slash.</strong> When you hit a creature with an attack using this weapon, you can expend 1 charge to attempt to slice a crucial blood vessel, forcing the creature to make a DC 13 Constitution saving throw. On a failed save, the creature begins to bleed profusely for 1 minute. While bleeding, the creature takes 1d6 slashing damage at the end of each of its turns, and any time it regains any hit points, it regains only half as many. A creature without blood automatically succeeds on this saving throw. A creature can end this effect on itself or a willing creature within 5 feet of it by using its action to make a successful DC 13 Wisdom (Medicine) check.</p><p><strong>Rare variant:</strong> Increase the charges to 6, the recharge to 1d4 + 2, the DCs to 15, and the damage to 1d10.</p><p><strong>Very rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, the DCs to 16, and the damage to 2d6.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 6300,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Adelifae & Scarab",
+  "source": "Garden of Dark Delights (Loot Tavern hunt, APL 3/7/12)",
+  "creatureType": "fey",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Garden of Dark Delights/Garden of Dark Delights - v1.5 - PAGES.pdf",
+  "harvest": [
+    { "dc": 15, "components": ["Adelifae: Proboscis (1); Scarab: Horn (1)"] },
+    { "dc": 20, "components": ["Adelifae: Wings (1); Scarab: Carapace (1)"] }
+  ],
+  "components": [
+    { "name": "Adelifae Proboscis", "tags": ["proboscis", "adelifae", "fey"], "price": 80 },
+    { "name": "Adelifae Wings",     "tags": ["wings", "adelifae", "fey"],     "price": 120 },
+    { "name": "Scarab Horn",        "tags": ["horn", "scarab", "fey"],        "price": 80 },
+    { "name": "Scarab Carapace",    "tags": ["carapace", "scarab", "fey"],    "price": 120 }
+  ],
+  "items": [
+    {
+      "name": "Beetle Buckler",
+      "itemType": "equipment",
+      "kind": "Armour (shield)",
+      "component": "Scarab Carapace",
+      "baseRecipe": "Shield",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 500 },
+        { "rarity": "rare",      "value": 4500 },
+        { "rarity": "very rare", "value": 10500 }
+      ],
+      "description": "<p><em>Armour (shield), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Scarab) carapace</p><p>Carved from hardened chitin, this robust shield is easily mistaken for a large beetle; the sublime fey craftsmanship is augmented by enchantments that cause the wings to buzz and flutter. These animate wings provide both enhanced defensive capabilities and a means of flitting across thorny battlefields.</p><p>This shield has 4 charges and regains all expended charges daily at dawn.</p><p><strong>Under Wing.</strong> While wielding this shield, when a creature you can see hits a target other than you that is within 5 feet of you with an attack, you can use your reaction and expend 1 charge to have the shield open its wings in front of the target, giving it a +2 bonus to AC against that attack and potentially causing it to miss.</p><p><strong>Soaring Scarab.</strong> You can speak this shield's command word to don it or doff it as a bonus action. When you doff the shield in this manner, you can cause it to attach to your back and spread its wings, granting you a flying speed of 15 feet on your turn only, as long as you and anything you're wearing or carrying don't weigh over 400 pounds.</p><p><strong>Uncommon variant:</strong> The shield doesn't have the Soaring Scarab property.</p><p><strong>Very rare variant:</strong> Increase the charges to 6, the flying speed to 30 feet, and the weight limit to 800 pounds.</p>"
+    },
+    {
+      "name": "Cloak of the Moth Rider",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Adelifae Wings",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 650 },
+        { "rarity": "rare",      "value": 3800 },
+        { "rarity": "very rare", "value": 9900 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Adelifae) wings</p><p>The reclusive giant moths of the Plane of Fey are a perfect representation of the mysterious, gloomy whimsy of their home plane and this cloak, made from their fur, is a rare treasure. To slay one of these noble beasts is a nigh unforgivable offence to the unseelie fey. However, for a giant moth to willingly bestow its fur to a creature is a tremendous honour, and a sign of the friendship of the fey.</p><p><strong>Flight of the Giant Moth.</strong> As an action while wearing this cloak, you can cause it to transform into a giant moth, which appears in an unoccupied space of your choice within 5 feet of you. The moth is friendly to you and your companions, it obeys your verbal commands, and it disappears after 1 hour, if you dismiss it as an action, or when it drops to 0 hit points, at which point it transforms back into the cloak. Once this property of the cloak is used, it can't be used again until the next dawn.</p><p><strong>Fearsome Visage.</strong> While wearing this cloak, you have advantage on Intimidation checks. Additionally, you can use an action to cause the pattern on the cloak to shift into the shape of a terrifying face and animate it as you desire. When you do, you can cast the <em>fear</em> spell (save DC 15), targeting each creature of your choice that can see you within 15 feet of you, instead of those in a 30-foot cone. Once this spell is cast in this way, it can't be cast again until the next dawn.</p><p><strong>Uncommon variant:</strong> The item doesn't have the Fearsome Visage property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. Casting the <em>fear</em> spell using the cloak doesn't require concentration.</p><p><em>Giant Moth: Large fey, AC 14, HP 59 (7d10+21), Speed 30 ft., climb 30 ft., fly 60 ft.; STR 16 DEX 18 CON 16 INT 10 WIS 15 CHA 13; Saves Dex +6, Wis +4, Cha +3; Perception +6; darkvision 120 ft.; understands Common and Sylvan; CR 2. Spider Climb. Bite: +6 to hit, reach 5 ft., 11 (2d6+4) piercing.</em></p>"
+    },
+    {
+      "name": "Flutterblade",
+      "itemType": "weapon",
+      "kind": "Weapon (any sword)",
+      "component": "Adelifae Proboscis",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 600 },
+        { "rarity": "rare",      "value": 3200 },
+        { "rarity": "very rare", "value": 10200 }
+      ],
+      "description": "<p><em>Weapon (any sword), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Adelifae) proboscis</p><p>The delicate insect wings on the hilt of this elegant weapon flutter with scintillating shimmers. Wielded by retainers of the Unseelie Court, these swords can shoot through the air under their own propulsion, returning to their wielder after making a ranged foray.</p><p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. A creature that tries to wield the sword without being attuned to it takes 1d6 piercing damage at the end of each of its turns as thorny vines around the hilt dig into its skin.</p><p><strong>Flutterstrike.</strong> This sword has the thrown property with a normal range of 20 feet and a long range of 60 feet, and it flies back to your hand immediately after you use it to make a ranged attack.</p><p><strong>Radiant Lure.</strong> As a bonus action while holding this sword, you can cause its hilt to cast dim light in a 10-foot radius, or to cease casting light. While the sword is casting light, you can use an action to summon a moth (use the spider stat block, without the Bite action option or the Web Sense and Web Walker traits, and with a flying speed of 30 feet). As part of this action, you can cast the <em>animal messenger</em> spell on it. Once this spell is cast in this manner, it can't be cast again until the next dawn.</p><p><strong>Uncommon variant:</strong> Remove the +1 bonus to attack and damage rolls.</p><p><strong>Very rare variant:</strong> Once on each of your turns when you hit a creature with a ranged attack using the sword, you can deal an extra 1d8 radiant damage to the target.</p>"
+    },
+    {
+      "name": "Kabuto",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Scarab Horn",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 700 },
+        { "rarity": "rare",      "value": 4000 },
+        { "rarity": "very rare", "value": 11000 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Scarab) horn</p><p>The sight of two fighting beetles is an impressive and surprisingly humbling one, and many unseelie fey can't help but marvel at the magnificent displays of strength put on by such tiny creatures. Inspired by these intense combats, this helm is enchanted with the fierce fighting spirit of these noble and tenacious insects.</p><p>The helmet has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Lock Horns.</strong> Whenever a creature hits you with an attack using a melee weapon while you're wearing this helmet, you can use your reaction to expend 1 charge and gain a +2 bonus to AC against that attack as you attempt to catch the weapon with the horn, potentially causing the attack to miss. If the attack misses, the creature must make a DC 15 Strength saving throw. On a failed save, it is disarmed of the weapon, which is thrown to an unoccupied space of your choice within 20 feet of you.</p><p><strong>Stalwart Scarab.</strong> While wearing this helmet, you have advantage on ability checks and saving throws made to avoid or end the grappled condition, being knocked prone, or being moved against your will.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13 and the charges to 1.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. You have a +1 bonus to AC while wearing this helmet.</p>"
+    },
+    {
+      "name": "Herculean Horn",
+      "itemType": "weapon",
+      "kind": "Weapon (lance)",
+      "component": "Monstrosity Horn",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 600 },
+        { "rarity": "rare",      "value": 3500 },
+        { "rarity": "very rare", "value": 10000 }
+      ],
+      "description": "<p><em>Weapon (lance), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity horn</p><p>Hardened by alchemical processes and complex enchantments alike, the chitinous tip of this lance, fashioned in the likeness of the hercules beetle, has been known to perforate inch-thick plates of pure adamantine.</p><p>This lance has 2 charges and regains all expended charges daily at dawn.</p><p><strong>Aerial Agility.</strong> You only need one hand to wield this lance if you're flying. Additionally, if you fly at least 15 feet straight toward a target and immediately attack it using this lance, you gain advantage on the attack roll.</p><p><strong>Slinging Scarab.</strong> When you hit a Medium or smaller creature with an attack using this lance, you can expend 1 charge to try to throw it behind you, forcing the creature to make a DC 15 Strength saving throw. On a failed save, the creature is tossed onto an unoccupied space within 15 feet of you and lands prone.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13. The lance doesn't have the Aerial Agility property.</p><p><strong>Very rare variant:</strong> Increase the charges to 5 and the DC to 16. You can use the Slinging Scarab property on Large or smaller creatures.</p>"
+    },
+    {
+      "name": "Silkspun Lantern",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Fey Egg",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 550 },
+        { "rarity": "rare",      "value": 3600 },
+        { "rarity": "very rare", "value": 9800 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Fey (moth) egg</p><p>This enchanting lantern stirs a deep fascination in the hearts of those who behold it, and can be used to lure unsuspecting humanoids to the Plane of Fey. Weak-willed creatures who so much as glance at its mesmerising lilac hues find themselves haunted by wistful memories of its light and a desire to be near it.</p><p><strong>Night Light.</strong> The lantern exists in one of three states: unravelled, shaded, or cocooned. As a bonus action while holding this lantern, you can cause it to change states. When unravelled, this lantern sheds bright light in a 30-foot radius and dim light for an additional 30 feet. When shaded, the lantern sheds dim light in a 30-foot radius, which only the creature carrying it can see. When cocooned, the lantern sheds no light.</p><p><strong>Eclipse Swarm.</strong> While holding this lantern, you can cast the <em>insect plague</em> spell (save DC 15). When cast in this way, the spell creates moths instead of locusts. Once this property of the lantern has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> The item doesn't have the Eclipse Swarm property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. The item has the Moth to a Flame property.</p><p><strong>Moth to a Flame.</strong> As an action while holding the unravelled lantern, you can target a creature within 30 feet of you that can see the lantern, forcing it to succeed on a DC 16 Wisdom saving throw or be charmed by you for 10 minutes. While charmed in this way, a creature must use all of its movement and action to approach the lantern on each of its turns, and can't willingly move away from it. In addition, the creature is also blinded while within 5 feet of the lantern, unable to focus on anything but its radiance. The creature can repeat this saving throw at the end of each of its turns if it took damage since its last turn, ending the effect on itself on a success. Once this property of the lantern has been used, it can't be used again until the next dawn.</p>"
+    }
+  ]
+}

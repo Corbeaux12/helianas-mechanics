@@ -1,0 +1,37 @@
+{
+  "_id": "0kY6kkrFY0mhpXgY",
+  "_key": "!items!0kY6kkrFY0mhpXgY",
+  "name": "Flutterblade (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any sword), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Adelifae) proboscis</p><p>The delicate insect wings on the hilt of this elegant weapon flutter with scintillating shimmers. Wielded by retainers of the Unseelie Court, these swords can shoot through the air under their own propulsion, returning to their wielder after making a ranged foray.</p><p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. A creature that tries to wield the sword without being attuned to it takes 1d6 piercing damage at the end of each of its turns as thorny vines around the hilt dig into its skin.</p><p><strong>Flutterstrike.</strong> This sword has the thrown property with a normal range of 20 feet and a long range of 60 feet, and it flies back to your hand immediately after you use it to make a ranged attack.</p><p><strong>Radiant Lure.</strong> As a bonus action while holding this sword, you can cause its hilt to cast dim light in a 10-foot radius, or to cease casting light. While the sword is casting light, you can use an action to summon a moth (use the spider stat block, without the Bite action option or the Web Sense and Web Walker traits, and with a flying speed of 30 feet). As part of this action, you can cast the <em>animal messenger</em> spell on it. Once this spell is cast in this manner, it can't be cast again until the next dawn.</p><p><strong>Uncommon variant:</strong> Remove the +1 bonus to attack and damage rolls.</p><p><strong>Very rare variant:</strong> Once on each of your turns when you hit a creature with a ranged attack using the sword, you can deal an extra 1d8 radiant damage to the target.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3200,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

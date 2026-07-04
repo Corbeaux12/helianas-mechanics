@@ -1,0 +1,37 @@
+{
+  "_id": "lCmDnyZeBZ8DOkWg",
+  "_key": "!items!lCmDnyZeBZ8DOkWg",
+  "name": "Kabuto (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Scarab) horn</p><p>The sight of two fighting beetles is an impressive and surprisingly humbling one, and many unseelie fey can't help but marvel at the magnificent displays of strength put on by such tiny creatures. Inspired by these intense combats, this helm is enchanted with the fierce fighting spirit of these noble and tenacious insects.</p><p>The helmet has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Lock Horns.</strong> Whenever a creature hits you with an attack using a melee weapon while you're wearing this helmet, you can use your reaction to expend 1 charge and gain a +2 bonus to AC against that attack as you attempt to catch the weapon with the horn, potentially causing the attack to miss. If the attack misses, the creature must make a DC 15 Strength saving throw. On a failed save, it is disarmed of the weapon, which is thrown to an unoccupied space of your choice within 20 feet of you.</p><p><strong>Stalwart Scarab.</strong> While wearing this helmet, you have advantage on ability checks and saving throws made to avoid or end the grappled condition, being knocked prone, or being moved against your will.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13 and the charges to 1.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. You have a +1 bonus to AC while wearing this helmet.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
