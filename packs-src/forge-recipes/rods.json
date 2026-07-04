@@ -11,8 +11,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
         "resultName": "Immovable Rod",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/commodities/tech/pipe-lead-closed.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgImmovableRod0",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -27,10 +27,10 @@
             "components": [
               {
                 "id": "dOGSKDYGmPtDA1qr",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cYW1f8CLLOvfAv4Z",
+                "name": "Beast Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-broken-grey.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -63,8 +63,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
         "resultName": "Rod of Absorption",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/wands/wand-carved-fire.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfAbsorpti",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -79,10 +79,10 @@
             "components": [
               {
                 "id": "vOnDtzd99SC9ahf8",
-                "uuid": "",
-                "name": "Stone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qcmPfB2BqQgzGyKm",
+                "name": "Construct Stone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/stone/masonry-block-cube-grey-teal.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -115,8 +115,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
         "resultName": "Rod of Alertness",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/maces/mace-round-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfAlertnes",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -131,10 +131,10 @@
             "components": [
               {
                 "id": "zzrkv6EXFyq3tcFw",
-                "uuid": "",
-                "name": "Eye",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.64sgJIggFsgi0L7u",
+                "name": "Fey Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/eye-green-pink.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -167,8 +167,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
         "resultName": "Rod of Lordly Might",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/staves/staff-ornate-gold-jeweled.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfLordlyMi",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -183,10 +183,10 @@
             "components": [
               {
                 "id": "8R67GQLetIOm3HO0",
-                "uuid": "",
-                "name": "Pouch of teeth",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.x0QkmzQiyfpTzgys",
+                "name": "Pouch of Fiend Teeth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -219,8 +219,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
         "resultName": "Rod of Resurrection",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/staves/staff-spiked-grey.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfResurrec",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -235,10 +235,10 @@
             "components": [
               {
                 "id": "wp2OWv3ez3f1RQ53",
-                "uuid": "",
-                "name": "Heart",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.c0VpQ2VOOOS2dRkA",
+                "name": "Celestial Heart",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/meat/heart-organ-realistic-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -271,8 +271,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
         "resultName": "Rod of Rulership",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/staves/staff-ornate-orb-steel-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfRulershi",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -287,10 +287,10 @@
             "components": [
               {
                 "id": "7Jf1QacNunvxb3rC",
-                "uuid": "",
-                "name": "Pouch of dust",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.hEuQaTZsBW9h8LAP",
+                "name": "Pouch of Fiend Dust",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-simple-tan.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -323,8 +323,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
         "resultName": "Rod of Security",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/maces/mace-round-ornate-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRodOfSecurity",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -339,10 +339,10 @@
             "components": [
               {
                 "id": "27kxZwUmi3iCepWa",
-                "uuid": "",
-                "name": "Horn",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aMzAJ1jEth8pAepp",
+                "name": "Celestial Horn",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/horn-jagged-yellow.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -368,13 +368,13 @@
       "_key": "!journal.pages!lggk1ovVWn7m8uic.H2cp9ydRdY0cLnfQ"
     },
     {
-      "_id": "mfwN0B3IJpMjSj6M",
-      "name": "Rod of the Pact Keeper",
+      "_id": "VYtOBmtd1z7fkKKW",
+      "name": "Rod of the Pact Keeper (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
-        "resultName": "Rod of the Pact Keeper",
+        "resultName": "Rod of the Pact Keeper (Uncommon)",
         "resultImg": "",
         "resultUuid": "",
         "resultQuantity": 1,
@@ -386,15 +386,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "EnG7OeNdkMttC2Zq",
+            "id": "JcvJ1qNhyWTmPcNL",
             "name": "Monster Component",
             "components": [
               {
-                "id": "OGxt23vJyYe3zK6k",
-                "uuid": "",
-                "name": "Bone",
+                "id": "3uN8EV0gYdWpWbBU",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -417,18 +417,122 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!lggk1ovVWn7m8uic.mfwN0B3IJpMjSj6M"
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.VYtOBmtd1z7fkKKW"
     },
     {
-      "_id": "v0LhE5WwfI4KLLwy",
-      "name": "Sporespreader",
+      "_id": "3P5mU1zqMIrDWnKe",
+      "name": "Rod of the Pact Keeper (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
-        "resultName": "Sporespreader",
+        "resultName": "Rod of the Pact Keeper (Rare)",
         "resultImg": "",
         "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yUpW0nwEFrJE7mXJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "116t0klMgq7U2Fy3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.3P5mU1zqMIrDWnKe"
+    },
+    {
+      "_id": "xONtX7m2kx4Wa6g7",
+      "name": "Rod of the Pact Keeper (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Rod of the Pact Keeper (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pYAg5TQ0SjoTzeLe",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "U9zeTH8h389ytsUZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.xONtX7m2kx4Wa6g7"
+    },
+    {
+      "_id": "LsZZ6vJQHKlQkU5Y",
+      "name": "Sporespreader (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Sporespreader Rod (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Spore_Spreader.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.V0FvP3zYkwtHDhpt",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -438,11 +542,11 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "Lf4LwMYXMOF4yQe8",
+            "id": "Iogv20pVtW1aa5yG",
             "name": "Monster Component",
             "components": [
               {
-                "id": "dAr5mF8GEAKK664g",
+                "id": "iqwx0Da0C1IuHGbh",
                 "uuid": "",
                 "name": "Spore-filled gills",
                 "nameMode": "exact",
@@ -464,23 +568,75 @@
         "show": true,
         "level": 1
       },
-      "sort": 900,
+      "sort": 1100,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!lggk1ovVWn7m8uic.v0LhE5WwfI4KLLwy"
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.LsZZ6vJQHKlQkU5Y"
     },
     {
-      "_id": "xbxm9j1OEQW07315",
-      "name": "Suncatcher",
+      "_id": "DbkmPi6GixSlCBSJ",
+      "name": "Sporespreader (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
-        "resultName": "Suncatcher",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Sporespreader Rod (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Spore_Spreader_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.9irxf4SNg1er8TP1",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "nsA6OSQSG6dxJj6C",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Kn9zZaB2N71qVR3k",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.DbkmPi6GixSlCBSJ"
+    },
+    {
+      "_id": "AjDYhQVLRjr0GsOv",
+      "name": "Suncatcher (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tsnpncn5CErE4f8n",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -490,15 +646,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "oY6XQOp6k84MIQNe",
+            "id": "0DcsGj4G0R2IdO0f",
             "name": "Monster Component",
             "components": [
               {
-                "id": "4ymCeTcuU9UK2L90",
-                "uuid": "",
-                "name": "Beak",
+                "id": "wX8QOYAsN95cBwQr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -516,12 +672,116 @@
         "show": true,
         "level": 1
       },
-      "sort": 1000,
+      "sort": 1300,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!lggk1ovVWn7m8uic.xbxm9j1OEQW07315"
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.AjDYhQVLRjr0GsOv"
+    },
+    {
+      "_id": "LPU61O0nwBfv9s32",
+      "name": "Suncatcher (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.wmIaiTcwXQ1nHi8I",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fiIPqVp9aDEaxadm",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jIR5D33tct2XMpcX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.LPU61O0nwBfv9s32"
+    },
+    {
+      "_id": "PVHIO77eJebZw4MU",
+      "name": "Suncatcher (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "resultName": "Suncatcher Rod (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suncatcher3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.xKJt77xnje00Xd93",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "50W7iFLnE0jN2XRJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "U9E6ZTr2RE983PCm",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Xfd2VjaKWTO1c56G",
+                "name": "Fey Beak",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/beak-grey-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required-spellcaster"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!lggk1ovVWn7m8uic.PVHIO77eJebZw4MU"
     }
   ],
   "folder": null,

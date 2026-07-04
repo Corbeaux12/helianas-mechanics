@@ -35,6 +35,201 @@ globalThis.foundry = { utils: { randomID: () => `tmp${String(idCounter++).padSta
 const { parseCatalogueMarkdown, buildRecipeSystem } =
   await import(new URL("../scripts/crafting/RecipeImporter.mjs", import.meta.url));
 
+// ------------------------------------------------------------ item resolver
+//
+// Recipes link real items from the Heliana modules + dnd5e SRD packs.
+// tools/data/heliana-item-index.json is generated from the installed modules
+// (heliana-core, helianas-harvesting, dnd5e, and our own mundane-items pack)
+// and maps item names to compendium UUIDs.
+
+const ITEM_INDEX = JSON.parse(
+  readFileSync(path.join(ROOT, "tools", "data", "heliana-item-index.json"), "utf8"));
+
+const PHYSICAL_TYPES = new Set(["weapon", "equipment", "consumable", "tool", "loot", "container"]);
+
+/** Pack priority when several packs contain the same item name. */
+function packRank(pack, forComponent) {
+  const order = forComponent
+    ? ["helianas-harvesting.dnd5e-components", /^heliana-core\./, "helianas-mechanics.mundane-items", /^dnd5e\./]
+    : ["heliana-core.magical-items", /^heliana-core\.items-/, "heliana-core.items",
+       "dnd5e.equipment24", "dnd5e.items", "dnd5e.tradegoods", "helianas-mechanics.mundane-items"];
+  for (let i = 0; i < order.length; i++) {
+    const o = order[i];
+    if (typeof o === "string" ? pack === o : o.test(pack)) return i;
+  }
+  return order.length;
+}
+
+/** Normalise a name for matching: straight quotes, collapsed spaces, lowercase. */
+function normKey(name) {
+  return String(name).replace(/[‘’]/g, "'").replace(/[“”]/g, '"')
+    .replace(/\s+/g, " ").trim().toLowerCase();
+}
+
+const NAME_LOOKUP = new Map();
+for (const item of ITEM_INDEX.items) {
+  if (!PHYSICAL_TYPES.has(item.type)) continue;
+  const key = normKey(item.name);
+  if (!NAME_LOOKUP.has(key)) NAME_LOOKUP.set(key, []);
+  NAME_LOOKUP.get(key).push(item);
+}
+
+function lookup(candidates, { forComponent = false } = {}) {
+  for (const cand of candidates) {
+    const hits = NAME_LOOKUP.get(normKey(cand));
+    if (hits?.length) {
+      return [...hits].sort((a, b) => packRank(a.pack, forComponent) - packRank(b.pack, forComponent))[0];
+    }
+  }
+  return null;
+}
+
+// Catalogue name → official base name(s). Applied before other transforms.
+const RESULT_ALIASES = {
+  "heliana's guide":               "Heliana's Guide to Monster Hunting",
+  "bonze's bokken wind ripper":    "Bonze's Bokken, Wind Ripper",
+  "amulet of proof vs detection":  "Amulet of Proof against Detection and Location",
+  "stone of good luck":            "Stone of Good Luck (Luckstone)",
+  "bag of tricks":                 "Gray Bag of Tricks",
+  "manual of clay golems":         "Manual of Golems",
+  "manual of flesh golems":        "Manual of Golems",
+  "manual of iron golems":         "Manual of Golems",
+  "manual of stone golems":        "Manual of Golems",
+  "figurine: ivory goats":         "Figurine of Wondrous Power (Ivory Goat of Travail)",
+  "feline's fury":                 "Feline's Fury Light Tommybow",
+  "+1 ammunition":                 "Ammunition, +1, +2, or +3",
+  "+2 ammunition":                 "Ammunition, +1, +2, or +3",
+  "+3 ammunition":                 "Ammunition, +1, +2, or +3",
+  // Wyrm's Breath Grenades are named for the dragon's gas breath, not its metal
+  "wyrm's breath grenade (brass)":  "Wyrm's Breath Grenade (Sleep)",
+  "wyrm's breath grenade (bronze)": "Wyrm's Breath Grenade (Repulsion)",
+  "wyrm's breath grenade (copper)": "Wyrm's Breath Grenade (Slow)",
+  "wyrm's breath grenade (gold)":   "Wyrm's Breath Grenade (Weakening)",
+  "wyrm's breath grenade (silver)": "Wyrm's Breath Grenade (Paralysing)",
+};
+
+// Representative concrete variants for "any X" template items, tried in order.
+const VARIANT_FAMILIES = [
+  { test: /\(any [^)]*axe/i,      variants: ["Battleaxe", "Greataxe", "Handaxe"] },
+  { test: /\(any [^)]*hammer/i,   variants: ["Warhammer", "Maul", "Light Hammer", "Mace", "Club", "Greatclub"] },
+  { test: /\(any [^)]*bow/i,      variants: ["Longbow", "Shortbow"] },
+  { test: /\(any [^)]*sword/i,    variants: ["Longsword", "Greatsword", "Shortsword", "Scimitar", "Rapier"] },
+  { test: /\(any [^)]*polearm/i,  variants: ["Halberd", "Glaive", "Spear", "Pike", "Quarterstaff"] },
+  { test: /\(any two melee/i,     variants: ["Longsword", "Shortsword"] },
+  { test: /longsword or greatsword/i, variants: ["Longsword", "Greatsword"] },
+  { test: /tommybow/i,            variants: ["Light Tommybow", "Hand Tommybow", "Heavy Tommybow"] },
+];
+const SECTION_VARIANTS = {
+  Rods:   ["Rod", "Staff", "Wand"],
+  Armour: ["Breastplate", "Plate Armor", "Half Plate", "Chain Mail", "Chain Shirt", "Ring Mail", "Scale Mail"],
+};
+
+const RARITY_LABEL = { C: "Common", U: "Uncommon", R: "Rare", V: "Very Rare", L: "Legendary", A: "Artifact" };
+
+/** Strip catalogue annotations: trailing footnote stars and "(any sword)"-style notes. */
+function cleanItemName(name) {
+  return name.replace(/\*+$/, "")
+    .replace(/\s*\((any|all|each|see)[^)]*\)\s*/gi, " ")
+    .replace(/\s+/g, " ").trim();
+}
+
+/** Candidate official names for a catalogue item name (optionally rarity-tiered). */
+function resultCandidates(name, tierLabel, { rawName = "", section = "", tierIndex = 0 } = {}) {
+  const alias = RESULT_ALIASES[normKey(name)] ?? RESULT_ALIASES[normKey(rawName)];
+  if (alias) name = alias;
+
+  const out = [];
+  if (tierLabel) out.push(`${name} (${tierLabel})`);
+  out.push(name);
+  let m;
+  if ((m = /^Potion of (Greater|Superior|Supreme) Healing$/i.exec(name))) {
+    out.push(`Potion of Healing (${m[1]})`);
+  }
+  if ((m = /^\+(\d) (.+)$/.exec(name))) {
+    out.push(`${m[2]}, +${m[1]}`, `${m[2]} +${m[1]}`, `${m[2]}, +1, +2, or +3`);
+  }
+  if (/^Rod of the Pact Keeper$/i.test(name)) {
+    out.push(`Rod of the Pact Keeper, +${tierIndex + 1}`, `Rod of the Pact Keeper +${tierIndex + 1}`);
+  }
+  if ((m = /^(\d)(?:st|nd|rd|th)-level Scroll$/i.exec(name))) {
+    const ord = m[1] + (["st", "nd", "rd"][m[1] - 1] ?? "th");
+    out.push(`Spell Scroll, ${ord} Level`, `Spell Scroll (${ord} Level)`);
+  }
+  if (/^Cantrip Scroll$/i.test(name)) {
+    out.push("Spell Scroll, Cantrip", "Spell Scroll (Cantrip)");
+  }
+  if ((m = /^Belt of Giant Strength \((\w+)\)$/i.exec(name))) {
+    out.push(`Belt of ${m[1]} Giant Strength`);
+  }
+  if ((m = /^Figurine: (.+)$/.exec(name))) {
+    out.push(`Figurine of Wondrous Power (${m[1]})`, `Figurine of Wondrous Power, ${m[1]}`, `${m[1]} Figurine`);
+  }
+  if ((m = /^(.+) \(([^)]+)\)$/.exec(name))) {
+    if (tierLabel) out.push(`${m[1]} (${m[2]}) (${tierLabel})`);
+    out.push(`${m[2]} ${m[1]}`, m[1]);              // "Horn of Valhalla (Brass)" → "Brass Horn of Valhalla", "Horn of Valhalla"
+    if (tierLabel) out.push(`${m[1]} (${tierLabel})`);
+  }
+
+  // "any weapon/armour" template items ship as one item per concrete weapon:
+  // try representative variants in several official orderings.
+  let variants = VARIANT_FAMILIES.find(f => f.test.test(rawName))?.variants
+    ?? SECTION_VARIANTS[section];
+  if (variants && tierLabel) {
+    const noParen = name.replace(/\s*\([^)]*\)\s*$/, "");  // "Pneuma Blade (longsword or greatsword)" → "Pneuma Blade"
+    const baseNoLast = noParen.replace(/\s+\S+$/, "");     // "Pneuma Blade" → "Pneuma"
+    for (const v of variants) {
+      out.push(`${noParen} ${v} (${tierLabel})`,     // Haemstrike Warhammer (Rare)
+               `${noParen} (${tierLabel}) ${v}`,     // Sunwing Bow (Uncommon) Longbow
+               `${noParen} (${v}) (${tierLabel})`,   // Bonze's Bokken, Wind Ripper (Longsword) (Uncommon)
+               `${baseNoLast} ${v} (${tierLabel})`); // Pneuma Longsword (Rare); Splinterspray Light Tommybow (Uncommon)
+    }
+  }
+  return out;
+}
+
+function resolveResult(name, tierLabel = null, ctx = {}) {
+  return lookup(resultCandidates(name, tierLabel, ctx));
+}
+
+/** Candidate harvesting-item names for a catalogue component + creature type. */
+function resolveComponent(rawName, creatureType) {
+  const name = rawName.trim();
+  const type = creatureType ? creatureType[0].toUpperCase() + creatureType.slice(1).toLowerCase() : "";
+  const singular = name.replace(/s$/i, "");
+  const out = [];
+  let m;
+  if ((m = /^(Pouch of|Phial of|Bundle of)\s+(.+)$/i.exec(name)) && type) {
+    out.push(`${m[1]} ${type} ${m[2]}`);
+  }
+  if ((m = /^(Volatile mote of|Core of)\s+(.+)$/i.exec(name))) {
+    out.push(`${m[1]} Elemental ${m[2]}`);
+    if (type) out.push(`${m[1]} ${type} ${m[2]}`);
+  }
+  if (type) {
+    out.push(`${type} ${name}`);
+    if (singular !== name) out.push(`${type} ${singular}`);          // Tusks → Beast Tusk
+    if (/^skin$/i.test(name)) out.push(`${type} Pelt`, `${type} Hide`); // no "Monstrosity Skin" — pelt/hide instead
+  }
+  out.push(name, `${name} Ingot`);
+  return lookup(out, { forComponent: true });
+}
+
+/** Creature types for a row: the schema field, or all types from cells like "Celestial/Fiend". */
+function rowCreatureTypes(row, schemaType) {
+  if (schemaType) return [schemaType];
+  return String(row.type ?? "").split(/\s*(?:AND|\/|,)\s*/i)
+    .map(t => t.trim().toLowerCase()).filter(t => /^[a-z]+$/.test(t));
+}
+
+/** Split a rarity cell into tier letters: "U/R/V" → ["U","R","V"], "R→V" → ["R"]. */
+function tierLetters(rarityCell) {
+  const parts = String(rarityCell ?? "").split("/").map(p => {
+    const m = /([CURVLA])/i.exec(p);
+    return m ? m[1].toUpperCase() : null;
+  }).filter(Boolean);
+  return parts.length ? parts : ["C"];
+}
+
 // ------------------------------------------------------------------ helpers
 
 const ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -185,14 +380,25 @@ const MFG_JOURNAL_ID = did(`journal:${MFG_JOURNAL_SEED}`);
 function buildManufacturingJournal() {
   const pages = BASE_RECIPES.map((r, i) => {
     const seed = `mfg:${r.name}`;
+    const ingredients = r.ings(seed);
+    // Link raw materials to the bundled mundane-items pack, results to dnd5e SRD items
+    for (const ing of ingredients) {
+      for (const c of ing.components) {
+        const hit = lookup([c.name], { forComponent: true });
+        if (hit) { c.uuid = hit.uuid; c.img = hit.img; }
+      }
+    }
+    const resolved = resolveResult(r.name);
     return pageDoc(MFG_JOURNAL_SEED, r.name, recipeSystem({
       recipeType: "manufacturing",
-      resultName: r.name,
+      resultName: resolved?.name ?? r.name,
+      resultImg: resolved?.img ?? "",
+      resultUuid: resolved?.uuid ?? "",
       resultQuantity: r.qty ?? 1,
       dc: r.dc,
       timeHours: r.hours,
       toolKey: r.tool,
-      ingredients: r.ings(seed),
+      ingredients,
     }), (i + 1) * 100);
   });
   return journalDoc(MFG_JOURNAL_SEED, "Base Item Recipes", pages);
@@ -249,26 +455,98 @@ function buildForgeJournals(rows) {
     bySection.get(row.section).push(row);
   }
 
+  const stats = { resolvedResults: 0, unresolvedResults: [], resolvedComps: 0, unresolvedComps: new Set() };
   const journals = [];
   let jSort = 0;
   for (const section of FORGE_SECTION_ORDER) {
     const sectionRows = bySection.get(section);
     if (!sectionRows) continue;
     const seed = `forge:${section}`;
-    const pages = sectionRows.map((row, i) => {
-      const name = row.name.replace(/\*+$/, "").trim();
-      const sys = buildRecipeSystem(row);
-      sys.resultName = name;
-      const base = baseFor(section, name);
-      if (base) sys.baseItemRecipeUuid = baseRecipeUuid(base);
-      // Deterministic ingredient/component ids (buildRecipeSystem uses randomID)
-      sys.ingredients.forEach((ing, ii) => {
-        ing.id = did(`ing:${seed}:${name}:${ii}`);
-        ing.components.forEach((c, ci) => { c.id = did(`comp:${seed}:${name}:${ii}:${ci}`); });
+    const pages = [];
+    for (const row of sectionRows) {
+      const rawName = row.name.replace(/\*+$/, "").trim();
+      const cleanName = cleanItemName(row.name);
+      const tiers = tierLetters(row.rarity);
+      // Per-tier component alternatives ("Eye / Eyes (2) / Eyes (3)")
+      const compSplits = String(row.component ?? "").split("/").map(s => s.trim());
+      const perTierComponent = tiers.length > 1 && compSplits.length === tiers.length;
+
+      tiers.forEach((tier, ti) => {
+        const tierLabel = RARITY_LABEL[tier];
+        const pageName = tiers.length > 1 ? `${rawName} (${tierLabel})` : rawName;
+        const rowCopy = { ...row, rarity: tier };
+        if (perTierComponent) rowCopy.component = compSplits[ti];
+        const sys = buildRecipeSystem(rowCopy);
+
+        // Result: resolve against heliana-core / dnd5e items
+        const resolved = resolveResult(cleanName, tierLabel, { rawName, section, tierIndex: ti });
+        if (resolved) {
+          sys.resultName = resolved.name;
+          sys.resultImg  = resolved.img;
+          sys.resultUuid = resolved.uuid;
+          stats.resolvedResults++;
+        } else {
+          sys.resultName = pageName;
+          stats.unresolvedResults.push(pageName);
+        }
+
+        const base = baseFor(section, cleanName);
+        if (base) sys.baseItemRecipeUuid = baseRecipeUuid(base);
+
+        // Compound components ("Fat and Liver", "Phial of acid + Phial of mucus")
+        // become one ingredient per part rather than alternatives.
+        const compText = (perTierComponent ? compSplits[ti] : String(row.component ?? ""))
+          .replace(/\*+/g, "").trim();
+        const parts = compText.split(/\s+\+\s+|\s+and\s+/i).map(p => p.trim()).filter(Boolean);
+        if (parts.length > 1 && sys.ingredients.length === 1) {
+          sys.ingredients = parts.map(part => ({
+            id: "", name: "Monster Component",
+            components: [{ id: "", uuid: "", name: part.replace(/\s*\(\d+\)\s*$/, ""), nameMode: "exact",
+                           img: "", quantity: 1, tags: [], mode: "some", resourcePath: "" }],
+          }));
+        }
+
+        // Components: resolve against the harvesting module; scrolls' "Any" has no component.
+        // Rows typed "Celestial/Fiend" produce one alternative per resolvable type.
+        sys.ingredients = sys.ingredients.filter(ing =>
+          !ing.components.every(c => /^any$/i.test(c.name)));
+        const types = rowCreatureTypes(row, sys.componentCreatureType);
+        sys.ingredients.forEach((ing, ii) => {
+          const qtyMatch = /\((\d+)\)\s*$/.exec(parts[ii] ?? compText);
+          ing.components = ing.components.flatMap(c => {
+            if (qtyMatch) c.quantity = parseInt(qtyMatch[1], 10);
+            c.name = c.name.replace(/\*+$/, "").trim();
+            const hits = [];
+            for (const t of types.length ? types : [""]) {
+              const hit = resolveComponent(c.name, t);
+              if (hit && !hits.some(h => h.uuid === hit.uuid)) hits.push(hit);
+            }
+            if (!hits.length) {
+              stats.unresolvedComps.add(`${c.name} [${types.join("/") || row.type}]`);
+              return [c];
+            }
+            stats.resolvedComps++;
+            return hits.map(h => ({ ...c, name: h.name, uuid: h.uuid, img: h.img }));
+          });
+        });
+
+        // Deterministic ingredient/component ids (buildRecipeSystem uses randomID)
+        sys.ingredients.forEach((ing, ii) => {
+          ing.id = did(`ing:${seed}:${pageName}:${ii}`);
+          ing.components.forEach((c, ci) => { c.id = did(`comp:${seed}:${pageName}:${ii}:${ci}`); });
+        });
+
+        pages.push(pageDoc(seed, pageName, sys, (pages.length + 1) * 100));
       });
-      return pageDoc(seed, name, sys, (i + 1) * 100);
-    });
+    }
     journals.push(journalDoc(seed, section, pages, (jSort += 100)));
+  }
+
+  console.log(`forge results: ${stats.resolvedResults} resolved, ${stats.unresolvedResults.length} unresolved`);
+  console.log(`forge components: ${stats.resolvedComps} resolved, ${stats.unresolvedComps.size} distinct unresolved`);
+  if (process.env.VERBOSE) {
+    console.log("unresolved results:\n  " + stats.unresolvedResults.join("\n  "));
+    console.log("unresolved components:\n  " + [...stats.unresolvedComps].join("\n  "));
   }
 
   const leftovers = [...bySection.keys()].filter(s => !FORGE_SECTION_ORDER.includes(s));
@@ -329,9 +607,13 @@ function cookingSystem(seed, r) {
   for (const part of r.parts) {
     ings.push(ingredient(seed, part, [comp(seed, part, 1, EDIBLE_TAGS[part])]));
   }
+  // Boss meals ship as tiered items in heliana-core; link the base (Uncommon) tier
+  const resolved = resolveResult(r.name, "Uncommon") ?? resolveResult(r.name);
   return recipeSystem({
     recipeType: "cooking",
-    resultName: r.name,
+    resultName: resolved?.name ?? r.name,
+    resultImg: resolved?.img ?? "",
+    resultUuid: resolved?.uuid ?? "",
     dc: r.dc,
     timeHours: 1,
     toolKey: "cooks-utensils",

@@ -14,6 +14,7 @@ npm test                                  # vitest run (full suite)
 npm run test:watch                        # vitest watch mode
 npx vitest run tests/QuirkEngine.test.mjs # single test file
 npm run build:packs                       # regenerate recipe compendium packs from the catalogue
+node tools/index-heliana-items.mjs <Data> # refresh the item-link index from installed companion modules
 ```
 
 There is no lint step. To test in Foundry itself: symlink/copy this repo into `Data/modules/helianas-mechanics/`, enable the module in a world, and reload the browser (`F5`) after edits.
@@ -55,7 +56,7 @@ Crafting-tag substitution data lives in `flags.helianas-mechanics.tags` (plain s
 - **Public API** for macros is exposed on `game.modules.get("helianas-mechanics").api` (`RecipeImporter`, `RecipeBrowser`, `BulkTagger`) in the `ready` hook.
 - **Chat command**: `/helianas-import` is intercepted via the `chatMessage` hook and routed to `RecipeImporter.runCommand()`.
 - **Legacy migration**: `module.mjs` one-shot converts old flag-based recipes (`flags.helianas-mechanics.recipe`) to sub-type pages on GM login.
-- `packs/` contains **LevelDB binary data** for the bundled compendiums (declared under `packs` in `module.json`). Never hand-edit these files. The three recipe packs (`manufacturing-recipes`, `forge-recipes`, `cooking-recipes`) are **generated** by `tools/build-packs.mjs` from the catalogue markdown (JSON sources in `packs-src/`, deterministic document IDs) — change the catalogue or the script and rerun `npm run build:packs`, never edit those packs in Foundry. `mundane-items` and `recipe-books` are hand-authored in Foundry and not touched by the build. `.gitattributes` marks `packs/**` as binary — required, or `core.autocrlf` corrupts the `CURRENT` files on Windows checkouts.
+- `packs/` contains **LevelDB binary data** for the bundled compendiums (declared under `packs` in `module.json`). Never hand-edit these files. The three recipe packs (`manufacturing-recipes`, `forge-recipes`, `cooking-recipes`) are **generated** by `tools/build-packs.mjs` from the catalogue markdown (JSON sources in `packs-src/`, deterministic document IDs) — change the catalogue or the script and rerun `npm run build:packs`, never edit those packs in Foundry. Recipe results/components are linked to real compendium items via `tools/data/heliana-item-index.json` (names → UUIDs from heliana-core, helianas-harvesting, and dnd5e; regenerate with `tools/index-heliana-items.mjs` when those change). Multi-rarity catalogue rows expand to one recipe page per tier. `mundane-items` and `recipe-books` are hand-authored in Foundry and not touched by the build. `.gitattributes` marks `packs/**` as binary — required, or `core.autocrlf` corrupts the `CURRENT` files on Windows checkouts.
 
 ## Foundry v14 Conventions
 

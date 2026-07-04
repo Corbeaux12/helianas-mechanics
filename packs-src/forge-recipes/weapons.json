@@ -4,15 +4,15 @@
   "name": "Weapons",
   "pages": [
     {
-      "_id": "AThdpJgxkgZExifA",
-      "name": "Painblinder Mycaxe (any axe)",
+      "_id": "VrNjyrtPbSKH0En6",
+      "name": "Painblinder Mycaxe (any axe) (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Painblinder Mycaxe (any axe)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Painblinder Mycaxe Battleaxe (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Painblinder_Mycaxe.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Lu2KymlT0K94U1s7",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -22,11 +22,11 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "XSVMtwieTTbJwnR8",
+            "id": "GG0kNzvlAFmoJGN8",
             "name": "Monster Component",
             "components": [
               {
-                "id": "qTiNEX1L0PmZXLQl",
+                "id": "q9YlLcMsSXpIJoLB",
                 "uuid": "",
                 "name": "Spore-filled gills",
                 "nameMode": "exact",
@@ -53,18 +53,70 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.AThdpJgxkgZExifA"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.VrNjyrtPbSKH0En6"
     },
     {
-      "_id": "03e5GZ5OF31f05qd",
-      "name": "Time Splitter (any axe)",
+      "_id": "yggo2Qx6Rj0SM5CC",
+      "name": "Painblinder Mycaxe (any axe) (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Time Splitter (any axe)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Painblinder Mycaxe Battleaxe (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Painblinder_Mycaxe_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.PfUNlPNDWpJfek09",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vhdxWWIJZ6RMg9RA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "U9mt3vVi1BJNEJzJ",
+                "uuid": "",
+                "name": "Spore-filled gills",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.yggo2Qx6Rj0SM5CC"
+    },
+    {
+      "_id": "OtRZqTO4ZFRR3ZOM",
+      "name": "Time Splitter (any axe) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Time Splitter Battleaxe (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/timesplitter.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.nO0QF0oqHa4YQD3z",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -74,15 +126,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "WJu18zEVXSogtuwG",
+            "id": "sfpQzB3GoK9GSpKc",
             "name": "Monster Component",
             "components": [
               {
-                "id": "ObG5vAOXet0P0sNu",
-                "uuid": "",
-                "name": "Bone",
+                "id": "sg2HafGFfLgx2WVs",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.d7A1YuHfTxhACcuj",
+                "name": "Aberration Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/horn-curved-grey-purple.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -100,23 +152,75 @@
         "show": true,
         "level": 1
       },
-      "sort": 200,
+      "sort": 300,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.03e5GZ5OF31f05qd"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.OtRZqTO4ZFRR3ZOM"
     },
     {
-      "_id": "DShOXwoRHRwunwh3",
-      "name": "Sunwing Bow (any bow)",
+      "_id": "C4jTymRVdpIhZIPh",
+      "name": "Time Splitter (any axe) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Time Splitter Battleaxe (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/Timecutter2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.WhRcClTfUWtYaI90",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Hu189RC6yxz5y9FN",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "20MNhMYRDW4YreLy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.d7A1YuHfTxhACcuj",
+                "name": "Aberration Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-curved-grey-purple.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "aberration",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.C4jTymRVdpIhZIPh"
+    },
+    {
+      "_id": "ca7B64nR7UUsbly2",
+      "name": "Sunwing Bow (any bow) (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
-        "resultName": "Sunwing Bow (any bow)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Sunwing Bow (Uncommon) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.tWENFuLIkHtLbUic",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -126,11 +230,11 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "2rmEenBxA3vIHv55",
+            "id": "w6tqiTIOsNEN3slK",
             "name": "Monster Component",
             "components": [
               {
-                "id": "cO9FR8IcDgXuanHy",
+                "id": "xAB4r2se4iCawOkC",
                 "uuid": "",
                 "name": "Sinew",
                 "nameMode": "exact",
@@ -152,23 +256,127 @@
         "show": true,
         "level": 1
       },
-      "sort": 300,
+      "sort": 500,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.DShOXwoRHRwunwh3"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.ca7B64nR7UUsbly2"
     },
     {
-      "_id": "uQdj6KMDqJrMuaa1",
-      "name": "Haemstrike (any hammer*)",
+      "_id": "OLcnfSXaweHQ7Vxa",
+      "name": "Sunwing Bow (any bow) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Rare) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.sMHLeULD8ruEp4Yg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "321j9LNfh5sgPzbG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Xd429W9262Aj3saG",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.OLcnfSXaweHQ7Vxa"
+    },
+    {
+      "_id": "aNrPnY73aAx0kZks",
+      "name": "Sunwing Bow (any bow) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Sunwing Bow (Very Rare) Longbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/SunwingBow3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.z6jhHrSbht3rqEgn",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "l2YRW4knGuGOUW9g",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5vPsuuJeyURqNQ1n",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.aNrPnY73aAx0kZks"
+    },
+    {
+      "_id": "JOqfYiKalyrkUFg4",
+      "name": "Haemstrike (any hammer*) (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Haemstrike (any hammer*)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Haemstrike Warhammer (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemstrike_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.PHtEZnbwhGkF8bY2",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -178,15 +386,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "xHyTNCm70lbSevGk",
+            "id": "2VeKWoUSFlM2U5jj",
             "name": "Monster Component",
             "components": [
               {
-                "id": "wlRuESkeIDgJNyai",
-                "uuid": "",
-                "name": "Bone",
+                "id": "IA2mxjvJ92v7MigX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -204,23 +412,23 @@
         "show": true,
         "level": 1
       },
-      "sort": 400,
+      "sort": 800,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.uQdj6KMDqJrMuaa1"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.JOqfYiKalyrkUFg4"
     },
     {
-      "_id": "0LwZqTg2MBOtr3Qs",
-      "name": "Hammer Time (any hammer*)",
+      "_id": "TwMuO0w4c7maKXq1",
+      "name": "Haemstrike (any hammer*) (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Hammer Time (any hammer*)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Haemstrike Warhammer (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemstrike_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.8O5T7DXE3aXZN0Nd",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -230,15 +438,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "qeSlQ0iDdG1USYLw",
+            "id": "hsUogMlvA17W1PgL",
             "name": "Monster Component",
             "components": [
               {
-                "id": "XUGLrwME9rAj7eCb",
-                "uuid": "",
-                "name": "Main eye",
+                "id": "h9DADgu2u40tODhl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -248,31 +456,83 @@
           }
         ],
         "essenceTierRequired": "robust",
-        "componentCreatureType": "aberration",
+        "componentCreatureType": "dragon",
         "rarity": "rare",
-        "attunement": "none"
+        "attunement": "optional"
       },
       "title": {
         "show": true,
         "level": 1
       },
-      "sort": 500,
+      "sort": 900,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.0LwZqTg2MBOtr3Qs"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.TwMuO0w4c7maKXq1"
     },
     {
-      "_id": "6T9ChqzZNBlt4g2j",
-      "name": "Headbanger Lute (any hammer*)",
+      "_id": "crGDmXEsq4rjo42i",
+      "name": "Haemstrike (any hammer*) (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Headbanger Lute (any hammer*)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Haemstrike Warhammer (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemstrike_3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.dcKr76Hvox3S4LUp",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "HwH0sTgS2OXf7NRu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9km6lPGM3YZ13vve",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.crGDmXEsq4rjo42i"
+    },
+    {
+      "_id": "QLOoD6b4MGAKuz6T",
+      "name": "Hammer Time (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Hammer Time Warhammer (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/Hammertime.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.u3Fp5y4RQwcwhqkM",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -282,11 +542,115 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "Pj2Kqshks7ffWde5",
+            "id": "1spgpcePqmh8FLlQ",
             "name": "Monster Component",
             "components": [
               {
-                "id": "6yX6Ly9okTc0oDMW",
+                "id": "LQlPA31OAyNybvRU",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vnyhV87jkWP7Mrng",
+                "name": "Aberration Main Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "aberration",
+        "rarity": "uncommon",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.QLOoD6b4MGAKuz6T"
+    },
+    {
+      "_id": "g4WchaXrsF6gDvqb",
+      "name": "Hammer Time (any hammer*) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Hammer Time Warhammer (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dream-weaver/images/items/Hammertime2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dream-weaver.Item.d8owBPMJ9sKMt34B",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3Tj1SEwn1wy925T5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5FbIIKawzaRQJfa0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vnyhV87jkWP7Mrng",
+                "name": "Aberration Main Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "aberration",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.g4WchaXrsF6gDvqb"
+    },
+    {
+      "_id": "3nYSAVr9Y6w6huLw",
+      "name": "Headbanger Lute (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Headbanger Lute Club (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicInstrument1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.iCWvs0g7AyqOfsko",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KGuET5C5x9F9CZLO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Qy5Zuj3nnzv30MWm",
                 "uuid": "",
                 "name": "Stomach",
                 "nameMode": "exact",
@@ -308,23 +672,75 @@
         "show": true,
         "level": 1
       },
-      "sort": 600,
+      "sort": 1300,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.6T9ChqzZNBlt4g2j"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.3nYSAVr9Y6w6huLw"
     },
     {
-      "_id": "LtN7E1EYETGQnbbc",
-      "name": "Mawling Maul (any hammer*)",
+      "_id": "eHIJJ2UtNXyr1l9e",
+      "name": "Headbanger Lute (any hammer*) (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Mawling Maul (any hammer*)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Headbanger Lute Club (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicInstrument2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.Tf6rbW6BK6Xy7WpI",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "AefRfl8ASamsKIIm",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ChMEfh4K9LtPWCxU",
+                "uuid": "",
+                "name": "Stomach",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.eHIJJ2UtNXyr1l9e"
+    },
+    {
+      "_id": "6gbWUMLx3N1mrQkl",
+      "name": "Mawling Maul (any hammer*) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Mawling Maul (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicMaul1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.zKGtNf7Tn8kWvbiO",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -334,15 +750,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "A9pmrEAe1I0bhal9",
+            "id": "0w59onqAdpYWuo0U",
             "name": "Monster Component",
             "components": [
               {
-                "id": "0sTk5IBIaLyzgI2k",
-                "uuid": "",
-                "name": "Pouch of teeth",
+                "id": "745JnqFJVfgmvRXq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -360,23 +776,23 @@
         "show": true,
         "level": 1
       },
-      "sort": 700,
+      "sort": 1500,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.LtN7E1EYETGQnbbc"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.6gbWUMLx3N1mrQkl"
     },
     {
-      "_id": "pFGsC4cz0YwVb4bt",
-      "name": "Jaw Breakers (any two melee)",
+      "_id": "WU2ex3Wj94pO2EUD",
+      "name": "Mawling Maul (any hammer*) (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Jaw Breakers (any two melee)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Mawling Maul (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicMaul2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.vBxC91LftrUsIpla",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -386,11 +802,63 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "bSPq0vDAQUk6BeuM",
+            "id": "hqQKMnYk9peCDNQA",
             "name": "Monster Component",
             "components": [
               {
-                "id": "Wsygwo0fS6FBj6Sc",
+                "id": "dMjv288GeMkisIA3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.WU2ex3Wj94pO2EUD"
+    },
+    {
+      "_id": "TeFdx7c70R79nRkw",
+      "name": "Jaw Breakers (any two melee) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Jaw Breakers (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Jaw_Breakers_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.ADJ57sgxiHaV0TTS",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aJepnuA7u7HFxvi5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8Gg9yRDRJzHc2urs",
                 "uuid": "",
                 "name": "Pouch of teeth",
                 "nameMode": "exact",
@@ -412,23 +880,75 @@
         "show": true,
         "level": 1
       },
-      "sort": 800,
+      "sort": 1700,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.pFGsC4cz0YwVb4bt"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.TeFdx7c70R79nRkw"
     },
     {
-      "_id": "C0irbzHOnj9sZ41u",
-      "name": "Gunnspier (any polearm**)",
+      "_id": "61Mwxv1x2dHiOT5s",
+      "name": "Jaw Breakers (any two melee) (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Gunnspier (any polearm**)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Jaw Breakers (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Jaw_Breakers_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.fF67CE6kmS4e1nuP",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "FK5gQFCC632uaust",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1nxOJcJnc5gJwqiE",
+                "uuid": "",
+                "name": "Pouch of teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.61Mwxv1x2dHiOT5s"
+    },
+    {
+      "_id": "pvpF65sWGeNPV3TK",
+      "name": "Gunnspier (any polearm**) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Gunnspier Halberd (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Gunnspier_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.nak7XKRMJfrwjgmS",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -438,11 +958,11 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "t1MmMAR6NyI2XFwk",
+            "id": "329cNJwGYvOnxBau",
             "name": "Monster Component",
             "components": [
               {
-                "id": "Jl2CqfcJ3cphffoh",
+                "id": "TAOzFvmkXTopc61y",
                 "uuid": "",
                 "name": "Gearing",
                 "nameMode": "exact",
@@ -464,23 +984,75 @@
         "show": true,
         "level": 1
       },
-      "sort": 900,
+      "sort": 1900,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.C0irbzHOnj9sZ41u"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.pvpF65sWGeNPV3TK"
     },
     {
-      "_id": "lz6It1YgvKvoePID",
-      "name": "Bonze's Bokken Wind Ripper (any sword)",
+      "_id": "9NYW1vFfFNFipi4e",
+      "name": "Gunnspier (any polearm**) (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Bonze's Bokken Wind Ripper (any sword)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Gunnspier Halberd (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Gunnspier_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.7O0lA0jFQHWOZpLz",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LSMeBY1drLJOvhfm",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mPNJMP0MPXQ9xMXZ",
+                "uuid": "",
+                "name": "Gearing",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.9NYW1vFfFNFipi4e"
+    },
+    {
+      "_id": "9omDWj29mUMg4qJd",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.JA9G9Kc11muv87A1",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -490,15 +1062,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "tBwblmZpfelox6sH",
+            "id": "8EajctCxT6Heey50",
             "name": "Monster Component",
             "components": [
               {
-                "id": "Yaa2jlcin8Fu0l95",
-                "uuid": "",
-                "name": "Bark",
+                "id": "dyyiTWwLqg1V1nBQ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -516,23 +1088,23 @@
         "show": true,
         "level": 1
       },
-      "sort": 1000,
+      "sort": 2100,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.lz6It1YgvKvoePID"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.9omDWj29mUMg4qJd"
     },
     {
-      "_id": "93XxngQJ8E0922Pt",
-      "name": "Tail's End (any sword)",
+      "_id": "XTLJbVlCHKDjSnAr",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Tail's End (any sword)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.vjHDp1DJrfkb0yK5",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -542,11 +1114,167 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "W2mFn0yEkKVjCQHY",
+            "id": "a4FzunJdUMVPNo3e",
             "name": "Monster Component",
             "components": [
               {
-                "id": "dnlMp1f1DHaKqBIi",
+                "id": "P7pbxCLCqKTU9wgS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.XTLJbVlCHKDjSnAr"
+    },
+    {
+      "_id": "6aoeq6ImAhVUdfZf",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.QXKq2wlDZ1eMmejK",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "X2UkMbGyWtFVB5V0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "y0evW9s5d1G2FCvc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.6aoeq6ImAhVUdfZf"
+    },
+    {
+      "_id": "eqOAr7qsrFHQsrQW",
+      "name": "Bonze's Bokken Wind Ripper (any sword) (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Bonze’s Bokken, Wind Ripper (Longsword) (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Bonzes-Bokken.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.byphrUADVeUtp2rP",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Lq6ASLE4jaw3VOJc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "sIJzlytqVx2Wm19a",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "plant",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.eqOAr7qsrFHQsrQW"
+    },
+    {
+      "_id": "kBVizCkNPdAZpI2F",
+      "name": "Tail's End (any sword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Tail's End Longsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Tails_End_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.V3zXn7hI8AfoEezL",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "E3ZHMXAETpwsns5Z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2DdeWlr3RDB8817M",
                 "uuid": "",
                 "name": "Sinew",
                 "nameMode": "exact",
@@ -568,23 +1296,75 @@
         "show": true,
         "level": 1
       },
-      "sort": 1100,
+      "sort": 2500,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.93XxngQJ8E0922Pt"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.kBVizCkNPdAZpI2F"
     },
     {
-      "_id": "seIrY2OmhWO7I06f",
-      "name": "Terrorasque (any sword)",
+      "_id": "9LiW6pVvY9d86BbA",
+      "name": "Tail's End (any sword) (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Terrorasque (any sword)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Tail's End Longsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Tails_End_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.qiJS42Wsz4JoOCN3",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5ozqtxjGW25i3foJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lZ1rCrj0MFPLCUhO",
+                "uuid": "",
+                "name": "Sinew",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.9LiW6pVvY9d86BbA"
+    },
+    {
+      "_id": "tt2n0bAj6XQ9lWZf",
+      "name": "Terrorasque (any sword) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Terrorasque Greatsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Terrorasque_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.K0Xy2uKDjzbHadjh",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -594,16 +1374,16 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "H46C68M9x11U3hrE",
+            "id": "OXT34lK9HY4isr4Z",
             "name": "Monster Component",
             "components": [
               {
-                "id": "1oWxG8ryWGH1t3oy",
+                "id": "nl2wOHgKWg4RKnn1",
                 "uuid": "",
                 "name": "Pouch of claws",
                 "nameMode": "exact",
                 "img": "",
-                "quantity": 1,
+                "quantity": 2,
                 "tags": [],
                 "mode": "some",
                 "resourcePath": ""
@@ -620,12 +1400,64 @@
         "show": true,
         "level": 1
       },
-      "sort": 1200,
+      "sort": 2700,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.seIrY2OmhWO7I06f"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.tt2n0bAj6XQ9lWZf"
+    },
+    {
+      "_id": "5EY0hZ7XCxsgxvX6",
+      "name": "Terrorasque (any sword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Terrorasque Greatsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-tarchaeology/images/items/Terrorasque_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-tarchaeology.Item.HWSHuug3j3EY1Fy9",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xXFMBdw8Y5Xj39sC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WDRAni0WvUXhTnHJ",
+                "uuid": "",
+                "name": "Pouch of claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 2,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.5EY0hZ7XCxsgxvX6"
     },
     {
       "_id": "6o35VGd8u9VQNd9v",
@@ -634,9 +1466,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Vorpal Sword (any sword)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Vorpal Sword",
+        "resultImg": "icons/weapons/swords/scimitar-guard-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgVorpalSword00",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -651,10 +1483,10 @@
             "components": [
               {
                 "id": "g0obx1U0q6yaFKhk",
-                "uuid": "",
-                "name": "Pouch of teeth",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -672,7 +1504,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1300,
+      "sort": 2900,
       "ownership": {
         "default": -1
       },
@@ -680,15 +1512,15 @@
       "_key": "!journal.pages!TP7EzqfChV1510XV.6o35VGd8u9VQNd9v"
     },
     {
-      "_id": "3K1rUiAAj3BCWHQM",
-      "name": "Splinterspray Tommybow",
+      "_id": "417snHshjeKkJ1he",
+      "name": "Splinterspray Tommybow (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
-        "resultName": "Splinterspray Tommybow",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Splinterspray  Light Tommybow (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Rakshasa_Splinterspray-Tommybow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.1pCVvRhtpeHsDKa4",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -698,15 +1530,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "bwlwX4B7dx10OlUC",
+            "id": "bgR6xPQWfuTa4YjK",
             "name": "Monster Component",
             "components": [
               {
-                "id": "UTs1WAg5kUKHvp8J",
-                "uuid": "",
-                "name": "Instructions",
+                "id": "zsESGD4S1Wafcfh4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -724,23 +1556,127 @@
         "show": true,
         "level": 1
       },
-      "sort": 1400,
+      "sort": 3000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.3K1rUiAAj3BCWHQM"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.417snHshjeKkJ1he"
     },
     {
-      "_id": "WOS9t9LDXI1ZVwB3",
-      "name": "Claws of Corruption (claw)",
+      "_id": "njW2FWv1kxIKTS7V",
+      "name": "Splinterspray Tommybow (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Splinterspray  Light Tommybow (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Rakshasa_Splinterspray-Tommybow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L2oNNmgbK3nYVS9l",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Um8SQyqfDaqAzvRh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WGfRM2VguvlrlQgj",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.njW2FWv1kxIKTS7V"
+    },
+    {
+      "_id": "uwh552UX0MbtTDrk",
+      "name": "Splinterspray Tommybow (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
+        "resultName": "Splinterspray  Light Tommybow (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Rakshasa_Splinterspray-Tommybow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.6lj7QaN2g1YMzrFt",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "UdhMs9rwvtyp1eAn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uOqZsBcG1622DfUS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.uwh552UX0MbtTDrk"
+    },
+    {
+      "_id": "SHSJD1ha22CkHeGm",
+      "name": "Claws of Corruption (claw) (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Claws of Corruption (claw)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Claws of Corruption (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Claws_of_Corruption_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.L77hgzeKYactApSd",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -750,15 +1686,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "rP117zfJwc88x7tR",
+            "id": "V37xOi86ATSmTfp5",
             "name": "Monster Component",
             "components": [
               {
-                "id": "LLFBOwR4eTL97PW4",
-                "uuid": "",
-                "name": "Pouch of claws",
+                "id": "QlI7wKRT4g4C2pQs",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oq3GyTaSEiQTERc2",
+                "name": "Pouch of Fiend Claws",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -776,12 +1712,64 @@
         "show": true,
         "level": 1
       },
-      "sort": 1500,
+      "sort": 3300,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.WOS9t9LDXI1ZVwB3"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.SHSJD1ha22CkHeGm"
+    },
+    {
+      "_id": "AUBKGnNZ4VZMZM2j",
+      "name": "Claws of Corruption (claw) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Claws of Corruption (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Claws_of_Corruption_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.Pbxg9hGZV7SVY7Mo",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2ZeTebk28WoeaZt6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WxKwYJxfmKwb2GM9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oq3GyTaSEiQTERc2",
+                "name": "Pouch of Fiend Claws",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.AUBKGnNZ4VZMZM2j"
     },
     {
       "_id": "rc0OJBO3MzbZINqq",
@@ -791,8 +1779,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "resultName": "Dagger of Venom",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/daggers/dagger-double-skull-pink.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDaggerOfVenom",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -807,10 +1795,10 @@
             "components": [
               {
                 "id": "i7OsK80gezbEgtJR",
-                "uuid": "",
-                "name": "Poison gland",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.X3dMh8s2AslCkadb",
+                "name": "Fiend Poison Gland",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/tail-scaled-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -828,7 +1816,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1600,
+      "sort": 3500,
       "ownership": {
         "default": -1
       },
@@ -836,15 +1824,15 @@
       "_key": "!journal.pages!TP7EzqfChV1510XV.rc0OJBO3MzbZINqq"
     },
     {
-      "_id": "aSQ6A8q2ENUH059V",
-      "name": "Flooze (flail)",
+      "_id": "7w2Auvst6ndRFUf5",
+      "name": "Flooze (flail) (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Flooze (flail)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Flooze (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/Flooze1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.0s4tn2dQ2GiCCTz2",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -854,16 +1842,16 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "IyODktRAsBZODHmT",
+            "id": "i55OfwACZTkB1pj8",
             "name": "Monster Component",
             "components": [
               {
-                "id": "91tbnVPDtNIx2SHd",
-                "uuid": "",
-                "name": "Gooey wishbones",
+                "id": "LLhfk9N0Rp44lCUK",
+                "uuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.Ot8825mW1YZ9xj7V",
+                "name": "Ooze Gooey Wishbone",
                 "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
+                "img": "icons/commodities/bones/horn-antler-pink.webp",
+                "quantity": 3,
                 "tags": [],
                 "mode": "some",
                 "resourcePath": ""
@@ -880,12 +1868,64 @@
         "show": true,
         "level": 1
       },
-      "sort": 1700,
+      "sort": 3600,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.aSQ6A8q2ENUH059V"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.7w2Auvst6ndRFUf5"
+    },
+    {
+      "_id": "7JTS4bsttoU35VgF",
+      "name": "Flooze (flail) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Flooze (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-gelatinous-polyhedrooze/images/items/Flooze2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.dTcAE0Sj20tneAk5",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ikzLDRBod0CaeNup",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xRoD2vlFUl5aYbfm",
+                "uuid": "Compendium.heliana-core.items-heliana-gelatinous-polyhedrooze.Item.Ot8825mW1YZ9xj7V",
+                "name": "Ooze Gooey Wishbone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/horn-antler-pink.webp",
+                "quantity": 3,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.7JTS4bsttoU35VgF"
     },
     {
       "_id": "J34jx6lw9C4pPkGc",
@@ -894,9 +1934,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "+1 Weapon",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Weapon, +1, +2, or +3",
+        "resultImg": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWeapon12or300",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -911,10 +1951,10 @@
             "components": [
               {
                 "id": "TbxL0KqXILM6PIWs",
-                "uuid": "",
-                "name": "Pouch of claws",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.bCKpjpOXCQbIOfBF",
+                "name": "Pouch of Beast Claws",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -932,7 +1972,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1800,
+      "sort": 3800,
       "ownership": {
         "default": -1
       },
@@ -946,9 +1986,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "+2 Weapon",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Weapon, +1, +2, or +3",
+        "resultImg": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWeapon12or300",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -963,10 +2003,10 @@
             "components": [
               {
                 "id": "UuH0ZQr1TYAdKtDE",
-                "uuid": "",
-                "name": "Pouch of claws",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.bbmChVcW5DLYk6lw",
+                "name": "Pouch of Monstrosity Claws",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -984,7 +2024,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1900,
+      "sort": 3900,
       "ownership": {
         "default": -1
       },
@@ -998,9 +2038,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "+3 Weapon",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Weapon, +1, +2, or +3",
+        "resultImg": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWeapon12or300",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1015,10 +2055,10 @@
             "components": [
               {
                 "id": "QI1nGpWaO0FIplDU",
-                "uuid": "",
-                "name": "Pouch of claws",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZFt4UhHc5Mggky7H",
+                "name": "Pouch of Dragon Claws",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/sack-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1036,7 +2076,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2000,
+      "sort": 4000,
       "ownership": {
         "default": -1
       },
@@ -1051,8 +2091,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Berserker Axe",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/axes/axe-battle-skull-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgBerserkerAxe0",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1067,10 +2107,10 @@
             "components": [
               {
                 "id": "GSKGtrDGSFW3SHyp",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1088,7 +2128,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2100,
+      "sort": 4100,
       "ownership": {
         "default": -1
       },
@@ -1103,8 +2143,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Dancing Sword",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/skills/melee/sword-twirl-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDancingSword0",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1119,10 +2159,10 @@
             "components": [
               {
                 "id": "Gtdm1urjGN2r3cvU",
-                "uuid": "",
-                "name": "Lifespark",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1140,7 +2180,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2200,
+      "sort": 4200,
       "ownership": {
         "default": -1
       },
@@ -1155,8 +2195,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Defender",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/greatsword-guard-jewel-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDefender00000",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1171,10 +2211,10 @@
             "components": [
               {
                 "id": "n3H91Fx3c61EC37V",
-                "uuid": "",
-                "name": "Lifespark",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1192,7 +2232,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2300,
+      "sort": 4300,
       "ownership": {
         "default": -1
       },
@@ -1207,8 +2247,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Dragon Slayer",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/sword-jeweled-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDragonSlayer0",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1223,10 +2263,10 @@
             "components": [
               {
                 "id": "aJecdH1APBgsj7sb",
-                "uuid": "",
-                "name": "Heart",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YU6uabBB9mAR4B5O",
+                "name": "Dragon Heart",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/organ-liver-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1244,7 +2284,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2400,
+      "sort": 4400,
       "ownership": {
         "default": -1
       },
@@ -1259,8 +2299,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Flame Tongue",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/greatsword-crossguard-flanged-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgFlameTongue00",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1275,10 +2315,10 @@
             "components": [
               {
                 "id": "cufNMsxsVFLGZDAK",
-                "uuid": "",
-                "name": "Breath sac",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/pustules-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1296,7 +2336,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2500,
+      "sort": 4500,
       "ownership": {
         "default": -1
       },
@@ -1311,8 +2351,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Frost Brand",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/greatsword-flamberge.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgFrostBrand000",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1327,10 +2367,10 @@
             "components": [
               {
                 "id": "YBzlQMQB8KCuk3JC",
-                "uuid": "",
-                "name": "Breath sac",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/pustules-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1348,7 +2388,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2600,
+      "sort": 4600,
       "ownership": {
         "default": -1
       },
@@ -1363,8 +2403,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Giant Slayer",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGiantSlayer00",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1379,10 +2419,10 @@
             "components": [
               {
                 "id": "qmxkdFA4b9lJYjQI",
-                "uuid": "",
-                "name": "Heart",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.B3KAXOUbXXneKhEb",
+                "name": "Giant Heart",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1400,7 +2440,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2700,
+      "sort": 4700,
       "ownership": {
         "default": -1
       },
@@ -1415,8 +2455,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Holy Avenger",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHolyAvenger00",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1431,10 +2471,10 @@
             "components": [
               {
                 "id": "5DsjPu7qkXZF2DOU",
-                "uuid": "",
-                "name": "Heart",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.c0VpQ2VOOOS2dRkA",
+                "name": "Celestial Heart",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/meat/heart-organ-realistic-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1452,7 +2492,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2800,
+      "sort": 4800,
       "ownership": {
         "default": -1
       },
@@ -1467,8 +2507,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Luck Blade",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/sword-guard-worn-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgLuckBlade0000",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1483,10 +2523,10 @@
             "components": [
               {
                 "id": "UDvqwIM8psJahL7W",
-                "uuid": "",
-                "name": "Psyche",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/symbols/circled-gem-pink.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1504,7 +2544,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2900,
+      "sort": 4900,
       "ownership": {
         "default": -1
       },
@@ -1519,8 +2559,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Nine Lives Stealer",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/greatsword-flamberge.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgNineLivesStea",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1535,10 +2575,10 @@
             "components": [
               {
                 "id": "1mbalWM3MDZJ0fuz",
-                "uuid": "",
-                "name": "Heart",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.0bibGJfScx8Kh2Wv",
+                "name": "Beast Heart",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1556,7 +2596,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3000,
+      "sort": 5000,
       "ownership": {
         "default": -1
       },
@@ -1587,10 +2627,10 @@
             "components": [
               {
                 "id": "Eq8fW9X9rod2SzzS",
-                "uuid": "",
-                "name": "Lifespark",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1608,7 +2648,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3100,
+      "sort": 5100,
       "ownership": {
         "default": -1
       },
@@ -1623,8 +2663,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Sword of Life Stealing",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/sword-guard-worn.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSwordOfLifeSt",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1639,10 +2679,10 @@
             "components": [
               {
                 "id": "B2IxD2cH7kMebsE6",
-                "uuid": "",
-                "name": "Ethereal ichor",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/potions/flask-ornate-skull-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1660,7 +2700,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3200,
+      "sort": 5200,
       "ownership": {
         "default": -1
       },
@@ -1675,8 +2715,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Sword of Sharpness",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/scimitar-guard-wood.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSwordOfSharpn",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1691,10 +2731,10 @@
             "components": [
               {
                 "id": "v9NgtBBJTTGYzBVG",
-                "uuid": "",
-                "name": "Tooth",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.LVCVAX3viWeE3l3t",
+                "name": "Giant Tooth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/tooth-molar-white-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1712,7 +2752,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3300,
+      "sort": 5300,
       "ownership": {
         "default": -1
       },
@@ -1727,8 +2767,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Sword of Wounding",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/skills/melee/strike-sword-blood-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSwordOfWoundi",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1743,10 +2783,10 @@
             "components": [
               {
                 "id": "x2cv7bD0KVHLHmOC",
-                "uuid": "",
-                "name": "Pouch of teeth",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.RKu20rYg91awVGn9",
+                "name": "Pouch of Humanoid Teeth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1764,7 +2804,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3400,
+      "sort": 5400,
       "ownership": {
         "default": -1
       },
@@ -1795,10 +2835,10 @@
             "components": [
               {
                 "id": "1yLvuvgr9jr1TqrV",
-                "uuid": "",
-                "name": "Phial of congealed blood",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HWfsNczOK8yvTgre",
+                "name": "Phial of Undead Congealed Blood",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/potions/conical-mushroom-poison-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1816,7 +2856,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3500,
+      "sort": 5500,
       "ownership": {
         "default": -1
       },
@@ -1831,8 +2871,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Vicious Weapon",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/sickles/sickle-hooked-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgViciousWeapon",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1847,10 +2887,10 @@
             "components": [
               {
                 "id": "6X37ystgGU6TLZ0H",
-                "uuid": "",
-                "name": "Pouch of teeth",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.lbj5EH5IVfSFjwWD",
+                "name": "Pouch of Undead Teeth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-leather-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1868,7 +2908,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3600,
+      "sort": 5600,
       "ownership": {
         "default": -1
       },
@@ -1883,8 +2923,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Weapon of Warning",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/hammers/hammer-double-engraved-ruby.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgWeaponOfWarni",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1899,10 +2939,10 @@
             "components": [
               {
                 "id": "hBsEzHFjmzi9SC8l",
-                "uuid": "",
-                "name": "Antenna",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Hkbv1jrFWbD43g0G",
+                "name": "Monstrosity Antenna",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/tentacle-thorned-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1920,7 +2960,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3700,
+      "sort": 5700,
       "ownership": {
         "default": -1
       },
@@ -1934,9 +2974,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
-        "resultName": "Kobold Wristbow (hand crossbow)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Kobold Wristbow",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Koboldzilla_Kobold-Wristbow.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.Nft1Tr4jggWqpSia",
         "resultQuantity": 1,
         "dc": 12,
         "timeHours": 1,
@@ -1972,7 +3012,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3800,
+      "sort": 5800,
       "ownership": {
         "default": -1
       },
@@ -1987,8 +3027,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "resultName": "Javelin of Lightning",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/polearms/spear-barbed-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgJavelinOfLigh",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -2003,10 +3043,10 @@
             "components": [
               {
                 "id": "dj9Kc9jOa2HD9rHq",
-                "uuid": "",
-                "name": "Primordial dust",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DrRWMM7zhbFMSzSX",
+                "name": "Elemental Primordial Dust",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/materials/bowl-powder-teal.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2024,7 +3064,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3900,
+      "sort": 5900,
       "ownership": {
         "default": -1
       },
@@ -2038,9 +3078,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZDAfzcVl69bc8W8J",
-        "resultName": "Oathbow (longbow)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Oathbow",
+        "resultImg": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgOathbow000000",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -2055,10 +3095,10 @@
             "components": [
               {
                 "id": "70CriexTPNpKCdsr",
-                "uuid": "",
-                "name": "Tongue",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.0IN26XvZJMUEAYV8",
+                "name": "Fey Tongue",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/tongue-blue.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2076,7 +3116,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4000,
+      "sort": 6000,
       "ownership": {
         "default": -1
       },
@@ -2090,9 +3130,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Sun Blade (longsword)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Sun Blade",
+        "resultImg": "icons/commodities/treasure/sceptre-jeweled-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSunBlade00000",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -2107,10 +3147,10 @@
             "components": [
               {
                 "id": "CTyvqfClajjAv6A2",
-                "uuid": "",
-                "name": "Pouch of dust",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HPprrBKDy38nCPzu",
+                "name": "Pouch of Celestial Dust",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-simple-tan.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2128,7 +3168,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4100,
+      "sort": 6100,
       "ownership": {
         "default": -1
       },
@@ -2136,15 +3176,15 @@
       "_key": "!journal.pages!TP7EzqfChV1510XV.54xLVtvjZ4Pux1On"
     },
     {
-      "_id": "8ZsUTQXyk0yAxzIr",
-      "name": "Pneuma Blade (longsword or greatsword)",
+      "_id": "QMD5Wi6j13B4RaO1",
+      "name": "Pneuma Blade (longsword or greatsword) (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Pneuma Blade (longsword or greatsword)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Pneuma Longsword (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Pneuma_Blade_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.UeM278b3lSNwEpum",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -2154,15 +3194,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "1OHs0guPwlSiJkgG",
+            "id": "Et4yrwyQfB3ynoFH",
             "name": "Monster Component",
             "components": [
               {
-                "id": "L5h8S10aqvG05ak1",
-                "uuid": "",
-                "name": "Lifespark",
+                "id": "vG07pjOtKyg9Pbi4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2180,12 +3220,64 @@
         "show": true,
         "level": 1
       },
-      "sort": 4200,
+      "sort": 6200,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.8ZsUTQXyk0yAxzIr"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.QMD5Wi6j13B4RaO1"
+    },
+    {
+      "_id": "AcNFg1Yw5eXGCF1z",
+      "name": "Pneuma Blade (longsword or greatsword) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Pneuma Longsword (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Pneuma_Blade_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.0dYI4qU6QbAkcMU1",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "AD1oVZ2q87u5HaLh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xAbovcIZw0IOyxVh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 6300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.AcNFg1Yw5eXGCF1z"
     },
     {
       "_id": "f4W8xzw46Ufc9jYk",
@@ -2195,8 +3287,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "resultName": "Mace of Disruption",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/maces/shortmace-ornate-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMaceOfDisrupt",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -2211,10 +3303,10 @@
             "components": [
               {
                 "id": "qPGHqbvXQVyh9uf0",
-                "uuid": "",
-                "name": "Marrow",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.BvCRGl3GnJB492aE",
+                "name": "Undead Marrow",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bones-broken-marrow-white-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2232,7 +3324,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4300,
+      "sort": 6400,
       "ownership": {
         "default": -1
       },
@@ -2247,8 +3339,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "resultName": "Mace of Smiting",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/maces/mace-studded-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMaceOfSmiting",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -2263,10 +3355,10 @@
             "components": [
               {
                 "id": "9Wh2szsX078WAx5x",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PNBpZzmeBSHtuJJX",
+                "name": "Construct Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-broken-grey-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2284,7 +3376,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4400,
+      "sort": 6500,
       "ownership": {
         "default": -1
       },
@@ -2299,8 +3391,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "resultName": "Mace of Terror",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/maces/mace-spiked-skull.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMaceOfTerror0",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -2315,10 +3407,10 @@
             "components": [
               {
                 "id": "8cUpjXIKGD8zXi4O",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IXByIg9HWtqoURaE",
+                "name": "Monstrosity Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bones-joint-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2336,7 +3428,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4500,
+      "sort": 6600,
       "ownership": {
         "default": -1
       },
@@ -2350,9 +3442,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Hammer of Thunderbolts (maul)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Hammer of Thunderbolts",
+        "resultImg": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgHammerOfThund",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -2367,10 +3459,10 @@
             "components": [
               {
                 "id": "d2cNrJ549Or6sTnv",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qvJJUacV1hJNsjqW",
+                "name": "Giant Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-simple-white.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2388,7 +3480,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4600,
+      "sort": 6700,
       "ownership": {
         "default": -1
       },
@@ -2396,15 +3488,15 @@
       "_key": "!journal.pages!TP7EzqfChV1510XV.9U6NPlmLyQjjzd86"
     },
     {
-      "_id": "1IP1vXnhE8RjN03m",
-      "name": "Longspike (rapier)",
+      "_id": "LPcj52KKElP9uEhK",
+      "name": "Longspike (rapier) (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Longspike (rapier)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Longspike (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Longspike-Uncommon-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.XyQEY3jEM2lalQCH",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -2414,15 +3506,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "33q2x4zododTy1Cj",
+            "id": "eHbAobvWw8Xht55V",
             "name": "Monster Component",
             "components": [
               {
-                "id": "CsO5xenj3Cu01Hn5",
-                "uuid": "",
-                "name": "Pouch of hyphae",
+                "id": "JxpG7VIB7sDAT4yZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dQf3AhmCdhXWly5c",
+                "name": "Pouch of Plant Hyphae",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/pouch-gold-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2440,12 +3532,64 @@
         "show": true,
         "level": 1
       },
-      "sort": 4700,
+      "sort": 6800,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!TP7EzqfChV1510XV.1IP1vXnhE8RjN03m"
+      "_key": "!journal.pages!TP7EzqfChV1510XV.LPcj52KKElP9uEhK"
+    },
+    {
+      "_id": "KHRyif3W1CEYVndx",
+      "name": "Longspike (rapier) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "resultName": "Longspike (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Longspike-VeryRare-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.mUn74Pt6PhZkBvuG",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6XFpceXpvRj2QW6j",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "U6jVezFMFKCPUUcS",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dQf3AhmCdhXWly5c",
+                "name": "Pouch of Plant Hyphae",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pouch-gold-green.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 6900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TP7EzqfChV1510XV.KHRyif3W1CEYVndx"
     },
     {
       "_id": "d8kbu2HkNVE3CMG7",
@@ -2455,8 +3599,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Scimitar of Speed",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/swords/scimitar-guard-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgScimitarOfSpe",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -2471,10 +3615,10 @@
             "components": [
               {
                 "id": "4fA3UAhD2VvvQRsG",
-                "uuid": "",
-                "name": "Pouch of feathers",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2492,7 +3636,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4800,
+      "sort": 7000,
       "ownership": {
         "default": -1
       },
@@ -2507,8 +3651,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
         "resultName": "Trident of Fish Command",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/weapons/polearms/trident-ice-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgTridentOfFish",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -2523,10 +3667,10 @@
             "components": [
               {
                 "id": "RoZ02muuNaRqkL79",
-                "uuid": "",
-                "name": "Tentacle",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oDmycy52JK4p1b7K",
+                "name": "Beast Tentacle",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/tentacle-purple-white.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2544,7 +3688,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 4900,
+      "sort": 7100,
       "ownership": {
         "default": -1
       },
@@ -2558,9 +3702,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "resultName": "Dwarven Thrower (warhammer)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Dwarven Thrower",
+        "resultImg": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDwarvenThrowe",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -2575,10 +3719,10 @@
             "components": [
               {
                 "id": "s4nEFrTIP65o517G",
-                "uuid": "",
-                "name": "Tooth",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.LVCVAX3viWeE3l3t",
+                "name": "Giant Tooth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/tooth-molar-white-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -2596,7 +3740,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 5000,
+      "sort": 7200,
       "ownership": {
         "default": -1
       },

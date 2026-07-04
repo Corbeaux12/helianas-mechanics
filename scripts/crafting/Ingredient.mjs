@@ -60,7 +60,8 @@ export class Component {
     const items = actor.items.contents ?? actor.items;
     const byName = items.filter(i => {
       if (this.matchesName(i)) return true;
-      const sourceId = i.flags?.core?.sourceId;
+      // Provenance: legacy flags.core.sourceId (pre-v12) or _stats.compendiumSource
+      const sourceId = i.flags?.core?.sourceId ?? i._stats?.compendiumSource;
       if (this.uuid && sourceId && sourceId === this.uuid) return true;
       return false;
     });

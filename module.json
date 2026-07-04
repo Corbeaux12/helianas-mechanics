@@ -2,7 +2,7 @@
   "id": "helianas-mechanics",
   "title": "Heliana's Mechanics",
   "description": "A Foundry VTT module providing mechanics from Heliana's Guide to Monster Hunting.",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
@@ -70,6 +70,12 @@
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     }
   ],
+  "relationships": {
+    "recommends": [
+      { "id": "heliana-core", "type": "module", "reason": "Recipe result items are linked to heliana-core compendium items." },
+      { "id": "helianas-harvesting", "type": "module", "reason": "Recipe monster components are linked to the harvesting components pack." }
+    ]
+  },
   "packFolders": [
     {
       "name": "Heliana's Mechanics",

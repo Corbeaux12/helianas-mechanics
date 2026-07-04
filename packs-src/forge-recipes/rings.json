@@ -4,15 +4,15 @@
   "name": "Rings",
   "pages": [
     {
-      "_id": "pEm0GbDLpIv8R0nr",
-      "name": "Eye of the Tiger",
+      "_id": "tR55CazB6Zxh4e16",
+      "name": "Eye of the Tiger (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
-        "resultName": "Eye of the Tiger",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Eye of the Tiger (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Eye_of_the_Tiger_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.ueaLvZu7Ku8ARbzU",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -22,15 +22,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "c1jwffxvNv07JAqT",
+            "id": "41X4x5e0YjFbWaSD",
             "name": "Monster Component",
             "components": [
               {
-                "id": "HknqtIZNSTDR3tLm",
-                "uuid": "",
-                "name": "Eye",
+                "id": "vkeVpvp9JCroK2Iz",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.avkxkX9FIr7TeRPq",
+                "name": "Fiend Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/eye-blue-gold.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -53,7 +53,59 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.pEm0GbDLpIv8R0nr"
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.tR55CazB6Zxh4e16"
+    },
+    {
+      "_id": "B8sC189ynFZMRGRB",
+      "name": "Eye of the Tiger (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Eye of the Tiger (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-a-tale-of-two-tails/images/items/Eye_of_the_Tiger_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-a-tale-of-two-tails.Item.5xildBjvrcPx4UaT",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1AF6cVsWX41MmVfw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7apWQetg61Yv74hO",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.avkxkX9FIr7TeRPq",
+                "name": "Fiend Eye",
+                "nameMode": "exact",
+                "img": "icons/commodities/biological/eye-blue-gold.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.B8sC189ynFZMRGRB"
     },
     {
       "_id": "qnrvv1y18OD6FgjD",
@@ -63,8 +115,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Air Elemental Command",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.XZWHQ20ynJBK6xmU",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -79,10 +131,10 @@
             "components": [
               {
                 "id": "3Naohbl6nC76Ax5i",
-                "uuid": "",
-                "name": "Core of air",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.T0h4LS1FgWbtW1Yl",
+                "name": "Core of Elemental Air",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -100,7 +152,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 200,
+      "sort": 300,
       "ownership": {
         "default": -1
       },
@@ -115,8 +167,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Animal Influence",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfAnimalI",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -131,10 +183,10 @@
             "components": [
               {
                 "id": "sNcZZZ1CKBRWLrcn",
-                "uuid": "",
-                "name": "Heart",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.0bibGJfScx8Kh2Wv",
+                "name": "Beast Heart",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -152,7 +204,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 300,
+      "sort": 400,
       "ownership": {
         "default": -1
       },
@@ -167,8 +219,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Birdseye Maple",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-shining-shrine/images/items/Suneater_Ring-of-Birdseye-Maple.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-shining-shrine.Item.Z2igvjqZ5yK4Rn7w",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -183,10 +235,10 @@
             "components": [
               {
                 "id": "b9lL0oSd85j8QCNi",
-                "uuid": "",
-                "name": "Bundle of roots",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -204,7 +256,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 400,
+      "sort": 500,
       "ownership": {
         "default": -1
       },
@@ -219,8 +271,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Djinni Summoning",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfDjinniS",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -235,62 +287,10 @@
             "components": [
               {
                 "id": "k7VISViG0gg5QLrw",
-                "uuid": "",
-                "name": "Core of air",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.T0h4LS1FgWbtW1Yl",
+                "name": "Core of Elemental Air",
                 "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "mythic",
-        "componentCreatureType": "elemental",
-        "rarity": "legendary",
-        "attunement": "required"
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 500,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.04RKQKR3XevyRBLL"
-    },
-    {
-      "_id": "MkIMBPgJ31MM04HG",
-      "name": "Ring of Earth Elemental Command",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
-        "resultName": "Ring of Earth Elemental Command",
-        "resultImg": "",
-        "resultUuid": "",
-        "resultQuantity": 1,
-        "dc": 25,
-        "timeHours": 640,
-        "enchantingDc": 25,
-        "enchantingTimeHours": 640,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "TB2MfSfPo4dZjt92",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "HIYvbaBqWC35ZTOi",
-                "uuid": "",
-                "name": "Core of earth",
-                "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -313,122 +313,18 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.MkIMBPgJ31MM04HG"
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.04RKQKR3XevyRBLL"
     },
     {
-      "_id": "fI9zOHtLe7610blX",
-      "name": "Ring of Evasion",
+      "_id": "MkIMBPgJ31MM04HG",
+      "name": "Ring of Earth Elemental Command",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
-        "resultName": "Ring of Evasion",
-        "resultImg": "",
-        "resultUuid": "",
-        "resultQuantity": 1,
-        "dc": 18,
-        "timeHours": 40,
-        "enchantingDc": 18,
-        "enchantingTimeHours": 40,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "DILItZYL0VWCImRo",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "X09q1q9p7nMhI95t",
-                "uuid": "",
-                "name": "Pouch of feathers",
-                "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "robust",
-        "componentCreatureType": "fey",
-        "rarity": "rare",
-        "attunement": "required"
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 700,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.fI9zOHtLe7610blX"
-    },
-    {
-      "_id": "A0bC6W2gzLSVmOIN",
-      "name": "Ring of Feather Falling",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
-        "resultName": "Ring of Feather Falling",
-        "resultImg": "",
-        "resultUuid": "",
-        "resultQuantity": 1,
-        "dc": 18,
-        "timeHours": 40,
-        "enchantingDc": 18,
-        "enchantingTimeHours": 40,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "xlZg5uMYoynpQFMC",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "06lISqzQcy45cOXy",
-                "uuid": "",
-                "name": "Pouch of feathers",
-                "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "robust",
-        "componentCreatureType": "beast",
-        "rarity": "rare",
-        "attunement": "required"
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 800,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.A0bC6W2gzLSVmOIN"
-    },
-    {
-      "_id": "n2GMd3VTgE8UpgKH",
-      "name": "Ring of Fire Elemental Command",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
-        "resultName": "Ring of Fire Elemental Command",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Ring of Earth Elemental Command",
+        "resultImg": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.Zf7kBZa5f4WBepn1",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -438,15 +334,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "a19jHvY3tk6QVoY3",
+            "id": "TB2MfSfPo4dZjt92",
             "name": "Monster Component",
             "components": [
               {
-                "id": "xGHWY7lC6yaVaRqX",
-                "uuid": "",
-                "name": "Core of fire",
+                "id": "HIYvbaBqWC35ZTOi",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.JXKfw1i3zfca4FpO",
+                "name": "Core of Elemental Earth",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/earth/projectile-moonrock-asteroid.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -464,7 +360,163 @@
         "show": true,
         "level": 1
       },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.MkIMBPgJ31MM04HG"
+    },
+    {
+      "_id": "fI9zOHtLe7610blX",
+      "name": "Ring of Evasion",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Evasion",
+        "resultImg": "icons/equipment/finger/ring-eye-silver-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfEvasion",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DILItZYL0VWCImRo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "X09q1q9p7nMhI95t",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.QkOa20g9NPulrF8F",
+                "name": "Pouch of Fey Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.fI9zOHtLe7610blX"
+    },
+    {
+      "_id": "A0bC6W2gzLSVmOIN",
+      "name": "Ring of Feather Falling",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Feather Falling",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfFeather",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xlZg5uMYoynpQFMC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "06lISqzQcy45cOXy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.THaJlBXlAbQFHWGN",
+                "name": "Pouch of Beast Feathers",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "beast",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.A0bC6W2gzLSVmOIN"
+    },
+    {
+      "_id": "n2GMd3VTgE8UpgKH",
+      "name": "Ring of Fire Elemental Command",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Fire Elemental Command",
+        "resultImg": "icons/equipment/finger/ring-inlay-red.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.L9KBLub5vfb3mTDz",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "a19jHvY3tk6QVoY3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xGHWY7lC6yaVaRqX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.GcYYTzakq3RAdrWA",
+                "name": "Core of Elemental Fire",
+                "nameMode": "exact",
+                "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "elemental",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
       "ownership": {
         "default": -1
       },
@@ -479,8 +531,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Free Action",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-shield-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfFreeAct",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -495,10 +547,10 @@
             "components": [
               {
                 "id": "1W3ctvrLKNiadkGT",
-                "uuid": "",
-                "name": "Bundle of roots",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/plants/dried-stem-vine-root-bramble-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -516,7 +568,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1000,
+      "sort": 1100,
       "ownership": {
         "default": -1
       },
@@ -524,15 +576,15 @@
       "_key": "!journal.pages!Wf77NWo5jLCFjhYr.WPi5Op7v7C7oPPq5"
     },
     {
-      "_id": "N3eAogNhzGEIhngf",
-      "name": "Ring of Fungal Symbiosis",
+      "_id": "BndVHP2idMX2Ofev",
+      "name": "Ring of Fungal Symbiosis (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
-        "resultName": "Ring of Fungal Symbiosis",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Ring of Fungal Symbiosis (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Ring_of_Fungal_Symbiosis-Uncommon-VL.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.rCt4IpMCGwQSSOR5",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -542,15 +594,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "WWODD3ReZhC44wKt",
+            "id": "yg3ncFcireFYuL3Q",
             "name": "Monster Component",
             "components": [
               {
-                "id": "MJdkoi2xhxIUYfNb",
-                "uuid": "",
-                "name": "Pouch of spores",
+                "id": "xR3CfLZHDlyZ7OiX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -568,12 +620,64 @@
         "show": true,
         "level": 1
       },
-      "sort": 1100,
+      "sort": 1200,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.N3eAogNhzGEIhngf"
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.BndVHP2idMX2Ofev"
+    },
+    {
+      "_id": "F1ya3VYMkfon0Rc8",
+      "name": "Ring of Fungal Symbiosis (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "resultName": "Ring of Fungal Symbiosis (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Ring_of_Fungal_Symbiosis_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.2Z3TKPH0NAcBWuLD",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "j32mXJ4hztwGQSSz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "avdSwQ2tlIr2zm01",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "optional"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!Wf77NWo5jLCFjhYr.F1ya3VYMkfon0Rc8"
     },
     {
       "_id": "8QciYiePOAlVVOAu",
@@ -583,8 +687,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Invisibility",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-eye-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfInvisib",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -599,10 +703,10 @@
             "components": [
               {
                 "id": "ejuUZcIZRYJXhDzn",
-                "uuid": "",
-                "name": "Primordial dust",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DrRWMM7zhbFMSzSX",
+                "name": "Elemental Primordial Dust",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/materials/bowl-powder-teal.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -620,7 +724,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1200,
+      "sort": 1400,
       "ownership": {
         "default": -1
       },
@@ -635,8 +739,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Jumping",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-winged-gold-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfJumping",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -651,10 +755,10 @@
             "components": [
               {
                 "id": "5FRNU7B7MthImY2e",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cYW1f8CLLOvfAv4Z",
+                "name": "Beast Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-broken-grey.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -672,7 +776,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1300,
+      "sort": 1500,
       "ownership": {
         "default": -1
       },
@@ -687,8 +791,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Mind Shielding",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfMindShi",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -703,10 +807,10 @@
             "components": [
               {
                 "id": "LL0bj4rH4O71oV60",
-                "uuid": "",
-                "name": "Main eye",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vnyhV87jkWP7Mrng",
+                "name": "Aberration Main Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -724,7 +828,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1400,
+      "sort": 1600,
       "ownership": {
         "default": -1
       },
@@ -739,8 +843,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Poison Resistance",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.5SorTMl8NKDO9Yge",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -755,10 +859,10 @@
             "components": [
               {
                 "id": "VIKrurgKhSCMimtN",
-                "uuid": "",
-                "name": "Eye",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.A3qPzoyg2OTWBJOl",
+                "name": "Dragon Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/creatures/eyes/lizard-single-slit-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -776,7 +880,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1500,
+      "sort": 1700,
       "ownership": {
         "default": -1
       },
@@ -791,8 +895,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Protection",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfProtect",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -807,10 +911,10 @@
             "components": [
               {
                 "id": "7rRStPFaTaYoymzd",
-                "uuid": "",
-                "name": "Plating",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -828,7 +932,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1600,
+      "sort": 1800,
       "ownership": {
         "default": -1
       },
@@ -843,8 +947,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Regeneration",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfRegener",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -859,10 +963,10 @@
             "components": [
               {
                 "id": "QIAN6jIeGHCQmhgj",
-                "uuid": "",
-                "name": "Membrane",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jxo80IYK5IY1IQXf",
+                "name": "Plant Membrane",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/plants/leaf-old-dried-curled-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -880,7 +984,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1700,
+      "sort": 1900,
       "ownership": {
         "default": -1
       },
@@ -894,9 +998,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
-        "resultName": "Ring of Resistance (all types)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Ring of Resistance",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfResista",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -911,10 +1015,10 @@
             "components": [
               {
                 "id": "C75ShlChr3Mha74Z",
-                "uuid": "",
-                "name": "Eye",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.A3qPzoyg2OTWBJOl",
+                "name": "Dragon Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/creatures/eyes/lizard-single-slit-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -932,7 +1036,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1800,
+      "sort": 2000,
       "ownership": {
         "default": -1
       },
@@ -947,8 +1051,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Shooting Stars",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfShootin",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -963,10 +1067,10 @@
             "components": [
               {
                 "id": "RbzOnXbbC0YzsOR2",
-                "uuid": "",
-                "name": "Antenna",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.mThBpshzp6qS1MQi",
+                "name": "Aberration Antenna",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/antenna-blue.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -984,7 +1088,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1900,
+      "sort": 2100,
       "ownership": {
         "default": -1
       },
@@ -999,8 +1103,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Spell Storing",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfSpellSt",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1015,10 +1119,10 @@
             "components": [
               {
                 "id": "dICA0S6h9u7VirOP",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NmoGNwrTuccgoDT9",
+                "name": "Fey Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bones-rib-white.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1036,7 +1140,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2000,
+      "sort": 2200,
       "ownership": {
         "default": -1
       },
@@ -1051,8 +1155,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Spell Turning",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfSpellTu",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1067,10 +1171,10 @@
             "components": [
               {
                 "id": "gcJseMVP1DdzWpZQ",
-                "uuid": "",
-                "name": "Skin",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/leather/scales-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1088,7 +1192,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2100,
+      "sort": 2300,
       "ownership": {
         "default": -1
       },
@@ -1103,8 +1207,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Swimming",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-shell-white-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfSwimmin",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1119,10 +1223,10 @@
             "components": [
               {
                 "id": "OQ2ajNJWEmnaB235",
-                "uuid": "",
-                "name": "Fin",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HbIkMc24LrD2F3zh",
+                "name": "Beast Fin",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/fin-red-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1140,7 +1244,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2200,
+      "sort": 2400,
       "ownership": {
         "default": -1
       },
@@ -1155,8 +1259,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Telekinesis",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-inlay-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfTelekin",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1171,10 +1275,10 @@
             "components": [
               {
                 "id": "3Vx6Aj074iVsIaCn",
-                "uuid": "",
-                "name": "Brain",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.pnzfqU0ghGOwCnW7",
+                "name": "Aberration Brain",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1192,7 +1296,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2300,
+      "sort": 2500,
       "ownership": {
         "default": -1
       },
@@ -1207,8 +1311,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of the Ram",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfTheRam0",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1223,10 +1327,10 @@
             "components": [
               {
                 "id": "DyzVZa9ft4IzqCp0",
-                "uuid": "",
-                "name": "Horn",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.kdo5X01G1MhDaGTm",
+                "name": "Beast Horn",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/horn-simple-white.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1244,7 +1348,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2400,
+      "sort": 2600,
       "ownership": {
         "default": -1
       },
@@ -1259,8 +1363,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Three Wishes",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfThreeWi",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1275,10 +1379,10 @@
             "components": [
               {
                 "id": "i42Yp3KnKIHUJr2N",
-                "uuid": "",
-                "name": "Heart",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IQty2wmvgO8Mkh5u",
+                "name": "Humanoid Heart",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/organ-heart-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1296,7 +1400,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2500,
+      "sort": 2700,
       "ownership": {
         "default": -1
       },
@@ -1311,8 +1415,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Warmth",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfWarmth0",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1327,10 +1431,10 @@
             "components": [
               {
                 "id": "twMV5fB1iD1RzznZ",
-                "uuid": "",
-                "name": "Eye",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Dp3nZiuONDzG0WNe",
+                "name": "Elemental Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/eye-lizard-orange.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1348,7 +1452,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2600,
+      "sort": 2800,
       "ownership": {
         "default": -1
       },
@@ -1363,8 +1467,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Water Elemental Command",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-cabochon-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.HnIERWmmra74hSCw",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1379,10 +1483,10 @@
             "components": [
               {
                 "id": "Ojhz1oPZ2hxQq6dC",
-                "uuid": "",
-                "name": "Core of water",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Nca66iDNA3u3nZVR",
+                "name": "Core of Elemental Water",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/magic/water/bubbles-air-water-blue.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1400,7 +1504,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2700,
+      "sort": 2900,
       "ownership": {
         "default": -1
       },
@@ -1415,8 +1519,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of Water Walking",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfWaterWa",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1431,10 +1535,10 @@
             "components": [
               {
                 "id": "0wGDKJ6djMcCeycG",
-                "uuid": "",
-                "name": "Fat",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DuYjIFUhM5vTErTr",
+                "name": "Beast Fat",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/pustules-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1452,7 +1556,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2800,
+      "sort": 3000,
       "ownership": {
         "default": -1
       },
@@ -1467,8 +1571,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
         "resultName": "Ring of X-ray Vision",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/finger/ring-eye-silver-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgRingOfXrayVis",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1483,10 +1587,10 @@
             "components": [
               {
                 "id": "4FBmCSyBWnqBG4AG",
-                "uuid": "",
-                "name": "Eye",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.FFvArli2j1V6vQ17",
+                "name": "Aberration Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/eye-tentacle-grey-orange.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1504,7 +1608,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2900,
+      "sort": 3100,
       "ownership": {
         "default": -1
       },

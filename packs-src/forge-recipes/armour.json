@@ -4,15 +4,15 @@
   "name": "Armour",
   "pages": [
     {
-      "_id": "xEytZtd1a6x9CbQ0",
-      "name": "Breastplank (plate)",
+      "_id": "gpCTaqVpVqMvSUsO",
+      "name": "Breastplank (plate) (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
-        "resultName": "Breastplank (plate)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Breastplank Breastplate (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.2ZzGQ8tNPqQ3fjk0",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -22,15 +22,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "e9TdDNVA2ti9Hm4R",
+            "id": "0LxhPtbx87wazfI5",
             "name": "Monster Component",
             "components": [
               {
-                "id": "LWz42qKvdYqE66fi",
-                "uuid": "",
-                "name": "Skin",
+                "id": "sos1wmYCd9s439W1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -53,7 +53,111 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.xEytZtd1a6x9CbQ0"
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.gpCTaqVpVqMvSUsO"
+    },
+    {
+      "_id": "4oJeykmTVrvGZ8IP",
+      "name": "Breastplank (plate) (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.inPk4Vtiy40xooA9",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Eh41yHhP82C2SQkW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "VjZMds3rYvNe9KhV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.4oJeykmTVrvGZ8IP"
+    },
+    {
+      "_id": "yJ52KC0GGddrASwT",
+      "name": "Breastplank (plate) (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "resultName": "Breastplank Breastplate (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-dread-and-breakfast/images/items/MimicArmor3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-dread-and-breakfast.Item.PyKu7ji5XO378W7I",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8LPUytkKUsnyzfTd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "B0fr5vio1W58XR6V",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "icons/commodities/leather/fur-simple-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.yJ52KC0GGddrASwT"
     },
     {
       "_id": "Hq9Gigi9xLckAgn8",
@@ -62,9 +166,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "+1 Armor",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor, +1, +2, or +3",
+        "resultImg": "icons/equipment/chest/breastplate-gorget-steel-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmor12or3000",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -79,10 +183,10 @@
             "components": [
               {
                 "id": "710oauLRkYTGbd6x",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cYW1f8CLLOvfAv4Z",
+                "name": "Beast Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-broken-grey.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -100,7 +204,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 200,
+      "sort": 400,
       "ownership": {
         "default": -1
       },
@@ -114,9 +218,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "+2 Armor",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor, +1, +2, or +3",
+        "resultImg": "icons/equipment/chest/breastplate-gorget-steel-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmor12or3000",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -131,10 +235,10 @@
             "components": [
               {
                 "id": "2Y6ODBctoxts3loj",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IXByIg9HWtqoURaE",
+                "name": "Monstrosity Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bones-joint-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -152,7 +256,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 300,
+      "sort": 500,
       "ownership": {
         "default": -1
       },
@@ -166,9 +270,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "+3 Armor",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor, +1, +2, or +3",
+        "resultImg": "icons/equipment/chest/breastplate-gorget-steel-white.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmor12or3000",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -183,10 +287,10 @@
             "components": [
               {
                 "id": "ly7uEdo6VS5mKthJ",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bones-stack-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -204,7 +308,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 400,
+      "sort": 600,
       "ownership": {
         "default": -1
       },
@@ -219,8 +323,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
         "resultName": "Adamantine Armor",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-layered-leather-blue.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAdamantineArm",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -235,10 +339,10 @@
             "components": [
               {
                 "id": "aXUBoT0E5CHs9ffD",
-                "uuid": "",
-                "name": "Adamantine",
+                "uuid": "Compendium.helianas-mechanics.mundane-items.Item.4SbWG9KtOSpurnwy",
+                "name": "Adamantine Ingot",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/metal/ingot-stamped-purple.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -256,7 +360,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 500,
+      "sort": 700,
       "ownership": {
         "default": -1
       },
@@ -270,9 +374,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Acid)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -287,10 +391,10 @@
             "components": [
               {
                 "id": "QrY4VaWaRP49LKHD",
-                "uuid": "",
-                "name": "Membrane",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yV25NETDeHuwL0KW",
+                "name": "Ooze Membrane",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/suckers-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -308,7 +412,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 600,
+      "sort": 800,
       "ownership": {
         "default": -1
       },
@@ -322,9 +426,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Cold)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -339,10 +443,10 @@
             "components": [
               {
                 "id": "P4HUCxnUVW05wI5e",
-                "uuid": "",
-                "name": "Skin",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/leather/scales-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -360,7 +464,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 700,
+      "sort": 900,
       "ownership": {
         "default": -1
       },
@@ -374,9 +478,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Fire)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -391,114 +495,10 @@
             "components": [
               {
                 "id": "RoTEDdox1MsW5EqM",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xMIlw7VW2cfWQjCO",
+                "name": "Elemental Bone",
                 "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "frail",
-        "componentCreatureType": "elemental",
-        "rarity": "uncommon",
-        "attunement": "required"
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 800,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.TGqdi53LKCRLjSGp"
-    },
-    {
-      "_id": "N6wanmZwFthHuX4Z",
-      "name": "Armor of Resistance (Force)",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Force)",
-        "resultImg": "",
-        "resultUuid": "",
-        "resultQuantity": 1,
-        "dc": 15,
-        "timeHours": 10,
-        "enchantingDc": 15,
-        "enchantingTimeHours": 10,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "0oekuTCZehjDdz4q",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "mUfVQqWzmddaVeRY",
-                "uuid": "",
-                "name": "Bone",
-                "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "frail",
-        "componentCreatureType": "construct",
-        "rarity": "uncommon",
-        "attunement": "required"
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 900,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.N6wanmZwFthHuX4Z"
-    },
-    {
-      "_id": "p2Vj4NCQjz1bJo0L",
-      "name": "Armor of Resistance (Lightning)",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Lightning)",
-        "resultImg": "",
-        "resultUuid": "",
-        "resultQuantity": 1,
-        "dc": 15,
-        "timeHours": 10,
-        "enchantingDc": 15,
-        "enchantingTimeHours": 10,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "0aZZdDJxZuomwEqu",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "7KiaeUllFHNwWRk4",
-                "uuid": "",
-                "name": "Bone",
-                "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-spine-grey.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -521,6 +521,110 @@
         "default": -1
       },
       "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.TGqdi53LKCRLjSGp"
+    },
+    {
+      "_id": "N6wanmZwFthHuX4Z",
+      "name": "Armor of Resistance (Force)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0oekuTCZehjDdz4q",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mUfVQqWzmddaVeRY",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PNBpZzmeBSHtuJJX",
+                "name": "Construct Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-broken-grey-red.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.N6wanmZwFthHuX4Z"
+    },
+    {
+      "_id": "p2Vj4NCQjz1bJo0L",
+      "name": "Armor of Resistance (Lightning)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0aZZdDJxZuomwEqu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7KiaeUllFHNwWRk4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xMIlw7VW2cfWQjCO",
+                "name": "Elemental Bone",
+                "nameMode": "exact",
+                "img": "icons/commodities/bones/bone-spine-grey.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
       "_key": "!journal.pages!gy4HeaPghjPWQdXW.p2Vj4NCQjz1bJo0L"
     },
     {
@@ -530,9 +634,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Necrotic)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -547,10 +651,10 @@
             "components": [
               {
                 "id": "gBnntJ0tizGo1aVQ",
-                "uuid": "",
-                "name": "Undying flesh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.TzCPgT7JhpP04SkE",
+                "name": "Undead Undying Flesh",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/pustules-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -568,7 +672,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1100,
+      "sort": 1300,
       "ownership": {
         "default": -1
       },
@@ -582,9 +686,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Poison)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -599,10 +703,10 @@
             "components": [
               {
                 "id": "krGZqqkse9A3dhUS",
-                "uuid": "",
-                "name": "Liver",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.vlNoBGcKR48rqFN8",
+                "name": "Monstrosity Liver",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/tongue-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -620,7 +724,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1200,
+      "sort": 1400,
       "ownership": {
         "default": -1
       },
@@ -634,9 +738,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Psychic)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -651,10 +755,10 @@
             "components": [
               {
                 "id": "CQC1vvDx4cifQIwo",
-                "uuid": "",
-                "name": "Brain",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.pnzfqU0ghGOwCnW7",
+                "name": "Aberration Brain",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/organ-brain-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -672,7 +776,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1300,
+      "sort": 1500,
       "ownership": {
         "default": -1
       },
@@ -686,9 +790,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Radiant)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -703,10 +807,10 @@
             "components": [
               {
                 "id": "rJNUKapj25cMU92g",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oYlfu54Ps2NiTXBz",
+                "name": "Celestial Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-simple-grey.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -724,7 +828,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1400,
+      "sort": 1600,
       "ownership": {
         "default": -1
       },
@@ -738,9 +842,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
-        "resultName": "Armor of Resistance (Thunder)",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Armor of Resistance",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gold.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfResist",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -755,10 +859,10 @@
             "components": [
               {
                 "id": "QxxDcq3rQf0GCVPD",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.qvJJUacV1hJNsjqW",
+                "name": "Giant Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-simple-white.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -776,7 +880,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1500,
+      "sort": 1700,
       "ownership": {
         "default": -1
       },
@@ -807,10 +911,10 @@
             "components": [
               {
                 "id": "aOl7690g2i0UUWfl",
-                "uuid": "",
-                "name": "Fin",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HbIkMc24LrD2F3zh",
+                "name": "Beast Fin",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/fin-red-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -828,7 +932,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1600,
+      "sort": 1800,
       "ownership": {
         "default": -1
       },
@@ -843,8 +947,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
         "resultName": "Mithral Armor",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-gorget-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgMithralArmor0",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -859,10 +963,10 @@
             "components": [
               {
                 "id": "ioaOn4FOJXIqDhWl",
-                "uuid": "",
-                "name": "Mithral",
+                "uuid": "Compendium.helianas-mechanics.mundane-items.Item.YS70uI7ZSZudfgXD",
+                "name": "Mithral Ingot",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/metal/ingot-stamped-spiral.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -880,7 +984,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1700,
+      "sort": 1900,
       "ownership": {
         "default": -1
       },
@@ -895,8 +999,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
         "resultName": "Armor of Invulnerability",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfInvuln",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -911,10 +1015,10 @@
             "components": [
               {
                 "id": "f19S1ahwJyomZvAe",
-                "uuid": "",
-                "name": "Plating",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -932,7 +1036,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1800,
+      "sort": 2000,
       "ownership": {
         "default": -1
       },
@@ -947,8 +1051,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
         "resultName": "Demon Armor",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-layered-leather-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDemonArmor000",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -963,10 +1067,10 @@
             "components": [
               {
                 "id": "4CGGULdYAy0BebEA",
-                "uuid": "",
-                "name": "Bone",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/bone-joint-tan.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -984,7 +1088,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 1900,
+      "sort": 2100,
       "ownership": {
         "default": -1
       },
@@ -999,8 +1103,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.SJbFgJmeQKYqogMj",
         "resultName": "Dwarven Plate",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-layered-steel-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDwarvenPlate0",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1015,10 +1119,10 @@
             "components": [
               {
                 "id": "tVInlQNluswy205Q",
-                "uuid": "",
-                "name": "Phial of blood",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.eqFKrrfW66rlnFBx",
+                "name": "Phial of Dragon Blood",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1036,7 +1140,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2000,
+      "sort": 2200,
       "ownership": {
         "default": -1
       },
@@ -1051,8 +1155,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.cR6aFVA4DYkM6F2t",
         "resultName": "Glamoured Studded Leather",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-rivited-red.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgGlamouredStud",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1067,114 +1171,10 @@
             "components": [
               {
                 "id": "NSkd2y30pCBuhugz",
-                "uuid": "",
-                "name": "Phial of blood",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.yeRCgjVwQ7DyusFf",
+                "name": "Phial of Fey Blood",
                 "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "robust",
-        "componentCreatureType": "fey",
-        "rarity": "rare",
-        "attunement": "none"
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 2100,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.oEcqt0yIRuMmKMHH"
-    },
-    {
-      "_id": "ld1m1G4D2yWep5ED",
-      "name": "Dragon Scale Mail (each color)",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
-        "resultName": "Dragon Scale Mail (each color)",
-        "resultImg": "",
-        "resultUuid": "",
-        "resultQuantity": 1,
-        "dc": 21,
-        "timeHours": 160,
-        "enchantingDc": 21,
-        "enchantingTimeHours": 160,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "0SnQDNxNYNv11MV9",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "yHesOmnaS7lglx2k",
-                "uuid": "",
-                "name": "Pouch of scales",
-                "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "potent",
-        "componentCreatureType": "dragon",
-        "rarity": "very rare",
-        "attunement": "required"
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 2200,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.ld1m1G4D2yWep5ED"
-    },
-    {
-      "_id": "07mpSvaxqcERPm4T",
-      "name": "Elven Chain",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.oOa1uRDVPICe2bUz",
-        "resultName": "Elven Chain",
-        "resultImg": "",
-        "resultUuid": "",
-        "resultQuantity": 1,
-        "dc": 18,
-        "timeHours": 40,
-        "enchantingDc": 18,
-        "enchantingTimeHours": 40,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "LF0jXPgzKSVVjLoI",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "G1wSCwjLFgWGChs4",
-                "uuid": "",
-                "name": "Pouch of scales",
-                "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/potions/flask-decorated-label-pink.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1197,18 +1197,122 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.07mpSvaxqcERPm4T"
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.oEcqt0yIRuMmKMHH"
     },
     {
-      "_id": "wq845hbdefh0osLO",
-      "name": "Haemscale",
+      "_id": "ld1m1G4D2yWep5ED",
+      "name": "Dragon Scale Mail (each color)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
-        "resultName": "Haemscale",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Dragon Scale Mail",
+        "resultImg": "icons/equipment/chest/breastplate-banded-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgDragonScaleMa",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0SnQDNxNYNv11MV9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yHesOmnaS7lglx2k",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.ld1m1G4D2yWep5ED"
+    },
+    {
+      "_id": "07mpSvaxqcERPm4T",
+      "name": "Elven Chain",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.oOa1uRDVPICe2bUz",
+        "resultName": "Elven Chain",
+        "resultImg": "icons/equipment/back/mantle-collared-green.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgElvenChain000",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LF0jXPgzKSVVjLoI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "G1wSCwjLFgWGChs4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.H8M3EbG0rpQLdr0O",
+                "name": "Pouch of Fey Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "none"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.07mpSvaxqcERPm4T"
+    },
+    {
+      "_id": "Fs2nmGfOSkz37DXK",
+      "name": "Haemscale (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
+        "resultName": "Haemscale Breastplate (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemscale_1.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.1q2PqC5KtxXjoUwL",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1218,15 +1322,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "tdQ4LGwI0uVREbsu",
+            "id": "OkWCxEBaZQFjaFCJ",
             "name": "Monster Component",
             "components": [
               {
-                "id": "zij5fOrNqP3uT7de",
-                "uuid": "",
-                "name": "Pouch of scales",
+                "id": "2HyBgW9mJ0gjxm5S",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1244,12 +1348,116 @@
         "show": true,
         "level": 1
       },
-      "sort": 2400,
+      "sort": 2600,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.wq845hbdefh0osLO"
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.Fs2nmGfOSkz37DXK"
+    },
+    {
+      "_id": "eJ3ojTh9RhHq2CuS",
+      "name": "Haemscale (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
+        "resultName": "Haemscale Breastplate (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemscale_2.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.eebb36CEqeBoVJQa",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ebgfKhc6vY3fKHpv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7tq8noZu0iKT6sTX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.eJ3ojTh9RhHq2CuS"
+    },
+    {
+      "_id": "mTSNJgG7i26fO2Rp",
+      "name": "Haemscale (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ZJvHWQpW3SmoApzZ",
+        "resultName": "Haemscale Breastplate (Legendary)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-reign-of-iron/images/items/Haemscale_3.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-reign-of-iron.Item.Hg1iQfYYNYOOtJNd",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "n2aYwsqeUOccKT8a",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Vkye9UHkftaZHg3i",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.mTSNJgG7i26fO2Rp"
     },
     {
       "_id": "sAqn6f8OGuNDUvXB",
@@ -1259,8 +1467,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
         "resultName": "Armor of Vulnerability",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-layered-gilded-black.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1275,10 +1483,10 @@
             "components": [
               {
                 "id": "rSeyCwYVFMXhaRrN",
-                "uuid": "",
-                "name": "Phial of blood",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.HQTWHFdCv4WHSKso",
+                "name": "Phial of Fiend Blood",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/potions/bottle-corked-red.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1296,7 +1504,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2500,
+      "sort": 2900,
       "ownership": {
         "default": -1
       },
@@ -1311,8 +1519,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.SJbFgJmeQKYqogMj",
         "resultName": "Plate Armor of Etherealness",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgPlateArmorOfE",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1327,10 +1535,10 @@
             "components": [
               {
                 "id": "iN58ef3V9oDTMvqF",
-                "uuid": "",
-                "name": "Ethereal ichor",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/consumables/potions/flask-ornate-skull-green.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1348,7 +1556,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2600,
+      "sort": 3000,
       "ownership": {
         "default": -1
       },
@@ -1363,8 +1571,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
         "resultName": "Animated Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/skills/melee/shield-block-gray-yellow.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgAnimatedShiel",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1379,10 +1587,10 @@
             "components": [
               {
                 "id": "IoNzhy1hkiOLF38m",
-                "uuid": "",
-                "name": "Instructions",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1400,7 +1608,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2700,
+      "sort": 3100,
       "ownership": {
         "default": -1
       },
@@ -1415,8 +1623,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
         "resultName": "Arrow-Catching Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/skills/melee/shield-block-fire-orange.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgArrowcatching",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1431,10 +1639,10 @@
             "components": [
               {
                 "id": "2F0VO8vV1lus5EN5",
-                "uuid": "",
-                "name": "Skin",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.lB2NvUMY9yA5K26r",
+                "name": "Celestial Skin",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/leather/leather-bolt-tan.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1452,7 +1660,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2800,
+      "sort": 3200,
       "ownership": {
         "default": -1
       },
@@ -1467,8 +1675,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
         "resultName": "Dragonmaw Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-mecha-koboldzilla/images/items/Dragonmaw_Shield.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-mecha-koboldzilla.Item.8POKvNQx4lrZAUnH",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1483,10 +1691,10 @@
             "components": [
               {
                 "id": "tBhdc0Yt1uYdHfeL",
-                "uuid": "",
-                "name": "Plating",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1504,7 +1712,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 2900,
+      "sort": 3300,
       "ownership": {
         "default": -1
       },
@@ -1512,15 +1720,15 @@
       "_key": "!journal.pages!gy4HeaPghjPWQdXW.PIMquSAl0J4r4apD"
     },
     {
-      "_id": "aGvk0cxjjdqia7CK",
-      "name": "Overgrown Barkshield",
+      "_id": "PKwMkuD2grVp03kA",
+      "name": "Overgrown Barkshield (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
-        "resultName": "Overgrown Barkshield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Overgrown Barkshield (Uncommon)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Barkshield_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.8EqD5p3xNszBWPWK",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1530,15 +1738,15 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "VtdeXNdcE9ukipLe",
+            "id": "BE0MLlN0jO4KF7pR",
             "name": "Monster Component",
             "components": [
               {
-                "id": "R6KC134U589ksG6w",
-                "uuid": "",
-                "name": "Bark",
+                "id": "iOYHQCTIdR1BJJEr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1556,12 +1764,116 @@
         "show": true,
         "level": 1
       },
-      "sort": 3000,
+      "sort": 3400,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!gy4HeaPghjPWQdXW.aGvk0cxjjdqia7CK"
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.PKwMkuD2grVp03kA"
+    },
+    {
+      "_id": "8hpij5kXSKNmw220",
+      "name": "Overgrown Barkshield (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Overgrown Barkshield (Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Barkshield_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.Y8x9RBBWTihLic9E",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0uYkKN8BHUOR861x",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ovAqDnrITmN1Makc",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.8hpij5kXSKNmw220"
+    },
+    {
+      "_id": "hapbaI54BIYqOBmC",
+      "name": "Overgrown Barkshield (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "resultName": "Overgrown Barkshield (Very Rare)",
+        "resultImg": "modules/heliana-core/assets/adventures/heliana-the-veiled-lady/images/items/Barkshield_frontnobg.webp",
+        "resultUuid": "Compendium.heliana-core.items-heliana-the-veiled-lady.Item.joXJJ6bASHe1da76",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fSGDszakT6joQ1CP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yg713D8waOR2ndHX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SiJprDsuwzvrjjnp",
+                "name": "Plant Bark",
+                "nameMode": "exact",
+                "img": "icons/commodities/wood/logs-rough-brown.webp",
+                "quantity": 1,
+                "tags": [],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!gy4HeaPghjPWQdXW.hapbaI54BIYqOBmC"
     },
     {
       "_id": "f4AuahUJaEcEpvG1",
@@ -1571,8 +1883,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
         "resultName": "Sentinel Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/shield/targe-copper-eye.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSentinelShiel",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -1587,10 +1899,10 @@
             "components": [
               {
                 "id": "CFdlrvRQj2mut8QV",
-                "uuid": "",
-                "name": "Eye",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.f0vzWxq07ZRNSb0P",
+                "name": "Celestial Eye",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/biological/eye-blue.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1608,7 +1920,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3100,
+      "sort": 3700,
       "ownership": {
         "default": -1
       },
@@ -1623,8 +1935,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
         "resultName": "Shield of Missile Attraction",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/shield/kite-decorative-steel-claws.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgShieldOfMissi",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1639,10 +1951,10 @@
             "components": [
               {
                 "id": "HDoi7WhNSjJwR19L",
-                "uuid": "",
-                "name": "Horn",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/bones/horn-jagged-gold.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1660,7 +1972,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3200,
+      "sort": 3800,
       "ownership": {
         "default": -1
       },
@@ -1675,8 +1987,8 @@
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
         "resultName": "Spellguard Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultImg": "icons/equipment/shield/kite-wooden-sigil-purple.webp",
+        "resultUuid": "Compendium.dnd5e.equipment24.Item.dmgSpellguardShi",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1691,10 +2003,10 @@
             "components": [
               {
                 "id": "mVCujFBB2WWTdSz8",
-                "uuid": "",
-                "name": "Plating",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/commodities/metal/mail-plate-steel.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1712,7 +2024,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3300,
+      "sort": 3900,
       "ownership": {
         "default": -1
       },
@@ -1726,9 +2038,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
-        "resultName": "+1 Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Shield +1",
+        "resultImg": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.NgwrqNa6kkgoPW2Q",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -1743,10 +2055,10 @@
             "components": [
               {
                 "id": "S8o0iyvcwTHnszRq",
-                "uuid": "",
-                "name": "Pouch of scales",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xjJZ37nt0OJCSNIp",
+                "name": "Pouch of Beast Scales",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1764,7 +2076,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3400,
+      "sort": 4000,
       "ownership": {
         "default": -1
       },
@@ -1778,9 +2090,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
-        "resultName": "+2 Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Shield +2",
+        "resultImg": "icons/equipment/shield/heater-steel-spiral.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.xzZQIIxXjNJwNqnp",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -1795,10 +2107,10 @@
             "components": [
               {
                 "id": "EX8xR7CW4uMHw7Cm",
-                "uuid": "",
-                "name": "Pouch of scales",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.DmmvAWOXEPDmLeJX",
+                "name": "Pouch of Monstrosity Scales",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1816,7 +2128,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3500,
+      "sort": 4100,
       "ownership": {
         "default": -1
       },
@@ -1830,9 +2142,9 @@
       "system": {
         "recipeType": "forge",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
-        "resultName": "+3 Shield",
-        "resultImg": "",
-        "resultUuid": "",
+        "resultName": "Shield +3",
+        "resultImg": "icons/equipment/shield/heater-embossed-gold.webp",
+        "resultUuid": "Compendium.dnd5e.items.Item.WfqBg3yBNoJQtVEB",
         "resultQuantity": 1,
         "dc": 25,
         "timeHours": 640,
@@ -1847,10 +2159,10 @@
             "components": [
               {
                 "id": "eZn3LUKn4IRVHKGP",
-                "uuid": "",
-                "name": "Pouch of scales",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
                 "nameMode": "exact",
-                "img": "",
+                "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
                 "quantity": 1,
                 "tags": [],
                 "mode": "some",
@@ -1868,7 +2180,7 @@
         "show": true,
         "level": 1
       },
-      "sort": 3600,
+      "sort": 4200,
       "ownership": {
         "default": -1
       },

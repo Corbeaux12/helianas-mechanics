@@ -968,10 +968,10 @@ Bold rarity = different from SRD. Superscript = original SRD rarity.
 | Name | Value | Rarity | Att | Type | Metatag | Component |
 |------|-------|--------|-----|------|---------|-----------|
 | Painblinder Mycaxe (any axe) | 400 / 1,800 | U/R | — | Plant | Hyphan | Spore-filled gills |
-| Time Splitter (any axe) | 850 / 9,800 | U/V | Req | Aberration | Dreamholder | Bone |
+| Time Splitter (any axe) | 850 / 9,800 | U/R | Req | Aberration | Dreamholder | Bone |
 | Sunwing Bow (any bow) | 900 / 2,300 / 12,000 | U/R/V | Opt | Fey | Suneater | Sinew |
 | Haemstrike (any hammer*) | 1,000 / 3,500 / 11,000 | U/R/V | Opt | Dragon | Magnetite | Bone |
-| Hammer Time (any hammer*) | 1,300 / 6,200 | R/V | — | Aberration | Dreamholder | Main eye |
+| Hammer Time (any hammer*) | 1,300 / 6,200 | U/V | — | Aberration | Dreamholder | Main eye |
 | Headbanger Lute (any hammer*) | 800 / 9,600 | U/V | Req | Monstrosity | Tavern Mimic | Stomach |
 | Mawling Maul (any hammer*) | 650 / 1,600 | U/R | — | Monstrosity | Tavern Mimic | Pouch of teeth |
 | Jaw Breakers (any two melee) | 3,200 / 10,500 | R/V | Opt | Elemental | Tar-rasque | Pouch of teeth |

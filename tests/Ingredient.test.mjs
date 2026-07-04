@@ -151,6 +151,26 @@ describe("Ingredient.evaluate", () => {
     expect(ing.evaluate(actor).components[0].inventoryQuantity).toBe(7);
   });
 
+  it("matches by legacy flags.core.sourceId when the component has a uuid", () => {
+    const actor = mockActor([
+      mockItem({ name: "Renamed Part", sourceId: "Compendium.mod.pack.Item.abc", quantity: 3 }),
+    ]);
+    const ing = new Ingredient({
+      components: [{ id: "c1", name: "Dragon Breath Sac", uuid: "Compendium.mod.pack.Item.abc", quantity: 1 }],
+    });
+    expect(ing.evaluate(actor).components[0].inventoryQuantity).toBe(3);
+  });
+
+  it("matches by _stats.compendiumSource (Foundry v12+ provenance)", () => {
+    const item = mockItem({ name: "Renamed Part", quantity: 2 });
+    item._stats = { compendiumSource: "Compendium.mod.pack.Item.xyz" };
+    const actor = mockActor([item]);
+    const ing = new Ingredient({
+      components: [{ id: "c1", name: "Dragon Breath Sac", uuid: "Compendium.mod.pack.Item.xyz", quantity: 1 }],
+    });
+    expect(ing.evaluate(actor).components[0].inventoryQuantity).toBe(2);
+  });
+
   it("tag-match includes tagged items alongside name match", () => {
     const actor = mockActor([
       mockItem({ name: "Iron Ingot", quantity: 2 }),

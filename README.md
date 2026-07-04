@@ -4,7 +4,7 @@ A Foundry VTT v14 module that implements the crafting system from *Heliana's Gui
 
 - System: **dnd5e** (tested)
 - Foundry compatibility: **v13–v14**
-- Module version: **1.6.0**
+- Module version: **1.7.0**
 - No build step — ES modules load directly
 
 ---
@@ -383,17 +383,19 @@ See [BulkTagger.mjs](scripts/crafting/BulkTagger.mjs).
 
 ## Bundled compendiums
 
-The module ships five compendium packs grouped under a **Heliana's Mechanics** folder in the sidebar's Compendium tab. As of v1.6.0 the three recipe packs come **pre-populated from the bundled catalogue** — no importer run needed:
+The module ships five compendium packs grouped under a **Heliana's Mechanics** folder in the sidebar's Compendium tab. The three recipe packs come **pre-populated from the bundled catalogue**, with results and monster components **linked to real items** from `heliana-core`, `helianas-harvesting`, and the dnd5e system's SRD packs:
 
 | Pack | Type | Contents |
 |---|---|---|
 | Heliana's Mundane Items | Item (dnd5e) | Raw materials (ores → ingots, fibres → cloth, wood → planks/poles, leather, steel, glass bottles…) consumed by the base recipes. |
 | Heliana's Recipe Books | Item (dnd5e) | Empty — author "book" items flagged with `isRecipeBook` + `recipeBookJournalUuid` here. |
-| Heliana's Manufacturing Recipes | JournalEntry | **Base Item Recipes** journal: 27 mundane base recipes (armour types, weapons, ring, rod/staff/wand, potion & scroll bases…) from the Manufacturing DC & Time table, with ingredients wired to the Mundane Items pack. |
-| Heliana's Forge Recipes | JournalEntry | 10 journals (one per catalogue Part 7 section) holding **409 magic-item recipes**, each pre-linked to its base recipe via `baseItemRecipeUuid` so both forge paths work out of the box. |
-| Heliana's Cooking Recipes | JournalEntry | **Staple Recipes** (22 dishes, DC 12–24) and **Boss Monster Recipes** (10 dishes) journals. |
+| Heliana's Manufacturing Recipes | JournalEntry | **Base Item Recipes** journal: 27 mundane base recipes (armour types, weapons, ring, rod/staff/wand, potion & scroll bases…) from the Manufacturing DC & Time table, with ingredients wired to the Mundane Items pack and results linked to dnd5e SRD items. |
+| Heliana's Forge Recipes | JournalEntry | 10 journals (one per catalogue Part 7 section) holding **468 magic-item recipes** — multi-rarity rows (e.g. Broodmother's Embrace R/V/L) expand into one recipe per tier. Each is pre-linked to its base recipe via `baseItemRecipeUuid`, its result item (456 of 468 resolve to a real compendium item), and its monster component from the harvesting module (e.g. *Dragon Breath Sac*, *Pouch of Monstrosity Teeth*). |
+| Heliana's Cooking Recipes | JournalEntry | **Staple Recipes** (22 dishes, DC 12–24) and **Boss Monster Recipes** (10 dishes, results linked to the tiered meal items in `heliana-core`). |
 
-To use the recipes in a world: open the pack, right-click a journal → **Import**, then grant players Observer on the imported journal (or bind it to a recipe-book item). The workshop lists recipes from **world** journals only. Imported forge recipes keep working links to the compendium base recipes, so you don't need to import the Manufacturing pack unless you want to edit the bases. Recipe result slots ship without linked result items (`resultUuid` is empty) — drop an item from your own compendiums onto a recipe's result slot to backfill it.
+**Companion modules:** the linked result items and components live in **heliana-core** and **helianas-harvesting** (declared as recommended in `module.json`), plus the dnd5e system packs for SRD items. Without them the recipes still work — matching falls back to component names and tags — but the linked result-item clone on completion needs the owning module enabled. The handful of recipes whose items exist in no pack (e.g. DMG items absent from the SRD, like Rod of the Pact Keeper) ship with an empty result slot — drop an item on the recipe sheet to backfill.
+
+To use the recipes in a world: open the pack, right-click a journal → **Import**, then grant players Observer on the imported journal (or bind it to a recipe-book item). The workshop lists recipes from **world** journals only. Imported forge recipes keep working links to the compendium base recipes, so you don't need to import the Manufacturing pack unless you want to edit the bases.
 
 All packs default to **Observer** for players and **Owner** for Assistant GMs.
 
@@ -403,9 +405,12 @@ The three recipe packs are generated — don't edit them in Foundry and commit t
 
 ```bash
 npm run build:packs   # parses the catalogue → packs-src/ → LevelDB packs/
+
+# refresh the item-link index first if heliana-core / helianas-harvesting / dnd5e changed:
+node tools/index-heliana-items.mjs <path-to-Foundry-Data-dir>
 ```
 
-Document IDs are deterministic, so rebuilding after a catalogue change yields stable diffs and preserves the forge → base recipe links. The Mundane Items and Recipe Books packs are hand-authored and untouched by the build.
+Item links come from `tools/data/heliana-item-index.json` (committed), which records only names, UUIDs, icon paths, and rarities of items in the installed companion modules. Document IDs are deterministic, so rebuilding after a catalogue change yields stable diffs and preserves the forge → base recipe links. The Mundane Items and Recipe Books packs are hand-authored and untouched by the build.
 
 For recipe-book Items, set the flags on the world copy *before* importing so the compendium entry carries them:
 
@@ -448,6 +453,8 @@ templates/crafting/
 tests/                               Vitest unit tests
 tools/
   build-packs.mjs                    Generates packs-src/ + LevelDB recipe packs from the catalogue
+  index-heliana-items.mjs            Rebuilds the item-link index from installed companion modules
+  data/heliana-item-index.json       Name → compendium UUID index (heliana-core, harvesting, dnd5e)
 packs-src/                           Generated JSON sources for the recipe packs (committed for review)
 packs/                               LevelDB compendium packs (binary — see .gitattributes)
 docs/
@@ -493,6 +500,7 @@ Remaining follow-ups:
 
 Completed in recent work:
 
+- ✅ **Recipes link real items** — pack recipes now resolve their result items and monster components to actual compendium items: results from `heliana-core` (with per-rarity variants — multi-tier catalogue rows expand into one recipe per rarity, 409 rows → 468 recipes) and the dnd5e SRD packs; components from `helianas-harvesting` (e.g. *Flame Tongue* consumes a *Dragon Breath Sac*). 456/468 forge results and all boss-meal cooking results are linked. The index lives in `tools/data/heliana-item-index.json`, regenerated by `tools/index-heliana-items.mjs`. Component `uuid` matching now also honours Foundry v12+ `_stats.compendiumSource` provenance (previously only legacy `flags.core.sourceId`).
 - ✅ **Pre-built recipe compendiums** — `npm run build:packs` (`tools/build-packs.mjs`) generates the three recipe packs from the catalogue: 27 mundane base recipes, 409 forge recipes (each pre-linked to its base recipe so the forging *and* enchanting paths are enabled out of the box), and 32 cooking recipes. Generated JSON sources are committed under `packs-src/`; document IDs are deterministic for stable diffs.
 - ✅ **Windows pack corruption fix** — added `.gitattributes` marking `packs/**` as binary; previously `core.autocrlf` mangled the LevelDB `CURRENT` files on Windows checkouts, making every bundled pack unopenable.
 - ✅ **Mundane Items pack fixes** — renamed the misspelled *Mitral Ingot* → **Mithral Ingot** (tags updated) and added the missing **Gold Ingot** (used by the Ring base recipe).
