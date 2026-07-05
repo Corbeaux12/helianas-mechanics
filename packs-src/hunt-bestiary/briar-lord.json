@@ -3,7 +3,7 @@
   "_key": "!actors!eStrG7GcsnkUl2fa",
   "name": "Briar Lord",
   "type": "npc",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Briar_Lord-AS-bg_rndr.png",
+  "img": "modules/helianas-mechanics/assets/bestiary/briar-lord.webp",
   "system": {
     "abilities": {
       "str": {
@@ -115,8 +115,14 @@
       "_id": "SFq2rFh3FBBJIUpE",
       "_key": "!actors.items!eStrG7GcsnkUl2fa.SFq2rFh3FBBJIUpE",
       "name": "Council of Three",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>Three briar lords can undergo a 1-hour ritual to become a council of three. While within 60 feet of two other members of its council that don't have the Incapacitated condition, the briar lord has proficiency in all saving throws, as well as access to its Exchanging Strikes action and Slice as One reaction.</p><p>Award a party an additional 4,100 XP (5,900 XP total) for defeating the briar lord while it is within 60 feet of two other members of its council that don't have the Incapacitated condition.</p>",
@@ -137,20 +143,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 100,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "iFxCX8aFESnB4cUg",
       "_key": "!actors.items!eStrG7GcsnkUl2fa.iFxCX8aFESnB4cUg",
       "name": "False Appearance",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>While the briar lord remains motionless, it is indistinguishable from a normal piece of foliage. If a creature hasn't seen the briar lord move or act, it can attempt a DC 18 Intelligence (Investigation) check, identifying the foliage as a Plant creature on a success.</p>",
@@ -171,20 +177,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 200,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "Wm5v2pdBdkuL1dSg",
       "_key": "!actors.items!eStrG7GcsnkUl2fa.Wm5v2pdBdkuL1dSg",
       "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The briar lord makes two Venomous Glaive attacks.</p>",
@@ -205,54 +211,200 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 300,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "JkpiNGuzsEZX9Bj1",
       "_key": "!actors.items!eStrG7GcsnkUl2fa.JkpiNGuzsEZX9Bj1",
       "name": "Venomous Glaive",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7, reach 10 ft. <em>Hit:</em> 9 (1d10 + 4) Slashing damage and 9 (2d8) Poison damage. <em>Saving Throw:</em> DC 15 Constitution. <em>Failure:</em> The target is Poisoned for 1 minute.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "effects": [],
       "sort": 400,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +7, reach 10 ft. <em>Hit:</em> 9 (1d10 + 4) Slashing damage and 9 (2d8) Poison damage. <em>Saving Throw:</em> DC 15 Constitution. <em>Failure:</em> The target is Poisoned for 1 minute.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "7liXtJIpsuVBXuW9": {
+            "type": "attack",
+            "_id": "7liXtJIpsuVBXuW9",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "vGL2uBHfNGRbu2er",
       "_key": "!actors.items!eStrG7GcsnkUl2fa.vGL2uBHfNGRbu2er",
       "name": "Exchanging Strikes (Council Only)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The briar lord throws its Glaive, exchanging it with the Glaive of another briar lord within 60 feet of it. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 5-foot-wide Line between the two briar lords. <em>Failure:</em> 16 (3d10) Piercing damage and 18 (4d8) Poison damage and the creature is Poisoned for 1 minute. While Poisoned in this way, a creature's Speed is halved. <em>Success:</em> Half damage only.</p>",
@@ -273,20 +425,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 500,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "vv0NIr7z3Y1gQCuv",
       "_key": "!actors.items!eStrG7GcsnkUl2fa.vv0NIr7z3Y1gQCuv",
       "name": "Leaf in the Wind",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The briar lord jumps to an unoccupied space it can see within 15 feet of it. If the space is on a wall or ceiling, the briar lord sticks to it, but can't move from that position without leaping again or falling.</p>",
@@ -307,20 +459,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 600,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "9wfK7RBUBeutRuQD",
       "_key": "!actors.items!eStrG7GcsnkUl2fa.9wfK7RBUBeutRuQD",
       "name": "Slice as One (Council Only)",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p><em>Trigger:</em> Another briar lord within 60 feet of the briar lord makes a melee weapon attack. <em>Response:</em> The briar lord makes one Venomous Glaive attack against a target within reach.</p>",
@@ -341,13 +493,7 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 700,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     }
   ],
   "effects": [],
@@ -356,7 +502,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW Hollow Knight POGS/MW-TOKN-POG-Briar_Lord-AS.png"
+      "src": "modules/helianas-mechanics/assets/bestiary/briar-lord-token.webp"
     },
     "actorLink": false,
     "disposition": -1

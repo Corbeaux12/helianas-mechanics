@@ -2,32 +2,87 @@
   "name": "Giblin",
   "source": "Heliana's Field Notes P-005 (Loot Tavern)",
   "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Mountain/P005-Giblin.pdf",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Giblin-GV-bg_trnsp (1).png",
+  "img": "modules/helianas-mechanics/assets/bestiary/giblin.webp",
   "size": "sm",
   "creatureType": "fey",
   "subtype": "Goblinoid",
   "alignment": "Chaotic Neutral",
   "ac": 14,
-  "hp": { "value": 32, "formula": "5d6 + 15" },
-  "speed": { "walk": 25, "swim": 30 },
-  "abilities": { "str": 16, "dex": 13, "con": 17, "int": 6, "wis": 5, "cha": 12 },
-  "saveProfs": ["str", "con"],
-  "skills": { "ste": 1 },
-  "dr": ["poison"],
-  "di": ["fire"],
-  "ci": ["poisoned"],
+  "hp": {
+    "value": 32,
+    "formula": "5d6 + 15"
+  },
+  "speed": {
+    "walk": 25,
+    "swim": 30
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 17,
+    "int": 6,
+    "wis": 5,
+    "cha": 12
+  },
+  "saveProfs": [
+    "str",
+    "con"
+  ],
+  "skills": {
+    "ste": 1
+  },
+  "dr": [
+    "poison"
+  ],
+  "di": [
+    "fire"
+  ],
+  "ci": [
+    "poisoned"
+  ],
   "senses": {},
-  "languages": ["Goblin"],
+  "languages": [
+    "Goblin"
+  ],
   "cr": 1,
   "xp": 200,
   "biography": "<p><em>Goblinoid gibli.</em> Rock-skinned fey goblinoids that swim through lava and launch themselves at foes like living cannonballs. Habitat: Hill &amp; Mountain.</p>",
   "features": [
-    { "name": "Frost Aversion", "category": "trait", "description": "<p>If the giblin takes 5+ Cold damage in a single instance, it can't use Rocket Charge until the end of its next turn.</p>" },
-    { "name": "Lava Swimmers", "category": "trait", "description": "<p>The giblin can swim in lava using its Swim Speed.</p>" },
-    { "name": "Rough Skin", "category": "trait", "description": "<p>A creature that touches the giblin with an Unarmed Strike takes 2 (1d4) Slashing damage.</p>" },
-    { "name": "Multiattack", "category": "action", "description": "<p>The giblin makes two Punch attacks.</p>" },
-    { "name": "Chomp", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage, and the giblin chomps down on the target, attaches to it, and moves with it. The giblin detaches from the target at the start of its next turn. The giblin detaches early if it is Incapacitated or moved more than 5 feet from the target. When the giblin detaches, the target takes 3 (1d6) Piercing damage.</p>" },
-    { "name": "Punch", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>" },
-    { "name": "Rocket Charge (Recharge 5-6)", "category": "action", "description": "<p>The giblin launches itself 50 feet in a straight line. <em>Saving Throw:</em> DC 13 Dexterity, each creature in the giblin's path. <em>Failure:</em> 7 (2d6) Bludgeoning damage, and if the creature is Medium or smaller, it is knocked Prone.</p><p>If no creatures fail the save or if the giblin's movement ends early due to a wall or other obstruction, the giblin crashes, taking 7 (2d6) Bludgeoning damage and knocking itself Prone.</p>" }
-  ]
+    {
+      "name": "Frost Aversion",
+      "category": "trait",
+      "description": "<p>If the giblin takes 5+ Cold damage in a single instance, it can't use Rocket Charge until the end of its next turn.</p>"
+    },
+    {
+      "name": "Lava Swimmers",
+      "category": "trait",
+      "description": "<p>The giblin can swim in lava using its Swim Speed.</p>"
+    },
+    {
+      "name": "Rough Skin",
+      "category": "trait",
+      "description": "<p>A creature that touches the giblin with an Unarmed Strike takes 2 (1d4) Slashing damage.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The giblin makes two Punch attacks.</p>"
+    },
+    {
+      "name": "Chomp",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage, and the giblin chomps down on the target, attaches to it, and moves with it. The giblin detaches from the target at the start of its next turn. The giblin detaches early if it is Incapacitated or moved more than 5 feet from the target. When the giblin detaches, the target takes 3 (1d6) Piercing damage.</p>"
+    },
+    {
+      "name": "Punch",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>"
+    },
+    {
+      "name": "Rocket Charge (Recharge 5-6)",
+      "category": "action",
+      "description": "<p>The giblin launches itself 50 feet in a straight line. <em>Saving Throw:</em> DC 13 Dexterity, each creature in the giblin's path. <em>Failure:</em> 7 (2d6) Bludgeoning damage, and if the creature is Medium or smaller, it is knocked Prone.</p><p>If no creatures fail the save or if the giblin's movement ends early due to a wall or other obstruction, the giblin crashes, taking 7 (2d6) Bludgeoning damage and knocking itself Prone.</p>"
+    }
+  ],
+  "token": "modules/helianas-mechanics/assets/bestiary/giblin-token.webp"
 }

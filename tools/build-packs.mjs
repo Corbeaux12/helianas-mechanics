@@ -878,6 +878,148 @@ function buildHuntPacks() {
 const SKILL_ABILITY = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
 const CATEGORY_ACTIVATION = { action: "action", bonus: "bonus", reaction: "reaction", legendary: "legendary", trait: "" };
 
+// Feature icons follow the dnd5e 2024 SRD monster convention: Foundry core
+// `icons/**` webp art (the system's own icons/ folder only holds UI glyphs).
+// Every path below appears on an SRD monster item, so it exists in any install.
+const FEATURE_ICONS = [
+  [/multiattack/i, "icons/skills/melee/strike-weapons-orange.webp"],
+  [/\b(bite|chomp|fangs?|eat)\b/i, "icons/creatures/abilities/fangs-teeth-bite.webp"],
+  [/\bclaws?\b/i, "icons/creatures/claws/claw-curved-jagged-gray.webp"],
+  [/\btail\b/i, "icons/creatures/abilities/tail-swipe-green.webp"],
+  [/\b(punch|fist|bonk|kick|unarmed)\b/i, "icons/skills/melee/unarmed-punch-fist.webp"],
+  [/\b(slam|crush)/i, "icons/magic/sonic/explosion-impact-shock-wave.webp"],
+  [/frost breath|ice breath|cold breath/i, "icons/creatures/abilities/dragon-ice-breath-blue.webp"],
+  [/fire breath|flame breath/i, "icons/creatures/abilities/dragon-fire-breath-orange.webp"],
+  [/\b(glaive|blade|slash|scythe|slice)/i, "icons/skills/melee/blood-slash-foam-red.webp"],
+  [/\b(discharge|lightning|shock)\b/i, "icons/magic/lightning/bolt-strike-blue.webp"],
+  [/\b(thunder|resonant|boom)/i, "icons/magic/sonic/explosion-shock-wave-teal.webp"],
+  [/\b(charge[ds]?|rocket|blast off|pounce|leap)\b/i, "icons/skills/movement/arrow-upward-yellow.webp"],
+  [/\b(pulse|magnet|current|field)\b/i, "icons/magic/lightning/orb-ball-spiral-blue.webp"],
+  [/\b(vine|briar|root|entangl)/i, "icons/magic/nature/root-vine-entangled-hands.webp"],
+  [/\b(fog|mist|smoke|cloud)\b/i, "icons/magic/air/fog-gas-smoke-dense-green.webp"],
+  [/\b(frost|ice|snow|freez)/i, "icons/magic/water/projectile-ice-shard.webp"],
+  [/\b(fire|lava|flame|ember)/i, "icons/magic/fire/beam-jet-stream-embers.webp"],
+  [/\b(stealth|sneak|hide|hidden|invisib)/i, "icons/magic/perception/silhouette-stealth-shadow.webp"],
+  [/\b(fear|panic|fright|dread)/i, "icons/magic/control/fear-fright-monster-grin-green.webp"],
+  [/\b(charm|adoration|allur|entic)/i, "icons/magic/life/heart-area-circle-red-green.webp"],
+  [/\b(gaze|eye|sight|sense|stare)\b/i, "icons/magic/control/hypnosis-mesmerism-eye-tan.webp"],
+  [/\b(spell|arcan[ae]|magic)\b/i, "icons/magic/symbols/circled-gem-pink.webp"],
+  [/\b(guard|protect|shield|ward)/i, "icons/equipment/shield/heater-steel-crystal-red.webp"],
+  [/\b(bomb|grenade|explos)/i, "icons/magic/fire/projectiles-salvo-trio-orange.webp"],
+  [/\b(shatter|fragment|shard|ceramic)/i, "icons/commodities/metal/fragments-steel-barbed.webp"],
+  [/\b(grip|grab|maglock|constrict|jaws)\b/i, "icons/commodities/tech/metal-jaws.webp"],
+  [/\b(poison|venom|toxi)/i, "icons/creatures/claws/claw-curved-poison-purple.webp"],
+  [/\b(heart|soul|life)\b/i, "icons/magic/life/heart-hand-gold-green.webp"],
+  [/\b(stone|rock|skin|earth)\b/i, "icons/magic/earth/projectile-stone-landslide.webp"],
+  [/\b(sting|barb)/i, "icons/creatures/abilities/stinger-poison-green.webp"],
+  [/\b(tentacle|arm)\b/i, "icons/creatures/tentacles/tentacles-octopus-black-pink.webp"],
+];
+const CATEGORY_DEFAULT_ICON = {
+  trait: "icons/magic/symbols/runes-carved-stone-green.webp",
+  action: "icons/skills/melee/strike-weapons-orange.webp",
+  bonus: "icons/skills/movement/arrow-upward-yellow.webp",
+  reaction: "icons/skills/melee/shield-damaged-broken-orange.webp",
+  legendary: "icons/skills/melee/strike-weapons-orange.webp",
+};
+
+function featureIcon(name, category) {
+  for (const [re, icon] of FEATURE_ICONS) if (re.test(name)) return icon;
+  return CATEGORY_DEFAULT_ICON[category] ?? "icons/svg/aura.svg";
+}
+
+const DAMAGE_TYPES = "bludgeoning|piercing|slashing|acid|cold|fire|force|lightning|necrotic|poison|psychic|radiant|thunder";
+const ATTACK_RE = new RegExp(
+  "<em>(Melee|Ranged) Weapon Attack:<\\/em>\\s*\\+(\\d+),\\s*(?:reach\\s+(\\d+)\\s*ft|range\\s+(\\d+)\\/(\\d+)\\s*ft)\\.?\\s*<em>Hit:<\\/em>\\s*\\d+\\s*\\((\\d+)d(\\d+)(?:\\s*\\+\\s*(\\d+))?\\)\\s*(" + DAMAGE_TYPES + ")\\b(?:\\s+damage)?", "i");
+// Unconditional secondary damage: "plus/and N (XdY) <type> damage" in the same
+// sentence as the base damage. Conditional riders ("If the target…") follow a
+// period and are deliberately left to the description text.
+const RIDER_RE = new RegExp("^[^.]*?\\b(?:plus|and)\\s+\\d+\\s*\\((\\d+)d(\\d+)\\)\\s*(" + DAMAGE_TYPES + ")\\s+damage", "i");
+
+// Parse a stat-block weapon attack out of a feature's description HTML.
+function parseAttack(html) {
+  const m = ATTACK_RE.exec(html);
+  if (!m) return null;
+  const [, kind, toHit, reach, rShort, rLong, num, den, dmgBonus, dmgType] = m;
+  const rest = html.slice(m.index + m[0].length);
+  const r = RIDER_RE.exec(rest);
+  return {
+    melee: kind.toLowerCase() === "melee",
+    toHit: Number(toHit),
+    reach: reach ? Number(reach) : null,
+    rangeShort: rShort ? Number(rShort) : null,
+    rangeLong: rLong ? Number(rLong) : null,
+    number: Number(num), denomination: Number(den),
+    dmgBonus: dmgBonus ? Number(dmgBonus) : 0,
+    dmgType: dmgType.toLowerCase(),
+    rider: r ? { number: Number(r[1]), denomination: Number(r[2]), type: r[3].toLowerCase() } : null,
+  };
+}
+
+const crPB = cr => Math.max(2, 2 + Math.floor((Math.max(cr, 1) - 1) / 4));
+const abilityMod = score => Math.floor((score - 10) / 2);
+
+// Natural-weapon item + attack activity, mirroring the dnd5e 2024 SRD monster
+// structure so sheet rolls (and Midi-QoL) work out of the box. The to-hit
+// ability is derived when str/dex + PB reproduces the printed bonus; otherwise
+// the activity falls back to a flat attack bonus and a custom damage formula.
+function attackWeaponSystem(a, f, atk, iid, actorName) {
+  const pb = crPB(a.cr);
+  const strMod = abilityMod(a.abilities.str);
+  const dexMod = abilityMod(a.abilities.dex);
+  // Only derive the ability when BOTH the to-hit and the damage bonus match
+  // (mod + PB and mod respectively) — otherwise the sheet would silently add
+  // the mod to damage lines the stat block prints without one.
+  let ability = "";
+  if (strMod + pb === atk.toHit && atk.dmgBonus === strMod) ability = "str";
+  else if (dexMod + pb === atk.toHit && atk.dmgBonus === dexMod) ability = "dex";
+  const flat = !ability;
+  if (flat) console.warn(`  bestiary: flat attack bonus for ${actorName} / ${f.name} (+${atk.toHit})`);
+
+  const base = flat
+    ? { number: atk.number, denomination: atk.denomination, bonus: "",
+        types: [atk.dmgType],
+        custom: { enabled: true, formula: `${atk.number}d${atk.denomination}${atk.dmgBonus ? ` + ${atk.dmgBonus}` : ""}` },
+        scaling: { number: 1 } }
+    : { number: atk.number, denomination: atk.denomination, bonus: "",
+        types: [atk.dmgType], custom: { enabled: false }, scaling: { number: 1 } };
+
+  const parts = atk.rider
+    ? [{ number: atk.rider.number, denomination: atk.rider.denomination, bonus: "",
+         types: [atk.rider.type], custom: { enabled: false, formula: "" }, scaling: { number: 1 } }]
+    : [];
+
+  const aid = did(`activity:${actorName}:${f.name}`);
+  return {
+    type: { value: "natural", baseItem: "" },
+    description: { value: f.description, chat: "" },
+    uses: { spent: 0, recovery: [], max: "" },
+    properties: [], identified: true, mastery: "",
+    unidentified: { name: "Unidentified Weapon", description: "" },
+    range: { units: "ft", value: atk.rangeShort, long: atk.rangeLong, reach: atk.melee ? atk.reach : null },
+    damage: { base, versatile: { number: null, denomination: null, types: [], custom: { enabled: false }, scaling: { number: 1 } } },
+    container: null, quantity: 1,
+    weight: { value: 0, units: "lb" }, price: { value: 0, denomination: "gp" },
+    rarity: "", attunement: "", attuned: false, equipped: true, cover: null,
+    ammunition: {}, armor: { value: null }, proficient: null, crew: { value: [] },
+    activities: {
+      [aid]: {
+        type: "attack", _id: aid, sort: 0,
+        activation: { type: CATEGORY_ACTIVATION[f.category] || "action", value: null, override: false, condition: "" },
+        consumption: { scaling: { allowed: false }, spellSlot: true, targets: [] },
+        description: { chatFlavor: "" },
+        duration: { units: "inst", concentration: false, override: false },
+        effects: [],
+        range: { override: false, units: "self" },
+        target: { template: { contiguous: false, units: "ft", type: "" }, affects: { choice: false, type: "" }, override: false, prompt: true },
+        uses: { spent: 0, recovery: [], max: "" },
+        attack: { critical: { threshold: null }, flat, type: { value: atk.melee ? "melee" : "ranged", classification: "weapon" }, ability, bonus: flat ? String(atk.toHit) : "" },
+        damage: { critical: { bonus: "" }, includeBase: true, parts },
+        name: "", img: null, flags: {},
+      },
+    },
+  };
+}
+
 function buildBestiary() {
   const dir = path.join(ROOT, "tools", "data", "actors");
   let files = [];
@@ -898,17 +1040,22 @@ function buildBestiary() {
 
     const items = (a.features ?? []).map((f, i) => {
       const iid = did(`actorfeat:${a.name}:${f.name}`);
-      return {
+      const shared = {
         _id: iid, _key: `!actors.items!${_id}.${iid}`,
-        name: f.name, type: "feat",
-        img: "icons/svg/aura.svg",
+        name: f.name,
+        img: featureIcon(f.name, f.category),
+        effects: [], sort: (i + 1) * 100, ownership: { default: 0 }, flags: {},
+      };
+      const atk = parseAttack(f.description);
+      if (atk) return { ...shared, type: "weapon", system: attackWeaponSystem(a, f, atk, iid, a.name) };
+      return {
+        ...shared, type: "feat",
         system: {
           description: { value: f.description, chat: "" },
           type: { value: "monster", subtype: "" },
           activation: { type: CATEGORY_ACTIVATION[f.category] ?? "", cost: CATEGORY_ACTIVATION[f.category] ? 1 : null, condition: "" },
           requirements: "", uses: { spent: 0, recovery: [] }, activities: {},
         },
-        effects: [], sort: (i + 1) * 100, ownership: { default: 0 }, flags: {},
       };
     });
 

@@ -2,28 +2,71 @@
   "name": "Mosslax",
   "source": "Heliana's Field Notes P-002 (Loot Tavern)",
   "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Forest/P002-Mosslax.pdf",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Mosslax-GV-bg_trnsp (1).png",
+  "img": "modules/helianas-mechanics/assets/bestiary/mosslax.webp",
   "size": "grg",
   "creatureType": "plant",
   "alignment": "Neutral",
   "ac": 17,
-  "hp": { "value": 245, "formula": "14d20 + 98" },
-  "speed": { "walk": 20 },
-  "abilities": { "str": 25, "dex": 6, "con": 24, "int": 7, "wis": 14, "cha": 11 },
-  "saveProfs": ["str", "con", "wis"],
+  "hp": {
+    "value": 245,
+    "formula": "14d20 + 98"
+  },
+  "speed": {
+    "walk": 20
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 6,
+    "con": 24,
+    "int": 7,
+    "wis": 14,
+    "cha": 11
+  },
+  "saveProfs": [
+    "str",
+    "con",
+    "wis"
+  ],
   "skills": {},
-  "dr": ["poison"],
-  "ci": ["paralyzed", "poisoned", "stunned"],
+  "dr": [
+    "poison"
+  ],
+  "ci": [
+    "paralyzed",
+    "poisoned",
+    "stunned"
+  ],
   "senses": {},
   "languages": [],
   "cr": 14,
   "xp": 11500,
   "biography": "<p><em>Kourtinacissus rochalizo.</em> A gargantuan, deceptively placid mound of mossy plant matter that lures creatures close with inviting vines — then crushes and devours anything it can reach, weapons included. Habitat: Forest &amp; Plains.</p>",
   "features": [
-    { "name": "Inviting Vines", "category": "trait", "description": "<p>The plant life surrounding the mosslax inhibits creatures moving away from it. Creatures of the mosslax's choice within 60 feet of it must expend 2 feet of movement for every 1 foot moved away from the mosslax while on the ground.</p>" },
-    { "name": "Multiattack", "category": "action", "description": "<p>The mosslax makes two Crushing Arm attacks.</p>" },
-    { "name": "Crushing Arm", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +12, reach 10 ft. <em>Hit:</em> 26 (3d12 + 7) Bludgeoning damage, and the target is Grappled (escape DC 20) by one of two arms.</p>" },
-    { "name": "Body Slam", "category": "action", "description": "<p>The mosslax leaps into the air and lands in a space within 20 feet of it, attempting to crush anything beneath it. <em>Saving Throw:</em> DC 20 Dexterity, each creature in the mosslax's destination space. <em>Failure:</em> 39 (6d12) Bludgeoning damage, and the target is knocked Prone, is Restrained, and unable to breathe until it no longer shares a space with the mosslax. <em>Success:</em> The target escapes and moves to the nearest unoccupied space within 5 feet of the mosslax.</p><p>A creature can take an action to make a DC 20 Strength (Athletics) check, freeing itself or another creature trapped under the mosslax within its reach on a success.</p>" },
-    { "name": "Eat Anything", "category": "reaction", "description": "<p><em>Trigger:</em> A creature within 10 feet of the mosslax attacks it with a melee weapon. <em>Response — Saving Throw:</em> DC 20 Strength, the triggering creature. <em>Failure:</em> The target is disarmed, and the mosslax eats its weapon. If the weapon is nonmagical, the mosslax regains 11 (1d8 + 7) Hit Points and the weapon is destroyed.</p>" }
-  ]
+    {
+      "name": "Inviting Vines",
+      "category": "trait",
+      "description": "<p>The plant life surrounding the mosslax inhibits creatures moving away from it. Creatures of the mosslax's choice within 60 feet of it must expend 2 feet of movement for every 1 foot moved away from the mosslax while on the ground.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The mosslax makes two Crushing Arm attacks.</p>"
+    },
+    {
+      "name": "Crushing Arm",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +12, reach 10 ft. <em>Hit:</em> 26 (3d12 + 7) Bludgeoning damage, and the target is Grappled (escape DC 20) by one of two arms.</p>"
+    },
+    {
+      "name": "Body Slam",
+      "category": "action",
+      "description": "<p>The mosslax leaps into the air and lands in a space within 20 feet of it, attempting to crush anything beneath it. <em>Saving Throw:</em> DC 20 Dexterity, each creature in the mosslax's destination space. <em>Failure:</em> 39 (6d12) Bludgeoning damage, and the target is knocked Prone, is Restrained, and unable to breathe until it no longer shares a space with the mosslax. <em>Success:</em> The target escapes and moves to the nearest unoccupied space within 5 feet of the mosslax.</p><p>A creature can take an action to make a DC 20 Strength (Athletics) check, freeing itself or another creature trapped under the mosslax within its reach on a success.</p>"
+    },
+    {
+      "name": "Eat Anything",
+      "category": "reaction",
+      "description": "<p><em>Trigger:</em> A creature within 10 feet of the mosslax attacks it with a melee weapon. <em>Response — Saving Throw:</em> DC 20 Strength, the triggering creature. <em>Failure:</em> The target is disarmed, and the mosslax eats its weapon. If the weapon is nonmagical, the mosslax regains 11 (1d8 + 7) Hit Points and the weapon is destroyed.</p>"
+    }
+  ],
+  "token": "modules/helianas-mechanics/assets/bestiary/mosslax-token.webp"
 }

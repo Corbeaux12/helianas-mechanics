@@ -2,35 +2,102 @@
   "name": "Grief Jinn",
   "source": "Heliana's Field Notes P-003 (Loot Tavern)",
   "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Desert/P003-Grief Jinn.pdf",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Grief_Jinn-CR-bg_trnsp (1).png",
+  "img": "modules/helianas-mechanics/assets/bestiary/grief-jinn.webp",
   "size": "lg",
   "creatureType": "construct",
   "subtype": "Jinn",
   "alignment": "Chaotic Neutral",
   "ac": 18,
-  "hp": { "value": 127, "formula": "15d10 + 45" },
-  "speed": { "walk": 30 },
-  "abilities": { "str": 19, "dex": 10, "con": 16, "int": 12, "wis": 17, "cha": 15 },
-  "saveProfs": ["wis", "cha"],
-  "skills": { "rel": 1, "ins": 1 },
+  "hp": {
+    "value": 127,
+    "formula": "15d10 + 45"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 10,
+    "con": 16,
+    "int": 12,
+    "wis": 17,
+    "cha": 15
+  },
+  "saveProfs": [
+    "wis",
+    "cha"
+  ],
+  "skills": {
+    "rel": 1,
+    "ins": 1
+  },
   "drCustom": "See Elements of Divinity trait",
-  "di": ["acid", "poison"],
-  "ci": ["exhaustion", "paralyzed", "petrified", "poisoned"],
-  "senses": { "darkvision": 120 },
-  "languages": ["Common"],
+  "di": [
+    "acid",
+    "poison"
+  ],
+  "ci": [
+    "exhaustion",
+    "paralyzed",
+    "petrified",
+    "poisoned"
+  ],
+  "senses": {
+    "darkvision": 120
+  },
+  "languages": [
+    "Common"
+  ],
   "languagesCustom": "Jinn",
   "cr": 11,
   "xp": 7200,
   "biography": "<p><em>Genia dolor.</em> A jinn bound into four ceremonial jars, each depicting a different god — forge, storm, sun, and underworld. It rearranges its vessels mid-fight to change the elements it wields, and shattering them only frees something angrier. Defeating the jinn after its Shattered Form activates is worth an additional 7,200 XP (14,400 XP total). Habitat: Desert.</p>",
   "features": [
-    { "name": "Elements of Divinity", "category": "trait", "description": "<p>The jinn's form is built from four ceremonial jars. Each jar depicts the visage of a different god and is associated with a damage type:</p><ul><li><strong>God of the Forge.</strong> Fire</li><li><strong>God of the Storm.</strong> Lightning</li><li><strong>God of the Sun.</strong> Radiant</li><li><strong>God of the Underworld.</strong> Necrotic</li></ul><p>Each jar is positioned at a different location on the jinn: head, body, left arm, and right arm. The jinn has Resistance to the damage type associated with its body's jar.</p>" },
-    { "name": "Resonant Vessels (Except While in Shattered Form)", "category": "trait", "description": "<p>The jinn's jars vibrate violently when exposed to loud sounds, disrupting the flow of its power. If the jinn takes 20+ Thunder damage on a single turn, the Fire, Lightning, Necrotic, and Radiant damage it deals is halved until it finishes a Short or Long Rest.</p>" },
-    { "name": "Shattered Form", "category": "trait", "description": "<p>When the jinn is reduced to 0 Hit Points, or it takes 35+ Bludgeoning damage on a single turn, the vessels containing it shatter, leaving their shards to swirl in a cloud of dust. The jinn's current Hit Point total resets to 127 Hit Points, its creature type changes from Construct to Undead, its AC becomes 15, it gains Immunity to the Grappled and Restrained conditions, it loses its Resonant Vessels trait, it can't use its Blast Off Bonus Action, and it gains the Ceramic Whirlwind trait until the jinn finishes a Short or Long Rest. Award a party an additional 7,200 XP (14,400 XP total) for defeating the jinn after its Shattered Form activates.</p><p>Once the jinn's Shattered Form has activated, it can't do so again until the jinn finishes a Short or Long Rest.</p><p><strong>Ceramic Whirlwind.</strong> The jinn can move through a space as narrow as 1 foot without expending extra movement to do so, and it can move through the spaces of other creatures. When it moves through the space of another creature for the first time on a turn, that creature is subjected to the following effect. <em>Saving Throw:</em> DC 15 Dexterity. <em>Failure:</em> 7 (2d6) Slashing damage and 13 (3d8) damage of the type associated with the jinn's body (see Elements of Divinity trait).</p>" },
-    { "name": "Multiattack", "category": "action", "description": "<p>The jinn makes one Left Fist attack and one Right Fist attack.</p>" },
-    { "name": "Left Fist", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its left arm (see Elements of Divinity trait).</p>" },
-    { "name": "Right Fist", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its right arm (see Elements of Divinity trait).</p>" },
-    { "name": "Wrathful Gaze", "category": "action", "description": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 30-foot-long, 5-foot-wide Line. <em>Failure:</em> 18 (4d8) damage of the type associated with its head (see Elements of Divinity trait). <em>Success:</em> Half damage.</p>" },
-    { "name": "Rearrange", "category": "bonus", "description": "<p>The jinn rearranges its jars, assigning one to each part of its form.</p>" },
-    { "name": "Blast Off (Except While in Shattered Form)", "category": "bonus", "description": "<p>The jinn gains a Fly Speed of 30 feet until the end of its turn. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 10-foot-radius Emanation originating from the jinn when it takes this Bonus Action. <em>Failure:</em> 13 (3d8) damage of the type associated with its body (see Elements of Divinity trait).</p>" }
-  ]
+    {
+      "name": "Elements of Divinity",
+      "category": "trait",
+      "description": "<p>The jinn's form is built from four ceremonial jars. Each jar depicts the visage of a different god and is associated with a damage type:</p><ul><li><strong>God of the Forge.</strong> Fire</li><li><strong>God of the Storm.</strong> Lightning</li><li><strong>God of the Sun.</strong> Radiant</li><li><strong>God of the Underworld.</strong> Necrotic</li></ul><p>Each jar is positioned at a different location on the jinn: head, body, left arm, and right arm. The jinn has Resistance to the damage type associated with its body's jar.</p>"
+    },
+    {
+      "name": "Resonant Vessels (Except While in Shattered Form)",
+      "category": "trait",
+      "description": "<p>The jinn's jars vibrate violently when exposed to loud sounds, disrupting the flow of its power. If the jinn takes 20+ Thunder damage on a single turn, the Fire, Lightning, Necrotic, and Radiant damage it deals is halved until it finishes a Short or Long Rest.</p>"
+    },
+    {
+      "name": "Shattered Form",
+      "category": "trait",
+      "description": "<p>When the jinn is reduced to 0 Hit Points, or it takes 35+ Bludgeoning damage on a single turn, the vessels containing it shatter, leaving their shards to swirl in a cloud of dust. The jinn's current Hit Point total resets to 127 Hit Points, its creature type changes from Construct to Undead, its AC becomes 15, it gains Immunity to the Grappled and Restrained conditions, it loses its Resonant Vessels trait, it can't use its Blast Off Bonus Action, and it gains the Ceramic Whirlwind trait until the jinn finishes a Short or Long Rest. Award a party an additional 7,200 XP (14,400 XP total) for defeating the jinn after its Shattered Form activates.</p><p>Once the jinn's Shattered Form has activated, it can't do so again until the jinn finishes a Short or Long Rest.</p><p><strong>Ceramic Whirlwind.</strong> The jinn can move through a space as narrow as 1 foot without expending extra movement to do so, and it can move through the spaces of other creatures. When it moves through the space of another creature for the first time on a turn, that creature is subjected to the following effect. <em>Saving Throw:</em> DC 15 Dexterity. <em>Failure:</em> 7 (2d6) Slashing damage and 13 (3d8) damage of the type associated with the jinn's body (see Elements of Divinity trait).</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The jinn makes one Left Fist attack and one Right Fist attack.</p>"
+    },
+    {
+      "name": "Left Fist",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its left arm (see Elements of Divinity trait).</p>"
+    },
+    {
+      "name": "Right Fist",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its right arm (see Elements of Divinity trait).</p>"
+    },
+    {
+      "name": "Wrathful Gaze",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 30-foot-long, 5-foot-wide Line. <em>Failure:</em> 18 (4d8) damage of the type associated with its head (see Elements of Divinity trait). <em>Success:</em> Half damage.</p>"
+    },
+    {
+      "name": "Rearrange",
+      "category": "bonus",
+      "description": "<p>The jinn rearranges its jars, assigning one to each part of its form.</p>"
+    },
+    {
+      "name": "Blast Off (Except While in Shattered Form)",
+      "category": "bonus",
+      "description": "<p>The jinn gains a Fly Speed of 30 feet until the end of its turn. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 10-foot-radius Emanation originating from the jinn when it takes this Bonus Action. <em>Failure:</em> 13 (3d8) damage of the type associated with its body (see Elements of Divinity trait).</p>"
+    }
+  ],
+  "token": "modules/helianas-mechanics/assets/bestiary/grief-jinn-token.webp"
 }

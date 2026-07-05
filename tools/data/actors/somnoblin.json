@@ -2,31 +2,89 @@
   "name": "Somnoblin",
   "source": "Heliana's Field Notes X-23 (Loot Tavern)",
   "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Any/X23-Somnoblin.pdf",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Somnoblin-CT_GV-bg_trnsp.png",
+  "img": "modules/helianas-mechanics/assets/bestiary/somnoblin.webp",
   "size": "sm",
   "creatureType": "humanoid",
   "alignment": "Chaotic Neutral",
   "ac": 15,
-  "hp": { "value": 21, "formula": "6d6" },
-  "speed": { "walk": 30 },
-  "abilities": { "str": 10, "dex": 14, "con": 10, "int": 13, "wis": 7, "cha": 17 },
-  "saveProfs": ["int", "cha"],
-  "skills": { "per": 1 },
-  "senses": { "darkvision": 60 },
-  "languages": ["Common"],
+  "hp": {
+    "value": 21,
+    "formula": "6d6"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 13,
+    "wis": 7,
+    "cha": 17
+  },
+  "saveProfs": [
+    "int",
+    "cha"
+  ],
+  "skills": {
+    "per": 1
+  },
+  "senses": {
+    "darkvision": 60
+  },
+  "languages": [
+    "Common"
+  ],
   "languagesCustom": "Two other languages",
   "cr": 1,
   "xp": 200,
   "biography": "<p><em>Anima obsessio.</em> A goblin-shaped vessel animated by a single lingering obsession — destruction, escape, fame, knowledge, protection, or subterfuge — which dictates its abilities and behaviour. Habitat: Any.</p>",
   "features": [
-    { "name": "Head Empty", "category": "trait", "description": "<p>If the somnoblin takes 5 or more Psychic damage in a single instance, its Speed is reduced to 0 until the end of its next turn.</p>" },
-    { "name": "Obsessive Drive", "category": "trait", "description": "<p>Each somnoblin has a core drive. Roll a d6 to determine the somnoblin's drive and its effects.</p><ol><li><strong>Destruction.</strong> The somnoblin only finds joy in violence. It deals double damage to objects and structures.</li><li><strong>Escape.</strong> The somnoblin is fearful, only cares about survival, and spreads panic. It doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.</li><li><strong>Fame.</strong> Nothing pleases the somnoblin more than adoring fans. It has Advantage on an attack roll against a creature if at least one of the somnoblin's allies is within 5 feet of the creature and the ally isn't Incapacitated.</li><li><strong>Knowledge.</strong> The somnoblin is obsessed with collecting magical knowledge and is accustomed to spells. It has Advantage on saving throws against spells and other magical effects.</li><li><strong>Protection.</strong> The somnoblin uses its defenses to protect others from attacks. It has a +2 bonus to AC.</li><li><strong>Subterfuge.</strong> The somnoblin has a knack for backstabbing. Once per turn, when the somnoblin hits a target with a weapon attack and has Advantage on the attack roll, the somnoblin deals an extra 7 (2d6) damage.</li></ol>" },
-    { "name": "Bonk", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +4, reach 5 ft. <em>Hit:</em> 5 (1d6 + 2) Bludgeoning damage.</p>" },
-    { "name": "Adoration (Fame Only)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 13 Wisdom, each creature within 30 feet. <em>Failure:</em> The target is Charmed by the somnoblin until the end of the target's next turn.</p>" },
-    { "name": "Bombs Away (Destruction Only)", "category": "action", "description": "<p><em>Ranged Weapon Attack:</em> +4, range 20/60 ft. <em>Hit:</em> 10 (3d6) Fire damage.</p>" },
-    { "name": "Guardian (Protection Only)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 13 Wisdom, each enemy within 30 feet. <em>Failure:</em> The target has Disadvantage on attack rolls against creatures other than the somnoblin until the end of the target's next turn.</p>" },
-    { "name": "Panic (Escape Only)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 13 Wisdom, each creature within 30 feet. <em>Failure:</em> The target is Frightened of the somnoblin until the end of the target's next turn.</p>" },
-    { "name": "Sneaky (Subterfuge Only)", "category": "bonus", "description": "<p>The somnoblin becomes Invisible until the start of its next turn or until immediately after it makes an attack.</p>" },
-    { "name": "Spell Snatcher (Knowledge Only)", "category": "reaction", "description": "<p><em>Trigger:</em> A creature within 30 feet of the somnoblin casts a spell of level 3 or lower. <em>Response:</em> The somnoblin makes an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a success, the spell has no effect, and the somnoblin gains Temporary Hit Points equal to the spell's level.</p>" }
-  ]
+    {
+      "name": "Head Empty",
+      "category": "trait",
+      "description": "<p>If the somnoblin takes 5 or more Psychic damage in a single instance, its Speed is reduced to 0 until the end of its next turn.</p>"
+    },
+    {
+      "name": "Obsessive Drive",
+      "category": "trait",
+      "description": "<p>Each somnoblin has a core drive. Roll a d6 to determine the somnoblin's drive and its effects.</p><ol><li><strong>Destruction.</strong> The somnoblin only finds joy in violence. It deals double damage to objects and structures.</li><li><strong>Escape.</strong> The somnoblin is fearful, only cares about survival, and spreads panic. It doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.</li><li><strong>Fame.</strong> Nothing pleases the somnoblin more than adoring fans. It has Advantage on an attack roll against a creature if at least one of the somnoblin's allies is within 5 feet of the creature and the ally isn't Incapacitated.</li><li><strong>Knowledge.</strong> The somnoblin is obsessed with collecting magical knowledge and is accustomed to spells. It has Advantage on saving throws against spells and other magical effects.</li><li><strong>Protection.</strong> The somnoblin uses its defenses to protect others from attacks. It has a +2 bonus to AC.</li><li><strong>Subterfuge.</strong> The somnoblin has a knack for backstabbing. Once per turn, when the somnoblin hits a target with a weapon attack and has Advantage on the attack roll, the somnoblin deals an extra 7 (2d6) damage.</li></ol>"
+    },
+    {
+      "name": "Bonk",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +4, reach 5 ft. <em>Hit:</em> 5 (1d6 + 2) Bludgeoning damage.</p>"
+    },
+    {
+      "name": "Adoration (Fame Only)",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 13 Wisdom, each creature within 30 feet. <em>Failure:</em> The target is Charmed by the somnoblin until the end of the target's next turn.</p>"
+    },
+    {
+      "name": "Bombs Away (Destruction Only)",
+      "category": "action",
+      "description": "<p><em>Ranged Weapon Attack:</em> +4, range 20/60 ft. <em>Hit:</em> 10 (3d6) Fire damage.</p>"
+    },
+    {
+      "name": "Guardian (Protection Only)",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 13 Wisdom, each enemy within 30 feet. <em>Failure:</em> The target has Disadvantage on attack rolls against creatures other than the somnoblin until the end of the target's next turn.</p>"
+    },
+    {
+      "name": "Panic (Escape Only)",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 13 Wisdom, each creature within 30 feet. <em>Failure:</em> The target is Frightened of the somnoblin until the end of the target's next turn.</p>"
+    },
+    {
+      "name": "Sneaky (Subterfuge Only)",
+      "category": "bonus",
+      "description": "<p>The somnoblin becomes Invisible until the start of its next turn or until immediately after it makes an attack.</p>"
+    },
+    {
+      "name": "Spell Snatcher (Knowledge Only)",
+      "category": "reaction",
+      "description": "<p><em>Trigger:</em> A creature within 30 feet of the somnoblin casts a spell of level 3 or lower. <em>Response:</em> The somnoblin makes an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a success, the spell has no effect, and the somnoblin gains Temporary Hit Points equal to the spell's level.</p>"
+    }
+  ],
+  "token": "modules/helianas-mechanics/assets/bestiary/somnoblin-token.webp"
 }

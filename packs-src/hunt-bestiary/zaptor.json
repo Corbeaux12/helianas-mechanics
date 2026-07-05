@@ -3,7 +3,7 @@
   "_key": "!actors!XPXHrckUhUecO6VZ",
   "name": "Zaptor",
   "type": "npc",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png",
+  "img": "modules/helianas-mechanics/assets/bestiary/zaptor.webp",
   "system": {
     "abilities": {
       "str": {
@@ -98,8 +98,14 @@
       "_id": "HCzRV7AgNOlFb2gQ",
       "_key": "!actors.items!XPXHrckUhUecO6VZ.HCzRV7AgNOlFb2gQ",
       "name": "Shared Charge (1/Turn)",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>A creature mounted on the zaptor has Resistance to Lightning damage, and when the rider hits another creature with a metal weapon, both it and the target take an extra 7 (2d6) Lightning damage as part of the attack.</p>",
@@ -120,20 +126,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 100,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "fJHYNvqwgExjvh7X",
       "_key": "!actors.items!XPXHrckUhUecO6VZ.fJHYNvqwgExjvh7X",
       "name": "Thunderous Steps (1/Turn)",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>When the zaptor moves 30+ feet in a straight line, it creates a burst of thunder until it stops moving. <em>Saving Throw:</em> DC 12 Constitution, each creature within 20 feet of the zaptor's path that isn't mounted on the zaptor. <em>Failure:</em> 5 (2d4) Thunder damage.</p>",
@@ -154,88 +160,364 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 200,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "SsvU7AhZ0WKYc8CT",
       "_key": "!actors.items!XPXHrckUhUecO6VZ.SsvU7AhZ0WKYc8CT",
       "name": "Charged Tail",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 10 ft. <em>Hit:</em> 8 (2d4 + 3) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 5 (2d4) Lightning damage.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
       "effects": [],
       "sort": 300,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 10 ft. <em>Hit:</em> 8 (2d4 + 3) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 5 (2d4) Lightning damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "54sDgVIc294ecesg": {
+            "type": "attack",
+            "_id": "54sDgVIc294ecesg",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "TVG84x5dm6xoSvYT",
       "_key": "!actors.items!XPXHrckUhUecO6VZ.TVG84x5dm6xoSvYT",
       "name": "Storm Kick",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 10 (2d6 + 3) Bludgeoning damage plus 3 (1d6) Lightning damage, and the target is pushed 5 feet straight away from the zaptor.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
       "effects": [],
       "sort": 400,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 10 (2d6 + 3) Bludgeoning damage plus 3 (1d6) Lightning damage, and the target is pushed 5 feet straight away from the zaptor.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "VW2R4z81XPcfJ5WB": {
+            "type": "attack",
+            "_id": "VW2R4z81XPcfJ5WB",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "lightning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "3T5X4W1eJgdvY2rV",
       "_key": "!actors.items!XPXHrckUhUecO6VZ.3T5X4W1eJgdvY2rV",
       "name": "Discharge (Recharges after Using Thunderous Steps)",
+      "img": "icons/magic/lightning/bolt-strike-blue.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p><em>Saving Throw:</em> DC 12 Dexterity, each creature in a 30-foot Cone. <em>Failure:</em> 10 (3d6) Lightning damage. <em>Success:</em> Half damage.</p>",
@@ -256,13 +538,7 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 500,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     }
   ],
   "effects": [],
@@ -271,7 +547,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png"
+      "src": "modules/helianas-mechanics/assets/bestiary/zaptor-token.webp"
     },
     "actorLink": false,
     "disposition": -1

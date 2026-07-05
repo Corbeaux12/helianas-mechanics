@@ -2,32 +2,97 @@
   "name": "Briar Lord",
   "source": "Heliana's Field Notes X-38 (Loot Tavern)",
   "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Forest/X38-Briar Lord.pdf",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Briar_Lord-AS-bg_rndr.png",
-  "token": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW Hollow Knight POGS/MW-TOKN-POG-Briar_Lord-AS.png",
+  "img": "modules/helianas-mechanics/assets/bestiary/briar-lord.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/briar-lord-token.webp",
   "size": "med",
   "creatureType": "plant",
   "alignment": "Lawful Neutral",
   "ac": 18,
-  "hp": { "value": 110, "formula": "20d8 + 20" },
-  "speed": { "walk": 35 },
-  "abilities": { "str": 16, "dex": 18, "con": 13, "int": 11, "wis": 17, "cha": 12 },
-  "saveProfs": ["dex"],
-  "skills": { "ins": 1, "prc": 1, "ste": 1 },
-  "dv": ["fire"],
-  "di": ["poison"],
-  "ci": ["poisoned"],
-  "senses": { "darkvision": 60 },
-  "languages": ["Druidic", "Sylvan"],
+  "hp": {
+    "value": 110,
+    "formula": "20d8 + 20"
+  },
+  "speed": {
+    "walk": 35
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 13,
+    "int": 11,
+    "wis": 17,
+    "cha": 12
+  },
+  "saveProfs": [
+    "dex"
+  ],
+  "skills": {
+    "ins": 1,
+    "prc": 1,
+    "ste": 1
+  },
+  "dv": [
+    "fire"
+  ],
+  "di": [
+    "poison"
+  ],
+  "ci": [
+    "poisoned"
+  ],
+  "senses": {
+    "darkvision": 60
+  },
+  "languages": [
+    "Druidic",
+    "Sylvan"
+  ],
   "cr": 5,
   "xp": 1800,
   "biography": "<p>Woodland guardians in perfect sync. Briar lords put the \"blade\" in blade of grass. As arbiters of the law of the forest, they judge the worthiness of all who enter the sacred spaces hidden deep within the woods. Those deemed unworthy face a final trial by combat.</p><p><strong>Vassals of Trees.</strong> Each briar lord serves under one or more treants, acting under their command to safeguard the forest from intrusion. Though not as powerful as the mighty shepherds of the forest, the lords' unflinching devotion has earned them the honour of defending the woods' most sacred sites.</p><p><strong>Blades of Grass.</strong> A briar lord in the forest is never unarmed—the verdant expanse offers itself freely as an armoury to its protectors. Simple branches twist themselves into razor sharp edges in a lord's grasp, while sap drawn from any tree grows toxic at their will.</p><p><strong>Lords' Council.</strong> In more vital locations, a single briar lord may prove insufficient—a council of three is thus formed to ensure the success of their sacred duties. By the time they reveal themselves to trespassers, a verdict has already been passed, and all that is left is to carry out the sentencing.</p><p><em>Habitat: Forest, Grassland, Jungle, Swamp; Treasure: Armament</em></p>",
   "features": [
-    { "name": "Council of Three", "category": "trait", "description": "<p>Three briar lords can undergo a 1-hour ritual to become a council of three. While within 60 feet of two other members of its council that don't have the Incapacitated condition, the briar lord has proficiency in all saving throws, as well as access to its Exchanging Strikes action and Slice as One reaction.</p><p>Award a party an additional 4,100 XP (5,900 XP total) for defeating the briar lord while it is within 60 feet of two other members of its council that don't have the Incapacitated condition.</p>" },
-    { "name": "False Appearance", "category": "trait", "description": "<p>While the briar lord remains motionless, it is indistinguishable from a normal piece of foliage. If a creature hasn't seen the briar lord move or act, it can attempt a DC 18 Intelligence (Investigation) check, identifying the foliage as a Plant creature on a success.</p>" },
-    { "name": "Multiattack", "category": "action", "description": "<p>The briar lord makes two Venomous Glaive attacks.</p>" },
-    { "name": "Venomous Glaive", "category": "action", "attack": { "bonus": 7, "reach": 10, "damage": "1d10 + 4", "damageType": "slashing", "extraDamage": "2d8", "extraDamageType": "poison" }, "description": "<p><em>Melee Weapon Attack:</em> +7, reach 10 ft. <em>Hit:</em> 9 (1d10 + 4) Slashing damage and 9 (2d8) Poison damage. <em>Saving Throw:</em> DC 15 Constitution. <em>Failure:</em> The target is Poisoned for 1 minute.</p>" },
-    { "name": "Exchanging Strikes (Council Only)", "category": "action", "description": "<p>The briar lord throws its Glaive, exchanging it with the Glaive of another briar lord within 60 feet of it. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 5-foot-wide Line between the two briar lords. <em>Failure:</em> 16 (3d10) Piercing damage and 18 (4d8) Poison damage and the creature is Poisoned for 1 minute. While Poisoned in this way, a creature's Speed is halved. <em>Success:</em> Half damage only.</p>" },
-    { "name": "Leaf in the Wind", "category": "bonus", "description": "<p>The briar lord jumps to an unoccupied space it can see within 15 feet of it. If the space is on a wall or ceiling, the briar lord sticks to it, but can't move from that position without leaping again or falling.</p>" },
-    { "name": "Slice as One (Council Only)", "category": "reaction", "description": "<p><em>Trigger:</em> Another briar lord within 60 feet of the briar lord makes a melee weapon attack. <em>Response:</em> The briar lord makes one Venomous Glaive attack against a target within reach.</p>" }
+    {
+      "name": "Council of Three",
+      "category": "trait",
+      "description": "<p>Three briar lords can undergo a 1-hour ritual to become a council of three. While within 60 feet of two other members of its council that don't have the Incapacitated condition, the briar lord has proficiency in all saving throws, as well as access to its Exchanging Strikes action and Slice as One reaction.</p><p>Award a party an additional 4,100 XP (5,900 XP total) for defeating the briar lord while it is within 60 feet of two other members of its council that don't have the Incapacitated condition.</p>"
+    },
+    {
+      "name": "False Appearance",
+      "category": "trait",
+      "description": "<p>While the briar lord remains motionless, it is indistinguishable from a normal piece of foliage. If a creature hasn't seen the briar lord move or act, it can attempt a DC 18 Intelligence (Investigation) check, identifying the foliage as a Plant creature on a success.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The briar lord makes two Venomous Glaive attacks.</p>"
+    },
+    {
+      "name": "Venomous Glaive",
+      "category": "action",
+      "attack": {
+        "bonus": 7,
+        "reach": 10,
+        "damage": "1d10 + 4",
+        "damageType": "slashing",
+        "extraDamage": "2d8",
+        "extraDamageType": "poison"
+      },
+      "description": "<p><em>Melee Weapon Attack:</em> +7, reach 10 ft. <em>Hit:</em> 9 (1d10 + 4) Slashing damage and 9 (2d8) Poison damage. <em>Saving Throw:</em> DC 15 Constitution. <em>Failure:</em> The target is Poisoned for 1 minute.</p>"
+    },
+    {
+      "name": "Exchanging Strikes (Council Only)",
+      "category": "action",
+      "description": "<p>The briar lord throws its Glaive, exchanging it with the Glaive of another briar lord within 60 feet of it. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 5-foot-wide Line between the two briar lords. <em>Failure:</em> 16 (3d10) Piercing damage and 18 (4d8) Poison damage and the creature is Poisoned for 1 minute. While Poisoned in this way, a creature's Speed is halved. <em>Success:</em> Half damage only.</p>"
+    },
+    {
+      "name": "Leaf in the Wind",
+      "category": "bonus",
+      "description": "<p>The briar lord jumps to an unoccupied space it can see within 15 feet of it. If the space is on a wall or ceiling, the briar lord sticks to it, but can't move from that position without leaping again or falling.</p>"
+    },
+    {
+      "name": "Slice as One (Council Only)",
+      "category": "reaction",
+      "description": "<p><em>Trigger:</em> Another briar lord within 60 feet of the briar lord makes a melee weapon attack. <em>Response:</em> The briar lord makes one Venomous Glaive attack against a target within reach.</p>"
+    }
   ]
 }

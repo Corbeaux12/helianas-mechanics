@@ -3,7 +3,7 @@
   "_key": "!actors!07d4vAfCzD7Kk3Hj",
   "name": "Grief Jinn",
   "type": "npc",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Grief_Jinn-CR-bg_trnsp (1).png",
+  "img": "modules/helianas-mechanics/assets/bestiary/grief-jinn.webp",
   "system": {
     "abilities": {
       "str": {
@@ -112,8 +112,14 @@
       "_id": "au3ljELTqfuhDSXm",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.au3ljELTqfuhDSXm",
       "name": "Elements of Divinity",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The jinn's form is built from four ceremonial jars. Each jar depicts the visage of a different god and is associated with a damage type:</p><ul><li><strong>God of the Forge.</strong> Fire</li><li><strong>God of the Storm.</strong> Lightning</li><li><strong>God of the Sun.</strong> Radiant</li><li><strong>God of the Underworld.</strong> Necrotic</li></ul><p>Each jar is positioned at a different location on the jinn: head, body, left arm, and right arm. The jinn has Resistance to the damage type associated with its body's jar.</p>",
@@ -134,20 +140,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 100,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "aDu0X2JKK2AFDN4j",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.aDu0X2JKK2AFDN4j",
       "name": "Resonant Vessels (Except While in Shattered Form)",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The jinn's jars vibrate violently when exposed to loud sounds, disrupting the flow of its power. If the jinn takes 20+ Thunder damage on a single turn, the Fire, Lightning, Necrotic, and Radiant damage it deals is halved until it finishes a Short or Long Rest.</p>",
@@ -168,20 +174,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 200,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "Z3zNks0hi5mHZM3v",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.Z3zNks0hi5mHZM3v",
       "name": "Shattered Form",
+      "img": "icons/commodities/metal/fragments-steel-barbed.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>When the jinn is reduced to 0 Hit Points, or it takes 35+ Bludgeoning damage on a single turn, the vessels containing it shatter, leaving their shards to swirl in a cloud of dust. The jinn's current Hit Point total resets to 127 Hit Points, its creature type changes from Construct to Undead, its AC becomes 15, it gains Immunity to the Grappled and Restrained conditions, it loses its Resonant Vessels trait, it can't use its Blast Off Bonus Action, and it gains the Ceramic Whirlwind trait until the jinn finishes a Short or Long Rest. Award a party an additional 7,200 XP (14,400 XP total) for defeating the jinn after its Shattered Form activates.</p><p>Once the jinn's Shattered Form has activated, it can't do so again until the jinn finishes a Short or Long Rest.</p><p><strong>Ceramic Whirlwind.</strong> The jinn can move through a space as narrow as 1 foot without expending extra movement to do so, and it can move through the spaces of other creatures. When it moves through the space of another creature for the first time on a turn, that creature is subjected to the following effect. <em>Saving Throw:</em> DC 15 Dexterity. <em>Failure:</em> 7 (2d6) Slashing damage and 13 (3d8) damage of the type associated with the jinn's body (see Elements of Divinity trait).</p>",
@@ -202,20 +208,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 300,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "Sz9ky24t1KH5mEI3",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.Sz9ky24t1KH5mEI3",
       "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The jinn makes one Left Fist attack and one Right Fist attack.</p>",
@@ -236,88 +242,348 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 400,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "taf5WDXVtMlAEDix",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.taf5WDXVtMlAEDix",
       "name": "Left Fist",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its left arm (see Elements of Divinity trait).</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
       "effects": [],
       "sort": 500,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its left arm (see Elements of Divinity trait).</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "UOzOXeZVUfPR1R2E": {
+            "type": "attack",
+            "_id": "UOzOXeZVUfPR1R2E",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "6Hr4I0Klxu15pCj3",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.6Hr4I0Klxu15pCj3",
       "name": "Right Fist",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its right arm (see Elements of Divinity trait).</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
       "effects": [],
       "sort": 600,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning plus 9 (2d8) damage of the type associated with its right arm (see Elements of Divinity trait).</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "Qai05YpYO1TMwrw8": {
+            "type": "attack",
+            "_id": "Qai05YpYO1TMwrw8",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "7vywQfKEXnhsGcwS",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.7vywQfKEXnhsGcwS",
       "name": "Wrathful Gaze",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 30-foot-long, 5-foot-wide Line. <em>Failure:</em> 18 (4d8) damage of the type associated with its head (see Elements of Divinity trait). <em>Success:</em> Half damage.</p>",
@@ -338,20 +604,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 700,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "Md20PxhAOLWAasjN",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.Md20PxhAOLWAasjN",
       "name": "Rearrange",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The jinn rearranges its jars, assigning one to each part of its form.</p>",
@@ -372,20 +638,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 800,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "DNrVa1wQZyi9659Y",
       "_key": "!actors.items!07d4vAfCzD7Kk3Hj.DNrVa1wQZyi9659Y",
       "name": "Blast Off (Except While in Shattered Form)",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The jinn gains a Fly Speed of 30 feet until the end of its turn. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 10-foot-radius Emanation originating from the jinn when it takes this Bonus Action. <em>Failure:</em> 13 (3d8) damage of the type associated with its body (see Elements of Divinity trait).</p>",
@@ -406,13 +672,7 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 900,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     }
   ],
   "effects": [],
@@ -421,7 +681,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Grief_Jinn-CR-bg_trnsp (1).png"
+      "src": "modules/helianas-mechanics/assets/bestiary/grief-jinn-token.webp"
     },
     "actorLink": false,
     "disposition": -1

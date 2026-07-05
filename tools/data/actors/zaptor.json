@@ -2,28 +2,67 @@
   "name": "Zaptor",
   "source": "Heliana's Field Notes P-006 (Loot Tavern)",
   "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Desert/P006-Zaptor.pdf",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png",
+  "img": "modules/helianas-mechanics/assets/bestiary/zaptor.webp",
   "size": "lg",
   "creatureType": "beast",
   "alignment": "Neutral",
   "ac": 13,
-  "hp": { "value": 67, "formula": "9d10 + 18" },
-  "speed": { "walk": 40 },
-  "abilities": { "str": 16, "dex": 15, "con": 14, "int": 4, "wis": 10, "cha": 8 },
+  "hp": {
+    "value": 67,
+    "formula": "9d10 + 18"
+  },
+  "speed": {
+    "walk": 40
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 14,
+    "int": 4,
+    "wis": 10,
+    "cha": 8
+  },
   "saveProfs": [],
   "skills": {},
-  "di": ["lightning", "thunder"],
-  "ci": ["paralyzed", "stunned"],
+  "di": [
+    "lightning",
+    "thunder"
+  ],
+  "ci": [
+    "paralyzed",
+    "stunned"
+  ],
   "senses": {},
   "languages": [],
   "cr": 2,
   "xp": 450,
   "biography": "<p>Storm-charged desert raptors that make excellent — if hair-raising — mounts. A rider shares the zaptor's charge, electrifying their strikes. Habitat: Desert.</p>",
   "features": [
-    { "name": "Shared Charge (1/Turn)", "category": "trait", "description": "<p>A creature mounted on the zaptor has Resistance to Lightning damage, and when the rider hits another creature with a metal weapon, both it and the target take an extra 7 (2d6) Lightning damage as part of the attack.</p>" },
-    { "name": "Thunderous Steps (1/Turn)", "category": "trait", "description": "<p>When the zaptor moves 30+ feet in a straight line, it creates a burst of thunder until it stops moving. <em>Saving Throw:</em> DC 12 Constitution, each creature within 20 feet of the zaptor's path that isn't mounted on the zaptor. <em>Failure:</em> 5 (2d4) Thunder damage.</p>" },
-    { "name": "Charged Tail", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 10 ft. <em>Hit:</em> 8 (2d4 + 3) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 5 (2d4) Lightning damage.</p>" },
-    { "name": "Storm Kick", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 10 (2d6 + 3) Bludgeoning damage plus 3 (1d6) Lightning damage, and the target is pushed 5 feet straight away from the zaptor.</p>" },
-    { "name": "Discharge (Recharges after Using Thunderous Steps)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 12 Dexterity, each creature in a 30-foot Cone. <em>Failure:</em> 10 (3d6) Lightning damage. <em>Success:</em> Half damage.</p>" }
-  ]
+    {
+      "name": "Shared Charge (1/Turn)",
+      "category": "trait",
+      "description": "<p>A creature mounted on the zaptor has Resistance to Lightning damage, and when the rider hits another creature with a metal weapon, both it and the target take an extra 7 (2d6) Lightning damage as part of the attack.</p>"
+    },
+    {
+      "name": "Thunderous Steps (1/Turn)",
+      "category": "trait",
+      "description": "<p>When the zaptor moves 30+ feet in a straight line, it creates a burst of thunder until it stops moving. <em>Saving Throw:</em> DC 12 Constitution, each creature within 20 feet of the zaptor's path that isn't mounted on the zaptor. <em>Failure:</em> 5 (2d4) Thunder damage.</p>"
+    },
+    {
+      "name": "Charged Tail",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +5, reach 10 ft. <em>Hit:</em> 8 (2d4 + 3) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 5 (2d4) Lightning damage.</p>"
+    },
+    {
+      "name": "Storm Kick",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 10 (2d6 + 3) Bludgeoning damage plus 3 (1d6) Lightning damage, and the target is pushed 5 feet straight away from the zaptor.</p>"
+    },
+    {
+      "name": "Discharge (Recharges after Using Thunderous Steps)",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 12 Dexterity, each creature in a 30-foot Cone. <em>Failure:</em> 10 (3d6) Lightning damage. <em>Success:</em> Half damage.</p>"
+    }
+  ],
+  "token": "modules/helianas-mechanics/assets/bestiary/zaptor-token.webp"
 }

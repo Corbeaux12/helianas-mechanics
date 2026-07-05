@@ -2,30 +2,85 @@
   "name": "Purrmafrost",
   "source": "Heliana's Field Notes X-27 (Loot Tavern)",
   "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Arctic/X27-Purrmafrost.pdf",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Purrmafrost-GV-bg_trnsp.png",
+  "img": "modules/helianas-mechanics/assets/bestiary/purrmafrost.webp",
   "size": "sm",
   "creatureType": "monstrosity",
   "alignment": "Neutral",
   "ac": 15,
-  "hp": { "value": 27, "formula": "6d6 + 6" },
-  "speed": { "walk": 30 },
-  "abilities": { "str": 14, "dex": 17, "con": 12, "int": 5, "wis": 16, "cha": 10 },
-  "saveProfs": ["dex", "wis"],
-  "skills": { "prc": 1, "ste": 1 },
-  "dr": ["cold"],
-  "senses": { "darkvision": 60 },
+  "hp": {
+    "value": 27,
+    "formula": "6d6 + 6"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 12,
+    "int": 5,
+    "wis": 16,
+    "cha": 10
+  },
+  "saveProfs": [
+    "dex",
+    "wis"
+  ],
+  "skills": {
+    "prc": 1,
+    "ste": 1
+  },
+  "dr": [
+    "cold"
+  ],
+  "senses": {
+    "darkvision": 60
+  },
   "languages": [],
   "cr": 2,
   "xp": 450,
   "biography": "<p><em>Dolusailurus gelidus.</em> A fog-wreathed arctic feline that hides in its own illusory mists, freezes wet prey in place, and vanishes in a swirl of enticing images. Habitat: Arctic.</p><p><strong>Wet (new condition).</strong> A Wet creature has Disadvantage on saving throws against effects that deal Cold or Lightning damage and against extreme cold, and Advantage on saving throws against effects that deal Fire damage. The condition ends when the creature takes 5+ Fire damage in a single turn or spends 1 hour around a source of heat.</p>",
   "features": [
-    { "name": "Fog Veil", "category": "trait", "description": "<p>While the purrmafrost isn't Incapacitated, the area within a 10-foot Emanation originating from the purrmafrost is filled with a gentle fog and is Lightly Obscured for non-purrmafrost creatures. A strong wind (such as the one created by Gust of Wind) disperses it until the start of the purrmafrost's next turn.</p>" },
-    { "name": "Snowy Stealth", "category": "trait", "description": "<p>The purrmafrost can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement. When it walks through snow, it leaves no discernable tracks.</p>" },
-    { "name": "Multiattack", "category": "action", "description": "<p>The purrmafrost makes one Bite attack and one Claw attack.</p>" },
-    { "name": "Bite", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage plus 10 (3d6) Cold damage. <em>Saving Throw:</em> DC 14 Constitution, a Wet creature hit by this attack. <em>Failure:</em> The target is Restrained until the end of its next turn. The condition ends early if it takes Fire damage.</p>" },
-    { "name": "Claw", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Slashing damage.</p>" },
-    { "name": "Frost Breath", "category": "action", "description": "<p><em>Saving Throw:</em> DC 13 Constitution, each creature in a 20-foot Cone. Wet creatures have Disadvantage on the saving throw. <em>Failure:</em> 7 (2d6) Cold damage, and if the target is Wet, it is Restrained until the end of its next turn. The condition ends early if it takes Fire damage. <em>Success:</em> Half damage only.</p>" },
-    { "name": "Hidden Crouch", "category": "bonus", "description": "<p>While in areas of fog or mist, the purrmafrost takes the Hide action.</p>" },
-    { "name": "Illusion Fog (Recharge 6)", "category": "bonus", "description": "<p>The purrmafrost creates damp fog in a 15-foot-radius Sphere centered on itself. The area is Heavily Obscured for non-purrmafrost creatures. The purrmafrost then teleports to an unoccupied space it can see within 15 feet. This fog lasts for 1 minute or until a strong wind (such as the one created by Gust of Wind) disperses it. A creature that ends its turn in the fog becomes Wet.</p><p>The fog swirls into strange shapes, projecting enticing images into the minds of those who see it. <em>Saving Throw:</em> DC 13 Wisdom, each creature that starts its turn within 30 feet of the fog and can see it. <em>Failure:</em> The target is enticed by the images in the fog and can't willingly move away from it until the start of the target's next turn.</p>" }
-  ]
+    {
+      "name": "Fog Veil",
+      "category": "trait",
+      "description": "<p>While the purrmafrost isn't Incapacitated, the area within a 10-foot Emanation originating from the purrmafrost is filled with a gentle fog and is Lightly Obscured for non-purrmafrost creatures. A strong wind (such as the one created by Gust of Wind) disperses it until the start of the purrmafrost's next turn.</p>"
+    },
+    {
+      "name": "Snowy Stealth",
+      "category": "trait",
+      "description": "<p>The purrmafrost can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement. When it walks through snow, it leaves no discernable tracks.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The purrmafrost makes one Bite attack and one Claw attack.</p>"
+    },
+    {
+      "name": "Bite",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage plus 10 (3d6) Cold damage. <em>Saving Throw:</em> DC 14 Constitution, a Wet creature hit by this attack. <em>Failure:</em> The target is Restrained until the end of its next turn. The condition ends early if it takes Fire damage.</p>"
+    },
+    {
+      "name": "Claw",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Slashing damage.</p>"
+    },
+    {
+      "name": "Frost Breath",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 13 Constitution, each creature in a 20-foot Cone. Wet creatures have Disadvantage on the saving throw. <em>Failure:</em> 7 (2d6) Cold damage, and if the target is Wet, it is Restrained until the end of its next turn. The condition ends early if it takes Fire damage. <em>Success:</em> Half damage only.</p>"
+    },
+    {
+      "name": "Hidden Crouch",
+      "category": "bonus",
+      "description": "<p>While in areas of fog or mist, the purrmafrost takes the Hide action.</p>"
+    },
+    {
+      "name": "Illusion Fog (Recharge 6)",
+      "category": "bonus",
+      "description": "<p>The purrmafrost creates damp fog in a 15-foot-radius Sphere centered on itself. The area is Heavily Obscured for non-purrmafrost creatures. The purrmafrost then teleports to an unoccupied space it can see within 15 feet. This fog lasts for 1 minute or until a strong wind (such as the one created by Gust of Wind) disperses it. A creature that ends its turn in the fog becomes Wet.</p><p>The fog swirls into strange shapes, projecting enticing images into the minds of those who see it. <em>Saving Throw:</em> DC 13 Wisdom, each creature that starts its turn within 30 feet of the fog and can see it. <em>Failure:</em> The target is enticed by the images in the fog and can't willingly move away from it until the start of the target's next turn.</p>"
+    }
+  ],
+  "token": "modules/helianas-mechanics/assets/bestiary/purrmafrost-token.webp"
 }

@@ -3,7 +3,7 @@
   "_key": "!actors!oKLCbdOz8QWPJDdM",
   "name": "Magnétanque",
   "type": "npc",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Magnétanque-CT_MM-bg_trnsp.png",
+  "img": "modules/helianas-mechanics/assets/bestiary/magnetanque.webp",
   "system": {
     "abilities": {
       "str": {
@@ -107,8 +107,14 @@
       "_id": "UN31G7KaNM5tSa8H",
       "_key": "!actors.items!oKLCbdOz8QWPJDdM.UN31G7KaNM5tSa8H",
       "name": "Arcanomagnetic Field",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>Ranged attack rolls made with ferrous ammunition and ranged spell attacks against the magnétanque have Disadvantage.</p>",
@@ -129,20 +135,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 100,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "SABQwHoMQfCixm6L",
       "_key": "!actors.items!oKLCbdOz8QWPJDdM.SABQwHoMQfCixm6L",
       "name": "Ferrosense",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The magnétanque can sense any ferrous objects within 120 feet of it, including through Total Cover.</p>",
@@ -163,20 +169,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 200,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "kw5SiG1cWoJulsg1",
       "_key": "!actors.items!oKLCbdOz8QWPJDdM.kw5SiG1cWoJulsg1",
       "name": "Stretching Current",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>At the start of its turn, the magnétanque can extend its arms, increasing the reach of its Maglock Arm attacks to 15 feet until the end of its turn.</p>",
@@ -197,20 +203,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 300,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "sUNOWZZv40XplAtR",
       "_key": "!actors.items!oKLCbdOz8QWPJDdM.sUNOWZZv40XplAtR",
       "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The magnétanque makes two Maglock Arm attacks.</p>",
@@ -231,54 +237,184 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 400,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "Kpsk98ffLB7Ws9WZ",
       "_key": "!actors.items!oKLCbdOz8QWPJDdM.Kpsk98ffLB7Ws9WZ",
       "name": "Maglock Arm",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 9 (1d10 + 4) Bludgeoning damage, and the target is Grappled (escape DC 15). The magnétanque has Advantage on the attack roll if the target is wearing ferrous armour. The magnétanque can grapple up to two creatures in this way.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/commodities/tech/metal-jaws.webp",
       "effects": [],
       "sort": 500,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 9 (1d10 + 4) Bludgeoning damage, and the target is Grappled (escape DC 15). The magnétanque has Advantage on the attack roll if the target is wearing ferrous armour. The magnétanque can grapple up to two creatures in this way.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "54c9EOMPQI11hGf6": {
+            "type": "attack",
+            "_id": "54c9EOMPQI11hGf6",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "hnW6KGci8oG4P0Lm",
       "_key": "!actors.items!oKLCbdOz8QWPJDdM.hnW6KGci8oG4P0Lm",
       "name": "Arcanomagnetic Pulse",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature within 60 feet; creatures Grappled by the magnétanque have Disadvantage. <em>Failure:</em> 10 (3d6) Lightning damage, or 21 (6d6) Lightning damage to creatures within 20 feet. <em>Success:</em> Half damage.</p>",
@@ -299,20 +435,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 600,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "lzEu97ndqHEnC8VV",
       "_key": "!actors.items!oKLCbdOz8QWPJDdM.lzEu97ndqHEnC8VV",
       "name": "Pulsing Hands",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p><em>Saving Throw:</em> DC 15 Strength, one creature the magnétanque can see within 90 feet. <em>Failure:</em> The target is moved 30 feet straight towards or away from the magnétanque (magnétanque's choice).</p>",
@@ -333,13 +469,7 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 700,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     }
   ],
   "effects": [],
@@ -348,7 +478,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Magnétanque-CT_MM-bg_trnsp.png"
+      "src": "modules/helianas-mechanics/assets/bestiary/magnetanque-token.webp"
     },
     "actorLink": false,
     "disposition": -1

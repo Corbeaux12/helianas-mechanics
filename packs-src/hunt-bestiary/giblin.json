@@ -3,7 +3,7 @@
   "_key": "!actors!noY307VYIioroMSm",
   "name": "Giblin",
   "type": "npc",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Giblin-GV-bg_trnsp (1).png",
+  "img": "modules/helianas-mechanics/assets/bestiary/giblin.webp",
   "system": {
     "abilities": {
       "str": {
@@ -106,8 +106,14 @@
       "_id": "cX8hToU0Jz52cWEv",
       "_key": "!actors.items!noY307VYIioroMSm.cX8hToU0Jz52cWEv",
       "name": "Frost Aversion",
+      "img": "icons/magic/water/projectile-ice-shard.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>If the giblin takes 5+ Cold damage in a single instance, it can't use Rocket Charge until the end of its next turn.</p>",
@@ -128,20 +134,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 100,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "14nGgpizPv33ia5j",
       "_key": "!actors.items!noY307VYIioroMSm.14nGgpizPv33ia5j",
       "name": "Lava Swimmers",
+      "img": "icons/magic/fire/beam-jet-stream-embers.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The giblin can swim in lava using its Swim Speed.</p>",
@@ -162,20 +168,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 200,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "mvvTMxr7oIjeSFNw",
       "_key": "!actors.items!noY307VYIioroMSm.mvvTMxr7oIjeSFNw",
       "name": "Rough Skin",
+      "img": "icons/magic/earth/projectile-stone-landslide.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>A creature that touches the giblin with an Unarmed Strike takes 2 (1d4) Slashing damage.</p>",
@@ -196,20 +202,20 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 300,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "k0oBRM0dm5aaepUQ",
       "_key": "!actors.items!noY307VYIioroMSm.k0oBRM0dm5aaepUQ",
       "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The giblin makes two Punch attacks.</p>",
@@ -230,88 +236,348 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 400,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     },
     {
       "_id": "jt7BxBK040uEtX90",
       "_key": "!actors.items!noY307VYIioroMSm.jt7BxBK040uEtX90",
       "name": "Chomp",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage, and the giblin chomps down on the target, attaches to it, and moves with it. The giblin detaches from the target at the start of its next turn. The giblin detaches early if it is Incapacitated or moved more than 5 feet from the target. When the giblin detaches, the target takes 3 (1d6) Piercing damage.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
       "effects": [],
       "sort": 500,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage, and the giblin chomps down on the target, attaches to it, and moves with it. The giblin detaches from the target at the start of its next turn. The giblin detaches early if it is Incapacitated or moved more than 5 feet from the target. When the giblin detaches, the target takes 3 (1d6) Piercing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "mTHz6zm2jp1SeYue": {
+            "type": "attack",
+            "_id": "mTHz6zm2jp1SeYue",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "vthB6KMYYq2JWv4Z",
       "_key": "!actors.items!noY307VYIioroMSm.vthB6KMYYq2JWv4Z",
       "name": "Punch",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
       "effects": [],
       "sort": 600,
       "ownership": {
         "default": 0
       },
-      "flags": {}
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "FerTmiwM8skRMgqV": {
+            "type": "attack",
+            "_id": "FerTmiwM8skRMgqV",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
     },
     {
       "_id": "HdS1c9JZyfVQrvvL",
       "_key": "!actors.items!noY307VYIioroMSm.HdS1c9JZyfVQrvvL",
       "name": "Rocket Charge (Recharge 5-6)",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "type": "feat",
-      "img": "icons/svg/aura.svg",
       "system": {
         "description": {
           "value": "<p>The giblin launches itself 50 feet in a straight line. <em>Saving Throw:</em> DC 13 Dexterity, each creature in the giblin's path. <em>Failure:</em> 7 (2d6) Bludgeoning damage, and if the creature is Medium or smaller, it is knocked Prone.</p><p>If no creatures fail the save or if the giblin's movement ends early due to a wall or other obstruction, the giblin crashes, taking 7 (2d6) Bludgeoning damage and knocking itself Prone.</p>",
@@ -332,13 +598,7 @@
           "recovery": []
         },
         "activities": {}
-      },
-      "effects": [],
-      "sort": 700,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
+      }
     }
   ],
   "effects": [],
@@ -347,7 +607,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Giblin-GV-bg_trnsp (1).png"
+      "src": "modules/helianas-mechanics/assets/bestiary/giblin-token.webp"
     },
     "actorLink": false,
     "disposition": -1
