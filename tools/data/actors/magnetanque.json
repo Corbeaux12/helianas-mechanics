@@ -1,0 +1,31 @@
+{
+  "name": "Magnétanque",
+  "source": "Heliana's Field Notes X-21 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Mountain/X21-Magnétanque.pdf",
+  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Magnétanque-CT_MM-bg_trnsp.png",
+  "size": "med",
+  "creatureType": "elemental",
+  "alignment": "Chaotic Neutral",
+  "ac": 17,
+  "hp": { "value": 76, "formula": "9d8 + 36" },
+  "speed": { "walk": 30 },
+  "abilities": { "str": 18, "dex": 10, "con": 18, "int": 8, "wis": 14, "cha": 8 },
+  "saveProfs": ["str", "con"],
+  "skills": { "ath": 1 },
+  "di": ["lightning"],
+  "ci": ["exhaustion", "paralyzed", "poisoned"],
+  "senses": { "blindsight": 15, "special": "Ferrosense 120 ft. (see trait)" },
+  "languages": ["Primordial"],
+  "cr": 6,
+  "xp": 2300,
+  "biography": "<p><em>Magnes levirotunda.</em> A rotund magnetic elemental that senses iron through solid rock, locks armoured foes in its grip, and detonates arcanomagnetic pulses. Habitat: Hill &amp; Mountain.</p>",
+  "features": [
+    { "name": "Arcanomagnetic Field", "category": "trait", "description": "<p>Ranged attack rolls made with ferrous ammunition and ranged spell attacks against the magnétanque have Disadvantage.</p>" },
+    { "name": "Ferrosense", "category": "trait", "description": "<p>The magnétanque can sense any ferrous objects within 120 feet of it, including through Total Cover.</p>" },
+    { "name": "Stretching Current", "category": "trait", "description": "<p>At the start of its turn, the magnétanque can extend its arms, increasing the reach of its Maglock Arm attacks to 15 feet until the end of its turn.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The magnétanque makes two Maglock Arm attacks.</p>" },
+    { "name": "Maglock Arm", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 9 (1d10 + 4) Bludgeoning damage, and the target is Grappled (escape DC 15). The magnétanque has Advantage on the attack roll if the target is wearing ferrous armour. The magnétanque can grapple up to two creatures in this way.</p>" },
+    { "name": "Arcanomagnetic Pulse", "category": "action", "description": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature within 60 feet; creatures Grappled by the magnétanque have Disadvantage. <em>Failure:</em> 10 (3d6) Lightning damage, or 21 (6d6) Lightning damage to creatures within 20 feet. <em>Success:</em> Half damage.</p>" },
+    { "name": "Pulsing Hands", "category": "bonus", "description": "<p><em>Saving Throw:</em> DC 15 Strength, one creature the magnétanque can see within 90 feet. <em>Failure:</em> The target is moved 30 feet straight towards or away from the magnétanque (magnétanque's choice).</p>" }
+  ]
+}

@@ -1,49 +1,49 @@
 {
-  "_id": "ELnpEMvD91VCzLN6",
-  "_key": "!actors!ELnpEMvD91VCzLN6",
-  "name": "Zaptor Matriarch",
+  "_id": "bdTQ96SWFbH2HBpc",
+  "_key": "!actors!bdTQ96SWFbH2HBpc",
+  "name": "Mosslax",
   "type": "npc",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png",
+  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Mosslax-GV-bg_trnsp (1).png",
   "system": {
     "abilities": {
       "str": {
-        "value": 19,
+        "value": 25,
         "proficient": 1
       },
       "dex": {
-        "value": 18,
-        "proficient": 1
-      },
-      "con": {
-        "value": 16,
+        "value": 6,
         "proficient": 0
       },
+      "con": {
+        "value": 24,
+        "proficient": 1
+      },
       "int": {
-        "value": 5,
+        "value": 7,
         "proficient": 0
       },
       "wis": {
-        "value": 12,
-        "proficient": 0
+        "value": 14,
+        "proficient": 1
       },
       "cha": {
-        "value": 8,
+        "value": 11,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 14,
+        "flat": 17,
         "calc": "flat"
       },
       "hp": {
-        "value": 178,
-        "max": 178,
-        "formula": "21d10 + 63"
+        "value": 245,
+        "max": 245,
+        "formula": "14d20 + 98"
       },
       "movement": {
         "units": "ft",
-        "walk": 50
+        "walk": 20
       },
       "senses": {
         "units": "ft"
@@ -51,28 +51,25 @@
     },
     "details": {
       "biography": {
-        "value": "<p>The zaptor matriarch leads herds of zaptors across the desert — swift, storm-charged raptors whose bodies crackle with accumulated static. Habitat: Desert.</p><p><em>Source: Heliana's Field Notes P-006 (Loot Tavern)</em></p>",
+        "value": "<p><em>Kourtinacissus rochalizo.</em> A gargantuan, deceptively placid mound of mossy plant matter that lures creatures close with inviting vines — then crushes and devours anything it can reach, weapons included. Habitat: Forest &amp; Plains.</p><p><em>Source: Heliana's Field Notes P-002 (Loot Tavern)</em></p>",
         "public": ""
       },
       "alignment": "Neutral",
       "type": {
-        "value": "beast",
+        "value": "plant",
         "subtype": "",
         "custom": ""
       },
-      "cr": 9
+      "cr": 14
     },
     "traits": {
-      "size": "lg",
+      "size": "grg",
       "languages": {
         "value": [],
         "custom": ""
       },
       "di": {
-        "value": [
-          "lightning",
-          "thunder"
-        ],
+        "value": [],
         "custom": ""
       },
       "dv": {
@@ -80,12 +77,15 @@
         "custom": ""
       },
       "dr": {
-        "value": [],
+        "value": [
+          "poison"
+        ],
         "custom": ""
       },
       "ci": {
         "value": [
           "paralyzed",
+          "poisoned",
           "stunned"
         ],
         "custom": ""
@@ -95,14 +95,14 @@
   },
   "items": [
     {
-      "_id": "wfgYX0qDd4yxN2bP",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.wfgYX0qDd4yxN2bP",
-      "name": "Lightning Body (Recharges after Using Thunderous Steps)",
+      "_id": "auP8xjyKqeFMR5An",
+      "_key": "!actors.items!bdTQ96SWFbH2HBpc.auP8xjyKqeFMR5An",
+      "name": "Inviting Vines",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p>When a creature hits the matriarch for the first time on a turn with a melee weapon attack using a metal weapon, the matriarch discharges, and the attacking creature takes 9 (2d8) Lightning damage and drops its weapon. A creature that is Immune to Lightning damage does not drop its weapon.</p>",
+          "value": "<p>The plant life surrounding the mosslax inhibits creatures moving away from it. Creatures of the mosslax's choice within 60 feet of it must expend 2 feet of movement for every 1 foot moved away from the mosslax while on the ground.</p>",
           "chat": ""
         },
         "type": {
@@ -129,14 +129,14 @@
       "flags": {}
     },
     {
-      "_id": "wu3sqgYo57cFLoaX",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.wu3sqgYo57cFLoaX",
-      "name": "Thunderous Steps (1/Turn)",
+      "_id": "K4Qpyw5X6BQJtIL7",
+      "_key": "!actors.items!bdTQ96SWFbH2HBpc.K4Qpyw5X6BQJtIL7",
+      "name": "Multiattack",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p>When the matriarch moves 30+ feet in a straight line, she creates a burst of thunder until she stops moving. <em>Saving Throw:</em> DC 15 Constitution, each creature within 20 feet of the matriarch's path. <em>Failure:</em> 7 (2d6) Thunder damage.</p>",
+          "value": "<p>The mosslax makes two Crushing Arm attacks.</p>",
           "chat": ""
         },
         "type": {
@@ -144,8 +144,8 @@
           "subtype": ""
         },
         "activation": {
-          "type": "",
-          "cost": null,
+          "type": "action",
+          "cost": 1,
           "condition": ""
         },
         "requirements": "",
@@ -163,14 +163,14 @@
       "flags": {}
     },
     {
-      "_id": "hB9g7DYyh1V8bfJe",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.hB9g7DYyh1V8bfJe",
-      "name": "Multiattack",
+      "_id": "0dghGkM3lED2VzKR",
+      "_key": "!actors.items!bdTQ96SWFbH2HBpc.0dghGkM3lED2VzKR",
+      "name": "Crushing Arm",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p>The matriarch makes one Charged Tail attack and two Storm Kick attacks.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +12, reach 10 ft. <em>Hit:</em> 26 (3d12 + 7) Bludgeoning damage, and the target is Grappled (escape DC 20) by one of two arms.</p>",
           "chat": ""
         },
         "type": {
@@ -197,14 +197,14 @@
       "flags": {}
     },
     {
-      "_id": "FRH8m5VPTEbKbgOZ",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.FRH8m5VPTEbKbgOZ",
-      "name": "Charged Tail",
+      "_id": "DgRuu3tyMzpJ7bvL",
+      "_key": "!actors.items!bdTQ96SWFbH2HBpc.DgRuu3tyMzpJ7bvL",
+      "name": "Body Slam",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 15 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 9 (2d8) Lightning damage.</p>",
+          "value": "<p>The mosslax leaps into the air and lands in a space within 20 feet of it, attempting to crush anything beneath it. <em>Saving Throw:</em> DC 20 Dexterity, each creature in the mosslax's destination space. <em>Failure:</em> 39 (6d12) Bludgeoning damage, and the target is knocked Prone, is Restrained, and unable to breathe until it no longer shares a space with the mosslax. <em>Success:</em> The target escapes and moves to the nearest unoccupied space within 5 feet of the mosslax.</p><p>A creature can take an action to make a DC 20 Strength (Athletics) check, freeing itself or another creature trapped under the mosslax within its reach on a success.</p>",
           "chat": ""
         },
         "type": {
@@ -231,14 +231,14 @@
       "flags": {}
     },
     {
-      "_id": "B30315IB9HTAVjnN",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.B30315IB9HTAVjnN",
-      "name": "Storm Kick",
+      "_id": "SyaSX6LyiYNemrff",
+      "_key": "!actors.items!bdTQ96SWFbH2HBpc.SyaSX6LyiYNemrff",
+      "name": "Eat Anything",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 11 (2d6 + 4) Bludgeoning damage plus 4 (1d8) Lightning damage, and the target is pushed up to 10 feet straight away from the matriarch.</p>",
+          "value": "<p><em>Trigger:</em> A creature within 10 feet of the mosslax attacks it with a melee weapon. <em>Response — Saving Throw:</em> DC 20 Strength, the triggering creature. <em>Failure:</em> The target is disarmed, and the mosslax eats its weapon. If the weapon is nonmagical, the mosslax regains 11 (1d8 + 7) Hit Points and the weapon is destroyed.</p>",
           "chat": ""
         },
         "type": {
@@ -246,7 +246,7 @@
           "subtype": ""
         },
         "activation": {
-          "type": "action",
+          "type": "reaction",
           "cost": 1,
           "condition": ""
         },
@@ -263,49 +263,15 @@
         "default": 0
       },
       "flags": {}
-    },
-    {
-      "_id": "6wJwt4xuYUtnVg9i",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.6wJwt4xuYUtnVg9i",
-      "name": "Discharge (Recharges after Using Thunderous Steps)",
-      "type": "feat",
-      "img": "icons/svg/aura.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 60-foot Cone. <em>Failure:</em> 27 (6d8) Lightning damage. <em>Failure by 5 or More:</em> The target is Paralysed until the start of its next turn. <em>Success:</em> Half damage.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "requirements": "",
-        "uses": {
-          "spent": 0,
-          "recovery": []
-        },
-        "activities": {}
-      },
-      "effects": [],
-      "sort": 600,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {}
     }
   ],
   "effects": [],
   "prototypeToken": {
-    "name": "Zaptor Matriarch",
-    "width": 2,
-    "height": 2,
+    "name": "Mosslax",
+    "width": 4,
+    "height": 4,
     "texture": {
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png"
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Mosslax-GV-bg_trnsp (1).png"
     },
     "actorLink": false,
     "disposition": -1

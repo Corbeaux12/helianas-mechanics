@@ -1,33 +1,33 @@
 {
-  "_id": "ELnpEMvD91VCzLN6",
-  "_key": "!actors!ELnpEMvD91VCzLN6",
-  "name": "Zaptor Matriarch",
+  "_id": "noY307VYIioroMSm",
+  "_key": "!actors!noY307VYIioroMSm",
+  "name": "Giblin",
   "type": "npc",
-  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png",
+  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Giblin-GV-bg_trnsp (1).png",
   "system": {
     "abilities": {
       "str": {
-        "value": 19,
+        "value": 16,
         "proficient": 1
       },
       "dex": {
-        "value": 18,
-        "proficient": 1
-      },
-      "con": {
-        "value": 16,
+        "value": 13,
         "proficient": 0
       },
+      "con": {
+        "value": 17,
+        "proficient": 1
+      },
       "int": {
-        "value": 5,
+        "value": 6,
         "proficient": 0
       },
       "wis": {
-        "value": 12,
+        "value": 5,
         "proficient": 0
       },
       "cha": {
-        "value": 8,
+        "value": 12,
         "proficient": 0
       }
     },
@@ -37,13 +37,14 @@
         "calc": "flat"
       },
       "hp": {
-        "value": 178,
-        "max": 178,
-        "formula": "21d10 + 63"
+        "value": 32,
+        "max": 32,
+        "formula": "5d6 + 15"
       },
       "movement": {
         "units": "ft",
-        "walk": 50
+        "walk": 25,
+        "swim": 30
       },
       "senses": {
         "units": "ft"
@@ -51,27 +52,28 @@
     },
     "details": {
       "biography": {
-        "value": "<p>The zaptor matriarch leads herds of zaptors across the desert — swift, storm-charged raptors whose bodies crackle with accumulated static. Habitat: Desert.</p><p><em>Source: Heliana's Field Notes P-006 (Loot Tavern)</em></p>",
+        "value": "<p><em>Goblinoid gibli.</em> Rock-skinned fey goblinoids that swim through lava and launch themselves at foes like living cannonballs. Habitat: Hill &amp; Mountain.</p><p><em>Source: Heliana's Field Notes P-005 (Loot Tavern)</em></p>",
         "public": ""
       },
-      "alignment": "Neutral",
+      "alignment": "Chaotic Neutral",
       "type": {
-        "value": "beast",
-        "subtype": "",
+        "value": "fey",
+        "subtype": "Goblinoid",
         "custom": ""
       },
-      "cr": 9
+      "cr": 1
     },
     "traits": {
-      "size": "lg",
+      "size": "sm",
       "languages": {
-        "value": [],
+        "value": [
+          "goblin"
+        ],
         "custom": ""
       },
       "di": {
         "value": [
-          "lightning",
-          "thunder"
+          "fire"
         ],
         "custom": ""
       },
@@ -80,29 +82,35 @@
         "custom": ""
       },
       "dr": {
-        "value": [],
+        "value": [
+          "poison"
+        ],
         "custom": ""
       },
       "ci": {
         "value": [
-          "paralyzed",
-          "stunned"
+          "poisoned"
         ],
         "custom": ""
       }
     },
-    "skills": {}
+    "skills": {
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      }
+    }
   },
   "items": [
     {
-      "_id": "wfgYX0qDd4yxN2bP",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.wfgYX0qDd4yxN2bP",
-      "name": "Lightning Body (Recharges after Using Thunderous Steps)",
+      "_id": "cX8hToU0Jz52cWEv",
+      "_key": "!actors.items!noY307VYIioroMSm.cX8hToU0Jz52cWEv",
+      "name": "Frost Aversion",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p>When a creature hits the matriarch for the first time on a turn with a melee weapon attack using a metal weapon, the matriarch discharges, and the attacking creature takes 9 (2d8) Lightning damage and drops its weapon. A creature that is Immune to Lightning damage does not drop its weapon.</p>",
+          "value": "<p>If the giblin takes 5+ Cold damage in a single instance, it can't use Rocket Charge until the end of its next turn.</p>",
           "chat": ""
         },
         "type": {
@@ -129,14 +137,14 @@
       "flags": {}
     },
     {
-      "_id": "wu3sqgYo57cFLoaX",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.wu3sqgYo57cFLoaX",
-      "name": "Thunderous Steps (1/Turn)",
+      "_id": "14nGgpizPv33ia5j",
+      "_key": "!actors.items!noY307VYIioroMSm.14nGgpizPv33ia5j",
+      "name": "Lava Swimmers",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p>When the matriarch moves 30+ feet in a straight line, she creates a burst of thunder until she stops moving. <em>Saving Throw:</em> DC 15 Constitution, each creature within 20 feet of the matriarch's path. <em>Failure:</em> 7 (2d6) Thunder damage.</p>",
+          "value": "<p>The giblin can swim in lava using its Swim Speed.</p>",
           "chat": ""
         },
         "type": {
@@ -163,14 +171,14 @@
       "flags": {}
     },
     {
-      "_id": "hB9g7DYyh1V8bfJe",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.hB9g7DYyh1V8bfJe",
-      "name": "Multiattack",
+      "_id": "mvvTMxr7oIjeSFNw",
+      "_key": "!actors.items!noY307VYIioroMSm.mvvTMxr7oIjeSFNw",
+      "name": "Rough Skin",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p>The matriarch makes one Charged Tail attack and two Storm Kick attacks.</p>",
+          "value": "<p>A creature that touches the giblin with an Unarmed Strike takes 2 (1d4) Slashing damage.</p>",
           "chat": ""
         },
         "type": {
@@ -178,8 +186,8 @@
           "subtype": ""
         },
         "activation": {
-          "type": "action",
-          "cost": 1,
+          "type": "",
+          "cost": null,
           "condition": ""
         },
         "requirements": "",
@@ -197,14 +205,14 @@
       "flags": {}
     },
     {
-      "_id": "FRH8m5VPTEbKbgOZ",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.FRH8m5VPTEbKbgOZ",
-      "name": "Charged Tail",
+      "_id": "k0oBRM0dm5aaepUQ",
+      "_key": "!actors.items!noY307VYIioroMSm.k0oBRM0dm5aaepUQ",
+      "name": "Multiattack",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 15 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 9 (2d8) Lightning damage.</p>",
+          "value": "<p>The giblin makes two Punch attacks.</p>",
           "chat": ""
         },
         "type": {
@@ -231,14 +239,14 @@
       "flags": {}
     },
     {
-      "_id": "B30315IB9HTAVjnN",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.B30315IB9HTAVjnN",
-      "name": "Storm Kick",
+      "_id": "jt7BxBK040uEtX90",
+      "_key": "!actors.items!noY307VYIioroMSm.jt7BxBK040uEtX90",
+      "name": "Chomp",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 11 (2d6 + 4) Bludgeoning damage plus 4 (1d8) Lightning damage, and the target is pushed up to 10 feet straight away from the matriarch.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage, and the giblin chomps down on the target, attaches to it, and moves with it. The giblin detaches from the target at the start of its next turn. The giblin detaches early if it is Incapacitated or moved more than 5 feet from the target. When the giblin detaches, the target takes 3 (1d6) Piercing damage.</p>",
           "chat": ""
         },
         "type": {
@@ -265,14 +273,14 @@
       "flags": {}
     },
     {
-      "_id": "6wJwt4xuYUtnVg9i",
-      "_key": "!actors.items!ELnpEMvD91VCzLN6.6wJwt4xuYUtnVg9i",
-      "name": "Discharge (Recharges after Using Thunderous Steps)",
+      "_id": "vthB6KMYYq2JWv4Z",
+      "_key": "!actors.items!noY307VYIioroMSm.vthB6KMYYq2JWv4Z",
+      "name": "Punch",
       "type": "feat",
       "img": "icons/svg/aura.svg",
       "system": {
         "description": {
-          "value": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 60-foot Cone. <em>Failure:</em> 27 (6d8) Lightning damage. <em>Failure by 5 or More:</em> The target is Paralysed until the start of its next turn. <em>Success:</em> Half damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>",
           "chat": ""
         },
         "type": {
@@ -297,15 +305,49 @@
         "default": 0
       },
       "flags": {}
+    },
+    {
+      "_id": "HdS1c9JZyfVQrvvL",
+      "_key": "!actors.items!noY307VYIioroMSm.HdS1c9JZyfVQrvvL",
+      "name": "Rocket Charge (Recharge 5-6)",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>The giblin launches itself 50 feet in a straight line. <em>Saving Throw:</em> DC 13 Dexterity, each creature in the giblin's path. <em>Failure:</em> 7 (2d6) Bludgeoning damage, and if the creature is Medium or smaller, it is knocked Prone.</p><p>If no creatures fail the save or if the giblin's movement ends early due to a wall or other obstruction, the giblin crashes, taking 7 (2d6) Bludgeoning damage and knocking itself Prone.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
     }
   ],
   "effects": [],
   "prototypeToken": {
-    "name": "Zaptor Matriarch",
-    "width": 2,
-    "height": 2,
+    "name": "Giblin",
+    "width": 1,
+    "height": 1,
     "texture": {
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png"
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Giblin-GV-bg_trnsp (1).png"
     },
     "actorLink": false,
     "disposition": -1

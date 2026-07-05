@@ -6,7 +6,7 @@ Roadmap for importing the Loot Tavern hunt library (`DndAssets/DNDe5/DMContent/A
 
 | Source | Count | Contains | Item data? |
 |---|---|---|---|
-| `Biomes/X##-*.pdf` + `P###-*.pdf` (Field Notes) | ~35 | Stat block + lore only (bestiary pages) | ❌ no items |
+| `Biomes/X##-*.pdf` + `P###-*.pdf` (Field Notes) | ~35 | Stat block + lore, usually **one craftable item** (with component line, no price) and sometimes a spell or player option | ⚠️ one item each |
 | `Multi-level/**` hunt adventures | ~20 | Full hunt: boss stat blocks at 3 APL tiers, harvest table, craftable items, sometimes spells/familiars | ✅ |
 | `LT Compendium Vol 1/2 - PAGES.pdf` | 2 | Item compilations | ✅ |
 | Bestiary 2025-12 / 2026-01 | 2 | Field-note compilations | ❌ |
@@ -51,4 +51,6 @@ Expected automation coverage per boss: ~70–80 % of actions (plain attacks and 
 ³ Cold Blood on the Scorching Sand and Chaos at the Coral Court use a different section layout — their crafting text needs manual carving.
 ⁴ S.N.A.R.E. and Honeydew values estimated (appendix bonus items, no printed price); Juice of Partial Polymorph skipped (no crafting component printed).
 
-**Field-notes actors (new phase, started):** `tools/data/actors/*.json` → hunt-bestiary Actor pack. Done so far: Briar Lord (X-38), Zaptor Matriarch + Zaptor (P-006). All 45 field-note PDFs are text-extracted in the scratchpad; ~40 stat blocks remain (some PDFs carry two), one transcription each; attack-roll automation is a later pass.
+**Field-notes actors (new phase, started):** `tools/data/actors/*.json` → hunt-bestiary Actor pack. Done so far: Briar Lord (X-38), Zaptor Matriarch + Zaptor (P-006), Mosslax (P-002), Grief Jinn (P-003), Giblin (P-005), Magnétanque (X-21), Somnoblin (X-23), Purrmafrost (X-27). All 45 field-note PDFs are text-extracted in the scratchpad; ~35 stat blocks remain (some PDFs carry two), one transcription each; attack-roll automation is a later pass.
+
+**Field-notes items (discovered):** contrary to the first survey, most field-note PDFs *do* include one craftable item with its component line (e.g. Toothy Brawl ← Pouch of Fey (Giblin) Teeth, Vinecharmer ← Plant (Mosslax) Bark) — no printed prices, so values must be estimated. These can be fed through the existing hunt pipeline (`tools/data/hunts/`) as single-item hunts in a later pass.

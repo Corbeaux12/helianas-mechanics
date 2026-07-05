@@ -930,15 +930,15 @@ function buildBestiary() {
         details: {
           biography: { value: `${a.biography ?? ""}<p><em>Source: ${a.source}</em></p>`, public: "" },
           alignment: a.alignment ?? "",
-          type: { value: a.creatureType, subtype: "", custom: "" },
+          type: { value: a.creatureType, subtype: a.subtype ?? "", custom: "" },
           cr: a.cr,
         },
         traits: {
           size,
-          languages: { value: (a.languages ?? []).map(l => l.toLowerCase()), custom: "" },
+          languages: { value: (a.languages ?? []).map(l => l.toLowerCase()), custom: a.languagesCustom ?? "" },
           di: { value: a.di ?? [], custom: "" },
           dv: { value: a.dv ?? [], custom: "" },
-          da: { value: a.da ?? [], custom: "" },
+          dr: { value: a.dr ?? [], custom: a.drCustom ?? "" },
           ci: { value: a.ci ?? [], custom: "" },
         },
         skills,
