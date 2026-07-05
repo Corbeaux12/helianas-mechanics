@@ -1,0 +1,461 @@
+{
+  "_id": "GIRy4b5y7FTGYDtg",
+  "_key": "!actors!GIRy4b5y7FTGYDtg",
+  "name": "Empathrem",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/empathrem.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 9,
+        "proficient": 0
+      },
+      "con": {
+        "value": 15,
+        "proficient": 0
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 20,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 11,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 16,
+        "max": 16,
+        "formula": "3d6 + 6"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 5,
+        "fly": 30,
+        "hover": true
+      },
+      "senses": {
+        "units": "ft",
+        "blindsight": 5,
+        "darkvision": 60
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Psiocladia galera.</em> A hovering aberrant empath that reads every heart around it and pummels anyone whose emotions run too hot — rage, in particular, is answered with immediate violence. Habitat: The Low.</p><p><em>Source: Heliana's Field Notes P-009 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Neutral",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 1
+    },
+    "traits": {
+      "size": "sm",
+      "languages": {
+        "value": [
+          "undercommon"
+        ],
+        "custom": "Telepathy 120 ft."
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ins": {
+        "value": 2,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "0S9Fm3VoyRPzdwJD",
+      "_key": "!actors.items!GIRy4b5y7FTGYDtg.0S9Fm3VoyRPzdwJD",
+      "name": "Magical Empath",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The empathrem is always under the effects of the <em>Detect Thoughts</em> and <em>Detect Emotion</em>* spells, both of which detect creatures out to a range of 120 feet.</p><p>*See the Spells page of the Field Notes PDF.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "PmdR9KigIUlUR6FJ",
+      "_key": "!actors.items!GIRy4b5y7FTGYDtg.PmdR9KigIUlUR6FJ",
+      "name": "Telepathic Shroud",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The empathrem's thoughts can't be read by any means, and magic can't detect its location or observe it remotely.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "1dNk31Ofg3kxcutr",
+      "_key": "!actors.items!GIRy4b5y7FTGYDtg.1dNk31Ofg3kxcutr",
+      "name": "Violent Suppression",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The empathrem reacts aggressively to nearby creatures that don't keep their emotions in check. <em>Saving Throw:</em> DC 15 Wisdom, each creature in a 120-foot Emanation originating from the empathrem at the start of each of the empathrem's turns. A creature that is unaware of the empathrem's presence makes the saving throw with Disadvantage, and a creature under the effects of the <em>Calm Emotions</em> spell makes it with Advantage. A creature in a Rage loses Immunity to this effect and automatically fails saving throws against it. <em>Failure:</em> The empathrem has Advantage on attack rolls against the target for 1 minute, and the target automatically fails the saving throws against other empathrems' Violent Suppression traits for 1 hour. <em>Success:</em> The target is Immune to the effects of any empathrem's Violent Suppression for 1 hour.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "iKgqC4U7eMEH5zi7",
+      "_key": "!actors.items!GIRy4b5y7FTGYDtg.iKgqC4U7eMEH5zi7",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The empathrem makes two Pummel attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "JQBcKokaBMjgiJGW",
+      "_key": "!actors.items!GIRy4b5y7FTGYDtg.JQBcKokaBMjgiJGW",
+      "name": "Pummel",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Bludgeoning damage. A target hit by two Pummel attacks on the same turn has its Speed halved and can't speak until the end of its next turn.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "GMqI5TRs3LOftSER": {
+            "type": "attack",
+            "_id": "GMqI5TRs3LOftSER",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "9Elq6IU7aGi0QdHB",
+      "_key": "!actors.items!GIRy4b5y7FTGYDtg.9Elq6IU7aGi0QdHB",
+      "name": "Panic",
+      "img": "icons/magic/control/fear-fright-monster-grin-green.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> The empathrem takes Psychic damage. <em>Response:</em> The empathrem makes one Pummel attack against a creature within reach and moves up to its Speed away from the source of the damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Empathrem",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/empathrem-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

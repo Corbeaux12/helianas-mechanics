@@ -1,0 +1,31 @@
+{
+  "name": "Teneblaze",
+  "source": "Heliana's Field Notes P-008 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Mountain/P008-Teneblaze.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/teneblaze.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/teneblaze-token.webp",
+  "size": "med",
+  "creatureType": "undead",
+  "alignment": "Neutral",
+  "ac": 17,
+  "hp": { "value": 143, "formula": "22d8 + 44" },
+  "speed": { "walk": 40 },
+  "abilities": { "str": 8, "dex": 19, "con": 14, "int": 12, "wis": 15, "cha": 13 },
+  "saveProfs": ["dex", "wis"],
+  "skills": { "acr": 1, "ste": 1 },
+  "dr": ["acid", "bludgeoning", "cold", "lightning", "piercing", "slashing"],
+  "di": ["fire", "necrotic", "poison"],
+  "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"],
+  "senses": { "darkvision": 120 },
+  "languages": ["Common"],
+  "cr": 11,
+  "xp": 7200,
+  "biography": "<p><em>Caeruleum sextus.</em> A blue-flamed undead swordsman that flickers between shadows, carving foes with six searing blades and stealing their vitality — feed it fire and its blinding flare reignites. Habitat: Mountain.</p>",
+  "features": [
+    { "name": "Flash Fire", "category": "trait", "description": "<p>Whenever the teneblaze is subjected to 5+ Fire damage, it recharges its Blaze Bright Reaction.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The teneblaze makes six Bitter Blade attacks.</p>" },
+    { "name": "Bitter Blade", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 7 (1d6 + 4) Fire damage plus 2 (1d4) Necrotic damage, and the teneblaze gains Temporary Hit Points equal to the Necrotic damage dealt. The attack deals an extra 2 (1d4) Necrotic damage for each time the target was hit by a Bitter Blade attack this turn, up to a maximum of 7 (3d4).</p>" },
+    { "name": "Phantom Step", "category": "bonus", "description": "<p>While in Dim Light or Darkness, the teneblaze teleports up to 20 feet to an unoccupied space it can see that is also in Dim Light or Darkness. If it appears within 5 feet of a creature, the first attack roll it makes against that creature until the end of its turn has Advantage.</p>" },
+    { "name": "Blaze Bright (Recharge: See Flash Fire Trait)", "category": "reaction", "description": "<p><em>Trigger:</em> A creature within 10 feet of the teneblaze targets the teneblaze with an attack. <em>Response — Saving Throw:</em> DC 14 Constitution, the attacking creature. <em>Failure:</em> The target is Blinded until the start of its next turn.</p>" }
+  ]
+}

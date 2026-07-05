@@ -1,0 +1,631 @@
+{
+  "_id": "mt3IQ3vNK61JCslU",
+  "_key": "!actors!mt3IQ3vNK61JCslU",
+  "name": "Skyslumbre",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/skyslumbre.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 19,
+        "proficient": 1
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 85,
+        "max": 85,
+        "formula": "10d12 + 20"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 10,
+        "fly": 50
+      },
+      "senses": {
+        "units": "ft",
+        "blindsight": 10
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Couatlis lunaris.</em> A moonlit celestial serpent, invisible except in moonlight or during an eclipse, that lulls whole camps into slumber under its glow. Habitat: Jungle.</p><p><em>Source: Heliana's Field Notes P-004 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral Good",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 6
+    },
+    "traits": {
+      "size": "huge",
+      "languages": {
+        "value": [
+          "celestial"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "force",
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "prone"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "XIDnLs21IeZ7pzsv",
+      "_key": "!actors.items!mt3IQ3vNK61JCslU.XIDnLs21IeZ7pzsv",
+      "name": "Lost in Light",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The skyslumbre is Invisible except when in moonlight or during a solar or lunar eclipse.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "NoZlR6u49SR4EvED",
+      "_key": "!actors.items!mt3IQ3vNK61JCslU.NoZlR6u49SR4EvED",
+      "name": "Undetectable",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The skyslumbre is Immune to Divination magic and any spell or effect that would detect its thoughts, emotions, or location.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "r1sR4KjjoJL5j4Qm",
+      "_key": "!actors.items!mt3IQ3vNK61JCslU.r1sR4KjjoJL5j4Qm",
+      "name": "Spellcasting",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ability:</strong> Wisdom; <strong>DC:</strong> 15; <strong>Modifier:</strong> +7. The skyslumbre requires no spell components to cast the following spells.</p><p><strong>At Will:</strong> <em>Dancing Lights</em> (C), <em>Faerie Fire</em> (C), <em>Guiding Bolt</em>, <em>Moonbeam</em> (C), <em>Moonveil</em>* (C)</p><p><strong>1/Day:</strong> <em>Gate</em> (C) (Astral Plane only)</p><p>*See the Spells page of the Field Notes PDF; (C) indicates Concentration.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "gfxrcCS84Juvp8pN",
+      "_key": "!actors.items!mt3IQ3vNK61JCslU.gfxrcCS84Juvp8pN",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The skyslumbre makes one Bite attack and one Constrict attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "vAkSGuZh9EZD11Cp",
+      "_key": "!actors.items!mt3IQ3vNK61JCslU.vAkSGuZh9EZD11Cp",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 16 (3d8 + 3) Piercing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "sqCDyxG1bzXs9ZS4": {
+            "type": "attack",
+            "_id": "sqCDyxG1bzXs9ZS4",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "fQzgXNix35P4yni8",
+      "_key": "!actors.items!mt3IQ3vNK61JCslU.fQzgXNix35P4yni8",
+      "name": "Constrict",
+      "img": "icons/commodities/tech/metal-jaws.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 13 (3d6 + 3) Bludgeoning damage, and the target is Grappled (escape DC 14). Until this grapple ends, the target is Restrained, and the skyslumbre can't constrict another target.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "xAHKI17c06TrS4Tu": {
+            "type": "attack",
+            "_id": "xAHKI17c06TrS4Tu",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "zzxngthwFDeIHH40",
+      "_key": "!actors.items!mt3IQ3vNK61JCslU.zzxngthwFDeIHH40",
+      "name": "Moonlit Glow (Recharge 5-6)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 15 Wisdom, each creature in a 30-foot Emanation originating from the skyslumbre. <em>Failure:</em> The target falls Unconscious for 10 minutes, until it takes damage, or until another creature within reach of it takes an action to wake it.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Skyslumbre",
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/skyslumbre-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

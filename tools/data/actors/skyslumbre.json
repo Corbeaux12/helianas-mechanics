@@ -1,0 +1,33 @@
+{
+  "name": "Skyslumbre",
+  "source": "Heliana's Field Notes P-004 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Jungle/P004-Skyslumbre.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/skyslumbre.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/skyslumbre-token.webp",
+  "size": "huge",
+  "creatureType": "celestial",
+  "alignment": "Neutral Good",
+  "ac": 14,
+  "hp": { "value": 85, "formula": "10d12 + 20" },
+  "speed": { "walk": 10, "fly": 50 },
+  "abilities": { "str": 16, "dex": 19, "con": 14, "int": 12, "wis": 18, "cha": 16 },
+  "saveProfs": ["dex", "wis"],
+  "skills": { "acr": 1, "prc": 1, "ste": 1 },
+  "dr": ["force", "radiant"],
+  "di": ["psychic"],
+  "ci": ["prone"],
+  "senses": { "blindsight": 10 },
+  "languages": ["Celestial"],
+  "cr": 6,
+  "xp": 2300,
+  "biography": "<p><em>Couatlis lunaris.</em> A moonlit celestial serpent, invisible except in moonlight or during an eclipse, that lulls whole camps into slumber under its glow. Habitat: Jungle.</p>",
+  "features": [
+    { "name": "Lost in Light", "category": "trait", "description": "<p>The skyslumbre is Invisible except when in moonlight or during a solar or lunar eclipse.</p>" },
+    { "name": "Undetectable", "category": "trait", "description": "<p>The skyslumbre is Immune to Divination magic and any spell or effect that would detect its thoughts, emotions, or location.</p>" },
+    { "name": "Spellcasting", "category": "trait", "description": "<p><strong>Ability:</strong> Wisdom; <strong>DC:</strong> 15; <strong>Modifier:</strong> +7. The skyslumbre requires no spell components to cast the following spells.</p><p><strong>At Will:</strong> <em>Dancing Lights</em> (C), <em>Faerie Fire</em> (C), <em>Guiding Bolt</em>, <em>Moonbeam</em> (C), <em>Moonveil</em>* (C)</p><p><strong>1/Day:</strong> <em>Gate</em> (C) (Astral Plane only)</p><p>*See the Spells page of the Field Notes PDF; (C) indicates Concentration.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The skyslumbre makes one Bite attack and one Constrict attack.</p>" },
+    { "name": "Bite", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 16 (3d8 + 3) Piercing damage.</p>" },
+    { "name": "Constrict", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 13 (3d6 + 3) Bludgeoning damage, and the target is Grappled (escape DC 14). Until this grapple ends, the target is Restrained, and the skyslumbre can't constrict another target.</p>" },
+    { "name": "Moonlit Glow (Recharge 5-6)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 15 Wisdom, each creature in a 30-foot Emanation originating from the skyslumbre. <em>Failure:</em> The target falls Unconscious for 10 minutes, until it takes damage, or until another creature within reach of it takes an action to wake it.</p>" }
+  ]
+}

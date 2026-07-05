@@ -1,0 +1,32 @@
+{
+  "name": "Hivebound Captain",
+  "source": "Heliana's Field Notes P-001 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Forest/P001-Hivebound Captain.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/hivebound-captain.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/hivebound-captain-token.webp",
+  "size": "med",
+  "creatureType": "ooze",
+  "alignment": "Neutral",
+  "ac": 17,
+  "hp": { "value": 102, "formula": "12d8 + 48" },
+  "speed": { "walk": 30, "fly": 30 },
+  "abilities": { "str": 17, "dex": 7, "con": 19, "int": 5, "wis": 15, "cha": 9 },
+  "saveProfs": ["str", "wis"],
+  "skills": {},
+  "dr": ["acid"],
+  "di": ["poison"],
+  "ci": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "poisoned"],
+  "senses": { "blindsight": 60, "special": "Blind beyond blindsight radius" },
+  "languages": [],
+  "cr": 7,
+  "xp": 2900,
+  "biography": "<p><em>Mellarium centurio.</em> A honey-hued ooze commander wearing a rapier, leading swarms of insects with barked stance orders — aggressive when attacking, near-impenetrable when defending. Habitat: Forest.</p>",
+  "features": [
+    { "name": "Flyby", "category": "trait", "description": "<p>The captain doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.</p>" },
+    { "name": "Hive Commander", "category": "trait", "description": "<p>At the start of each of the captain's turns, it chooses either Attack Stance or Defence Stance. In Attack Stance, it scores a Critical Hit on a roll of 19 or 20 on the d20. In Defence Stance, it has a +2 bonus to AC (AC 19).</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The captain makes two Stinging Rapier attacks.</p>" },
+    { "name": "Stinging Rapier", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage. <em>Saving Throw:</em> DC 15 Constitution, one creature hit by this attack. <em>Failure:</em> 14 (4d6) Poison damage, and the target is Poisoned for 1 minute. <em>Success:</em> Half damage only.</p>" },
+    { "name": "Attack Order", "category": "bonus", "description": "<p>The captain summons one Swarm of Insects in an unoccupied space it can see within 5 feet. The swarm takes its turn immediately after the captain on the same Initiative count, and it obeys the captain. A swarm disappears after 1 minute, if it's reduced to 0 Hit Points, or if it's ever more than 300 feet away from the captain.</p>" },
+    { "name": "Defend Order", "category": "bonus", "description": "<p>The captain sprays out a cloud of swarmlings in a 5-foot Emanation originating from the captain that lasts until the start of its next turn. When an enemy of the captain enters the area for the first time on a turn or starts its turn there, it takes 2 (1d4) Piercing damage.</p>" }
+  ]
+}

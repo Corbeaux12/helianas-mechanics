@@ -1,0 +1,457 @@
+{
+  "_id": "rsrC1PgXxtEZA6rt",
+  "_key": "!actors!rsrC1PgXxtEZA6rt",
+  "name": "Hivebound Captain",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/hivebound-captain.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 7,
+        "proficient": 0
+      },
+      "con": {
+        "value": 19,
+        "proficient": 0
+      },
+      "int": {
+        "value": 5,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 9,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 102,
+        "max": 102,
+        "formula": "12d8 + 48"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30,
+        "fly": 30
+      },
+      "senses": {
+        "units": "ft",
+        "blindsight": 60,
+        "special": "Blind beyond blindsight radius"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Mellarium centurio.</em> A honey-hued ooze commander wearing a rapier, leading swarms of insects with barked stance orders — aggressive when attacking, near-impenetrable when defending. Habitat: Forest.</p><p><em>Source: Heliana's Field Notes P-001 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "type": {
+        "value": "ooze",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 7
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "acid"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {}
+  },
+  "items": [
+    {
+      "_id": "aW2xQ1WZWwOMgRp1",
+      "_key": "!actors.items!rsrC1PgXxtEZA6rt.aW2xQ1WZWwOMgRp1",
+      "name": "Flyby",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The captain doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "uJxih8KcFz9QwvDn",
+      "_key": "!actors.items!rsrC1PgXxtEZA6rt.uJxih8KcFz9QwvDn",
+      "name": "Hive Commander",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>At the start of each of the captain's turns, it chooses either Attack Stance or Defence Stance. In Attack Stance, it scores a Critical Hit on a roll of 19 or 20 on the d20. In Defence Stance, it has a +2 bonus to AC (AC 19).</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "P6Raw58Uam1Nttfl",
+      "_key": "!actors.items!rsrC1PgXxtEZA6rt.P6Raw58Uam1Nttfl",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The captain makes two Stinging Rapier attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "e7O2jp0tUJWK790p",
+      "_key": "!actors.items!rsrC1PgXxtEZA6rt.e7O2jp0tUJWK790p",
+      "name": "Stinging Rapier",
+      "img": "icons/creatures/abilities/stinger-poison-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage. <em>Saving Throw:</em> DC 15 Constitution, one creature hit by this attack. <em>Failure:</em> 14 (4d6) Poison damage, and the target is Poisoned for 1 minute. <em>Success:</em> Half damage only.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "Z8K365NosnsbTDg7": {
+            "type": "attack",
+            "_id": "Z8K365NosnsbTDg7",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "iJ7PyPOC6iwjlCd4",
+      "_key": "!actors.items!rsrC1PgXxtEZA6rt.iJ7PyPOC6iwjlCd4",
+      "name": "Attack Order",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The captain summons one Swarm of Insects in an unoccupied space it can see within 5 feet. The swarm takes its turn immediately after the captain on the same Initiative count, and it obeys the captain. A swarm disappears after 1 minute, if it's reduced to 0 Hit Points, or if it's ever more than 300 feet away from the captain.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "tCqFNPV3ZdN5XPlI",
+      "_key": "!actors.items!rsrC1PgXxtEZA6rt.tCqFNPV3ZdN5XPlI",
+      "name": "Defend Order",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The captain sprays out a cloud of swarmlings in a 5-foot Emanation originating from the captain that lasts until the start of its next turn. When an enemy of the captain enters the area for the first time on a turn or starts its turn there, it takes 2 (1d4) Piercing damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Hivebound Captain",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/hivebound-captain-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Empathrem",
+  "source": "Heliana's Field Notes P-009 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/The Low/P009-Empathrem.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/empathrem.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/empathrem-token.webp",
+  "size": "sm",
+  "creatureType": "aberration",
+  "alignment": "Chaotic Neutral",
+  "ac": 11,
+  "hp": { "value": 16, "formula": "3d6 + 6" },
+  "speed": { "walk": 5, "fly": 30, "hover": true },
+  "abilities": { "str": 16, "dex": 9, "con": 15, "int": 12, "wis": 20, "cha": 13 },
+  "saveProfs": ["wis"],
+  "skills": { "ins": 2, "prc": 1 },
+  "ci": ["charmed", "frightened"],
+  "senses": { "blindsight": 5, "darkvision": 60 },
+  "languages": ["Undercommon"],
+  "languagesCustom": "Telepathy 120 ft.",
+  "cr": 1,
+  "xp": 200,
+  "biography": "<p><em>Psiocladia galera.</em> A hovering aberrant empath that reads every heart around it and pummels anyone whose emotions run too hot — rage, in particular, is answered with immediate violence. Habitat: The Low.</p>",
+  "features": [
+    { "name": "Magical Empath", "category": "trait", "description": "<p>The empathrem is always under the effects of the <em>Detect Thoughts</em> and <em>Detect Emotion</em>* spells, both of which detect creatures out to a range of 120 feet.</p><p>*See the Spells page of the Field Notes PDF.</p>" },
+    { "name": "Telepathic Shroud", "category": "trait", "description": "<p>The empathrem's thoughts can't be read by any means, and magic can't detect its location or observe it remotely.</p>" },
+    { "name": "Violent Suppression", "category": "trait", "description": "<p>The empathrem reacts aggressively to nearby creatures that don't keep their emotions in check. <em>Saving Throw:</em> DC 15 Wisdom, each creature in a 120-foot Emanation originating from the empathrem at the start of each of the empathrem's turns. A creature that is unaware of the empathrem's presence makes the saving throw with Disadvantage, and a creature under the effects of the <em>Calm Emotions</em> spell makes it with Advantage. A creature in a Rage loses Immunity to this effect and automatically fails saving throws against it. <em>Failure:</em> The empathrem has Advantage on attack rolls against the target for 1 minute, and the target automatically fails the saving throws against other empathrems' Violent Suppression traits for 1 hour. <em>Success:</em> The target is Immune to the effects of any empathrem's Violent Suppression for 1 hour.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The empathrem makes two Pummel attacks.</p>" },
+    { "name": "Pummel", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Bludgeoning damage. A target hit by two Pummel attacks on the same turn has its Speed halved and can't speak until the end of its next turn.</p>" },
+    { "name": "Panic", "category": "reaction", "description": "<p><em>Trigger:</em> The empathrem takes Psychic damage. <em>Response:</em> The empathrem makes one Pummel attack against a creature within reach and moves up to its Speed away from the source of the damage.</p>" }
+  ]
+}

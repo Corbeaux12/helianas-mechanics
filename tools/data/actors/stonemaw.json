@@ -1,0 +1,32 @@
+{
+  "name": "Stonemaw",
+  "source": "Heliana's Field Notes X-25 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Desert/X25-Stonemaw.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/stonemaw.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/stonemaw-token.webp",
+  "size": "huge",
+  "creatureType": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": 19,
+  "hp": { "value": 135, "formula": "10d12 + 70" },
+  "speed": { "walk": 40, "burrow": 40 },
+  "abilities": { "str": 21, "dex": 14, "con": 24, "int": 3, "wis": 15, "cha": 8 },
+  "saveProfs": ["str", "con"],
+  "skills": { "prc": 1, "ste": 1 },
+  "senses": { "tremorsense": 120 },
+  "languages": [],
+  "cr": 8,
+  "xp": 3900,
+  "biography": "<p><em>Lapis pelecanoides.</em> A huge burrowing ambusher whose exposed teeth pass for ordinary stones — until the ground erupts and the graviturgic maw starts pulling prey in. Habitat: Deserts &amp; Hills.</p>",
+  "features": [
+    { "name": "Emergent Pulse", "category": "trait", "description": "<p>When the stonemaw emerges from underground for the first time on a turn, nearby creatures are flung backwards. <em>Saving Throw:</em> DC 16 Dexterity, each creature within 5 feet of the stonemaw when it surfaces. <em>Failure:</em> 7 (2d6) Bludgeoning damage, and the target is pushed 10 feet straight away from the stonemaw and knocked Prone. <em>Success:</em> Pushed away only.</p>" },
+    { "name": "False Appearance", "category": "trait", "description": "<p>If the stonemaw is motionless underground at the start of combat, it has Advantage on its Initiative roll. Moreover, if a creature hasn't observed the stonemaw move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the stonemaw's teeth aren't ordinary stones.</p>" },
+    { "name": "Gravity Tunnels", "category": "trait", "description": "<p>The stonemaw can burrow through nonmagical, unworked earth and stone. While doing so, the stonemaw doesn't disturb the material it moves through.</p>" },
+    { "name": "Thunder Weakness", "category": "trait", "description": "<p>The stonemaw has Disadvantage on saving throws made against spells and other effects that deal Thunder damage.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The stonemaw makes one Bite attack and two Claw attacks.</p>" },
+    { "name": "Bite", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 16 (2d10 + 5) Piercing damage. If the target is a Medium or smaller creature, and the stonemaw has no more than three Medium or Small creatures swallowed, then the target is subjected to the following effect. <em>Saving Throw:</em> DC 16 Strength. <em>Failure:</em> The target is swallowed.</p><p>A swallowed target is Blinded and Restrained, it has Total Cover against attacks and other effects outside the stonemaw, and it takes 15 (6d4) Acid damage at the start of each of the stonemaw's turns. If the stonemaw takes 20 damage or more on a single turn from sources inside it, it must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls Prone in a space within 10 feet of the stonemaw. If the stonemaw dies, any swallowed creature is no longer Restrained by it and can escape from the corpse using 15 feet of movement, exiting Prone.</p>" },
+    { "name": "Claw", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 10 ft. <em>Hit:</em> 12 (2d6 + 5) Slashing damage.</p>" },
+    { "name": "Graviturgic Rock", "category": "action", "description": "<p><em>Ranged Weapon Attack:</em> +10, range 60/180 ft. <em>Hit:</em> 20 (2d12 + 7) Bludgeoning damage. <em>Saving Throw:</em> DC 18 Strength, a creature hit by this attack. <em>Failure:</em> The target is knocked Prone.</p>" },
+    { "name": "Gaping Jaw", "category": "bonus", "description": "<p>The stonemaw uses gravity to draw creatures in towards its waiting mouth. <em>Saving Throw:</em> DC 16 Strength, each creature in a 20-foot Cone. <em>Failure:</em> The target is pulled to the nearest unoccupied space within 5 feet of the stonemaw.</p>" }
+  ]
+}

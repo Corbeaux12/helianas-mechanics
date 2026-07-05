@@ -1,0 +1,452 @@
+{
+  "_id": "Z5zc4TS4F1N36ICt",
+  "_key": "!actors!Z5zc4TS4F1N36ICt",
+  "name": "Obakitsu",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/obakitsu.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 21,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 21,
+        "proficient": 1
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 13,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 17,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 19,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 152,
+        "max": 152,
+        "formula": "16d12 + 48"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 35
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Canis zoros.</em> A many-tailed yokai grandmaster of the martial arts, each spectral tail transforming into a different golden weapon mid-flurry. Slain in anything less than honourable combat, it simply returns with the dawn. Habitat: Extraplanar.</p><p><em>Source: Heliana's Field Notes X-26 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "type": {
+        "value": "undead",
+        "subtype": "Yokai",
+        "custom": ""
+      },
+      "cr": 19
+    },
+    "traits": {
+      "size": "huge",
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": "Kitsune"
+      },
+      "di": {
+        "value": [
+          "lightning",
+          "necrotic",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "grappled",
+          "poisoned",
+          "restrained"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str"
+      },
+      "his": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "twKWBnFpqNyX4XNs",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.twKWBnFpqNyX4XNs",
+      "name": "Incorporeal Movement",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The obakitsu can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "0BGJUFc2wwOmtdGk",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.0BGJUFc2wwOmtdGk",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the obakitsu fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "LjVQOM8b2W5A8Z3H",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.LjVQOM8b2W5A8Z3H",
+      "name": "Yokai Dawn",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the obakitsu dies, it reappears in 1d8+1 dawns in the nearest place of honourable combat, and regains all its Hit Points. This trait doesn't function if the obakitsu is killed by Radiant damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "r0XtaZbiLvKYDWFT",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.r0XtaZbiLvKYDWFT",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The obakitsu makes five Tail Armoury attacks, each using a different weapon.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "JDp3Q81ZJyPaOG3H",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.JDp3Q81ZJyPaOG3H",
+      "name": "Tail Armoury",
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The obakitsu transforms one of its tails into a golden weapon for a single attack. <em>Melee or Ranged Weapon Attack:</em> +11, see weapon option for reach/range. <em>Hit:</em> 9 (2d8) Lightning damage. The obakitsu also creates one of the following effects depending on the weapon used:</p><ul><li><strong>Bô.</strong> Reach 5 ft.; 9 (1d8 + 5) Bludgeoning damage, and the target has Disadvantage on D20 Tests using Dexterity and Intelligence until the end of its next turn.</li><li><strong>Kanabo.</strong> Reach 5 ft.; 10 (1d10 + 5) Bludgeoning damage. <em>Saving Throw:</em> DC 19 Strength, each creature in a 10-foot Emanation originating from the obakitsu. <em>Failure:</em> The target is pushed 10 feet straight away from the obakitsu.</li><li><strong>Katana.</strong> Reach 5 ft.; 10 (1d10 + 5) Slashing damage, and the target glows golden. The next attack roll against it before the end of the obakitsu's next turn has Advantage.</li><li><strong>Kodachi.</strong> Reach 5 ft.; 8 (1d6 + 5) Slashing damage. Until the end of the target's next turn, its Speed is halved and its AC is reduced by its Dexterity modifier (minimum 0).</li><li><strong>Kusarigama.</strong> Reach 10 ft.; 8 (1d6 + 5) Slashing damage. <em>Saving Throw:</em> DC 19 Dexterity, one creature of the obakitsu's choice within 10 feet. <em>Failure:</em> The target is knocked Prone.</li><li><strong>Longbow.</strong> Range 150/600 ft.; 10 (1d10 + 5) Piercing damage, and the area within a 10-foot-radius Sphere centred on the target is Heavily Obscured by golden mist until the start of the obakitsu's next turn.</li><li><strong>Naginata.</strong> Reach 10 ft.; 9 (1d8 + 5) Piercing damage, and the target is run through by the weapon and Grappled (escape DC 19) until the obakitsu moves or uses its naginata again. When this grapple ends, the target takes 13 (3d8) Piercing damage.</li><li><strong>Tonfa.</strong> Reach 5 ft.; 8 (1d6 + 5) Bludgeoning damage, and the target drops any items of the obakitsu's choice it is holding, with the objects landing on a space of the obakitsu's choice within 15 feet of the target.</li><li><strong>Twinblade.</strong> Reach 5 ft.; 10 (2d4 + 5) Slashing damage. <em>Saving Throw:</em> DC 19 Dexterity, one creature of the obakitsu's choice within 10 feet. <em>Failure:</em> 10 (3d6) Slashing damage.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "GcTNiczV72VSYMam",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.GcTNiczV72VSYMam",
+      "name": "Parry",
+      "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> The obakitsu is hit by a melee attack roll. <em>Response:</em> The obakitsu adds 6 to its AC against the attack, possibly causing it to miss.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "fNbucNA62LcG7nbY",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.fNbucNA62LcG7nbY",
+      "name": "Swirling Tails",
+      "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> The obakitsu is hit by a ranged weapon attack. <em>Response:</em> The obakitsu reduces the damage it takes from the attack by 15 (6d4), and if that damage is reduced to 0, the obakitsu flings the ammunition at a target of its choice. <em>Ranged Weapon Attack:</em> +11, range 60/120 ft. <em>Hit:</em> 9 (1d8 + 5) damage of the triggering attack's type.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "6nhUxfiUzuLTd7Sf",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.6nhUxfiUzuLTd7Sf",
+      "name": "Tail Armoury (Legendary Action)",
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the obakitsu can expend a use to take one of the following actions. The obakitsu regains all expended uses at the start of each of its turns.</em></p><p>The obakitsu makes one Tail Armoury attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "MdtQs8qgt6aXikgI",
+      "_key": "!actors.items!Z5zc4TS4F1N36ICt.MdtQs8qgt6aXikgI",
+      "name": "Always Prepared (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The obakitsu regains its expended Reaction.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Obakitsu",
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/obakitsu-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
