@@ -1,0 +1,685 @@
+{
+  "_id": "ehOrFFpbSWwgBCOD",
+  "_key": "!actors!ehOrFFpbSWwgBCOD",
+  "name": "Shahoko",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/shahoko.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1
+      },
+      "con": {
+        "value": 15,
+        "proficient": 0
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 8,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 247,
+        "max": 247,
+        "formula": "33d10 + 66"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 35,
+        "climb": 35,
+        "swim": 35
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 60
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Homara minax.</em> A colossal lobster yokai whose shielded claw doubles as a rampart and whose other claw is a living water cannon, raining aimed elemental pulses on anyone who lingers. Habitat: Coast.</p><p><em>Source: Heliana's Field Notes P-011 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Any Alignment",
+      "type": {
+        "value": "fiend",
+        "subtype": "Yokai",
+        "custom": ""
+      },
+      "cr": 13
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [
+          "aquan",
+          "common",
+          "infernal"
+        ],
+        "custom": "Ebizo"
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {}
+  },
+  "items": [
+    {
+      "_id": "g1XmP1GE5taKHjJR",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.g1XmP1GE5taKHjJR",
+      "name": "Aqueous Affinity",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shahoko can breathe air and water.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Pzfg4cZsghGJK55M",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.Pzfg4cZsghGJK55M",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shahoko makes three attacks, using Hydrocannon or Leg in any combination.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "116KfKpEEfxlwX0A",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.116KfKpEEfxlwX0A",
+      "name": "Hydrocannon",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p>The shahoko fires a blast of pressurized water out of its claw. <em>Ranged Weapon Attack:</em> +9, range 90/360 ft. (180/720 ft. if the shahoko is submerged in at least 5 feet of water). <em>Hit:</em> 14 (3d6 + 4) Bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": 90,
+          "long": 360,
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "7s3EcaVfaFCtQB4O": {
+            "type": "attack",
+            "_id": "7s3EcaVfaFCtQB4O",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "0VJkSk19FKNRAwDg",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.0VJkSk19FKNRAwDg",
+      "name": "Leg",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 10 ft. <em>Hit:</em> 13 (2d8 + 4) Piercing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "LHU6YS34xYm1rdXF": {
+            "type": "attack",
+            "_id": "LHU6YS34xYm1rdXF",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "iFHED5jXEepsW9BT",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.iFHED5jXEepsW9BT",
+      "name": "Aqua Jet",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shahoko uses a blast of water to propel itself up to 20 feet in a direction of its choice without provoking Opportunity Attacks. If the shahoko is submerged in at least 5 feet of water, it moves up to 40 feet instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "iGQGMvLhh4Pih7ia",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.iGQGMvLhh4Pih7ia",
+      "name": "Shell Shield",
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shahoko guards itself with its shielded claw. It gains a +3 bonus to AC until the start of its next turn or until it is Incapacitated.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "h341mdOOsriKWjeI",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.h341mdOOsriKWjeI",
+      "name": "Dark Pulse (Legendary Action)",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the shahoko can expend a use to take one of the following actions. The shahoko regains all expended uses at the start of each of its turns. When the shahoko takes aim with a Legendary Action, the point it targets glows with faint but noticeable magic until the effect occurs.</em></p><p>The shahoko takes aim at a point within 60 feet of it. At the end of the next enemy's turn, a blast of necrotic energy fills a 20-foot-radius Sphere centred on that point. <em>Saving Throw:</em> DC 17 Constitution, each creature in the area. <em>Failure:</em> 13 (3d8) Necrotic damage. <em>Success:</em> Half damage. <em>Success or Failure:</em> The area is filled with magical darkness until the end of the shahoko's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "rcWq4gE6FpiP1V2X",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.rcWq4gE6FpiP1V2X",
+      "name": "Draconic Pulse (Legendary Action)",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shahoko takes aim at a point within 60 feet of it. At the end of the next enemy's turn, an elemental explosion fills a 30-foot-radius Sphere centred on that point. <em>Saving Throw:</em> DC 17 Dexterity, each creature in the area. <em>Failure:</em> 14 (4d6) Acid, Cold, Fire, Lightning, or Poison damage (shahoko's choice when it takes this action). <em>Success:</em> Half damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "28WlHkZcnsspQrya",
+      "_key": "!actors.items!ehOrFFpbSWwgBCOD.28WlHkZcnsspQrya",
+      "name": "Forceful Pulse (Legendary Action)",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shahoko takes aim at a point within 120 feet of it. At the end of the next enemy's turn, a concussive blast fills a 15-foot-radius Sphere centred on that point. <em>Saving Throw:</em> DC 17 Strength, each creature in the area. <em>Failure:</em> 10 (3d6) Force damage, and the target is knocked Prone. <em>Success:</em> Half damage only.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Shahoko",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/shahoko-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

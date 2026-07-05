@@ -1,0 +1,33 @@
+{
+  "name": "High Priest of the Astringentum",
+  "source": "Heliana's Field Notes X-24 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Any/X24-High Preist of the Astringentum.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/high-priest-astringentum.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/high-priest-astringentum-token.webp",
+  "size": "med",
+  "creatureType": "humanoid",
+  "subtype": "Entomorph",
+  "alignment": "Lawful Evil",
+  "ac": 15,
+  "hp": { "value": 90, "formula": "12d8 + 36" },
+  "speed": { "walk": 30 },
+  "abilities": { "str": 14, "dex": 10, "con": 17, "int": 12, "wis": 19, "cha": 15 },
+  "saveProfs": ["con", "wis"],
+  "skills": { "ins": 1, "nat": 1, "per": 1, "rel": 1 },
+  "di": ["acid"],
+  "senses": {},
+  "languages": ["Common"],
+  "cr": 10,
+  "xp": 5900,
+  "biography": "<p><em>Entominid clypeum.</em> A Formigan entomorph cleric of the Astringentum, the theocracy of metal-haters — the dish-like crown atop its head holds a pool of blessed acid it pours out to bless allies or dissolve armour. Its Speed is 25 ft. while the Caustic Pool is filled. Habitat: Any.</p><p><strong>Gear:</strong> Staff.</p>",
+  "features": [
+    { "name": "Caustic Pool", "category": "trait", "description": "<p>As long as the high priest's acid pool is filled, it gains the following effects:</p><ul><li>Its Speed is reduced by 5 feet.</li><li>It has Advantage on saving throws against spells and other magical effects.</li><li>It regains 2 (1d4) Hit Points at the start of each of its turns.</li><li>A creature that hits it with a melee attack takes 2 (1d4) Acid damage.</li></ul>" },
+    { "name": "Toppled Dish", "category": "trait", "description": "<p>When the high priest is knocked Prone, the acid in its dish spills, emptying it, and each creature within 5 feet of the high priest takes 9 (2d8) Acid damage.</p>" },
+    { "name": "Spellcasting", "category": "trait", "description": "<p><strong>Ability:</strong> Wisdom; <strong>DC:</strong> 16; <strong>Modifier:</strong> +8. The high priest uses its Staff as a spellcasting focus.</p><p><strong>At Will:</strong> <em>Acid Splash</em> (level 5 caster)</p><p><strong>4/Day:</strong> <em>Acid Arrow</em>, <em>Acid Rain</em>* (C), <em>Heat Metal</em> (C)</p><p><strong>1/Day:</strong> <em>Nomi's Adamantine Carapace</em>* (cast before combat)</p><p>*See the spell pages of the Field Notes PDF; (C) indicates Concentration.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The high priest makes two Staff attacks.</p>" },
+    { "name": "Staff", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 6 (1d8 + 2) Bludgeoning damage plus 9 (2d8) Acid damage.</p>" },
+    { "name": "Outpouring of Blessings", "category": "action", "description": "<p>The high priest empties its acid pool, pouring it out onto a willing creature within 5 feet of it. Until the end of the high priest's next turn, the creature is blessed: it has Resistance to Bludgeoning, Piercing, and Slashing damage and has Advantage on attack rolls. In addition, any creature without Resistance or Immunity to Acid damage that moves to a space within 30 feet of the blessed creature for the first time on a turn or starts its turn there makes a DC 16 Wisdom saving throw. On a failure, the target is unable to willingly move closer to the blessed creature.</p>" },
+    { "name": "Outpouring of Pain", "category": "action", "description": "<p>The high priest empties its acid pool, pouring it out onto an enemy. <em>Saving Throw:</em> DC 16 Dexterity, one creature within 5 feet. <em>Failure:</em> 36 (8d8) Acid damage, and any nonmagical metal objects the target is wearing or carrying begin to rust. Metal armour and Shields take a permanent and cumulative -1 penalty to the AC they provide, and metal weapons take a permanent and cumulative -1 penalty to attack and damage rolls. An armour reduced to an AC of 10, a Shield reduced to a bonus of +0, or a weapon with a penalty of -5 is destroyed. <em>Success:</em> Half damage only.</p>" },
+    { "name": "Acrid Fountain", "category": "bonus", "description": "<p>The high priest refills its acid pool. It can't take this Bonus Action if it's Prone.</p>" }
+  ]
+}

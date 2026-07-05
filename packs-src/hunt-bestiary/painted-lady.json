@@ -1,0 +1,658 @@
+{
+  "_id": "z1CA3jNca60Mr87w",
+  "_key": "!actors!z1CA3jNca60Mr87w",
+  "name": "Painted Lady",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/painted-lady.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 20,
+        "proficient": 0
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 15,
+        "proficient": 1
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 23,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 150,
+        "max": 150,
+        "formula": "20d8 + 60"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30,
+        "fly": 40
+      },
+      "senses": {
+        "units": "ft",
+        "blindsight": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Infernalis chroma.</em> A devil muse who fights with an enchanted paintbrush staff, cycling rune-painted masks each turn and flinging enchanted paint as spells. Its lair, the Chroma Cavern, repaints reality itself around intruders. Nothing pleases a painted lady more than myths of tragic heroes with artistic flair. Habitat: Extraplanar.</p><p><strong>Gear:</strong> paintbrush staff (Quarterstaff).</p><p><em>Source: Heliana's Field Notes X-20 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "custom": ""
+      },
+      "cr": 15
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [
+          "common",
+          "infernal"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "acid",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "szqnEH9hWCJajy39",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.szqnEH9hWCJajy39",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the painted lady fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "p5clveFOOQ32JDo1",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.p5clveFOOQ32JDo1",
+      "name": "Magic Weapons",
+      "img": "icons/magic/symbols/circled-gem-pink.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The painted lady's weapon attacks are magical.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "nIAi0LxuVx6ivRNN",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.nIAi0LxuVx6ivRNN",
+      "name": "Mask of Passions",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The painted lady wears masks enchanted with painted runes, which amplify its powers. At the start of each of its turns, the painted lady changes its mask, choosing from the following options.</p><ul><li><strong>Bitterness.</strong> Creatures have Disadvantage on saving throws against the next spell the painted lady casts.</li><li><strong>Determination.</strong> The painted lady has Advantage on saving throws against spells and other magical effects.</li><li><strong>Spite.</strong> A creature that hits the painted lady with a melee attack takes 2 (1d4) Acid damage.</li><li><strong>Vigor.</strong> The painted lady's Speed increases by 10 feet.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Ez7NRLTcYdaMtr5t",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.Ez7NRLTcYdaMtr5t",
+      "name": "Spellcasting",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ability:</strong> Charisma; <strong>DC:</strong> 19; <strong>Modifier:</strong> +11. The painted lady uses its paintbrush staff as a Spellcasting Focus. Its spells fling powerful enchanted paint at their targets.</p><p><strong>At Will:</strong> <em>Acid Splash</em> (level 11 caster), <em>Corrupting Ichor</em>*, <em>Minor Illusion</em></p><p><strong>4/Day:</strong> <em>Acid Arrow</em>, <em>Color Spray</em>, <em>Hypnotic Pattern</em> (C)</p><p><strong>3/Day:</strong> <em>Acid Rain</em>* (C), <em>Major Image</em> (C)</p><p><strong>1/Day Each:</strong> <em>Phantasmal Killer</em> (C), <em>Prismatic Spray</em> (C)</p><p>*See the spell pages of the Field Notes PDF; (C) indicates Concentration.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "03z5RoHMUBakjIsN",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.03z5RoHMUBakjIsN",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The painted lady makes two Paint attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Z5A76RwHvqPfNHq8",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.Z5A76RwHvqPfNHq8",
+      "name": "Paint",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10, reach 10 ft. <em>Hit:</em> 7 (1d4 + 5) Bludgeoning damage plus 7 (3d4) Acid damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "9QFG0kMQEhg9L1Uq": {
+            "type": "attack",
+            "_id": "9QFG0kMQEhg9L1Uq",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "z9QxxcQqu4lcw8ez",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.z9QxxcQqu4lcw8ez",
+      "name": "Minions of the Muse (Recharge 6)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The painted lady summons 1d4 + 1 mannequins in unoccupied spaces it can see within 30 feet of it. The mannequins take their turns immediately after the painted lady. They each use the Imp stat block (+11 to hit, save DC 19).</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "0V72h1AKOH9650QZ",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.0V72h1AKOH9650QZ",
+      "name": "Painterly Stride (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the painted lady can expend a use to take one of the following actions. The painted lady regains all expended uses at the start of each of its turns.</em></p><p>The painted lady moves up to its Speed, and it makes one Paint attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "PnZmxKETQejV2ME2",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.PnZmxKETQejV2ME2",
+      "name": "Puppetry (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Up to two mannequins summoned by the painted lady move up to their Speed and then make an attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "PWg9tYOnkK2gk0dU",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.PWg9tYOnkK2gk0dU",
+      "name": "Cast a Spell (Legendary Action, Costs 2 Uses)",
+      "img": "icons/magic/symbols/circled-gem-pink.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The painted lady uses Spellcasting.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "zopbfpMUlevlYd9o",
+      "_key": "!actors.items!z1CA3jNca60Mr87w.zopbfpMUlevlYd9o",
+      "name": "Lair: Chroma Cavern",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Initiative 20 (loses ties). Additional XP 1,100.</em></p><p><strong>Regional Traits</strong></p><p><strong>Disorienting Colours.</strong> Painted doors and rooms rendered in perfect perspective make it hard to discern what's real. Perception checks and Survival checks made to navigate within the lair have Disadvantage.</p><p><strong>Toxic Fumes.</strong> Heavy fumes from oils and pigments fill the lair. A creature that spends 10 minutes breathing the air within the lair is subject to the following effect. <em>Saving Throw:</em> DC 19 Constitution. <em>Failure:</em> Poisoned for 1 hour and automatically fails ability checks to discern illusions until it finishes a Long Rest outside of the lair.</p><p><strong>Lair Actions</strong></p><p><strong>Swirling Canvas.</strong> On its turn, the Chroma Cavern takes an action to change the entire area into a beautiful landscape painting of the lady's choice from the following options. Objects, textures, and depth within the artwork are physical, and the effects last until the landscape disappears or changes. The lair can't use the same option two rounds in a row.</p><ul><li><strong>Frozen Sea.</strong> The ground in the lair freezes over in slick ice and becomes Difficult Terrain. <em>Saving Throw:</em> DC 19 Dexterity, each creature on the ground. <em>Failure:</em> The target falls Prone.</li><li><strong>Snowy Woodland.</strong> Blowing snow fills the lair. Ranged attacks have Disadvantage.</li><li><strong>Starry Night.</strong> The lair falls into complete Darkness. Each light source within the lair sheds a maximum of 10 feet of Dim Light.</li><li><strong>Water Lilies.</strong> The ground in the lair becomes a 10-foot deep pool of water dotted with lily pads.</li><li><strong>Windblown Field.</strong> A strong wind blows through rows of golden grain. Flying creatures of the lady's choice fall Prone, and no creature can move towards the lady using a Fly Speed.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Painted Lady",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/painted-lady-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

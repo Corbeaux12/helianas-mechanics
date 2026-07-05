@@ -1,0 +1,548 @@
+{
+  "_id": "2ZNJUcQQDGl1w61v",
+  "_key": "!actors!2ZNJUcQQDGl1w61v",
+  "name": "High Priest of the Astringentum",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/high-priest-astringentum.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 17,
+        "proficient": 1
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 19,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 15,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 90,
+        "max": 90,
+        "formula": "12d8 + 36"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30
+      },
+      "senses": {
+        "units": "ft"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Entominid clypeum.</em> A Formigan entomorph cleric of the Astringentum, the theocracy of metal-haters — the dish-like crown atop its head holds a pool of blessed acid it pours out to bless allies or dissolve armour. Its Speed is 25 ft. while the Caustic Pool is filled. Habitat: Any.</p><p><strong>Gear:</strong> Staff.</p><p><em>Source: Heliana's Field Notes X-24 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Entomorph",
+        "custom": ""
+      },
+      "cr": 10
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "acid"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 1,
+        "ability": "int"
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 1,
+        "ability": "int"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "C2anlOj02On9fZIl",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.C2anlOj02On9fZIl",
+      "name": "Caustic Pool",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>As long as the high priest's acid pool is filled, it gains the following effects:</p><ul><li>Its Speed is reduced by 5 feet.</li><li>It has Advantage on saving throws against spells and other magical effects.</li><li>It regains 2 (1d4) Hit Points at the start of each of its turns.</li><li>A creature that hits it with a melee attack takes 2 (1d4) Acid damage.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "EEyXmjvHc287rggA",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.EEyXmjvHc287rggA",
+      "name": "Toppled Dish",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>When the high priest is knocked Prone, the acid in its dish spills, emptying it, and each creature within 5 feet of the high priest takes 9 (2d8) Acid damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "CHbBoAauHK0I6GfQ",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.CHbBoAauHK0I6GfQ",
+      "name": "Spellcasting",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ability:</strong> Wisdom; <strong>DC:</strong> 16; <strong>Modifier:</strong> +8. The high priest uses its Staff as a spellcasting focus.</p><p><strong>At Will:</strong> <em>Acid Splash</em> (level 5 caster)</p><p><strong>4/Day:</strong> <em>Acid Arrow</em>, <em>Acid Rain</em>* (C), <em>Heat Metal</em> (C)</p><p><strong>1/Day:</strong> <em>Nomi's Adamantine Carapace</em>* (cast before combat)</p><p>*See the spell pages of the Field Notes PDF; (C) indicates Concentration.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "6cLgAVspYyiLWGQS",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.6cLgAVspYyiLWGQS",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The high priest makes two Staff attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Gt4nYWGBws5f1WQt",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.Gt4nYWGBws5f1WQt",
+      "name": "Staff",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 6 (1d8 + 2) Bludgeoning damage plus 9 (2d8) Acid damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "oTvjxFa7orCJCO2Y": {
+            "type": "attack",
+            "_id": "oTvjxFa7orCJCO2Y",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "mM3wf1G74TNSW2vj",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.mM3wf1G74TNSW2vj",
+      "name": "Outpouring of Blessings",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The high priest empties its acid pool, pouring it out onto a willing creature within 5 feet of it. Until the end of the high priest's next turn, the creature is blessed: it has Resistance to Bludgeoning, Piercing, and Slashing damage and has Advantage on attack rolls. In addition, any creature without Resistance or Immunity to Acid damage that moves to a space within 30 feet of the blessed creature for the first time on a turn or starts its turn there makes a DC 16 Wisdom saving throw. On a failure, the target is unable to willingly move closer to the blessed creature.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "R0DC0cvTaPXs9wYu",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.R0DC0cvTaPXs9wYu",
+      "name": "Outpouring of Pain",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The high priest empties its acid pool, pouring it out onto an enemy. <em>Saving Throw:</em> DC 16 Dexterity, one creature within 5 feet. <em>Failure:</em> 36 (8d8) Acid damage, and any nonmagical metal objects the target is wearing or carrying begin to rust. Metal armour and Shields take a permanent and cumulative -1 penalty to the AC they provide, and metal weapons take a permanent and cumulative -1 penalty to attack and damage rolls. An armour reduced to an AC of 10, a Shield reduced to a bonus of +0, or a weapon with a penalty of -5 is destroyed. <em>Success:</em> Half damage only.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "w7n44dcpd0hxzP1Y",
+      "_key": "!actors.items!2ZNJUcQQDGl1w61v.w7n44dcpd0hxzP1Y",
+      "name": "Acrid Fountain",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The high priest refills its acid pool. It can't take this Bonus Action if it's Prone.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "High Priest of the Astringentum",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/high-priest-astringentum-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
