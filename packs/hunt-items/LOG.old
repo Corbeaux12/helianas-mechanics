@@ -1,15 +1,15 @@
-2026/07/05-00:42:50.376 1070c Recovering log #4
-2026/07/05-00:42:50.380 1070c Delete type=0 #4
-2026/07/05-00:42:50.380 1070c Delete type=3 #2
-2026/07/05-00:42:50.416 11584 Level-0 table #9: started
-2026/07/05-00:42:50.419 11584 Level-0 table #9: 67974 bytes OK
-2026/07/05-00:42:50.419 11584 Delete type=0 #7
-2026/07/05-00:42:50.420 11584 Manual compaction at level-0 from '!items!0kY6kkrFY0mhpXgY' @ 72057594037927935 : 1 .. '!items!z2qlcrxSvsVLf1t6' @ 0 : 0; will stop at (end)
-2026/07/05-00:42:50.420 11584 Manual compaction at level-1 from '!items!0kY6kkrFY0mhpXgY' @ 72057594037927935 : 1 .. '!items!z2qlcrxSvsVLf1t6' @ 0 : 0; will stop at '!items!z2qlcrxSvsVLf1t6' @ 22 : 1
-2026/07/05-00:42:50.420 11584 Compacting 1@1 + 1@2 files
-2026/07/05-00:42:50.422 11584 Generated table #10@1: 68 keys, 67974 bytes
-2026/07/05-00:42:50.422 11584 Compacted 1@1 + 1@2 files => 67974 bytes
-2026/07/05-00:42:50.423 11584 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/07/05-00:42:50.423 11584 Delete type=2 #5
-2026/07/05-00:42:50.423 11584 Delete type=2 #9
-2026/07/05-00:42:50.423 11584 Manual compaction at level-1 from '!items!z2qlcrxSvsVLf1t6' @ 22 : 1 .. '!items!z2qlcrxSvsVLf1t6' @ 0 : 0; will stop at (end)
+2026/07/05-11:49:06.190 14a8 Recovering log #8
+2026/07/05-11:49:06.193 14a8 Delete type=0 #8
+2026/07/05-11:49:06.193 14a8 Delete type=3 #6
+2026/07/05-11:49:06.236 fa8c Level-0 table #14: started
+2026/07/05-11:49:06.238 fa8c Level-0 table #14: 94417 bytes OK
+2026/07/05-11:49:06.239 fa8c Delete type=0 #12
+2026/07/05-11:49:06.239 fa8c Manual compaction at level-0 from '!items!0kY6kkrFY0mhpXgY' @ 72057594037927935 : 1 .. '!items!zTiaGfYg01SQkKji' @ 0 : 0; will stop at (end)
+2026/07/05-11:49:06.239 fa8c Manual compaction at level-1 from '!items!0kY6kkrFY0mhpXgY' @ 72057594037927935 : 1 .. '!items!zTiaGfYg01SQkKji' @ 0 : 0; will stop at '!items!zTiaGfYg01SQkKji' @ 142 : 1
+2026/07/05-11:49:06.239 fa8c Compacting 1@1 + 1@2 files
+2026/07/05-11:49:06.243 fa8c Generated table #15@1: 91 keys, 94417 bytes
+2026/07/05-11:49:06.243 fa8c Compacted 1@1 + 1@2 files => 94417 bytes
+2026/07/05-11:49:06.244 fa8c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/05-11:49:06.244 fa8c Delete type=2 #10
+2026/07/05-11:49:06.244 fa8c Delete type=2 #14
+2026/07/05-11:49:06.244 fa8c Manual compaction at level-1 from '!items!zTiaGfYg01SQkKji' @ 142 : 1 .. '!items!zTiaGfYg01SQkKji' @ 0 : 0; will stop at (end)

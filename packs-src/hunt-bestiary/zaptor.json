@@ -1,0 +1,285 @@
+{
+  "_id": "XPXHrckUhUecO6VZ",
+  "_key": "!actors!XPXHrckUhUecO6VZ",
+  "name": "Zaptor",
+  "type": "npc",
+  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 4,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 8,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 67,
+        "max": 67,
+        "formula": "9d10 + 18"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 40
+      },
+      "senses": {
+        "units": "ft"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Storm-charged desert raptors that make excellent — if hair-raising — mounts. A rider shares the zaptor's charge, electrifying their strikes. Habitat: Desert.</p><p><em>Source: Heliana's Field Notes P-006 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 2
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "lightning",
+          "thunder"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "da": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "paralyzed",
+          "stunned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {}
+  },
+  "items": [
+    {
+      "_id": "HCzRV7AgNOlFb2gQ",
+      "_key": "!actors.items!XPXHrckUhUecO6VZ.HCzRV7AgNOlFb2gQ",
+      "name": "Shared Charge (1/Turn)",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>A creature mounted on the zaptor has Resistance to Lightning damage, and when the rider hits another creature with a metal weapon, both it and the target take an extra 7 (2d6) Lightning damage as part of the attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fJHYNvqwgExjvh7X",
+      "_key": "!actors.items!XPXHrckUhUecO6VZ.fJHYNvqwgExjvh7X",
+      "name": "Thunderous Steps (1/Turn)",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>When the zaptor moves 30+ feet in a straight line, it creates a burst of thunder until it stops moving. <em>Saving Throw:</em> DC 12 Constitution, each creature within 20 feet of the zaptor's path that isn't mounted on the zaptor. <em>Failure:</em> 5 (2d4) Thunder damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SsvU7AhZ0WKYc8CT",
+      "_key": "!actors.items!XPXHrckUhUecO6VZ.SsvU7AhZ0WKYc8CT",
+      "name": "Charged Tail",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 10 ft. <em>Hit:</em> 8 (2d4 + 3) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 5 (2d4) Lightning damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TVG84x5dm6xoSvYT",
+      "_key": "!actors.items!XPXHrckUhUecO6VZ.TVG84x5dm6xoSvYT",
+      "name": "Storm Kick",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 10 (2d6 + 3) Bludgeoning damage plus 3 (1d6) Lightning damage, and the target is pushed 5 feet straight away from the zaptor.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3T5X4W1eJgdvY2rV",
+      "_key": "!actors.items!XPXHrckUhUecO6VZ.3T5X4W1eJgdvY2rV",
+      "name": "Discharge (Recharges after Using Thunderous Steps)",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 12 Dexterity, each creature in a 30-foot Cone. <em>Failure:</em> 10 (3d6) Lightning damage. <em>Success:</em> Half damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Zaptor",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

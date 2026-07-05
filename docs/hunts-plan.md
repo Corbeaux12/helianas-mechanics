@@ -51,4 +51,4 @@ Expected automation coverage per boss: ~70–80 % of actions (plain attacks and 
 ³ Cold Blood on the Scorching Sand and Chaos at the Coral Court use a different section layout — their crafting text needs manual carving.
 ⁴ S.N.A.R.E. and Honeydew values estimated (appendix bonus items, no printed price); Juice of Partial Polymorph skipped (no crafting component printed).
 
-**Field-notes actors (new phase, started):** `tools/data/actors/*.json` → hunt-bestiary Actor pack. Briar Lord is the pilot: full stats, senses, immunities, CR, skills, portrait + POG token from `_Art`, and all 7 traits/actions as description-complete feature items. ~34 field-note bosses remain, one PDF transcription each; attack-roll automation is a later pass.
+**Field-notes actors (new phase, started):** `tools/data/actors/*.json` → hunt-bestiary Actor pack. Done so far: Briar Lord (X-38), Zaptor Matriarch + Zaptor (P-006). All 45 field-note PDFs are text-extracted in the scratchpad; ~40 stat blocks remain (some PDFs carry two), one transcription each; attack-roll automation is a later pass.

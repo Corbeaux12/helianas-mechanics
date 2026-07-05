@@ -1,0 +1,319 @@
+{
+  "_id": "ELnpEMvD91VCzLN6",
+  "_key": "!actors!ELnpEMvD91VCzLN6",
+  "name": "Zaptor Matriarch",
+  "type": "npc",
+  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 19,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 5,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 8,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 178,
+        "max": 178,
+        "formula": "21d10 + 63"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 50
+      },
+      "senses": {
+        "units": "ft"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The zaptor matriarch leads herds of zaptors across the desert — swift, storm-charged raptors whose bodies crackle with accumulated static. Habitat: Desert.</p><p><em>Source: Heliana's Field Notes P-006 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 9
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "lightning",
+          "thunder"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "da": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "paralyzed",
+          "stunned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {}
+  },
+  "items": [
+    {
+      "_id": "wfgYX0qDd4yxN2bP",
+      "_key": "!actors.items!ELnpEMvD91VCzLN6.wfgYX0qDd4yxN2bP",
+      "name": "Lightning Body (Recharges after Using Thunderous Steps)",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>When a creature hits the matriarch for the first time on a turn with a melee weapon attack using a metal weapon, the matriarch discharges, and the attacking creature takes 9 (2d8) Lightning damage and drops its weapon. A creature that is Immune to Lightning damage does not drop its weapon.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wu3sqgYo57cFLoaX",
+      "_key": "!actors.items!ELnpEMvD91VCzLN6.wu3sqgYo57cFLoaX",
+      "name": "Thunderous Steps (1/Turn)",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>When the matriarch moves 30+ feet in a straight line, she creates a burst of thunder until she stops moving. <em>Saving Throw:</em> DC 15 Constitution, each creature within 20 feet of the matriarch's path. <em>Failure:</em> 7 (2d6) Thunder damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hB9g7DYyh1V8bfJe",
+      "_key": "!actors.items!ELnpEMvD91VCzLN6.hB9g7DYyh1V8bfJe",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>The matriarch makes one Charged Tail attack and two Storm Kick attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FRH8m5VPTEbKbgOZ",
+      "_key": "!actors.items!ELnpEMvD91VCzLN6.FRH8m5VPTEbKbgOZ",
+      "name": "Charged Tail",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 15 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 9 (2d8) Lightning damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "B30315IB9HTAVjnN",
+      "_key": "!actors.items!ELnpEMvD91VCzLN6.B30315IB9HTAVjnN",
+      "name": "Storm Kick",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 11 (2d6 + 4) Bludgeoning damage plus 4 (1d8) Lightning damage, and the target is pushed up to 10 feet straight away from the matriarch.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6wJwt4xuYUtnVg9i",
+      "_key": "!actors.items!ELnpEMvD91VCzLN6.6wJwt4xuYUtnVg9i",
+      "name": "Discharge (Recharges after Using Thunderous Steps)",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 60-foot Cone. <em>Failure:</em> 27 (6d8) Lightning damage. <em>Failure by 5 or More:</em> The target is Paralysed until the start of its next turn. <em>Success:</em> Half damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Zaptor Matriarch",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

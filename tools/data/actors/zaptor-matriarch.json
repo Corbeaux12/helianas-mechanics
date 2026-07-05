@@ -1,0 +1,30 @@
+{
+  "name": "Zaptor Matriarch",
+  "source": "Heliana's Field Notes P-006 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Desert/P006-Zaptor.pdf",
+  "img": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/_Art/MW-MNST-Zaptor-CR-bg_trnsp (1).png",
+  "size": "lg",
+  "creatureType": "beast",
+  "alignment": "Neutral",
+  "ac": 14,
+  "hp": { "value": 178, "formula": "21d10 + 63" },
+  "speed": { "walk": 50 },
+  "abilities": { "str": 19, "dex": 18, "con": 16, "int": 5, "wis": 12, "cha": 8 },
+  "saveProfs": ["str", "dex"],
+  "skills": {},
+  "di": ["lightning", "thunder"],
+  "ci": ["paralyzed", "stunned"],
+  "senses": {},
+  "languages": [],
+  "cr": 9,
+  "xp": 5000,
+  "biography": "<p>The zaptor matriarch leads herds of zaptors across the desert — swift, storm-charged raptors whose bodies crackle with accumulated static. Habitat: Desert.</p>",
+  "features": [
+    { "name": "Lightning Body (Recharges after Using Thunderous Steps)", "category": "trait", "description": "<p>When a creature hits the matriarch for the first time on a turn with a melee weapon attack using a metal weapon, the matriarch discharges, and the attacking creature takes 9 (2d8) Lightning damage and drops its weapon. A creature that is Immune to Lightning damage does not drop its weapon.</p>" },
+    { "name": "Thunderous Steps (1/Turn)", "category": "trait", "description": "<p>When the matriarch moves 30+ feet in a straight line, she creates a burst of thunder until she stops moving. <em>Saving Throw:</em> DC 15 Constitution, each creature within 20 feet of the matriarch's path. <em>Failure:</em> 7 (2d6) Thunder damage.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The matriarch makes one Charged Tail attack and two Storm Kick attacks.</p>" },
+    { "name": "Charged Tail", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 15 ft. <em>Hit:</em> 15 (2d10 + 4) Bludgeoning damage. If the target is wearing metal armour, it takes an extra 9 (2d8) Lightning damage.</p>" },
+    { "name": "Storm Kick", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 11 (2d6 + 4) Bludgeoning damage plus 4 (1d8) Lightning damage, and the target is pushed up to 10 feet straight away from the matriarch.</p>" },
+    { "name": "Discharge (Recharges after Using Thunderous Steps)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 60-foot Cone. <em>Failure:</em> 27 (6d8) Lightning damage. <em>Failure by 5 or More:</em> The target is Paralysed until the start of its next turn. <em>Success:</em> Half damage.</p>" }
+  ]
+}
