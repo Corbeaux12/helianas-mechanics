@@ -1,0 +1,33 @@
+{
+  "name": "Chuulverin",
+  "source": "Heliana's Field Notes X-34 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Ocean/X34-Chuulverin.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/chuulverin.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/chuulverin-token.webp",
+  "size": "huge",
+  "creatureType": "aberration",
+  "alignment": "Chaotic Evil",
+  "ac": 16,
+  "hp": { "value": 168, "formula": "16d12 + 64" },
+  "speed": { "walk": 25, "swim": 20 },
+  "abilities": { "str": 21, "dex": 8, "con": 18, "int": 5, "wis": 11, "cha": 5 },
+  "saveProfs": ["con"],
+  "skills": { "prc": 2 },
+  "di": ["fire", "poison"],
+  "ci": ["poisoned"],
+  "senses": {},
+  "languages": [],
+  "languagesCustom": "Deep Speech",
+  "cr": 8,
+  "xp": 3900,
+  "biography": "<p><em>Chuul chuulverin.</em> A siege-engine chuul that boils the water around it, lobbing blobs of superheated sulfurous slurry that occasionally hatch into live chuuls. Habitat: Ocean.</p>",
+  "features": [
+    { "name": "Amphibious", "category": "trait", "description": "<p>The chuulverin can breathe air and water.</p>" },
+    { "name": "Sense Magic", "category": "trait", "description": "<p>The chuulverin senses magic within 120 feet of it at will. This trait otherwise works like the <em>Detect Magic</em> spell but isn't itself magical.</p>" },
+    { "name": "Siege Monster", "category": "trait", "description": "<p>The chuulverin deals double damage to objects and structures.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The chuulverin makes two Pincer attacks.</p>" },
+    { "name": "Pincer", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft. <em>Hit:</em> 15 (3d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it is Grappled (escape DC 16). While the chuulverin has two creatures Grappled in this way, it can't make Pincer attacks against other targets.</p>" },
+    { "name": "Scalding Blast", "category": "action", "description": "<p><em>Ranged Weapon Attack:</em> +8 to hit, range 30/60 ft. <em>Hit:</em> 14 (2d8 + 5) Fire damage.</p>" },
+    { "name": "Solfatara Shot (Recharge 4-6)", "category": "action", "description": "<p>The chuulverin launches a blob of sulfurous, superheated water at a point within 600 feet of it. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 10-foot-radius Sphere centred on that point. <em>Failure:</em> 22 (4d10) Bludgeoning damage and 22 (4d10) Fire damage, which ignores Resistance to Fire damage from being underwater. <em>Success:</em> Half damage. <em>Failure or Success:</em> Roll a d8. On an 8, a Chuul appears in an unoccupied space within the area. It's an ally to the chuulverin and takes its turn immediately after the chuulverin's.</p>" }
+  ]
+}

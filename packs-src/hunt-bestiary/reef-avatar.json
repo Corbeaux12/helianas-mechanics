@@ -1,0 +1,843 @@
+{
+  "_id": "5aHdVR61co6d2cJj",
+  "_key": "!actors!5aHdVR61co6d2cJj",
+  "name": "Reef Avatar",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/reef-avatar.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 8,
+        "proficient": 0
+      },
+      "con": {
+        "value": 18,
+        "proficient": 1
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 189,
+        "max": 189,
+        "formula": "18d12 + 72"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30,
+        "swim": 15
+      },
+      "senses": {
+        "units": "ft",
+        "special": "Ripplesense 300 ft. (see trait; blind beyond this radius)"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Coralia alvus.</em> A walking coral reef and guardian of the ocean's shallows — an entire ecosystem given a body, healing its allies, firing paralytic spines, and summoning swarms of tiny krakens, sharks, and whales from within itself. Its lair is the Shelf in Regrowth. Habitat: Coastal &amp; Underwater.</p><p><strong>Gear:</strong> Staff.</p><p><em>Source: Heliana's Field Notes X-29 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Good",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 17
+    },
+    "traits": {
+      "size": "huge",
+      "languages": {
+        "value": [
+          "aquan"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "paralyzed",
+          "petrified",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "nat": {
+        "value": 1,
+        "ability": "int"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "qGU4pf3n3mzRNxiN",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.qGU4pf3n3mzRNxiN",
+      "name": "Bleaching",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Whenever the reef avatar takes 15 Acid damage or more in a single instance, it loses one use of its Legendary Action until the start of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Cy0BI92BsDQ4Q3K1",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.Cy0BI92BsDQ4Q3K1",
+      "name": "Heart of the Sea",
+      "img": "icons/magic/life/heart-hand-gold-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While within 30 feet of the reef avatar, creatures with a natural Swim Speed (not provided by a spell or other magical effect) have Advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "JRLLKSKRmuLPcJ57",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.JRLLKSKRmuLPcJ57",
+      "name": "Ripplesense",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The reef avatar can sense the size, distance, and direction to any creature or object that is submerged in at least 1 foot of water within 300 feet of it, including through Total Cover. It can also sense the emotional state of any aquatic creature within the area.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "3BQcBX2t35oDe2N2",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.3BQcBX2t35oDe2N2",
+      "name": "Water Breathing",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The reef avatar can breathe only underwater.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "d1jITBDuyLQVjufP",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.d1jITBDuyLQVjufP",
+      "name": "Spellcasting",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ability:</strong> Wisdom; <strong>DC:</strong> 16; <strong>Modifier:</strong> +8. The reef avatar uses its Staff as a Spellcasting Focus and requires no Verbal components to cast the following spells.</p><p><strong>At Will:</strong> <em>Calm Waters</em>* (C), <em>Druidcraft</em>, <em>Enlarge/Reduce</em> (no Concentration required), <em>Riptide</em>* (C)</p><p><strong>4/Day:</strong> <em>Beacon of Hope</em> (C), <em>Purify Food and Drink</em>, <em>Sanctuary</em> (Bonus Action), <em>The Bends</em>*, <em>Water Breathing</em></p><p><strong>3/Day:</strong> <em>Control Water</em> (C), <em>Mass Cure Wounds</em>, <em>Plant Growth</em></p><p>*See the spells page of the Field Notes PDF; (C) indicates Concentration.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "CvdP03VfaVUodzJQ",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.CvdP03VfaVUodzJQ",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The reef avatar makes one Shell Staff attack and two Darting Spine attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "3mA6nw2JftaXuCho",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.3mA6nw2JftaXuCho",
+      "name": "Shell Staff",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 10 ft. <em>Hit:</em> 19 (3d10 + 3) Bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "qmDjMeo3JRZGadED": {
+            "type": "attack",
+            "_id": "qmDjMeo3JRZGadED",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "T0V6vTdasQybJShe",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.T0V6vTdasQybJShe",
+      "name": "Darting Spine",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Ranged Weapon Attack:</em> +10 to hit, range 30/90 ft. <em>Hit:</em> 11 (3d4 + 4) Piercing damage plus 10 (3d6) Poison damage, and the target is subjected to the following effect. <em>Saving Throw:</em> DC 18 Constitution. <em>Failure:</em> The target is Paralysed until the start of its next turn.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": 30,
+          "long": 90,
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": true,
+              "formula": "3d4 + 4"
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "kA5DvfK56Bcj9GJT": {
+            "type": "attack",
+            "_id": "kA5DvfK56Bcj9GJT",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              },
+              "ability": "",
+              "bonus": "10"
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "Vco1NR60q5krStXn",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.Vco1NR60q5krStXn",
+      "name": "Defend the Colony",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The reef avatar summons a Swarm of Defenders in an unoccupied space within 10 feet of it. The swarm is made up of Tiny krakens, sharks, and whales, uses the Swarm of Piranhas stat block (or Swarm of Quippers in the 2014 rules), and takes its turn immediately after the reef avatar. The swarm lasts for 1 minute, after which it magically returns to the safety of the reef avatar's body.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "fT7TzzIbYuT1r122",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.fT7TzzIbYuT1r122",
+      "name": "Cast a Spell (Legendary Action)",
+      "img": "icons/magic/symbols/circled-gem-pink.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the reef avatar can expend a use to take one of the following actions. The reef avatar regains all expended uses at the start of each of its turns.</em></p><p>The reef avatar uses Spellcasting.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "9vtiGjdyX1ZDmfNQ",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.9vtiGjdyX1ZDmfNQ",
+      "name": "Cleansing Current (Legendary Action)",
+      "img": "icons/magic/lightning/orb-ball-spiral-blue.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>A creature with a Swim Speed within 30 feet of the reef avatar regains 6 (1d8 + 2) Hit Points.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "aJhzzenQmIFDyCxB",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.aJhzzenQmIFDyCxB",
+      "name": "Darting Spine (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The reef avatar makes a Darting Spine attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "wcr7JqGt72HgygT2",
+      "_key": "!actors.items!5aHdVR61co6d2cJj.wcr7JqGt72HgygT2",
+      "name": "Lair: Shelf in Regrowth",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Initiative 20 (loses ties). Additional XP 700.</em></p><p><strong>Regional Traits</strong></p><p><strong>Polyp Clouds.</strong> Restorative clouds of coral prevent disease and decay within the lair. Diseases are suppressed while within the lair, and any spell that specifies that it withers nonmagical plants and vegetation, such as <em>Blight</em>, automatically fails.</p><p><strong>Clear Water.</strong> Though still saline, the water in the lair is extremely clean. A creature that can breathe water regains 1 extra Hit Point whenever it rolls a Hit Die to regain Hit Points while in the water.</p><p><strong>Bones to Build.</strong> The ground within the lair is covered in the bone-like spikes of old coral growth in the early stages of regrowth. <em>Saving Throw:</em> DC 17 Constitution, a creature that moves 5 feet on the ground in the lair for the first time on a turn. <em>Failure:</em> 2 (1d4) Piercing damage, and the target is Paralysed until the start of its next turn.</p><p><strong>Lair Actions</strong> <em>(The Shelf in Regrowth can't take the same action two turns in a row.)</em></p><p><strong>Changing Currents.</strong> Water in the lair swirls with small but powerful currents, becoming Difficult Terrain for creatures of the reef avatar's choice.</p><p><strong>Purification.</strong> Each creature of the reef avatar's choice within the lair gains 13 (3d8) Temporary Hit Points.</p><p><strong>Rapid Reconstruction.</strong> A wall of venomous coral springs up from a solid surface within the lair. The wall is 5 feet wide, 10 feet tall, and 20 feet long. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall and is subjected to the following effect. <em>Saving Throw:</em> DC 17 Dexterity. <em>Failure:</em> 5 (2d4) Piercing damage, and the target is Paralysed until the start of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Reef Avatar",
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/reef-avatar-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

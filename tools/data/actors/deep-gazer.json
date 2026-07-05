@@ -1,0 +1,30 @@
+{
+  "name": "Deep Gazer",
+  "source": "Heliana's Field Notes X-33 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Ocean/X33-Deep Gazer.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/deep-gazer.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/deep-gazer-token.webp",
+  "size": "lg",
+  "creatureType": "aberration",
+  "alignment": "Chaotic Evil",
+  "ac": 15,
+  "hp": { "value": 102, "formula": "12d10 + 36" },
+  "speed": { "walk": 5, "swim": 25 },
+  "abilities": { "str": 21, "dex": 8, "con": 16, "int": 6, "wis": 14, "cha": 13 },
+  "saveProfs": ["str"],
+  "skills": { "prc": 1, "ste": 1 },
+  "ci": ["prone"],
+  "senses": { "darkvision": 120 },
+  "languages": [],
+  "cr": 11,
+  "xp": 7200,
+  "biography": "<p><em>Oculotyrannus abyssalis.</em> An abyssal anglerfish-beholder whose dangling lures each shine with a different treacherous light — charming, pulling, freezing, blinding, binding, tormenting, confusing, or bleeding its prey before the bite. Habitat: Ocean.</p>",
+  "features": [
+    { "name": "Light Sensitivity", "category": "trait", "description": "<p>If the gazer takes 15+ Radiant damage, it becomes Blinded until the start of its next turn.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The gazer uses Lurelights three times and makes one Bite attack.</p>" },
+    { "name": "Bite", "category": "action", "description": "<p><em>Melee Attack:</em> +9 to hit, reach 5 ft. <em>Hit:</em> 18 (2d12 + 5) Piercing damage.</p>" },
+    { "name": "Lurelights", "category": "action", "description": "<p>The gazer randomly uses one of the following magical lurelights against a target it can see within 120 feet of itself (roll 1d8; reroll if the gazer has already used that lurelight during this turn):</p><ol><li><strong>Charming Light.</strong> <em>Saving Throw:</em> DC 14 Wisdom. <em>Failure:</em> The target is Charmed for 1 hour. While Charmed in this way, it views the gazer as an ally in peril and attempts to physically assist it. The target repeats the save if it takes any damage, ending the effect on a success.</li><li><strong>Pulling Light.</strong> <em>Saving Throw:</em> DC 14 Strength. <em>Failure:</em> The target is pulled to within 5 feet of the gazer.</li><li><strong>Icy Light.</strong> <em>Saving Throw:</em> DC 14 Constitution. <em>Failure:</em> 18 (4d8) Cold damage and the target's Speed is halved until the end of its next turn. <em>Success:</em> Half damage only.</li><li><strong>Blinding Light.</strong> <em>Saving Throw:</em> DC 14 Constitution. <em>Failure:</em> 11 (2d10) Radiant damage, and the target is Blinded until the end of its next turn. <em>Success:</em> Half damage only.</li><li><strong>Binding Light.</strong> <em>Saving Throw:</em> DC 14 Strength. <em>Failure:</em> The target is Restrained for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.</li><li><strong>Tormenting Light.</strong> <em>Saving Throw:</em> DC 14 Intelligence. <em>Failure:</em> 14 (4d6) Psychic damage. Until the end of the target's next turn, it can't take Reactions, and can only take an action or Bonus Action on its turn, not both. <em>Success:</em> Half damage only.</li><li><strong>Confusing Light.</strong> <em>Saving Throw:</em> DC 14 Wisdom. <em>Failure:</em> 14 (4d6) Psychic damage and the target must take a Reaction to move up to its Speed towards the nearest creature that isn't the gazer and make an attack against that creature. <em>Success:</em> Half damage only.</li><li><strong>Bloodied Light.</strong> <em>Saving Throw:</em> DC 14 Constitution. <em>Failure:</em> 33 (6d10) Necrotic damage.</li></ol>" },
+    { "name": "Suffocation Cone", "category": "bonus", "description": "<p>The gazer's eye creates a 120-foot Cone of magic until the start of its next turn that stops creatures from breathing. A creature that starts its turn within the cone begins to suffocate.</p>" },
+    { "name": "Lurelight (Legendary Action)", "category": "legendary", "description": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the gazer can expend a use to take one of the following actions. The gazer regains all expended uses at the start of each of its turns.</em></p><p>The gazer uses Lurelights.</p>" }
+  ]
+}

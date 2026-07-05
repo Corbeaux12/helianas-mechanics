@@ -1,0 +1,456 @@
+{
+  "_id": "jBpLwnIbB4mSuTY1",
+  "_key": "!actors!jBpLwnIbB4mSuTY1",
+  "name": "Deep Gazer",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/deep-gazer.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 21,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 8,
+        "proficient": 0
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 6,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 102,
+        "max": 102,
+        "formula": "12d10 + 36"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 5,
+        "swim": 25
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Oculotyrannus abyssalis.</em> An abyssal anglerfish-beholder whose dangling lures each shine with a different treacherous light — charming, pulling, freezing, blinding, binding, tormenting, confusing, or bleeding its prey before the bite. Habitat: Ocean.</p><p><em>Source: Heliana's Field Notes X-33 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 11
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "prone"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "A7LZPYi4SFRZpRIK",
+      "_key": "!actors.items!jBpLwnIbB4mSuTY1.A7LZPYi4SFRZpRIK",
+      "name": "Light Sensitivity",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the gazer takes 15+ Radiant damage, it becomes Blinded until the start of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Gqj5JOrm6kbNuXQ5",
+      "_key": "!actors.items!jBpLwnIbB4mSuTY1.Gqj5JOrm6kbNuXQ5",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The gazer uses Lurelights three times and makes one Bite attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "k83O9svpmi8oxXln",
+      "_key": "!actors.items!jBpLwnIbB4mSuTY1.k83O9svpmi8oxXln",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Attack:</em> +9 to hit, reach 5 ft. <em>Hit:</em> 18 (2d12 + 5) Piercing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 12,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "RRrZzQXhtiM76MZw": {
+            "type": "attack",
+            "_id": "RRrZzQXhtiM76MZw",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "rNX5z2cF0HJIKSOK",
+      "_key": "!actors.items!jBpLwnIbB4mSuTY1.rNX5z2cF0HJIKSOK",
+      "name": "Lurelights",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The gazer randomly uses one of the following magical lurelights against a target it can see within 120 feet of itself (roll 1d8; reroll if the gazer has already used that lurelight during this turn):</p><ol><li><strong>Charming Light.</strong> <em>Saving Throw:</em> DC 14 Wisdom. <em>Failure:</em> The target is Charmed for 1 hour. While Charmed in this way, it views the gazer as an ally in peril and attempts to physically assist it. The target repeats the save if it takes any damage, ending the effect on a success.</li><li><strong>Pulling Light.</strong> <em>Saving Throw:</em> DC 14 Strength. <em>Failure:</em> The target is pulled to within 5 feet of the gazer.</li><li><strong>Icy Light.</strong> <em>Saving Throw:</em> DC 14 Constitution. <em>Failure:</em> 18 (4d8) Cold damage and the target's Speed is halved until the end of its next turn. <em>Success:</em> Half damage only.</li><li><strong>Blinding Light.</strong> <em>Saving Throw:</em> DC 14 Constitution. <em>Failure:</em> 11 (2d10) Radiant damage, and the target is Blinded until the end of its next turn. <em>Success:</em> Half damage only.</li><li><strong>Binding Light.</strong> <em>Saving Throw:</em> DC 14 Strength. <em>Failure:</em> The target is Restrained for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.</li><li><strong>Tormenting Light.</strong> <em>Saving Throw:</em> DC 14 Intelligence. <em>Failure:</em> 14 (4d6) Psychic damage. Until the end of the target's next turn, it can't take Reactions, and can only take an action or Bonus Action on its turn, not both. <em>Success:</em> Half damage only.</li><li><strong>Confusing Light.</strong> <em>Saving Throw:</em> DC 14 Wisdom. <em>Failure:</em> 14 (4d6) Psychic damage and the target must take a Reaction to move up to its Speed towards the nearest creature that isn't the gazer and make an attack against that creature. <em>Success:</em> Half damage only.</li><li><strong>Bloodied Light.</strong> <em>Saving Throw:</em> DC 14 Constitution. <em>Failure:</em> 33 (6d10) Necrotic damage.</li></ol>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "UJnw6pJ2mdCrYHMe",
+      "_key": "!actors.items!jBpLwnIbB4mSuTY1.UJnw6pJ2mdCrYHMe",
+      "name": "Suffocation Cone",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The gazer's eye creates a 120-foot Cone of magic until the start of its next turn that stops creatures from breathing. A creature that starts its turn within the cone begins to suffocate.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "4kv3ZKJ1WTiczAqr",
+      "_key": "!actors.items!jBpLwnIbB4mSuTY1.4kv3ZKJ1WTiczAqr",
+      "name": "Lurelight (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the gazer can expend a use to take one of the following actions. The gazer regains all expended uses at the start of each of its turns.</em></p><p>The gazer uses Lurelights.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Deep Gazer",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/deep-gazer-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

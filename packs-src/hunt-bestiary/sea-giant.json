@@ -1,0 +1,675 @@
+{
+  "_id": "Jc3ZpTk0p5BgGtDw",
+  "_key": "!actors!Jc3ZpTk0p5BgGtDw",
+  "name": "Sea Giant",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/sea-giant.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 25,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0
+      },
+      "con": {
+        "value": 21,
+        "proficient": 1
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 310,
+        "max": 310,
+        "formula": "20d20 + 100"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 40,
+        "swim": 40
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 500
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Gigantos aecora.</em> The Sea Giant Jotunbjerg — a gargantuan glacier-bodied wanderer that walks the water's surface, luring sailors in with its hypnotic Icy Deathlight and tracking the Titans across the planes. Habitat: Arctic &amp; Ocean.</p><p><em>Source: Heliana's Field Notes X-32 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "type": {
+        "value": "giant",
+        "subtype": "Sea",
+        "custom": ""
+      },
+      "cr": 20
+    },
+    "traits": {
+      "size": "grg",
+      "languages": {
+        "value": [
+          "giant"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "cold"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "lightning",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "frightened"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ath": {
+        "value": 1,
+        "ability": "str"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 2,
+        "ability": "cha"
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "VVedYFqN7LlVeRX1",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.VVedYFqN7LlVeRX1",
+      "name": "Amphibious",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The giant can breathe air and water.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "cNcBcSGS3gHpjtHi",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.cNcBcSGS3gHpjtHi",
+      "name": "Icy Deathlight",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>When a creature that can see the giant starts its turn within 300 feet of it, it's subjected to the following effect. <em>Saving Throw:</em> DC 19 Wisdom. <em>Failure:</em> The target is Charmed by the giant for 10 minutes. While Charmed, the target ignores the Icy Deathlight of other giants. If the target is more than 5 feet from the giant, the target moves on its turn toward the giant by the most direct route, trying to get within 5 feet of the giant. It doesn't avoid Opportunity Attacks; however, before moving into damaging terrain (such as lava or a pit) and whenever it takes damage from a source other than the giant, the target repeats the save. <em>Success:</em> The target is immune to this giant's Icy Deathlight for 24 hours.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "LGWSTrj5KqpFsTZF",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.LGWSTrj5KqpFsTZF",
+      "name": "Frigid Body",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>A creature that touches the giant or hits it with a melee attack while within 5 feet of it takes 10 (3d6) Cold damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "xINgjCIAypHq6sXQ",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.xINgjCIAypHq6sXQ",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the giant fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "CAZVNH05DQEHp77j",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.CAZVNH05DQEHp77j",
+      "name": "Pelagic Walker",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The giant can only use its Swim Speed on the water's surface. It sinks 30 feet toward the bottom of any body of water it enters at the end of each of its turns unless it's on the water's surface or it has used its Glaciate action since the start of its last turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "osemdijszXk6LWzF",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.osemdijszXk6LWzF",
+      "name": "Titan Tracker",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The giant knows the distance and direction to the nearest Titan on the same plane of existence as it. It also has Resistance to damage from creatures' Legendary Actions.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "NbYOXX1dbW31qgb6",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.NbYOXX1dbW31qgb6",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The giant makes two Bone Sledge attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "hLs1os7g62fA8ozB",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.hLs1os7g62fA8ozB",
+      "name": "Bone Sledge",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +13 to hit, reach 15 ft. <em>Hit:</em> 21 (4d6 + 7) Bludgeoning damage and the target is subjected to the following effect. <em>Saving Throw:</em> DC 21 Strength. <em>Failure:</em> The target is knocked Prone.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 15
+        },
+        "damage": {
+          "base": {
+            "number": 4,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "ftjhHllRvzW0istA": {
+            "type": "attack",
+            "_id": "ftjhHllRvzW0istA",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "KcPHYnzItsu3BH6F",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.KcPHYnzItsu3BH6F",
+      "name": "Glaciate",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the giant is underwater, it rises 60 feet toward the surface without provoking Opportunity Attacks. It can't use this action if it has taken 15+ Fire damage since the start of its last turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "5VpOQK3qfSgoS1mL",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.5VpOQK3qfSgoS1mL",
+      "name": "Cold Fury",
+      "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> A Titan damages the giant. <em>Response:</em> The giant takes no damage instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "qazdcMlxkYZDRq9w",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.qazdcMlxkYZDRq9w",
+      "name": "Bone Sledge (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the giant can expend a use to take one of the following actions. The giant regains all expended uses at the start of each of its turns.</em></p><p>The giant makes one Bone Sledge attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "QN2xfMadG993Fm6P",
+      "_key": "!actors.items!Jc3ZpTk0p5BgGtDw.QN2xfMadG993Fm6P",
+      "name": "Refreeze (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The giant uses Glaciate.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Sea Giant",
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/sea-giant-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

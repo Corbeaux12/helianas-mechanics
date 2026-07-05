@@ -1,0 +1,815 @@
+{
+  "_id": "6yT0KH5tLVy0dm3s",
+  "_key": "!actors!6yT0KH5tLVy0dm3s",
+  "name": "Bladeborne Mantiroar",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/bladeborne-mantiroar.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 21,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0
+      },
+      "con": {
+        "value": 19,
+        "proficient": 1
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 133,
+        "max": 133,
+        "formula": "14d10 + 56"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 40,
+        "fly": 40
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 60
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Mantaurus macrotelum.</em> A winged manticore-lion honour-duellist that wreathes itself in golden light, sweeps its greatsword in radiant arcs, and roars apart the magic of anyone who fights dishonourably. Its lair is the Wartorn Ashes. Habitat: Battlefields.</p><p><strong>Gear:</strong> Greatsword.</p><p><em>Source: Heliana's Field Notes X-28 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 10
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [
+          "celestial",
+          "common"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ath": {
+        "value": 1,
+        "ability": "str"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "SgLjD6UT8WjduKEt",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.SgLjD6UT8WjduKEt",
+      "name": "Trampler",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the mantiroar moves 20+ feet straight toward a creature immediately before making a melee attack against it, the mantiroar has Advantage on the attack roll.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "3FFG6BmhfQ1Mw4aF",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.3FFG6BmhfQ1Mw4aF",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The mantiroar makes one Claw attack or uses Sweeping Strike, and it makes either one Skewering Tail attack or two Spikeshot attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "0VLmMBHzAkI7Vj5e",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.0VLmMBHzAkI7Vj5e",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 5 ft. <em>Hit:</em> 18 (2d12 + 5) Bludgeoning damage. If the target is a Huge or smaller creature, it is Grappled (escape DC 17). Until the grapple ends, the creature is Restrained, and the mantiroar can't make Claw attacks against a target other than the one it's grappling.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 12,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "WxRKi0C0p5iNiSct": {
+            "type": "attack",
+            "_id": "WxRKi0C0p5iNiSct",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "EnvMu26Fn4wAkeUl",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.EnvMu26Fn4wAkeUl",
+      "name": "Skewering Tail",
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 10 ft. <em>Hit:</em> 14 (2d8 + 5) Piercing damage. A Medium or smaller target is impaled on the blade of the tail and is Grappled (escape DC 17). The grapple ends if the mantiroar uses Skewering Tail again. When the grapple ends, the target takes 13 (3d8) Slashing damage as the blade leaves its body.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "0fM5bl2QjD9FTkvl": {
+            "type": "attack",
+            "_id": "0fM5bl2QjD9FTkvl",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "G8gCTIBRMKRrRSDw",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.G8gCTIBRMKRrRSDw",
+      "name": "Spikeshot",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Ranged Weapon Attack:</em> +9, range 30/90 ft. <em>Hit:</em> 14 (2d8 + 5) Piercing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": 30,
+          "long": 90,
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "u1mnEB84WYclZpX8": {
+            "type": "attack",
+            "_id": "u1mnEB84WYclZpX8",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "LPUx05bmArMHDpqd",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.LPUx05bmArMHDpqd",
+      "name": "Sweeping Strike",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The mantiroar sweeps its blade in a wide arc. <em>Saving Throw:</em> DC 17 Dexterity, each creature in a 10-foot Emanation originating from the mantiroar. <em>Failure:</em> 18 (4d8) Slashing damage. <em>Success:</em> Half damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "73zxGYjK37pPlDIw",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.73zxGYjK37pPlDIw",
+      "name": "Heroic Charge",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The mantiroar wreaths itself in golden light and charges 40 feet in a straight line, passing through the spaces of creatures smaller than it. <em>Saving Throw:</em> DC 17 Dexterity, each creature in the mantiroar's path. <em>Failure:</em> 19 (3d12) Bludgeoning damage, and the target is knocked Prone. <em>Success:</em> Half damage only.</p><p>The charge leaves a glowing light in the affected area. At the end of the next enemy's turn, the light flashes brightly, dealing 9 (2d8) Radiant damage to each creature in the area.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "KNOpCieIx9G5XXYG",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.KNOpCieIx9G5XXYG",
+      "name": "Roar of Glory (Recharge 5-6)",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The mantiroar lets out a roar of challenge, unravelling magical obstructions that would taint honourable combat. Spells of level 3 or lower within 60 feet of the mantiroar end.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "SyMWCDTI8Iyzx7Gt",
+      "_key": "!actors.items!6yT0KH5tLVy0dm3s.SyMWCDTI8Iyzx7Gt",
+      "name": "Lair: Wartorn Ashes",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Initiative 20 (loses ties). Additional XP 1,100.</em></p><p><strong>Regional Traits</strong></p><p><strong>Ashen Blood.</strong> The air within the lair causes wounds to persist. <em>Saving Throw:</em> DC 17 Constitution, each creature that first enters the lair. <em>Failure:</em> Whenever a spell or other effect would restore Hit Points to the target with a die roll, each die is treated as rolling a 1. This effect lasts until the creature finishes a Long Rest outside of the lair.</p><p><strong>Field of Decay.</strong> Ash in the air degrades weapons with constant wear and battle damage. A weapon degrades at each dawn while within 1 mile of the lair. When it degrades, a nonmagical weapon takes a -1 penalty to attack and damage rolls, up to -3, which lasts until the weapon is repaired. When a non-Artifact magic weapon degrades, roll 1d8. On a 1, the weapon becomes inert, losing all magical properties but remaining magical. These effects last until the magic weapon spends 24 hours more than 5 miles away from the lair.</p><p><strong>Reign of Night.</strong> The sky within 1 mile of the lair is perpetually dark regardless of time of day.</p><p><strong>Lair Actions</strong></p><p><strong>Pierce the Earth.</strong> A golden spectral sword pierces the ground in an unoccupied space of the mantiroar's choice within the lair. The sword occupies a 5-foot space and lasts up to 1 minute. A creature that moves to a space within 10 feet of the sword for the first time on a turn is subjected to the following effect. <em>Saving Throw:</em> DC 17 Dexterity. <em>Failure:</em> The target takes 10 Radiant damage. <em>Success:</em> Half damage. The sword vanishes when it has dealt a total of 30 damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Bladeborne Mantiroar",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/bladeborne-mantiroar-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

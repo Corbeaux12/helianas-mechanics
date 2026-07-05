@@ -1,0 +1,32 @@
+{
+  "name": "Necropod",
+  "source": "Heliana's Field Notes X-31 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Ocean/X31-Necropod.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/necropod.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/necropod-token.webp",
+  "size": "huge",
+  "creatureType": "aberration",
+  "alignment": "Lawful Evil",
+  "ac": 16,
+  "hp": { "value": 126, "formula": "12d12 + 48" },
+  "speed": { "walk": 5, "swim": 50 },
+  "abilities": { "str": 16, "dex": 14, "con": 19, "int": 10, "wis": 15, "cha": 12 },
+  "saveProfs": ["con", "wis"],
+  "skills": { "ath": 1, "prc": 1, "ste": 1 },
+  "dr": ["cold", "necrotic"],
+  "ci": ["charmed"],
+  "senses": { "darkvision": 120 },
+  "languages": [],
+  "languagesCustom": "Deep Speech",
+  "cr": 9,
+  "xp": 5000,
+  "biography": "<p><em>Phythia sanguidivina.</em> A blood-divining abyssal cephalopod that drinks vitality through its needle beak — glutted on stolen life, it glimpses the near future and detonates the stored necrotic energy in a pulse. Habitat: Ocean.</p>",
+  "features": [
+    { "name": "Necrotic Premonitions", "category": "trait", "description": "<p>While the necropod has Temporary Hit Points from its Draining Necrosis attack, it can use its Sanguine Pulse action and it can see into the near future, granting it a +2 bonus to AC and Advantage on saving throws.</p>" },
+    { "name": "Water Breathing", "category": "trait", "description": "<p>The necropod can breathe only underwater.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The necropod makes three Tentacle attacks. It can replace one attack with a Draining Necrosis attack.</p>" },
+    { "name": "Tentacle", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft. <em>Hit:</em> 14 (2d10 + 3) Bludgeoning damage and the target is Grappled (escape DC 15) from one of six tentacles. While Grappled in this way, the target is Restrained.</p>" },
+    { "name": "Draining Necrosis", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one creature Grappled by the necropod. <em>Hit:</em> 5 (1d4 + 3) Piercing damage plus 23 (5d8) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the necropod gains Temporary Hit Points equal to that amount. The reduction lasts until the target finishes a Long Rest.</p>" },
+    { "name": "Sanguine Pulse", "category": "action", "description": "<p>While the necropod has Temporary Hit Points, it can release the necrotic energy stored within it. <em>Saving Throw:</em> DC 16 Constitution, each creature in a 30-foot Emanation originating from the necropod. <em>Failure:</em> 31 (7d8) Necrotic damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> The necropod loses all Temporary Hit Points it has.</p>" }
+  ]
+}
