@@ -1,0 +1,37 @@
+{
+  "_id": "yLqEaQk5ojoXzbUE",
+  "_key": "!items!yLqEaQk5ojoXzbUE",
+  "name": "Emberink Stationery (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> phial of corporate cerebral fluid</p><p>Filtered from fiendish blood, this pot of fiery orange ink melts most mundane quills that dare to dip into its contents. Only its compatriot, the enchanted pitbat quill which forms part of the stationery, can contain the lava-like liquid. An emberink stationery is often used as a training tool for new devils, promoting teamwork and the virtues of adhering to a contract.</p><p><strong>Charges &amp; Charging.</strong> An emberink stationery can hold a maximum of 4 charges, contains 1d4 charges when found, and regains charges when the ink pot is used to capture a Fiend's blood. As Fiends' bodies disappear from the Material Plane on death, fiendish blood must be extracted while the Fiend is still alive. You can use an action to extract blood from a living Fiend within your reach. If the Fiend is unwilling, the Fiend must be restrained or incapacitated and be below half of its maximum hit points. When blood is extracted in this way, the stationery regains a number of charges equal to a roll of one of the Fiend's Hit Dice, and once it regains charges, it can't do so again until the next dawn.</p><p><strong>Contractual Obligation.</strong> As an action, you can use the stationery to write on the skin of a willing Humanoid. The ink burns into the flesh of your target, raking a cauterised scar, while an identical burn appears in a similar place on your own body. Both you and the creature take 1 fire damage. Choose one of the following glyphs and expend the appropriate number of charges; for 1 hour, you are both subjected to the associated magical effects.</p><ul><li><strong>Ward (1 charge).</strong> While you and the creature are within 30 feet of one another, you both have a +1 bonus to AC. While you are more than 30 feet apart, you both suffer a -1 penalty to AC.</li><li><strong>Warp (2 charges).</strong> While you and the creature are within 30 feet of one another, each affected creature can choose whether it is enlarged or reduced, as per the <em>enlarge/reduce</em> spell. An affected creature can use its action to return to normal size, or to enlarge or reduce itself if it's already normal size. While you are more than 30 feet apart, both creatures return to their normal size.</li><li><strong>Wrath (1 charge).</strong> While you and the creature are within 30 feet of one another, you both gain a +1 bonus to attack and damage rolls. While you are more than 30 feet apart, you both suffer a -1 penalty to attack and damage rolls.</li></ul><p>Once the stationery has been used to sign a glyph, the ink turns dark and it can't be used again until the current contract is complete (i.e., the hour has elapsed).</p><p><strong>Rare variant:</strong> Reduce the maximum number of charges to 2.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 10000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

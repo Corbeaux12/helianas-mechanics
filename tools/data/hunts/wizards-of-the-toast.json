@@ -1,0 +1,71 @@
+{
+  "name": "Wizards of the Toast",
+  "source": "Wizards of the Toast (Loot Tavern hunt, APL 3/7/12)",
+  "creatureType": "fiend",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Wizards of the Toast/Wizards_of_the_Toast - v1.3.pdf",
+  "harvest": [
+    { "dc": 15, "components": ["Bread dragon crust (3)"] },
+    { "dc": 15, "components": ["Calcified corporate heart (1)"] },
+    { "dc": 20, "components": ["Phial of corporate cerebral fluid (5)"] }
+  ],
+  "components": [
+    { "name": "Bread Dragon Crust",                "tags": ["crust", "bread dragon", "construct"], "price": 75 },
+    { "name": "Calcified Corporate Heart",         "tags": ["heart", "fiend", "hasbrodeus"],       "price": 75 },
+    { "name": "Phial of Corporate Cerebral Fluid", "tags": ["cerebral fluid", "brain", "fiend", "hasbrodeus"], "price": 110 }
+  ],
+  "items": [
+    {
+      "name": "Emberink Stationery",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Phial of Corporate Cerebral Fluid",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 2500 },
+        { "rarity": "very rare", "value": 10000 }
+      ],
+      "description": "<p><em>Wondrous item, rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> phial of corporate cerebral fluid</p><p>Filtered from fiendish blood, this pot of fiery orange ink melts most mundane quills that dare to dip into its contents. Only its compatriot, the enchanted pitbat quill which forms part of the stationery, can contain the lava-like liquid. An emberink stationery is often used as a training tool for new devils, promoting teamwork and the virtues of adhering to a contract.</p><p><strong>Charges &amp; Charging.</strong> An emberink stationery can hold a maximum of 4 charges, contains 1d4 charges when found, and regains charges when the ink pot is used to capture a Fiend's blood. As Fiends' bodies disappear from the Material Plane on death, fiendish blood must be extracted while the Fiend is still alive. You can use an action to extract blood from a living Fiend within your reach. If the Fiend is unwilling, the Fiend must be restrained or incapacitated and be below half of its maximum hit points. When blood is extracted in this way, the stationery regains a number of charges equal to a roll of one of the Fiend's Hit Dice, and once it regains charges, it can't do so again until the next dawn.</p><p><strong>Contractual Obligation.</strong> As an action, you can use the stationery to write on the skin of a willing Humanoid. The ink burns into the flesh of your target, raking a cauterised scar, while an identical burn appears in a similar place on your own body. Both you and the creature take 1 fire damage. Choose one of the following glyphs and expend the appropriate number of charges; for 1 hour, you are both subjected to the associated magical effects.</p><ul><li><strong>Ward (1 charge).</strong> While you and the creature are within 30 feet of one another, you both have a +1 bonus to AC. While you are more than 30 feet apart, you both suffer a -1 penalty to AC.</li><li><strong>Warp (2 charges).</strong> While you and the creature are within 30 feet of one another, each affected creature can choose whether it is enlarged or reduced, as per the <em>enlarge/reduce</em> spell. An affected creature can use its action to return to normal size, or to enlarge or reduce itself if it's already normal size. While you are more than 30 feet apart, both creatures return to their normal size.</li><li><strong>Wrath (1 charge).</strong> While you and the creature are within 30 feet of one another, you both gain a +1 bonus to attack and damage rolls. While you are more than 30 feet apart, you both suffer a -1 penalty to attack and damage rolls.</li></ul><p>Once the stationery has been used to sign a glyph, the ink turns dark and it can't be used again until the current contract is complete (i.e., the hour has elapsed).</p><p><strong>Rare variant:</strong> Reduce the maximum number of charges to 2.</p>"
+    },
+    {
+      "name": "Heart of Stone",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Calcified Corporate Heart",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 520 },
+        { "rarity": "rare",      "value": 2200 },
+        { "rarity": "very rare", "value": 8000 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> calcified Fiend heart</p><p>When a Fiend dies near this fist-sized lump of obsidian, its soul is incarcerated within its inky confines. A creature that attunes to this petrified devil's heart learns the name of any soul imprisoned within it and can drain the soul's lifeforce to create powerful magic. However, with each interaction, there is always a chance that the Fiend can break free of this stony jail.</p><p>The heart can be used as a spellcasting focus for your spells.</p><p><strong>Soultrap.</strong> When a Fiend of CR 12 or lower dies within 10 feet of the heart and the heart doesn't already have a soul trapped within it, the Fiend's soul becomes trapped within the heart. The heart gains a number of charges equal to the maximum number of Hit Dice the Fiend possessed. If all these charges are expended, the soul is shredded and destroyed.</p><p>While you hold the stone, you can communicate telepathically with the imprisoned soul, if it is willing. You can release an imprisoned soul back to the Lower Planes as an action.</p><p><strong>Soulshred.</strong> While you hold the heart, you can expend charges from it to cast the following spells (save DC 15): <em>bane</em> (1 charge), <em>bestow curse</em> (3 charges), <em>calm emotions</em> (2 charges), <em>enrage</em>* (2 charges), <em>remove curse</em> (3 charges).</p><p>After you cast a spell in this way, you must make a Charisma check contested by the imprisoned Fiend's. On a failure, the Fiend's soul escapes and is released back to the Lower Planes, and the heart loses all its remaining charges. If a soul escapes or is released while you're on one of the Lower Planes, the Fiend can immediately materialise with all of its hit points in an unoccupied space within 10 feet of the heart.</p><p><strong>Uncommon variant:</strong> Reduce the Fiend's maximum CR to 6 and the DC to 13. Remove <em>bestow curse</em> and <em>remove curse</em> from the list of spells.</p><p><strong>Very rare variant:</strong> Increase the Fiend's maximum CR to 18 and the DC to 16. Add the <em>stoneskin</em> spell (4 charges) to the list of spells. When this spell is cast using this item, the target's skin resembles the obsidian of the heart.</p><p>*See Appendix B of Wizards of the Toast.</p>"
+    },
+    {
+      "name": "Wafer Shield",
+      "itemType": "equipment",
+      "kind": "Shield",
+      "component": "Bread Dragon Crust",
+      "baseRecipe": "Shield",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare", "value": 3000 }
+      ],
+      "description": "<p><em>Shield, rare (requires attunement)</em></p><p><strong>Component:</strong> bread dragon crust</p><p>Contrived as a means of quickly navigating the Grand Bakery of Babaganoush, wafer shields, surfing on their torrents of hot chocolate, have become an increasingly common occurrence.</p><p>While attuned to this shield, you can doff it and mount it as a bonus action. Whilst mounted, you ignore nonmagical difficult terrain, can move across the surface of liquids, and your movement speed becomes 40 feet. If you take damage while mounted, you must succeed on a Dexterity saving throw or fall off the shield, landing prone. The DC for the saving throw equals 10 or half the damage taken, whichever is higher. You can dismount the shield and don it again as a bonus action.</p><p>Once on each of your turns, if you move 20 feet in a straight line, you can whip the shield in a cool move (no action required), splashing hot chocolate all over one creature within 5 feet of you. The creature must make a Dexterity saving throw, taking 2d8 fire damage on a failure, or half as much damage on a success. The DC for the saving throw equals 8 + your Dexterity (Acrobatics) modifier.</p>"
+    },
+    {
+      "name": "Buzzkill",
+      "itemType": "weapon",
+      "kind": "Weapon (any sword)",
+      "component": "Beast Egg",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 600 },
+        { "rarity": "rare",      "value": 2500 },
+        { "rarity": "very rare", "value": 9000 }
+      ],
+      "description": "<p><em>Weapon (any sword), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Beast (swarm of bees) eggs</p><p>The waxen tunnels of this sword's hilt are home to a swarm of industrious bees, which toil away relentlessly to produce sweet, magical honey. The sword vibrates with the indignant buzz of these loyal insects whenever it's held by one not attuned to it.</p><p>This sword has 4 charges and regains all expended charges daily at dawn. Whenever you make an attack roll with this weapon without being attuned to it, you take 1d4 piercing damage as bees sting you.</p><p><strong>Honey Coating.</strong> As an action while holding this sword, you can spend 1 charge to launch a spray of sticky honey in a 20-foot cone. Each creature in the area must succeed on a DC 15 Dexterity saving throw or be covered in honey until the end of its next turn, when the honey dissolves. A creature covered in honey has disadvantage on attack rolls and Dexterity saving throws, and its speed is halved.</p><p><strong>Sugar Rush.</strong> While holding this sword, you can spend 1 charge to cast the <em>sugar rush</em> spell. When you cast the spell in this way, it has a range of touch, as you feed some of the sword's honey to the target.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 2, and the DC to 13.</p><p><strong>Very rare variant:</strong> Increase the charges to 6, and the DC to 16. The item has the Honeyed Words property.</p><p><strong>Honeyed Words.</strong> As an action, you can spend 1 charge and consume a portion of the honey, gaining advantage on Persuasion checks for 1 hour.</p>"
+    }
+  ]
+}

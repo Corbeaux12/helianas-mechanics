@@ -1,0 +1,37 @@
+{
+  "_id": "DFOeIf2G1OFzRzN0",
+  "_key": "!items!DFOeIf2G1OFzRzN0",
+  "name": "Wafer Shield (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Shield, rare (requires attunement)</em></p><p><strong>Component:</strong> bread dragon crust</p><p>Contrived as a means of quickly navigating the Grand Bakery of Babaganoush, wafer shields, surfing on their torrents of hot chocolate, have become an increasingly common occurrence.</p><p>While attuned to this shield, you can doff it and mount it as a bonus action. Whilst mounted, you ignore nonmagical difficult terrain, can move across the surface of liquids, and your movement speed becomes 40 feet. If you take damage while mounted, you must succeed on a Dexterity saving throw or fall off the shield, landing prone. The DC for the saving throw equals 10 or half the damage taken, whichever is higher. You can dismount the shield and don it again as a bonus action.</p><p>Once on each of your turns, if you move 20 feet in a straight line, you can whip the shield in a cool move (no action required), splashing hot chocolate all over one creature within 5 feet of you. The creature must make a Dexterity saving throw, taking 2d8 fire damage on a failure, or half as much damage on a success. The DC for the saving throw equals 8 + your Dexterity (Acrobatics) modifier.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

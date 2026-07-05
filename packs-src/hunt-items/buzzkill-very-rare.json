@@ -1,0 +1,37 @@
+{
+  "_id": "JMxnB04ransKmBye",
+  "_key": "!items!JMxnB04ransKmBye",
+  "name": "Buzzkill (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any sword), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Beast (swarm of bees) eggs</p><p>The waxen tunnels of this sword's hilt are home to a swarm of industrious bees, which toil away relentlessly to produce sweet, magical honey. The sword vibrates with the indignant buzz of these loyal insects whenever it's held by one not attuned to it.</p><p>This sword has 4 charges and regains all expended charges daily at dawn. Whenever you make an attack roll with this weapon without being attuned to it, you take 1d4 piercing damage as bees sting you.</p><p><strong>Honey Coating.</strong> As an action while holding this sword, you can spend 1 charge to launch a spray of sticky honey in a 20-foot cone. Each creature in the area must succeed on a DC 15 Dexterity saving throw or be covered in honey until the end of its next turn, when the honey dissolves. A creature covered in honey has disadvantage on attack rolls and Dexterity saving throws, and its speed is halved.</p><p><strong>Sugar Rush.</strong> While holding this sword, you can spend 1 charge to cast the <em>sugar rush</em> spell. When you cast the spell in this way, it has a range of touch, as you feed some of the sword's honey to the target.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 2, and the DC to 13.</p><p><strong>Very rare variant:</strong> Increase the charges to 6, and the DC to 16. The item has the Honeyed Words property.</p><p><strong>Honeyed Words.</strong> As an action, you can spend 1 charge and consume a portion of the honey, gaining advantage on Persuasion checks for 1 hour.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 9000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

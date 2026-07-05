@@ -1,0 +1,45 @@
+{
+  "_id": "61u5Lk7O0pfHmR8T",
+  "_key": "!items!61u5Lk7O0pfHmR8T",
+  "name": "Calcified Corporate Heart",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a wizards of the toast (fiend). See Wizards of the Toast (Loot Tavern hunt, APL 3/7/12).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "heart",
+        "fiend",
+        "hasbrodeus"
+      ]
+    }
+  }
+}

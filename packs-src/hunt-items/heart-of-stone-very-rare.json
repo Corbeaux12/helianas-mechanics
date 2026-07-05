@@ -1,0 +1,37 @@
+{
+  "_id": "MVrnBkg97815IAUq",
+  "_key": "!items!MVrnBkg97815IAUq",
+  "name": "Heart of Stone (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> calcified Fiend heart</p><p>When a Fiend dies near this fist-sized lump of obsidian, its soul is incarcerated within its inky confines. A creature that attunes to this petrified devil's heart learns the name of any soul imprisoned within it and can drain the soul's lifeforce to create powerful magic. However, with each interaction, there is always a chance that the Fiend can break free of this stony jail.</p><p>The heart can be used as a spellcasting focus for your spells.</p><p><strong>Soultrap.</strong> When a Fiend of CR 12 or lower dies within 10 feet of the heart and the heart doesn't already have a soul trapped within it, the Fiend's soul becomes trapped within the heart. The heart gains a number of charges equal to the maximum number of Hit Dice the Fiend possessed. If all these charges are expended, the soul is shredded and destroyed.</p><p>While you hold the stone, you can communicate telepathically with the imprisoned soul, if it is willing. You can release an imprisoned soul back to the Lower Planes as an action.</p><p><strong>Soulshred.</strong> While you hold the heart, you can expend charges from it to cast the following spells (save DC 15): <em>bane</em> (1 charge), <em>bestow curse</em> (3 charges), <em>calm emotions</em> (2 charges), <em>enrage</em>* (2 charges), <em>remove curse</em> (3 charges).</p><p>After you cast a spell in this way, you must make a Charisma check contested by the imprisoned Fiend's. On a failure, the Fiend's soul escapes and is released back to the Lower Planes, and the heart loses all its remaining charges. If a soul escapes or is released while you're on one of the Lower Planes, the Fiend can immediately materialise with all of its hit points in an unoccupied space within 10 feet of the heart.</p><p><strong>Uncommon variant:</strong> Reduce the Fiend's maximum CR to 6 and the DC to 13. Remove <em>bestow curse</em> and <em>remove curse</em> from the list of spells.</p><p><strong>Very rare variant:</strong> Increase the Fiend's maximum CR to 18 and the DC to 16. Add the <em>stoneskin</em> spell (4 charges) to the list of spells. When this spell is cast using this item, the target's skin resembles the obsidian of the heart.</p><p>*See Appendix B of Wizards of the Toast.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 8000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
