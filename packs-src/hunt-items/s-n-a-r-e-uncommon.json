@@ -1,0 +1,37 @@
+{
+  "_id": "srN2CMPY8k72SIDV",
+  "_key": "!items!srN2CMPY8k72SIDV",
+  "name": "S.N.A.R.E. (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare / legendary / artifact</em></p><p><strong>Component:</strong> Construct (divine-infused) lifespark</p><p>After the success of Heliana's tome on monster hunting, Dr. Doolots became concerned with the possible extinctions that may arise from overly zealous monster hunters. With the project-management skills a Baron Bodrum Businesses boardroom could only dream of, Doolots simultaneously oversaw the development of pocket-dimension technology, advancement in the field of biomantic cloning, and persuaded the Planes' most influential monster hunter, Heliana, that monster conservation was as valuable as putting their heads on a wall.</p><p>During use, this device simultaneously analyses a creature, sends this information to a quantum-linked receiver which creates a bespoke biome for it within a pocket dimension, and teleports that creature to the pocket dimension. This menagerie of pocket dimensions can be accessed within the Loot Tavern, which Heliana plans to make into an Astral Safari.</p><p><strong>Capture.</strong> As an action, you can arm and throw the S.N.A.R.E. at a creature within 30 feet of you. The creature must succeed on a DC 13 Charisma saving throw or be trapped inside a pocket dimension from which it can't escape by any means short of a <em>wish</em> spell. A creature with a CR of 13 or higher, or who has more than 25% of its hit point maximum automatically succeeds on this saving throw. A creature with fewer than 10% of its hit point maximum automatically fails on this saving throw.</p><p>The pocket dimension has the correct terrain, humidity, and other environmental factors required for the creature to flourish.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the CR of creatures that automatically succeed to 17+.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the CR of creatures that automatically succeed to 21+.</p><p><strong>Legendary variant:</strong> Increase the DC to 17 and the CR of creatures that automatically succeed to 25+.</p><p><strong>Artifact variant:</strong> Increase the DC to 18 and the CR of creatures that automatically succeed to 29+.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

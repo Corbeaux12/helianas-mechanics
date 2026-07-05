@@ -1,0 +1,1051 @@
+{
+  "_id": "BbWolsUfRxsmkR1p",
+  "_key": "!journal!BbWolsUfRxsmkR1p",
+  "name": "Laceleaf Mantid Recipes",
+  "pages": [
+    {
+      "_id": "o2WEyiFafYwqDVWW",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Leaf Or Death (Loot Tavern hunt, APL 3/7/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Phial of sap (12)</td></tr><tr><td>10</td><td>Pouch of leaves (8), Pouch of seeds (4)</td></tr><tr><td>15</td><td>Armscythe (2), Bloom (4), Pouch of pollen (8)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.OIp3Vixw7SvmGj5t]{Green Reaper (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.72iF43sFQQpaU05A]{Green Reaper (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.xZQSEexLA90Io8Y0]{Green Reaper (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.NBjaxvEZxUpcj5DB]{Laceleaf Bloom (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.zTiaGfYg01SQkKji]{Laceleaf Bloom (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Iqf5rWHV3cgLB1v3]{Laceleaf Bloom (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.cvSfPJZu219tSufO]{Shrub Shroud (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.xxicbZ3BWgS3JELJ]{Shrub Shroud (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.353JamD8H4JERkE2]{Shrub Shroud (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.VdjReI0QSDXxqNj4]{Skittershot (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.hQIQCSTUAhdTiC3f]{Skittershot (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.t2138w8XWXu06jPE]{Skittershot (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.srN2CMPY8k72SIDV]{S.N.A.R.E. (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Xg38fyYALq4dGdoj]{S.N.A.R.E. (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Ogh7VHgaXfrSdR0l]{S.N.A.R.E. (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.TfYg0mQsMvaPJ4af]{S.N.A.R.E. (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.2GN9T31QyY5cw11U]{S.N.A.R.E. (Artifact)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.cT01ZBgdHd9uRaK1]{Honeydew (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.o2WEyiFafYwqDVWW"
+    },
+    {
+      "_id": "1iu4sU9gETa2fda4",
+      "name": "Laceleaf Mantid (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Leaf Or Death/HBH-Leaf_Or_Death-v1.0-PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.1iu4sU9gETa2fda4"
+    },
+    {
+      "_id": "rJKzaKcxGcaKmxXf",
+      "name": "Green Reaper (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Green Reaper (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.OIp3Vixw7SvmGj5t",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "iGO0hUtpk6crmlHR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lvWImBDVldyvXD2u",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.LRUrNv55yyc9fuJA",
+                "name": "Laceleaf Mantid Armscythe",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "armscythe",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.rJKzaKcxGcaKmxXf"
+    },
+    {
+      "_id": "RhtnY0c2GcBWThM1",
+      "name": "Green Reaper (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Green Reaper (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.72iF43sFQQpaU05A",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "N7RZlef9e51vDCje",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0UwNR6nQ5VhvTZUF",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.LRUrNv55yyc9fuJA",
+                "name": "Laceleaf Mantid Armscythe",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "armscythe",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.RhtnY0c2GcBWThM1"
+    },
+    {
+      "_id": "ePy4cGouN6O5towU",
+      "name": "Green Reaper (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Green Reaper (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.xZQSEexLA90Io8Y0",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rbk4VdAxETbDWDu7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5sGkMgwgoLktn5sQ",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.LRUrNv55yyc9fuJA",
+                "name": "Laceleaf Mantid Armscythe",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "armscythe",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.ePy4cGouN6O5towU"
+    },
+    {
+      "_id": "70Grq5WBjeW25Cqr",
+      "name": "Laceleaf Bloom (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Laceleaf Bloom (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.NBjaxvEZxUpcj5DB",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "u2Ft2C5FtXKIv1yc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ohL7ht36594rZ5qd",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.UyHBz1yzpa0LwFKL",
+                "name": "Laceleaf Mantid Bloom",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bloom",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "plant",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.70Grq5WBjeW25Cqr"
+    },
+    {
+      "_id": "7n3dt5tBBqkEG9tI",
+      "name": "Laceleaf Bloom (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Laceleaf Bloom (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.zTiaGfYg01SQkKji",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MTf7oRwusq7wa6YJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "gtDTC142bZXXwUXp",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.UyHBz1yzpa0LwFKL",
+                "name": "Laceleaf Mantid Bloom",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bloom",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.7n3dt5tBBqkEG9tI"
+    },
+    {
+      "_id": "38Le5LFUQVgiawGa",
+      "name": "Laceleaf Bloom (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Laceleaf Bloom (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Iqf5rWHV3cgLB1v3",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xcev5q3hg4yWS1bP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rZL1KV2huy2Lq0kf",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.UyHBz1yzpa0LwFKL",
+                "name": "Laceleaf Mantid Bloom",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bloom",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.38Le5LFUQVgiawGa"
+    },
+    {
+      "_id": "3JVc2X34QRZVUoFQ",
+      "name": "Shrub Shroud (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shrub Shroud (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.cvSfPJZu219tSufO",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "tHffWb9gliQWiRJ2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HeAGI6p73npR0s7j",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.e2b0SHljxFPuNCkZ",
+                "name": "Pouch of Laceleaf Mantid Leaves",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "leaves",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.3JVc2X34QRZVUoFQ"
+    },
+    {
+      "_id": "GY7M9u58hP7wR189",
+      "name": "Shrub Shroud (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shrub Shroud (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.xxicbZ3BWgS3JELJ",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qh3tMQcnqAnH1EIA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "m51Zrz6ToF5RYv8s",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.e2b0SHljxFPuNCkZ",
+                "name": "Pouch of Laceleaf Mantid Leaves",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "leaves",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.GY7M9u58hP7wR189"
+    },
+    {
+      "_id": "1OvISJVBB4Vncrr8",
+      "name": "Shrub Shroud (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shrub Shroud (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.353JamD8H4JERkE2",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "r4K7RATLQfHTjDuQ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2r8xrM4K3J2SX3uI",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.e2b0SHljxFPuNCkZ",
+                "name": "Pouch of Laceleaf Mantid Leaves",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "leaves",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.1OvISJVBB4Vncrr8"
+    },
+    {
+      "_id": "4jOLactLswvYcasL",
+      "name": "Skittershot (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Skittershot (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.VdjReI0QSDXxqNj4",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ksWfhzh1r4U23dBR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Au8UBMC8l49oFu5V",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.P8YgMnuElqkMNm1Z",
+                "name": "Phial of Laceleaf Mantid Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "sap",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.4jOLactLswvYcasL"
+    },
+    {
+      "_id": "cuq5HL8bSgcDrxMx",
+      "name": "Skittershot (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Skittershot (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.hQIQCSTUAhdTiC3f",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "R0iNbtzWRJmBQqQv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "sUZDwPJtBeAYZ7cf",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.P8YgMnuElqkMNm1Z",
+                "name": "Phial of Laceleaf Mantid Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "sap",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.cuq5HL8bSgcDrxMx"
+    },
+    {
+      "_id": "Qke2j65QbfILYtzM",
+      "name": "Skittershot (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Skittershot (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.t2138w8XWXu06jPE",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DFbpyxJ5pG1mWyCL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "EA7cYoKB91QmG9t0",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.P8YgMnuElqkMNm1Z",
+                "name": "Phial of Laceleaf Mantid Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "sap",
+                  "laceleaf-mantid",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.Qke2j65QbfILYtzM"
+    },
+    {
+      "_id": "z60RrOjP74n85oSr",
+      "name": "S.N.A.R.E. (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "S.N.A.R.E. (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.srN2CMPY8k72SIDV",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "L1xqWXBi4pG072aY",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vJmN5em196108CYk",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "lifespark"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.z60RrOjP74n85oSr"
+    },
+    {
+      "_id": "qqHGeTI4S4VP68Ql",
+      "name": "S.N.A.R.E. (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "S.N.A.R.E. (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Xg38fyYALq4dGdoj",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5OFsLScynce7JZtd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qeE15VfNfemHnpd6",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "lifespark"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.qqHGeTI4S4VP68Ql"
+    },
+    {
+      "_id": "FDi7WqcYN0J8YhMi",
+      "name": "S.N.A.R.E. (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "S.N.A.R.E. (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Ogh7VHgaXfrSdR0l",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZkkON9UKYJ3Z6KPz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "wwbwVaDQ3VS9RE77",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "lifespark"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.FDi7WqcYN0J8YhMi"
+    },
+    {
+      "_id": "mIIjNnQVVusTLB3f",
+      "name": "S.N.A.R.E. (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "S.N.A.R.E. (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.TfYg0mQsMvaPJ4af",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Yvq467CTjL3X3I8G",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "saSOXkasgilW73ZX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "lifespark"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "plant",
+        "rarity": "legendary",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.mIIjNnQVVusTLB3f"
+    },
+    {
+      "_id": "min0GKFq25phPxsh",
+      "name": "S.N.A.R.E. (Artifact)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "S.N.A.R.E. (Artifact)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.2GN9T31QyY5cw11U",
+        "resultQuantity": 1,
+        "dc": 30,
+        "timeHours": 100000,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "I41KZaB6aXOhQPCT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tcFq1TO9A4i8pe1F",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.nxwXhGc8NBLA5XuM",
+                "name": "Construct Lifespark",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "lifespark"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "deific",
+        "componentCreatureType": "plant",
+        "rarity": "artifact",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 30,
+        "enchantingTimeHours": 100000
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.min0GKFq25phPxsh"
+    },
+    {
+      "_id": "SeuwjMxe9up1nvSD",
+      "name": "Honeydew (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Honeydew (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.cT01ZBgdHd9uRaK1",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qap3KCXYyPmIqZMH",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KQGAtcgGpIo4Fcew",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "plant",
+                  "sap"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!BbWolsUfRxsmkR1p.SeuwjMxe9up1nvSD"
+    }
+  ],
+  "folder": null,
+  "sort": 10500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

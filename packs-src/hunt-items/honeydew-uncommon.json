@@ -1,0 +1,37 @@
+{
+  "_id": "cT01ZBgdHd9uRaK1",
+  "_key": "!items!cT01ZBgdHd9uRaK1",
+  "name": "Honeydew (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, uncommon</em></p><p><strong>Component:</strong> Phial of Plant (festersap) sap</p><p><em>\"More stimulating than a Branton Quark Wand of Lightning Bolts earthing itself through you, and twice as tasty! Grab yourself a venti, double-foam, triple-honeycomb, iced frappedew at your local Starstags today!\"</em> — Sunstags Sales Rep</p><p>A drop in a morning cup of guava juice gives any Humanoid worth their adenosine receptors a zip to their day. A whole phial of the stuff has especially invigorating effects. As a bonus action, you can drink this phial of Honeydew to gain the effects of the <em>sugar rush</em> spell for the next minute.</p><p>After the effects expire, you must make a Constitution saving throw or gain 1 level of exhaustion. The DC for this saving throw equals 8 plus 4 for each additional Honeydew you have consumed in the past week.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 150,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

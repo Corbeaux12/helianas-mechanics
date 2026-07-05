@@ -1,0 +1,37 @@
+{
+  "_id": "t2138w8XWXu06jPE",
+  "_key": "!items!t2138w8XWXu06jPE",
+  "name": "Skittershot (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any firearm), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Plant (laceleaf mantid) phial of sap</p><p>What's this? A toasty and festive tavern woefully underpopulated by skitaz? A gun that fires large swarms of skitaz ought to put a stop to that!</p><p>This weapon has 3 charges, represented by the sacs of buzzing insects at the base of its barrel, and regains all expended charges daily at dawn.</p><p><strong>Right to Bear Swarms.</strong> As an action while holding this weapon, you can expend 1 charge to shoot a stream of insects from the barrel, which coalesce into a swarm of skitaz in an unoccupied space within 30 feet of you. In combat, the swarm shares your initiative count, but it takes its turn immediately after yours. As long as you're holding this weapon, the swarm is an ally to you and your companions and obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger. If you stop holding the gun for any reason, the swarm ceases to be an ally, no longer obeys your commands, and is hostile to all creatures. The swarm disperses if it drops to 0 hit points or after 1 minute.</p><p>For each charge beyond the first that you expend to use this property, there's a cumulative 50% chance that the summoned swarm doesn't obey your commands, and is hostile to all creatures instead.</p><p><strong>Rare variant:</strong> When you expend the second and third charges for the Right to Bear Swarms property, you summon a scourge of skitaz instead. The weapon has the Unburdened property.</p><p><strong>Unburdened.</strong> Once the weapon has no charges left, the lack of angry buzzing makes it surprisingly stable, and you gain a +1 bonus to attack and damage rolls made with it.</p><p><strong>Very rare variant:</strong> When you expend the second charge for the Right to Bear Swarms property, you summon a scourge of skitaz instead. When you expend the third, you summon a scourge of dire skitaz instead. The weapon has the Unburdened property; increase the property's attack and damage bonus to +2.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 8240,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

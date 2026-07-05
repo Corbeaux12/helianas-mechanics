@@ -1,0 +1,37 @@
+{
+  "_id": "zTiaGfYg01SQkKji",
+  "_key": "!items!zTiaGfYg01SQkKji",
+  "name": "Laceleaf Bloom (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item (socketable), common / uncommon / rare (optional attunement)</em></p><p><strong>Component:</strong> Plant (laceleaf mantid) bloom</p><p>Socketable onto any armour or headgear, this red-petalled flower produces an entirely neutral scent, masking the wearer.</p><p><strong>Scent Agnostic.</strong> While you wear the item to which this bloom is attached, creatures have disadvantage on Perception checks to find you that rely on smell.</p><p><strong>Uncommon variant:</strong> The bloom gains the Pollen Plume property.</p><p><strong>Optional Attunement: Pollen Plume.</strong> As a reaction when a creature you can see targets you with an attack, you can cast the <em>smokescreen</em> cantrip, heavily obscuring you immediately before the creature makes its attack. Once this property has been used, it can't be used again until the following dawn.</p><p><strong>Rare variant:</strong> The bloom gains the Pollen Plume property. When you use the Pollen Plume property, each other creature in the area of the smokescreen must succeed on a DC 15 Constitution saving throw or lie down prone and have a speed of 0 feet until the end of its next turn.</p><p><em>Smokescreen (conjuration cantrip): a 5-foot-diameter, 10-foot-high cylinder of dense black smoke centred on you until the start of your next turn; heavily obscures its area; can stay put or move with you. The cloud grows at 5th/11th/17th level (15/25/40 ft. maximum).</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 280,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

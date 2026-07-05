@@ -41,9 +41,14 @@ Expected automation coverage per boss: ~70–80 % of actions (plain attacks and 
 | Jörmungummdr (Ascent of the Sour Serpent) | ✅ 3 items (8 tiers) | ✅ | ✅ | ✅ | ⬜ |
 | Adelifae & Scarab (Garden of Dark Delights) | ✅ 6 items × 3 tiers¹ | ✅ | ✅ | ✅ | ⬜ |
 | Bloodhound (The Twilight Hunter) | ✅ 4 items (13 tiers)² | ✅ | ✅ | ✅ | ⬜ |
+| Laceleaf Mantid (Leaf Or Death) | ✅ 6 items (18 tiers)⁴ | ✅ | ✅ | ✅ | ⬜ |
+| Briar Lord (Field Notes X-38) | n/a | n/a | n/a | ⬜ | ✅ pilot actor |
 | Leaf Or Death · Wizards of the Toast · Cold Blood³ · Bloodfrost of the Fey · Flames of the Faithful · Lure of the Shadowstalker · March of the Living Oasis · The Good/Bad/Oni · Bones N' Roses · Chaos at the Coral Court³ · Dark Wings · Queen of Shadow & Thorn · Spectres of Midwinter · Timekeeper's Trials · Just Desserts · Coral Hive · Throne of the Devourer · Den of the Deceiver · Forge of the Divine Machine · Dragonfruit · Synaptic Shiver · Timeless Tyrant · End Times | ⬜ texts extracted, awaiting transcription | ⬜ | ⬜ | ⬜ | ⬜ |
 | — X/P field-note bosses (no items) | n/a | n/a | n/a | ⬜ | ⬜ |
 
 ¹ Herculean Horn & Silkspun Lantern values are estimated (they're quest rewards; the PDF prints no price). Herculean Horn uses the generic harvesting component (Monstrosity Horn).
 ² Cranium Rat Cowl values estimated (appendix bonus item, no price printed). The "Bloody Hairy" magical meal was skipped (cooking recipe with variable rarity — needs a schema extension).
 ³ Cold Blood on the Scorching Sand and Chaos at the Coral Court use a different section layout — their crafting text needs manual carving.
+⁴ S.N.A.R.E. and Honeydew values estimated (appendix bonus items, no printed price); Juice of Partial Polymorph skipped (no crafting component printed).
+
+**Field-notes actors (new phase, started):** `tools/data/actors/*.json` → hunt-bestiary Actor pack. Briar Lord is the pilot: full stats, senses, immunities, CR, skills, portrait + POG token from `_Art`, and all 7 traits/actions as description-complete feature items. ~34 field-note bosses remain, one PDF transcription each; attack-roll automation is a later pass.

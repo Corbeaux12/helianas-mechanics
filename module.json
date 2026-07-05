@@ -83,6 +83,14 @@
       "type": "Item",
       "system": "dnd5e",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "hunt-bestiary",
+      "label": "Heliana's Hunt Bestiary",
+      "path": "packs/hunt-bestiary",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": { "PLAYER": "LIMITED", "ASSISTANT": "OWNER" }
     }
   ],
   "relationships": {
@@ -103,7 +111,8 @@
         "forge-recipes",
         "cooking-recipes",
         "recipe-collections",
-        "hunt-items"
+        "hunt-items",
+        "hunt-bestiary"
       ]
     }
   ],

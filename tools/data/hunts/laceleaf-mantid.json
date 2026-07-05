@@ -1,0 +1,103 @@
+{
+  "name": "Laceleaf Mantid",
+  "source": "Leaf Or Death (Loot Tavern hunt, APL 3/7/12)",
+  "creatureType": "plant",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Leaf Or Death/HBH-Leaf_Or_Death-v1.0-PAGES.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Phial of sap (12)"] },
+    { "dc": 10, "components": ["Pouch of leaves (8)", "Pouch of seeds (4)"] },
+    { "dc": 15, "components": ["Armscythe (2)", "Bloom (4)", "Pouch of pollen (8)"] }
+  ],
+  "components": [
+    { "name": "Phial of Laceleaf Mantid Sap",    "tags": ["sap", "laceleaf-mantid", "plant"],     "price": 15 },
+    { "name": "Pouch of Laceleaf Mantid Leaves", "tags": ["leaves", "laceleaf-mantid", "plant"],  "price": 30 },
+    { "name": "Laceleaf Mantid Armscythe",       "tags": ["armscythe", "laceleaf-mantid", "plant"], "price": 90 },
+    { "name": "Laceleaf Mantid Bloom",           "tags": ["bloom", "laceleaf-mantid", "plant"],   "price": 60 }
+  ],
+  "items": [
+    {
+      "name": "Green Reaper",
+      "itemType": "weapon",
+      "kind": "Weapon (glaive or halberd)",
+      "component": "Laceleaf Mantid Armscythe",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 700 },
+        { "rarity": "rare",      "value": 3540 },
+        { "rarity": "very rare", "value": 13150 }
+      ],
+      "description": "<p><em>Weapon (glaive or halberd), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Plant (laceleaf mantid) armscythe</p><p>Razor-thin yet sturdy as steel, the forelegs of a laceleaf mantid are among the sharpest organic materials known to magizooloogists. The dexterously-challenged should ignore the mesmerising colours and avoid handling these at all costs—paper cuts are already bad enough when they don't also leak acid into the wound.</p><p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. The weapon has 4 charges and regains all expended charges daily at dawn.</p><p><strong>Every Rose…</strong> As a bonus action while holding this weapon, you can expend 1 charge to release alluring pheromones into the air. Up to three creatures of your choice within 30 feet of you must each make a DC 16 Wisdom saving throw. On a failed save, a creature moves up to its Speed towards you at the start of its next turn, before taking any other actions, avoiding hazardous terrain. It can't move away from you until the end of that turn.</p><p><strong>Has Its Thorns.</strong> As an action while holding this weapon, you can expend 2 charges to cause its blade to drip with acid, then swing it in a wide circle. Each creature within 10 feet of you must make a DC 16 Dexterity saving throw, taking 4d10 slashing damage and 2d10 acid damage on a failed save, or half as much damage on a successful one.</p><p><strong>Uncommon variant:</strong> Reduce the number of creatures you can target with the 'Every Rose…' property to one, the DCs to 13, and the slashing damage to 2d10. The weapon doesn't have an attack and damage bonus.</p><p><strong>Rare variant:</strong> Reduce the attack and damage bonus to +1, the number of creatures you can target with the 'Every Rose…' property to two, the DCs to 15, and the slashing damage to 3d10.</p>"
+    },
+    {
+      "name": "Laceleaf Bloom",
+      "itemType": "equipment",
+      "kind": "Wondrous item (socketable)",
+      "component": "Laceleaf Mantid Bloom",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common",   "value": 90 },
+        { "rarity": "uncommon", "value": 280 },
+        { "rarity": "rare",     "value": 1470 }
+      ],
+      "description": "<p><em>Wondrous item (socketable), common / uncommon / rare (optional attunement)</em></p><p><strong>Component:</strong> Plant (laceleaf mantid) bloom</p><p>Socketable onto any armour or headgear, this red-petalled flower produces an entirely neutral scent, masking the wearer.</p><p><strong>Scent Agnostic.</strong> While you wear the item to which this bloom is attached, creatures have disadvantage on Perception checks to find you that rely on smell.</p><p><strong>Uncommon variant:</strong> The bloom gains the Pollen Plume property.</p><p><strong>Optional Attunement: Pollen Plume.</strong> As a reaction when a creature you can see targets you with an attack, you can cast the <em>smokescreen</em> cantrip, heavily obscuring you immediately before the creature makes its attack. Once this property has been used, it can't be used again until the following dawn.</p><p><strong>Rare variant:</strong> The bloom gains the Pollen Plume property. When you use the Pollen Plume property, each other creature in the area of the smokescreen must succeed on a DC 15 Constitution saving throw or lie down prone and have a speed of 0 feet until the end of its next turn.</p><p><em>Smokescreen (conjuration cantrip): a 5-foot-diameter, 10-foot-high cylinder of dense black smoke centred on you until the start of your next turn; heavily obscures its area; can stay put or move with you. The cloud grows at 5th/11th/17th level (15/25/40 ft. maximum).</em></p>"
+    },
+    {
+      "name": "Shrub Shroud",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Pouch of Laceleaf Mantid Leaves",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 470 },
+        { "rarity": "rare",      "value": 1580 },
+        { "rarity": "very rare", "value": 8530 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Pouch of Plant (laceleaf mantid) leaves</p><p><em>\"It is a good shrubbery. But before you go cut down a tree with that herring... Are you absolutely certain that the shrubbery isn't in fact a crazed, murderous halfling rogue just waiting to jump us the moment we let down our guard? Because we've been burned before...\"</em> — The Knights Who Say Mi, About to Be Burned a Second Time</p><p><strong>Am Bush.</strong> As an action while wearing this cloak, you can cover yourself in it completely. While you remain motionless in this state, you're indistinguishable from a regular bush of a kind of your choice. If a creature hasn't seen you move or act, it can take the Study action to attempt a DC 15 Intelligence (Investigation) check, identifying the bush as fake on a success.</p><p><strong>Ambush.</strong> If you roll for initiative while disguised as a bush and no hostile creature has identified the bush as fake, you have advantage on the roll, and your attacks deal an extra 1d8 damage of their type until the end of your first turn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13. Remove the Ambush property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the damage to 1d12. While wearing this cloak, Plant creatures of CR 1 or lower are indifferent towards you and don't attack you unless provoked. In addition, you can cast the <em>speak with plants</em> spell. Once the spell has been cast using the cloak, it can't be cast with it again until the next dawn.</p>"
+    },
+    {
+      "name": "Skittershot",
+      "itemType": "weapon",
+      "kind": "Weapon (any firearm)",
+      "component": "Phial of Laceleaf Mantid Sap",
+      "baseRecipe": "Magitech Firearm",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 360 },
+        { "rarity": "rare",      "value": 2060 },
+        { "rarity": "very rare", "value": 8240 }
+      ],
+      "description": "<p><em>Weapon (any firearm), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Plant (laceleaf mantid) phial of sap</p><p>What's this? A toasty and festive tavern woefully underpopulated by skitaz? A gun that fires large swarms of skitaz ought to put a stop to that!</p><p>This weapon has 3 charges, represented by the sacs of buzzing insects at the base of its barrel, and regains all expended charges daily at dawn.</p><p><strong>Right to Bear Swarms.</strong> As an action while holding this weapon, you can expend 1 charge to shoot a stream of insects from the barrel, which coalesce into a swarm of skitaz in an unoccupied space within 30 feet of you. In combat, the swarm shares your initiative count, but it takes its turn immediately after yours. As long as you're holding this weapon, the swarm is an ally to you and your companions and obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger. If you stop holding the gun for any reason, the swarm ceases to be an ally, no longer obeys your commands, and is hostile to all creatures. The swarm disperses if it drops to 0 hit points or after 1 minute.</p><p>For each charge beyond the first that you expend to use this property, there's a cumulative 50% chance that the summoned swarm doesn't obey your commands, and is hostile to all creatures instead.</p><p><strong>Rare variant:</strong> When you expend the second and third charges for the Right to Bear Swarms property, you summon a scourge of skitaz instead. The weapon has the Unburdened property.</p><p><strong>Unburdened.</strong> Once the weapon has no charges left, the lack of angry buzzing makes it surprisingly stable, and you gain a +1 bonus to attack and damage rolls made with it.</p><p><strong>Very rare variant:</strong> When you expend the second charge for the Right to Bear Swarms property, you summon a scourge of skitaz instead. When you expend the third, you summon a scourge of dire skitaz instead. The weapon has the Unburdened property; increase the property's attack and damage bonus to +2.</p>"
+    },
+    {
+      "name": "S.N.A.R.E.",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Construct Lifespark",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 500 },
+        { "rarity": "rare",      "value": 2500 },
+        { "rarity": "very rare", "value": 9500 },
+        { "rarity": "legendary", "value": 30000 },
+        { "rarity": "artifact",  "value": 100000 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare / legendary / artifact</em></p><p><strong>Component:</strong> Construct (divine-infused) lifespark</p><p>After the success of Heliana's tome on monster hunting, Dr. Doolots became concerned with the possible extinctions that may arise from overly zealous monster hunters. With the project-management skills a Baron Bodrum Businesses boardroom could only dream of, Doolots simultaneously oversaw the development of pocket-dimension technology, advancement in the field of biomantic cloning, and persuaded the Planes' most influential monster hunter, Heliana, that monster conservation was as valuable as putting their heads on a wall.</p><p>During use, this device simultaneously analyses a creature, sends this information to a quantum-linked receiver which creates a bespoke biome for it within a pocket dimension, and teleports that creature to the pocket dimension. This menagerie of pocket dimensions can be accessed within the Loot Tavern, which Heliana plans to make into an Astral Safari.</p><p><strong>Capture.</strong> As an action, you can arm and throw the S.N.A.R.E. at a creature within 30 feet of you. The creature must succeed on a DC 13 Charisma saving throw or be trapped inside a pocket dimension from which it can't escape by any means short of a <em>wish</em> spell. A creature with a CR of 13 or higher, or who has more than 25% of its hit point maximum automatically succeeds on this saving throw. A creature with fewer than 10% of its hit point maximum automatically fails on this saving throw.</p><p>The pocket dimension has the correct terrain, humidity, and other environmental factors required for the creature to flourish.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the CR of creatures that automatically succeed to 17+.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the CR of creatures that automatically succeed to 21+.</p><p><strong>Legendary variant:</strong> Increase the DC to 17 and the CR of creatures that automatically succeed to 25+.</p><p><strong>Artifact variant:</strong> Increase the DC to 18 and the CR of creatures that automatically succeed to 29+.</p>"
+    },
+    {
+      "name": "Honeydew",
+      "itemType": "consumable",
+      "kind": "Potion",
+      "component": "Phial of Plant Sap",
+      "baseRecipe": "Potion Base",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 150 }
+      ],
+      "description": "<p><em>Potion, uncommon</em></p><p><strong>Component:</strong> Phial of Plant (festersap) sap</p><p><em>\"More stimulating than a Branton Quark Wand of Lightning Bolts earthing itself through you, and twice as tasty! Grab yourself a venti, double-foam, triple-honeycomb, iced frappedew at your local Starstags today!\"</em> — Sunstags Sales Rep</p><p>A drop in a morning cup of guava juice gives any Humanoid worth their adenosine receptors a zip to their day. A whole phial of the stuff has especially invigorating effects. As a bonus action, you can drink this phial of Honeydew to gain the effects of the <em>sugar rush</em> spell for the next minute.</p><p>After the effects expire, you must make a Constitution saving throw or gain 1 level of exhaustion. The DC for this saving throw equals 8 plus 4 for each additional Honeydew you have consumed in the past week.</p>"
+    }
+  ]
+}

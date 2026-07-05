@@ -1,0 +1,37 @@
+{
+  "_id": "xxicbZ3BWgS3JELJ",
+  "_key": "!items!xxicbZ3BWgS3JELJ",
+  "name": "Shrub Shroud (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Pouch of Plant (laceleaf mantid) leaves</p><p><em>\"It is a good shrubbery. But before you go cut down a tree with that herring... Are you absolutely certain that the shrubbery isn't in fact a crazed, murderous halfling rogue just waiting to jump us the moment we let down our guard? Because we've been burned before...\"</em> — The Knights Who Say Mi, About to Be Burned a Second Time</p><p><strong>Am Bush.</strong> As an action while wearing this cloak, you can cover yourself in it completely. While you remain motionless in this state, you're indistinguishable from a regular bush of a kind of your choice. If a creature hasn't seen you move or act, it can take the Study action to attempt a DC 15 Intelligence (Investigation) check, identifying the bush as fake on a success.</p><p><strong>Ambush.</strong> If you roll for initiative while disguised as a bush and no hostile creature has identified the bush as fake, you have advantage on the roll, and your attacks deal an extra 1d8 damage of their type until the end of your first turn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13. Remove the Ambush property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the damage to 1d12. While wearing this cloak, Plant creatures of CR 1 or lower are indifferent towards you and don't attack you unless provoked. In addition, you can cast the <em>speak with plants</em> spell. Once the spell has been cast using the cloak, it can't be cast with it again until the next dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1580,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

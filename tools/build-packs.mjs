@@ -869,6 +869,93 @@ function buildHuntPacks() {
   return { itemDocs, journals };
 }
 
+// ------------------------------------------------------------- bestiary pack
+//
+// Boss actors hand-transcribed from the Field Notes / hunt PDFs into
+// tools/data/actors/*.json. Phase 1 ships stats + every trait/action as a
+// feature item with its full rules text; attack automation comes later.
+
+const SKILL_ABILITY = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
+const CATEGORY_ACTIVATION = { action: "action", bonus: "bonus", reaction: "reaction", legendary: "legendary", trait: "" };
+
+function buildBestiary() {
+  const dir = path.join(ROOT, "tools", "data", "actors");
+  let files = [];
+  try { files = readdirSync(dir).filter(f => f.endsWith(".json")); } catch { return []; }
+
+  return files.map(file => {
+    const a = JSON.parse(readFileSync(path.join(dir, file), "utf8"));
+    const _id = did(`actor:${a.name}`);
+
+    const abilities = {};
+    for (const [key, value] of Object.entries(a.abilities)) {
+      abilities[key] = { value, proficient: a.saveProfs?.includes(key) ? 1 : 0 };
+    }
+    const skills = {};
+    for (const [key, mult] of Object.entries(a.skills ?? {})) {
+      skills[key] = { value: mult, ability: SKILL_ABILITY[key] };
+    }
+
+    const items = (a.features ?? []).map((f, i) => {
+      const iid = did(`actorfeat:${a.name}:${f.name}`);
+      return {
+        _id: iid, _key: `!actors.items!${_id}.${iid}`,
+        name: f.name, type: "feat",
+        img: "icons/svg/aura.svg",
+        system: {
+          description: { value: f.description, chat: "" },
+          type: { value: "monster", subtype: "" },
+          activation: { type: CATEGORY_ACTIVATION[f.category] ?? "", cost: CATEGORY_ACTIVATION[f.category] ? 1 : null, condition: "" },
+          requirements: "", uses: { spent: 0, recovery: [] }, activities: {},
+        },
+        effects: [], sort: (i + 1) * 100, ownership: { default: 0 }, flags: {},
+      };
+    });
+
+    const size = a.size ?? "med";
+    const tokenScale = { tiny: 0.5, sm: 1, med: 1, lg: 2, huge: 3, grg: 4 }[size] ?? 1;
+
+    return {
+      _id, _key: `!actors!${_id}`,
+      name: a.name, type: "npc",
+      img: a.img ?? "icons/svg/mystery-man.svg",
+      system: {
+        abilities,
+        attributes: {
+          ac: { flat: a.ac, calc: "flat" },
+          hp: { value: a.hp.value, max: a.hp.value, formula: a.hp.formula ?? "" },
+          movement: { units: "ft", ...a.speed },
+          senses: { units: "ft", ...(a.senses ?? {}) },
+        },
+        details: {
+          biography: { value: `${a.biography ?? ""}<p><em>Source: ${a.source}</em></p>`, public: "" },
+          alignment: a.alignment ?? "",
+          type: { value: a.creatureType, subtype: "", custom: "" },
+          cr: a.cr,
+        },
+        traits: {
+          size,
+          languages: { value: (a.languages ?? []).map(l => l.toLowerCase()), custom: "" },
+          di: { value: a.di ?? [], custom: "" },
+          dv: { value: a.dv ?? [], custom: "" },
+          da: { value: a.da ?? [], custom: "" },
+          ci: { value: a.ci ?? [], custom: "" },
+        },
+        skills,
+      },
+      items,
+      effects: [],
+      prototypeToken: {
+        name: a.name,
+        width: tokenScale, height: tokenScale,
+        texture: { src: a.token ?? a.img ?? "icons/svg/mystery-man.svg" },
+        actorLink: false, disposition: -1,
+      },
+      folder: null, sort: 0, ownership: { default: 0 }, flags: {},
+    };
+  });
+}
+
 // ------------------------------------------------------------------ build
 
 async function writeSourcesAndCompile(packName, docs) {
@@ -893,5 +980,6 @@ await writeSourcesAndCompile("cooking-recipes", buildCookingJournals());
 const huntPacks = buildHuntPacks();
 await writeSourcesAndCompile("recipe-collections", [...buildCollectionJournals(), ...huntPacks.journals]);
 await writeSourcesAndCompile("hunt-items", huntPacks.itemDocs);
+await writeSourcesAndCompile("hunt-bestiary", buildBestiary());
 
 console.log("Done.");

@@ -1,0 +1,37 @@
+{
+  "_id": "72iF43sFQQpaU05A",
+  "_key": "!items!72iF43sFQQpaU05A",
+  "name": "Green Reaper (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (glaive or halberd), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Plant (laceleaf mantid) armscythe</p><p>Razor-thin yet sturdy as steel, the forelegs of a laceleaf mantid are among the sharpest organic materials known to magizooloogists. The dexterously-challenged should ignore the mesmerising colours and avoid handling these at all costs—paper cuts are already bad enough when they don't also leak acid into the wound.</p><p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. The weapon has 4 charges and regains all expended charges daily at dawn.</p><p><strong>Every Rose…</strong> As a bonus action while holding this weapon, you can expend 1 charge to release alluring pheromones into the air. Up to three creatures of your choice within 30 feet of you must each make a DC 16 Wisdom saving throw. On a failed save, a creature moves up to its Speed towards you at the start of its next turn, before taking any other actions, avoiding hazardous terrain. It can't move away from you until the end of that turn.</p><p><strong>Has Its Thorns.</strong> As an action while holding this weapon, you can expend 2 charges to cause its blade to drip with acid, then swing it in a wide circle. Each creature within 10 feet of you must make a DC 16 Dexterity saving throw, taking 4d10 slashing damage and 2d10 acid damage on a failed save, or half as much damage on a successful one.</p><p><strong>Uncommon variant:</strong> Reduce the number of creatures you can target with the 'Every Rose…' property to one, the DCs to 13, and the slashing damage to 2d10. The weapon doesn't have an attack and damage bonus.</p><p><strong>Rare variant:</strong> Reduce the attack and damage bonus to +1, the number of creatures you can target with the 'Every Rose…' property to two, the DCs to 15, and the slashing damage to 3d10.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3540,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
