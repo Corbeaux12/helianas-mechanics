@@ -1,0 +1,37 @@
+{
+  "_id": "uTj00jFe72zUJSTv",
+  "_key": "!items!uTj00jFe72zUJSTv",
+  "name": "Pommel of Possibility (Common)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common (socketable)</em></p><p><strong>Component:</strong> Aberration eye</p><p>Most people tap into the infinite possibilities of alternate realities to reunite with a deceased family member, steal a powerful artifact, or learn the answer to an inscrutable mystery. But making a sword electric is good, too.</p><p>You can socket this item onto any weapon, replacing its existing pommel or adding an ornament to a weapon that doesn't have a pommel, such as a bow. The item has 3 charges and regains all expended charges daily at dawn.</p><p>When you craft or find this item, roll a d10 four times, rerolling duplicates, and consult the table below to determine the item's associated damage types.</p><p><strong>d10 Damage Type:</strong> 1 Acid, 2 Cold, 3 Fire, 4 Force, 5 Lightning, 6 Necrotic, 7 Poison, 8 Psychic, 9 Radiant, 10 Thunder.</p><p><strong>Minor Warp.</strong> As a Bonus Action while holding the socketed weapon, you can expend 1 charge to tap into an alternate reality where the weapon is of a different nature, and briefly cause your version of it to change accordingly. Choose one of its associated damage types. The next attack with the weapon that hits before the end of your turn deals damage of that type instead of its normal damage type.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "attunement": "",
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

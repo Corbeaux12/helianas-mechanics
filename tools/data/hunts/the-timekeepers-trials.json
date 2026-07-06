@@ -1,0 +1,84 @@
+{
+  "name": "The Timekeeper's Trials",
+  "source": "The Timekeeper's Trials (Loot Tavern hunt, APL 5/10/15)",
+  "creatureType": "monstrosity",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Timekeepers Trials/The Timekeeper's Trials v1.0.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Flesh (3); Hair (3); Phial of Blood (5)"] },
+    { "dc": 10, "components": ["Bone (3); Fat (3); Golden Mask (3); Pouch of Claws (4)"] },
+    { "dc": 15, "components": ["Heart (1); Liver (1); Pouch of Feathers (2); Timesand (1)"] },
+    { "dc": 20, "components": ["Pelt (1)"] }
+  ],
+  "components": [
+    { "name": "Chronosphinx Golden Mask", "tags": ["golden mask", "chronosphinx", "monstrosity"], "price": 40 },
+    { "name": "Chronosphinx Timesand",    "tags": ["timesand", "chronosphinx", "monstrosity"],    "price": 70 }
+  ],
+  "items": [
+    {
+      "name": "Helm of Ages",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Chronosphinx Golden Mask",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 2180 },
+        { "rarity": "very rare", "value": 9600 },
+        { "rarity": "legendary", "value": 56010 }
+      ],
+      "description": "<p><em>Wondrous item, rare / very rare / legendary (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (chronosphinx) golden mask</p><p>\"What dodges fireballs in the morning, endures wurm venom in midday, and shrugs off fey charms in the evening?\" — Variation on a sphinx's riddle</p><p>You have Resistance to Psychic damage while wearing this helm. The helm has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Generational Shift.</strong> This helm bears three Humanoid faces, each representing a different stage of life. As a Bonus Action, you can expend 1 charge to change which face is the central one.</p><p>While wearing the helm, you can use your Reaction when you make a saving throw to gain Advantage on it. The types of saving throw for which you can use this Reaction depend on which face is in the centre of the helm, as described below.</p><ul><li><strong>Young: Vigour of Youth.</strong> Dexterity and Charisma.</li><li><strong>Adult: Prime of Life.</strong> Strength and Constitution.</li><li><strong>Elderly: Wisdom of Ages.</strong> Intelligence and Wisdom.</li></ul><p><strong>Rare variant:</strong> Remove the Resistance to Psychic damage.</p><p><strong>Legendary variant:</strong> Increase the charges to 5. The helm has the Well-Prepared property.</p><p><strong>Well-Prepared.</strong> Whenever you succeed on a saving throw on which you had Advantage, you gain 2d10 Temporary Hit Points, which last for 1 minute.</p>"
+    },
+    {
+      "name": "Pommel of Possibility",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Aberration Eye",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common", "value": 40 }
+      ],
+      "description": "<p><em>Wondrous item, common (socketable)</em></p><p><strong>Component:</strong> Aberration eye</p><p>Most people tap into the infinite possibilities of alternate realities to reunite with a deceased family member, steal a powerful artifact, or learn the answer to an inscrutable mystery. But making a sword electric is good, too.</p><p>You can socket this item onto any weapon, replacing its existing pommel or adding an ornament to a weapon that doesn't have a pommel, such as a bow. The item has 3 charges and regains all expended charges daily at dawn.</p><p>When you craft or find this item, roll a d10 four times, rerolling duplicates, and consult the table below to determine the item's associated damage types.</p><p><strong>d10 Damage Type:</strong> 1 Acid, 2 Cold, 3 Fire, 4 Force, 5 Lightning, 6 Necrotic, 7 Poison, 8 Psychic, 9 Radiant, 10 Thunder.</p><p><strong>Minor Warp.</strong> As a Bonus Action while holding the socketed weapon, you can expend 1 charge to tap into an alternate reality where the weapon is of a different nature, and briefly cause your version of it to change accordingly. Choose one of its associated damage types. The next attack with the weapon that hits before the end of your turn deals damage of that type instead of its normal damage type.</p>"
+    },
+    {
+      "name": "Timekeeper's Badge",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Aberration Chitin",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 460 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Aberration chitin</p><p>\"A grain of sand is meaningless. Many are a sandstorm.\" — Horologist proverb</p><p>This item has 3 charges and regains 1d3 expended charges daily at dawn.</p><p><strong>Tactical Teamwork.</strong> While wearing this badge, when you take the Help action to aid a friendly creature in attacking, its attack deals an extra 2d6 damage of its type on a hit. In addition, you can expend 1 charge while wearing this badge to take the Help action as a Bonus Action.</p>"
+    },
+    {
+      "name": "Timekeeper's Legacy",
+      "itemType": "equipment",
+      "kind": "Armour (light, medium, or heavy)",
+      "component": "Monstrosity Heart",
+      "baseRecipe": "Leather Armor",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 360 },
+        { "rarity": "rare",      "value": 1490 },
+        { "rarity": "very rare", "value": 6960 }
+      ],
+      "description": "<p><em>Armour (light, medium, or heavy), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity (chronosphinx) heart</p><p>The Horologist Order is strongly committed to a policy of prevention over restoration. After all, it's much easier for the world to mend from evil deeds that never occurred to begin with.</p><p><strong>Counterreaction.</strong> While wearing this armour, when a creature you can see within 10 feet of you uses a Reaction, you can use your Reaction to cancel it. When you do so, the hourglass emblem on the armour rotates 180 degrees, and this property can't be used again until it rotates back to its original position. You can use an Action to rotate the hourglass yourself, and it also reverts to its original position daily at dawn. If you are a Paladin, you can use this property against a creature within your Aura of Protection, even if you can't see it or it's more than 10 feet away from you.</p><p><strong>Uncommon variant:</strong> Once the hourglass has been rotated to its original position using an Action, it can't be rotated as an Action again until the next dawn.</p><p><strong>Very rare variant:</strong> You gain a +1 bonus to AC while wearing this armour.</p>"
+    },
+    {
+      "name": "Timestopper",
+      "itemType": "weapon",
+      "kind": "Weapon (any firearm)",
+      "component": "Chronosphinx Timesand",
+      "baseRecipe": "Magitech Firearm",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 660 },
+        { "rarity": "rare",      "value": 3140 },
+        { "rarity": "very rare", "value": 11800 }
+      ],
+      "description": "<p><em>Weapon (any firearm), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (chronosphinx) timesand</p><p>\"The name can be a little misleading. It doesn't actually stop time. It stops your time. By killing you.\" — Four-Arm Skara, legendary gunner</p><p>This firearm doesn't use traditional ammunition. Instead, it shoots bullets made of sand, fed by small hourglass-shaped ampoules full of sand, which you replace whenever you reload the weapon. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The weapon has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Future Problem.</strong> When you hit with an attack roll using this weapon, you can expend 1 charge to cause the bullet to be sent into the future just before making contact, delaying the hit and dealing no damage to the target. At the start of your next turn, the bullet reappears and hits the target, dealing its normal damage plus an extra 3d6 Force damage.</p><p><strong>Temporal Bifurcation.</strong> Whenever you score a critical hit with this magic weapon, the bullet splits in two. One of the bullets hits the target, dealing the normal damage for the attack, while the other is sent into the future as per the Future Problem property. The future bullet's damage doesn't get doubled from the critical hit.</p><p><strong>Uncommon variant:</strong> The weapon doesn't have an attack and damage roll bonus.</p><p><strong>Very rare variant:</strong> Increase the attack and damage roll bonus to +2 and the damage to 3d8.</p>"
+    }
+  ]
+}

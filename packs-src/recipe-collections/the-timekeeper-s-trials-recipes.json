@@ -1,0 +1,659 @@
+{
+  "_id": "w07AppJ2lW4o1DTO",
+  "_key": "!journal!w07AppJ2lW4o1DTO",
+  "name": "The Timekeeper's Trials Recipes",
+  "pages": [
+    {
+      "_id": "1ngNAtmjrKYO65vU",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>The Timekeeper's Trials (Loot Tavern hunt, APL 5/10/15)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Flesh (3); Hair (3); Phial of Blood (5)</td></tr><tr><td>10</td><td>Bone (3); Fat (3); Golden Mask (3); Pouch of Claws (4)</td></tr><tr><td>15</td><td>Heart (1); Liver (1); Pouch of Feathers (2); Timesand (1)</td></tr><tr><td>20</td><td>Pelt (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.NQeb9wzAAFxup0SQ]{Helm of Ages (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Fna7w9Ax6Egq774B]{Helm of Ages (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.EQw9ghEwzx7j315N]{Helm of Ages (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.uTj00jFe72zUJSTv]{Pommel of Possibility (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.YS5aov7d0dyoiH40]{Timekeeper's Badge (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.wFzVRo1SzVWD13AH]{Timekeeper's Legacy (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.FxvZdf2hIeZL5gxd]{Timekeeper's Legacy (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.B5DMm33aIAdklnC7]{Timekeeper's Legacy (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.HPW5Mc6Bex3LSUE4]{Timestopper (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.FXjQqLkNeq9rFKjM]{Timestopper (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.TpgWD6ATZx0IFIl3]{Timestopper (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.1ngNAtmjrKYO65vU"
+    },
+    {
+      "_id": "4o0fnz2Tyg1YJTqf",
+      "name": "The Timekeeper's Trials (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Timekeepers Trials/The Timekeeper's Trials v1.0.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.4o0fnz2Tyg1YJTqf"
+    },
+    {
+      "_id": "dLKQaAcpY1oNOKsu",
+      "name": "Helm of Ages (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Helm of Ages (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.NQeb9wzAAFxup0SQ",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "W77NVeY4EP6gUb9s",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ZQaUXlK8CgoA6qHz",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.eUEdr2rTovtH1J9I",
+                "name": "Chronosphinx Golden Mask",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "golden mask",
+                  "chronosphinx",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.dLKQaAcpY1oNOKsu"
+    },
+    {
+      "_id": "A7Qgqdx0g7HXbkDG",
+      "name": "Helm of Ages (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Helm of Ages (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Fna7w9Ax6Egq774B",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xaJWzpksD5IvW3fp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "EzQktbxbKhIbEige",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.eUEdr2rTovtH1J9I",
+                "name": "Chronosphinx Golden Mask",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "golden mask",
+                  "chronosphinx",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.A7Qgqdx0g7HXbkDG"
+    },
+    {
+      "_id": "TIO7QPxTOdfPzoKV",
+      "name": "Helm of Ages (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Helm of Ages (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.EQw9ghEwzx7j315N",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "byqN9aUh11KGvtZp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4FpDATaBPmv0VGOU",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.eUEdr2rTovtH1J9I",
+                "name": "Chronosphinx Golden Mask",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "golden mask",
+                  "chronosphinx",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "monstrosity",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.TIO7QPxTOdfPzoKV"
+    },
+    {
+      "_id": "T3OtsyZcRUoaSlGu",
+      "name": "Pommel of Possibility (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Pommel of Possibility (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.uTj00jFe72zUJSTv",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KdnrpjOD4AVYC6vy",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "nizW9uuuP2xoNpDK",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.FFvArli2j1V6vQ17",
+                "name": "Aberration Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "monstrosity",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.T3OtsyZcRUoaSlGu"
+    },
+    {
+      "_id": "Ztu96oAOzSZMSIh0",
+      "name": "Timekeeper's Badge (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timekeeper's Badge (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.YS5aov7d0dyoiH40",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vpPhy9A90RB3FL7x",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "j4uP74sLvMDCOY6C",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.y1wwwjUM3OSUwKy1",
+                "name": "Aberration Chitin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "chitin"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.Ztu96oAOzSZMSIh0"
+    },
+    {
+      "_id": "MfqSUxaFOK1Wm8Kj",
+      "name": "Timekeeper's Legacy (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timekeeper's Legacy (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.wFzVRo1SzVWD13AH",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rQF8XochL06OU2Cn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Srgmegy4PUisKePW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SyvUpNIEZv3kl0nZ",
+                "name": "Monstrosity Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.MfqSUxaFOK1Wm8Kj"
+    },
+    {
+      "_id": "4EXd8jBZJ2YfTRNk",
+      "name": "Timekeeper's Legacy (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timekeeper's Legacy (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.FxvZdf2hIeZL5gxd",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "h2PpYGnzPU3535TG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fJkb5an1ZjSSsMK0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SyvUpNIEZv3kl0nZ",
+                "name": "Monstrosity Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.4EXd8jBZJ2YfTRNk"
+    },
+    {
+      "_id": "OKbpz4emOPCelJez",
+      "name": "Timekeeper's Legacy (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timekeeper's Legacy (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.B5DMm33aIAdklnC7",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "wdowVL871MIPMv0f",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "IXbAhthudyLzifDa",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.SyvUpNIEZv3kl0nZ",
+                "name": "Monstrosity Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.OKbpz4emOPCelJez"
+    },
+    {
+      "_id": "WPns2D4kobUNTN8k",
+      "name": "Timestopper (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timestopper (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.HPW5Mc6Bex3LSUE4",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "epo2EK0HSbWEBLGM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GbQkzyAvlpVtEs9W",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.wrGBdJRCpLu6jtfG",
+                "name": "Chronosphinx Timesand",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "timesand",
+                  "chronosphinx",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.WPns2D4kobUNTN8k"
+    },
+    {
+      "_id": "Q9dAAyf26U3hY7OT",
+      "name": "Timestopper (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timestopper (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.FXjQqLkNeq9rFKjM",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OhxcVKMUzQZHCtE6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "s3k5qCFqwSsCAKTD",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.wrGBdJRCpLu6jtfG",
+                "name": "Chronosphinx Timesand",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "timesand",
+                  "chronosphinx",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.Q9dAAyf26U3hY7OT"
+    },
+    {
+      "_id": "ajzZ5Q1x4A5tWC7h",
+      "name": "Timestopper (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timestopper (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.TpgWD6ATZx0IFIl3",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3xR1mcJ2KWU5zbOH",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "CGO1d4faaxLH5Icz",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.wrGBdJRCpLu6jtfG",
+                "name": "Chronosphinx Timesand",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "timesand",
+                  "chronosphinx",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!w07AppJ2lW4o1DTO.ajzZ5Q1x4A5tWC7h"
+    }
+  ],
+  "folder": null,
+  "sort": 11500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

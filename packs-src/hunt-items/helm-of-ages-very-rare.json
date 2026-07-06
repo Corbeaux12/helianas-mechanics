@@ -1,0 +1,37 @@
+{
+  "_id": "Fna7w9Ax6Egq774B",
+  "_key": "!items!Fna7w9Ax6Egq774B",
+  "name": "Helm of Ages (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare / very rare / legendary (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (chronosphinx) golden mask</p><p>\"What dodges fireballs in the morning, endures wurm venom in midday, and shrugs off fey charms in the evening?\" — Variation on a sphinx's riddle</p><p>You have Resistance to Psychic damage while wearing this helm. The helm has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Generational Shift.</strong> This helm bears three Humanoid faces, each representing a different stage of life. As a Bonus Action, you can expend 1 charge to change which face is the central one.</p><p>While wearing the helm, you can use your Reaction when you make a saving throw to gain Advantage on it. The types of saving throw for which you can use this Reaction depend on which face is in the centre of the helm, as described below.</p><ul><li><strong>Young: Vigour of Youth.</strong> Dexterity and Charisma.</li><li><strong>Adult: Prime of Life.</strong> Strength and Constitution.</li><li><strong>Elderly: Wisdom of Ages.</strong> Intelligence and Wisdom.</li></ul><p><strong>Rare variant:</strong> Remove the Resistance to Psychic damage.</p><p><strong>Legendary variant:</strong> Increase the charges to 5. The helm has the Well-Prepared property.</p><p><strong>Well-Prepared.</strong> Whenever you succeed on a saving throw on which you had Advantage, you gain 2d10 Temporary Hit Points, which last for 1 minute.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 9600,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

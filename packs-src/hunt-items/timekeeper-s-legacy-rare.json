@@ -1,0 +1,37 @@
+{
+  "_id": "FxvZdf2hIeZL5gxd",
+  "_key": "!items!FxvZdf2hIeZL5gxd",
+  "name": "Timekeeper's Legacy (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (light, medium, or heavy), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity (chronosphinx) heart</p><p>The Horologist Order is strongly committed to a policy of prevention over restoration. After all, it's much easier for the world to mend from evil deeds that never occurred to begin with.</p><p><strong>Counterreaction.</strong> While wearing this armour, when a creature you can see within 10 feet of you uses a Reaction, you can use your Reaction to cancel it. When you do so, the hourglass emblem on the armour rotates 180 degrees, and this property can't be used again until it rotates back to its original position. You can use an Action to rotate the hourglass yourself, and it also reverts to its original position daily at dawn. If you are a Paladin, you can use this property against a creature within your Aura of Protection, even if you can't see it or it's more than 10 feet away from you.</p><p><strong>Uncommon variant:</strong> Once the hourglass has been rotated to its original position using an Action, it can't be rotated as an Action again until the next dawn.</p><p><strong>Very rare variant:</strong> You gain a +1 bonus to AC while wearing this armour.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1490,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

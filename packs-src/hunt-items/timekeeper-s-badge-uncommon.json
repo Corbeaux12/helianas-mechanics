@@ -1,0 +1,37 @@
+{
+  "_id": "YS5aov7d0dyoiH40",
+  "_key": "!items!YS5aov7d0dyoiH40",
+  "name": "Timekeeper's Badge (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Aberration chitin</p><p>\"A grain of sand is meaningless. Many are a sandstorm.\" — Horologist proverb</p><p>This item has 3 charges and regains 1d3 expended charges daily at dawn.</p><p><strong>Tactical Teamwork.</strong> While wearing this badge, when you take the Help action to aid a friendly creature in attacking, its attack deals an extra 2d6 damage of its type on a hit. In addition, you can expend 1 charge while wearing this badge to take the Help action as a Bonus Action.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 460,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

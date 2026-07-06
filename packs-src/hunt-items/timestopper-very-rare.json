@@ -1,0 +1,37 @@
+{
+  "_id": "TpgWD6ATZx0IFIl3",
+  "_key": "!items!TpgWD6ATZx0IFIl3",
+  "name": "Timestopper (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any firearm), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (chronosphinx) timesand</p><p>\"The name can be a little misleading. It doesn't actually stop time. It stops your time. By killing you.\" — Four-Arm Skara, legendary gunner</p><p>This firearm doesn't use traditional ammunition. Instead, it shoots bullets made of sand, fed by small hourglass-shaped ampoules full of sand, which you replace whenever you reload the weapon. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The weapon has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Future Problem.</strong> When you hit with an attack roll using this weapon, you can expend 1 charge to cause the bullet to be sent into the future just before making contact, delaying the hit and dealing no damage to the target. At the start of your next turn, the bullet reappears and hits the target, dealing its normal damage plus an extra 3d6 Force damage.</p><p><strong>Temporal Bifurcation.</strong> Whenever you score a critical hit with this magic weapon, the bullet splits in two. One of the bullets hits the target, dealing the normal damage for the attack, while the other is sent into the future as per the Future Problem property. The future bullet's damage doesn't get doubled from the critical hit.</p><p><strong>Uncommon variant:</strong> The weapon doesn't have an attack and damage roll bonus.</p><p><strong>Very rare variant:</strong> Increase the attack and damage roll bonus to +2 and the damage to 3d8.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11800,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
