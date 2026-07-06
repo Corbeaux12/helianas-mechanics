@@ -1,0 +1,821 @@
+{
+  "_id": "Ss8u7rqJundZ6tyH",
+  "_key": "!actors!Ss8u7rqJundZ6tyH",
+  "name": "Sì Dragon",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/si-dragon.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 18,
+        "proficient": 1
+      },
+      "wis": {
+        "value": 22,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 17,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 149,
+        "max": 149,
+        "formula": "23d8 + 46"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30,
+        "fly": 40
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 60
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Dracopia cautus.</em> The zodiac dragon of the snake — a shapeshifting infiltrator that reads surface thoughts when wounded and grants uncanny intuition to its chosen. Its Fly Speed of 40 ft. applies in its true form only; its lucky number is 6. Habitat: Desert &amp; Forest.</p><p><em>Source: Heliana's Field Notes X-66 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral Good",
+      "type": {
+        "value": "dragon",
+        "subtype": "Zodiac",
+        "custom": ""
+      },
+      "cr": 8
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [
+          "celestial",
+          "common",
+          "draconic",
+          "sylvan"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "inv": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "8xH3j54dxoQ12jC3",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.8xH3j54dxoQ12jC3",
+      "name": "Ascendant Form",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While the dragon is Bloodied, its senses become sharper. It gains 120 feet of Truesight, can hear the surface thoughts of creatures within 60 feet, and can take one additional Reaction each round.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "XAubjjPCVJLusq3H",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.XAubjjPCVJLusq3H",
+      "name": "Legendary Resistance (2/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Z7YOIscmbIZLICIU",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.Z7YOIscmbIZLICIU",
+      "name": "Lucky Number",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Whenever the dragon rolls a 6 on a d12, the dragon releases a wave of debilitating energy. <em>Saving Throw:</em> DC 17 Constitution, each creature of the dragon's choice within 30 feet. <em>Failure:</em> The target is Poisoned until the start of the dragon's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "R8UljPA2MQu48ehA",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.R8UljPA2MQu48ehA",
+      "name": "Slither",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon can move through openings as narrow as 3 feet without difficulty.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "sEyGIHVN4CaDkcT1",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.sEyGIHVN4CaDkcT1",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon makes two attacks in any combination of Bite and Constrict.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "EqwS40yoiX8ZkhUL",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.EqwS40yoiX8ZkhUL",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 9 (1d12 + 3) Piercing damage plus 3 (1d6) Poison damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 12,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "4hmDfw08fA0Kt3FU": {
+            "type": "attack",
+            "_id": "4hmDfw08fA0Kt3FU",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "W8zV3NqjOa2Bq7tC",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.W8zV3NqjOa2Bq7tC",
+      "name": "Constrict",
+      "img": "icons/commodities/tech/metal-jaws.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 9 (1d12 + 3) Bludgeoning damage and the target is Grappled. While Grappled in this way, the target is Restrained. While it has a creature Grappled in this way, the dragon can't use this attack.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 12,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "8YcTmWhjwD6SzlVN": {
+            "type": "attack",
+            "_id": "8YcTmWhjwD6SzlVN",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "0TwuamABwPGCC8aP",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.0TwuamABwPGCC8aP",
+      "name": "Evoke Intuition",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon magnifies the intuition of another creature it can see within 60 feet of itself. That creature can't be Surprised, has Advantage on Wisdom checks and saving throws, and can hear and understand the surface thoughts of creatures within 15 feet of it. These benefits last for 1 hour, until the dragon becomes Incapacitated, or until the dragon takes this Bonus Action again.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "DTIL7dsFz73DWr72",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.DTIL7dsFz73DWr72",
+      "name": "Shapeshift",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon shape-shifts into a Medium humanoid (of an appearance of its choice), or it returns to its true draconic form. Its game statistics, other than its size, are the same in each form. The dragon chooses whether any equipment it's wearing is dropped, worn, or merged with its form when it shape-shifts.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Zx1oFaNJF5X22kMb",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.Zx1oFaNJF5X22kMb",
+      "name": "Anticipate (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 2. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p>The dragon anticipates an onslaught. Until the start of the dragon's next turn or until it moves, it gains +2 to AC and can make Opportunity Attacks against creatures that enter or attack within its reach.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "ZduvujQsnLScXGIU",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.ZduvujQsnLScXGIU",
+      "name": "Hide (Legendary Action)",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon makes a Dexterity (Stealth) check to hide.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "6aRuGmRAznXg3IPQ",
+      "_key": "!actors.items!Ss8u7rqJundZ6tyH.6aRuGmRAznXg3IPQ",
+      "name": "Strike (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon moves up to its Speed and makes one Bite attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Sì Dragon",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/si-dragon-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

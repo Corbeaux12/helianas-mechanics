@@ -1,0 +1,116 @@
+{
+  "name": "Chén Dragon",
+  "source": "Heliana's Field Notes X-65 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Own Domain/X65-Chen_Dragon.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/chen-dragon.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/chen-dragon-token.webp",
+  "size": "grg",
+  "creatureType": "dragon",
+  "subtype": "Zodiac",
+  "alignment": "Lawful Good",
+  "ac": 17,
+  "hp": {
+    "value": 186,
+    "formula": "12d20 + 60"
+  },
+  "speed": {
+    "walk": 50,
+    "fly": 60
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 19,
+    "con": 20,
+    "int": 17,
+    "wis": 23,
+    "cha": 17
+  },
+  "saveProfs": [
+    "str",
+    "wis"
+  ],
+  "skills": {
+    "arc": 1,
+    "ins": 1,
+    "prc": 1
+  },
+  "di": [
+    "necrotic",
+    "poison",
+    "radiant"
+  ],
+  "ci": [
+    "charmed",
+    "frightened",
+    "poisoned"
+  ],
+  "senses": {
+    "truesight": 120
+  },
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "cr": 15,
+  "xp": 13000,
+  "biography": "<p>The zodiac dragon of the dragon — the Living Gate whose golden radiance awakens the Ascendant Forms of every other zodiac dragon near it, and whose bite carries all five classical elements. Its lucky number is 5. Habitat: Any.</p>",
+  "features": [
+    {
+      "name": "Ascendant Form",
+      "category": "trait",
+      "description": "<p>While the dragon is Bloodied, it sheds Bright Light in a 60-foot radius and Dim Light for an additional 60 feet. Creatures of the dragon's choice within the Bright Light have Immunity to the Charmed, Frightened, and Poisoned conditions, and have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>"
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "category": "trait",
+      "description": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Living Gate",
+      "category": "trait",
+      "description": "<p>Other zodiac Dragons of the chén dragon's choice within a 120-foot Emanation originating from the chén dragon have their Ascendant Form trait active without needing to be Bloodied.</p>"
+    },
+    {
+      "name": "Lucky Number",
+      "category": "trait",
+      "description": "<p>Whenever the dragon rolls a 5 on a d12, it flashes with golden light. <em>Saving Throw:</em> DC 19 Constitution, each creature of the dragon's choice within 120 feet. <em>Failure:</em> 9 (2d8) Radiant damage, and until the end of the target's next turn, it is Blinded and loses any Fly Speed it has.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The dragon makes three Claw attacks. It can replace one attack with a Bite attack.</p>"
+    },
+    {
+      "name": "Bite",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +10, reach 5 ft. <em>Hit:</em> 18 (2d12 + 5) Piercing damage, and the target suffers an additional elemental effect of the dragon's choice:</p><ul><li><strong>Wood.</strong> The target is Poisoned until the end of its next turn. While Poisoned in this way, the target is one size larger and the reach of its melee attacks is increased by 5 feet.</li><li><strong>Fire.</strong> The target is Burning. A creature other than the dragon that comes within 5 feet of the target for the first time on a turn while it's burning in this way takes 2 (1d4) Fire damage.</li><li><strong>Earth.</strong> The target falls Prone. Until the end of its next turn, the target can't right itself from Prone and has Tremorsense with a range of 60 feet.</li><li><strong>Metal.</strong> Until the end of the target's next turn, its weight is tripled, its Speed is halved, it gains a +2 bonus to AC, and it has Disadvantage on Dexterity saving throws.</li><li><strong>Water.</strong> Until the end of the target's next turn, it can't regain Hit Points, and its attacks sap away its own life. When one of the target's weapon attacks against a creature would deal damage, the attacked creature regains that many Hit Points instead, and the attacker takes half that much Necrotic damage.</li></ul>"
+    },
+    {
+      "name": "Claw",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +10, reach 10 ft. <em>Hit:</em> 15 (3d6 + 5) Slashing damage.</p>"
+    },
+    {
+      "name": "Evoke Divinity",
+      "category": "bonus",
+      "description": "<p>The dragon magnifies the divinity of another creature it can see within 60 feet of itself. That creature gains a Fly Speed equal to its Speed and has Advantage on saving throws against spells and other magical effects. These benefits last for 1 hour, until the dragon or target becomes Incapacitated, or until the dragon takes this Bonus Action again.</p>"
+    },
+    {
+      "name": "Cloud Stream (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p>The dragon flies up to half its Speed in a straight line, coiling as it does to warp the air around it. <em>Saving Throw:</em> DC 19 Strength, each creature whose space the dragon moves into. <em>Failure:</em> The target moves with the dragon as it flies, falling Prone at the end.</p>"
+    },
+    {
+      "name": "Gate Guardian (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The dragon bathes itself in golden light, gaining 11 (1d12 + 5) Temporary Hit Points. While the dragon has these Temporary Hit Points, it has a +2 bonus to AC.</p>"
+    },
+    {
+      "name": "Lunge (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The dragon moves up to its Speed and makes one Claw attack.</p>"
+    }
+  ]
+}

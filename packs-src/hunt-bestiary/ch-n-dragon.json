@@ -1,0 +1,771 @@
+{
+  "_id": "f5B3afg32oEdD51O",
+  "_key": "!actors!f5B3afg32oEdD51O",
+  "name": "Chén Dragon",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/chen-dragon.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 19,
+        "proficient": 0
+      },
+      "con": {
+        "value": 20,
+        "proficient": 0
+      },
+      "int": {
+        "value": 17,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 23,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 17,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 186,
+        "max": 186,
+        "formula": "12d20 + 60"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 50,
+        "fly": 60
+      },
+      "senses": {
+        "units": "ft",
+        "truesight": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The zodiac dragon of the dragon — the Living Gate whose golden radiance awakens the Ascendant Forms of every other zodiac dragon near it, and whose bite carries all five classical elements. Its lucky number is 5. Habitat: Any.</p><p><em>Source: Heliana's Field Notes X-65 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Good",
+      "type": {
+        "value": "dragon",
+        "subtype": "Zodiac",
+        "custom": ""
+      },
+      "cr": 15
+    },
+    "traits": {
+      "size": "grg",
+      "languages": {
+        "value": [
+          "celestial",
+          "common",
+          "draconic",
+          "sylvan"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "necrotic",
+          "poison",
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "arc": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "eoYqS67ipRCqsoMS",
+      "_key": "!actors.items!f5B3afg32oEdD51O.eoYqS67ipRCqsoMS",
+      "name": "Ascendant Form",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While the dragon is Bloodied, it sheds Bright Light in a 60-foot radius and Dim Light for an additional 60 feet. Creatures of the dragon's choice within the Bright Light have Immunity to the Charmed, Frightened, and Poisoned conditions, and have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "6BRVzssHMln2aPJ2",
+      "_key": "!actors.items!f5B3afg32oEdD51O.6BRVzssHMln2aPJ2",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "9oHrZaYps9xrkfWS",
+      "_key": "!actors.items!f5B3afg32oEdD51O.9oHrZaYps9xrkfWS",
+      "name": "Living Gate",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Other zodiac Dragons of the chén dragon's choice within a 120-foot Emanation originating from the chén dragon have their Ascendant Form trait active without needing to be Bloodied.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "ixC9jBBehp9QJaqu",
+      "_key": "!actors.items!f5B3afg32oEdD51O.ixC9jBBehp9QJaqu",
+      "name": "Lucky Number",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Whenever the dragon rolls a 5 on a d12, it flashes with golden light. <em>Saving Throw:</em> DC 19 Constitution, each creature of the dragon's choice within 120 feet. <em>Failure:</em> 9 (2d8) Radiant damage, and until the end of the target's next turn, it is Blinded and loses any Fly Speed it has.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "iOy9zkRIRpWZrTBE",
+      "_key": "!actors.items!f5B3afg32oEdD51O.iOy9zkRIRpWZrTBE",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon makes three Claw attacks. It can replace one attack with a Bite attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "PB00WlgOdmNtgYjq",
+      "_key": "!actors.items!f5B3afg32oEdD51O.PB00WlgOdmNtgYjq",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10, reach 5 ft. <em>Hit:</em> 18 (2d12 + 5) Piercing damage, and the target suffers an additional elemental effect of the dragon's choice:</p><ul><li><strong>Wood.</strong> The target is Poisoned until the end of its next turn. While Poisoned in this way, the target is one size larger and the reach of its melee attacks is increased by 5 feet.</li><li><strong>Fire.</strong> The target is Burning. A creature other than the dragon that comes within 5 feet of the target for the first time on a turn while it's burning in this way takes 2 (1d4) Fire damage.</li><li><strong>Earth.</strong> The target falls Prone. Until the end of its next turn, the target can't right itself from Prone and has Tremorsense with a range of 60 feet.</li><li><strong>Metal.</strong> Until the end of the target's next turn, its weight is tripled, its Speed is halved, it gains a +2 bonus to AC, and it has Disadvantage on Dexterity saving throws.</li><li><strong>Water.</strong> Until the end of the target's next turn, it can't regain Hit Points, and its attacks sap away its own life. When one of the target's weapon attacks against a creature would deal damage, the attacked creature regains that many Hit Points instead, and the attacker takes half that much Necrotic damage.</li></ul>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 12,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "PKfdvbMVaw7ZcX9I": {
+            "type": "attack",
+            "_id": "PKfdvbMVaw7ZcX9I",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "j0bXoBdrv055M0Ng",
+      "_key": "!actors.items!f5B3afg32oEdD51O.j0bXoBdrv055M0Ng",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10, reach 10 ft. <em>Hit:</em> 15 (3d6 + 5) Slashing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "91cz8Uavk3qxrU7y": {
+            "type": "attack",
+            "_id": "91cz8Uavk3qxrU7y",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "QoLqRpaO0jHwKOZ5",
+      "_key": "!actors.items!f5B3afg32oEdD51O.QoLqRpaO0jHwKOZ5",
+      "name": "Evoke Divinity",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon magnifies the divinity of another creature it can see within 60 feet of itself. That creature gains a Fly Speed equal to its Speed and has Advantage on saving throws against spells and other magical effects. These benefits last for 1 hour, until the dragon or target becomes Incapacitated, or until the dragon takes this Bonus Action again.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "shD5PrC7xoXVo9vn",
+      "_key": "!actors.items!f5B3afg32oEdD51O.shD5PrC7xoXVo9vn",
+      "name": "Cloud Stream (Legendary Action)",
+      "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p>The dragon flies up to half its Speed in a straight line, coiling as it does to warp the air around it. <em>Saving Throw:</em> DC 19 Strength, each creature whose space the dragon moves into. <em>Failure:</em> The target moves with the dragon as it flies, falling Prone at the end.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "mt6s6oHIwqXT5o5q",
+      "_key": "!actors.items!f5B3afg32oEdD51O.mt6s6oHIwqXT5o5q",
+      "name": "Gate Guardian (Legendary Action)",
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon bathes itself in golden light, gaining 11 (1d12 + 5) Temporary Hit Points. While the dragon has these Temporary Hit Points, it has a +2 bonus to AC.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "tw20vxcqUs3pDZeh",
+      "_key": "!actors.items!f5B3afg32oEdD51O.tw20vxcqUs3pDZeh",
+      "name": "Lunge (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon moves up to its Speed and makes one Claw attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Chén Dragon",
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/chen-dragon-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Sì Dragon",
+  "source": "Heliana's Field Notes X-66 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Desert/X66-Si_Dragon.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/si-dragon.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/si-dragon-token.webp",
+  "size": "med",
+  "creatureType": "dragon",
+  "subtype": "Zodiac",
+  "alignment": "Neutral Good",
+  "ac": 16,
+  "hp": {
+    "value": 149,
+    "formula": "23d8 + 46"
+  },
+  "speed": {
+    "walk": 30,
+    "fly": 40
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 18,
+    "wis": 22,
+    "cha": 17
+  },
+  "saveProfs": [
+    "int",
+    "wis"
+  ],
+  "skills": {
+    "dec": 1,
+    "ins": 1,
+    "inv": 1,
+    "ste": 1
+  },
+  "di": [
+    "poison"
+  ],
+  "ci": [
+    "poisoned"
+  ],
+  "senses": {
+    "darkvision": 60
+  },
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "cr": 8,
+  "xp": 3900,
+  "biography": "<p><em>Dracopia cautus.</em> The zodiac dragon of the snake — a shapeshifting infiltrator that reads surface thoughts when wounded and grants uncanny intuition to its chosen. Its Fly Speed of 40 ft. applies in its true form only; its lucky number is 6. Habitat: Desert &amp; Forest.</p>",
+  "features": [
+    {
+      "name": "Ascendant Form",
+      "category": "trait",
+      "description": "<p>While the dragon is Bloodied, its senses become sharper. It gains 120 feet of Truesight, can hear the surface thoughts of creatures within 60 feet, and can take one additional Reaction each round.</p>"
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "category": "trait",
+      "description": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Lucky Number",
+      "category": "trait",
+      "description": "<p>Whenever the dragon rolls a 6 on a d12, the dragon releases a wave of debilitating energy. <em>Saving Throw:</em> DC 17 Constitution, each creature of the dragon's choice within 30 feet. <em>Failure:</em> The target is Poisoned until the start of the dragon's next turn.</p>"
+    },
+    {
+      "name": "Slither",
+      "category": "trait",
+      "description": "<p>The dragon can move through openings as narrow as 3 feet without difficulty.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The dragon makes two attacks in any combination of Bite and Constrict.</p>"
+    },
+    {
+      "name": "Bite",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 9 (1d12 + 3) Piercing damage plus 3 (1d6) Poison damage.</p>"
+    },
+    {
+      "name": "Constrict",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 9 (1d12 + 3) Bludgeoning damage and the target is Grappled. While Grappled in this way, the target is Restrained. While it has a creature Grappled in this way, the dragon can't use this attack.</p>"
+    },
+    {
+      "name": "Evoke Intuition",
+      "category": "bonus",
+      "description": "<p>The dragon magnifies the intuition of another creature it can see within 60 feet of itself. That creature can't be Surprised, has Advantage on Wisdom checks and saving throws, and can hear and understand the surface thoughts of creatures within 15 feet of it. These benefits last for 1 hour, until the dragon becomes Incapacitated, or until the dragon takes this Bonus Action again.</p>"
+    },
+    {
+      "name": "Shapeshift",
+      "category": "bonus",
+      "description": "<p>The dragon shape-shifts into a Medium humanoid (of an appearance of its choice), or it returns to its true draconic form. Its game statistics, other than its size, are the same in each form. The dragon chooses whether any equipment it's wearing is dropped, worn, or merged with its form when it shape-shifts.</p>"
+    },
+    {
+      "name": "Anticipate (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 2. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p>The dragon anticipates an onslaught. Until the start of the dragon's next turn or until it moves, it gains +2 to AC and can make Opportunity Attacks against creatures that enter or attack within its reach.</p>"
+    },
+    {
+      "name": "Hide (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The dragon makes a Dexterity (Stealth) check to hide.</p>"
+    },
+    {
+      "name": "Strike (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The dragon moves up to its Speed and makes one Bite attack.</p>"
+    }
+  ]
+}

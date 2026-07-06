@@ -1,0 +1,889 @@
+{
+  "_id": "AFVCEPQuG5R5uesm",
+  "_key": "!actors!AFVCEPQuG5R5uesm",
+  "name": "Yín Dragon",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/yin-dragon.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 21,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1
+      },
+      "con": {
+        "value": 17,
+        "proficient": 0
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 20,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 15,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 189,
+        "max": 189,
+        "formula": "14d20 + 42"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 40,
+        "climb": 50,
+        "fly": 50
+      },
+      "senses": {
+        "units": "ft",
+        "blindsight": 60,
+        "darkvision": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Dracopia fortis.</em> The zodiac dragon of the tiger — a storm-wreathed serpent whose 120-foot tempest slows and hides its allies, and whose lucky number 3 sends thunder coursing through the storm. Habitat: Arctic &amp; Jungle.</p><p><em>Source: Heliana's Field Notes X-63 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral Good",
+      "type": {
+        "value": "dragon",
+        "subtype": "Zodiac",
+        "custom": ""
+      },
+      "cr": 13
+    },
+    "traits": {
+      "size": "grg",
+      "languages": {
+        "value": [
+          "celestial",
+          "common",
+          "draconic",
+          "sylvan"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "cold",
+          "lightning",
+          "thunder"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "frightened"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "LpyFxN03a33dj1X5",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.LpyFxN03a33dj1X5",
+      "name": "Ascendant Form",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While the dragon is Bloodied, the first attack it makes each turn deals an extra 6 (1d12) Thunder damage on a hit.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "aZbt0fLLL9WOxBGz",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.aZbt0fLLL9WOxBGz",
+      "name": "Ice Walk",
+      "img": "icons/magic/water/projectile-ice-shard.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "ds3lcSZxOeTHFiD4",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.ds3lcSZxOeTHFiD4",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "w7iB8kc59yRYjH68",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.w7iB8kc59yRYjH68",
+      "name": "Lucky Number",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Whenever the dragon rolls a 3 on a d12, a burst of thunderous energy courses through its storm (see Storm Eye trait). Roll 1d6. Each enemy within the storm takes that much Thunder damage, and each ally within the storm adds the result to the next saving throw it makes before the start of the dragon's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "EKdUUBXnG70L3bZj",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.EKdUUBXnG70L3bZj",
+      "name": "Storm Eye",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>A storm fills a 120-foot Emanation originating from the dragon. Creatures of the dragon's choice treat the area as Lightly Obscured, and if such a creature's Speed is more than 30 feet, it's reduced to 30 feet while the creature is in the storm.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "KriCr04YHUS3w49C",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.KriCr04YHUS3w49C",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon makes three Claw attacks. It can replace one attack with a Frozen Fang attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "5LXKWCqeMVO2fBSh",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.5LXKWCqeMVO2fBSh",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10, reach 5 ft. <em>Hit:</em> 12 (2d6 + 5) Slashing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "rJ6cvw2XRIJy3XiS": {
+            "type": "attack",
+            "_id": "rJ6cvw2XRIJy3XiS",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "B7Sj3kDoln2zj9EC",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.B7Sj3kDoln2zj9EC",
+      "name": "Frozen Fang",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10, reach 5 ft. <em>Hit:</em> 12 (2d6 + 5) Piercing damage plus 6 (1d12) Cold damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "4Ff1Ki1pgmsJ2ouE": {
+            "type": "attack",
+            "_id": "4Ff1Ki1pgmsJ2ouE",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 12,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "vcxnMZ7gUBrCX38I",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.vcxnMZ7gUBrCX38I",
+      "name": "Coil",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon attempts to ensnare a creature in its serpentine body. <em>Saving Throw:</em> DC 18 Strength or Dexterity (target's choice), one Huge or smaller creature within 10 feet of the dragon. A creature Grappled by the dragon has Disadvantage on this saving throw. <em>Failure:</em> 33 (6d10) Bludgeoning damage, plus 6 (1d12) Bludgeoning damage if the target is Grappled by the dragon, and the target is Grappled (escape DC 18). Until the grapple ends, the target is Restrained and the dragon can't take this action against another target.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "PHjtvAL1i5Uhiyf5",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.PHjtvAL1i5Uhiyf5",
+      "name": "Command the Skies",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon casts <em>Control Weather</em> without requiring Concentration or spell components, using Wisdom as the spellcasting ability.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Vuc6ZbAe7nHm5U2c",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.Vuc6ZbAe7nHm5U2c",
+      "name": "Evoke Courage",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon magnifies the steadiness of another creature it can see within 60 feet of itself. That creature is Immune to the Frightened condition and has Advantage on the first attack roll it makes on each of its turns. These benefits last for 1 hour, until the dragon becomes Incapacitated, or until the dragon takes this Bonus Action again.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "bQqVu5QZ7DHO78hl",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.bQqVu5QZ7DHO78hl",
+      "name": "Fear the Storm (Legendary Action, Costs 2 Uses)",
+      "img": "icons/magic/control/fear-fright-monster-grin-green.webp",
+      "effects": [],
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p><em>Saving Throw:</em> DC 18 Wisdom, each creature of the dragon's choice within its storm (see Storm Eye trait). <em>Failure:</em> The target is Frightened of the dragon until the end of the target's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "HwUo5bDJrqibxKVQ",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.HwUo5bDJrqibxKVQ",
+      "name": "Pounce (Legendary Action)",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dragon moves up to its Speed and makes one Claw attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "TBHRYN4III3XPGbM",
+      "_key": "!actors.items!AFVCEPQuG5R5uesm.TBHRYN4III3XPGbM",
+      "name": "Whipping Wind (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 18 Strength, one creature within the dragon's storm (see Storm Eye trait). <em>Failure:</em> The target is pushed 15 feet in a direction of the dragon's choice and knocked Prone.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Yín Dragon",
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/yin-dragon-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

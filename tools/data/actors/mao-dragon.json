@@ -1,0 +1,108 @@
+{
+  "name": "Mǎo Dragon",
+  "source": "Heliana's Field Notes X-64 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Forest/X64-Mao_Dragon.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/mao-dragon.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/mao-dragon-token.webp",
+  "size": "lg",
+  "creatureType": "dragon",
+  "subtype": "Zodiac",
+  "alignment": "Lawful Good",
+  "ac": 14,
+  "hp": {
+    "value": 138,
+    "formula": "12d10 + 72"
+  },
+  "speed": {
+    "walk": 60,
+    "burrow": 30,
+    "fly": 60
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 22,
+    "int": 13,
+    "wis": 17,
+    "cha": 15
+  },
+  "saveProfs": [
+    "con",
+    "wis"
+  ],
+  "skills": {
+    "arc": 1,
+    "med": 1,
+    "prc": 1
+  },
+  "di": [
+    "radiant"
+  ],
+  "ci": [
+    "blinded"
+  ],
+  "senses": {
+    "darkvision": 300
+  },
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "cr": 6,
+  "xp": 2300,
+  "biography": "<p><em>Dracopia luna.</em> The zodiac dragon of the rabbit — a moonlit healer that turns ethereal when wounded and whose lucky number 4 spills restorative light over its allies. Habitat: Forest &amp; Grassland.</p>",
+  "features": [
+    {
+      "name": "Ascendant Form",
+      "category": "trait",
+      "description": "<p>While the dragon is Bloodied, it emits moonlight, which is Dim Light, in a 30-foot Emanation, and the dragon becomes translucent and ethereal, causing attack rolls made against it to have Disadvantage.</p>"
+    },
+    {
+      "name": "Legendary Resistance (1/Day)",
+      "category": "trait",
+      "description": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Lucky Number",
+      "category": "trait",
+      "description": "<p>Whenever the dragon rolls a 4 on a d12, it and creatures of its choice in a 30-foot Emanation originating from the dragon regain 9 (2d8) Hit Points.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The dragon makes two Tail attacks.</p>"
+    },
+    {
+      "name": "Tail",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +6, reach 10 ft. <em>Hit:</em> 8 (2d4 + 3) Bludgeoning damage plus 6 (1d12) Radiant damage.</p>"
+    },
+    {
+      "name": "Healer's Light",
+      "category": "action",
+      "description": "<p>The dragon bathes one creature it can see within 30 feet of itself in moonlight, restoring 13 (2d12) Hit Points to it.</p>"
+    },
+    {
+      "name": "Evoke Hope",
+      "category": "bonus",
+      "description": "<p>The dragon magnifies the hope of another creature it can see within 60 feet of itself. Whenever damage would reduce the creature to 0 Hit Points, it makes a Charisma saving throw (DC 15 or equal to the damage taken, whichever is higher). On a successful save, the creature is reduced to 1 Hit Point instead. This benefit lasts for 1 hour, until the dragon or target becomes Incapacitated, or until the dragon takes this Bonus Action again.</p>"
+    },
+    {
+      "name": "Full Moon (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 1. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p>The dragon dispels all Illusion spells within 30 feet of itself of level 3 or lower.</p>"
+    },
+    {
+      "name": "New Moon (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Saving Throw:</em> DC 14 Wisdom, one creature the dragon can see within 120 feet. <em>Failure:</em> 6 (1d12) Radiant damage, and the target is Blinded until the end of its next turn.</p>"
+    },
+    {
+      "name": "Rush (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The dragon moves up to its Speed and makes one Tail attack.</p>"
+    }
+  ]
+}

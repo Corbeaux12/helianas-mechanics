@@ -1,0 +1,131 @@
+{
+  "name": "Yín Dragon",
+  "source": "Heliana's Field Notes X-63 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Arctic/Yin Dragon/X63-Yin_Dragon.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/yin-dragon.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/yin-dragon-token.webp",
+  "size": "grg",
+  "creatureType": "dragon",
+  "subtype": "Zodiac",
+  "alignment": "Neutral Good",
+  "ac": 17,
+  "hp": {
+    "value": 189,
+    "formula": "14d20 + 42"
+  },
+  "speed": {
+    "walk": 40,
+    "climb": 50,
+    "fly": 50
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 18,
+    "con": 17,
+    "int": 14,
+    "wis": 20,
+    "cha": 15
+  },
+  "saveProfs": [
+    "str",
+    "dex"
+  ],
+  "skills": {
+    "ins": 1,
+    "prc": 1,
+    "ste": 1
+  },
+  "di": [
+    "cold",
+    "lightning",
+    "thunder"
+  ],
+  "ci": [
+    "frightened"
+  ],
+  "senses": {
+    "blindsight": 60,
+    "darkvision": 120
+  },
+  "languages": [
+    "Celestial",
+    "Common",
+    "Draconic",
+    "Sylvan"
+  ],
+  "cr": 13,
+  "xp": 10000,
+  "biography": "<p><em>Dracopia fortis.</em> The zodiac dragon of the tiger — a storm-wreathed serpent whose 120-foot tempest slows and hides its allies, and whose lucky number 3 sends thunder coursing through the storm. Habitat: Arctic &amp; Jungle.</p>",
+  "features": [
+    {
+      "name": "Ascendant Form",
+      "category": "trait",
+      "description": "<p>While the dragon is Bloodied, the first attack it makes each turn deals an extra 6 (1d12) Thunder damage on a hit.</p>"
+    },
+    {
+      "name": "Ice Walk",
+      "category": "trait",
+      "description": "<p>The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.</p>"
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "category": "trait",
+      "description": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Lucky Number",
+      "category": "trait",
+      "description": "<p>Whenever the dragon rolls a 3 on a d12, a burst of thunderous energy courses through its storm (see Storm Eye trait). Roll 1d6. Each enemy within the storm takes that much Thunder damage, and each ally within the storm adds the result to the next saving throw it makes before the start of the dragon's next turn.</p>"
+    },
+    {
+      "name": "Storm Eye",
+      "category": "trait",
+      "description": "<p>A storm fills a 120-foot Emanation originating from the dragon. Creatures of the dragon's choice treat the area as Lightly Obscured, and if such a creature's Speed is more than 30 feet, it's reduced to 30 feet while the creature is in the storm.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The dragon makes three Claw attacks. It can replace one attack with a Frozen Fang attack.</p>"
+    },
+    {
+      "name": "Claw",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +10, reach 5 ft. <em>Hit:</em> 12 (2d6 + 5) Slashing damage.</p>"
+    },
+    {
+      "name": "Frozen Fang",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +10, reach 5 ft. <em>Hit:</em> 12 (2d6 + 5) Piercing damage plus 6 (1d12) Cold damage.</p>"
+    },
+    {
+      "name": "Coil",
+      "category": "action",
+      "description": "<p>The dragon attempts to ensnare a creature in its serpentine body. <em>Saving Throw:</em> DC 18 Strength or Dexterity (target's choice), one Huge or smaller creature within 10 feet of the dragon. A creature Grappled by the dragon has Disadvantage on this saving throw. <em>Failure:</em> 33 (6d10) Bludgeoning damage, plus 6 (1d12) Bludgeoning damage if the target is Grappled by the dragon, and the target is Grappled (escape DC 18). Until the grapple ends, the target is Restrained and the dragon can't take this action against another target.</p>"
+    },
+    {
+      "name": "Command the Skies",
+      "category": "action",
+      "description": "<p>The dragon casts <em>Control Weather</em> without requiring Concentration or spell components, using Wisdom as the spellcasting ability.</p>"
+    },
+    {
+      "name": "Evoke Courage",
+      "category": "bonus",
+      "description": "<p>The dragon magnifies the steadiness of another creature it can see within 60 feet of itself. That creature is Immune to the Frightened condition and has Advantage on the first attack roll it makes on each of its turns. These benefits last for 1 hour, until the dragon becomes Incapacitated, or until the dragon takes this Bonus Action again.</p>"
+    },
+    {
+      "name": "Fear the Storm (Legendary Action, Costs 2 Uses)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p><em>Saving Throw:</em> DC 18 Wisdom, each creature of the dragon's choice within its storm (see Storm Eye trait). <em>Failure:</em> The target is Frightened of the dragon until the end of the target's next turn.</p>"
+    },
+    {
+      "name": "Pounce (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The dragon moves up to its Speed and makes one Claw attack.</p>"
+    },
+    {
+      "name": "Whipping Wind (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Saving Throw:</em> DC 18 Strength, one creature within the dragon's storm (see Storm Eye trait). <em>Failure:</em> The target is pushed 15 feet in a direction of the dragon's choice and knocked Prone.</p>"
+    }
+  ]
+}
