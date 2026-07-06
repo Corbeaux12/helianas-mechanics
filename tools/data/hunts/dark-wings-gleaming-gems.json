@@ -1,0 +1,87 @@
+{
+  "name": "Dark Wings, Gleaming Gems",
+  "source": "Dark Wings, Gleaming Gems (Loot Tavern hunt, APL 5/10/15)",
+  "creatureType": "elemental",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Dark Wings Gleaming Gems/Dark Wings Gleaming Gems v1.0.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Jinn: Eye (2); Griffon: Eye (2)"] },
+    { "dc": 5, "components": ["Jinn: Primordial Dust (2); Griffon: Primordial Dust (2)"] },
+    { "dc": 10, "components": ["Jinn: Bone (10); Griffon: Bone (10)"] },
+    { "dc": 15, "components": ["Jinn: Timeshards (10); Griffon: Smokeglass (10)"] },
+    { "dc": 15, "components": ["Jinn: Volatile Mote of Earth (2); Griffon: Volatile Mote of Earth (2)"] },
+    { "dc": 20, "components": ["Jinn: Elemental Core of Earth (1, no check needed if the Amalgam unfuses); Griffon: Elemental Core of Earth (1)"] }
+  ],
+  "components": [
+    { "name": "Jinn Timeshard",       "tags": ["timeshard", "jinn", "elemental"],            "price": 70 },
+    { "name": "Griffon Smokeglass",   "tags": ["smokeglass", "griffon", "elemental"],        "price": 70 },
+    { "name": "Timeglass Smokeshard", "tags": ["timeglass smokeshard", "elemental"],         "price": 150 }
+  ],
+  "items": [
+    {
+      "name": "Blow-By Bellows",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Volatile Mote of Elemental Air",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 300 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of air</p><p>When the scorpid people say that their arcane technology will blow you away, they mean that very literally.</p><p>This item has 3 charges. When the last charge is expended, the item becomes a mundane pair of bellows.</p><p><strong>Windburst.</strong> While holding this item, you can use an action to operate it, making a DC 13 Strength (Athletics) check. On a successful check, you expend 1 charge and replicate the effects of the <em>gust of wind</em> spell (save DC 13), which last until the start of your next turn.</p>"
+    },
+    {
+      "name": "Grasp of Reality",
+      "itemType": "equipment",
+      "kind": "Prosthesis",
+      "component": "Core of Elemental Earth",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 730 },
+        { "rarity": "rare",      "value": 4030 },
+        { "rarity": "very rare", "value": 13300 }
+      ],
+      "description": "<p><em>Prosthesis, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Elemental (Amalgam) core of earth</p><p>With one arm, you can twist the strands of time. With the other, you can bend space to your will. With both combined, the very fabric of reality is yours to weave as you see fit.</p><p>These two prostheses count as a single magic item with regard to the number of magic items to which you can attune. Each prosthesis can enhance or replace either arm, shaping itself to accommodate it. If you hit a creature with attacks from both prostheses on the same turn, the creature takes an extra 1d4 force damage from the second attack.</p><p><strong>Arm of the Griffon.</strong> This prosthesis is made of smokeglass and holds power over space. It has the Melee (1d8 slashing, Light) property and the Whirling Strike Superior Strike. While wearing this prosthesis, you can cast the <em>spike growth</em> spell (save DC 15). When you cast the spell in this way, it affects the entire area of a 30-foot cone originating from you instead of just the ground in the spell's normal area, as you release sharp obsidian feathers that become frozen in space. Once the prosthesis has been used to cast this spell, it can't be used to cast the spell again until the next dawn.</p><p><strong>Arm of the Jinn.</strong> This prosthesis is made of timeshards and holds power over time. It has the Melee (1d8 bludgeoning, Light) property and the Reeling Blow Superior Strike. While wearing this prosthesis, you can cast the <em>slow</em> spell (save DC 15). When you cast the spell in this way, it affects each creature in a 30-foot cone originating from you instead of the spell's normal area, as you release a plume of slowing smoke from your hand. Once the prosthesis has been used to cast this spell, it can't be used to cast the spell again until the next dawn.</p><p><strong>Unstable Fusion.</strong> You can concentrate on the effects of both spells cast using this item at once. While doing so, you take 2d6 force damage at the end of each of your turns, which doesn't cause you to make a saving throw to maintain your concentration. Whenever you're forced to make a saving throw to maintain your concentration on these spells, you make a single saving throw for both, and both spells end if you fail it.</p><p><strong>Uncommon variant:</strong> Reduce the DCs to 13. The prostheses don't deal extra force damage. Remove the Unstable Fusion property.</p><p><strong>Very rare variant:</strong> Increase the extra force damage if you hit a creature with both prostheses to 2d6 and the DCs to 16.</p>"
+    },
+    {
+      "name": "Spacetime Stabiliser",
+      "itemType": "equipment",
+      "kind": "Ring",
+      "component": "Timeglass Smokeshard",
+      "baseRecipe": "Ring",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "rare", "value": 1120 }
+      ],
+      "description": "<p><em>Ring, rare</em></p><p><strong>Component:</strong> magical material - timeglass smokeshard</p><p>The antipodal stones of timeshards and smokeglass that adorn this golden loop are constantly pulling away from one another, causing the ring to rattle with unstable power as it spins rapidly on its wearer's finger.</p><p><strong>Spatial Stabilisation.</strong> When you fail a saving throw made to resist being teleported against your will while wearing this ring, you can use your reaction to succeed instead. The ring then loses this property.</p><p><strong>Temporal Stabilisation.</strong> When you fail a saving throw made to resist being transported in time against your will while wearing this ring, you can use your reaction to succeed instead. The ring then loses this property.</p><p>Once the ring loses both properties, it becomes a mundane ring.</p><p><em>Timeglass smokeshards are obtained by fusing a timeshard and a piece of smokeglass: a creature needs to succeed on a DC 20 Intelligence (Arcana) check to perform an arcane ritual over the course of 1 hour. On a failed check, both materials explode in a 20-foot-radius sphere, each creature in the area taking damage on a failed Dexterity saving throw.</em></p>"
+    },
+    {
+      "name": "Spatial Plumeshield",
+      "itemType": "equipment",
+      "kind": "Armour (shield)",
+      "component": "Griffon Smokeglass",
+      "baseRecipe": "Shield",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 570 },
+        { "rarity": "rare",      "value": 3010 },
+        { "rarity": "very rare", "value": 10680 }
+      ],
+      "description": "<p><em>Armour (shield), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Magical material - (smokeglass griffon) smokeglass</p><p>You can't hit what you can't catch. Unless what you want to catch wants to be caught to prevent you from catching something else. Then you can catch it. But it's still going to be hard to hit.</p><p>This item has 2 charges and regains all expended charges daily at dawn.</p><p><strong>Swift Shift.</strong> As a reaction when a willing creature you can see within 30 feet of you is targeted by an attack while you wield this item, you can expend 1 charge to swap places with it. The creature teleports to your space and you teleport to its space, becoming the target of the attack.</p><p><strong>Warp Slam.</strong> While wielding this item, you can use a bonus action and expend 1 charge to slam it against a creature within 5 feet of you. That creature must succeed on a DC 15 Charisma saving throw or be teleported to an unoccupied space of your choice that you can see within 30 feet of you. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13 and the charges to 1.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the charges to 3.</p><p><strong>Item Set (Paradaxe).</strong> While attuned to the spatial plumeshield and the temporal shardspear, you can use a bonus action to merge them into the paradaxe, or to split it back into individual items. Each time you merge the items, choose whether the paradaxe is a greataxe or a halberd. The paradaxe has the combined properties and charges of both items, and you gain a bonus to attack and damage rolls with it depending on the highest rarity between the two (Uncommon +1, Rare +2, Very rare +3). As a further action option, you can expend 1 charge to replace one attack with a Spacetime Strike: you disappear and reappear within 30 feet at the start of your next turn, immediately making an attack with advantage that deals an extra 2d6 force damage.</p>"
+    },
+    {
+      "name": "Temporal Shardspear",
+      "itemType": "weapon",
+      "kind": "Weapon (spear)",
+      "component": "Jinn Timeshard",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 530 },
+        { "rarity": "rare",      "value": 2380 },
+        { "rarity": "very rare", "value": 9480 }
+      ],
+      "description": "<p><em>Weapon (spear), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Magical material - (timeshard jinn) timeshards</p><p>Time is a slow and insidious killer... but it turns out that when you sharpen it into a crystalline spear, it can kill rather quickly and abruptly as well.</p><p>This weapon has 2 charges and regains all expended charges daily at dawn.</p><p><strong>Chronostasis.</strong> When you hit a creature with an attack using this weapon, you can expend 1 charge to try putting it in temporal stasis. The creature must succeed on a DC 15 Charisma saving throw or be incapacitated until the end of its next turn. While incapacitated in this way, the creature has immunity to all damage, automatically succeeds on all saving throws, and can't move, speak, or regain hit points.</p><p><strong>Time Theft.</strong> When you hit a creature with an attack using this weapon, you can expend 1 charge to warp time around the two of you, making it slower and yourself faster. The creature must make a DC 15 Charisma saving throw. On a failed save, it can't take reactions until the end of its next turn, and, until then, it makes one fewer attack whenever it takes the Multiattack or Attack action (minimum of one). In addition, you can immediately make another attack using this weapon, and you gain one additional reaction until the start of your next turn, although you can still only use one reaction on each turn.</p><p><strong>Item Set (Paradaxe).</strong> See Spatial Plumeshield for the merged paradaxe properties.</p>"
+    }
+  ]
+}

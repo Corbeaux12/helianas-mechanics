@@ -1,0 +1,42 @@
+{
+  "_id": "NS7yCNOItxU0wCS3",
+  "_key": "!items!NS7yCNOItxU0wCS3",
+  "name": "Dark Wings, Gleaming Gems Hunt Notes",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Field notes on hunting and harvesting the dark wings, gleaming gems, with crafting recipes for its unique items.</p><p>Source: Dark Wings, Gleaming Gems (Loot Tavern hunt, APL 5/10/15)</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "isRecipeBook": true,
+      "recipeBookJournalUuid": "Compendium.helianas-mechanics.recipe-collections.JournalEntry.DnVWy5a0vYuNW4HF"
+    }
+  }
+}

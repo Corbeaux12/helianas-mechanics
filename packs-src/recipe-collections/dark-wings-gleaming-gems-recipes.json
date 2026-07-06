@@ -1,0 +1,664 @@
+{
+  "_id": "DnVWy5a0vYuNW4HF",
+  "_key": "!journal!DnVWy5a0vYuNW4HF",
+  "name": "Dark Wings, Gleaming Gems Recipes",
+  "pages": [
+    {
+      "_id": "CVPTe90ZS2RMG6Wl",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Dark Wings, Gleaming Gems (Loot Tavern hunt, APL 5/10/15)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Jinn: Eye (2); Griffon: Eye (2)</td></tr><tr><td>5</td><td>Jinn: Primordial Dust (2); Griffon: Primordial Dust (2)</td></tr><tr><td>10</td><td>Jinn: Bone (10); Griffon: Bone (10)</td></tr><tr><td>15</td><td>Jinn: Timeshards (10); Griffon: Smokeglass (10)</td></tr><tr><td>15</td><td>Jinn: Volatile Mote of Earth (2); Griffon: Volatile Mote of Earth (2)</td></tr><tr><td>20</td><td>Jinn: Elemental Core of Earth (1, no check needed if the Amalgam unfuses); Griffon: Elemental Core of Earth (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Q7kS6WpnhWEBY6y0]{Blow-By Bellows (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.C0gcE0xfXrQtf5mB]{Grasp of Reality (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.FuOTBSE1AYvwFaFu]{Grasp of Reality (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ZekmHoAKmJ1LV3XP]{Grasp of Reality (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.zYujZsOHuZz2MJ8z]{Spacetime Stabiliser (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.YdV0N3VQmiBm6nrb]{Spatial Plumeshield (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.KL6tMQmb0E6pnwFH]{Spatial Plumeshield (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.58sTDUyvqJcVMYpV]{Spatial Plumeshield (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Cr3AKZ2lR3YyZdr0]{Temporal Shardspear (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.qwEM2BIodejtYLsD]{Temporal Shardspear (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.vMd6Mb1BRQGg05cA]{Temporal Shardspear (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.CVPTe90ZS2RMG6Wl"
+    },
+    {
+      "_id": "9IhDzYqpwQiQKKE0",
+      "name": "Dark Wings, Gleaming Gems (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Dark Wings Gleaming Gems/Dark Wings Gleaming Gems v1.0.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.9IhDzYqpwQiQKKE0"
+    },
+    {
+      "_id": "GSltJOysSuGe3D7v",
+      "name": "Blow-By Bellows (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Blow-By Bellows (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Q7kS6WpnhWEBY6y0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fY3jrH5SnRv49XXc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "YrBnHcbbCcAL580t",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6j0yj0EAdskYL9Xu",
+                "name": "Volatile Mote of Elemental Air",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "air"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.GSltJOysSuGe3D7v"
+    },
+    {
+      "_id": "qTdoOpZcHuZx94uo",
+      "name": "Grasp of Reality (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Grasp of Reality (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.C0gcE0xfXrQtf5mB",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "38pN8FEH7OSBU91k",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Wsw8bOvp5Ae79qpO",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.JXKfw1i3zfca4FpO",
+                "name": "Core of Elemental Earth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "elemental",
+                  "earth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.qTdoOpZcHuZx94uo"
+    },
+    {
+      "_id": "ygWkfQWy8Nmng6Jl",
+      "name": "Grasp of Reality (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Grasp of Reality (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.FuOTBSE1AYvwFaFu",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "jdoeWX7CRfwr7TRv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WiKn9XBzAqT8f70C",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.JXKfw1i3zfca4FpO",
+                "name": "Core of Elemental Earth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "elemental",
+                  "earth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.ygWkfQWy8Nmng6Jl"
+    },
+    {
+      "_id": "N0RiqJpF2ndbMRGc",
+      "name": "Grasp of Reality (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Grasp of Reality (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ZekmHoAKmJ1LV3XP",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QGGwOKUOOI6B2Anc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tmMjFZeOUSUqL931",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.JXKfw1i3zfca4FpO",
+                "name": "Core of Elemental Earth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "elemental",
+                  "earth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.N0RiqJpF2ndbMRGc"
+    },
+    {
+      "_id": "Sp5BmwMa96PO6HWC",
+      "name": "Spacetime Stabiliser (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Spacetime Stabiliser (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.zYujZsOHuZz2MJ8z",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7n2Z41a6bQ1frevG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dOH29qbYhWGHoIOC",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Hi8AZGMIgqttaatX",
+                "name": "Timeglass Smokeshard",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "timeglass smokeshard",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.Sp5BmwMa96PO6HWC"
+    },
+    {
+      "_id": "QhSZnqsngVaEs66L",
+      "name": "Spatial Plumeshield (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Spatial Plumeshield (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.YdV0N3VQmiBm6nrb",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "48RHQ64DDjHq2zVC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "f9vDbnezTCfp76BF",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ySmZn3wogKbvGTBh",
+                "name": "Griffon Smokeglass",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "smokeglass",
+                  "griffon",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.QhSZnqsngVaEs66L"
+    },
+    {
+      "_id": "D20tUZlIcxr3Bh0Z",
+      "name": "Spatial Plumeshield (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Spatial Plumeshield (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.KL6tMQmb0E6pnwFH",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WNeiEoy1bOwgM5v4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2nVrB85QfsDr4Yqb",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ySmZn3wogKbvGTBh",
+                "name": "Griffon Smokeglass",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "smokeglass",
+                  "griffon",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.D20tUZlIcxr3Bh0Z"
+    },
+    {
+      "_id": "dvBpo7dwHre8JlA4",
+      "name": "Spatial Plumeshield (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Spatial Plumeshield (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.58sTDUyvqJcVMYpV",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RQINaFO2A1GtObRu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6gQ4uKt64WY40LgD",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ySmZn3wogKbvGTBh",
+                "name": "Griffon Smokeglass",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "smokeglass",
+                  "griffon",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.dvBpo7dwHre8JlA4"
+    },
+    {
+      "_id": "eRnjq9E416VVPQf3",
+      "name": "Temporal Shardspear (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Temporal Shardspear (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Cr3AKZ2lR3YyZdr0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "DDLTc7NsW1JHOdMN",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "B7MwDqgAddnhPvb9",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.H47450oIvh2pRnt3",
+                "name": "Jinn Timeshard",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "timeshard",
+                  "jinn",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.eRnjq9E416VVPQf3"
+    },
+    {
+      "_id": "FaQ7RQzoidegIx97",
+      "name": "Temporal Shardspear (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Temporal Shardspear (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.qwEM2BIodejtYLsD",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MBk5WhOxZWL6RRZg",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fbQ6OGKl7n44ctxa",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.H47450oIvh2pRnt3",
+                "name": "Jinn Timeshard",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "timeshard",
+                  "jinn",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.FaQ7RQzoidegIx97"
+    },
+    {
+      "_id": "RvskSZMfbk6PzfRC",
+      "name": "Temporal Shardspear (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Temporal Shardspear (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.vMd6Mb1BRQGg05cA",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "FSe6rlgwiVpFuK4v",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "gFVJVEVDwnfjQzYO",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.H47450oIvh2pRnt3",
+                "name": "Jinn Timeshard",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "timeshard",
+                  "jinn",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!DnVWy5a0vYuNW4HF.RvskSZMfbk6PzfRC"
+    }
+  ],
+  "folder": null,
+  "sort": 10600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

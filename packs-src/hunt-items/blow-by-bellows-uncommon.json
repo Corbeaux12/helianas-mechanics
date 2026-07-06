@@ -1,0 +1,37 @@
+{
+  "_id": "Q7kS6WpnhWEBY6y0",
+  "_key": "!items!Q7kS6WpnhWEBY6y0",
+  "name": "Blow-By Bellows (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of air</p><p>When the scorpid people say that their arcane technology will blow you away, they mean that very literally.</p><p>This item has 3 charges. When the last charge is expended, the item becomes a mundane pair of bellows.</p><p><strong>Windburst.</strong> While holding this item, you can use an action to operate it, making a DC 13 Strength (Athletics) check. On a successful check, you expend 1 charge and replicate the effects of the <em>gust of wind</em> spell (save DC 13), which last until the start of your next turn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

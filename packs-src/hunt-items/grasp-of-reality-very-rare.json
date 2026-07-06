@@ -1,0 +1,37 @@
+{
+  "_id": "ZekmHoAKmJ1LV3XP",
+  "_key": "!items!ZekmHoAKmJ1LV3XP",
+  "name": "Grasp of Reality (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Prosthesis, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Elemental (Amalgam) core of earth</p><p>With one arm, you can twist the strands of time. With the other, you can bend space to your will. With both combined, the very fabric of reality is yours to weave as you see fit.</p><p>These two prostheses count as a single magic item with regard to the number of magic items to which you can attune. Each prosthesis can enhance or replace either arm, shaping itself to accommodate it. If you hit a creature with attacks from both prostheses on the same turn, the creature takes an extra 1d4 force damage from the second attack.</p><p><strong>Arm of the Griffon.</strong> This prosthesis is made of smokeglass and holds power over space. It has the Melee (1d8 slashing, Light) property and the Whirling Strike Superior Strike. While wearing this prosthesis, you can cast the <em>spike growth</em> spell (save DC 15). When you cast the spell in this way, it affects the entire area of a 30-foot cone originating from you instead of just the ground in the spell's normal area, as you release sharp obsidian feathers that become frozen in space. Once the prosthesis has been used to cast this spell, it can't be used to cast the spell again until the next dawn.</p><p><strong>Arm of the Jinn.</strong> This prosthesis is made of timeshards and holds power over time. It has the Melee (1d8 bludgeoning, Light) property and the Reeling Blow Superior Strike. While wearing this prosthesis, you can cast the <em>slow</em> spell (save DC 15). When you cast the spell in this way, it affects each creature in a 30-foot cone originating from you instead of the spell's normal area, as you release a plume of slowing smoke from your hand. Once the prosthesis has been used to cast this spell, it can't be used to cast the spell again until the next dawn.</p><p><strong>Unstable Fusion.</strong> You can concentrate on the effects of both spells cast using this item at once. While doing so, you take 2d6 force damage at the end of each of your turns, which doesn't cause you to make a saving throw to maintain your concentration. Whenever you're forced to make a saving throw to maintain your concentration on these spells, you make a single saving throw for both, and both spells end if you fail it.</p><p><strong>Uncommon variant:</strong> Reduce the DCs to 13. The prostheses don't deal extra force damage. Remove the Unstable Fusion property.</p><p><strong>Very rare variant:</strong> Increase the extra force damage if you hit a creature with both prostheses to 2d6 and the DCs to 16.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 13300,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "qwEM2BIodejtYLsD",
+  "_key": "!items!qwEM2BIodejtYLsD",
+  "name": "Temporal Shardspear (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (spear), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Magical material - (timeshard jinn) timeshards</p><p>Time is a slow and insidious killer... but it turns out that when you sharpen it into a crystalline spear, it can kill rather quickly and abruptly as well.</p><p>This weapon has 2 charges and regains all expended charges daily at dawn.</p><p><strong>Chronostasis.</strong> When you hit a creature with an attack using this weapon, you can expend 1 charge to try putting it in temporal stasis. The creature must succeed on a DC 15 Charisma saving throw or be incapacitated until the end of its next turn. While incapacitated in this way, the creature has immunity to all damage, automatically succeeds on all saving throws, and can't move, speak, or regain hit points.</p><p><strong>Time Theft.</strong> When you hit a creature with an attack using this weapon, you can expend 1 charge to warp time around the two of you, making it slower and yourself faster. The creature must make a DC 15 Charisma saving throw. On a failed save, it can't take reactions until the end of its next turn, and, until then, it makes one fewer attack whenever it takes the Multiattack or Attack action (minimum of one). In addition, you can immediately make another attack using this weapon, and you gain one additional reaction until the start of your next turn, although you can still only use one reaction on each turn.</p><p><strong>Item Set (Paradaxe).</strong> See Spatial Plumeshield for the merged paradaxe properties.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 2380,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

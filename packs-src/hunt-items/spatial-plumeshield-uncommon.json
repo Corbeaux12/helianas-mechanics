@@ -1,0 +1,37 @@
+{
+  "_id": "YdV0N3VQmiBm6nrb",
+  "_key": "!items!YdV0N3VQmiBm6nrb",
+  "name": "Spatial Plumeshield (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (shield), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Magical material - (smokeglass griffon) smokeglass</p><p>You can't hit what you can't catch. Unless what you want to catch wants to be caught to prevent you from catching something else. Then you can catch it. But it's still going to be hard to hit.</p><p>This item has 2 charges and regains all expended charges daily at dawn.</p><p><strong>Swift Shift.</strong> As a reaction when a willing creature you can see within 30 feet of you is targeted by an attack while you wield this item, you can expend 1 charge to swap places with it. The creature teleports to your space and you teleport to its space, becoming the target of the attack.</p><p><strong>Warp Slam.</strong> While wielding this item, you can use a bonus action and expend 1 charge to slam it against a creature within 5 feet of you. That creature must succeed on a DC 15 Charisma saving throw or be teleported to an unoccupied space of your choice that you can see within 30 feet of you. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13 and the charges to 1.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the charges to 3.</p><p><strong>Item Set (Paradaxe).</strong> While attuned to the spatial plumeshield and the temporal shardspear, you can use a bonus action to merge them into the paradaxe, or to split it back into individual items. Each time you merge the items, choose whether the paradaxe is a greataxe or a halberd. The paradaxe has the combined properties and charges of both items, and you gain a bonus to attack and damage rolls with it depending on the highest rarity between the two (Uncommon +1, Rare +2, Very rare +3). As a further action option, you can expend 1 charge to replace one attack with a Spacetime Strike: you disappear and reappear within 30 feet at the start of your next turn, immediately making an attack with advantage that deals an extra 2d6 force damage.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 570,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

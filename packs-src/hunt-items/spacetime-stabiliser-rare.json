@@ -1,0 +1,37 @@
+{
+  "_id": "zYujZsOHuZz2MJ8z",
+  "_key": "!items!zYujZsOHuZz2MJ8z",
+  "name": "Spacetime Stabiliser (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, rare</em></p><p><strong>Component:</strong> magical material - timeglass smokeshard</p><p>The antipodal stones of timeshards and smokeglass that adorn this golden loop are constantly pulling away from one another, causing the ring to rattle with unstable power as it spins rapidly on its wearer's finger.</p><p><strong>Spatial Stabilisation.</strong> When you fail a saving throw made to resist being teleported against your will while wearing this ring, you can use your reaction to succeed instead. The ring then loses this property.</p><p><strong>Temporal Stabilisation.</strong> When you fail a saving throw made to resist being transported in time against your will while wearing this ring, you can use your reaction to succeed instead. The ring then loses this property.</p><p>Once the ring loses both properties, it becomes a mundane ring.</p><p><em>Timeglass smokeshards are obtained by fusing a timeshard and a piece of smokeglass: a creature needs to succeed on a DC 20 Intelligence (Arcana) check to perform an arcane ritual over the course of 1 hour. On a failed check, both materials explode in a 20-foot-radius sphere, each creature in the area taking damage on a failed Dexterity saving throw.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1120,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
