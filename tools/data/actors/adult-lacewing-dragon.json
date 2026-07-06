@@ -1,0 +1,115 @@
+{
+  "name": "Adult Lacewing Dragon",
+  "source": "Heliana's Field Notes X-47 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Forest/X47-Lacewing Dragon-variants.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/lacewing-dragon.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/lacewing-dragon-token.webp",
+  "size": "huge",
+  "creatureType": "dragon",
+  "subtype": "Arthrodrake",
+  "alignment": "Neutral",
+  "ac": 19,
+  "hp": {
+    "value": 230,
+    "formula": "20d12 + 100"
+  },
+  "speed": {
+    "walk": 40,
+    "climb": 40
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 22,
+    "con": 21,
+    "int": 16,
+    "wis": 20,
+    "cha": 13
+  },
+  "saveProfs": [
+    "dex",
+    "wis"
+  ],
+  "skills": {
+    "acr": 1,
+    "prc": 1,
+    "ste": 1
+  },
+  "dr": [
+    "poison"
+  ],
+  "ci": [
+    "poisoned"
+  ],
+  "senses": {
+    "blindsight": 60,
+    "darkvision": 300
+  },
+  "languages": [
+    "Draconic"
+  ],
+  "cr": 16,
+  "xp": 15000,
+  "biography": "<p><em>Draconis arthromorphae.</em> An adult lacewing dragon — an arthrodrake puppeteer that threads its prey mid-fight and walks them around like marionettes. Habitat: Forest &amp; Jungle.</p>",
+  "features": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "category": "trait",
+      "description": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Spider Climb",
+      "category": "trait",
+      "description": "<p>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>"
+    },
+    {
+      "name": "Stitching Prey",
+      "category": "trait",
+      "description": "<p>Some of the dragon's actions cause a hit creature to be threaded. A threaded creature's Speed is reduced by 10 feet. A creature stops being threaded when it or a creature within 5 feet of it cuts the threads by hitting them (AC 5) with an attack that deals Slashing damage.</p>"
+    },
+    {
+      "name": "Web Walker",
+      "category": "trait",
+      "description": "<p>The dragon ignores movement restrictions caused by webbing, and it knows the location of any other creature in contact with the same web.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The dragon makes one Bite attack and two Needleclaw attacks.</p>"
+    },
+    {
+      "name": "Bite",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +10, reach 10 ft. <em>Hit:</em> 16 (2d10 + 5) Piercing damage plus 14 (4d6) Poison damage.</p>"
+    },
+    {
+      "name": "Needleclaw",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +11, reach 5 ft. <em>Hit:</em> 15 (2d8 + 6) Piercing damage, and the target is threaded (see Stitching Prey trait).</p>"
+    },
+    {
+      "name": "Silk Breath (Recharge 5-6)",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 18 Dexterity, each creature in a 60-foot Cone. <em>Failure:</em> 35 (10d6) Poison damage, and the target is threaded (see Stitching Prey trait). While threaded in this way, the target is Restrained. <em>Success:</em> Half damage only.</p>"
+    },
+    {
+      "name": "Thread Pull",
+      "category": "bonus",
+      "description": "<p><em>Saving Throw:</em> DC 18 Strength, one threaded creature within 60 feet. <em>Failure:</em> The target is moved up to 30 feet in a direction of the dragon's choice and knocked Prone. <em>Success:</em> The target is knocked Prone only.</p>"
+    },
+    {
+      "name": "Pounce (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.</em></p><p>The dragon moves up to half its Speed, and it makes one Needleclaw attack.</p>"
+    },
+    {
+      "name": "Puppeteer (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The dragon moves a threaded creature up to 30 feet in any direction. The creature then makes one melee weapon attack against a target of the dragon's choice within range. The dragon can't take this action again until the start of its next turn.</p>"
+    },
+    {
+      "name": "Strangling Silk (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Saving Throw:</em> DC 18 Constitution, each threaded creature within 60 feet of the dragon. <em>Failure:</em> 7 (2d6) Slashing damage. <em>Failure or Success:</em> The dragon can't take this action again until the start of its next turn.</p>"
+    }
+  ]
+}

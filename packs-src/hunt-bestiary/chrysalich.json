@@ -1,0 +1,718 @@
+{
+  "_id": "ZVxqra349mHzsdys",
+  "_key": "!actors!ZVxqra349mHzsdys",
+  "name": "Chrysalich",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/chrysalich.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 6,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 9,
+        "proficient": 0
+      },
+      "con": {
+        "value": 19,
+        "proficient": 1
+      },
+      "int": {
+        "value": 21,
+        "proficient": 1
+      },
+      "wis": {
+        "value": 17,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 14,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 237,
+        "max": 237,
+        "formula": "25d10 + 100"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 5,
+        "fly": 20,
+        "hover": true
+      },
+      "senses": {
+        "units": "ft",
+        "truesight": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Lich khrusos.</em> A lich that traded its phylactery for a golden cocoon — it fights entirely through a silk puppet woven around a stolen corpse (AC 21 and Resistance to all damage while the puppet lives, Stealth +11 for the puppet). Destroy the cocoon and it simply spins a new one. Habitat: Mountain &amp; The Low.</p><p><em>Source: Heliana's Field Notes X-48 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral Evil",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 20
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [],
+        "custom": "Telepathy 120 ft."
+      },
+      "di": {
+        "value": [
+          "necrotic",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "lightning"
+        ],
+        "custom": "See Puppet Protection trait"
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "arc": {
+        "value": 1,
+        "ability": "int"
+      },
+      "his": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "ccAHFAhjC5ILDbMW",
+      "_key": "!actors.items!ZVxqra349mHzsdys.ccAHFAhjC5ILDbMW",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the chrysalich fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "447Tkj0TqVu8BRqv",
+      "_key": "!actors.items!ZVxqra349mHzsdys.447Tkj0TqVu8BRqv",
+      "name": "Puppet Protection",
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>So long as the chrysalich has an active puppet, it has AC 21 and Resistance to all damage types, and it reduces each instance of damage to its cocoon by 20.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "6ot1uCZe4RlaYWbv",
+      "_key": "!actors.items!ZVxqra349mHzsdys.6ot1uCZe4RlaYWbv",
+      "name": "Reforming Cocoon",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the chrysalich's cocoon is destroyed, it can spend 1d10 days forming a new cocoon around an unharmed corpse it had wrapped before its cocoon was destroyed. The new cocoon regains all its Hit Points and appears in the location of the transformed corpse.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "CZNNweedGmxmsaGU",
+      "_key": "!actors.items!ZVxqra349mHzsdys.CZNNweedGmxmsaGU",
+      "name": "Silk Puppet",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The chrysalich's puppet is an extension of the chrysalich and isn't considered a separate creature, but has its own pool of 50 Hit Points when it's created and can't regain Hit Points. It uses the chrysalich's statistics, except it has a Dexterity score of 20 and a Speed of 35 feet. The chrysalich can take actions through the puppet and expend movement to move it. If the puppet is ever more than 10 miles from the chrysalich, it immediately decays and is destroyed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "ia9QKFrp8SFxUG94",
+      "_key": "!actors.items!ZVxqra349mHzsdys.ia9QKFrp8SFxUG94",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The chrysalich makes four Needle attacks through its puppet.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "g1MPI6pfZigixewh",
+      "_key": "!actors.items!ZVxqra349mHzsdys.g1MPI6pfZigixewh",
+      "name": "Needle (Puppet Only)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +11, reach 5 ft. <em>Hit:</em> 14 (2d8 + 5) Piercing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": true,
+              "formula": "2d8 + 5"
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "HdiXoyBhHsgDJmO4": {
+            "type": "attack",
+            "_id": "HdiXoyBhHsgDJmO4",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "",
+              "bonus": "11"
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "GgFoV7TE8kkFoHN1",
+      "_key": "!actors.items!ZVxqra349mHzsdys.GgFoV7TE8kkFoHN1",
+      "name": "Necrotic Burst",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 19 Constitution, each creature in a 60-foot Emanation originating from the chrysalich or its puppet (chrysalich's choice). <em>Failure:</em> 21 (6d6) Necrotic damage. <em>Success:</em> Half damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "Ztgk5j3t5OYjpj6L",
+      "_key": "!actors.items!ZVxqra349mHzsdys.Ztgk5j3t5OYjpj6L",
+      "name": "Create Puppet",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the chrysalich doesn't have a puppet, it loses 25 Hit Points and creates a puppet which appears in an unoccupied space within 60 feet of it.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "ppewyBobPa6cHZUl",
+      "_key": "!actors.items!ZVxqra349mHzsdys.ppewyBobPa6cHZUl",
+      "name": "Unstitch (Puppet Only)",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>When the chrysalich's puppet hits with a Needle attack, the chrysalich imbues the needle with arcane power, dealing an extra 13 (2d12) Necrotic damage to the target.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "7XjEgQ2dHp1sL4OF",
+      "_key": "!actors.items!ZVxqra349mHzsdys.7XjEgQ2dHp1sL4OF",
+      "name": "Escape Line",
+      "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> A creature makes an attack targeting the chrysalich's puppet. <em>Response:</em> The puppet moves up to its Speed without provoking Opportunity Attacks, potentially moving out of the attack's range and causing the attack to miss.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "TgApKsDJj662dX8P",
+      "_key": "!actors.items!ZVxqra349mHzsdys.TgApKsDJj662dX8P",
+      "name": "Scatterstitch (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the chrysalich can expend a use to take one of the following actions. The chrysalich regains all expended uses at the start of each of its turns.</em></p><p><em>Saving Throw:</em> DC 19 Strength, each creature in a 30-foot Emanation originating from the chrysalich or its puppet (chrysalich's choice). <em>Failure:</em> The target is moved 15 feet directly away from the Emanation's source, and the target's Speed is halved until the end of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "1EHQ7S3o2FS2wFXK",
+      "_key": "!actors.items!ZVxqra349mHzsdys.1EHQ7S3o2FS2wFXK",
+      "name": "Slipstitch (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The chrysalich's puppet moves up to half its Speed without provoking Opportunity Attacks, then makes one Needle attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "URaLwRMXMhwT417H",
+      "_key": "!actors.items!ZVxqra349mHzsdys.URaLwRMXMhwT417H",
+      "name": "Create Puppet (Legendary Action, Costs 2 Uses)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The chrysalich uses Create Puppet.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Chrysalich",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/chrysalich-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

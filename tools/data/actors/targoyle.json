@@ -1,0 +1,32 @@
+{
+  "name": "Targoyle",
+  "source": "Heliana's Field Notes X-49 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Mountain/X49-Targoyle.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/targoyle.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/targoyle-token.webp",
+  "size": "lg",
+  "creatureType": "elemental",
+  "alignment": "Neutral",
+  "ac": 17,
+  "hp": { "value": 157, "formula": "15d10 + 75" },
+  "speed": { "walk": 30 },
+  "abilities": { "str": 21, "dex": 9, "con": 20, "int": 7, "wis": 12, "cha": 7 },
+  "saveProfs": [],
+  "skills": {},
+  "di": ["poison"],
+  "ci": ["exhaustion", "paralyzed", "petrified", "poisoned", "unconscious"],
+  "senses": { "darkvision": 60, "tremorsense": 60 },
+  "languages": ["Ignan", "Terran"],
+  "cr": 8,
+  "xp": 3900,
+  "biography": "<p><em>Pice fumanima.</em> A tar-bodied elemental gargoyle. Heating its core (10+ Fire damage) drops its AC to 15 but grants a Fly Speed of 20 feet, ignites its Bite, and unlocks its Heat Beam — a trade attackers may regret triggering. Habitat: Mountain &amp; Planar.</p>",
+  "features": [
+    { "name": "Heated Core", "category": "trait", "description": "<p>If the targoyle takes 10+ Fire damage in a single instance, its core becomes heated for 1 minute, until the targoyle is submerged in water, or until it takes 10+ Cold damage in a single instance. While its core is heated, the targoyle takes a -2 penalty to AC (AC 15), it gains a Fly Speed of 20 feet, its Bite attack deals extra Fire damage on a hit (included in the attack), and it can use its Heat Beam action.</p>" },
+    { "name": "Tar Splatter", "category": "trait", "description": "<p>The first time each turn when the targoyle takes Bludgeoning, Piercing, or Slashing damage, it bursts in an eruption of scalding tar. <em>Saving Throw:</em> DC 16 Dexterity, each creature in a 15-foot Emanation originating from the targoyle. <em>Failure:</em> The target is coated in tar until it or a creature within reach of it takes an action to remove the tar. While coated in tar, a creature's Speed is reduced by 15 feet. If a creature coated in tar takes Fire damage, it takes an extra 9 (2d8) Fire damage and is no longer coated in tar.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The targoyle makes one Bite attack and two Claw attacks.</p>" },
+    { "name": "Bite", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 18 (3d8 + 5) Piercing damage plus 9 (2d8) Fire damage if the targoyle's core is heated (see Heated Core trait).</p>" },
+    { "name": "Claw", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +8, reach 5 ft. <em>Hit:</em> 12 (2d6 + 5) Slashing damage, and the target is coated in tar as if it failed the saving throw against the Targoyle's Tar Splatter trait.</p>" },
+    { "name": "Tar Shot (Recharge 5-6)", "category": "action", "description": "<p>The targoyle hurls a ball of tar at a point it can see within 60 feet of itself. <em>Saving Throw:</em> DC 16 Dexterity, each creature in a 20-foot-radius Sphere centred on the point. <em>Failure:</em> 28 (8d6) Bludgeoning damage, and the creature is coated in tar as if it failed the saving throw against the Targoyle's Tar Splatter trait. <em>Success:</em> Half damage only. <em>Failure or Success:</em> Ground in the area becomes Difficult Terrain for 1 minute.</p>" },
+    { "name": "Heat Beam (Recharge 6; Only While its Core is Heated)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 16 Dexterity, each creature in a 100-foot long, 10-foot wide Line. <em>Failure:</em> 35 (10d6) Fire damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> The targoyle's core is no longer heated.</p>" }
+  ]
+}

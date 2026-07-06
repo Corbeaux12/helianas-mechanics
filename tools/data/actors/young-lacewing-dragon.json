@@ -1,0 +1,95 @@
+{
+  "name": "Young Lacewing Dragon",
+  "source": "Heliana's Field Notes X-47 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Forest/X47-Lacewing Dragon-variants.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/lacewing-dragon.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/lacewing-dragon-token.webp",
+  "size": "lg",
+  "creatureType": "dragon",
+  "subtype": "Arthrodrake",
+  "alignment": "Neutral",
+  "ac": 18,
+  "hp": {
+    "value": 169,
+    "formula": "20d10 + 60"
+  },
+  "speed": {
+    "walk": 40,
+    "climb": 40
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 21,
+    "con": 17,
+    "int": 13,
+    "wis": 17,
+    "cha": 11
+  },
+  "saveProfs": [
+    "dex",
+    "wis"
+  ],
+  "skills": {
+    "acr": 1,
+    "prc": 1,
+    "ste": 1
+  },
+  "dr": [
+    "poison"
+  ],
+  "ci": [
+    "poisoned"
+  ],
+  "senses": {
+    "blindsight": 30,
+    "darkvision": 150
+  },
+  "languages": [
+    "Draconic"
+  ],
+  "cr": 9,
+  "xp": 5000,
+  "biography": "<p>A young lacewing dragon, its silk breath already strong enough to cocoon whole hunting parties. Habitat: Forest &amp; Jungle.</p>",
+  "features": [
+    {
+      "name": "Spider Climb",
+      "category": "trait",
+      "description": "<p>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>"
+    },
+    {
+      "name": "Stitching Prey",
+      "category": "trait",
+      "description": "<p>Some of the dragon's actions cause a hit creature to be threaded. A threaded creature's Speed is reduced by 10 feet. A creature stops being threaded when it or a creature within 5 feet of it cuts the threads by hitting them (AC 5) with an attack that deals Slashing damage.</p>"
+    },
+    {
+      "name": "Web Walker",
+      "category": "trait",
+      "description": "<p>The dragon ignores movement restrictions caused by webbing, and it knows the location of any other creature in contact with the same web.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The dragon makes one Bite attack and two Needleclaw attacks.</p>"
+    },
+    {
+      "name": "Bite",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +8, reach 10 ft. <em>Hit:</em> 15 (2d10 + 4) Piercing damage plus 14 (4d6) Poison damage.</p>"
+    },
+    {
+      "name": "Needleclaw",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +9, reach 5 ft. <em>Hit:</em> 14 (2d8 + 5) Piercing damage, and the target is threaded (see Stitching Prey trait).</p>"
+    },
+    {
+      "name": "Silk Breath (Recharge 5-6)",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 15 Dexterity, each creature in a 30-foot Cone. <em>Failure:</em> 28 (8d6) Poison damage, and the target is threaded (see Stitching Prey trait). While threaded in this way, the target is Restrained. <em>Success:</em> Half damage only.</p>"
+    },
+    {
+      "name": "Thread Pull",
+      "category": "bonus",
+      "description": "<p><em>Saving Throw:</em> DC 15 Strength, one threaded creature within 60 feet. <em>Failure:</em> The target is moved up to 30 feet in a direction of the dragon's choice and knocked Prone. <em>Success:</em> The target is knocked Prone only.</p>"
+    }
+  ]
+}

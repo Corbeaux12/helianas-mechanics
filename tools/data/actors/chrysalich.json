@@ -1,0 +1,131 @@
+{
+  "name": "Chrysalich",
+  "source": "Heliana's Field Notes X-48 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/The Low/X48-Chrysalich.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/chrysalich.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/chrysalich-token.webp",
+  "size": "lg",
+  "creatureType": "undead",
+  "alignment": "Neutral Evil",
+  "ac": 14,
+  "hp": {
+    "value": 237,
+    "formula": "25d10 + 100"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": 20,
+    "hover": true
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 9,
+    "con": 19,
+    "int": 21,
+    "wis": 17,
+    "cha": 14
+  },
+  "saveProfs": [
+    "con",
+    "int",
+    "wis"
+  ],
+  "skills": {
+    "arc": 1,
+    "his": 1,
+    "ins": 1,
+    "prc": 1,
+    "ste": 1
+  },
+  "dr": [
+    "cold",
+    "lightning"
+  ],
+  "drCustom": "See Puppet Protection trait",
+  "di": [
+    "necrotic",
+    "poison"
+  ],
+  "ci": [
+    "charmed",
+    "exhaustion",
+    "frightened",
+    "paralyzed",
+    "poisoned"
+  ],
+  "senses": {
+    "truesight": 120
+  },
+  "languages": [],
+  "languagesCustom": "Telepathy 120 ft.",
+  "cr": 20,
+  "xp": 25000,
+  "biography": "<p><em>Lich khrusos.</em> A lich that traded its phylactery for a golden cocoon — it fights entirely through a silk puppet woven around a stolen corpse (AC 21 and Resistance to all damage while the puppet lives, Stealth +11 for the puppet). Destroy the cocoon and it simply spins a new one. Habitat: Mountain &amp; The Low.</p>",
+  "features": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "category": "trait",
+      "description": "<p>If the chrysalich fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Puppet Protection",
+      "category": "trait",
+      "description": "<p>So long as the chrysalich has an active puppet, it has AC 21 and Resistance to all damage types, and it reduces each instance of damage to its cocoon by 20.</p>"
+    },
+    {
+      "name": "Reforming Cocoon",
+      "category": "trait",
+      "description": "<p>If the chrysalich's cocoon is destroyed, it can spend 1d10 days forming a new cocoon around an unharmed corpse it had wrapped before its cocoon was destroyed. The new cocoon regains all its Hit Points and appears in the location of the transformed corpse.</p>"
+    },
+    {
+      "name": "Silk Puppet",
+      "category": "trait",
+      "description": "<p>The chrysalich's puppet is an extension of the chrysalich and isn't considered a separate creature, but has its own pool of 50 Hit Points when it's created and can't regain Hit Points. It uses the chrysalich's statistics, except it has a Dexterity score of 20 and a Speed of 35 feet. The chrysalich can take actions through the puppet and expend movement to move it. If the puppet is ever more than 10 miles from the chrysalich, it immediately decays and is destroyed.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The chrysalich makes four Needle attacks through its puppet.</p>"
+    },
+    {
+      "name": "Needle (Puppet Only)",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +11, reach 5 ft. <em>Hit:</em> 14 (2d8 + 5) Piercing damage.</p>"
+    },
+    {
+      "name": "Necrotic Burst",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 19 Constitution, each creature in a 60-foot Emanation originating from the chrysalich or its puppet (chrysalich's choice). <em>Failure:</em> 21 (6d6) Necrotic damage. <em>Success:</em> Half damage.</p>"
+    },
+    {
+      "name": "Create Puppet",
+      "category": "bonus",
+      "description": "<p>If the chrysalich doesn't have a puppet, it loses 25 Hit Points and creates a puppet which appears in an unoccupied space within 60 feet of it.</p>"
+    },
+    {
+      "name": "Unstitch (Puppet Only)",
+      "category": "bonus",
+      "description": "<p>When the chrysalich's puppet hits with a Needle attack, the chrysalich imbues the needle with arcane power, dealing an extra 13 (2d12) Necrotic damage to the target.</p>"
+    },
+    {
+      "name": "Escape Line",
+      "category": "reaction",
+      "description": "<p><em>Trigger:</em> A creature makes an attack targeting the chrysalich's puppet. <em>Response:</em> The puppet moves up to its Speed without provoking Opportunity Attacks, potentially moving out of the attack's range and causing the attack to miss.</p>"
+    },
+    {
+      "name": "Scatterstitch (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the chrysalich can expend a use to take one of the following actions. The chrysalich regains all expended uses at the start of each of its turns.</em></p><p><em>Saving Throw:</em> DC 19 Strength, each creature in a 30-foot Emanation originating from the chrysalich or its puppet (chrysalich's choice). <em>Failure:</em> The target is moved 15 feet directly away from the Emanation's source, and the target's Speed is halved until the end of its next turn.</p>"
+    },
+    {
+      "name": "Slipstitch (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The chrysalich's puppet moves up to half its Speed without provoking Opportunity Attacks, then makes one Needle attack.</p>"
+    },
+    {
+      "name": "Create Puppet (Legendary Action, Costs 2 Uses)",
+      "category": "legendary",
+      "description": "<p>The chrysalich uses Create Puppet.</p>"
+    }
+  ]
+}
