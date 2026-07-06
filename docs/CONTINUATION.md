@@ -4,10 +4,10 @@ Handoff notes for continuing the content-import work in a fresh session (written
 
 ## Where things stand
 
-- **Module version:** 1.12.0 deployed. Everything through commit `9590eee` is live on the server.
+- **Module version:** 1.12.0 deployed. Everything through commit `cd3e164` is live on the server.
 - **Hunt Bestiary: COMPLETE.** All 45 Field Notes PDFs → 57 actors in `tools/data/actors/*.json`. Don't touch unless fixing bugs.
 - **Hunt Library: COMPLETE.** All 27 hunt PDFs as image-page journals (`assets/hunts/`, manifest `tools/data/hunt-library.json`).
-- **Hunt items: 17 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Just Desserts (Ice Queen) — 6 items, 12 recipe pages, all verified linked. No crafting-table/description conflict this time — matched cleanly. Also introduced the "bonus vendor catalogue" pattern (Gary's three ice-cream consumables, all sharing one generic component, estimated ~50gp values since none are printed) — a lighter-weight version of the "bonus treasure item" pattern seen in earlier hunts.
+- **Hunt items: 18 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Scourge of the Coral Hive (Valtharyx, a Coral Dragon Turtle) — 5 items, 11 recipe pages, all verified linked. New pattern seen here: one item (Glasscap Crown) is a foraged fungus harvested via a flat DC check with NO monster component at all — modeled with an invented raw-material component so it still fits the recipe pipeline. If a future hunt has a similar "found in the wild, not from the boss" item, use the same approach: invent a component, price it by analogy, footnote it.
 - **No batch currently in flight.** Nothing pending write — pick the next hunt fresh per the workflow below.
 
 ## Recurring gotcha: crafting-table vs. item-description component conflicts
@@ -16,7 +16,7 @@ At least three hunts so far (Queen of Shadow and Thorn, Spectres of Midwinter, T
 
 ## The per-batch workflow (repeat until done)
 
-1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: Coral Hive, Throne of the Devourer, Den of the Deceiver, Forge of the Divine Machine, Dragonfruit, Synaptic Shiver, Timeless Tyrant, End Times. **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
+1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: Throne of the Devourer, Den of the Deceiver, Forge of the Divine Machine, Dragonfruit, Synaptic Shiver, Timeless Tyrant, End Times. **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
 2. Transcribe to `tools/data/hunts/<slug>.json` following the schema of `tools/data/hunts/bloodhound.json` (fields: name, source, creatureType, pdf, harvest[], components[], items[]; item fields: name, itemType, kind, component **or** components[], baseRecipe, attunement none/required/optional, tiers[{rarity,value}], description as HTML with `<em>/<strong>/<ul>` formatting).
 3. `npm run build:packs` then `npx vitest run` (152 tests must pass).
 4. **Verify links** — every recipe page must have linked components and result:

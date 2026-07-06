@@ -1,10 +1,10 @@
 {
-  "_id": "KMZ2j4yeS5L44u6O",
-  "_key": "!journal!KMZ2j4yeS5L44u6O",
-  "name": "Wizards of the Toast Recipes",
+  "_id": "C9VTnzv1JYYnQgL8",
+  "_key": "!journal!C9VTnzv1JYYnQgL8",
+  "name": "Throne of the Devourer Recipes",
   "pages": [
     {
-      "_id": "dXhh9t2mYrG73dh7",
+      "_id": "gdsrWZIMOXQ3FN3k",
       "name": "Craftable Items",
       "type": "text",
       "title": {
@@ -13,20 +13,20 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Wizards of the Toast (Loot Tavern hunt, APL 3/7/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>15</td><td>Bread dragon crust (3)</td></tr><tr><td>15</td><td>Calcified corporate heart (1)</td></tr><tr><td>20</td><td>Phial of corporate cerebral fluid (5)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.7zR2FQVJn2XN1M37]{Emberink Stationery (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yLqEaQk5ojoXzbUE]{Emberink Stationery (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.uY55nu2hhXWtJqor]{Heart of Stone (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.l3CfUmGpbFkbN3yI]{Heart of Stone (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.MVrnBkg97815IAUq]{Heart of Stone (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.DFOeIf2G1OFzRzN0]{Wafer Shield (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.MYhy8NjiuJu3psen]{Buzzkill (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Vv6Iah4TqS5BlBFp]{Buzzkill (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.JMxnB04ransKmBye]{Buzzkill (Very Rare)}</p>"
+        "content": "<p><em>Throne of the Devourer (Loot Tavern hunt, APL 6/10/15)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Hand (20, edible/volatile)</td></tr><tr><td>10</td><td>Bone (10)</td></tr><tr><td>20</td><td>Brain (1); Skin (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.lwzZl1Kc4QhtXaFR]{Clutching Crown (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.9E2Q73BGmqk2kU34]{Clutching Crown (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Ug9NpYH3Mc6Nd4aF]{Clutching Crown (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.vpMLAPS4PlGPmTtl]{Grasping Mantle (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WC2BeOjB2044KKj8]{Grasping Mantle (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.47qaIB8NB5c562mx]{Grasping Mantle (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.kSXuLBi0pJC62o3O]{Hand of the King (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.hK22DIg7xXgxSJpg]{Hand of the King (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.diChDhi8ZRNNrIZP]{Hand of the King (Legendary)}</p>"
       },
       "sort": 10,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.dXhh9t2mYrG73dh7"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.gdsrWZIMOXQ3FN3k"
     },
     {
-      "_id": "EFN01Vbz7BCOBjiE",
-      "name": "Wizards of the Toast (PDF)",
+      "_id": "wXh8EoicOCaYQFe7",
+      "name": "Throne of the Devourer (PDF)",
       "type": "pdf",
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Wizards of the Toast/Wizards_of_the_Toast - v1.3.pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/6th, 10th, & 15th/Throne of the Devourer/Throne of the Devourer - v1.2 - PAGES.pdf",
       "title": {
         "show": true,
         "level": 1
@@ -36,17 +36,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.EFN01Vbz7BCOBjiE"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.wXh8EoicOCaYQFe7"
     },
     {
-      "_id": "xuBsmcmWlXfVOErQ",
-      "name": "Emberink Stationery (Rare)",
+      "_id": "RcwDlQrV8HQGsS5W",
+      "name": "Clutching Crown (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Emberink Stationery (Rare)",
+        "resultName": "Clutching Crown (Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.7zR2FQVJn2XN1M37",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.lwzZl1Kc4QhtXaFR",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -54,21 +54,19 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "kicjcMt01n2wRuf0",
+            "id": "JiCiAgJPE7uuBU5z",
             "name": "Monster Component",
             "components": [
               {
-                "id": "7DN7AmE5Ew2ZUjnb",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.fRAbmTBIwDja5Vmi",
-                "name": "Phial of Corporate Cerebral Fluid",
+                "id": "0LpFxLDq77Zlmr26",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oYlfu54Ps2NiTXBz",
+                "name": "Celestial Bone",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "cerebral fluid",
-                  "brain",
-                  "fiend",
-                  "hasbrodeus"
+                  "celestial",
+                  "bone"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -77,7 +75,7 @@
           }
         ],
         "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "celestial",
         "rarity": "rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
@@ -93,17 +91,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.xuBsmcmWlXfVOErQ"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.RcwDlQrV8HQGsS5W"
     },
     {
-      "_id": "pdbZbELrDG1il7uh",
-      "name": "Emberink Stationery (Very Rare)",
+      "_id": "dvrD1ho7OVMJD1fp",
+      "name": "Clutching Crown (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Emberink Stationery (Very Rare)",
+        "resultName": "Clutching Crown (Very Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yLqEaQk5ojoXzbUE",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.9E2Q73BGmqk2kU34",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -111,21 +109,19 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "4JSJRFa6WnHDCDPM",
+            "id": "C0pDdX5bHh1bbB5l",
             "name": "Monster Component",
             "components": [
               {
-                "id": "0J1a4lW4gnxRzjde",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.fRAbmTBIwDja5Vmi",
-                "name": "Phial of Corporate Cerebral Fluid",
+                "id": "kejkRSbxsSH6bt61",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oYlfu54Ps2NiTXBz",
+                "name": "Celestial Bone",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "cerebral fluid",
-                  "brain",
-                  "fiend",
-                  "hasbrodeus"
+                  "celestial",
+                  "bone"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -134,7 +130,7 @@
           }
         ],
         "essenceTierRequired": "potent",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "celestial",
         "rarity": "very rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
@@ -150,38 +146,37 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.pdbZbELrDG1il7uh"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.dvrD1ho7OVMJD1fp"
     },
     {
-      "_id": "ZumkqH29MeU0APGa",
-      "name": "Heart of Stone (Uncommon)",
+      "_id": "8Y39emi4D5Qcjv3p",
+      "name": "Clutching Crown (Legendary)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Heart of Stone (Uncommon)",
+        "resultName": "Clutching Crown (Legendary)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.uY55nu2hhXWtJqor",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Ug9NpYH3Mc6Nd4aF",
         "resultQuantity": 1,
-        "dc": 15,
-        "timeHours": 10,
+        "dc": 25,
+        "timeHours": 640,
         "toolKey": "",
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "6kvLfyvizSQ3llNn",
+            "id": "9Kps8ObanD2AqvGn",
             "name": "Monster Component",
             "components": [
               {
-                "id": "MiLtbMtjlU5T2WxP",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.61u5Lk7O0pfHmR8T",
-                "name": "Calcified Corporate Heart",
+                "id": "37PSoU92FsXL9RNs",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oYlfu54Ps2NiTXBz",
+                "name": "Celestial Bone",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "heart",
-                  "fiend",
-                  "hasbrodeus"
+                  "celestial",
+                  "bone"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -189,13 +184,13 @@
             ]
           }
         ],
-        "essenceTierRequired": "frail",
-        "componentCreatureType": "fiend",
-        "rarity": "uncommon",
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "celestial",
+        "rarity": "legendary",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
-        "enchantingDc": 15,
-        "enchantingTimeHours": 10
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
       },
       "title": {
         "show": true,
@@ -206,17 +201,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.ZumkqH29MeU0APGa"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.8Y39emi4D5Qcjv3p"
     },
     {
-      "_id": "nv67MDHEaxjj68RK",
-      "name": "Heart of Stone (Rare)",
+      "_id": "Spxo9o5ijfM8EaDL",
+      "name": "Grasping Mantle (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Heart of Stone (Rare)",
+        "resultName": "Grasping Mantle (Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.l3CfUmGpbFkbN3yI",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.vpMLAPS4PlGPmTtl",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -224,20 +219,19 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "gs2F8GxTUYLvdJrb",
+            "id": "57k3u8wQnsmvmLPj",
             "name": "Monster Component",
             "components": [
               {
-                "id": "Ifuzdka6VQ9O4CvC",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.61u5Lk7O0pfHmR8T",
-                "name": "Calcified Corporate Heart",
+                "id": "em4xAFMgFKXr48qP",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.lB2NvUMY9yA5K26r",
+                "name": "Celestial Skin",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "heart",
-                  "fiend",
-                  "hasbrodeus"
+                  "celestial",
+                  "skin"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -246,7 +240,7 @@
           }
         ],
         "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "celestial",
         "rarity": "rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
@@ -262,17 +256,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.nv67MDHEaxjj68RK"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.Spxo9o5ijfM8EaDL"
     },
     {
-      "_id": "bLVrSFPwsCpztAs2",
-      "name": "Heart of Stone (Very Rare)",
+      "_id": "L7TVvQecQvVt1OjF",
+      "name": "Grasping Mantle (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Heart of Stone (Very Rare)",
+        "resultName": "Grasping Mantle (Very Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.MVrnBkg97815IAUq",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WC2BeOjB2044KKj8",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -280,20 +274,19 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "k0G0Xq5eehcCxerl",
+            "id": "gt9NOMrIbcjnqZoC",
             "name": "Monster Component",
             "components": [
               {
-                "id": "MYBkx46FgSYfFA70",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.61u5Lk7O0pfHmR8T",
-                "name": "Calcified Corporate Heart",
+                "id": "sEjplYlewBzPAC75",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.lB2NvUMY9yA5K26r",
+                "name": "Celestial Skin",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "heart",
-                  "fiend",
-                  "hasbrodeus"
+                  "celestial",
+                  "skin"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -302,7 +295,7 @@
           }
         ],
         "essenceTierRequired": "potent",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "celestial",
         "rarity": "very rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
@@ -318,38 +311,37 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.bLVrSFPwsCpztAs2"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.L7TVvQecQvVt1OjF"
     },
     {
-      "_id": "doNC5EQPlKEfp60s",
-      "name": "Wafer Shield (Rare)",
+      "_id": "eA89E9BYTLd4pZ1D",
+      "name": "Grasping Mantle (Legendary)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Wafer Shield (Rare)",
+        "resultName": "Grasping Mantle (Legendary)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.DFOeIf2G1OFzRzN0",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.47qaIB8NB5c562mx",
         "resultQuantity": 1,
-        "dc": 18,
-        "timeHours": 40,
+        "dc": 25,
+        "timeHours": 640,
         "toolKey": "",
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "YKwHg5povLk6VfAr",
+            "id": "ecjk3LkGk80KNMu1",
             "name": "Monster Component",
             "components": [
               {
-                "id": "vLsYalZzYEtzQYzQ",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.vTAP3RPIEMwvzdFv",
-                "name": "Bread Dragon Crust",
+                "id": "MZnOnzvTSEMg3x0a",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.lB2NvUMY9yA5K26r",
+                "name": "Celestial Skin",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "crust",
-                  "bread dragon",
-                  "construct"
+                  "celestial",
+                  "skin"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -357,13 +349,13 @@
             ]
           }
         ],
-        "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
-        "rarity": "rare",
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "celestial",
+        "rarity": "legendary",
         "attunement": "required",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
-        "enchantingDc": 18,
-        "enchantingTimeHours": 40
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
       },
       "title": {
         "show": true,
@@ -374,72 +366,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.doNC5EQPlKEfp60s"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.eA89E9BYTLd4pZ1D"
     },
     {
-      "_id": "utWzOd5ouqz2lV3t",
-      "name": "Buzzkill (Uncommon)",
+      "_id": "zMUJoxJx0BPpwzvc",
+      "name": "Hand of the King (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Buzzkill (Uncommon)",
+        "resultName": "Hand of the King (Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.MYhy8NjiuJu3psen",
-        "resultQuantity": 1,
-        "dc": 15,
-        "timeHours": 10,
-        "toolKey": "",
-        "toolAbility": "",
-        "ingredients": [
-          {
-            "id": "km7gUkzQ5swJCSSS",
-            "name": "Monster Component",
-            "components": [
-              {
-                "id": "vBI8YiMMQad63PjL",
-                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.UJuGOWu6UsP3grtl",
-                "name": "Beast Egg",
-                "nameMode": "exact",
-                "img": "",
-                "quantity": 1,
-                "tags": [
-                  "beast",
-                  "egg"
-                ],
-                "mode": "some",
-                "resourcePath": ""
-              }
-            ]
-          }
-        ],
-        "essenceTierRequired": "frail",
-        "componentCreatureType": "fiend",
-        "rarity": "uncommon",
-        "attunement": "required",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
-        "enchantingDc": 15,
-        "enchantingTimeHours": 10
-      },
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "sort": 800,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.utWzOd5ouqz2lV3t"
-    },
-    {
-      "_id": "BsI2IjF33pGWWf7A",
-      "name": "Buzzkill (Rare)",
-      "type": "helianas-mechanics.recipe",
-      "system": {
-        "recipeType": "forge",
-        "resultName": "Buzzkill (Rare)",
-        "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Vv6Iah4TqS5BlBFp",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.kSXuLBi0pJC62o3O",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -447,19 +384,19 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "LjKTY4pRjbTe6w0l",
+            "id": "hAOJX1lsWsZVjWTL",
             "name": "Monster Component",
             "components": [
               {
-                "id": "qG2yhtk3r3Q1AvmT",
-                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.UJuGOWu6UsP3grtl",
-                "name": "Beast Egg",
+                "id": "VOpbGKYo2wex5Pnx",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jqXveLg9YLtK7dn3",
+                "name": "Celestial Brain",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "beast",
-                  "egg"
+                  "celestial",
+                  "brain"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -468,7 +405,7 @@
           }
         ],
         "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "celestial",
         "rarity": "rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
@@ -479,22 +416,22 @@
         "show": true,
         "level": 1
       },
-      "sort": 900,
+      "sort": 800,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.BsI2IjF33pGWWf7A"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.zMUJoxJx0BPpwzvc"
     },
     {
-      "_id": "pHSngVjmME6WjnPe",
-      "name": "Buzzkill (Very Rare)",
+      "_id": "Tac6nrG7H4VJNtkQ",
+      "name": "Hand of the King (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Buzzkill (Very Rare)",
+        "resultName": "Hand of the King (Very Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.JMxnB04ransKmBye",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.hK22DIg7xXgxSJpg",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -502,19 +439,19 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "6Z9z53vWFBJaw0Tm",
+            "id": "f5XERjSTiNSc7g8b",
             "name": "Monster Component",
             "components": [
               {
-                "id": "qQoU4kh2fzAklOtO",
-                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.UJuGOWu6UsP3grtl",
-                "name": "Beast Egg",
+                "id": "m6T4t9Xx12yppNlY",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jqXveLg9YLtK7dn3",
+                "name": "Celestial Brain",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "beast",
-                  "egg"
+                  "celestial",
+                  "brain"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -523,7 +460,7 @@
           }
         ],
         "essenceTierRequired": "potent",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "celestial",
         "rarity": "very rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
@@ -534,16 +471,71 @@
         "show": true,
         "level": 1
       },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.Tac6nrG7H4VJNtkQ"
+    },
+    {
+      "_id": "tvkKHuHOcLcgG806",
+      "name": "Hand of the King (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hand of the King (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.diChDhi8ZRNNrIZP",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "MDlkJNKRoCUt8Fpl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4BIePx7DR6zLuN74",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.jqXveLg9YLtK7dn3",
+                "name": "Celestial Brain",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "celestial",
+                  "brain"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "celestial",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "sort": 1000,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.pHSngVjmME6WjnPe"
+      "_key": "!journal.pages!C9VTnzv1JYYnQgL8.tvkKHuHOcLcgG806"
     }
   ],
   "folder": null,
-  "sort": 11900,
+  "sort": 11800,
   "ownership": {
     "default": 0
   },

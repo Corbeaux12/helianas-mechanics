@@ -1,0 +1,37 @@
+{
+  "_id": "Ug9NpYH3Mc6Nd4aF",
+  "_key": "!items!Ug9NpYH3Mc6Nd4aF",
+  "name": "Clutching Crown (Legendary)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare / very rare / legendary (requires attunement)</em></p><p><strong>Component:</strong> Celestial (devourer) bone</p><p>Deeply uncomfortable by design, this crown torments its wearer with the constant drumming of skeletal fingers on metal, which echoes in the ears in an unnatural fashion. Occasionally, the sharp thumbs of its osseous claws cut the wearer's skin in a sadistic caress that absorbs the droplets of blood they draw.</p><p>This item has 6 charges and regains 1d4 + 2 expended charges daily at dawn. The veil on the crown gives other creatures disadvantage on Wisdom (Insight) checks made against you, without hindering your vision.</p><p><strong>Touch of the Grave.</strong> While wearing this crown, you can cast the <em>chill touch</em> cantrip (2d8 damage, +6 to hit) at will. When you cast this cantrip, you can expend up to 4 charges to empower it in one of the following ways:</p><ul><li><strong>Many Hands.</strong> For each charge expended, you can target one additional creature with the cantrip.</li><li><strong>Grasping Hands.</strong> For each charge expended, a target that is hit by the attack takes an additional 2d8 necrotic damage and, if you expended at least 2 charges, the target is also restrained until the end of its next turn; if you expended at least 4 charges, the target is also paralysed until the end of its next turn.</li></ul><p><strong>Rare variant:</strong> Reduce the attack bonus to +5. You can only expend up to 2 charges at a time.</p><p><strong>Legendary variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, and the attack bonus to +7.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "legendary",
+    "attunement": "required",
+    "price": {
+      "value": 58000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
