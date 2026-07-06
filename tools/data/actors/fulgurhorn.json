@@ -1,0 +1,33 @@
+{
+  "name": "Fulgurhorn",
+  "source": "Heliana's Field Notes X-50 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Coast/X50-Fulgurhorn.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/fulgurhorn.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/fulgurhorn-token.webp",
+  "size": "lg",
+  "creatureType": "monstrosity",
+  "alignment": "Unaligned",
+  "ac": 15,
+  "hp": { "value": 144, "formula": "17d10 + 51" },
+  "speed": { "walk": 50 },
+  "abilities": { "str": 18, "dex": 20, "con": 16, "int": 5, "wis": 16, "cha": 9 },
+  "saveProfs": [],
+  "skills": {},
+  "dr": ["thunder"],
+  "di": ["lightning"],
+  "ci": ["paralyzed"],
+  "senses": { "blindsight": 10, "darkvision": 60 },
+  "languages": [],
+  "cr": 6,
+  "xp": 2300,
+  "biography": "<p><em>Monocero funiculus.</em> A storm-charged unicorn-beast whose horn is a living lightning rod — shocking it only reloads its Fulgurshot. Habitat: Coast &amp; Desert.</p>",
+  "features": [
+    { "name": "Charged Aura", "category": "trait", "description": "<p>While the fulgurhorn's Fulgurshot action is charged, the fulgurhorn emits an aura of electrostatic energy in a 10-foot Emanation. Whenever a creature within the Emanation hits the fulgurhorn with a weapon made of metal, the creature takes 6 (1d12) Lightning damage.</p>" },
+    { "name": "Lightning Rod", "category": "trait", "description": "<p>Whenever the fulgurhorn is subjected to Lightning damage, it recharges its Fulgurshot action.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The fulgurhorn makes one Horn attack and one Tail attack.</p>" },
+    { "name": "Horn", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 10 (1d12 + 4) Piercing damage. If the fulgurhorn moved 20+ feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8) Lightning damage.</p>" },
+    { "name": "Tail", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +7, reach 10 ft. <em>Hit:</em> 11 (2d6 + 4) Slashing damage, and the target is knocked Prone.</p>" },
+    { "name": "Fulgurshot (Recharge 6; See Lightning Rod Trait)", "category": "action", "description": "<p><em>Saving Throw:</em> DC 14 Dexterity, each creature in a 60-foot-long, 5-foot-wide Line. <em>Failure:</em> 18 (4d8) Lightning damage. <em>Success:</em> Half damage.</p>" },
+    { "name": "Call Lightning", "category": "bonus", "description": "<p>A point of the fulgurhorn's choice on the ground within 60 feet of it blazes with sapphire, electrostatic energy. At the start of the fulgurhorn's next turn, a bolt of lightning strikes in a 5-foot-radius, 300-foot-high Cylinder centred on that point. Each creature in the area takes 11 (2d10) Lightning damage.</p>" }
+  ]
+}

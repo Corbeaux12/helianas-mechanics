@@ -1,0 +1,705 @@
+{
+  "_id": "LHNGfSXq09KzdTlk",
+  "_key": "!actors!LHNGfSXq09KzdTlk",
+  "name": "Garoyasha",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/garoyasha.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 97,
+        "max": 97,
+        "formula": "13d10 + 26"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 60
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Lycanthropos daimon.</em> A moonfire-wielding lycanthrope that shifts between humanoid, dire wolf (Speed 40 ft.), and hybrid forms, scattering explosive lunar dust as it fights — and its bite spreads the full lycanthropy curse. Habitat: Forest, Hill &amp; Swamp.</p><p><em>Source: Heliana's Field Notes X-53 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "Lycanthrope",
+        "custom": ""
+      },
+      "cr": 5
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": "Can't speak in wolf form"
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "A9sLPr4TvKjzW9Fj",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.A9sLPr4TvKjzW9Fj",
+      "name": "Pack Tactics",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The garoyasha has Advantage on an attack roll against a creature if at least one of the garoyasha's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "tIGr13fCwbatLl8o",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.tIGr13fCwbatLl8o",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The garoyasha makes two attacks, using Armblade and Moonfire in any combination. It can replace one attack with a Bite attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "866ZpwnWz7qkGWJd",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.866ZpwnWz7qkGWJd",
+      "name": "Armblade (Humanoid or Hybrid Form Only)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 10 (2d6 + 3) Slashing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "3qkICY56OFeebqhB": {
+            "type": "attack",
+            "_id": "3qkICY56OFeebqhB",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "qI3jHQn4eySTGrLY",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.qI3jHQn4eySTGrLY",
+      "name": "Bite (Wolf or Hybrid Form Only)",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 12 (2d8 + 3) Piercing damage plus 3 (1d6) Radiant damage. If the target is a Humanoid, it is subjected to the following effect. <em>Saving Throw:</em> DC 12 Constitution. <em>Failure:</em> The target is cursed with Lycanthropy (see the Lycanthropy trait).</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "ILLCKCK5zxIVMFht": {
+            "type": "attack",
+            "_id": "ILLCKCK5zxIVMFht",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "radiant"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "RCS5wAQcA413QPBA",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.RCS5wAQcA413QPBA",
+      "name": "Moonfire (Wolf or Hybrid Form Only)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Ranged Spell Attack:</em> +5, range 60 ft. <em>Hit:</em> 9 (2d6 + 2) Radiant damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "sJW64Y9if7NEWnts",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.sJW64Y9if7NEWnts",
+      "name": "Lunar Dust",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The garoyasha shakes out a cloud of shimmering violet dust. The area of the dust consists of up to eight 5-foot Cubes, which the garoyasha arranges as it chooses. Each Cube must be contiguous with at least one other Cube or the garoyasha. The clouds last for 1 minute or until dispersed by a strong wind. When a creature within the dust takes Bludgeoning, Piercing, Radiant, or Slashing damage, the dust cloud explodes, dealing 5 (2d4) Radiant damage to each creature within it. When a dust cloud explodes, each dust cloud adjacent to it explodes as well.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "dAMck8JQ5S1xMMQR",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.dAMck8JQ5S1xMMQR",
+      "name": "Shape-Shift",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The garoyasha shape-shifts into a Large wolf-humanoid hybrid form or into a Dire Wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "pQQSKu6AkUKCpnj8",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.pQQSKu6AkUKCpnj8",
+      "name": "Lunar Dust (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 1. Immediately after another creature's turn, the garoyasha can expend a use to take the following action. The garoyasha regains all expended uses at the start of each of its turns.</em></p><p>The garoyasha uses Lunar Dust.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "itbGzYPsod0RdUQc",
+      "_key": "!actors.items!LHNGfSXq09KzdTlk.itbGzYPsod0RdUQc",
+      "name": "Lycanthropy (Magical Curse)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Any Humanoid that fails its saving throw against the Bite attack of a lycanthrope becomes cursed with Lycanthropy. A cursed creature suffers the following effects:</p><p><strong>Forced Transformation.</strong> Each day at dusk, if the full moon is out, the cursed creature makes a DC 12 Wisdom saving throw. On a failed save, the creature transforms into a lycanthrope of the same type as the one that cursed it, losing its game statistics and gaining the statistics of the lycanthrope. The GM controls the creature, which is stuck in its Hybrid Form and can't use its Shape-Shift Bonus Action. This transformation lasts until dawn.</p><p><strong>The Beast Within.</strong> When a creature transformed by the Forced Transformation effect kills another creature, the transformed creature makes a DC 10 Wisdom saving throw. On a failed save, it loses a part of itself to the curse. On a success, the DC of subsequent saving throws against this effect increases by 1. For each time the creature has failed this saving throw, the DC of Forced Transformation increases by 2. When the DC of Forced Transformation becomes 20, the creature loses itself to the curse entirely, becoming an NPC under the GM's control and permanently assuming the statistics of the lycanthrope.</p><p><strong>Fighting the Curse.</strong> Initially, a <em>Remove Curse</em> spell is enough to cure the curse. After a creature has failed the saving throw against The Beast Within at least once, the <em>Greater Restoration</em> spell or similar magic is necessary. After the transformation becomes permanent, a <em>Wish</em> spell or similar magic is necessary to remove the curse and return the creature to its original form.</p><p><strong>Spreading the Curse.</strong> While transformed into a lycanthrope, the creature is capable of cursing other creatures with its Bite attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Garoyasha",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/garoyasha-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

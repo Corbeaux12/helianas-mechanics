@@ -1,0 +1,86 @@
+{
+  "name": "Eyebrawl",
+  "source": "Heliana's Field Notes X-52 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Urban/X52-Eyebrawl.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/eyebrawl.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/eyebrawl-token.webp",
+  "size": "lg",
+  "creatureType": "aberration",
+  "alignment": "Neutral Evil",
+  "ac": 20,
+  "hp": {
+    "value": 142,
+    "formula": "15d10 + 60"
+  },
+  "speed": {
+    "walk": 5,
+    "fly": 40,
+    "hover": true
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 19,
+    "int": 16,
+    "wis": 11,
+    "cha": 17
+  },
+  "saveProfs": [
+    "str",
+    "con"
+  ],
+  "skills": {
+    "ath": 1
+  },
+  "ci": [
+    "prone"
+  ],
+  "senses": {
+    "blindsight": 10,
+    "darkvision": 120
+  },
+  "languages": [
+    "Undercommon"
+  ],
+  "languagesCustom": "Deep Speech",
+  "cr": 10,
+  "xp": 5900,
+  "biography": "<p><em>Oculotyrannus manus.</em> A pugilist beholder-kin — a floating eye with massive fists whose punches leave targets coated in volatile slime that detonates in one of six random ways at the next blunt hit. Habitat: The Low &amp; Urban.</p>",
+  "features": [
+    {
+      "name": "Legendary Resistance (1/Day)",
+      "category": "trait",
+      "description": "<p>If the eyebrawl fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The eyebrawl makes three Volatile Punch attacks.</p>"
+    },
+    {
+      "name": "Volatile Punch",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +9, reach 10 ft. <em>Hit:</em> 12 (2d6 + 5) Bludgeoning damage. If the target isn't already coated with volatile slime, it becomes coated. The slime can be washed off as an action with 1 gallon of water. The next time the coated target takes Bludgeoning damage, the slime burns away violently and the target suffers one of the following effects (roll 1d6; reroll if the eyebrawl has already used that effect since the start of its last turn):</p><ol><li><strong>Igniting Slime.</strong> The target takes 3 (1d6) Fire damage.</li><li><strong>Corrosive Slime.</strong> The target takes 5 (2d4) Acid damage.</li><li><strong>Concussive Slime.</strong> The target takes 4 (1d8) Thunder damage and its Speed is halved until the end of its next turn.</li><li><strong>Forceful Slime.</strong> The target takes 3 (1d6) Force damage and is pushed 15 feet in a random direction, landing Prone.</li><li><strong>Blinding Slime.</strong> The target takes 4 (1d8) Radiant damage and is Blinded until the end of its next turn.</li><li><strong>Explosive Slime.</strong> The target takes 7 (2d6) Fire damage and each creature within 5 feet of it takes 2 (1d4) Fire damage.</li></ol>"
+    },
+    {
+      "name": "Headbutt",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +9, reach 5 ft. <em>Hit:</em> 14 (2d8 + 5) Bludgeoning damage.</p>"
+    },
+    {
+      "name": "Intimidation Cone",
+      "category": "bonus",
+      "description": "<p>The eyebrawl's eye emits an intimidating presence in a 60-foot Cone. Until the start of the eyebrawl's next turn, creatures in the area are Frightened of the eyebrawl.</p>"
+    },
+    {
+      "name": "Charge (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 2. Immediately after another creature's turn, the eyebrawl can expend a use to take one of the following actions. The eyebrawl regains all expended uses at the start of each of its turns.</em></p><p>The eyebrawl flies up to its Fly Speed and makes one Headbutt attack.</p>"
+    },
+    {
+      "name": "Deck 'Em (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The eyebrawl makes one Volatile Punch attack.</p>"
+    }
+  ]
+}

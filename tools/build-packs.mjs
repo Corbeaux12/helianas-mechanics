@@ -930,7 +930,7 @@ function featureIcon(name, category) {
 const DAMAGE_TYPES = "bludgeoning|piercing|slashing|acid|cold|fire|force|lightning|necrotic|poison|psychic|radiant|thunder";
 const ATTACK_RE = new RegExp(
   "<em>(?<kind>Melee or Ranged|Melee|Ranged)(?: Weapon)? Attack:<\\/em>\\s*\\+(?<hit>\\d+)(?:\\s+to\\s+hit)?,\\s*" +
-  "(?:reach\\s+(?<reach>\\d+)\\s*ft\\.?(?:\\s+or\\s+range\\s+(?<hs>\\d+)\\/(?<hl>\\d+)\\s*ft)?|range\\s+(?<rs>\\d+)\\/(?<rl>\\d+)\\s*ft)" +
+  "(?:reach\\s+(?<reach>\\d+)\\s*ft\\.?(?:\\s+or\\s+range\\s+(?<hs>\\d+)\\/(?<hl>\\d+)\\s*ft)?|range\\s+(?<rs>\\d+)(?:\\/(?<rl>\\d+))?\\s*ft)" +
   "\\.{0,2}\\s*(?:\\([^)]*\\)\\s*)?\\.?\\s*(?:[^<]*?)?<em>Hit:<\\/em>\\s*\\d+\\s*\\((?<n>\\d+)d(?<d>\\d+)(?:\\s*\\+\\s*(?<b>\\d+))?\\)\\s*(?<type>" + DAMAGE_TYPES + ")\\b(?:\\s+damage)?", "i");
 // Unconditional secondary damage: "plus/and N (XdY) <type> damage" in the same
 // sentence as the base damage. Conditional riders ("If the target…", "… damage

@@ -1,0 +1,833 @@
+{
+  "_id": "svBcTeG7a0aZ60k8",
+  "_key": "!actors!svBcTeG7a0aZ60k8",
+  "name": "Dracodrone",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/dracodrone.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 20,
+        "proficient": 0
+      },
+      "con": {
+        "value": 20,
+        "proficient": 1
+      },
+      "int": {
+        "value": 20,
+        "proficient": 1
+      },
+      "wis": {
+        "value": 20,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 20,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 20,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 248,
+        "max": 248,
+        "formula": "16d20 + 80"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 50,
+        "climb": 50
+      },
+      "senses": {
+        "units": "ft",
+        "truesight": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Modronos draconis.</em> A modron-made dragon of perfect order — every ability score exactly 20, no Advantage or Disadvantage permitted near it, and a reaction that flattens any die roll to a perfectly average 10. Habitat: Extraplanar.</p><p><em>Source: Heliana's Field Notes X-54 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 21
+    },
+    "traits": {
+      "size": "grg",
+      "languages": {
+        "value": [],
+        "custom": "All"
+      },
+      "di": {
+        "value": [
+          "cold",
+          "necrotic",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "a64c6VyUiU8vLRtg",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.a64c6VyUiU8vLRtg",
+      "name": "Cold Order",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of the dracodrone's turns, each creature in a 15-foot Emanation originating from the dracodrone takes 5 Cold damage and can't gain Advantage or Disadvantage on D20 Tests until the end of the dracodrone's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "yxTjkRlhFst7yrBt",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.yxTjkRlhFst7yrBt",
+      "name": "Immutable Form",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dracodrone can't shape-shift.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "VB6IrDyi4gbi6bY6",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.VB6IrDyi4gbi6bY6",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the dracodrone fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "T9XfBLiBZC5DBKuS",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.T9XfBLiBZC5DBKuS",
+      "name": "Low Variance",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dracodrone can't gain Advantage or Disadvantage on D20 Tests.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "bQwlhyVDT5Fq1Uzb",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.bQwlhyVDT5Fq1Uzb",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dracodrone makes one Bite attack and two Claw attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "KnLdwf03JReTVykC",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.KnLdwf03JReTVykC",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +12, reach 10 ft. <em>Hit:</em> 18 (3d8 + 5) Piercing damage plus 10 (3d6) Cold damage. <em>Saving Throw:</em> DC 19 Constitution, a creature hit by this attack. <em>Failure:</em> The target is frozen and is Paralysed until the end of its next turn or until it takes Fire damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "tx4IVXdC4HoguY1o": {
+            "type": "attack",
+            "_id": "tx4IVXdC4HoguY1o",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "Xxsza754NzMiQBrs",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.Xxsza754NzMiQBrs",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +12, reach 5 ft. <em>Hit:</em> 15 (3d6 + 5) Slashing damage plus 10 (3d6) Cold damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "h1x3SGiNEiEaQDL8": {
+            "type": "attack",
+            "_id": "h1x3SGiNEiEaQDL8",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "zDa58mTazyvxu9jZ",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.zDa58mTazyvxu9jZ",
+      "name": "Frost Breath (Recharge 5-6)",
+      "img": "icons/creatures/abilities/dragon-ice-breath-blue.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 19 Constitution, each creature in a 60-foot Cone. <em>Failure:</em> 55 (10d10) Cold damage. <em>Failure by 5 or More:</em> The target is frozen and is Paralysed until the end of its next turn or until it takes Fire damage. <em>Success:</em> Half damage only.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "zAifzy6cREwIGAxL",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.zAifzy6cREwIGAxL",
+      "name": "Zero Out",
+      "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> A creature within 60 feet of the dracodrone makes a D20 Test. <em>Response:</em> The dracodrone adjusts for all possible variables. The result of the roll is 10 (before applying any modifiers).</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "SbvwvPGmvxXVDYE3",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.SbvwvPGmvxXVDYE3",
+      "name": "Frost Layer (Legendary Action)",
+      "img": "icons/magic/water/projectile-ice-shard.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the dracodrone can expend a use to take one of the following actions. The dracodrone regains all expended uses at the start of each of its turns.</em></p><p>The dracodrone covers itself in a protective layer of frost until the start of its next turn or until it takes Fire damage. While the dracodrone has this protective layer, each instance of damage it takes is reduced by 10.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "9KIV0oe4eOWRrtsh",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.9KIV0oe4eOWRrtsh",
+      "name": "Claw (Legendary Action)",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dracodrone makes one Claw attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "vFli9BrzSPiaKRkQ",
+      "_key": "!actors.items!svBcTeG7a0aZ60k8.vFli9BrzSPiaKRkQ",
+      "name": "Move (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The dracodrone moves up to its Speed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Dracodrone",
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/dracodrone-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,620 @@
+{
+  "_id": "bif5WhijchARCI2i",
+  "_key": "!actors!bif5WhijchARCI2i",
+  "name": "Eyebrawl",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/eyebrawl.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0
+      },
+      "con": {
+        "value": 19,
+        "proficient": 1
+      },
+      "int": {
+        "value": 16,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 17,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 20,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 142,
+        "max": 142,
+        "formula": "15d10 + 60"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 5,
+        "fly": 40,
+        "hover": true
+      },
+      "senses": {
+        "units": "ft",
+        "blindsight": 10,
+        "darkvision": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Oculotyrannus manus.</em> A pugilist beholder-kin — a floating eye with massive fists whose punches leave targets coated in volatile slime that detonates in one of six random ways at the next blunt hit. Habitat: The Low &amp; Urban.</p><p><em>Source: Heliana's Field Notes X-52 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral Evil",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 10
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [
+          "undercommon"
+        ],
+        "custom": "Deep Speech"
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "prone"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ath": {
+        "value": 1,
+        "ability": "str"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "zbgjE0QpZ5Ph9o9t",
+      "_key": "!actors.items!bif5WhijchARCI2i.zbgjE0QpZ5Ph9o9t",
+      "name": "Legendary Resistance (1/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the eyebrawl fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "ApY5bclTCVw9dP7p",
+      "_key": "!actors.items!bif5WhijchARCI2i.ApY5bclTCVw9dP7p",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The eyebrawl makes three Volatile Punch attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "YqiXHVBDsRZvmP1Q",
+      "_key": "!actors.items!bif5WhijchARCI2i.YqiXHVBDsRZvmP1Q",
+      "name": "Volatile Punch",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 10 ft. <em>Hit:</em> 12 (2d6 + 5) Bludgeoning damage. If the target isn't already coated with volatile slime, it becomes coated. The slime can be washed off as an action with 1 gallon of water. The next time the coated target takes Bludgeoning damage, the slime burns away violently and the target suffers one of the following effects (roll 1d6; reroll if the eyebrawl has already used that effect since the start of its last turn):</p><ol><li><strong>Igniting Slime.</strong> The target takes 3 (1d6) Fire damage.</li><li><strong>Corrosive Slime.</strong> The target takes 5 (2d4) Acid damage.</li><li><strong>Concussive Slime.</strong> The target takes 4 (1d8) Thunder damage and its Speed is halved until the end of its next turn.</li><li><strong>Forceful Slime.</strong> The target takes 3 (1d6) Force damage and is pushed 15 feet in a random direction, landing Prone.</li><li><strong>Blinding Slime.</strong> The target takes 4 (1d8) Radiant damage and is Blinded until the end of its next turn.</li><li><strong>Explosive Slime.</strong> The target takes 7 (2d6) Fire damage and each creature within 5 feet of it takes 2 (1d4) Fire damage.</li></ol>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "C6Htqm3HzgGggoOM": {
+            "type": "attack",
+            "_id": "C6Htqm3HzgGggoOM",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "oBrLZXmc0NTjIS47",
+      "_key": "!actors.items!bif5WhijchARCI2i.oBrLZXmc0NTjIS47",
+      "name": "Headbutt",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 5 ft. <em>Hit:</em> 14 (2d8 + 5) Bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "XEcnzdKhevjhwwTn": {
+            "type": "attack",
+            "_id": "XEcnzdKhevjhwwTn",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "x0fRBMVDKkhcwdKS",
+      "_key": "!actors.items!bif5WhijchARCI2i.x0fRBMVDKkhcwdKS",
+      "name": "Intimidation Cone",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The eyebrawl's eye emits an intimidating presence in a 60-foot Cone. Until the start of the eyebrawl's next turn, creatures in the area are Frightened of the eyebrawl.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "MQ615zzptwUfNNc6",
+      "_key": "!actors.items!bif5WhijchARCI2i.MQ615zzptwUfNNc6",
+      "name": "Charge (Legendary Action)",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 2. Immediately after another creature's turn, the eyebrawl can expend a use to take one of the following actions. The eyebrawl regains all expended uses at the start of each of its turns.</em></p><p>The eyebrawl flies up to its Fly Speed and makes one Headbutt attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "TVj6TUhb74tKeS4X",
+      "_key": "!actors.items!bif5WhijchARCI2i.TVj6TUhb74tKeS4X",
+      "name": "Deck 'Em (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The eyebrawl makes one Volatile Punch attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Eyebrawl",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/eyebrawl-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
