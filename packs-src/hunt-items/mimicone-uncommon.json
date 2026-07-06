@@ -1,0 +1,37 @@
+{
+  "_id": "kvspu0xL1Uttxy00",
+  "_key": "!items!kvspu0xL1Uttxy00",
+  "name": "Mimicone (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>This ice cream has a bite. No, really. If you bite it, it will try to bite back. This is why Gary makes all of his customers sign a liability waiver prior to purchasing a mimicone.</p><p><strong>Multiscoop.</strong> When you purchase this treat, you can choose the number of ice cream scoops on it, which can range from one to eight. When you use a bonus action to eat the mimicone, make a Constitution saving throw with a DC of 8 + the number of scoops. On a failed save, you take cold damage equal to the number of scoops. On a successful one, you regain hit points equal to 1d8 + twice the number of scoops.</p><p><em>This is one of Gary the interplanar ice cream vendor's catalogue items, sold rather than harvested from the ice queen directly; its value is estimated as the source book prints no price for it.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

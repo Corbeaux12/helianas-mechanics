@@ -1,0 +1,37 @@
+{
+  "_id": "x16QJgi41R8ia3km",
+  "_key": "!items!x16QJgi41R8ia3km",
+  "name": "Swordsicle (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>Despite the name, these multicoloured treats can be crafted in the shape of any weapon of the customer's choice. Gary obsessively keeps dozens of different ice cream moulds for this very purpose. It's unknown how he fits all of them in his cart.</p><p><strong>Weapon Master.</strong> When you consume this treat as a bonus action, you gain proficiency with the weapon it's shaped as for 1 hour. For the duration, you gain a +1 bonus to attack and damage rolls made with such weapons (to a maximum of +3).</p><p><em>This is one of Gary the interplanar ice cream vendor's catalogue items, sold rather than harvested from the ice queen directly; its value is estimated as the source book prints no price for it.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

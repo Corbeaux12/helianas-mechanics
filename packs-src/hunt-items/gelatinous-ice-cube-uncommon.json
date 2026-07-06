@@ -1,0 +1,37 @@
+{
+  "_id": "IZ5Ck62f7jMsJ0ZG",
+  "_key": "!items!IZ5Ck62f7jMsJ0ZG",
+  "name": "Gelatinous Ice Cube (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>Whenever Gary sets up shop outside of a dungeon or ruin, he always runs out of gelatinous ice cubes first. Adventurers are drawn to these peculiar treats for their resemblance to a common dungeon monster, as well as for the randomised \"loot\" within. Gary offers no refunds if the contents of a gelatinous ice cube are unsatisfactory.</p><p><strong>Ooze's Trove.</strong> When you acquire this item, roll a d6 twice, rerolling any duplicates, and consult the table below to determine the effects you gain when you consume the treat as a bonus action.</p><p><strong>d6:</strong> 1 A small skull — you take 1d6 necrotic damage. 2 A candy shield — you gain a +1 bonus to AC for 1 minute. 3 A miniature sword — you gain a +2 bonus to the damage rolls of weapon attacks for 1 minute. 4 The bone of a Tiny creature — a friendly skeleton appears in an unoccupied space within 5 feet of you for 1 minute, sharing your initiative and acting immediately after you. 5 A candied goodberry — you gain 10 temporary hit points that last for 1 minute. 6 A gummy crown — you gain a number of gold pieces equal to five times your level (from Gary's own pocket).</p><p><em>This is one of Gary the interplanar ice cream vendor's catalogue items, sold rather than harvested from the ice queen directly; its value is estimated as the source book prints no price for it.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "pII6y1KqGKP8oVhh",
+  "_key": "!items!pII6y1KqGKP8oVhh",
+  "name": "Crown of Maraschino (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Elemental (ice queen) core of water</p><p>A frame sculpted in the Forge of the Waffle Iron. A core painstakingly churned at precisely -150 degrees Fahrenheit in the devilish Sore Bay. Cream filling flash frozen on the Plane of Ice Cream. Only such a masterpiece could contain a fraction of the power of the Eye of Maraschino.</p><p><strong>Wafer Base.</strong> While you wear this crown, you have resistance to cold damage. Additionally, Elementals have disadvantage on attack rolls against you until they witness you harm them or their allies.</p><p><strong>Slow-Churned Core.</strong> While you wear this crown, when a creature enters a space within 30 feet of you for the first time on a turn or starts its turn there, you can use your reaction to reduce its walking speed by 10 feet until the start of your next turn.</p><p><strong>Creamy Filling.</strong> While you wear this crown, you can cast the <em>conjure elemental</em> spell from it (water or ice elementals only). You don't make saving throws to maintain your concentration on this spell as a result of taking damage, but the spell immediately ends if you're no longer wearing the crown. Once this property of the crown has been used, it can't be used again until the next dawn.</p><p><strong>Cherry on Top.</strong> You can use a bonus action to grant one ally you can see within 30 feet of you a magical cherry that lasts until the end of your next turn. When an ally with a cherry makes an ability check or an attack roll, it can eat the cherry and add a bonus to its roll. The bonus is 1d4, or 2d4 if the ally is an Elemental. This property of the crown can be used three times, regaining all expended uses daily at dawn.</p><p><strong>Uncommon variant:</strong> Remove the Slow-Churned Core and Creamy Filling properties. Once the Cherry on Top property has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Remove the Slow-Churned Core property. Reduce the duration of the <em>conjure elemental</em> spell to 10 minutes. The Cherry on Top property can be used twice, regaining all expended uses daily at dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 830,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

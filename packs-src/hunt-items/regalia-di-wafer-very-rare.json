@@ -1,0 +1,37 @@
+{
+  "_id": "RJBROGzmm74hyXt5",
+  "_key": "!items!RJBROGzmm74hyXt5",
+  "name": "Regalia di Wafer (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Elemental (ice queen) frozen heart</p><p>Each kiln-fired wafer interlocks with the next, forming the ruffed layers of this delicious dress. With hundreds of unique imprints, a wafer's intricate design extends to its final moments, beautifully cracking apart to reveal the next wafer below. A monarch's regalia has upwards of fifty layers, each a different colour and pattern.</p><p>This item has 9 charges, represented by an equal number of outer wafer layers, and regains 1d6 + 3 expended charges daily at dawn.</p><p><strong>Layered Wafers.</strong> When you take bludgeoning damage while wearing this item, you can expend 1 charge to reduce the damage by 2d8 (no action required).</p><p><strong>Wafflemancy.</strong> While wearing this item, you can expend 1 or more charges to cast one of the following spells from it (save DC 15): <em>barkskin</em> (2 charges; with wafer instead of bark), <em>cone of frosting</em>* (1 charge), <em>ice storm</em> (4 charges), <em>snowball</em>* (3 charges), <em>wall of stone</em> (5 charges; with wafers instead of stone).</p><p><strong>Uncommon variant:</strong> Reduce the charges to 5, the recharge to 1d4 + 1, and the DC to 13. Remove the <em>ice storm</em> and <em>wall of stone</em> spells from the Wafflemancy property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. The item gains the Insulated Defense property.</p><p><strong>Insulated Defense.</strong> While this item has 1 or more charges remaining, you have resistance to cold damage while you wear it.</p><p>*See Appendix B.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 12580,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

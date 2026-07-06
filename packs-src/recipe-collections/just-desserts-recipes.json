@@ -1,0 +1,726 @@
+{
+  "_id": "G5UvCg8VJKnheM8h",
+  "_key": "!journal!G5UvCg8VJKnheM8h",
+  "name": "Just Desserts Recipes",
+  "pages": [
+    {
+      "_id": "mPEijjc6hCpClov9",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Just Desserts (Loot Tavern hunt, APL 6/10/15)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>15</td><td>Volatile mote of water (1, volatile)</td></tr><tr><td>20</td><td>Frozen heart (1)</td></tr><tr><td>25</td><td>Core of water (1, volatile)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.pII6y1KqGKP8oVhh]{Crown of Maraschino (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5leeDVyc8sWLFap0]{Crown of Maraschino (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.pI3kfebglA4ks3Fs]{Crown of Maraschino (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.7gY8nUYb44Kj5gng]{Regalia di Wafer (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.luXQI5cM0vK0l7Vw]{Regalia di Wafer (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.RJBROGzmm74hyXt5]{Regalia di Wafer (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.8ZgAmEpSe3UzlC1D]{Sorbeater (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.97sSl1QiDYye03B0]{Sorbeater (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.mNozoZmKnDCg68Pe]{Sorbeater (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.IZ5Ck62f7jMsJ0ZG]{Gelatinous Ice Cube (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.kvspu0xL1Uttxy00]{Mimicone (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.x16QJgi41R8ia3km]{Swordsicle (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.mPEijjc6hCpClov9"
+    },
+    {
+      "_id": "XKMZBkU3LovdYceV",
+      "name": "Just Desserts (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/6th, 10th, & 15th/Just Desserts/Just_Desserts v1.1.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.XKMZBkU3LovdYceV"
+    },
+    {
+      "_id": "CGmhzlCiFJ81MzRz",
+      "name": "Crown of Maraschino (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Crown of Maraschino (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.pII6y1KqGKP8oVhh",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0KWX3KpxaozL6pPg",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8p2go1VBps8ZmEAK",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Nca66iDNA3u3nZVR",
+                "name": "Core of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.CGmhzlCiFJ81MzRz"
+    },
+    {
+      "_id": "ToV1vSDv2qtqv90M",
+      "name": "Crown of Maraschino (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Crown of Maraschino (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5leeDVyc8sWLFap0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9Y4BbbYHNZmWkX9F",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aewUvDHreh3LWwFU",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Nca66iDNA3u3nZVR",
+                "name": "Core of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.ToV1vSDv2qtqv90M"
+    },
+    {
+      "_id": "zJlKPSyP6bF7I7EZ",
+      "name": "Crown of Maraschino (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Crown of Maraschino (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.pI3kfebglA4ks3Fs",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xfOiwKxzfwa5vfiK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Go258UHeASIh9sLD",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Nca66iDNA3u3nZVR",
+                "name": "Core of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.zJlKPSyP6bF7I7EZ"
+    },
+    {
+      "_id": "GTRPdYjXEEKQ43vW",
+      "name": "Regalia di Wafer (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Regalia di Wafer (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.7gY8nUYb44Kj5gng",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "GcEp5FiiaNMEEyjF",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MIZ6ZI2kg6t9dZoF",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.f3khXvPrXAdTBAAb",
+                "name": "Ice Queen Frozen Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "frozen heart",
+                  "ice queen",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.GTRPdYjXEEKQ43vW"
+    },
+    {
+      "_id": "j3buEGm3unuUtB3v",
+      "name": "Regalia di Wafer (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Regalia di Wafer (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.luXQI5cM0vK0l7Vw",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "F6LFIk3XYMC3y6SG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pZ26jXdxMQj9ocb9",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.f3khXvPrXAdTBAAb",
+                "name": "Ice Queen Frozen Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "frozen heart",
+                  "ice queen",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.j3buEGm3unuUtB3v"
+    },
+    {
+      "_id": "fjJdzdI6ygNra7T5",
+      "name": "Regalia di Wafer (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Regalia di Wafer (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.RJBROGzmm74hyXt5",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "U1PTyado5tTo9ShG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0hpgPDz5RXYcARwN",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.f3khXvPrXAdTBAAb",
+                "name": "Ice Queen Frozen Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "frozen heart",
+                  "ice queen",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.fjJdzdI6ygNra7T5"
+    },
+    {
+      "_id": "orl1xfMRGFRxQnwV",
+      "name": "Sorbeater (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sorbeater (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.8ZgAmEpSe3UzlC1D",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5ZNH52g3ZDpjWUIW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "BLb2zMhnqU86Jj85",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.orl1xfMRGFRxQnwV"
+    },
+    {
+      "_id": "ZrLG0jS9FQcDxj3Q",
+      "name": "Sorbeater (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sorbeater (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.97sSl1QiDYye03B0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ajZxrkdJLiGpTwBG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jHxdVOs73WrSS6fN",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.ZrLG0jS9FQcDxj3Q"
+    },
+    {
+      "_id": "xMh78BFYtcGDFD2V",
+      "name": "Sorbeater (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sorbeater (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.mNozoZmKnDCg68Pe",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Mzp8YA3OcblKaffr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TNSWEVO5UhJ131ZB",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.xMh78BFYtcGDFD2V"
+    },
+    {
+      "_id": "SZc2BignKDQzdppS",
+      "name": "Gelatinous Ice Cube (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gelatinous Ice Cube (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.IZ5Ck62f7jMsJ0ZG",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "r7UDN04bzfxUYngj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "96XKz5ZAXaasDX4t",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.SZc2BignKDQzdppS"
+    },
+    {
+      "_id": "pnPAGgnU5UWw2Zdd",
+      "name": "Mimicone (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Mimicone (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.kvspu0xL1Uttxy00",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yJjDjuLgrY3eXhQD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jEFEGsk6t7XlNbyh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.pnPAGgnU5UWw2Zdd"
+    },
+    {
+      "_id": "vaRV6ndwi4kO8UHu",
+      "name": "Swordsicle (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Swordsicle (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.x16QJgi41R8ia3km",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LrmNxV13Y5yXXq21",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fIBXU9OfjBwOKOD8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!G5UvCg8VJKnheM8h.vaRV6ndwi4kO8UHu"
+    }
+  ],
+  "folder": null,
+  "sort": 10900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

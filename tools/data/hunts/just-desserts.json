@@ -1,0 +1,94 @@
+{
+  "name": "Just Desserts",
+  "source": "Just Desserts (Loot Tavern hunt, APL 6/10/15)",
+  "creatureType": "elemental",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/6th, 10th, & 15th/Just Desserts/Just_Desserts v1.1.pdf",
+  "harvest": [
+    { "dc": 15, "components": ["Volatile mote of water (1, volatile)"] },
+    { "dc": 20, "components": ["Frozen heart (1)"] },
+    { "dc": 25, "components": ["Core of water (1, volatile)"] }
+  ],
+  "components": [
+    { "name": "Ice Queen Frozen Heart", "tags": ["frozen heart", "ice queen", "elemental"], "price": 110 }
+  ],
+  "items": [
+    {
+      "name": "Crown of Maraschino",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Core of Elemental Water",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 830 },
+        { "rarity": "rare",      "value": 4550 },
+        { "rarity": "very rare", "value": 14940 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Elemental (ice queen) core of water</p><p>A frame sculpted in the Forge of the Waffle Iron. A core painstakingly churned at precisely -150 degrees Fahrenheit in the devilish Sore Bay. Cream filling flash frozen on the Plane of Ice Cream. Only such a masterpiece could contain a fraction of the power of the Eye of Maraschino.</p><p><strong>Wafer Base.</strong> While you wear this crown, you have resistance to cold damage. Additionally, Elementals have disadvantage on attack rolls against you until they witness you harm them or their allies.</p><p><strong>Slow-Churned Core.</strong> While you wear this crown, when a creature enters a space within 30 feet of you for the first time on a turn or starts its turn there, you can use your reaction to reduce its walking speed by 10 feet until the start of your next turn.</p><p><strong>Creamy Filling.</strong> While you wear this crown, you can cast the <em>conjure elemental</em> spell from it (water or ice elementals only). You don't make saving throws to maintain your concentration on this spell as a result of taking damage, but the spell immediately ends if you're no longer wearing the crown. Once this property of the crown has been used, it can't be used again until the next dawn.</p><p><strong>Cherry on Top.</strong> You can use a bonus action to grant one ally you can see within 30 feet of you a magical cherry that lasts until the end of your next turn. When an ally with a cherry makes an ability check or an attack roll, it can eat the cherry and add a bonus to its roll. The bonus is 1d4, or 2d4 if the ally is an Elemental. This property of the crown can be used three times, regaining all expended uses daily at dawn.</p><p><strong>Uncommon variant:</strong> Remove the Slow-Churned Core and Creamy Filling properties. Once the Cherry on Top property has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Remove the Slow-Churned Core property. Reduce the duration of the <em>conjure elemental</em> spell to 10 minutes. The Cherry on Top property can be used twice, regaining all expended uses daily at dawn.</p>"
+    },
+    {
+      "name": "Regalia di Wafer",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Ice Queen Frozen Heart",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 710 },
+        { "rarity": "rare",      "value": 3990 },
+        { "rarity": "very rare", "value": 12580 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Elemental (ice queen) frozen heart</p><p>Each kiln-fired wafer interlocks with the next, forming the ruffed layers of this delicious dress. With hundreds of unique imprints, a wafer's intricate design extends to its final moments, beautifully cracking apart to reveal the next wafer below. A monarch's regalia has upwards of fifty layers, each a different colour and pattern.</p><p>This item has 9 charges, represented by an equal number of outer wafer layers, and regains 1d6 + 3 expended charges daily at dawn.</p><p><strong>Layered Wafers.</strong> When you take bludgeoning damage while wearing this item, you can expend 1 charge to reduce the damage by 2d8 (no action required).</p><p><strong>Wafflemancy.</strong> While wearing this item, you can expend 1 or more charges to cast one of the following spells from it (save DC 15): <em>barkskin</em> (2 charges; with wafer instead of bark), <em>cone of frosting</em>* (1 charge), <em>ice storm</em> (4 charges), <em>snowball</em>* (3 charges), <em>wall of stone</em> (5 charges; with wafers instead of stone).</p><p><strong>Uncommon variant:</strong> Reduce the charges to 5, the recharge to 1d4 + 1, and the DC to 13. Remove the <em>ice storm</em> and <em>wall of stone</em> spells from the Wafflemancy property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. The item gains the Insulated Defense property.</p><p><strong>Insulated Defense.</strong> While this item has 1 or more charges remaining, you have resistance to cold damage while you wear it.</p><p>*See Appendix B.</p>"
+    },
+    {
+      "name": "Sorbeater",
+      "itemType": "weapon",
+      "kind": "Weapon (mace)",
+      "component": "Volatile Mote of Elemental Water",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "optional",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 710 },
+        { "rarity": "rare",      "value": 4700 },
+        { "rarity": "very rare", "value": 12460 }
+      ],
+      "description": "<p><em>Weapon (mace), uncommon (optional attunement)</em></p><p><strong>Component:</strong> Elemental (ice queen) volatile mote of water</p><p>\"It's not the size of the scoops that matters. It's all about the flavour of the ice cream and the balance of the toppings. The, uh... way they flow in perfect harmony. The... texture of... erm... Alright, maybe it's a little about the size.\" — Dez-Urtian knights comparing sorbeaters during watch duty</p><p><strong>Frozen Scoops.</strong> One scoop of ice cream forms the head of this weapon. This weapon deals an extra 1d4 cold damage to the first target it hits on each of your turns. Each time you take fire damage, one scoop of ice cream melts, reducing the extra damage by one damage die. Melted scoops reform at the end of each of your turns.</p><p><strong>Optional Attunement.</strong> If you choose to attune to this item, you can use the Toppings Included property while you remain attuned to it.</p><p><strong>OA: Toppings Included.</strong> When you first attune to this weapon, choose one topping from the list below to imbue the weapon with. When you finish a short or long rest, you can replace one topping with another from this list.</p><ul><li><strong>Caramel Glaze.</strong> Once per turn, when you hit a target with this weapon, you can reduce its speed by 10 feet until the start of your next turn.</li><li><strong>Espresso Fudge.</strong> When you score a critical hit with this weapon, you can immediately make another weapon attack with it as part of the same action or reaction.</li><li><strong>Pistachio Crunch.</strong> Whenever you hit a creature with an attack using this weapon and roll a 6 on the weapon's damage die, the creature must succeed on a DC 15 Strength saving throw or be knocked prone.</li><li><strong>Strawberry Topper.</strong> When you score a critical hit with this weapon, you gain 2d6 temporary hit points, which last for 1 minute.</li></ul><p><strong>Rare variant:</strong> Increase the scoops of ice cream to two, the extra cold damage to 2d4, and the number of toppings you can choose when you attune to the weapon to two.</p><p><strong>Very rare variant:</strong> Increase the scoops of ice cream to three, the extra cold damage to 3d4, and the number of toppings you can choose when you attune to the weapon to three.</p>"
+    },
+    {
+      "name": "Gelatinous Ice Cube",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Volatile Mote of Elemental Water",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 50 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>Whenever Gary sets up shop outside of a dungeon or ruin, he always runs out of gelatinous ice cubes first. Adventurers are drawn to these peculiar treats for their resemblance to a common dungeon monster, as well as for the randomised \"loot\" within. Gary offers no refunds if the contents of a gelatinous ice cube are unsatisfactory.</p><p><strong>Ooze's Trove.</strong> When you acquire this item, roll a d6 twice, rerolling any duplicates, and consult the table below to determine the effects you gain when you consume the treat as a bonus action.</p><p><strong>d6:</strong> 1 A small skull — you take 1d6 necrotic damage. 2 A candy shield — you gain a +1 bonus to AC for 1 minute. 3 A miniature sword — you gain a +2 bonus to the damage rolls of weapon attacks for 1 minute. 4 The bone of a Tiny creature — a friendly skeleton appears in an unoccupied space within 5 feet of you for 1 minute, sharing your initiative and acting immediately after you. 5 A candied goodberry — you gain 10 temporary hit points that last for 1 minute. 6 A gummy crown — you gain a number of gold pieces equal to five times your level (from Gary's own pocket).</p><p><em>This is one of Gary the interplanar ice cream vendor's catalogue items, sold rather than harvested from the ice queen directly; its value is estimated as the source book prints no price for it.</em></p>"
+    },
+    {
+      "name": "Mimicone",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Volatile Mote of Elemental Water",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 50 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>This ice cream has a bite. No, really. If you bite it, it will try to bite back. This is why Gary makes all of his customers sign a liability waiver prior to purchasing a mimicone.</p><p><strong>Multiscoop.</strong> When you purchase this treat, you can choose the number of ice cream scoops on it, which can range from one to eight. When you use a bonus action to eat the mimicone, make a Constitution saving throw with a DC of 8 + the number of scoops. On a failed save, you take cold damage equal to the number of scoops. On a successful one, you regain hit points equal to 1d8 + twice the number of scoops.</p><p><em>This is one of Gary the interplanar ice cream vendor's catalogue items, sold rather than harvested from the ice queen directly; its value is estimated as the source book prints no price for it.</em></p>"
+    },
+    {
+      "name": "Swordsicle",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Volatile Mote of Elemental Water",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 50 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>Despite the name, these multicoloured treats can be crafted in the shape of any weapon of the customer's choice. Gary obsessively keeps dozens of different ice cream moulds for this very purpose. It's unknown how he fits all of them in his cart.</p><p><strong>Weapon Master.</strong> When you consume this treat as a bonus action, you gain proficiency with the weapon it's shaped as for 1 hour. For the duration, you gain a +1 bonus to attack and damage rolls made with such weapons (to a maximum of +3).</p><p><em>This is one of Gary the interplanar ice cream vendor's catalogue items, sold rather than harvested from the ice queen directly; its value is estimated as the source book prints no price for it.</em></p>"
+    }
+  ]
+}

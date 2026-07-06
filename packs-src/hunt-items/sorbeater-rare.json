@@ -1,0 +1,37 @@
+{
+  "_id": "97sSl1QiDYye03B0",
+  "_key": "!items!97sSl1QiDYye03B0",
+  "name": "Sorbeater (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (mace), uncommon (optional attunement)</em></p><p><strong>Component:</strong> Elemental (ice queen) volatile mote of water</p><p>\"It's not the size of the scoops that matters. It's all about the flavour of the ice cream and the balance of the toppings. The, uh... way they flow in perfect harmony. The... texture of... erm... Alright, maybe it's a little about the size.\" — Dez-Urtian knights comparing sorbeaters during watch duty</p><p><strong>Frozen Scoops.</strong> One scoop of ice cream forms the head of this weapon. This weapon deals an extra 1d4 cold damage to the first target it hits on each of your turns. Each time you take fire damage, one scoop of ice cream melts, reducing the extra damage by one damage die. Melted scoops reform at the end of each of your turns.</p><p><strong>Optional Attunement.</strong> If you choose to attune to this item, you can use the Toppings Included property while you remain attuned to it.</p><p><strong>OA: Toppings Included.</strong> When you first attune to this weapon, choose one topping from the list below to imbue the weapon with. When you finish a short or long rest, you can replace one topping with another from this list.</p><ul><li><strong>Caramel Glaze.</strong> Once per turn, when you hit a target with this weapon, you can reduce its speed by 10 feet until the start of your next turn.</li><li><strong>Espresso Fudge.</strong> When you score a critical hit with this weapon, you can immediately make another weapon attack with it as part of the same action or reaction.</li><li><strong>Pistachio Crunch.</strong> Whenever you hit a creature with an attack using this weapon and roll a 6 on the weapon's damage die, the creature must succeed on a DC 15 Strength saving throw or be knocked prone.</li><li><strong>Strawberry Topper.</strong> When you score a critical hit with this weapon, you gain 2d6 temporary hit points, which last for 1 minute.</li></ul><p><strong>Rare variant:</strong> Increase the scoops of ice cream to two, the extra cold damage to 2d4, and the number of toppings you can choose when you attune to the weapon to two.</p><p><strong>Very rare variant:</strong> Increase the scoops of ice cream to three, the extra cold damage to 3d4, and the number of toppings you can choose when you attune to the weapon to three.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 4700,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
