@@ -1,0 +1,37 @@
+{
+  "_id": "p39azNy5A1VIyxCQ",
+  "_key": "!items!p39azNy5A1VIyxCQ",
+  "name": "Reef's Revenge (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Artillery Component (Magitech Cannon), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Dragon (Coral Dragon Turtle) Coral Growth</p><p>\"Every shot you take is another opportunity for growth.\" — Carl Ryf, Motivational Speaker for the Hive Mind</p><p>This item has 5 charges and regains 1d4 + 1 expended charges daily at dawn.</p><p><strong>Impairing Growth.</strong> When firing this cannon, you can expend up to 3 charges to infuse the shot with rapidly proliferating coral. For each charge expended, choose one creature or object that took damage from the shot. A coral growth begins to rapidly spread across each chosen target. While a ship component has at least one coral growth, it's considered Impaired. While a creature has at least one coral growth, its Speed is halved and it has Disadvantage on ability checks and attack rolls.</p><p>A coral growth is an object with AC 17; HP 20; Immunity to Poison and Psychic damage; and Vulnerability to Acid damage. It remains on a target until it's destroyed.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 3, the recharge to 1d3, the maximum number of charges that can be expended for each use of the Impairing Growth property to 1, and the AC and Hit Points of coral growths to 13 and 10, respectively.</p><p><strong>Rare variant:</strong> Reduce the charges to 4, the recharge to 1d4, the maximum number of charges that can be expended for each use of the Impairing Growth property to 2, and both the AC and Hit Points of coral growths to 15.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 2100,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

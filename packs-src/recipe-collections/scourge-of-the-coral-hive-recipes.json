@@ -1,0 +1,664 @@
+{
+  "_id": "s1uIvlnFTEx1gHhK",
+  "_key": "!journal!s1uIvlnFTEx1gHhK",
+  "name": "Scourge of the Coral Hive Recipes",
+  "pages": [
+    {
+      "_id": "7YK9PZwRvC0M19Ye",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Scourge of the Coral Hive (Loot Tavern hunt, APL 6/11/16)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Eye (2); Flesh (10); Phial of Blood (1000)</td></tr><tr><td>10</td><td>Bone (20); Fat (40); Pouch of Teeth (4)</td></tr><tr><td>15</td><td>Coral Growth (10); Liver (1); Pouch of Scales (20)</td></tr><tr><td>20</td><td>Heart (1)</td></tr><tr><td>25</td><td>Breath Sac (1, volatile)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.GtTmiH6mUuZ73hQ5]{Glasscap Crown (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.UQf2ivyok4cpkqYq]{Reef's Revenge (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.p39azNy5A1VIyxCQ]{Reef's Revenge (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.imX99D3ugziuSlMi]{Reef's Revenge (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ZzV87EQcBcjTU1Cf]{Tortuga Armcannon (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Bovx5GcE6D6uwwHG]{Tortuga Armcannon (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yeuEmydxn4FK7kHg]{Tortuga Armcannon (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.bPUOmrau7r0W3bvX]{Vendra's Dockside Dissolution (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5W7iGqvFGTi22lqs]{Visage of Valtharyx (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.esXA7IW6yyVhpZNE]{Visage of Valtharyx (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Vf0CBd9pA1C1GmPO]{Visage of Valtharyx (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.7YK9PZwRvC0M19Ye"
+    },
+    {
+      "_id": "rTDXUAGJE4Z6xkVx",
+      "name": "Scourge of the Coral Hive (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/6th, 10th, & 15th/Scourge of the Coral Hive/Scourge of the Coral Hive - v1.00.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.rTDXUAGJE4Z6xkVx"
+    },
+    {
+      "_id": "DAqoAfyuDg8ZrRn7",
+      "name": "Glasscap Crown (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Glasscap Crown (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.GtTmiH6mUuZ73hQ5",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KPgVE9KXDcI2tw9v",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WiSM5Hqd5PuOjy6s",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ZcDdxurb3oRsR1G9",
+                "name": "Glasscap Crown Fungus",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "glasscap crown",
+                  "fungus",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.DAqoAfyuDg8ZrRn7"
+    },
+    {
+      "_id": "scExaF4xGq4WjvTU",
+      "name": "Reef's Revenge (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Reef's Revenge (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.UQf2ivyok4cpkqYq",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9LlOPFOW9b0MZ7tx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "f5sFb6jr6VpL4Hl8",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.bCuxbSYRZgboNVx2",
+                "name": "Coral Dragon Turtle Coral Growth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "coral growth",
+                  "coral dragon turtle",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.scExaF4xGq4WjvTU"
+    },
+    {
+      "_id": "XfsODwHWuolpKmSi",
+      "name": "Reef's Revenge (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Reef's Revenge (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.p39azNy5A1VIyxCQ",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5FU2vrnV6YBlP3zk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rWE5cTte9GjcGJVT",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.bCuxbSYRZgboNVx2",
+                "name": "Coral Dragon Turtle Coral Growth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "coral growth",
+                  "coral dragon turtle",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.XfsODwHWuolpKmSi"
+    },
+    {
+      "_id": "Q6PKJ0qLdzgbPL8Q",
+      "name": "Reef's Revenge (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Reef's Revenge (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.imX99D3ugziuSlMi",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Wb25VJc3ONn7lytl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lzRryiK7dhk4aF5l",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.bCuxbSYRZgboNVx2",
+                "name": "Coral Dragon Turtle Coral Growth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "coral growth",
+                  "coral dragon turtle",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.Q6PKJ0qLdzgbPL8Q"
+    },
+    {
+      "_id": "iBJ5hVDeI0xcD13h",
+      "name": "Tortuga Armcannon (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tortuga Armcannon (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ZzV87EQcBcjTU1Cf",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zaCoRl7XpcfeyCP8",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "UE17wflrbpAGMRWA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "breath",
+                  "sac"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.iBJ5hVDeI0xcD13h"
+    },
+    {
+      "_id": "UyVtFLrFSEMe8iE3",
+      "name": "Tortuga Armcannon (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tortuga Armcannon (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Bovx5GcE6D6uwwHG",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "K3tX2Vv7Q6ybl0Bi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5OjbX26FzOjyk3Ud",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "breath",
+                  "sac"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.UyVtFLrFSEMe8iE3"
+    },
+    {
+      "_id": "1ghvyuszNi9FEtPn",
+      "name": "Tortuga Armcannon (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tortuga Armcannon (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yeuEmydxn4FK7kHg",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "NnmEGHE1vafMIGUW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HEw4CyDdTr2ysrKm",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "breath",
+                  "sac"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.1ghvyuszNi9FEtPn"
+    },
+    {
+      "_id": "g6jQndVTY8rnlNsJ",
+      "name": "Vendra's Dockside Dissolution (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Vendra's Dockside Dissolution (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.bPUOmrau7r0W3bvX",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7jjf6CYQ1sshjgKz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hOfE1pjbrqICBL25",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Lc1g1fJMlxjehgz6",
+                "name": "Phial of Glasscap Crown Resin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "resin",
+                  "glasscap crown",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "dragon",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.g6jQndVTY8rnlNsJ"
+    },
+    {
+      "_id": "n4DbCgVMjOFMarIb",
+      "name": "Visage of Valtharyx (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Visage of Valtharyx (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5W7iGqvFGTi22lqs",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "e73QQN4ov0JEHsJM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4WK10OMeV0O0g3FN",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "scales"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.n4DbCgVMjOFMarIb"
+    },
+    {
+      "_id": "007sGnPI2wdoDux3",
+      "name": "Visage of Valtharyx (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Visage of Valtharyx (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.esXA7IW6yyVhpZNE",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5ve0d2Ng16qorwBR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9wO5lDEGmXxIMTqH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "scales"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.007sGnPI2wdoDux3"
+    },
+    {
+      "_id": "e6fww6O6Xmh9OoMO",
+      "name": "Visage of Valtharyx (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Visage of Valtharyx (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Vf0CBd9pA1C1GmPO",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rCBIEb8ZEkAa1RMe",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Aa0wxW4iA8KtTVgr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "scales"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!s1uIvlnFTEx1gHhK.e6fww6O6Xmh9OoMO"
+    }
+  ],
+  "folder": null,
+  "sort": 11400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

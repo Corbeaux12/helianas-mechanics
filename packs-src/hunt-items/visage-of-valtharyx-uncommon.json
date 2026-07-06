@@ -1,0 +1,37 @@
+{
+  "_id": "5W7iGqvFGTi22lqs",
+  "_key": "!items!5W7iGqvFGTi22lqs",
+  "name": "Visage of Valtharyx (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Pouch of Dragon (Coral Dragon Turtle) scales</p><p>A mournful melody echoes in the ears of any who wear this helmet. The last lament of great Valtharyx... The ancient song of Nerathis... The persistent call of the Drowned Bloom, beckoning from deep beneath the waves.</p><p><strong>Coralboon.</strong> While wearing this helmet, you gain the following benefits: you can breathe underwater; you treat the Contamination Level of water in which you're submerged as being one lower; and you can speak with coral as per the <em>Speak with Animals</em> spell.</p><p><strong>Rare variant:</strong> The helmet has the Coralplate property.</p><p><strong>Coralplate.</strong> While wearing this helmet, you can cast the <em>Coralskin</em> spell, targeting yourself only. While under the effects of the spell, you also gain a +1 bonus to AC, or a +2 bonus if you're underwater. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Very rare variant:</strong> The helmet has the Coralplate property. Increase the AC bonus to +2, or +3 if you're underwater. While under the effects of the Coralskin spell cast using that property, you have Resistance to Poison damage, and you have Advantage on saving throws made against being Poisoned.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 340,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

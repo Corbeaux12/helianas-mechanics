@@ -1,0 +1,86 @@
+{
+  "name": "Scourge of the Coral Hive",
+  "source": "Scourge of the Coral Hive (Loot Tavern hunt, APL 6/11/16)",
+  "creatureType": "dragon",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/6th, 10th, & 15th/Scourge of the Coral Hive/Scourge of the Coral Hive - v1.00.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Eye (2); Flesh (10); Phial of Blood (1000)"] },
+    { "dc": 10, "components": ["Bone (20); Fat (40); Pouch of Teeth (4)"] },
+    { "dc": 15, "components": ["Coral Growth (10); Liver (1); Pouch of Scales (20)"] },
+    { "dc": 20, "components": ["Heart (1)"] },
+    { "dc": 25, "components": ["Breath Sac (1, volatile)"] }
+  ],
+  "components": [
+    { "name": "Coral Dragon Turtle Coral Growth", "tags": ["coral growth", "coral dragon turtle", "dragon"], "price": 70 },
+    { "name": "Glasscap Crown Fungus",            "tags": ["glasscap crown", "fungus", "plant"],            "price": 220 },
+    { "name": "Phial of Glasscap Crown Resin",     "tags": ["resin", "glasscap crown", "plant"],            "price": 90 }
+  ],
+  "items": [
+    {
+      "name": "Glasscap Crown",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Glasscap Crown Fungus",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 25 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Harvested Item:</strong> DC 30 Nature</p><p>Glasscap Crowns are aquatic fungi that hang inverted beneath wrecks and stone shelves across the Narath Sea, their translucent, jelly-like domes pulsing with pale blue light as they draw heat and minerals from the water. Each bloom anchors itself with a crown of hairlike roots that quiver with the current.</p><p><strong>Harvesting.</strong> A creature that fails its Harvesting check to harvest a Glasscap Crown makes a DC 15 Constitution saving throw, taking 3d6 Acid damage on a failed save, or half as much damage on a successful one.</p><p><strong>Ingestion.</strong> A creature that ingests a Glasscap Crown gains Resistance to Poison damage and Immunity to the Poisoned condition for 1 hour.</p>"
+    },
+    {
+      "name": "Reef's Revenge",
+      "itemType": "equipment",
+      "kind": "Artillery Component (Magitech Cannon)",
+      "component": "Coral Dragon Turtle Coral Growth",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 570 },
+        { "rarity": "rare",      "value": 2100 },
+        { "rarity": "very rare", "value": 9230 }
+      ],
+      "description": "<p><em>Artillery Component (Magitech Cannon), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Dragon (Coral Dragon Turtle) Coral Growth</p><p>\"Every shot you take is another opportunity for growth.\" — Carl Ryf, Motivational Speaker for the Hive Mind</p><p>This item has 5 charges and regains 1d4 + 1 expended charges daily at dawn.</p><p><strong>Impairing Growth.</strong> When firing this cannon, you can expend up to 3 charges to infuse the shot with rapidly proliferating coral. For each charge expended, choose one creature or object that took damage from the shot. A coral growth begins to rapidly spread across each chosen target. While a ship component has at least one coral growth, it's considered Impaired. While a creature has at least one coral growth, its Speed is halved and it has Disadvantage on ability checks and attack rolls.</p><p>A coral growth is an object with AC 17; HP 20; Immunity to Poison and Psychic damage; and Vulnerability to Acid damage. It remains on a target until it's destroyed.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 3, the recharge to 1d3, the maximum number of charges that can be expended for each use of the Impairing Growth property to 1, and the AC and Hit Points of coral growths to 13 and 10, respectively.</p><p><strong>Rare variant:</strong> Reduce the charges to 4, the recharge to 1d4, the maximum number of charges that can be expended for each use of the Impairing Growth property to 2, and both the AC and Hit Points of coral growths to 15.</p>"
+    },
+    {
+      "name": "Tortuga Armcannon",
+      "itemType": "equipment",
+      "kind": "Prosthesis",
+      "component": "Dragon Breath Sac",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 450 },
+        { "rarity": "rare",      "value": 1870 },
+        { "rarity": "very rare", "value": 13840 }
+      ],
+      "description": "<p><em>Prosthesis, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Dragon (Coral Dragon Turtle) Breath Sac</p><p>Alltide Salvagers' Guild guidelines recommend biweekly pruning of Tortuga Armcannons, to keep the slow but inexorable spread of the mutagenic coral from overtaking the wearer's body. Cult of the Bakekujira pamphlets recommend doing nothing at all and seeing what happens.</p><p>This item has 4 charges and regains all expended charges daily at dawn.</p><p><strong>Prosthesis Properties.</strong> This prosthesis can replace or enhance an arm. It has the Blast (1d6 Bludgeoning, 30 ft.) property and the Push mastery property. It also has the Reeling Blow Superior Strike.</p><p><strong>Hydro Cannon.</strong> While wearing this prosthesis, you can take a Magic action and expend 1 charge to shoot a jet of highly-pressurised water at a creature you can see within 20 feet of you. That creature must succeed on a DC 15 Dexterity saving throw or take 6d6 Bludgeoning damage, be pushed up to 30 feet directly away from you, and fall Prone. When you use this property, you can expend 1 additional charge to modify the water jet in one of the following ways:</p><ul><li><strong>Steam Blast.</strong> The water erupting from the cannon is boiling hot. The target takes an extra 4d6 Fire damage on a failed save. Being underwater doesn't grant Resistance to this damage.</li><li><strong>Restraining Coral.</strong> The water erupting from the cannon contains small pieces of coral that rapidly proliferate across a creature's body. On a failed save, the target is also Restrained until the end of its next turn.</li></ul><p><strong>Uncommon variant:</strong> Reduce the charges to 3, the DC to 13, the damage of the Hydro Cannon property to 4d6, and the distance a creature is pushed to 10 feet. You can't expend additional charges to modify the water jet created by the Hydro Cannon property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. You gain a +1 bonus to attack rolls and damage rolls made with this prosthesis.</p>"
+    },
+    {
+      "name": "Vendra's Dockside Dissolution",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Phial of Glasscap Crown Resin",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common", "value": 150 }
+      ],
+      "description": "<p><em>Wondrous item, common</em></p><p><strong>Component:</strong> Phial of Plant (Glasscap Crown) resin</p><p>This caustic concoction is used to clean the hulls of ships, and comes in a large glass jug containing 4 doses. You can take a Utilise action to splash 1 dose of this solution on a portion of a vessel's hull containing coral growths that is within 20 feet of you, restoring 30 feet of the vessel's Speed that had been reduced by a coral dragon turtle's Coral Mines Lair Action.</p><p>Alternatively, you can throw a jug up to 20 feet at another creature or an unoccupied space. If the jug is thrown at a creature, make a ranged attack roll, treating it as an improvised weapon. On a hit, the target takes 2d6 Acid damage. Then, if the jug had more than 2 doses left, each creature within 5 feet of the target creature or space must succeed on a DC 13 Dexterity saving throw or take 2d6 Acid damage.</p>"
+    },
+    {
+      "name": "Visage of Valtharyx",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Pouch of Dragon Scales",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 340 },
+        { "rarity": "rare",      "value": 1300 },
+        { "rarity": "very rare", "value": 9820 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Pouch of Dragon (Coral Dragon Turtle) scales</p><p>A mournful melody echoes in the ears of any who wear this helmet. The last lament of great Valtharyx... The ancient song of Nerathis... The persistent call of the Drowned Bloom, beckoning from deep beneath the waves.</p><p><strong>Coralboon.</strong> While wearing this helmet, you gain the following benefits: you can breathe underwater; you treat the Contamination Level of water in which you're submerged as being one lower; and you can speak with coral as per the <em>Speak with Animals</em> spell.</p><p><strong>Rare variant:</strong> The helmet has the Coralplate property.</p><p><strong>Coralplate.</strong> While wearing this helmet, you can cast the <em>Coralskin</em> spell, targeting yourself only. While under the effects of the spell, you also gain a +1 bonus to AC, or a +2 bonus if you're underwater. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Very rare variant:</strong> The helmet has the Coralplate property. Increase the AC bonus to +2, or +3 if you're underwater. While under the effects of the Coralskin spell cast using that property, you have Resistance to Poison damage, and you have Advantage on saving throws made against being Poisoned.</p>"
+    }
+  ]
+}

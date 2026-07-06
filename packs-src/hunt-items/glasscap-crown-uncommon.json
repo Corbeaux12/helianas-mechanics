@@ -1,0 +1,37 @@
+{
+  "_id": "GtTmiH6mUuZ73hQ5",
+  "_key": "!items!GtTmiH6mUuZ73hQ5",
+  "name": "Glasscap Crown (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Harvested Item:</strong> DC 30 Nature</p><p>Glasscap Crowns are aquatic fungi that hang inverted beneath wrecks and stone shelves across the Narath Sea, their translucent, jelly-like domes pulsing with pale blue light as they draw heat and minerals from the water. Each bloom anchors itself with a crown of hairlike roots that quiver with the current.</p><p><strong>Harvesting.</strong> A creature that fails its Harvesting check to harvest a Glasscap Crown makes a DC 15 Constitution saving throw, taking 3d6 Acid damage on a failed save, or half as much damage on a successful one.</p><p><strong>Ingestion.</strong> A creature that ingests a Glasscap Crown gains Resistance to Poison damage and Immunity to the Poisoned condition for 1 hour.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

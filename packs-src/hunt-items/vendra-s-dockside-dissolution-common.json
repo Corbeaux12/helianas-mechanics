@@ -1,0 +1,37 @@
+{
+  "_id": "bPUOmrau7r0W3bvX",
+  "_key": "!items!bPUOmrau7r0W3bvX",
+  "name": "Vendra's Dockside Dissolution (Common)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em></p><p><strong>Component:</strong> Phial of Plant (Glasscap Crown) resin</p><p>This caustic concoction is used to clean the hulls of ships, and comes in a large glass jug containing 4 doses. You can take a Utilise action to splash 1 dose of this solution on a portion of a vessel's hull containing coral growths that is within 20 feet of you, restoring 30 feet of the vessel's Speed that had been reduced by a coral dragon turtle's Coral Mines Lair Action.</p><p>Alternatively, you can throw a jug up to 20 feet at another creature or an unoccupied space. If the jug is thrown at a creature, make a ranged attack roll, treating it as an improvised weapon. On a hit, the target takes 2d6 Acid damage. Then, if the jug had more than 2 doses left, each creature within 5 feet of the target creature or space must succeed on a DC 13 Dexterity saving throw or take 2d6 Acid damage.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "attunement": "",
+    "price": {
+      "value": 150,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

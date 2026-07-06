@@ -1,0 +1,37 @@
+{
+  "_id": "ZzV87EQcBcjTU1Cf",
+  "_key": "!items!ZzV87EQcBcjTU1Cf",
+  "name": "Tortuga Armcannon (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Prosthesis, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Dragon (Coral Dragon Turtle) Breath Sac</p><p>Alltide Salvagers' Guild guidelines recommend biweekly pruning of Tortuga Armcannons, to keep the slow but inexorable spread of the mutagenic coral from overtaking the wearer's body. Cult of the Bakekujira pamphlets recommend doing nothing at all and seeing what happens.</p><p>This item has 4 charges and regains all expended charges daily at dawn.</p><p><strong>Prosthesis Properties.</strong> This prosthesis can replace or enhance an arm. It has the Blast (1d6 Bludgeoning, 30 ft.) property and the Push mastery property. It also has the Reeling Blow Superior Strike.</p><p><strong>Hydro Cannon.</strong> While wearing this prosthesis, you can take a Magic action and expend 1 charge to shoot a jet of highly-pressurised water at a creature you can see within 20 feet of you. That creature must succeed on a DC 15 Dexterity saving throw or take 6d6 Bludgeoning damage, be pushed up to 30 feet directly away from you, and fall Prone. When you use this property, you can expend 1 additional charge to modify the water jet in one of the following ways:</p><ul><li><strong>Steam Blast.</strong> The water erupting from the cannon is boiling hot. The target takes an extra 4d6 Fire damage on a failed save. Being underwater doesn't grant Resistance to this damage.</li><li><strong>Restraining Coral.</strong> The water erupting from the cannon contains small pieces of coral that rapidly proliferate across a creature's body. On a failed save, the target is also Restrained until the end of its next turn.</li></ul><p><strong>Uncommon variant:</strong> Reduce the charges to 3, the DC to 13, the damage of the Hydro Cannon property to 4d6, and the distance a creature is pushed to 10 feet. You can't expend additional charges to modify the water jet created by the Hydro Cannon property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. You gain a +1 bonus to attack rolls and damage rolls made with this prosthesis.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 450,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
