@@ -1,0 +1,486 @@
+{
+  "_id": "Mz16chP3p4HJ6Ab5",
+  "_key": "!actors!Mz16chP3p4HJ6Ab5",
+  "name": "Pengkin Rimejarl",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/pengkin-rimejarl.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 17,
+        "proficient": 1
+      },
+      "int": {
+        "value": 13,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 19,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 120,
+        "max": 120,
+        "formula": "16d8 + 48"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30,
+        "swim": 35
+      },
+      "senses": {
+        "units": "ft"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Pingvius erectus.</em> A silver-tongued pengkin jarl whose psionic whispers corrupt magical communication for sixty feet in every direction — and who is perfectly happy to settle arguments by sliding into you at speed. Habitat: Arctic.</p><p><strong>Gear:</strong> Quarterstaff.</p><p><em>Source: Heliana's Field Notes X-36 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Neutral",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Pengkin",
+        "custom": ""
+      },
+      "cr": 5
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": "Telepathy 30 ft."
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "poison",
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "frightened"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "M54c5OSv3UgInBAY",
+      "_key": "!actors.items!Mz16chP3p4HJ6Ab5.M54c5OSv3UgInBAY",
+      "name": "Maddening Whispers",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The pengkin exudes an aura that corrupts psionic abilities in a 60-foot Emanation originating from it. When a creature attempts to communicate magically within that area by an effect other than the pengkin's telepathy (such as by the <em>Message</em> or <em>Sending</em> spells), the effect fails, and the creature takes 3 (1d6) Psychic damage. A creature can take this damage only once per turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "yBRXd1MLCZxabN0H",
+      "_key": "!actors.items!Mz16chP3p4HJ6Ab5.yBRXd1MLCZxabN0H",
+      "name": "Slide (1/Turn)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the pengkin is Prone, it can slide across flat surfaces instead of crawling and has a Speed of 35 feet while doing so. If the pengkin gives itself the Prone condition voluntarily, it can right itself and end the condition without expending any movement.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "2FgH7ntOdfwQumLD",
+      "_key": "!actors.items!Mz16chP3p4HJ6Ab5.2FgH7ntOdfwQumLD",
+      "name": "Spellcasting",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ability:</strong> Charisma; <strong>DC:</strong> 15; <strong>Modifier:</strong> +7. The pengkin is an innate spellcaster and doesn't require Material components.</p><p><strong>At Will:</strong> <em>Mage Hand</em>, <em>Minor Illusion</em>, <em>Ray of Frost</em> (level 5 caster)</p><p><strong>4/Day:</strong> <em>Brainfreeze</em>*, <em>Coldsnap</em>*, <em>Detect Thoughts</em> (C)</p><p><strong>1/Day Each:</strong> <em>Black Tentacles</em> (C), <em>Dream</em></p><p>*See the spell pages of the Field Notes PDF; (C) indicates Concentration.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "KM66DoObWRIq3Pb6",
+      "_key": "!actors.items!Mz16chP3p4HJ6Ab5.KM66DoObWRIq3Pb6",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The pengkin makes two Quarterstaff attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "brLf3E0K7TVmCgdr",
+      "_key": "!actors.items!Mz16chP3p4HJ6Ab5.brLf3E0K7TVmCgdr",
+      "name": "Quarterstaff",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 8 (1d8 + 4) Bludgeoning damage plus 3 (1d6) Cold damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": true,
+              "formula": "1d8 + 4"
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "rimBx6adWMESImZp": {
+            "type": "attack",
+            "_id": "rimBx6adWMESImZp",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "",
+              "bonus": "7"
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "vfL1bJ7kprn69Sw5",
+      "_key": "!actors.items!Mz16chP3p4HJ6Ab5.vfL1bJ7kprn69Sw5",
+      "name": "Ray of Frost (Cantrip)",
+      "img": "icons/magic/water/projectile-ice-shard.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Ranged Spell Attack:</em> +7, range 60 ft. <em>Hit:</em> 9 (2d8) Cold damage. If the target is a creature, its Speed is reduced by 10 feet until the start of the rimejarl's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Pengkin Rimejarl",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/pengkin-rimejarl-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

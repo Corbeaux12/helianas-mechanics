@@ -1,0 +1,28 @@
+{
+  "name": "Armoured Blob",
+  "source": "Heliana's Field Notes X-40 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Jungle/X40-Hivebound Champion.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/hivebound-champion.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/hivebound-champion-token.webp",
+  "size": "sm",
+  "creatureType": "ooze",
+  "alignment": "Neutral",
+  "ac": 15,
+  "hp": { "value": 15, "formula": "2d6 + 8" },
+  "speed": { "walk": 25 },
+  "abilities": { "str": 15, "dex": 8, "con": 18, "int": 7, "wis": 10, "cha": 5 },
+  "saveProfs": ["con"],
+  "skills": {},
+  "dr": ["acid"],
+  "di": ["poison"],
+  "ci": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "poisoned"],
+  "senses": { "blindsight": 60, "special": "Blind beyond blindsight radius" },
+  "languages": [],
+  "cr": 1,
+  "xp": 200,
+  "biography": "<p>A fragment of a Hivebound Champion, flung or split off as an independent armoured ooze. Its Hit Points vary with how it was created (see the champion's Fling Form and Split features).</p>",
+  "features": [
+    { "name": "Multiattack", "category": "action", "description": "<p>The blob makes two Pseudopod attacks.</p>" },
+    { "name": "Pseudopod", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +4, reach 5 ft. <em>Hit:</em> 4 (1d4 + 2) Acid damage.</p>" }
+  ]
+}

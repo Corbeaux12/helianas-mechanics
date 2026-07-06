@@ -1,0 +1,32 @@
+{
+  "name": "Swarm of Vitality Bats",
+  "source": "Heliana's Field Notes X-39 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Urban/X39-Grand Maestro Sangrimm.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/grand-maestro-sangrimm.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/grand-maestro-sangrimm-token.webp",
+  "size": "sm",
+  "creatureType": "fey",
+  "subtype": "Jinn",
+  "alignment": "Neutral",
+  "ac": 13,
+  "hp": { "value": 2, "formula": "1d4" },
+  "speed": { "walk": 0, "fly": 30 },
+  "abilities": { "str": 5, "dex": 16, "con": 10, "int": 2, "wis": 12, "cha": 10 },
+  "saveProfs": [],
+  "skills": {},
+  "dr": ["bludgeoning", "piercing", "slashing"],
+  "di": ["necrotic"],
+  "ci": ["charmed", "frightened", "grappled", "paralyzed", "petrified", "prone", "restrained", "stunned"],
+  "senses": { "blindsight": 60 },
+  "languages": [],
+  "cr": 0.25,
+  "xp": 50,
+  "biography": "<p>A Small swarm of Tiny fey bats made of crimson life essence, conjured and conducted by Grand Maestro Sangrimm's Sanguine Swarm attack.</p>",
+  "features": [
+    { "name": "Life Force", "category": "trait", "description": "<p>When the swarm is created, it gains 10 Temporary Hit Points.</p>" },
+    { "name": "Swarm", "category": "trait", "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat.</p>" },
+    { "name": "Will of the Master", "category": "trait", "description": "<p>The swarm is connected to a master that controls it. If the swarm's master is reduced to 0 Hit Points, the swarm immediately dies in a puff of smoke.</p>" },
+    { "name": "Latch On", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Piercing damage, and the swarm attaches to the target. While attached, the swarm moves with the target and can't be removed unless it chooses to detach itself by spending 5 feet of movement. The swarm has Advantage on attack rolls made against a creature it's attached to.</p>" },
+    { "name": "Leech", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft., one creature that the swarm is attached to. <em>Hit:</em> 9 (2d8) Necrotic damage. If the target is a CR 1+ creature, the swarm's master gains Temporary Hit Points equal to the Necrotic damage taken.</p>" }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "_id": "K3JKr2VyLZII9Zm6",
+  "_key": "!actors!K3JKr2VyLZII9Zm6",
+  "name": "Soul Hoarder",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/soul-hoarder.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0
+      },
+      "con": {
+        "value": 17,
+        "proficient": 0
+      },
+      "int": {
+        "value": 18,
+        "proficient": 1
+      },
+      "wis": {
+        "value": 23,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 19,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 189,
+        "max": 189,
+        "formula": "14d20 + 42"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 40,
+        "climb": 40
+      },
+      "senses": {
+        "units": "ft",
+        "truesight": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Animasaurus acervus.</em> A dragon that hoards not gold but living creatures, sealed shrunken in jars along its flanks — knocked-out victims are bottled, charmed by the next dawn, and released as loyal specimens when the hoarder needs muscle. Habitat: Mountains &amp; Underdark.</p><p><em>Source: Heliana's Field Notes X-37 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 18
+    },
+    "traits": {
+      "size": "grg",
+      "languages": {
+        "value": [
+          "common",
+          "draconic"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "force",
+          "necrotic",
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "QCsPYYmWC11x67z9",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.QCsPYYmWC11x67z9",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the Soul Hoarder fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "jkk2Tzgn3F0qgS4K",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.jkk2Tzgn3F0qgS4K",
+      "name": "Shadow of Summons",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While the Soul Hoarder is within 5 feet of a creature Charmed by it, it can halve any damage it takes, and the Charmed creature takes the same amount of damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "4VsPVWw9aWlPnp0c",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.4VsPVWw9aWlPnp0c",
+      "name": "Spellcasting",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ability:</strong> Wisdom; <strong>DC:</strong> 20; <strong>Modifier:</strong> +12. The Soul Hoarder is an innate spellcaster and doesn't use Material components.</p><p><strong>At Will:</strong> <em>Detect Magic</em>, <em>Locate Creature</em>, <em>Locate Object</em></p><p><strong>4/Day:</strong> <em>Charm Person</em>, <em>Hypnotic Pattern</em> (C), <em>Sleep</em></p><p><strong>3/Day:</strong> <em>Charm Monster</em> (C), <em>Geas</em></p><p><strong>2/Day:</strong> <em>Etherealness</em> (cast before combat), <em>Teleport</em></p><p>(C) indicates Concentration.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "a2xT5UHHYT2LPVqF",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.a2xT5UHHYT2LPVqF",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The Soul Hoarder makes four Claw attacks. It can replace one attack with a use of Subduing Breath or Release Specimen if available.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "0zHZrhY1C5Gcwvvi",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.0zHZrhY1C5Gcwvvi",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 5 ft. <em>Hit:</em> 13 (4d4 + 3) Force damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 4,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "force"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "ya6VRWJnLvlF813f": {
+            "type": "attack",
+            "_id": "ya6VRWJnLvlF813f",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "xEQ6PFc2ui2erbwq",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.xEQ6PFc2ui2erbwq",
+      "name": "Subduing Breath (Recharge 5-6)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 20 Dexterity, each creature in a 30-foot Cone. <em>Failure:</em> 22 (4d10) Force damage and a creature's Speed is reduced to 0. <em>Failure by 5 or More:</em> A creature falls Unconscious for 1 minute. It wakes up early if it takes damage or another creature uses an action to shake it awake.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "9iQe4snQ7QqJkg9t",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.9iQe4snQ7QqJkg9t",
+      "name": "Release Specimen (Recharge 6)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The Soul Hoarder opens a jar, releasing a specimen into an unoccupied space within 5 feet of it. The specimen is Charmed by the Soul Hoarder until either it or the Soul Hoarder is reduced to 0 Hit Points. The specimen takes its turn directly after the Soul Hoarder and follows its commands (no action required by the Soul Hoarder). The Soul Hoarder can recapture a released specimen as a Bonus Action.</p><p>When the Soul Hoarder releases a specimen, it chooses from one of the following options: Bulette, Otyugh, Salamander, Triceratops, Wraith. Once an option has been released, it can't be released again until the Soul Hoarder recaptures it.</p><p><em>Additional Specimens:</em> at the GM's discretion the collection may hold other creatures of CR 5 or lower; released creatures lose any Legendary Resistances or Legendary Actions.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "sZMfMCFOMYL4XBYw",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.sZMfMCFOMYL4XBYw",
+      "name": "Capture",
+      "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> A creature within 60 feet of the Soul Hoarder falls Unconscious. <em>Response — Saving Throw:</em> DC 20 Constitution, the triggering creature. <em>Failure:</em> The target is imprisoned in one of the Soul Hoarder's jars. While in the jar, the target shrinks to fit inside and is Incapacitated. At the next dawn, the target is Charmed by the Soul Hoarder and can be released with its Release Specimen action.</p><p>The jar has AC 10 and 20 Hit Points. It has Three-Quarters Cover while held by the Soul Hoarder. Shattering the jar releases the specimen inside, which returns to its normal size and appears in the nearest unoccupied space within 5 feet of the jar.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "ywOz9KuNxuBRx5fB",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.ywOz9KuNxuBRx5fB",
+      "name": "Cast a Spell (Legendary Action)",
+      "img": "icons/magic/symbols/circled-gem-pink.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the Soul Hoarder can expend a use to take one of the following actions. The Soul Hoarder regains all expended uses at the start of each of its turns.</em></p><p>The Soul Hoarder uses Spellcasting.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "KulXoyWhEp55QsE8",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.KulXoyWhEp55QsE8",
+      "name": "Puppeteer (Legendary Action, Costs 2 Uses)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The Soul Hoarder commands a Charmed creature within 60 feet of it. That creature uses its Reaction to move up to its Speed and make one weapon attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "cuzjbnzFiEoze2SZ",
+      "_key": "!actors.items!K3JKr2VyLZII9Zm6.cuzjbnzFiEoze2SZ",
+      "name": "Slink (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The Soul Hoarder moves up to its Speed without provoking Opportunity Attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Soul Hoarder",
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/soul-hoarder-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,432 @@
+{
+  "_id": "AJgcnrHUcOr951Dd",
+  "_key": "!actors!AJgcnrHUcOr951Dd",
+  "name": "Primordial Wanderer",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/primordial-wanderer.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0
+      },
+      "con": {
+        "value": 19,
+        "proficient": 1
+      },
+      "int": {
+        "value": 15,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 95,
+        "max": 95,
+        "formula": "10d10 + 40"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 35,
+        "burrow": 35,
+        "swim": 35
+      },
+      "senses": {
+        "units": "ft",
+        "tremorsense": 60
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Dynastes alchimia.</em> A beetle-like elemental alchemist that wanders between the planes, carrying beads of raw element it can throw singly or fuse into devastating combined blasts once wounded. Habitat: Extraplanar.</p><p><em>Source: Heliana's Field Notes X-41 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Neutral",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 8
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [
+          "primordial"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "acid",
+          "cold",
+          "fire",
+          "lightning",
+          "poison",
+          "thunder"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "6NdT1XVscLlVc7na",
+      "_key": "!actors.items!AJgcnrHUcOr951Dd.6NdT1XVscLlVc7na",
+      "name": "Tunneler",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The wanderer can burrow through nonmagical, unworked earth and stone. The first time it emerges from one of those materials on a turn, debris erupts from the opening. <em>Saving Throw:</em> DC 15 Strength, each creature within a 10-foot Emanation originating from the wanderer when it emerges. <em>Failure:</em> 10 (3d6) Bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "aIoFSkrfdl0mVDIc",
+      "_key": "!actors.items!AJgcnrHUcOr951Dd.aIoFSkrfdl0mVDIc",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The wanderer makes three attacks, using Claw and Elemental Orb in any combination.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "5Y7ieCaYKa86KhOd",
+      "_key": "!actors.items!AJgcnrHUcOr951Dd.5Y7ieCaYKa86KhOd",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 11 (2d6 + 4) Slashing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "GD6en76zqZYEubHR": {
+            "type": "attack",
+            "_id": "GD6en76zqZYEubHR",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "20CIPu8ZKtBkl2dy",
+      "_key": "!actors.items!AJgcnrHUcOr951Dd.20CIPu8ZKtBkl2dy",
+      "name": "Elemental Orb",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The wanderer tosses a bead formed from an element of its choice. <em>Ranged Weapon Attack:</em> +7, range 40/120 ft. <em>Hit:</em> The target suffers one of the following effects:</p><ul><li><strong>Air.</strong> 9 (2d8) Lightning damage and each creature within 10 feet of the target takes 2 (1d4) Thunder damage.</li><li><strong>Earth.</strong> 11 (2d10) Bludgeoning damage and the target is knocked Prone.</li><li><strong>Fire.</strong> 10 (3d6) Fire damage and the target starts Burning.</li><li><strong>Water.</strong> 11 (2d10) Bludgeoning damage and the target is pushed 15 feet away from the wanderer.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "i1v115l4QPxw1dtt",
+      "_key": "!actors.items!AJgcnrHUcOr951Dd.i1v115l4QPxw1dtt",
+      "name": "Fusion Blast (Only While Bloodied)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The wanderer chooses two elemental beads to fuse together in a blast of energy. <em>Saving Throw:</em> DC 15 Constitution, each creature in a 30-foot Emanation centered on the wanderer. The creatures all suffer one of the following effects of the wanderer's choice:</p><ul><li><strong>Ice.</strong> <em>Failure:</em> 18 (4d8) Cold damage and the creature is Restrained by ice until the end of its next turn. <em>Success:</em> Half damage only.</li><li><strong>Magma.</strong> <em>Failure:</em> 17 (5d6) Fire damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> Until the start of the wanderer's next turn, the creature takes 1 Fire damage for every 5 feet it moves within the area.</li><li><strong>Mud.</strong> <em>Failure:</em> 22 (4d10) Bludgeoning damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> The area becomes Difficult Terrain until cleared.</li><li><strong>Smoke.</strong> <em>Failure:</em> 17 (5d6) Fire damage and the creature is Blinded until the end of its next turn. <em>Success:</em> Half damage only.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Primordial Wanderer",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/primordial-wanderer-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

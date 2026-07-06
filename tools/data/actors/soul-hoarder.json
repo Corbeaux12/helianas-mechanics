@@ -1,0 +1,109 @@
+{
+  "name": "Soul Hoarder",
+  "source": "Heliana's Field Notes X-37 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Underdark/X37-Soul Hoarder.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/soul-hoarder.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/soul-hoarder-token.webp",
+  "size": "grg",
+  "creatureType": "dragon",
+  "alignment": "Chaotic Evil",
+  "ac": 17,
+  "hp": {
+    "value": 189,
+    "formula": "14d20 + 42"
+  },
+  "speed": {
+    "walk": 40,
+    "climb": 40
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 17,
+    "int": 18,
+    "wis": 23,
+    "cha": 19
+  },
+  "saveProfs": [
+    "int",
+    "wis",
+    "cha"
+  ],
+  "skills": {
+    "ins": 1,
+    "prc": 1,
+    "sur": 1
+  },
+  "dr": [
+    "force",
+    "necrotic",
+    "radiant"
+  ],
+  "senses": {
+    "truesight": 120
+  },
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "cr": 18,
+  "xp": 20000,
+  "biography": "<p><em>Animasaurus acervus.</em> A dragon that hoards not gold but living creatures, sealed shrunken in jars along its flanks — knocked-out victims are bottled, charmed by the next dawn, and released as loyal specimens when the hoarder needs muscle. Habitat: Mountains &amp; Underdark.</p>",
+  "features": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "category": "trait",
+      "description": "<p>If the Soul Hoarder fails a saving throw, it can choose to succeed instead.</p>"
+    },
+    {
+      "name": "Shadow of Summons",
+      "category": "trait",
+      "description": "<p>While the Soul Hoarder is within 5 feet of a creature Charmed by it, it can halve any damage it takes, and the Charmed creature takes the same amount of damage.</p>"
+    },
+    {
+      "name": "Spellcasting",
+      "category": "trait",
+      "description": "<p><strong>Ability:</strong> Wisdom; <strong>DC:</strong> 20; <strong>Modifier:</strong> +12. The Soul Hoarder is an innate spellcaster and doesn't use Material components.</p><p><strong>At Will:</strong> <em>Detect Magic</em>, <em>Locate Creature</em>, <em>Locate Object</em></p><p><strong>4/Day:</strong> <em>Charm Person</em>, <em>Hypnotic Pattern</em> (C), <em>Sleep</em></p><p><strong>3/Day:</strong> <em>Charm Monster</em> (C), <em>Geas</em></p><p><strong>2/Day:</strong> <em>Etherealness</em> (cast before combat), <em>Teleport</em></p><p>(C) indicates Concentration.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The Soul Hoarder makes four Claw attacks. It can replace one attack with a use of Subduing Breath or Release Specimen if available.</p>"
+    },
+    {
+      "name": "Claw",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +9, reach 5 ft. <em>Hit:</em> 13 (4d4 + 3) Force damage.</p>"
+    },
+    {
+      "name": "Subduing Breath (Recharge 5-6)",
+      "category": "action",
+      "description": "<p><em>Saving Throw:</em> DC 20 Dexterity, each creature in a 30-foot Cone. <em>Failure:</em> 22 (4d10) Force damage and a creature's Speed is reduced to 0. <em>Failure by 5 or More:</em> A creature falls Unconscious for 1 minute. It wakes up early if it takes damage or another creature uses an action to shake it awake.</p>"
+    },
+    {
+      "name": "Release Specimen (Recharge 6)",
+      "category": "action",
+      "description": "<p>The Soul Hoarder opens a jar, releasing a specimen into an unoccupied space within 5 feet of it. The specimen is Charmed by the Soul Hoarder until either it or the Soul Hoarder is reduced to 0 Hit Points. The specimen takes its turn directly after the Soul Hoarder and follows its commands (no action required by the Soul Hoarder). The Soul Hoarder can recapture a released specimen as a Bonus Action.</p><p>When the Soul Hoarder releases a specimen, it chooses from one of the following options: Bulette, Otyugh, Salamander, Triceratops, Wraith. Once an option has been released, it can't be released again until the Soul Hoarder recaptures it.</p><p><em>Additional Specimens:</em> at the GM's discretion the collection may hold other creatures of CR 5 or lower; released creatures lose any Legendary Resistances or Legendary Actions.</p>"
+    },
+    {
+      "name": "Capture",
+      "category": "reaction",
+      "description": "<p><em>Trigger:</em> A creature within 60 feet of the Soul Hoarder falls Unconscious. <em>Response — Saving Throw:</em> DC 20 Constitution, the triggering creature. <em>Failure:</em> The target is imprisoned in one of the Soul Hoarder's jars. While in the jar, the target shrinks to fit inside and is Incapacitated. At the next dawn, the target is Charmed by the Soul Hoarder and can be released with its Release Specimen action.</p><p>The jar has AC 10 and 20 Hit Points. It has Three-Quarters Cover while held by the Soul Hoarder. Shattering the jar releases the specimen inside, which returns to its normal size and appears in the nearest unoccupied space within 5 feet of the jar.</p>"
+    },
+    {
+      "name": "Cast a Spell (Legendary Action)",
+      "category": "legendary",
+      "description": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the Soul Hoarder can expend a use to take one of the following actions. The Soul Hoarder regains all expended uses at the start of each of its turns.</em></p><p>The Soul Hoarder uses Spellcasting.</p>"
+    },
+    {
+      "name": "Puppeteer (Legendary Action, Costs 2 Uses)",
+      "category": "legendary",
+      "description": "<p>The Soul Hoarder commands a Charmed creature within 60 feet of it. That creature uses its Reaction to move up to its Speed and make one weapon attack.</p>"
+    },
+    {
+      "name": "Slink (Legendary Action)",
+      "category": "legendary",
+      "description": "<p>The Soul Hoarder moves up to its Speed without provoking Opportunity Attacks.</p>"
+    }
+  ]
+}

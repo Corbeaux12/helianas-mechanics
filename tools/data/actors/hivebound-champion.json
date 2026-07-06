@@ -1,0 +1,33 @@
+{
+  "name": "Hivebound Champion",
+  "source": "Heliana's Field Notes X-40 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Jungle/X40-Hivebound Champion.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/hivebound-champion.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/hivebound-champion-token.webp",
+  "size": "med",
+  "creatureType": "ooze",
+  "alignment": "Neutral",
+  "ac": 16,
+  "hp": { "value": 127, "formula": "15d8 + 60" },
+  "speed": { "walk": 25 },
+  "abilities": { "str": 15, "dex": 8, "con": 18, "int": 7, "wis": 10, "cha": 5 },
+  "saveProfs": ["con"],
+  "skills": {},
+  "dr": ["acid"],
+  "di": ["poison"],
+  "ci": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "poisoned"],
+  "senses": { "blindsight": 60, "special": "Blind beyond blindsight radius" },
+  "languages": [],
+  "cr": 7,
+  "xp": 2900,
+  "biography": "<p><em>Mellarium eques.</em> An armoured ooze knight that flings chunks of itself as independent fighting blobs, absorbs them back to heal, and splits under heavy slashing blows. Habitat: Jungles.</p><p><strong>Gear:</strong> Mace.</p>",
+  "features": [
+    { "name": "Built of Bits", "category": "trait", "description": "<p>While the hivebound champion is Bloodied (half its Hit Points or fewer), its Speed is halved.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The hivebound champion makes two Pseudopod attacks and one Scrap Metal Mace or Fling Form attack.</p>" },
+    { "name": "Pseudopod", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d8 + 2) Acid damage.</p>" },
+    { "name": "Scrap Metal Mace", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 15 (2d12 + 2) Bludgeoning damage.</p>" },
+    { "name": "Fling Form (Requires 25+ Hit Points)", "category": "action", "description": "<p><em>Ranged Weapon Attack:</em> +5, range 20/60 ft. <em>Hit:</em> 13 (3d8) Acid damage. <em>Hit or Miss:</em> The hivebound champion takes Bludgeoning damage equal to the Acid damage rolled, which can't be reduced or prevented in any way, and an Armoured Blob appears in the nearest unoccupied space to the target. A blob has Hit Points equal to the damage taken by the hivebound champion and takes its turn immediately after the hivebound champion on the same Initiative count.</p>" },
+    { "name": "Absorb", "category": "bonus", "description": "<p>The hivebound champion absorbs an armoured blob within 5 feet of it, causing it to disappear, and regains Hit Points equal to the blob's Hit Points.</p>" },
+    { "name": "Split", "category": "reaction", "description": "<p><em>Trigger:</em> The hivebound champion takes 10+ Slashing damage in a single instance. <em>Response:</em> The hivebound champion creates an Armoured Blob in an unoccupied space within 5 feet of it. The blob has Hit Points equal to half the triggering damage and takes its turn immediately after the hivebound champion on the same Initiative count.</p>" }
+  ]
+}

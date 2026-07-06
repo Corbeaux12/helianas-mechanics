@@ -1,0 +1,320 @@
+{
+  "_id": "geG4ugp7taGlHlsk",
+  "_key": "!actors!geG4ugp7taGlHlsk",
+  "name": "Armoured Blob",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/hivebound-champion.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 15,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 8,
+        "proficient": 0
+      },
+      "con": {
+        "value": 18,
+        "proficient": 1
+      },
+      "int": {
+        "value": 7,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 15,
+        "max": 15,
+        "formula": "2d6 + 8"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 25
+      },
+      "senses": {
+        "units": "ft",
+        "blindsight": 60,
+        "special": "Blind beyond blindsight radius"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>A fragment of a Hivebound Champion, flung or split off as an independent armoured ooze. Its Hit Points vary with how it was created (see the champion's Fling Form and Split features).</p><p><em>Source: Heliana's Field Notes X-40 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "type": {
+        "value": "ooze",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 1
+    },
+    "traits": {
+      "size": "sm",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "acid"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {}
+  },
+  "items": [
+    {
+      "_id": "2I6hVAMs5DmxdUrF",
+      "_key": "!actors.items!geG4ugp7taGlHlsk.2I6hVAMs5DmxdUrF",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The blob makes two Pseudopod attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "iIkGuKc9noDRwVxw",
+      "_key": "!actors.items!geG4ugp7taGlHlsk.iIkGuKc9noDRwVxw",
+      "name": "Pseudopod",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +4, reach 5 ft. <em>Hit:</em> 4 (1d4 + 2) Acid damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "acid"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "101yijdRS878Kmdi": {
+            "type": "attack",
+            "_id": "101yijdRS878Kmdi",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Armoured Blob",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/hivebound-champion-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

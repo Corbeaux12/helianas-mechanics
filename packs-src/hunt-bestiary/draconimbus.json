@@ -1,0 +1,641 @@
+{
+  "_id": "i13I7aDguqmtP1xY",
+  "_key": "!actors!i13I7aDguqmtP1xY",
+  "name": "Draconimbus",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/draconimbus.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 21,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 25,
+        "proficient": 1
+      },
+      "con": {
+        "value": 18,
+        "proficient": 1
+      },
+      "int": {
+        "value": 8,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 19,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 290,
+        "max": 290,
+        "formula": "20d20 + 80"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30,
+        "fly": 90,
+        "hover": true
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Aeronativus hydra.</em> A four-headed living storm — each head is a different wind (Electric, Freezing, Maddening, Thunderous) that can be dissipated and regrown as the tempest rages. Its lair is the Eye of the Storm; the playful <strong>Meowsoon</strong> familiar (Tamer companion with a full improvement tree) is detailed in the same Field Notes PDF. Habitat: Arctic &amp; Ocean.</p><p><em>Source: Heliana's Field Notes X-35 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "elemental",
+        "subtype": "Air",
+        "custom": ""
+      },
+      "cr": 26
+    },
+    "traits": {
+      "size": "grg",
+      "languages": {
+        "value": [
+          "auran"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "cold",
+          "lightning",
+          "poison",
+          "thunder"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "unconscious"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "itm": {
+        "value": 1,
+        "ability": "cha"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "LYq5SIor4Bt9Tr5C",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.LYq5SIor4Bt9Tr5C",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the draconimbus fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "3onSsY9SIpLCX8Iu",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.3onSsY9SIpLCX8Iu",
+      "name": "Multiple Heads",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The draconimbus has four heads, each of which is associated with a damage type and a headwind (see Headwinds action): 1 - Electric (Lightning), 2 - Freezing (Cold), 3 - Maddening (Psychic), and 4 - Thunderous (Thunder). While it has more than one head, the draconimbus has Advantage on saving throws against being Blinded, Charmed, Deafened, Frightened, and Stunned.</p><p>Each head of the draconimbus can be targeted separately and shares the draconimbus's AC and save modifiers. A head has no Hit Points, but if it takes 30+ damage on a turn, it dissipates and the draconimbus can't use the associated Headwind. If all of its heads dissipate, the draconimbus is Blinded until one or more of its heads regrow.</p><p>At the start of each of the draconimbus' turns, roll 1d4. If the number rolled corresponds to a head that is currently dissipated, that head regrows. If it corresponds to a head that isn't dissipated, that head recharges its corresponding headwind. If all of the draconimbus' heads are dissipated or it has no headwinds available, roll 2d4 instead and use both results.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "mHDv6yYdHwsrkXbN",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.mHDv6yYdHwsrkXbN",
+      "name": "Reactive Heads",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>For each head the draconimbus has beyond one, it gets an extra Reaction that can be used only for Opportunity Attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "8yC4HJZahjUf7yU9",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.8yC4HJZahjUf7yU9",
+      "name": "Storm Form",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The draconimbus can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. When it enters an enemy's space for the first time on a turn, that creature is subject to the following effect. <em>Saving Throw:</em> DC 20 Dexterity. <em>Failure:</em> 10 (4d4) Lightning damage, and the target is knocked Prone. <em>Failure by 5 or More:</em> The target is Grappled (escape DC 20) inside the body of the draconimbus. While Grappled in this way, the target takes 5 (2d4) Lightning damage at the start of each of the draconimbus' turns.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "V40ZskC6CC5z44zi",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.V40ZskC6CC5z44zi",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The draconimbus makes one Bite attack with each head it has and uses Headwinds.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "zJUjMMb2dMENAYJg",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.zJUjMMb2dMENAYJg",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +13, reach 15 ft. <em>Hit:</em> 19 (4d6 + 5) Piercing damage plus 10 (4d4) damage of the type associated with the biting head.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 15
+        },
+        "damage": {
+          "base": {
+            "number": 4,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "PzYCQKWtb9B5Yf9P": {
+            "type": "attack",
+            "_id": "PzYCQKWtb9B5Yf9P",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "qElkeL36RuPuZin6",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.qElkeL36RuPuZin6",
+      "name": "Headwinds",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Choose one of the following options. Once the draconimbus uses an option, it must recharge that headwind before it can use it again (see Multiple Heads). The draconimbus can't use a headwind if the corresponding head is dissipated.</p><ol><li><strong>Electric Wind.</strong> <em>Saving Throw:</em> DC 20 Dexterity, each creature in a 100-foot-long, 5-foot-wide Line. A creature wearing metal armour has Disadvantage on the saving throw. <em>Failure:</em> 35 (10d6) Lightning damage. <em>Failure by 5 or More:</em> The target is Paralysed until the start of its next turn and drops any held creatures or objects. <em>Success:</em> Half damage.</li><li><strong>Freezing Wind.</strong> <em>Saving Throw:</em> DC 20 Constitution, each creature in a 60-foot Cone. <em>Failure:</em> 21 (6d6) Cold damage, and the target's Speed is reduced to 0 until the end of its next turn. <em>Success:</em> Half damage only.</li><li><strong>Maddening Wind.</strong> <em>Saving Throw:</em> DC 20 Wisdom, each creature in a 60-foot Cone. <em>Failure:</em> 26 (4d12) Psychic damage, and the target immediately moves up to its Speed directly towards the nearest body of water it can see. <em>Success:</em> Half damage only.</li><li><strong>Thunderous Wind.</strong> <em>Saving Throw:</em> DC 20 Constitution, each creature in a 40-foot Emanation originating from the draconimbus. <em>Failure:</em> 33 (6d10) Thunder damage, and the target is Deafened and knocked Prone. <em>Success:</em> Half damage only.</li></ol>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "1Tz43ms0767JmkNj",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.1Tz43ms0767JmkNj",
+      "name": "Bite (Legendary Action)",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the draconimbus can expend a use to take one of the following actions. The draconimbus regains all expended uses at the start of each of its turns.</em></p><p>The draconimbus makes one Bite attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "9FEWt21QkNJLql6B",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.9FEWt21QkNJLql6B",
+      "name": "Detect (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The draconimbus takes the Search action and has Advantage on the check.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "rBPw7fA0711amBIG",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.rBPw7fA0711amBIG",
+      "name": "Gale Winds (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 20 Strength, each creature in a 60-foot Emanation originating from the draconimbus. <em>Failure:</em> The target is knocked Prone and pushed 10 feet straight away from the draconimbus.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "jD948BUJl7TlhKDV",
+      "_key": "!actors.items!i13I7aDguqmtP1xY.jD948BUJl7TlhKDV",
+      "name": "Lair: Eye of the Storm",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Initiative 20 (loses ties). Additional XP 15,000.</em></p><p><strong>Regional Traits</strong></p><p><strong>Mutagenic Waters.</strong> The mutation level of ocean water within 5 miles of the lair is increased by 1 (see the Mutation Mayhem system in VoidSea).</p><p><strong>Neverending Storm.</strong> Winds within 5 miles of the lair are supernaturally strong. The area is Difficult Terrain for Water Vehicles.</p><p><strong>Wind Barrier.</strong> A massive cyclone surrounds the lair. A creature that attempts to enter or exit the lair is subject to the following effect. <em>Saving Throw:</em> DC 18 Strength. <em>Failure:</em> The creature is pushed 60 feet in a straight line in a direction of the lair's choice.</p><p><strong>Lair Actions</strong> <em>(The lair can't take the same action two rounds in a row.)</em></p><p><strong>Downpour.</strong> Torrential rain falls from the sky. Each creature that is outdoors within the lair becomes Wet.</p><p><strong>Gale Winds.</strong> Powerful winds fill the lair. Until Initiative count 20 of the next round, ranged attacks with weapons made within the lair have Disadvantage, and creatures other than the draconimbus that fly in the lair must spend 2 feet of movement for every 1 foot they move.</p><p><strong>Lightning Strike.</strong> Electricity builds up in the clouds in preparation for a powerful discharge. The lair chooses a point on the ground within the lair, which is marked by crackling sparks. On Initiative count 0 of this round, a massive lightning bolt strikes in a 15-foot-radius, 600-foot-high Cylinder centred on the point. <em>Saving Throw:</em> DC 18 Dexterity, each creature in the area. <em>Failure:</em> 42 (12d6) Lightning damage. <em>Success:</em> Half damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Draconimbus",
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/draconimbus-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

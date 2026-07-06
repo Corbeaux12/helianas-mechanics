@@ -1,0 +1,30 @@
+{
+  "name": "Primordial Wanderer",
+  "source": "Heliana's Field Notes X-41 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Extraplanar/X41-Primordial Wanderer.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/primordial-wanderer.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/primordial-wanderer-token.webp",
+  "size": "lg",
+  "creatureType": "elemental",
+  "alignment": "Chaotic Neutral",
+  "ac": 17,
+  "hp": { "value": 95, "formula": "10d10 + 40" },
+  "speed": { "walk": 35, "burrow": 35, "swim": 35 },
+  "abilities": { "str": 18, "dex": 12, "con": 19, "int": 15, "wis": 14, "cha": 11 },
+  "saveProfs": ["str", "con"],
+  "skills": { "prc": 1, "sur": 1 },
+  "dr": ["acid", "cold", "fire", "lightning", "poison", "thunder"],
+  "ci": ["poisoned"],
+  "senses": { "tremorsense": 60 },
+  "languages": ["Primordial"],
+  "cr": 8,
+  "xp": 3900,
+  "biography": "<p><em>Dynastes alchimia.</em> A beetle-like elemental alchemist that wanders between the planes, carrying beads of raw element it can throw singly or fuse into devastating combined blasts once wounded. Habitat: Extraplanar.</p>",
+  "features": [
+    { "name": "Tunneler", "category": "trait", "description": "<p>The wanderer can burrow through nonmagical, unworked earth and stone. The first time it emerges from one of those materials on a turn, debris erupts from the opening. <em>Saving Throw:</em> DC 15 Strength, each creature within a 10-foot Emanation originating from the wanderer when it emerges. <em>Failure:</em> 10 (3d6) Bludgeoning damage.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The wanderer makes three attacks, using Claw and Elemental Orb in any combination.</p>" },
+    { "name": "Claw", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 11 (2d6 + 4) Slashing damage.</p>" },
+    { "name": "Elemental Orb", "category": "action", "description": "<p>The wanderer tosses a bead formed from an element of its choice. <em>Ranged Weapon Attack:</em> +7, range 40/120 ft. <em>Hit:</em> The target suffers one of the following effects:</p><ul><li><strong>Air.</strong> 9 (2d8) Lightning damage and each creature within 10 feet of the target takes 2 (1d4) Thunder damage.</li><li><strong>Earth.</strong> 11 (2d10) Bludgeoning damage and the target is knocked Prone.</li><li><strong>Fire.</strong> 10 (3d6) Fire damage and the target starts Burning.</li><li><strong>Water.</strong> 11 (2d10) Bludgeoning damage and the target is pushed 15 feet away from the wanderer.</li></ul>" },
+    { "name": "Fusion Blast (Only While Bloodied)", "category": "action", "description": "<p>The wanderer chooses two elemental beads to fuse together in a blast of energy. <em>Saving Throw:</em> DC 15 Constitution, each creature in a 30-foot Emanation centered on the wanderer. The creatures all suffer one of the following effects of the wanderer's choice:</p><ul><li><strong>Ice.</strong> <em>Failure:</em> 18 (4d8) Cold damage and the creature is Restrained by ice until the end of its next turn. <em>Success:</em> Half damage only.</li><li><strong>Magma.</strong> <em>Failure:</em> 17 (5d6) Fire damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> Until the start of the wanderer's next turn, the creature takes 1 Fire damage for every 5 feet it moves within the area.</li><li><strong>Mud.</strong> <em>Failure:</em> 22 (4d10) Bludgeoning damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> The area becomes Difficult Terrain until cleared.</li><li><strong>Smoke.</strong> <em>Failure:</em> 17 (5d6) Fire damage and the creature is Blinded until the end of its next turn. <em>Success:</em> Half damage only.</li></ul>" }
+  ]
+}

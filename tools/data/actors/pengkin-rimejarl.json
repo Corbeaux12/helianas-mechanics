@@ -1,0 +1,33 @@
+{
+  "name": "Pengkin Rimejarl",
+  "source": "Heliana's Field Notes X-36 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Arctic/X36-Pengkin Rimejarl.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/pengkin-rimejarl.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/pengkin-rimejarl-token.webp",
+  "size": "med",
+  "creatureType": "humanoid",
+  "subtype": "Pengkin",
+  "alignment": "Chaotic Neutral",
+  "ac": 15,
+  "hp": { "value": 120, "formula": "16d8 + 48" },
+  "speed": { "walk": 30, "swim": 35 },
+  "abilities": { "str": 16, "dex": 10, "con": 17, "int": 13, "wis": 12, "cha": 19 },
+  "saveProfs": ["con", "cha"],
+  "skills": { "dec": 1, "prc": 1, "per": 1, "sur": 1 },
+  "dr": ["cold", "poison", "psychic"],
+  "ci": ["frightened"],
+  "senses": {},
+  "languages": ["Common"],
+  "languagesCustom": "Telepathy 30 ft.",
+  "cr": 5,
+  "xp": 1800,
+  "biography": "<p><em>Pingvius erectus.</em> A silver-tongued pengkin jarl whose psionic whispers corrupt magical communication for sixty feet in every direction — and who is perfectly happy to settle arguments by sliding into you at speed. Habitat: Arctic.</p><p><strong>Gear:</strong> Quarterstaff.</p>",
+  "features": [
+    { "name": "Maddening Whispers", "category": "trait", "description": "<p>The pengkin exudes an aura that corrupts psionic abilities in a 60-foot Emanation originating from it. When a creature attempts to communicate magically within that area by an effect other than the pengkin's telepathy (such as by the <em>Message</em> or <em>Sending</em> spells), the effect fails, and the creature takes 3 (1d6) Psychic damage. A creature can take this damage only once per turn.</p>" },
+    { "name": "Slide (1/Turn)", "category": "trait", "description": "<p>If the pengkin is Prone, it can slide across flat surfaces instead of crawling and has a Speed of 35 feet while doing so. If the pengkin gives itself the Prone condition voluntarily, it can right itself and end the condition without expending any movement.</p>" },
+    { "name": "Spellcasting", "category": "trait", "description": "<p><strong>Ability:</strong> Charisma; <strong>DC:</strong> 15; <strong>Modifier:</strong> +7. The pengkin is an innate spellcaster and doesn't require Material components.</p><p><strong>At Will:</strong> <em>Mage Hand</em>, <em>Minor Illusion</em>, <em>Ray of Frost</em> (level 5 caster)</p><p><strong>4/Day:</strong> <em>Brainfreeze</em>*, <em>Coldsnap</em>*, <em>Detect Thoughts</em> (C)</p><p><strong>1/Day Each:</strong> <em>Black Tentacles</em> (C), <em>Dream</em></p><p>*See the spell pages of the Field Notes PDF; (C) indicates Concentration.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The pengkin makes two Quarterstaff attacks.</p>" },
+    { "name": "Quarterstaff", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +7, reach 5 ft. <em>Hit:</em> 8 (1d8 + 4) Bludgeoning damage plus 3 (1d6) Cold damage.</p>" },
+    { "name": "Ray of Frost (Cantrip)", "category": "action", "description": "<p><em>Ranged Spell Attack:</em> +7, range 60 ft. <em>Hit:</em> 9 (2d8) Cold damage. If the target is a creature, its Speed is reduced by 10 feet until the start of the rimejarl's next turn.</p>" }
+  ]
+}
