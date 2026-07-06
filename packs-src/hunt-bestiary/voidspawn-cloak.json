@@ -1,0 +1,777 @@
+{
+  "_id": "mCBXOdY6KoIGa1nn",
+  "_key": "!actors!mCBXOdY6KoIGa1nn",
+  "name": "Voidspawn Cloak",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/voidspawn-cloak.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 25,
+        "proficient": 1
+      },
+      "int": {
+        "value": 6,
+        "proficient": 1
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 21,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 20,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 297,
+        "max": 297,
+        "formula": "17d20 + 119"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 5,
+        "fly": 30,
+        "hover": true
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Animus fibrastra.</em> The Embroidered Voidspawn Cloak — a gargantuan shroud of living night that drags its own pocket of warped spacetime with it, blotting out the sun, scattering movement, and sending pieces of itself out to smother minds in madness. Habitat: Any.</p><p><em>Source: Heliana's Field Notes X-30 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 23
+    },
+    "traits": {
+      "size": "grg",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "prone",
+          "restrained"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "2g4nJLEeVO94T2Ev",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.2g4nJLEeVO94T2Ev",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the voidspawn cloak fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "HvgrK3sYde6OEyGo",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.HvgrK3sYde6OEyGo",
+      "name": "Spacetime Aura",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Reality warps in a 60-foot Emanation originating from the voidspawn cloak. Natural sunlight can't penetrate the area, which is Dim Light filled with nebulas and pinprick stars. Other creatures and objects can't teleport into the area or while within it, and any spell or other effect that would cause a creature to do so automatically fails. When another creature starts its turn within the area, its movement is warped; roll a d6 to determine the effect, which lasts until the end of that turn:</p><ul><li><strong>1:</strong> The creature's Speed is reduced to 0.</li><li><strong>2-3:</strong> The creature's Speed is halved.</li><li><strong>4-5:</strong> The creature's Speed is normal.</li><li><strong>6:</strong> The creature's Speed is doubled.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "q0DDA4qxChiKRLZK",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.q0DDA4qxChiKRLZK",
+      "name": "Sunlight Sensitivity",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While in sunlight from a spell or similar effect, the voidspawn cloak can't use its Starstep Bonus Action or Nova Burst Legendary Action.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "i9gb0pcpdEiURDKi",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.i9gb0pcpdEiURDKi",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The voidspawn cloak makes two Claw attacks and one Stinger attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "mS7hjc4pAT55Q48C",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.mS7hjc4pAT55Q48C",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +11, reach 10 ft. <em>Hit:</em> 26 (4d10 + 4) Piercing damage. The target is Grappled (escape DC 19), and it is Restrained until the grapple ends. The voidspawn cloak can have up to two creatures Grappled in this way.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 10
+        },
+        "damage": {
+          "base": {
+            "number": 4,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "yWCA2eQRJ1T6D5d1": {
+            "type": "attack",
+            "_id": "yWCA2eQRJ1T6D5d1",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "FMQD53TjcXD0ZFmE",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.FMQD53TjcXD0ZFmE",
+      "name": "Stinger",
+      "img": "icons/creatures/abilities/stinger-poison-green.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +11, reach 15 ft. <em>Hit:</em> 30 (4d12 + 4) Piercing damage plus 18 (4d8) Psychic damage. <em>Saving Throw:</em> DC 20 Wisdom, a creature hit by this attack. <em>Failure:</em> The target's mind is filled with visions of dying stars, and it ages 2d4 years. Until the end of its next turn, it is Blinded and its Speed is 0.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 15
+        },
+        "damage": {
+          "base": {
+            "number": 4,
+            "denomination": 12,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "lT9fz6fcJ1I9e4bs": {
+            "type": "attack",
+            "_id": "lT9fz6fcJ1I9e4bs",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "2xoK9O2avD7Og15I",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.2xoK9O2avD7Og15I",
+      "name": "Enshroud (Recharge 5-6)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The voidspawn cloak sends pieces of its body out as cloaklings to envelop its foes in madness. <em>Saving Throw:</em> DC 20 Dexterity, each creature of the voidspawn cloak's choice within its Spacetime Aura. <em>Failure:</em> A cloakling attaches to the target. While a cloakling is attached, the target is Blinded, can only speak gibberish, and uses its movement to move in a random direction at the start of each of its turns (roll 1d8 to determine the direction). Each cloakling has AC 10 and 15 Hit Points. In addition, the cloakling halves the damage it takes (round down), and the target takes the same amount of damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "GTG5tUCk6U7mPQRC",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.GTG5tUCk6U7mPQRC",
+      "name": "Starstep",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The voidspawn cloak teleports up to 60 feet to an unoccupied space it can see and gains Advantage on its next attack roll this turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "YD391f8CH84wDP3c",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.YD391f8CH84wDP3c",
+      "name": "Nova Burst (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Legendary Action Uses: 3. Immediately after another creature's turn, the voidspawn cloak can expend a use to take one of the following actions. The voidspawn cloak regains all expended uses at the start of each of its turns.</em></p><p>The voidspawn cloak causes a miniscule star to go supernova at a point it can see within 60 feet of it. <em>Saving Throw:</em> DC 20 Dexterity, each creature in a 15-foot-radius Sphere centred on the point. <em>Failure:</em> 18 (4d8) Force damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "fjQkU8x33qSLP25h",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.fjQkU8x33qSLP25h",
+      "name": "Perceive (Legendary Action)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The voidspawn cloak takes the Search action. It has Blindsight with a range of 60 feet for the check.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "eCfpqZILVb2830by",
+      "_key": "!actors.items!mCBXOdY6KoIGa1nn.eCfpqZILVb2830by",
+      "name": "Stinger (Legendary Action)",
+      "img": "icons/creatures/abilities/stinger-poison-green.webp",
+      "effects": [],
+      "sort": 1100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The voidspawn cloak makes one Stinger attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Voidspawn Cloak",
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/voidspawn-cloak-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
