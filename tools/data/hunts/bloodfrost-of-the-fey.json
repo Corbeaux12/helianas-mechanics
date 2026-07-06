@@ -1,0 +1,72 @@
+{
+  "name": "Bloodfrost of the Fey",
+  "source": "Bloodfrost of the Fey (Loot Tavern hunt, APL 4/8/12)",
+  "creatureType": "fey",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/Bloodfrost of the Fey/Bloodfrost_of_the_Fey - v1.2.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Mane (1)"] },
+    { "dc": 10, "components": ["Pouch of claws (4)"] },
+    { "dc": 15, "components": ["Heart (1)"] }
+  ],
+  "components": [
+    { "name": "Jorfraust Mane",          "tags": ["mane", "jorfraust", "fey"],   "price": 15 },
+    { "name": "Pouch of Jorfraust Claws", "tags": ["claws", "jorfraust", "fey"], "price": 40 },
+    { "name": "Jorfraust Heart",          "tags": ["heart", "jorfraust", "fey"], "price": 70 }
+  ],
+  "items": [
+    {
+      "name": "Gelid Hunter",
+      "itemType": "weapon",
+      "kind": "Weapon (any crossbow)",
+      "component": "Pouch of Jorfraust Claws",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 460 },
+        { "rarity": "rare",      "value": 1430 },
+        { "rarity": "very rare", "value": 7190 }
+      ],
+      "description": "<p><em>Weapon (any crossbow), uncommon / rare / very rare</em></p><p><strong>Component:</strong> pouch of fey (Jorfraust) claws</p><p>Carefully constructed for maximum efficiency in extreme cold, this tactical crossbow includes an automatic reloading system requiring no ammunition and a bright flashlight for the darkness of winter. The deer head adorning it may not be a real one, but you'll have no trouble hunting one down when armed with this weapon.</p><p><strong>Ice Shot.</strong> This weapon doesn't use normal ammunition. Instead of firing bolts, when you make an attack with it, an icicle forms already loaded into the crossbow and ready to fire. In addition, at the start of your turn, you can choose to ignore the loading property of the crossbow until your next turn, taking 1d6 fire damage as the weapon vents heat into you.</p><p><strong>Deer Head Lights.</strong> As an action while holding the crossbow, you can cause the deer's eyes to emit bright light in a 30-foot cone, or turn the light off. When you activate the light, you can choose to have it flair with momentary intensity, forcing each creature in the cone to make a DC 15 Constitution saving throw. On a failed save, a creature is blinded until the end of its next turn, and its speed is reduced to 0 feet while blinded in this way. Once the crossbow has been used to blind creatures, it can't be used to do so again until the next dawn.</p><p><strong>Uncommon variant:</strong> Remove the Deer Head Lights property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the duration of the blinded condition to 1 minute. A creature blinded in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The weapon has the Icicle Barrage property.</p><p><strong>Icicle Barrage.</strong> At the start of your turn while holding this crossbow, you can choose to take 2d6 fire damage as the weapon vents even more heat into you. If you do, you can make two extra attacks with the crossbow when you take the Attack action before the end of your next turn. Once this property of the crossbow has been used, it can't be used again until the next dawn.</p>"
+    },
+    {
+      "name": "Huntsman's Goggles",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Jorfraust Heart",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 730 },
+        { "rarity": "rare",      "value": 4100 },
+        { "rarity": "very rare", "value": 11200 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> fey (Jorfraust) heart</p><p>The lenses of these goggles are made of pure ice, painstakingly polished to be as clear as possible and enchanted to never melt. Their frigid surface is incredibly sensitive to heat, capable of detecting even the slightest fluctuations in temperature — be careful not to touch them barehanded and leave a heat imprint behind!</p><p>This item has 7 charges and regains 1d4 + 3 expended charges daily at dawn.</p><p><strong>Thermal Vision.</strong> As a bonus action while wearing these goggles, you can expend 1 charge to activate them. For 1 minute, you can see creatures and objects within 60 feet of you coloured in a spectrum from red for warm creatures to blue for cold ones. This grants you advantage on Perception checks that rely on sight made to detect creatures that emit heat (GM's discretion), and you can always see those creatures regardless of light conditions, obscurement, or invisibility, but not through total cover. Most constructs, elementals, plants, and undead don't emit heat.</p><p><strong>Target Acquired.</strong> Alternatively, while wearing these goggles, you can expend 1 charge to cast the <em>hunter's mark</em> spell. When you cast the spell in this way, the extra damage dealt by it is cold damage, and you can see the target with the goggles' Thermal Vision property even if it doesn't emit heat.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 4 and the recharge to 1d4.</p><p><strong>Very rare variant:</strong> The goggles have the Drain Heat property.</p><p><strong>Drain Heat.</strong> When a creature under the effects of the <em>hunter's mark</em> spell cast with the goggles is reduced to 0 hit points, you can choose to end the spell and drain some of its body heat to revitalise yourself, regaining 2d4 hit points.</p>"
+    },
+    {
+      "name": "Scarf of Winter",
+      "itemType": "equipment",
+      "kind": "Wondrous item (socketable)",
+      "component": "Jorfraust Mane",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common", "value": 40 }
+      ],
+      "description": "<p><em>Wondrous item, common (socketable)</em></p><p><strong>Component:</strong> fey (Jorfraust) mane</p><p>In windy weather, the crystals dangling from this scarf chime softly, producing a sombre yet peaceful winter tune that evokes images of delicate snowflakes colliding against one another during a gentle snowfall. After the crystals have shattered, the absence of their song can be somewhat off-putting.</p><p>You can socket this scarf onto the chestpiece of a suit of armour. While wearing that armour, you ignore the effects of extreme cold.</p><p><strong>Frost Overload.</strong> When you take cold damage, you can use your reaction to reduce it by 2d4, as the small ice crystals serving as the scarf's tassels absorb some of the energy. The crystals are then overloaded and shatter, and this property of the scarf can't be used again until the next dawn, when the crystals form once more.</p>"
+    },
+    {
+      "name": "Willbow",
+      "itemType": "weapon",
+      "kind": "Weapon (any bow)",
+      "component": "Undead Ethereal Ichor",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 500 },
+        { "rarity": "rare",      "value": 2400 },
+        { "rarity": "very rare", "value": 9000 }
+      ],
+      "description": "<p><em>Weapon (any bow), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> undead (will-o'-wisp) ethereal ichor</p><p>Grown in fey soil, these wrought-iron bows are used by unseelie fey in conflicts against their seelie cousins. Turquoise fruit sprouts from the metallic branches — bulbs of liquid fire ripe to erupt and scour the ground for a new generation of growth.</p><p>This bow has 3 charges and regains all expended charges daily at dawn.</p><p>The first attack you make with this bow on each of your turns wreathes the arrow in blue flame and deals an extra 1d4 fire damage on a hit.</p><p><strong>Unseelie Lights.</strong> As a bonus action while carrying this bow, you can expend 1 charge to imbue your next attack with it with the ghostly light from the bow's bulbs. If you hit a creature with it, that creature must succeed on a DC 13 Constitution saving throw or come under the effects of the <em>faerie fire</em> spell for 1 minute. A creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the charges to 4. All arrows fired from this bow deal an extra 1d4 fire damage, instead of only the first one each of your turns.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the charges to 4. All arrows fired from this bow deal an extra 1d4 fire damage, instead of only the first one each of your turns. Attacks made with this bow automatically hit creatures under the effect of the Unseelie Lights property.</p>"
+    }
+  ]
+}

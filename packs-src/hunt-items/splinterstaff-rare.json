@@ -1,0 +1,37 @@
+{
+  "_id": "HrKlw2PiRaYVkoDg",
+  "_key": "!items!HrKlw2PiRaYVkoDg",
+  "name": "Splinterstaff (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, rare / very rare / legendary (requires attunement by a spellcaster)</em></p><p><strong>Component:</strong> pouch of Plant (dunedrinker) pollen</p><p>Splinterstaves are typically wielded by cactari elders in defence of their nursing sites. Witnessing a different Humanoid in possession of one is often indicative of friendship with the cactari people, mastery over the desert, and remarkably calloused hands.</p><p>This staff has 8 charges and regains 1d4 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff bursts into a harmless cloud of pollen and is destroyed. You have resistance to poison damage while holding this staff.</p><p><strong>Spells.</strong> While holding this staff, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 16): <em>cloudkill</em> (5 charges), <em>hallucinogenic cloud</em>* (2 charges), <em>fog cloud</em> (1 charge), <em>gust of wind</em> (2 charges), or <em>stinking cloud</em> (3 charges). Whenever you use this property to cast a spell that produces a cloud, it's always centred on you and caused by a type of magical pollen expelled from the staff. You are immune to the effects of the <em>cloudkill</em>, <em>hallucinogenic cloud</em>, and <em>stinking cloud</em> spells cast from the staff.</p><p><strong>Rare variant:</strong> Reduce the DCs to 15. Remove the resistance to poison damage, and remove <em>cloudkill</em> from the Spells property's list of spells.</p><p><strong>Legendary variant:</strong> Increase the DCs to 17, the charges to 12, and the recharge to 1d8 + 4.</p><p>*See Appendix B of March of the Living Oasis.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3280,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "TpIbdB2U1YecMiQS",
+  "_key": "!items!TpIbdB2U1YecMiQS",
+  "name": "Anglir Electrosensor (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (socketable)</em></p><p><strong>Component:</strong> Monstrosity (anglir) lure</p><p>\"I sense a spark! Did someone just have a brilliant idea or are we about to get ambushed by a blue dragon again?\" — Rod Heel, unfortunate adventurer.</p><p>This item can be socketed on a helmet, hat, or other piece of headwear.</p><p><strong>Electrosensitivity.</strong> As an action while wearing the socketed headwear, you can gain blindsight out to 10 feet for 1 minute. For the duration, you have vulnerability to lightning damage, and if you take lightning damage, you lose the blindsight until the end of your next turn. Once this property of the item has been used, it can't be used again until the next dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

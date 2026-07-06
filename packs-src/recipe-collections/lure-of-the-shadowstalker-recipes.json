@@ -1,0 +1,832 @@
+{
+  "_id": "ccKPU3AZ374tVLNy",
+  "_key": "!journal!ccKPU3AZ374tVLNy",
+  "name": "Lure of the Shadowstalker Recipes",
+  "pages": [
+    {
+      "_id": "8C39Tyf8RGqv5mVd",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Lure of the Shadowstalker (Loot Tavern hunt, APL 4/8/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Sapslime (∞)</td></tr><tr><td>10</td><td>Fin (10)</td></tr><tr><td>15</td><td>Lure (6, one pre-separated)</td></tr><tr><td>20</td><td>Skin (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.TpIbdB2U1YecMiQS]{Anglir Electrosensor (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.BhMH76Hqpea0p78g]{Feylight Sparkler (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yzkx8DCXyLQeiHZs]{Feylight Sparkler (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.v0lU2Fto58CXxOxd]{Feylight Sparkler (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.gtEZTF4JIY7dRK4E]{Feylight Sparkler (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WUIw7P8CJOuzT2x7]{Lightweight (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.oOCdb54lTB4k3ge8]{Lightweight (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.LTtTFqp0nbMaQPQX]{Lightweight (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.oAys88b4A2jZNfCq]{Shadowwind Twinblade (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.KMeDkCswDp74Pq60]{Shadowwind Twinblade (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.LM7l7CW0HGQ1nQ3U]{Shadowwind Twinblade (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.hzo1KWLT3x6PfpR6]{Spellsapper Claw (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.y0VtEGgcHonhI6Ve]{Spellsapper Claw (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.vVu3dDb4CC1xE8GB]{Spellsapper Claw (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.8C39Tyf8RGqv5mVd"
+    },
+    {
+      "_id": "M2zYt3UnveFdXVZh",
+      "name": "Lure of the Shadowstalker (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/Lure of the Shadowstalker/Lure_of_the_Shadowstalker-v1.0.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.M2zYt3UnveFdXVZh"
+    },
+    {
+      "_id": "5Tb1G3pewTuNyRhQ",
+      "name": "Anglir Electrosensor (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Anglir Electrosensor (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.TpIbdB2U1YecMiQS",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bFAeAr2zzVpnqPZ1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0K0CoLQZYsOXahsO",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Teg2tz4pbVx74hQ5",
+                "name": "Anglir Lure",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "lure",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.5Tb1G3pewTuNyRhQ"
+    },
+    {
+      "_id": "HdFCkSPruyk6VR4L",
+      "name": "Feylight Sparkler (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Feylight Sparkler (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.BhMH76Hqpea0p78g",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8Hhk4JwjOD2MjAzM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5OWcnsRQT7iGVKj7",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.J51llILB2BS1neI3",
+                "name": "Pouch of Sparkling Dust",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dust",
+                  "sparkling",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.HdFCkSPruyk6VR4L"
+    },
+    {
+      "_id": "EbMOpT978rbbZb6L",
+      "name": "Feylight Sparkler (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Feylight Sparkler (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yzkx8DCXyLQeiHZs",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZPyMayDGcCilkenJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "DcqNZKj89eDEXbp0",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.J51llILB2BS1neI3",
+                "name": "Pouch of Sparkling Dust",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dust",
+                  "sparkling",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.EbMOpT978rbbZb6L"
+    },
+    {
+      "_id": "Txa7gxw0Ry3mYWiO",
+      "name": "Feylight Sparkler (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Feylight Sparkler (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.v0lU2Fto58CXxOxd",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "AxzRFlCvpI7Uc7Ly",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2xpx9kBpV0rM3eCX",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.J51llILB2BS1neI3",
+                "name": "Pouch of Sparkling Dust",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dust",
+                  "sparkling",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.Txa7gxw0Ry3mYWiO"
+    },
+    {
+      "_id": "8k8c9F1hVXPju3HG",
+      "name": "Feylight Sparkler (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Feylight Sparkler (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.gtEZTF4JIY7dRK4E",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "lYGEfo0BrbhUfdSx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HoHBDg8mW60873nD",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.J51llILB2BS1neI3",
+                "name": "Pouch of Sparkling Dust",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dust",
+                  "sparkling",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "monstrosity",
+        "rarity": "legendary",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.8k8c9F1hVXPju3HG"
+    },
+    {
+      "_id": "tKKIdE3NeV7Rw3gR",
+      "name": "Lightweight (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Lightweight (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WUIw7P8CJOuzT2x7",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "kakvTyHyu2HWqLdT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TW9NyFoKfSxwizxy",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Teg2tz4pbVx74hQ5",
+                "name": "Anglir Lure",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "lure",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.tKKIdE3NeV7Rw3gR"
+    },
+    {
+      "_id": "OoLx6eEbf3NxjeTg",
+      "name": "Lightweight (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Lightweight (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.oOCdb54lTB4k3ge8",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "p5IgE4M2SodwWsKO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fT1Y1RtHDRra7VgT",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Teg2tz4pbVx74hQ5",
+                "name": "Anglir Lure",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "lure",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.OoLx6eEbf3NxjeTg"
+    },
+    {
+      "_id": "CHAsLkUP1DzfWN3S",
+      "name": "Lightweight (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Lightweight (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.LTtTFqp0nbMaQPQX",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "UPxU5qBDt63E2OkV",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "wD2Tk7PK1gwH8til",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Teg2tz4pbVx74hQ5",
+                "name": "Anglir Lure",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "lure",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.CHAsLkUP1DzfWN3S"
+    },
+    {
+      "_id": "Pvmyc2tNUBaRRfkI",
+      "name": "Shadowwind Twinblade (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shadowwind Twinblade (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.oAys88b4A2jZNfCq",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "C3tXpFhSvs0cmNx0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "T1UkjmGF53Ftox7E",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.N3dlL0x9oMJ5KiNa",
+                "name": "Anglir Fin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fin",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.Pvmyc2tNUBaRRfkI"
+    },
+    {
+      "_id": "h1uEci2rUsDir8jm",
+      "name": "Shadowwind Twinblade (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shadowwind Twinblade (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.KMeDkCswDp74Pq60",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "p7hhigw977YvHCse",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pL59qf7b8SSlbbM9",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.N3dlL0x9oMJ5KiNa",
+                "name": "Anglir Fin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fin",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.h1uEci2rUsDir8jm"
+    },
+    {
+      "_id": "Wd0PqlwYKvDEq3Rm",
+      "name": "Shadowwind Twinblade (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shadowwind Twinblade (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.LM7l7CW0HGQ1nQ3U",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZcafHZdL78jP0NDc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2FlXwnqPmDIMvvoy",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.N3dlL0x9oMJ5KiNa",
+                "name": "Anglir Fin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fin",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.Wd0PqlwYKvDEq3Rm"
+    },
+    {
+      "_id": "tDWf1QntKOpidfBH",
+      "name": "Spellsapper Claw (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Spellsapper Claw (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.hzo1KWLT3x6PfpR6",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "FqaaIR35VEAUIckI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rYZcj9lGkFMryBKx",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2Uz70QYHaBLpsxp6",
+                "name": "Anglir Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "skin",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.tDWf1QntKOpidfBH"
+    },
+    {
+      "_id": "RkgR082W4qbgYvDd",
+      "name": "Spellsapper Claw (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Spellsapper Claw (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.y0VtEGgcHonhI6Ve",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6xRfDGkNJk7OD3iZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jJy4cs4ihteIC7Vk",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2Uz70QYHaBLpsxp6",
+                "name": "Anglir Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "skin",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.RkgR082W4qbgYvDd"
+    },
+    {
+      "_id": "ZCVhYWFmWC5dFZTX",
+      "name": "Spellsapper Claw (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Spellsapper Claw (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.vVu3dDb4CC1xE8GB",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ye2pYSP3r6DyC15l",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dKUZgzgl8DtTHrZN",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2Uz70QYHaBLpsxp6",
+                "name": "Anglir Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "skin",
+                  "anglir",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ccKPU3AZ374tVLNy.ZCVhYWFmWC5dFZTX"
+    }
+  ],
+  "folder": null,
+  "sort": 10800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

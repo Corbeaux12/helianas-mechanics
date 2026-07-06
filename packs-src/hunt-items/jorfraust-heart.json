@@ -1,0 +1,45 @@
+{
+  "_id": "j45KO3QMD6r8EVCx",
+  "_key": "!items!j45KO3QMD6r8EVCx",
+  "name": "Jorfraust Heart",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a bloodfrost of the fey (fey). See Bloodfrost of the Fey (Loot Tavern hunt, APL 4/8/12).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 70,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "heart",
+        "jorfraust",
+        "fey"
+      ]
+    }
+  }
+}

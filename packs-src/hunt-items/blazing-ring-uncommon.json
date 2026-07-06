@@ -1,0 +1,37 @@
+{
+  "_id": "tyS47eGnEmUrY5ow",
+  "_key": "!items!tyS47eGnEmUrY5ow",
+  "name": "Blazing Ring (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Ring, uncommon</em></p><p><strong>Component:</strong> Elemental (blaze) volatile mote of fire</p><p>Everyone knows the saying \"no pain, no gain\". Fewer are familiar with some of the alternative versions that are popular across the Timespun Sands, such as \"no flame, no fame\", or \"no burning, no earning\", but they hold just as true.</p><p>This ring can hold a maximum of 15 charges. As a bonus action while wearing the ring, you can take 1 fire damage, which can't be reduced or prevented in any way, and the ring gains 1 charge if it has less than 15.</p><p><strong>Flaming Discharge.</strong> When you hit a target with a weapon attack while wearing this ring, you can expend all of the ring's charges to deal extra fire damage equal to the number of charges expended. Once this property of the ring has been used, it can't be used again until the next dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

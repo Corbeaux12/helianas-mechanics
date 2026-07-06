@@ -1,0 +1,37 @@
+{
+  "_id": "BhMH76Hqpea0p78g",
+  "_key": "!items!BhMH76Hqpea0p78g",
+  "name": "Feylight Sparkler (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare / legendary (consumable)</em></p><p><strong>Component:</strong> Pouch of Fey (sparkling) dust</p><p>A favourite of mischievous Fey children, these small explosives are used to startle unsuspecting mortals for a good laugh. The painful electrical discharge is very much intentional — it makes the prank funnier!</p><p><strong>Electrifying Light Show.</strong> As an action, you can activate this item and toss it to a point up to 30 feet away, causing it to explode in a 10-foot-radius sphere of electricity centred on that point. This destroys the item. Each creature in the area must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, or half as much damage on a successful one. In addition, the sphere is filled with bright light and sheds dim light to a distance equal to the sphere's radius until the start of your next turn. This light counts as having been produced by a spell of 2nd level.</p><p><strong>Rare variant:</strong> Increase the DC to 15, the damage to 8d6, and the radius of the sphere to 15 feet (3rd-level light).</p><p><strong>Very rare variant:</strong> Increase the DC to 16, the damage to 10d6, and the radius of the sphere to 20 feet (4th-level light).</p><p><strong>Legendary variant:</strong> Increase the DC to 17, the damage to 12d6, and the radius of the sphere to 25 feet (5th-level light).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 230,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

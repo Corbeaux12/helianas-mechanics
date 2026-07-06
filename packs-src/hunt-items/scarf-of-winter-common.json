@@ -1,0 +1,37 @@
+{
+  "_id": "QmlJRYUbguxatRSe",
+  "_key": "!items!QmlJRYUbguxatRSe",
+  "name": "Scarf of Winter (Common)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common (socketable)</em></p><p><strong>Component:</strong> fey (Jorfraust) mane</p><p>In windy weather, the crystals dangling from this scarf chime softly, producing a sombre yet peaceful winter tune that evokes images of delicate snowflakes colliding against one another during a gentle snowfall. After the crystals have shattered, the absence of their song can be somewhat off-putting.</p><p>You can socket this scarf onto the chestpiece of a suit of armour. While wearing that armour, you ignore the effects of extreme cold.</p><p><strong>Frost Overload.</strong> When you take cold damage, you can use your reaction to reduce it by 2d4, as the small ice crystals serving as the scarf's tassels absorb some of the energy. The crystals are then overloaded and shatter, and this property of the scarf can't be used again until the next dawn, when the crystals form once more.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "attunement": "",
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

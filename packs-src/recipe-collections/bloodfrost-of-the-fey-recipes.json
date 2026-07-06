@@ -1,0 +1,608 @@
+{
+  "_id": "L004MJfPt1QJL8GJ",
+  "_key": "!journal!L004MJfPt1QJL8GJ",
+  "name": "Bloodfrost of the Fey Recipes",
+  "pages": [
+    {
+      "_id": "pW74lbtM1j70G7LZ",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Bloodfrost of the Fey (Loot Tavern hunt, APL 4/8/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Mane (1)</td></tr><tr><td>10</td><td>Pouch of claws (4)</td></tr><tr><td>15</td><td>Heart (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.0J7BWjbYRXP3PJwz]{Gelid Hunter (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.kV8KmU5AXU4jBoxW]{Gelid Hunter (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WVvDCNp3yuzr16G1]{Gelid Hunter (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.3Tds131ukN2xkUcv]{Huntsman's Goggles (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.vw6SieYqWNmzOg4X]{Huntsman's Goggles (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.rjFV6Vsi4ADW7P28]{Huntsman's Goggles (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.QmlJRYUbguxatRSe]{Scarf of Winter (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Yv6TRSNKXKmvkvDW]{Willbow (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yaOr4XYirWzO4XsV]{Willbow (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.8MMIWIGBUxNtq6NS]{Willbow (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.pW74lbtM1j70G7LZ"
+    },
+    {
+      "_id": "0gt6RKEao5GLcIZV",
+      "name": "Bloodfrost of the Fey (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/Bloodfrost of the Fey/Bloodfrost_of_the_Fey - v1.2.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.0gt6RKEao5GLcIZV"
+    },
+    {
+      "_id": "0WKNQlHw6WYJKrBT",
+      "name": "Gelid Hunter (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gelid Hunter (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.0J7BWjbYRXP3PJwz",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bm2fh519wtl4EvlV",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Q5lmG8EnGa2f67X2",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2yD0qRjJc4P23vYA",
+                "name": "Pouch of Jorfraust Claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "claws",
+                  "jorfraust",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.0WKNQlHw6WYJKrBT"
+    },
+    {
+      "_id": "Pt2M4caDZIc5qeXd",
+      "name": "Gelid Hunter (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gelid Hunter (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.kV8KmU5AXU4jBoxW",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4nntfFU1kiM5BMTP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KPPCrcY1TXU6NQ5s",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2yD0qRjJc4P23vYA",
+                "name": "Pouch of Jorfraust Claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "claws",
+                  "jorfraust",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.Pt2M4caDZIc5qeXd"
+    },
+    {
+      "_id": "87vF43EYYD3qPPos",
+      "name": "Gelid Hunter (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gelid Hunter (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WVvDCNp3yuzr16G1",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8EBYG3UuIgKzoqAT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "EY9FTy3R7Msgqx9L",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.2yD0qRjJc4P23vYA",
+                "name": "Pouch of Jorfraust Claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "claws",
+                  "jorfraust",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.87vF43EYYD3qPPos"
+    },
+    {
+      "_id": "9UPwStaA7dBoy80u",
+      "name": "Huntsman's Goggles (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Huntsman's Goggles (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.3Tds131ukN2xkUcv",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WcaUisGoY3G60xuc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "X9SZvihuW0PKsWhE",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.j45KO3QMD6r8EVCx",
+                "name": "Jorfraust Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "jorfraust",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.9UPwStaA7dBoy80u"
+    },
+    {
+      "_id": "ccNPXAwwJWN6SPzb",
+      "name": "Huntsman's Goggles (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Huntsman's Goggles (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.vw6SieYqWNmzOg4X",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6vaKg6uqNBNRDwZW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q0BpjhvgqRQlCn38",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.j45KO3QMD6r8EVCx",
+                "name": "Jorfraust Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "jorfraust",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.ccNPXAwwJWN6SPzb"
+    },
+    {
+      "_id": "F3ubUFZ3eOJ8i5eB",
+      "name": "Huntsman's Goggles (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Huntsman's Goggles (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.rjFV6Vsi4ADW7P28",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KZxXHPlF8J5f7U3o",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6wxvws9CeWZNDkV7",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.j45KO3QMD6r8EVCx",
+                "name": "Jorfraust Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "jorfraust",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.F3ubUFZ3eOJ8i5eB"
+    },
+    {
+      "_id": "a3mVSO13p3DGp9Vt",
+      "name": "Scarf of Winter (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Scarf of Winter (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.QmlJRYUbguxatRSe",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "omtUJJDgB2WJJDvc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JMAGFChWpsfnXQ4O",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.jA5o6Qzgfcf2f79C",
+                "name": "Jorfraust Mane",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "mane",
+                  "jorfraust",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "fey",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.a3mVSO13p3DGp9Vt"
+    },
+    {
+      "_id": "OVnpxVP1WLbyfSKJ",
+      "name": "Willbow (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Willbow (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Yv6TRSNKXKmvkvDW",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8z5ouvMtSOT7sJaV",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "H0UYXAmSH0h93ins",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undead",
+                  "ethereal",
+                  "ichor"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.OVnpxVP1WLbyfSKJ"
+    },
+    {
+      "_id": "yH4r1IzsMmzfibTh",
+      "name": "Willbow (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Willbow (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yaOr4XYirWzO4XsV",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2670SKAzuC8mtSdr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vsc775tQHjsY7yTj",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undead",
+                  "ethereal",
+                  "ichor"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.yH4r1IzsMmzfibTh"
+    },
+    {
+      "_id": "UL0zSYOm3lwhNKSf",
+      "name": "Willbow (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Willbow (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.8MMIWIGBUxNtq6NS",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "VH7Atd5A9oLg3703",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2hma0wIZ1y2b4ZJz",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1REcsIBcwg1YbhMX",
+                "name": "Undead Ethereal Ichor",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undead",
+                  "ethereal",
+                  "ichor"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!L004MJfPt1QJL8GJ.UL0zSYOm3lwhNKSf"
+    }
+  ],
+  "folder": null,
+  "sort": 10200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

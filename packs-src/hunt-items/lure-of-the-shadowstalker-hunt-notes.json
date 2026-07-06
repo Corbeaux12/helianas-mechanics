@@ -1,0 +1,42 @@
+{
+  "_id": "H1SiiNxJyOqkzwLy",
+  "_key": "!items!H1SiiNxJyOqkzwLy",
+  "name": "Lure of the Shadowstalker Hunt Notes",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Field notes on hunting and harvesting the lure of the shadowstalker, with crafting recipes for its unique items.</p><p>Source: Lure of the Shadowstalker (Loot Tavern hunt, APL 4/8/12)</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "isRecipeBook": true,
+      "recipeBookJournalUuid": "Compendium.helianas-mechanics.recipe-collections.JournalEntry.ccKPU3AZ374tVLNy"
+    }
+  }
+}

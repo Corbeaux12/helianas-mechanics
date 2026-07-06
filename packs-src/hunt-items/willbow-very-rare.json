@@ -1,0 +1,37 @@
+{
+  "_id": "8MMIWIGBUxNtq6NS",
+  "_key": "!items!8MMIWIGBUxNtq6NS",
+  "name": "Willbow (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any bow), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> undead (will-o'-wisp) ethereal ichor</p><p>Grown in fey soil, these wrought-iron bows are used by unseelie fey in conflicts against their seelie cousins. Turquoise fruit sprouts from the metallic branches — bulbs of liquid fire ripe to erupt and scour the ground for a new generation of growth.</p><p>This bow has 3 charges and regains all expended charges daily at dawn.</p><p>The first attack you make with this bow on each of your turns wreathes the arrow in blue flame and deals an extra 1d4 fire damage on a hit.</p><p><strong>Unseelie Lights.</strong> As a bonus action while carrying this bow, you can expend 1 charge to imbue your next attack with it with the ghostly light from the bow's bulbs. If you hit a creature with it, that creature must succeed on a DC 13 Constitution saving throw or come under the effects of the <em>faerie fire</em> spell for 1 minute. A creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the charges to 4. All arrows fired from this bow deal an extra 1d4 fire damage, instead of only the first one each of your turns.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the charges to 4. All arrows fired from this bow deal an extra 1d4 fire damage, instead of only the first one each of your turns. Attacks made with this bow automatically hit creatures under the effect of the Unseelie Lights property.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 9000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

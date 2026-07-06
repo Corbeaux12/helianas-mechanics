@@ -1,0 +1,88 @@
+{
+  "name": "Flames of the Faithful",
+  "source": "Flames of the Faithful (Loot Tavern hunt, APL 4/8/12)",
+  "creatureType": "elemental",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/Flames of the Faithful/Flames of the Faithful - Version 1.3 PAGES.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Molten eye (2)"] },
+    { "dc": 15, "components": ["Volatile mote of wax (3, volatile/edible)"] },
+    { "dc": 20, "components": ["Candleplume (1)"] },
+    { "dc": 25, "components": ["Core of wax (1, volatile)"] }
+  ],
+  "components": [
+    { "name": "Pontiff Molten Eye",          "tags": ["eye", "pontiff", "elemental"],  "price": 15 },
+    { "name": "Volatile Mote of Pontiff Wax", "tags": ["mote", "wax", "pontiff", "elemental"], "price": 70 },
+    { "name": "Pontiff Candleplume",          "tags": ["candleplume", "pontiff", "elemental"], "price": 110 },
+    { "name": "Core of Pontiff Wax",          "tags": ["core", "wax", "pontiff", "elemental"], "price": 160 }
+  ],
+  "items": [
+    {
+      "name": "Candlebrand Ring",
+      "itemType": "equipment",
+      "kind": "Ring",
+      "components": ["Pontiff Molten Eye", "Volatile Mote of Pontiff Wax"],
+      "baseRecipe": "Ring",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 400 },
+        { "rarity": "rare",      "value": 1400 },
+        { "rarity": "very rare", "value": 6500 }
+      ],
+      "description": "<p><em>Ring, uncommon / rare / very rare</em></p><p><strong>Component:</strong> elemental (pontiff) molten eye, elemental (pontiff) volatile mote of wax</p><p>With a word, this two-finger signet ring becomes incandescent with the heat of the waxen god's ire. Its brand can bless a creature or, if the brand is twisted and distorted in the process of being applied, curse the creature.</p><p>This ring has 3 charges and regains 1d3 expended charges daily at dawn. As a bonus action while wearing the ring, you can speak the ring's command word, causing the waxen god's emblem to become searing hot until you remove it, or until you use a bonus action to repeat its command word and deactivate it.</p><p><strong>Brand of Protection.</strong> While the ring is heated, you can use a bonus action to touch it to a willing creature within your reach and expend 1 charge. The target takes 1d4 fire damage and gains the benefits of the <em>shield of faith</em> spell for 10 minutes (no concentration required).</p><p><strong>Brand of Castigation.</strong> While the ring is heated, you can use an action to make a melee spell attack (+7 to hit) against a creature within 5 feet of you and expend 1 charge. On a hit, the creature takes 2d4 fire damage and is cursed for 1 minute. While cursed in this way, its AC is reduced by 2. The creature can make a DC 15 Charisma saving throw at the end of each of its turns, ending the curse on a success.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13 and the attack modifier to +5. You must concentrate on the effects of the brands, as if on a spell.</p><p><strong>Very rare variant:</strong> Increase the charges to 5, the recharge to 1d4 + 1, the DC to 16, and the attack modifier to +8.</p>"
+    },
+    {
+      "name": "Candlelight Mitre",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Pontiff Candleplume",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 900 },
+        { "rarity": "rare",      "value": 3500 },
+        { "rarity": "very rare", "value": 13000 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> elemental (pontiff) candleplume</p><p>Fanatical to the extreme, the ruthless Priests of Candlelight display the uncaring visage of their waxen god on this intricate ceremonial hat. Their Creed Sanitari dictates that such acolytes must sear their flesh daily to remain pure and worthy of their deity's attention.</p><p>This hat has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Cleanse the Sins.</strong> While wearing the hat, you can use a bonus action to expend 1 charge and light a searing flame at the top of it. For 1 minute or until you use a bonus action to put it out, this flame casts bright light in a 15-foot radius and dim light for an additional 15 feet. At the end of each of your turns while this effect is active, each creature in the flame's bright light (including you) must succeed on a DC 15 Constitution saving throw or take 3d6 fire damage.</p><p><strong>Burn the Lies.</strong> While wearing the hat, you can use an action to expend 1 charge and cause two orbs of flame to form in the mitre's eyes, taking 2d6 fire damage in the process. This effect lasts for 1 minute or until you use a bonus action to end it. While the mask's eyes are ablaze, you have advantage on Intimidation and Insight checks, and you can see invisible creatures and objects and automatically pierce through visual illusions.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13 and the damage to 2d6. The Burn the Lies property requires 2 charges to use.</p><p><strong>Very rare variant:</strong> Increase the DC to 16, the charges to 6, and the recharge to 1d6.</p>"
+    },
+    {
+      "name": "Waxen Sceptre",
+      "itemType": "equipment",
+      "kind": "Rod, staff, or wand",
+      "component": "Core of Pontiff Wax",
+      "baseRecipe": "Rod",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 950 },
+        { "rarity": "rare",      "value": 3000 },
+        { "rarity": "very rare", "value": 13500 }
+      ],
+      "description": "<p><em>Rod, staff, or wand, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> elemental (pontiff) core of wax</p><p>Sinister yet holy, the waxen god blesses those who endure their molten ministrations, restoring their fortitude, protecting their skin, and purifying their words. When lit, the candlesmoke of this sceptre carries the subtle, sweet scent of charred flesh while its tendrils form the screaming visages of those it has blessed.</p><p>This item has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Wax On.</strong> As an action while holding this item, you can expend 1 charge to drop some wax from one of its candles on a willing creature within 5 feet of you. The effects of this wax depend on the colour of the candle you choose.</p><ul><li><strong>White.</strong> The wax of this cleansing candle seeps into the skin to purify the body. The creature gains the benefits of the <em>lesser restoration</em> spell.</li><li><strong>Orange.</strong> The wax of this warding candle expands to form a protective layer over the creature. The creature gains the benefits of the <em>barkskin</em> spell for 10 minutes (no concentration required).</li><li><strong>Red.</strong> The wax of this overbearing candle forms a barrier over the creature's mouth, preventing it from telling any lies but letting the truth pass. The creature is under the effects of the <em>zone of truth</em> spell for 10 minutes.</li></ul><p><strong>Uncommon variant:</strong> The item has no charges. Instead, after the wax from a candle has been used, that candle can't be used again until the next dawn. Dropping wax on a creature deals 1d10 fire damage to it in addition to its other effects.</p><p><strong>Very rare variant:</strong> Increase the charges to 6 and the recharge to 1d4 + 2. The item has the Living Candle property.</p><p><strong>Living Candle.</strong> As an action while holding this item, you can expend 2 charges to cast the <em>living candle</em> spell (save DC 16; see Appendix B of Flames of the Faithful).</p>"
+    },
+    {
+      "name": "Arcanowax",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "components": ["Celestial Fat", "Fey Fat", "Fiend Fat", "Undead Rancid Fat"],
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 400 },
+        { "rarity": "rare",     "value": 2000 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare</em></p><p><strong>Component:</strong> celestial, fey, fiend, and undead fat</p><p>It's always reassuring to enter hostile territory with an arcanowax candle lit and actively preventing assault by extraplanar entities. However, due to the cripplingly expensive reagents required to make such a candle — namely oils from celestials, fey, fiends, and undead — the Bureau keeps these under tight wraps.</p><p>When found, an arcanowax candle has 2d4 + 1 charges.</p><p><strong>Arcanowax Circle.</strong> As an action, you can light the candle, expending 1 charge and causing it to shed bright light in a 10-foot-radius, 20-foot-tall cylinder for 1 minute. The area of the light replicates the effects of the <em>magic circle</em> spell, except it can't affect elementals. If the candle is moved in such a way that would result in one of those creatures entering the area of the light, the candle is snuffed out.</p><p>A creature can use its action to snuff out a candle within its reach that isn't being held by another creature. If the candle is held by another creature, the creature trying to snuff out the candle must succeed on its choice of a Strength (Athletics) or Dexterity (Sleight of Hand) check contested by the holding creature's choice of Strength (Athletics) or Dexterity (Acrobatics). The candle's effects end immediately when the candle is snuffed out.</p><p><strong>Uncommon variant:</strong> The candle is made of a cheap, fast-burning wax and the fat of only one creature type. Reduce the charges to 1d4 + 1. When lit, the candle affects only the creature type whose fat was used to craft it (roll 1d4 if found: 1 Celestial, 2 Fey, 3 Fiend, 4 Undead).</p>"
+    },
+    {
+      "name": "Bloodwax",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Fiend Fat",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 350 },
+        { "rarity": "rare",     "value": 1500 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare</em></p><p><strong>Component:</strong> fiend fat</p><p>Even unlit, this candle emits an overpowering scent of sulphur and rust, which only grows more intense as the crimson wax melts under a steady flame. Its magical properties far outweigh its foul odour, however, and even the steep price one must pay in blood to use it.</p><p><strong>Blood Trail.</strong> As an action, you can add one drop of a creature's blood to the candle, causing it to imprint on that creature. Once a bloodwax candle has imprinted on a creature, it can't imprint on another. You can then light the candle as an action, taking 2d8 necrotic damage as your blood is drawn from your body to form a ghastly red trail in the air, leading directly to the creature the candle has imprinted on. For every 10 minutes that the candle remains lit, it deals another 2d8 necrotic damage to the creature who lit it. This damage can't be reduced or prevented in any way.</p><p>Once the candle has burnt for 1 hour in total, its wax is depleted and can't be used again. Each time the candle is lit and extinguished, a minimum of 10 minutes' worth of wax is consumed.</p><p>The trail is undisturbed by wind of any strength and can't pass through solid objects, but will navigate through holes as small as 1 inch in diameter. If all paths to the creature are blocked by solid objects, the trail ends as close to the creature as possible. The candle can't distinguish between identical twins or clones, and will instead create a trail to each. If the creature is on another plane, the pall of red smoke listlessly hangs in the air.</p><p><strong>Rare variant:</strong> While the candle is burning, you also gain the following information about the creature it's imprinted on: its current emotional state; whether it has fewer than all, three-quarters, one-half, or one-quarter of its hit points; how many spell slots it has left, if any; and whether it's under the effect of a spell, and which one.</p>"
+    }
+  ]
+}

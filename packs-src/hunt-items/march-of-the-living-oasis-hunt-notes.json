@@ -1,0 +1,42 @@
+{
+  "_id": "6N0kqnV6RqC0SiUQ",
+  "_key": "!items!6N0kqnV6RqC0SiUQ",
+  "name": "March of the Living Oasis Hunt Notes",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Field notes on hunting and harvesting the march of the living oasis, with crafting recipes for its unique items.</p><p>Source: March of the Living Oasis (Loot Tavern hunt, APL 4/8/12)</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "isRecipeBook": true,
+      "recipeBookJournalUuid": "Compendium.helianas-mechanics.recipe-collections.JournalEntry.MIGWFO8xxBPPZr6H"
+    }
+  }
+}

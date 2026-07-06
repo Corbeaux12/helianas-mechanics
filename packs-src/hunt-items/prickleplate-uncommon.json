@@ -1,0 +1,37 @@
+{
+  "_id": "q3V04L2ZTq1ifm1J",
+  "_key": "!items!q3V04L2ZTq1ifm1J",
+  "name": "Prickleplate (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (light, medium, or heavy), uncommon / rare / very rare (optional attunement)</em></p><p><strong>Component:</strong> Plant (dunedrinker) thornrib</p><p>\"Mess with the cactus, you get the thorns.\" — Cactari proverb</p><p><strong>Thorny Troubles.</strong> When a creature within 5 feet of you hits you with a melee attack while you're wearing this armour, that creature takes 1d8 piercing damage. Once this damage has been dealt, it can't be dealt again until the start of your next turn. In addition, whenever a creature fails on an ability check to avoid or escape being grappled by you, it takes 1d8 piercing damage, and when you fail an ability check to avoid or escape being grappled by another creature, that creature takes 1d8 piercing damage.</p><p><strong>Optional Attunement.</strong> If you choose to attune to this item, you can use the Needle Burst property while you remain attuned to it.</p><p><strong>OA: Needle Burst.</strong> As an action, you can expel all the needles on the armour at once in an explosive burst. Each creature within 10 feet of you must make a DC 15 Dexterity saving throw, taking 6d8 piercing damage on a failed save, or half as much damage on a successful one. Once this property has been used, it can't be used again until the next dawn, and the Thorny Troubles property doesn't function until you use an action to cause the needles to regrow.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13, each instance of damage of the Thorny Troubles property to 1d4, and the damage of the Needle Burst property to 4d8.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and each instance of damage of the Thorny Troubles property to 1d10. You gain a +1 bonus to AC while wearing this armour.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 710,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

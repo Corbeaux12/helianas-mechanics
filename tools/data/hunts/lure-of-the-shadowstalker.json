@@ -1,0 +1,90 @@
+{
+  "name": "Lure of the Shadowstalker",
+  "source": "Lure of the Shadowstalker (Loot Tavern hunt, APL 4/8/12)",
+  "creatureType": "monstrosity",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/Lure of the Shadowstalker/Lure_of_the_Shadowstalker-v1.0.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Sapslime (∞)"] },
+    { "dc": 10, "components": ["Fin (10)"] },
+    { "dc": 15, "components": ["Lure (6, one pre-separated)"] },
+    { "dc": 20, "components": ["Skin (1)"] }
+  ],
+  "components": [
+    { "name": "Anglir Sapslime",          "tags": ["sapslime", "fat", "anglir", "monstrosity"], "price": 15 },
+    { "name": "Anglir Fin",               "tags": ["fin", "anglir", "monstrosity"],             "price": 40 },
+    { "name": "Anglir Lure",              "tags": ["lure", "anglir", "monstrosity"],            "price": 70 },
+    { "name": "Anglir Skin",              "tags": ["skin", "anglir", "monstrosity"],            "price": 110 },
+    { "name": "Pouch of Sparkling Dust",  "tags": ["dust", "sparkling", "fey"],                 "price": 40 }
+  ],
+  "items": [
+    {
+      "name": "Anglir Electrosensor",
+      "itemType": "equipment",
+      "kind": "Wondrous item (socketable)",
+      "component": "Anglir Lure",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 300 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon (socketable)</em></p><p><strong>Component:</strong> Monstrosity (anglir) lure</p><p>\"I sense a spark! Did someone just have a brilliant idea or are we about to get ambushed by a blue dragon again?\" — Rod Heel, unfortunate adventurer.</p><p>This item can be socketed on a helmet, hat, or other piece of headwear.</p><p><strong>Electrosensitivity.</strong> As an action while wearing the socketed headwear, you can gain blindsight out to 10 feet for 1 minute. For the duration, you have vulnerability to lightning damage, and if you take lightning damage, you lose the blindsight until the end of your next turn. Once this property of the item has been used, it can't be used again until the next dawn.</p>"
+    },
+    {
+      "name": "Feylight Sparkler",
+      "itemType": "consumable",
+      "kind": "Wondrous item (consumable)",
+      "component": "Pouch of Sparkling Dust",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 230 },
+        { "rarity": "rare",      "value": 960 },
+        { "rarity": "very rare", "value": 5010 },
+        { "rarity": "legendary", "value": 21420 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare / legendary (consumable)</em></p><p><strong>Component:</strong> Pouch of Fey (sparkling) dust</p><p>A favourite of mischievous Fey children, these small explosives are used to startle unsuspecting mortals for a good laugh. The painful electrical discharge is very much intentional — it makes the prank funnier!</p><p><strong>Electrifying Light Show.</strong> As an action, you can activate this item and toss it to a point up to 30 feet away, causing it to explode in a 10-foot-radius sphere of electricity centred on that point. This destroys the item. Each creature in the area must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, or half as much damage on a successful one. In addition, the sphere is filled with bright light and sheds dim light to a distance equal to the sphere's radius until the start of your next turn. This light counts as having been produced by a spell of 2nd level.</p><p><strong>Rare variant:</strong> Increase the DC to 15, the damage to 8d6, and the radius of the sphere to 15 feet (3rd-level light).</p><p><strong>Very rare variant:</strong> Increase the DC to 16, the damage to 10d6, and the radius of the sphere to 20 feet (4th-level light).</p><p><strong>Legendary variant:</strong> Increase the DC to 17, the damage to 12d6, and the radius of the sphere to 25 feet (5th-level light).</p>"
+    },
+    {
+      "name": "Lightweight",
+      "itemType": "weapon",
+      "kind": "Weapon (any hammer)",
+      "component": "Anglir Lure",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 3640 },
+        { "rarity": "rare",      "value": 12180 },
+        { "rarity": "very rare", "value": 74620 }
+      ],
+      "description": "<p><em>Weapon (any hammer), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (anglir) lure</p><p>Wielders of these squamous weapons tend to light up the room with their brilliant personalities and dazzling charm. Radiating confidence in everything they do, they can draw people in like moths to a flame just by flashing a smile. It's a little odd how they lose a little of that luster when the mace isn't with them, though...</p><p>This weapon can be used as a spellcasting focus. It has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Beguiling Light.</strong> While holding this weapon, you can use a bonus action to cause it to emit bright light in a 10-foot radius and dim light for an additional 10 feet until you let go of the weapon or use a bonus action to extinguish the light. Creatures within the mace's bright light have disadvantage on saving throws against being charmed.</p><p><strong>Spells.</strong> While holding this weapon, you can cast the <em>dancing lights</em> spell. In addition, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 15): <em>daylight</em> (3 charges), <em>flash</em>* (1 charge), <em>hypnotic pattern</em> (3 charges), or <em>lure</em>* (1 charge).</p><p><strong>Very rare variant:</strong> Increase the charges to 5 and the recharge to 1d4 + 1. Add <em>dominate person</em> (5 charges) to the Spells property's list. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><strong>Legendary variant:</strong> Increase the charges to 8 and the recharge to 1d4 + 4. Add <em>dominate person</em> (5 charges) and <em>dominate monster</em> (8 charges) to the Spells property's list. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p><p>*See Appendix B of Lure of the Shadowstalker.</p>"
+    },
+    {
+      "name": "Shadowwind Twinblade",
+      "itemType": "weapon",
+      "kind": "Weapon (twinblade)",
+      "component": "Anglir Fin",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 380 },
+        { "rarity": "rare",      "value": 1590 },
+        { "rarity": "very rare", "value": 8680 }
+      ],
+      "description": "<p><em>Weapon (twinblade), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity (anglir) fin</p><p>The most prestigious institutions of arcane learning teach that shadow is neither matter nor energy. It can't be touched, sensed, or harnessed, for it is nothing more than the mere absence of light. How do you explain this, then?</p><p><strong>Shadowwind.</strong> As an action while holding this weapon, you can cast the <em>darkness</em> spell. For the duration of the spell, you can produce a gentle gust of wind whenever you use the twinblade's Special: Whirl property while within 10 feet of the area of darkness, moving that area up to 30 feet in any direction. If the spell was cast on an object, the darkness stops emanating from that object when moved in this way, and acts as if you'd cast it on a point of your choice instead. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> You gain a +1 bonus to attack and damage rolls made with this weapon.</p><p><strong>Very rare variant:</strong> You gain a +1 bonus to attack and damage rolls made with this weapon. The weapon has the Draining Darkness property.</p><p><strong>Draining Darkness.</strong> When a creature capable of casting one or more spells starts its turn in the area of darkness created by the Shadowwind property, it must make a DC 16 saving throw using its spellcasting ability. On a failed save, that creature loses one of its highest-level spell slots of 3rd level or lower, or it loses one daily use of a random spell of 3rd level or lower. That magic is stored in the darkness itself, and while the darkness contains stored magic, creatures automatically succeed on the saving throw against this property. When the <em>darkness</em> spell ends, you absorb the magic it contained and regain an expended spell slot of equal level to the spell slot or spell that was stored within. Alternatively, you can use a reaction when the spell ends to redirect the magic to another creature within 10 feet of you, causing it to regain the spell slot instead.</p>"
+    },
+    {
+      "name": "Spellsapper Claw",
+      "itemType": "equipment",
+      "kind": "Prosthesis",
+      "component": "Anglir Skin",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 750 },
+        { "rarity": "rare",      "value": 2570 },
+        { "rarity": "very rare", "value": 11530 }
+      ],
+      "description": "<p><em>Prosthesis, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (anglir) skin</p><p>While it may be unpleasant to look at and eerily cold to the touch, the viscous slime coating this prosthesis won't harm you. Unless you can cast spells, that is. Then it will. Horribly.</p><p>As a bonus action, you can cause this prosthesis to emit dim light in a 10-foot radius or extinguish the light.</p><p><strong>Prosthesis Properties.</strong> This prosthesis can enhance or replace an arm. It has the Melee (1d6 slashing, Pugilist) property and the Hamstring Superior Strike.</p><p><strong>Arcanovore.</strong> You have advantage on ability checks made to grapple creatures capable of casting one or more spells using this prosthesis, and while grappling one, you can use an action to drain some of its magical power. The creature loses a 1st-level spell slot, or it loses one daily use of a random 1st-level spell. This magic is stored in the prosthesis, and while it contains stored magic, it can't be used to drain more. As an action while the prosthesis contains stored magic, you can touch a creature with it and expend the stored magic, causing the creature to regain an expended spell slot of equal level to the spell slot or spell that was stored within. Once this property has been used, roll a d6. On a roll of 2 or lower, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the maximum level of spell slots and spells that the prosthesis can drain to 2nd level.</p><p><strong>Very rare variant:</strong> Increase the maximum level of spell slots and spells that the prosthesis can drain to 2nd level, and the d6 to a d8. You gain a +1 bonus to attack and damage rolls made with this prosthesis.</p>"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "vVu3dDb4CC1xE8GB",
+  "_key": "!items!vVu3dDb4CC1xE8GB",
+  "name": "Spellsapper Claw (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Prosthesis, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (anglir) skin</p><p>While it may be unpleasant to look at and eerily cold to the touch, the viscous slime coating this prosthesis won't harm you. Unless you can cast spells, that is. Then it will. Horribly.</p><p>As a bonus action, you can cause this prosthesis to emit dim light in a 10-foot radius or extinguish the light.</p><p><strong>Prosthesis Properties.</strong> This prosthesis can enhance or replace an arm. It has the Melee (1d6 slashing, Pugilist) property and the Hamstring Superior Strike.</p><p><strong>Arcanovore.</strong> You have advantage on ability checks made to grapple creatures capable of casting one or more spells using this prosthesis, and while grappling one, you can use an action to drain some of its magical power. The creature loses a 1st-level spell slot, or it loses one daily use of a random 1st-level spell. This magic is stored in the prosthesis, and while it contains stored magic, it can't be used to drain more. As an action while the prosthesis contains stored magic, you can touch a creature with it and expend the stored magic, causing the creature to regain an expended spell slot of equal level to the spell slot or spell that was stored within. Once this property has been used, roll a d6. On a roll of 2 or lower, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the maximum level of spell slots and spells that the prosthesis can drain to 2nd level.</p><p><strong>Very rare variant:</strong> Increase the maximum level of spell slots and spells that the prosthesis can drain to 2nd level, and the d6 to a d8. You gain a +1 bonus to attack and damage rolls made with this prosthesis.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11530,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

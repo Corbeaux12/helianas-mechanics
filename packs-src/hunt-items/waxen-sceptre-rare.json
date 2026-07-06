@@ -1,0 +1,37 @@
+{
+  "_id": "K3xA7ap9qp0BRqPU",
+  "_key": "!items!K3xA7ap9qp0BRqPU",
+  "name": "Waxen Sceptre (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, staff, or wand, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> elemental (pontiff) core of wax</p><p>Sinister yet holy, the waxen god blesses those who endure their molten ministrations, restoring their fortitude, protecting their skin, and purifying their words. When lit, the candlesmoke of this sceptre carries the subtle, sweet scent of charred flesh while its tendrils form the screaming visages of those it has blessed.</p><p>This item has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Wax On.</strong> As an action while holding this item, you can expend 1 charge to drop some wax from one of its candles on a willing creature within 5 feet of you. The effects of this wax depend on the colour of the candle you choose.</p><ul><li><strong>White.</strong> The wax of this cleansing candle seeps into the skin to purify the body. The creature gains the benefits of the <em>lesser restoration</em> spell.</li><li><strong>Orange.</strong> The wax of this warding candle expands to form a protective layer over the creature. The creature gains the benefits of the <em>barkskin</em> spell for 10 minutes (no concentration required).</li><li><strong>Red.</strong> The wax of this overbearing candle forms a barrier over the creature's mouth, preventing it from telling any lies but letting the truth pass. The creature is under the effects of the <em>zone of truth</em> spell for 10 minutes.</li></ul><p><strong>Uncommon variant:</strong> The item has no charges. Instead, after the wax from a candle has been used, that candle can't be used again until the next dawn. Dropping wax on a creature deals 1d10 fire damage to it in addition to its other effects.</p><p><strong>Very rare variant:</strong> Increase the charges to 6 and the recharge to 1d4 + 2. The item has the Living Candle property.</p><p><strong>Living Candle.</strong> As an action while holding this item, you can expend 2 charges to cast the <em>living candle</em> spell (save DC 16; see Appendix B of Flames of the Faithful).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

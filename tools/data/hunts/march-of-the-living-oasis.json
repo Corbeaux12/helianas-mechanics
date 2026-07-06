@@ -1,0 +1,88 @@
+{
+  "name": "March of the Living Oasis",
+  "source": "March of the Living Oasis (Loot Tavern hunt, APL 4/8/12)",
+  "creatureType": "plant",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/March of the Living Oasis/March of the Living Oasis v1.1 - PAGES.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Phial of sap (10, edible)"] },
+    { "dc": 5, "components": ["Bundle of roots (10, edible)"] },
+    { "dc": 10, "components": ["Pouch of needles (20)"] },
+    { "dc": 15, "components": ["Pouch of pollen (5, volatile/edible)"] },
+    { "dc": 20, "components": ["Thornrib (2)"] }
+  ],
+  "components": [
+    { "name": "Phial of Dunedrinker Sap",     "tags": ["sap", "dunedrinker", "plant"],     "price": 15 },
+    { "name": "Bundle of Dunedrinker Roots",  "tags": ["roots", "dunedrinker", "plant"],   "price": 15 },
+    { "name": "Pouch of Dunedrinker Needles", "tags": ["needles", "dunedrinker", "plant"], "price": 40 },
+    { "name": "Pouch of Dunedrinker Pollen",  "tags": ["pollen", "dunedrinker", "plant"],  "price": 70 },
+    { "name": "Dunedrinker Thornrib",         "tags": ["thornrib", "dunedrinker", "plant"], "price": 110 }
+  ],
+  "items": [
+    {
+      "name": "Prickleplate",
+      "itemType": "equipment",
+      "kind": "Armour (light, medium, or heavy)",
+      "component": "Dunedrinker Thornrib",
+      "baseRecipe": "Leather Armor",
+      "attunement": "optional",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 710 },
+        { "rarity": "rare",      "value": 3090 },
+        { "rarity": "very rare", "value": 12250 }
+      ],
+      "description": "<p><em>Armour (light, medium, or heavy), uncommon / rare / very rare (optional attunement)</em></p><p><strong>Component:</strong> Plant (dunedrinker) thornrib</p><p>\"Mess with the cactus, you get the thorns.\" — Cactari proverb</p><p><strong>Thorny Troubles.</strong> When a creature within 5 feet of you hits you with a melee attack while you're wearing this armour, that creature takes 1d8 piercing damage. Once this damage has been dealt, it can't be dealt again until the start of your next turn. In addition, whenever a creature fails on an ability check to avoid or escape being grappled by you, it takes 1d8 piercing damage, and when you fail an ability check to avoid or escape being grappled by another creature, that creature takes 1d8 piercing damage.</p><p><strong>Optional Attunement.</strong> If you choose to attune to this item, you can use the Needle Burst property while you remain attuned to it.</p><p><strong>OA: Needle Burst.</strong> As an action, you can expel all the needles on the armour at once in an explosive burst. Each creature within 10 feet of you must make a DC 15 Dexterity saving throw, taking 6d8 piercing damage on a failed save, or half as much damage on a successful one. Once this property has been used, it can't be used again until the next dawn, and the Thorny Troubles property doesn't function until you use an action to cause the needles to regrow.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13, each instance of damage of the Thorny Troubles property to 1d4, and the damage of the Needle Burst property to 4d8.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and each instance of damage of the Thorny Troubles property to 1d10. You gain a +1 bonus to AC while wearing this armour.</p>"
+    },
+    {
+      "name": "Splinterstaff",
+      "itemType": "weapon",
+      "kind": "Staff",
+      "component": "Pouch of Dunedrinker Pollen",
+      "baseRecipe": "Staff",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 3280 },
+        { "rarity": "very rare", "value": 14600 },
+        { "rarity": "legendary", "value": 68330 }
+      ],
+      "description": "<p><em>Staff, rare / very rare / legendary (requires attunement by a spellcaster)</em></p><p><strong>Component:</strong> pouch of Plant (dunedrinker) pollen</p><p>Splinterstaves are typically wielded by cactari elders in defence of their nursing sites. Witnessing a different Humanoid in possession of one is often indicative of friendship with the cactari people, mastery over the desert, and remarkably calloused hands.</p><p>This staff has 8 charges and regains 1d4 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff bursts into a harmless cloud of pollen and is destroyed. You have resistance to poison damage while holding this staff.</p><p><strong>Spells.</strong> While holding this staff, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 16): <em>cloudkill</em> (5 charges), <em>hallucinogenic cloud</em>* (2 charges), <em>fog cloud</em> (1 charge), <em>gust of wind</em> (2 charges), or <em>stinking cloud</em> (3 charges). Whenever you use this property to cast a spell that produces a cloud, it's always centred on you and caused by a type of magical pollen expelled from the staff. You are immune to the effects of the <em>cloudkill</em>, <em>hallucinogenic cloud</em>, and <em>stinking cloud</em> spells cast from the staff.</p><p><strong>Rare variant:</strong> Reduce the DCs to 15. Remove the resistance to poison damage, and remove <em>cloudkill</em> from the Spells property's list of spells.</p><p><strong>Legendary variant:</strong> Increase the DCs to 17, the charges to 12, and the recharge to 1d8 + 4.</p><p>*See Appendix B of March of the Living Oasis.</p>"
+    },
+    {
+      "name": "The Needler",
+      "itemType": "weapon",
+      "kind": "Weapon (revolver or rifle)",
+      "component": "Pouch of Dunedrinker Needles",
+      "baseRecipe": "Magitech Firearm",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 450 },
+        { "rarity": "rare",      "value": 2110 },
+        { "rarity": "very rare", "value": 10110 }
+      ],
+      "description": "<p><em>Weapon (revolver or rifle), uncommon / rare / very rare</em></p><p><strong>Component:</strong> pouch of Plant (dunedrinker) needles</p><p>These firearms are crafted with deliberately sensitive triggers, to allow for maximum control over the amount of needles released with each shot. True masters are said to be capable of giving themselves a relaxing acupuncture session. Most people are far more likely to end up with an accidental lip piercing when they try to blow smoke from the barrel.</p><p>This weapon doesn't require ammunition. Instead, it fires its own needles, which it regrows when you reload it.</p><p><strong>Rapid Fire.</strong> When you take the Attack action while holding this weapon, you can replace one of the attacks with a rapid discharge of multiple needles against a creature within this weapon's normal range, forcing it to make a DC 13 Dexterity saving throw. On a failed save, the creature takes 4d8 piercing damage and is embedded with needles until the end of its next turn, at which point they fall off. When a creature embedded with needles takes bludgeoning damage, it takes an extra 2d8 piercing damage and loses the needles. On a successful save, a creature takes half as much initial damage and isn't embedded with needles. Once this property of the weapon has been used, it can't be used again until the next dawn, and the weapon must be reloaded before it can be used to make more attacks.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the initial damage of the Rapid Fire property to 6d8. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the damage of the Rapid Fire property to 6d8 and 4d8, respectively. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>"
+    },
+    {
+      "name": "Refined Dunedust",
+      "itemType": "consumable",
+      "kind": "Wondrous item (consumable)",
+      "component": "Pouch of Dunedrinker Pollen",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 300 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> pouch of Plant (dunedrinker) pollen</p><p>Aside from a dunedrinker's pollen, other ingredients of this unique mixture include brain devourer cerebrospinal fluid, hallucinogenic toad venom, and just a hint of shaved truffle for an earthy aftertaste. It's an experience you won't soon forget!</p><p><strong>Impenetrable Mind.</strong> You can smoke a dose of refined dunedust over the course of 1 minute, sending you into a mild psychedelic state that fortifies your mind against intrusion but tricks your senses. For 1 hour after you do so, you're immune to effects that would allow other creatures to read your thoughts or determine whether you're lying. In addition, you have advantage on saving throws against spells of the enchantment school, and disadvantage on saving throws against spells of the illusion school, as well as ability checks made to see through illusions.</p>"
+    },
+    {
+      "name": "Blazing Ring",
+      "itemType": "equipment",
+      "kind": "Ring",
+      "component": "Volatile Mote of Elemental Fire",
+      "baseRecipe": "Ring",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 400 }
+      ],
+      "description": "<p><em>Ring, uncommon</em></p><p><strong>Component:</strong> Elemental (blaze) volatile mote of fire</p><p>Everyone knows the saying \"no pain, no gain\". Fewer are familiar with some of the alternative versions that are popular across the Timespun Sands, such as \"no flame, no fame\", or \"no burning, no earning\", but they hold just as true.</p><p>This ring can hold a maximum of 15 charges. As a bonus action while wearing the ring, you can take 1 fire damage, which can't be reduced or prevented in any way, and the ring gains 1 charge if it has less than 15.</p><p><strong>Flaming Discharge.</strong> When you hit a target with a weapon attack while wearing this ring, you can expend all of the ring's charges to deal extra fire damage equal to the number of charges expended. Once this property of the ring has been used, it can't be used again until the next dawn.</p>"
+    }
+  ]
+}

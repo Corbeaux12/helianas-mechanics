@@ -1,0 +1,37 @@
+{
+  "_id": "rjFV6Vsi4ADW7P28",
+  "_key": "!items!rjFV6Vsi4ADW7P28",
+  "name": "Huntsman's Goggles (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> fey (Jorfraust) heart</p><p>The lenses of these goggles are made of pure ice, painstakingly polished to be as clear as possible and enchanted to never melt. Their frigid surface is incredibly sensitive to heat, capable of detecting even the slightest fluctuations in temperature — be careful not to touch them barehanded and leave a heat imprint behind!</p><p>This item has 7 charges and regains 1d4 + 3 expended charges daily at dawn.</p><p><strong>Thermal Vision.</strong> As a bonus action while wearing these goggles, you can expend 1 charge to activate them. For 1 minute, you can see creatures and objects within 60 feet of you coloured in a spectrum from red for warm creatures to blue for cold ones. This grants you advantage on Perception checks that rely on sight made to detect creatures that emit heat (GM's discretion), and you can always see those creatures regardless of light conditions, obscurement, or invisibility, but not through total cover. Most constructs, elementals, plants, and undead don't emit heat.</p><p><strong>Target Acquired.</strong> Alternatively, while wearing these goggles, you can expend 1 charge to cast the <em>hunter's mark</em> spell. When you cast the spell in this way, the extra damage dealt by it is cold damage, and you can see the target with the goggles' Thermal Vision property even if it doesn't emit heat.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 4 and the recharge to 1d4.</p><p><strong>Very rare variant:</strong> The goggles have the Drain Heat property.</p><p><strong>Drain Heat.</strong> When a creature under the effects of the <em>hunter's mark</em> spell cast with the goggles is reduced to 0 hit points, you can choose to end the spell and drain some of its body heat to revitalise yourself, regaining 2d4 hit points.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11200,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

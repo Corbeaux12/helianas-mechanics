@@ -1,0 +1,46 @@
+{
+  "_id": "eTENpP0Z7OXHI4lR",
+  "_key": "!items!eTENpP0Z7OXHI4lR",
+  "name": "Volatile Mote of Pontiff Wax",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a flames of the faithful (elemental). See Flames of the Faithful (Loot Tavern hunt, APL 4/8/12).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 70,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "mote",
+        "wax",
+        "pontiff",
+        "elemental"
+      ]
+    }
+  }
+}

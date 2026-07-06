@@ -1,0 +1,37 @@
+{
+  "_id": "fjlaq3B3apB13dNk",
+  "_key": "!items!fjlaq3B3apB13dNk",
+  "name": "The Needler (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (revolver or rifle), uncommon / rare / very rare</em></p><p><strong>Component:</strong> pouch of Plant (dunedrinker) needles</p><p>These firearms are crafted with deliberately sensitive triggers, to allow for maximum control over the amount of needles released with each shot. True masters are said to be capable of giving themselves a relaxing acupuncture session. Most people are far more likely to end up with an accidental lip piercing when they try to blow smoke from the barrel.</p><p>This weapon doesn't require ammunition. Instead, it fires its own needles, which it regrows when you reload it.</p><p><strong>Rapid Fire.</strong> When you take the Attack action while holding this weapon, you can replace one of the attacks with a rapid discharge of multiple needles against a creature within this weapon's normal range, forcing it to make a DC 13 Dexterity saving throw. On a failed save, the creature takes 4d8 piercing damage and is embedded with needles until the end of its next turn, at which point they fall off. When a creature embedded with needles takes bludgeoning damage, it takes an extra 2d8 piercing damage and loses the needles. On a successful save, a creature takes half as much initial damage and isn't embedded with needles. Once this property of the weapon has been used, it can't be used again until the next dawn, and the weapon must be reloaded before it can be used to make more attacks.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the initial damage of the Rapid Fire property to 6d8. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and the damage of the Rapid Fire property to 6d8 and 4d8, respectively. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 2110,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

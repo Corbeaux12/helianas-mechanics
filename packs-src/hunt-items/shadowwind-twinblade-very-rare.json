@@ -1,0 +1,37 @@
+{
+  "_id": "LM7l7CW0HGQ1nQ3U",
+  "_key": "!items!LM7l7CW0HGQ1nQ3U",
+  "name": "Shadowwind Twinblade (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (twinblade), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Monstrosity (anglir) fin</p><p>The most prestigious institutions of arcane learning teach that shadow is neither matter nor energy. It can't be touched, sensed, or harnessed, for it is nothing more than the mere absence of light. How do you explain this, then?</p><p><strong>Shadowwind.</strong> As an action while holding this weapon, you can cast the <em>darkness</em> spell. For the duration of the spell, you can produce a gentle gust of wind whenever you use the twinblade's Special: Whirl property while within 10 feet of the area of darkness, moving that area up to 30 feet in any direction. If the spell was cast on an object, the darkness stops emanating from that object when moved in this way, and acts as if you'd cast it on a point of your choice instead. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> You gain a +1 bonus to attack and damage rolls made with this weapon.</p><p><strong>Very rare variant:</strong> You gain a +1 bonus to attack and damage rolls made with this weapon. The weapon has the Draining Darkness property.</p><p><strong>Draining Darkness.</strong> When a creature capable of casting one or more spells starts its turn in the area of darkness created by the Shadowwind property, it must make a DC 16 saving throw using its spellcasting ability. On a failed save, that creature loses one of its highest-level spell slots of 3rd level or lower, or it loses one daily use of a random spell of 3rd level or lower. That magic is stored in the darkness itself, and while the darkness contains stored magic, creatures automatically succeed on the saving throw against this property. When the <em>darkness</em> spell ends, you absorb the magic it contained and regain an expended spell slot of equal level to the spell slot or spell that was stored within. Alternatively, you can use a reaction when the spell ends to redirect the magic to another creature within 10 feet of you, causing it to regain the spell slot instead.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 8680,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

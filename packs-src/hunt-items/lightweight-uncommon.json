@@ -1,0 +1,37 @@
+{
+  "_id": "WUIw7P8CJOuzT2x7",
+  "_key": "!items!WUIw7P8CJOuzT2x7",
+  "name": "Lightweight (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any hammer), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (anglir) lure</p><p>Wielders of these squamous weapons tend to light up the room with their brilliant personalities and dazzling charm. Radiating confidence in everything they do, they can draw people in like moths to a flame just by flashing a smile. It's a little odd how they lose a little of that luster when the mace isn't with them, though...</p><p>This weapon can be used as a spellcasting focus. It has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Beguiling Light.</strong> While holding this weapon, you can use a bonus action to cause it to emit bright light in a 10-foot radius and dim light for an additional 10 feet until you let go of the weapon or use a bonus action to extinguish the light. Creatures within the mace's bright light have disadvantage on saving throws against being charmed.</p><p><strong>Spells.</strong> While holding this weapon, you can cast the <em>dancing lights</em> spell. In addition, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 15): <em>daylight</em> (3 charges), <em>flash</em>* (1 charge), <em>hypnotic pattern</em> (3 charges), or <em>lure</em>* (1 charge).</p><p><strong>Very rare variant:</strong> Increase the charges to 5 and the recharge to 1d4 + 1. Add <em>dominate person</em> (5 charges) to the Spells property's list. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><strong>Legendary variant:</strong> Increase the charges to 8 and the recharge to 1d4 + 4. Add <em>dominate person</em> (5 charges) and <em>dominate monster</em> (8 charges) to the Spells property's list. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p><p>*See Appendix B of Lure of the Shadowstalker.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 3640,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,963 @@
+{
+  "_id": "HEEurwg3lF00LH32",
+  "_key": "!journal!HEEurwg3lF00LH32",
+  "name": "Flames of the Faithful Recipes",
+  "pages": [
+    {
+      "_id": "gf8fMFhpABxqtFp7",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Flames of the Faithful (Loot Tavern hunt, APL 4/8/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Molten eye (2)</td></tr><tr><td>15</td><td>Volatile mote of wax (3, volatile/edible)</td></tr><tr><td>20</td><td>Candleplume (1)</td></tr><tr><td>25</td><td>Core of wax (1, volatile)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.0plCEs9U9ePN7yzj]{Candlebrand Ring (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.LE4yD0huxYTI9CGO]{Candlebrand Ring (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.oKuvOMAp5Jyg3gUK]{Candlebrand Ring (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.3uJ7n5NwTv1Gk5wv]{Candlelight Mitre (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.tclkoC4lQcoI86C0]{Candlelight Mitre (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.t0y4x69Hb3UqBRc5]{Candlelight Mitre (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.SBu4jw9S3vKZSPpZ]{Waxen Sceptre (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.K3xA7ap9qp0BRqPU]{Waxen Sceptre (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.1gZgidvXVw0eZRgt]{Waxen Sceptre (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.QTmLRKsFhzgyA5fw]{Arcanowax (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yUftDgQ8o0bBWgO8]{Arcanowax (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.AZE2MnzJoXBJFhXc]{Bloodwax (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.00QCUVYSNjDyCwwO]{Bloodwax (Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.gf8fMFhpABxqtFp7"
+    },
+    {
+      "_id": "qXq2GFXsXc5K14Z5",
+      "name": "Flames of the Faithful (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/Flames of the Faithful/Flames of the Faithful - Version 1.3 PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.qXq2GFXsXc5K14Z5"
+    },
+    {
+      "_id": "Ay2beGPejh42KRIZ",
+      "name": "Candlebrand Ring (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Candlebrand Ring (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.0plCEs9U9ePN7yzj",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "E4VCYLGTx0ZgQtDP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "f60QsHzyofmuFWfm",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.vCQxEegmtD638Suu",
+                "name": "Pontiff Molten Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "e89lSKDOHqjl1XPt",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "A3elOY1ZAQqIS1oV",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.eTENpP0Z7OXHI4lR",
+                "name": "Volatile Mote of Pontiff Wax",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "mote",
+                  "wax",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.Ay2beGPejh42KRIZ"
+    },
+    {
+      "_id": "fLvqob1mv51pnv0t",
+      "name": "Candlebrand Ring (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Candlebrand Ring (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.LE4yD0huxYTI9CGO",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "61y1lGSBwDl8ysr2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1dgQOTXvEvvVbHNA",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.vCQxEegmtD638Suu",
+                "name": "Pontiff Molten Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "AbpyWuIzc5G2aSj9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ThpptTeq3xO2XQ64",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.eTENpP0Z7OXHI4lR",
+                "name": "Volatile Mote of Pontiff Wax",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "mote",
+                  "wax",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.fLvqob1mv51pnv0t"
+    },
+    {
+      "_id": "33wMDtVc1iZ5iTJi",
+      "name": "Candlebrand Ring (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Candlebrand Ring (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.oKuvOMAp5Jyg3gUK",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eVSAyRsj8Cxoy9BK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "J80mziZibPpI47ZD",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.vCQxEegmtD638Suu",
+                "name": "Pontiff Molten Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "1KcG6Abur5Ige6FA",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "R9yi4Oqa3PuqsCm1",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.eTENpP0Z7OXHI4lR",
+                "name": "Volatile Mote of Pontiff Wax",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "mote",
+                  "wax",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.33wMDtVc1iZ5iTJi"
+    },
+    {
+      "_id": "koh2NN994hIWVLJ2",
+      "name": "Candlelight Mitre (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Candlelight Mitre (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.3uJ7n5NwTv1Gk5wv",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4QE56S1I1XuYtXO8",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "J4ulBtiX54s4hxZO",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Q4sRmIWdqyYQG4Py",
+                "name": "Pontiff Candleplume",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "candleplume",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.koh2NN994hIWVLJ2"
+    },
+    {
+      "_id": "Jj1B5aQ5b54TUch2",
+      "name": "Candlelight Mitre (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Candlelight Mitre (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.tclkoC4lQcoI86C0",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "foXNsX6gkdw7opiB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qZzmb8j46W0UYlgD",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Q4sRmIWdqyYQG4Py",
+                "name": "Pontiff Candleplume",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "candleplume",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.Jj1B5aQ5b54TUch2"
+    },
+    {
+      "_id": "UhKWN5WpUxlBcpUG",
+      "name": "Candlelight Mitre (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Candlelight Mitre (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.t0y4x69Hb3UqBRc5",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Le0IokNengf9nWFz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RYJ6YRwrc0nPN6cE",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Q4sRmIWdqyYQG4Py",
+                "name": "Pontiff Candleplume",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "candleplume",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.UhKWN5WpUxlBcpUG"
+    },
+    {
+      "_id": "3veongplh4mB4bOl",
+      "name": "Waxen Sceptre (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Waxen Sceptre (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.SBu4jw9S3vKZSPpZ",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "dJuWx7FpSYA0aNK6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1fZKRMQHiS4hVNns",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.PsDAULFnbQx754PR",
+                "name": "Core of Pontiff Wax",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "wax",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.3veongplh4mB4bOl"
+    },
+    {
+      "_id": "TA5hahLeHzX8BZCD",
+      "name": "Waxen Sceptre (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Waxen Sceptre (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.K3xA7ap9qp0BRqPU",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JHQFjGjMmCZZlNz5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "tRns4d6KzeFa31ip",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.PsDAULFnbQx754PR",
+                "name": "Core of Pontiff Wax",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "wax",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.TA5hahLeHzX8BZCD"
+    },
+    {
+      "_id": "6anqDpYFOCEoYzCI",
+      "name": "Waxen Sceptre (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Waxen Sceptre (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.1gZgidvXVw0eZRgt",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "gztFSGqdCVql1MkW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zhg6baNcUZNLtL64",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.PsDAULFnbQx754PR",
+                "name": "Core of Pontiff Wax",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "core",
+                  "wax",
+                  "pontiff",
+                  "elemental"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "elemental",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.6anqDpYFOCEoYzCI"
+    },
+    {
+      "_id": "JJXBo4vuUn4el8BV",
+      "name": "Arcanowax (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Arcanowax (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.QTmLRKsFhzgyA5fw",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ihSxNH3VnIZSDTfe",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q0XJcD8IcVJ2r60w",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6MLu1IWoxEKhpSQd",
+                "name": "Celestial Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "celestial",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "EEfkIX3qdZmqZuX2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GZomIMjHn1iYoCjv",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xIsX4yO6XCAAX0AA",
+                "name": "Fey Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "RtcMxFgXhgEColBq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QHwnNpFK9L5y1IK9",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aJgfKtcgq9heFRDX",
+                "name": "Fiend Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "bfnCoS5YDoXZDi1a",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rNOCyHqI7EiySHlv",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.MBdSGgTqyMw30jY0",
+                "name": "Undead Rancid Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undead",
+                  "rancid",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.JJXBo4vuUn4el8BV"
+    },
+    {
+      "_id": "MU4ofeLXzmxcKLAl",
+      "name": "Arcanowax (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Arcanowax (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yUftDgQ8o0bBWgO8",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yMA6o0B3qLl7HSde",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OnPTDJKQ5L12RNDA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.6MLu1IWoxEKhpSQd",
+                "name": "Celestial Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "celestial",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "2CQ7YAUVHLXESXUc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4u5UjATKQDiPJ6M8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.xIsX4yO6XCAAX0AA",
+                "name": "Fey Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "GOW66InSYQmWF407",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qESuNvU2uMUPB3ne",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aJgfKtcgq9heFRDX",
+                "name": "Fiend Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "eXXR8aVVRwbxoYPn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Pa4fdfmEx7RI7QMU",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.MBdSGgTqyMw30jY0",
+                "name": "Undead Rancid Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undead",
+                  "rancid",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.MU4ofeLXzmxcKLAl"
+    },
+    {
+      "_id": "DkvfSaJzatH5ldkq",
+      "name": "Bloodwax (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodwax (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.AZE2MnzJoXBJFhXc",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "RNWqbMUS7kLepC5A",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7VxGpJgGL8RODwAN",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aJgfKtcgq9heFRDX",
+                "name": "Fiend Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "elemental",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.DkvfSaJzatH5ldkq"
+    },
+    {
+      "_id": "6gxFTWCvSAdJP8fH",
+      "name": "Bloodwax (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bloodwax (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.00QCUVYSNjDyCwwO",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "D7vY8TmKo4HfB974",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "YbvsTkKcIadK2GpT",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.aJgfKtcgq9heFRDX",
+                "name": "Fiend Fat",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "fat"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "elemental",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!HEEurwg3lF00LH32.6gxFTWCvSAdJP8fH"
+    }
+  ],
+  "folder": null,
+  "sort": 10500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

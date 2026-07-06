@@ -1,0 +1,37 @@
+{
+  "_id": "ksdqUoVnEZcNDH2b",
+  "_key": "!items!ksdqUoVnEZcNDH2b",
+  "name": "Refined Dunedust (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> pouch of Plant (dunedrinker) pollen</p><p>Aside from a dunedrinker's pollen, other ingredients of this unique mixture include brain devourer cerebrospinal fluid, hallucinogenic toad venom, and just a hint of shaved truffle for an earthy aftertaste. It's an experience you won't soon forget!</p><p><strong>Impenetrable Mind.</strong> You can smoke a dose of refined dunedust over the course of 1 minute, sending you into a mild psychedelic state that fortifies your mind against intrusion but tricks your senses. For 1 hour after you do so, you're immune to effects that would allow other creatures to read your thoughts or determine whether you're lying. In addition, you have advantage on saving throws against spells of the enchantment school, and disadvantage on saving throws against spells of the illusion school, as well as ability checks made to see through illusions.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

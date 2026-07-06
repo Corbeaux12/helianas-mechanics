@@ -1,0 +1,37 @@
+{
+  "_id": "QTmLRKsFhzgyA5fw",
+  "_key": "!items!QTmLRKsFhzgyA5fw",
+  "name": "Arcanowax (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare</em></p><p><strong>Component:</strong> celestial, fey, fiend, and undead fat</p><p>It's always reassuring to enter hostile territory with an arcanowax candle lit and actively preventing assault by extraplanar entities. However, due to the cripplingly expensive reagents required to make such a candle — namely oils from celestials, fey, fiends, and undead — the Bureau keeps these under tight wraps.</p><p>When found, an arcanowax candle has 2d4 + 1 charges.</p><p><strong>Arcanowax Circle.</strong> As an action, you can light the candle, expending 1 charge and causing it to shed bright light in a 10-foot-radius, 20-foot-tall cylinder for 1 minute. The area of the light replicates the effects of the <em>magic circle</em> spell, except it can't affect elementals. If the candle is moved in such a way that would result in one of those creatures entering the area of the light, the candle is snuffed out.</p><p>A creature can use its action to snuff out a candle within its reach that isn't being held by another creature. If the candle is held by another creature, the creature trying to snuff out the candle must succeed on its choice of a Strength (Athletics) or Dexterity (Sleight of Hand) check contested by the holding creature's choice of Strength (Athletics) or Dexterity (Acrobatics). The candle's effects end immediately when the candle is snuffed out.</p><p><strong>Uncommon variant:</strong> The candle is made of a cheap, fast-burning wax and the fat of only one creature type. Reduce the charges to 1d4 + 1. When lit, the candle affects only the creature type whose fat was used to craft it (roll 1d4 if found: 1 Celestial, 2 Fey, 3 Fiend, 4 Undead).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

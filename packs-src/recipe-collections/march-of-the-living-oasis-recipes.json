@@ -1,0 +1,665 @@
+{
+  "_id": "MIGWFO8xxBPPZr6H",
+  "_key": "!journal!MIGWFO8xxBPPZr6H",
+  "name": "March of the Living Oasis Recipes",
+  "pages": [
+    {
+      "_id": "gMovS1M8xd0ptq68",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>March of the Living Oasis (Loot Tavern hunt, APL 4/8/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Phial of sap (10, edible)</td></tr><tr><td>5</td><td>Bundle of roots (10, edible)</td></tr><tr><td>10</td><td>Pouch of needles (20)</td></tr><tr><td>15</td><td>Pouch of pollen (5, volatile/edible)</td></tr><tr><td>20</td><td>Thornrib (2)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.q3V04L2ZTq1ifm1J]{Prickleplate (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5UbtWVYJ4OiypM9s]{Prickleplate (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.kzGbotPgBAGLA95B]{Prickleplate (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.HrKlw2PiRaYVkoDg]{Splinterstaff (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5pJ3tvcnVCnVKUD9]{Splinterstaff (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.lXy596vu0lHTLEYX]{Splinterstaff (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.H6HfQdw8OJdvst7K]{The Needler (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.fjlaq3B3apB13dNk]{The Needler (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.aXP3s8Z2rpGILBAJ]{The Needler (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ksdqUoVnEZcNDH2b]{Refined Dunedust (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.tyS47eGnEmUrY5ow]{Blazing Ring (Uncommon)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.gMovS1M8xd0ptq68"
+    },
+    {
+      "_id": "YUrji7bZS3nFIJRY",
+      "name": "March of the Living Oasis (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/March of the Living Oasis/March of the Living Oasis v1.1 - PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.YUrji7bZS3nFIJRY"
+    },
+    {
+      "_id": "eIbhQ1q4wxuZdiUa",
+      "name": "Prickleplate (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Prickleplate (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.q3V04L2ZTq1ifm1J",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "agAA6U2YxisnsfV7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "DHxizpVTkYWIKLCy",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.uwRxNEpW5cYJhNh3",
+                "name": "Dunedrinker Thornrib",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "thornrib",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.eIbhQ1q4wxuZdiUa"
+    },
+    {
+      "_id": "vcijdj14ZTXh1Tia",
+      "name": "Prickleplate (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Prickleplate (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5UbtWVYJ4OiypM9s",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hnZBcIKD0EjUd010",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zJ5FfDm4p4Rp7UDw",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.uwRxNEpW5cYJhNh3",
+                "name": "Dunedrinker Thornrib",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "thornrib",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.vcijdj14ZTXh1Tia"
+    },
+    {
+      "_id": "We4GVHVz2HvLVokW",
+      "name": "Prickleplate (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Prickleplate (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.kzGbotPgBAGLA95B",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "x4AeeXOl3PeDExKV",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "d61GjkggET4o6KTT",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.uwRxNEpW5cYJhNh3",
+                "name": "Dunedrinker Thornrib",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "thornrib",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.We4GVHVz2HvLVokW"
+    },
+    {
+      "_id": "A2wXUO5V5VycG012",
+      "name": "Splinterstaff (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Splinterstaff (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.HrKlw2PiRaYVkoDg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Q2Ws30oecQ2GTqA4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vzeEtEDYaemV5n3T",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.HTNdOM230c9GoQMd",
+                "name": "Pouch of Dunedrinker Pollen",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pollen",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.A2wXUO5V5VycG012"
+    },
+    {
+      "_id": "fegzOdKGb0lzl952",
+      "name": "Splinterstaff (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Splinterstaff (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5pJ3tvcnVCnVKUD9",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "kXdUr2HciqVQLbj1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QqKk7j4Z26dJtdBP",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.HTNdOM230c9GoQMd",
+                "name": "Pouch of Dunedrinker Pollen",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pollen",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.fegzOdKGb0lzl952"
+    },
+    {
+      "_id": "ln7sUDalTx92C8YA",
+      "name": "Splinterstaff (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Splinterstaff (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.lXy596vu0lHTLEYX",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "G79bJuGKamv9CvBv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "alfUIWRA6iAO7f61",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.HTNdOM230c9GoQMd",
+                "name": "Pouch of Dunedrinker Pollen",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pollen",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "plant",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.ln7sUDalTx92C8YA"
+    },
+    {
+      "_id": "nfb6Kv4cUrJkjMsv",
+      "name": "The Needler (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "The Needler (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.H6HfQdw8OJdvst7K",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "IyHDwj6QOOwbTT7P",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Mszm0zfaTwYMhzQg",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.OnamUTzZCYkXOEuZ",
+                "name": "Pouch of Dunedrinker Needles",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "needles",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.nfb6Kv4cUrJkjMsv"
+    },
+    {
+      "_id": "5fDEHk6bQLdhCpvn",
+      "name": "The Needler (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "The Needler (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.fjlaq3B3apB13dNk",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ESLraDczPcpB2n0S",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Rg50SDSxzwZav4fH",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.OnamUTzZCYkXOEuZ",
+                "name": "Pouch of Dunedrinker Needles",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "needles",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "plant",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.5fDEHk6bQLdhCpvn"
+    },
+    {
+      "_id": "sxoNyDnId2qtU6h3",
+      "name": "The Needler (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "The Needler (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.aXP3s8Z2rpGILBAJ",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PhMr9maPX4zLcpMz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TqRQjtAuq0LbuOLL",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.OnamUTzZCYkXOEuZ",
+                "name": "Pouch of Dunedrinker Needles",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "needles",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "plant",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.sxoNyDnId2qtU6h3"
+    },
+    {
+      "_id": "vpik8VObUE902p9x",
+      "name": "Refined Dunedust (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Refined Dunedust (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ksdqUoVnEZcNDH2b",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "01yg0Fj5o9W907bo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "CaLxfI6288cDBxbP",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.HTNdOM230c9GoQMd",
+                "name": "Pouch of Dunedrinker Pollen",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pollen",
+                  "dunedrinker",
+                  "plant"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.vpik8VObUE902p9x"
+    },
+    {
+      "_id": "sBIJi1MKp67BtyWg",
+      "name": "Blazing Ring (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Blazing Ring (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.tyS47eGnEmUrY5ow",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "AFOWdSF722noLXGG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "uqK4hMr4tjCLyiPB",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ipqCzs5yfdZshALV",
+                "name": "Volatile Mote of Elemental Fire",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "fire"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "plant",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.dW4V3wRkSD1agfwo",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!MIGWFO8xxBPPZr6H.sBIJi1MKp67BtyWg"
+    }
+  ],
+  "folder": null,
+  "sort": 10900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
