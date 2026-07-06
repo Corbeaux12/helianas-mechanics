@@ -1,0 +1,575 @@
+{
+  "_id": "e2gP4EsvGMXn6M6M",
+  "_key": "!actors!e2gP4EsvGMXn6M6M",
+  "name": "Arbiter of the Final Treaty",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/arbiter-of-the-final-treaty.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 19,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 15,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 23,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 21,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 127,
+        "max": 127,
+        "formula": "15d10 + 45"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 30
+      },
+      "senses": {
+        "units": "ft",
+        "truesight": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Sidaroderma dice.</em> A construct judge housing both infernal and divine power — its censer burns souls as fuel, and its damage type shifts with the alignment of whoever it judges (Necrotic for the good, Radiant for the evil, Force for everyone else). When destroyed, the pent-up duality detonates. Habitat: Extraplanar.</p><p><strong>Gear:</strong> Flail.</p><p><em>Source: Heliana's Field Notes X-44 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 15
+    },
+    "traits": {
+      "size": "lg",
+      "languages": {
+        "value": [],
+        "custom": "All"
+      },
+      "di": {
+        "value": [
+          "force",
+          "necrotic",
+          "poison",
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "ins": {
+        "value": 2,
+        "ability": "wis"
+      },
+      "inv": {
+        "value": 1,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "rel": {
+        "value": 1,
+        "ability": "int"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "JMdn3eQISUaK4Nx4",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.JMdn3eQISUaK4Nx4",
+      "name": "Death of Justice",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>When the arbiter is reduced to 0 Hit Points, it releases the built up energy created from housing both infernal and divine powers within one vessel. <em>Saving Throw:</em> DC 19 Dexterity, each creature in a 30-foot Emanation originating from the arbiter. <em>Failure:</em> 31 (7d8) damage (see Fires of Judgement trait). <em>Success:</em> Half damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "4h5taJEH3s7pDcir",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.4h5taJEH3s7pDcir",
+      "name": "Duality",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The arbiter counts as both a Celestial and a Fiend in addition to being a Construct.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "e4zfks1k3qhSJ5xN",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.e4zfks1k3qhSJ5xN",
+      "name": "Fires of Judgement",
+      "img": "icons/magic/fire/beam-jet-stream-embers.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Some damage dealt by the arbiter changes depending on the damaged creature's alignment, as identified in its traits and actions. A good-aligned creature takes Necrotic damage, an evil-aligned creature takes Radiant damage, and any other target takes Force damage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "FAg264AVJJUMYpko",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.FAg264AVJJUMYpko",
+      "name": "Legendary Resistance (3/Day)",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If the arbiter fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "69oIv1OB4WHSF7NX",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.69oIv1OB4WHSF7NX",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The arbiter makes two Flail attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "3wcBez9mPBRWl7N6",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.3wcBez9mPBRWl7N6",
+      "name": "Flail",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9, reach 15 ft. <em>Hit:</em> 17 (3d8 + 4) Bludgeoning damage. <em>Hit or Miss:</em> Each creature within 5 feet of the target takes 4 (1d8) damage (see Fires of Judgement trait).</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 15
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "4zTqWc4mwOhZDwUf": {
+            "type": "attack",
+            "_id": "4zTqWc4mwOhZDwUf",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "S45Ckqqi5acEpCIP",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.S45Ckqqi5acEpCIP",
+      "name": "Searing Smoke (Recharge 5-6)",
+      "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 19 Constitution, each creature in a 60-foot Emanation originating from the arbiter. <em>Failure:</em> 24 (7d6) damage (see Fires of Judgement trait). <em>Success:</em> Half damage. <em>Failure or Success:</em> The area is Heavily Obscured for creatures other than the arbiter until the start of the arbiter's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "YiL1iASGeXMK4P20",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.YiL1iASGeXMK4P20",
+      "name": "Binding Gaze",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 19 Wisdom, one creature the arbiter can see within 30 feet. <em>Failure:</em> 11 (2d10) damage (see Fires of Judgement trait), and the target is Restrained until the start of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "c35C2krkdtC0Za41",
+      "_key": "!actors.items!e2gP4EsvGMXn6M6M.c35C2krkdtC0Za41",
+      "name": "Burning Soul",
+      "img": "icons/magic/life/heart-hand-gold-green.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The arbiter extracts soul power to burn in its censer. <em>Trigger:</em> A creature within 60 feet of the arbiter is reduced to 0 Hit Points. <em>Response:</em> If the triggering creature is alive, it fails a Death Saving Throw. The arbiter regains 9 (2d8) Hit Points and its Searing Smoke action recharges if it is expended.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Arbiter of the Final Treaty",
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/arbiter-of-the-final-treaty-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

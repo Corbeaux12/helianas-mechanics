@@ -1,0 +1,32 @@
+{
+  "name": "Poshengu",
+  "source": "Heliana's Field Notes X-46 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/The Low/X46-Poshengu.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/poshengu.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/poshengu-token.webp",
+  "size": "med",
+  "creatureType": "humanoid",
+  "subtype": "Entomorph",
+  "alignment": "Any Alignment",
+  "ac": 17,
+  "hp": { "value": 99, "formula": "18d8 + 18" },
+  "speed": { "walk": 30 },
+  "abilities": { "str": 15, "dex": 18, "con": 12, "int": 13, "wis": 17, "cha": 11 },
+  "saveProfs": ["dex", "wis"],
+  "skills": { "acr": 1, "sur": 1 },
+  "dr": ["psychic"],
+  "senses": {},
+  "languages": ["Common"],
+  "cr": 4,
+  "xp": 1100,
+  "biography": "<p><em>Entominid vagus.</em> A wandering entomorph cartographer-warrior whose ricocheting chakrams never leave its hands for long — and who can read a decade of anyone's travels with a touch. Habitat: The Low.</p><p><strong>Gear:</strong> Cartographer's Tools, Chakram, Quarterstaff. Also proficient with Cartographer's Tools (+3).</p>",
+  "features": [
+    { "name": "Chakram Specialist", "category": "trait", "description": "<p>After a chakram thrown by the poshengu hits or misses, and after any ricochets caused by its Ricochet Bonus Action, the chakram returns to the poshengu.</p>" },
+    { "name": "Leap", "category": "trait", "description": "<p>The poshengu's Long Jump is up to 30 feet and its High Jump is up to 20 feet, with or without a running start.</p>" },
+    { "name": "Trace the Path", "category": "trait", "description": "<p>The poshengu can touch a creature and spend 1 minute focusing to see the path it has traveled, up to a decade into its past. This information only includes the geographical course and the time spent in each location. It doesn't include any information about what the creature said or did along that path. Once the poshengu has traced a creature's path, it has Advantage on History and Insight checks related to that creature until the poshengu finishes a Long Rest or traces the path of a different creature.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The poshengu makes one Quarterstaff attack and two Chakram attacks.</p>" },
+    { "name": "Quarterstaff", "category": "action", "description": "<p><em>Melee Weapon Attack:</em> +6, reach 5 ft. <em>Hit:</em> 8 (1d8 + 4) Bludgeoning damage, and the target's Speed decreases by 10 feet until the start of the poshengu's next turn.</p>" },
+    { "name": "Chakram", "category": "action", "description": "<p><em>Melee or Ranged Weapon Attack:</em> +6, reach 5 ft. or range 30/90 ft. <em>Hit:</em> 6 (1d4 + 4) Slashing damage for a melee attack, or 7 (1d6 + 4) Slashing damage for a ranged attack.</p>" },
+    { "name": "Ricochet", "category": "bonus", "description": "<p>When the poshengu hits a target with a Chakram attack, it causes the chakram to ricochet, making a Chakram attack against another target within the chakram's range of the original target.</p>" }
+  ]
+}

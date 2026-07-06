@@ -1,0 +1,78 @@
+{
+  "name": "Shermshroom",
+  "source": "Heliana's Field Notes X-45 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Mountain/X45-Shermshroom.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/shermshroom.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/shermshroom-token.webp",
+  "size": "tiny",
+  "creatureType": "plant",
+  "subtype": "Hyphan",
+  "alignment": "Lawful Good",
+  "ac": 12,
+  "hp": {
+    "value": 14,
+    "formula": "4d4 + 4"
+  },
+  "speed": {
+    "walk": 20
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 9,
+    "con": 13,
+    "int": 11,
+    "wis": 15,
+    "cha": 19
+  },
+  "saveProfs": [
+    "wis"
+  ],
+  "skills": {
+    "med": 1,
+    "nat": 1,
+    "prf": 1
+  },
+  "di": [
+    "necrotic"
+  ],
+  "ci": [
+    "charmed"
+  ],
+  "senses": {
+    "darkvision": 120
+  },
+  "languages": [
+    "Common",
+    "Sylvan"
+  ],
+  "cr": 0.5,
+  "xp": 100,
+  "biography": "<p><em>Petacia dacia.</em> A tiny bell-ringing mushroom medic that patches up wounded allies with mycelium salve and buffs the whole party with its spore songs. Habitat: Forest &amp; Mountain.</p><p><strong>Gear:</strong> Mallet (Light Hammer).</p>",
+  "features": [
+    {
+      "name": "Healing Salve",
+      "category": "trait",
+      "description": "<p>Over the course of 1 minute, the shermshroom can apply a restorative salve of mycelium to a creature within its reach. The creature regains 9 (2d8) Hit Points or loses the Poisoned condition (shermshroom's choice). Once the shermshroom has applied this salve, it can't do so again until it spends 1 hour preparing a new one.</p>"
+    },
+    {
+      "name": "Spider Climb",
+      "category": "trait",
+      "description": "<p>The shermshroom can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>"
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "category": "trait",
+      "description": "<p>While in sunlight, the shermshroom has Disadvantage on ability checks and attack rolls.</p>"
+    },
+    {
+      "name": "Mallet",
+      "category": "action",
+      "description": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>"
+    },
+    {
+      "name": "Spore Song",
+      "category": "action",
+      "description": "<p>The shermshroom rings its bell and sings a song, releasing a cloud of faint spores in a 30-foot Emanation originating from the shermshroom, which lasts until the start of its next turn. When it uses this action, the shermshroom chooses one of the following songs, which determine the effect of the spores:</p><ul><li><strong>Song of Clarity.</strong> Allies within the area are Immune to the Charmed and Frightened conditions. Any existing effect causing an ally to be Charmed or Frightened is suppressed on the ally while in the area.</li><li><strong>Song of Energy.</strong> Any ally that starts its turn within the area has its Speed increased by 5 feet until the end of its turn.</li><li><strong>Song of Light.</strong> The area is filled with Dim Light.</li><li><strong>Song of Vigor.</strong> Any Bloodied ally that starts its turn within the area regains 1 Hit Point.</li></ul>"
+    }
+  ]
+}

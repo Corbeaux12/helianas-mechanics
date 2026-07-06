@@ -1,0 +1,33 @@
+{
+  "name": "Swallybog",
+  "source": "Heliana's Field Notes X-43 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Swamp/X43-Growlbear The Grand.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/growlbear-the-grand.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/growlbear-the-grand-token.webp",
+  "size": "med",
+  "creatureType": "humanoid",
+  "subtype": "Swallybog",
+  "alignment": "Neutral",
+  "ac": 13,
+  "hp": { "value": 19, "formula": "3d8 + 6" },
+  "speed": { "walk": 20, "swim": 30 },
+  "abilities": { "str": 12, "dex": 12, "con": 14, "int": 7, "wis": 10, "cha": 6 },
+  "saveProfs": [],
+  "skills": { "ste": 1 },
+  "dr": ["poison"],
+  "senses": { "darkvision": 60 },
+  "languages": [],
+  "languagesCustom": "Swallybog",
+  "cr": 0.5,
+  "xp": 100,
+  "biography": "<p>Gullible amphibious swamp-dwellers pressed into Growlbear the Grand's service — they hunt meat for their master and scout his trap-riddled Hungering Mire, hoping not to be eaten themselves.</p><p><strong>Gear:</strong> Blowgun, Hide Armour, Needles (6), Trident.</p>",
+  "features": [
+    { "name": "Amphibious", "category": "trait", "description": "<p>The swallybog can breathe air and water.</p>" },
+    { "name": "Gullible", "category": "trait", "description": "<p>The swallybog has Disadvantage on Wisdom (Insight) checks.</p>" },
+    { "name": "Standing Leap", "category": "trait", "description": "<p>The swallybog's Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.</p>" },
+    { "name": "Swamp Camouflage", "category": "trait", "description": "<p>The swallybog has Advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</p>" },
+    { "name": "Multiattack", "category": "action", "description": "<p>The swallybog makes two attacks, using Blowgun or Trident in any combination.</p>" },
+    { "name": "Trident", "category": "action", "description": "<p><em>Melee or Ranged Weapon Attack:</em> +3, reach 5 ft. or range 20/60 ft. <em>Hit:</em> 5 (1d8 + 1) Piercing damage.</p>" },
+    { "name": "Blowgun", "category": "action", "description": "<p><em>Ranged Weapon Attack:</em> +3, range 25/100 ft. <em>Hit:</em> 1 Piercing damage plus 5 (2d4) Poison damage.</p>" }
+  ]
+}

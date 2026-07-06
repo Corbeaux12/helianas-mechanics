@@ -1,0 +1,103 @@
+{
+  "name": "Soulstitcher",
+  "source": "Heliana's Field Notes X-42 (Loot Tavern)",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Biomes/Urban/X42-Soulstitcher.pdf",
+  "img": "modules/helianas-mechanics/assets/bestiary/soulstitcher.webp",
+  "token": "modules/helianas-mechanics/assets/bestiary/soulstitcher-token.webp",
+  "size": "med",
+  "creatureType": "undead",
+  "alignment": "Lawful Neutral",
+  "ac": 15,
+  "hp": {
+    "value": 82,
+    "formula": "15d8 + 15"
+  },
+  "speed": {
+    "walk": 15,
+    "fly": 40,
+    "hover": true
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 18,
+    "con": 12,
+    "int": 15,
+    "wis": 19,
+    "cha": 13
+  },
+  "saveProfs": [
+    "dex",
+    "wis"
+  ],
+  "skills": {
+    "arc": 1,
+    "ins": 1,
+    "prc": 1,
+    "rel": 1
+  },
+  "dr": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "di": [
+    "necrotic",
+    "poison"
+  ],
+  "ci": [
+    "charmed",
+    "exhaustion",
+    "grappled",
+    "paralyzed",
+    "petrified",
+    "poisoned",
+    "prone",
+    "restrained"
+  ],
+  "senses": {
+    "darkvision": 120,
+    "special": "Arcanovision 120 ft. (see trait)"
+  },
+  "languages": [],
+  "languagesCustom": "The languages it knew in life",
+  "cr": 5,
+  "xp": 1800,
+  "biography": "<p><em>Folliculi textor.</em> An incorporeal tailor-ghost that sees the weave of magic itself, hurls a soul-piercing needle that ignores cover, and snips hostile spells apart mid-cast. Habitat: Forest &amp; Urban.</p>",
+  "features": [
+    {
+      "name": "Incorporeal Movement",
+      "category": "trait",
+      "description": "<p>The soulstitcher can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.</p>"
+    },
+    {
+      "name": "Arcanovision",
+      "category": "trait",
+      "description": "<p>Unlike the <em>Detect Magic</em> spell, which lets a creature sense magic's presence but not see its point of origin, Arcanovision is the ability to see magic itself. Creatures and objects under the effect of spells, including those that cause invisibility, have their forms outlined in glowing twists of weave. When a creature casts a spell or activates a magic item, a creature with Arcanovision can see that creature, regardless of if it has the Blinded condition, until the end of the highlighted creature's next turn.</p><p>Creatures devoid of the weave's touch are Invisible to Arcanovision. Uncovered magic items (for example, an unsheathed +1 Sword) are always visible within the radius of a creature's Arcanovision, though the creature wielding them is not. For this reason, creatures wielding or wearing magic items other than armour (not including shields) gain the benefits of invisibility with respect to Arcanovision. Creatures wearing magical armour other than shields do not gain the benefits of being Invisible.</p>"
+    },
+    {
+      "name": "Multiattack",
+      "category": "action",
+      "description": "<p>The soulstitcher makes two Shaw! attacks.</p>"
+    },
+    {
+      "name": "Shaw!",
+      "category": "action",
+      "description": "<p>The soulstitcher stabs or throws its needle. <em>Melee or Ranged Weapon Attack:</em> +7, reach 5 ft. or range 30/120 ft. <em>Hit:</em> 9 (1d10 + 4) Force damage. The needle can pass through objects and structures that aren't silver or lead, ignoring Cover provided by them. If the needle was used to make a ranged attack, the soulstitcher can pull itself in a straight line to the unoccupied space nearest to the target.</p>"
+    },
+    {
+      "name": "Edino!",
+      "category": "action",
+      "description": "<p>The soulstitcher scatters three ethereal pin traps into unoccupied spaces it can see within 30 feet of it. The traps are immovable, can be suspended midair, and last until triggered or until the soulstitcher takes this action again. <em>Saving Throw:</em> DC 15 Dexterity, a creature that moves within 5 feet of the trap. <em>Failure:</em> 7 (2d6) Piercing damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> The trap is destroyed.</p>"
+    },
+    {
+      "name": "Hegale!",
+      "category": "action",
+      "description": "<p>The soulstitcher fills the air with a twisting spectral thread that cuts through the soul. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 30-foot Emanation originating from the soulstitcher. <em>Failure:</em> 11 (2d10) Necrotic damage, and the target's Hit Point maximum is reduced by the amount equal to the damage taken. <em>Success:</em> Half damage only.</p>"
+    },
+    {
+      "name": "Garama!",
+      "category": "reaction",
+      "description": "<p><em>Trigger:</em> A creature the soulstitcher can see within 60 feet casts a level 1+ spell. <em>Response — Saving Throw:</em> DC 15 Dexterity, the triggering creature. <em>Failure:</em> 10 (3d6) Force damage, and the spell fails.</p>"
+    }
+  ]
+}

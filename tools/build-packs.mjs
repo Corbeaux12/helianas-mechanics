@@ -929,28 +929,32 @@ function featureIcon(name, category) {
 
 const DAMAGE_TYPES = "bludgeoning|piercing|slashing|acid|cold|fire|force|lightning|necrotic|poison|psychic|radiant|thunder";
 const ATTACK_RE = new RegExp(
-  "<em>(Melee|Ranged)(?: Weapon)? Attack:<\\/em>\\s*\\+(\\d+)(?:\\s+to\\s+hit)?,\\s*(?:reach\\s+(\\d+)\\s*ft|range\\s+(\\d+)\\/(\\d+)\\s*ft)\\.{0,2}\\s*(?:\\([^)]*\\)\\s*)?\\.?\\s*(?:[^<]*?)?<em>Hit:<\\/em>\\s*\\d+\\s*\\((\\d+)d(\\d+)(?:\\s*\\+\\s*(\\d+))?\\)\\s*(" + DAMAGE_TYPES + ")\\b(?:\\s+damage)?", "i");
+  "<em>(?<kind>Melee or Ranged|Melee|Ranged)(?: Weapon)? Attack:<\\/em>\\s*\\+(?<hit>\\d+)(?:\\s+to\\s+hit)?,\\s*" +
+  "(?:reach\\s+(?<reach>\\d+)\\s*ft\\.?(?:\\s+or\\s+range\\s+(?<hs>\\d+)\\/(?<hl>\\d+)\\s*ft)?|range\\s+(?<rs>\\d+)\\/(?<rl>\\d+)\\s*ft)" +
+  "\\.{0,2}\\s*(?:\\([^)]*\\)\\s*)?\\.?\\s*(?:[^<]*?)?<em>Hit:<\\/em>\\s*\\d+\\s*\\((?<n>\\d+)d(?<d>\\d+)(?:\\s*\\+\\s*(?<b>\\d+))?\\)\\s*(?<type>" + DAMAGE_TYPES + ")\\b(?:\\s+damage)?", "i");
 // Unconditional secondary damage: "plus/and N (XdY) <type> damage" in the same
-// sentence as the base damage. Conditional riders ("If the target…") follow a
-// period and are deliberately left to the description text.
-const RIDER_RE = new RegExp("^[^.]*?\\b(?:plus|and)\\s+\\d+\\s*\\((\\d+)d(\\d+)\\)\\s*(" + DAMAGE_TYPES + ")\\s+damage", "i");
+// sentence as the base damage. Conditional riders ("If the target…", "… damage
+// if <condition>") are deliberately left to the description text.
+const RIDER_RE = new RegExp("^[^.]*?\\b(?:plus|and)\\s+\\d+\\s*\\((\\d+)d(\\d+)\\)\\s*(" + DAMAGE_TYPES + ")\\s+damage(?!\\s+if\\b)", "i");
 
 // Parse a stat-block weapon attack out of a feature's description HTML.
+// Handles melee, ranged, and hybrid ("Melee or Ranged … reach 5 ft. or
+// range 30/120 ft.") thrown attacks.
 function parseAttack(html) {
   const m = ATTACK_RE.exec(html);
   if (!m) return null;
-  const [, kind, toHit, reach, rShort, rLong, num, den, dmgBonus, dmgType] = m;
+  const g = m.groups;
   const rest = html.slice(m.index + m[0].length);
   const r = RIDER_RE.exec(rest);
   return {
-    melee: kind.toLowerCase() === "melee",
-    toHit: Number(toHit),
-    reach: reach ? Number(reach) : null,
-    rangeShort: rShort ? Number(rShort) : null,
-    rangeLong: rLong ? Number(rLong) : null,
-    number: Number(num), denomination: Number(den),
-    dmgBonus: dmgBonus ? Number(dmgBonus) : 0,
-    dmgType: dmgType.toLowerCase(),
+    melee: g.kind.toLowerCase().startsWith("melee"),
+    toHit: Number(g.hit),
+    reach: g.reach ? Number(g.reach) : null,
+    rangeShort: g.hs ? Number(g.hs) : g.rs ? Number(g.rs) : null,
+    rangeLong: g.hl ? Number(g.hl) : g.rl ? Number(g.rl) : null,
+    number: Number(g.n), denomination: Number(g.d),
+    dmgBonus: g.b ? Number(g.b) : 0,
+    dmgType: g.type.toLowerCase(),
     rider: r ? { number: Number(r[1]), denomination: Number(r[2]), type: r[3].toLowerCase() } : null,
   };
 }

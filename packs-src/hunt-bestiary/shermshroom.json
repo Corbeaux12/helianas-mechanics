@@ -1,0 +1,430 @@
+{
+  "_id": "9m7ZO8o4OwQaLFmu",
+  "_key": "!actors!9m7ZO8o4OwQaLFmu",
+  "name": "Shermshroom",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/shermshroom.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 9,
+        "proficient": 0
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 19,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 14,
+        "max": 14,
+        "formula": "4d4 + 4"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 20
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 120
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Petacia dacia.</em> A tiny bell-ringing mushroom medic that patches up wounded allies with mycelium salve and buffs the whole party with its spore songs. Habitat: Forest &amp; Mountain.</p><p><strong>Gear:</strong> Mallet (Light Hammer).</p><p><em>Source: Heliana's Field Notes X-45 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Good",
+      "type": {
+        "value": "plant",
+        "subtype": "Hyphan",
+        "custom": ""
+      },
+      "cr": 0.5
+    },
+    "traits": {
+      "size": "tiny",
+      "languages": {
+        "value": [
+          "common",
+          "sylvan"
+        ],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "necrotic"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "med": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 1,
+        "ability": "int"
+      },
+      "prf": {
+        "value": 1,
+        "ability": "cha"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "zuFU1L3cz29LKq7E",
+      "_key": "!actors.items!9m7ZO8o4OwQaLFmu.zuFU1L3cz29LKq7E",
+      "name": "Healing Salve",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Over the course of 1 minute, the shermshroom can apply a restorative salve of mycelium to a creature within its reach. The creature regains 9 (2d8) Hit Points or loses the Poisoned condition (shermshroom's choice). Once the shermshroom has applied this salve, it can't do so again until it spends 1 hour preparing a new one.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "9ynq7ZblqeUVzwdQ",
+      "_key": "!actors.items!9m7ZO8o4OwQaLFmu.9ynq7ZblqeUVzwdQ",
+      "name": "Spider Climb",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shermshroom can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "A6j3U1zczKUebhQ3",
+      "_key": "!actors.items!9m7ZO8o4OwQaLFmu.A6j3U1zczKUebhQ3",
+      "name": "Sunlight Sensitivity",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While in sunlight, the shermshroom has Disadvantage on ability checks and attack rolls.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "crGXnRGgeUjksmF2",
+      "_key": "!actors.items!9m7ZO8o4OwQaLFmu.crGXnRGgeUjksmF2",
+      "name": "Mallet",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "oSta1aaVdfOYPnvB": {
+            "type": "attack",
+            "_id": "oSta1aaVdfOYPnvB",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "KQfMwXhxMVt8AP4a",
+      "_key": "!actors.items!9m7ZO8o4OwQaLFmu.KQfMwXhxMVt8AP4a",
+      "name": "Spore Song",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The shermshroom rings its bell and sings a song, releasing a cloud of faint spores in a 30-foot Emanation originating from the shermshroom, which lasts until the start of its next turn. When it uses this action, the shermshroom chooses one of the following songs, which determine the effect of the spores:</p><ul><li><strong>Song of Clarity.</strong> Allies within the area are Immune to the Charmed and Frightened conditions. Any existing effect causing an ally to be Charmed or Frightened is suppressed on the ally while in the area.</li><li><strong>Song of Energy.</strong> Any ally that starts its turn within the area has its Speed increased by 5 feet until the end of its turn.</li><li><strong>Song of Light.</strong> The area is filled with Dim Light.</li><li><strong>Song of Vigor.</strong> Any Bloodied ally that starts its turn within the area regains 1 Hit Point.</li></ul>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Shermshroom",
+    "width": 0.5,
+    "height": 0.5,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/shermshroom-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,689 @@
+{
+  "_id": "qsKgRb044u2EsI7y",
+  "_key": "!actors!qsKgRb044u2EsI7y",
+  "name": "Growlbear the Grand",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/growlbear-the-grand.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0
+      },
+      "con": {
+        "value": 17,
+        "proficient": 1
+      },
+      "int": {
+        "value": 5,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 7,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 199,
+        "max": 199,
+        "formula": "21d12 + 63"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 25,
+        "swim": 40
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 60
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Noctursi grandis.</em> Once an esteemed wildshaper, now a slime-coated swamp tyrant that inhales prey four at a time and spits them back out as ammunition. The swallybogs of the Hungering Mire serve him out of terror. Habitat: Swamp.</p><p><em>Source: Heliana's Field Notes X-43 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Neutral Evil",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 8
+    },
+    "traits": {
+      "size": "huge",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "FtuBn0vyu2fhoEfE",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.FtuBn0vyu2fhoEfE",
+      "name": "Amphibious",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Growlbear can breathe air and water.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "XBNfAGMASD49VKpS",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.XBNfAGMASD49VKpS",
+      "name": "Leap",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Growlbear's long jump is up to 35 feet and its high jump is up to 20 feet, with or without a running start.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "rNJi9M5apA5y7JLa",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.rNJi9M5apA5y7JLa",
+      "name": "Keen Sight and Smell",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Growlbear has Advantage on Wisdom (Perception) checks that rely on sight or smell.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "DVBOkT39SQBoaxA2",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.DVBOkT39SQBoaxA2",
+      "name": "Toxic Mucus",
+      "img": "icons/creatures/claws/claw-curved-poison-purple.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Growlbear is covered in a layer of poisonous slime. <em>Saving Throw:</em> DC 14 Constitution, a creature that hits Growlbear with a melee attack or otherwise comes into direct contact with its skin. <em>Failure:</em> The target is Poisoned for 1 minute. While Poisoned in this way, the target can't benefit from any Resistances or Damage Immunities and can't regain Hit Points.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "R2nL8LiUWpERx03j",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.R2nL8LiUWpERx03j",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Growlbear makes two attacks, using Claw or Noxious Glob in any combination, and uses Inhale.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "2wj4ALHFp3AmuMnx",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.2wj4ALHFp3AmuMnx",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p><em>Melee Attack:</em> +8, reach 5 ft. <em>Hit:</em> 18 (3d8 + 5) Slashing damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "tAW0N5GKwDxPuuzY": {
+            "type": "attack",
+            "_id": "tAW0N5GKwDxPuuzY",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "str",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "dJOK3IMw4EgaTmG6",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.dJOK3IMw4EgaTmG6",
+      "name": "Noxious Glob",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p>Growlbear spits poisonous mucus. If it has a creature swallowed (see Inhale), Growlbear can launch that creature as part of the attack. <em>Ranged Weapon Attack:</em> +8, range 20/60 ft. <em>Hit:</em> 9 (2d8) Poison damage, plus 10 (3d6) Bludgeoning damage if Growlbear launched a creature. <em>Hit or Miss:</em> The launched creature takes 10 (3d6) Bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": 20,
+          "long": 60,
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "poison"
+            ],
+            "custom": {
+              "enabled": true,
+              "formula": "2d8"
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "ZYTlZcc1O2QXzRIk": {
+            "type": "attack",
+            "_id": "ZYTlZcc1O2QXzRIk",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              },
+              "ability": "",
+              "bonus": "8"
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "OdJkf3kChnACdb6p",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.OdJkf3kChnACdb6p",
+      "name": "Inhale (Recharge 5-6)",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Saving Throw:</em> DC 14 Strength, each Medium or smaller creature in a 30-foot Cone. <em>Failure:</em> The target is swallowed by Growlbear (it can have up to four Medium creatures swallowed at a time). A swallowed creature is Blinded and Restrained, it has Total Cover against attacks and other effects outside Growlbear, and it takes 5 (2d4) Acid damage at the start of each of Growlbear's turns.</p><p>If Growlbear takes 15+ damage in a single instance from a creature inside him, Growlbear must succeed on a DC 14 Constitution saving throw or regurgitate all swallowed creatures, each of which fall Prone in the nearest unoccupied space within 10 feet of Growlbear. If Growlbear dies, a swallowed creature is no longer Restrained by him and can escape from the corpse using 15 feet of movement, exiting Prone.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "5rJHfjHMwEkphQw2",
+      "_key": "!actors.items!qsKgRb044u2EsI7y.5rJHfjHMwEkphQw2",
+      "name": "Lair: Hungering Mire",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Initiative 20 (loses ties). Additional XP 450.</em></p><p><strong>Regional Traits</strong></p><p><strong>Infested Water.</strong> Fumes coming off the grub-filled water prevent wounds from closing quickly. Creatures in the lair other than Growlbear can't use Hit Dice to regain Hit Points during a Short Rest.</p><p><strong>Shallow Traps.</strong> Hazardous traps lie hidden in the muck. A creature that spends 1 hour traveling in the lair or that fails an ability check to navigate the lair is subject to the following effect. <em>Saving Throw:</em> DC 14 Dexterity. <em>Failure:</em> 13 (3d8) Piercing damage.</p><p><strong>Lair Actions</strong> <em>(The lair can't take the same action two rounds in a row.)</em></p><p><strong>Swallybogs.</strong> Two Swallybogs emerge from the muck in unoccupied spaces of the lair's choice within the lair. They are Friendly to Growlbear and take their turns immediately after the lair.</p><p><strong>Spring Trap.</strong> A trap goes off in the mire. <em>Saving Throw:</em> DC 14 Dexterity, one creature of the lair's choice within the lair. <em>Failure:</em> 13 (3d8) Piercing damage.</p><p><strong>Monster Mist.</strong> A patch of sickening mist appears within the lair in a 30-foot-radius Sphere until the start of the lair's next turn. The area is Lightly Obscured. <em>Saving Throw:</em> DC 14 Constitution, each creature that starts its turn in the area other than Growlbear or a swallybog. <em>Failure:</em> The target is transformed into an amphibious hybrid. A transformed creature gains a Swim Speed of 15 feet and has Disadvantage on Charisma checks. The transformation lasts until the creature is targeted by a <em>Lesser Restoration</em> spell or similar magic.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Growlbear the Grand",
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/growlbear-the-grand-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

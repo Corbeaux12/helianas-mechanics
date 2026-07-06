@@ -1,0 +1,514 @@
+{
+  "_id": "Va04YdmpzL0FEqAU",
+  "_key": "!actors!Va04YdmpzL0FEqAU",
+  "name": "Soulstitcher",
+  "type": "npc",
+  "img": "modules/helianas-mechanics/assets/bestiary/soulstitcher.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 7,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0
+      },
+      "int": {
+        "value": 15,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 19,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 82,
+        "max": 82,
+        "formula": "15d8 + 15"
+      },
+      "movement": {
+        "units": "ft",
+        "walk": 15,
+        "fly": 40,
+        "hover": true
+      },
+      "senses": {
+        "units": "ft",
+        "darkvision": 120,
+        "special": "Arcanovision 120 ft. (see trait)"
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Folliculi textor.</em> An incorporeal tailor-ghost that sees the weave of magic itself, hurls a soul-piercing needle that ignores cover, and snips hostile spells apart mid-cast. Habitat: Forest &amp; Urban.</p><p><em>Source: Heliana's Field Notes X-42 (Loot Tavern)</em></p>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "custom": ""
+      },
+      "cr": 5
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [],
+        "custom": "The languages it knew in life"
+      },
+      "di": {
+        "value": [
+          "necrotic",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "arc": {
+        "value": 1,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "rel": {
+        "value": 1,
+        "ability": "int"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "wttwDFvEfkWRlT0o",
+      "_key": "!actors.items!Va04YdmpzL0FEqAU.wttwDFvEfkWRlT0o",
+      "name": "Incorporeal Movement",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The soulstitcher can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "1mTBuLV6r4mF2qAy",
+      "_key": "!actors.items!Va04YdmpzL0FEqAU.1mTBuLV6r4mF2qAy",
+      "name": "Arcanovision",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Unlike the <em>Detect Magic</em> spell, which lets a creature sense magic's presence but not see its point of origin, Arcanovision is the ability to see magic itself. Creatures and objects under the effect of spells, including those that cause invisibility, have their forms outlined in glowing twists of weave. When a creature casts a spell or activates a magic item, a creature with Arcanovision can see that creature, regardless of if it has the Blinded condition, until the end of the highlighted creature's next turn.</p><p>Creatures devoid of the weave's touch are Invisible to Arcanovision. Uncovered magic items (for example, an unsheathed +1 Sword) are always visible within the radius of a creature's Arcanovision, though the creature wielding them is not. For this reason, creatures wielding or wearing magic items other than armour (not including shields) gain the benefits of invisibility with respect to Arcanovision. Creatures wearing magical armour other than shields do not gain the benefits of being Invisible.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "aeVgOjn3yMAxezpj",
+      "_key": "!actors.items!Va04YdmpzL0FEqAU.aeVgOjn3yMAxezpj",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The soulstitcher makes two Shaw! attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "7yJSzVZyX502HE97",
+      "_key": "!actors.items!Va04YdmpzL0FEqAU.7yJSzVZyX502HE97",
+      "name": "Shaw!",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "weapon",
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "description": {
+          "value": "<p>The soulstitcher stabs or throws its needle. <em>Melee or Ranged Weapon Attack:</em> +7, reach 5 ft. or range 30/120 ft. <em>Hit:</em> 9 (1d10 + 4) Force damage. The needle can pass through objects and structures that aren't silver or lead, ignoring Cover provided by them. If the needle was used to make a ranged attack, the soulstitcher can pull itself in a straight line to the unoccupied space nearest to the target.</p>",
+          "chat": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "properties": [],
+        "identified": true,
+        "mastery": "",
+        "unidentified": {
+          "name": "Unidentified Weapon",
+          "description": ""
+        },
+        "range": {
+          "units": "ft",
+          "value": 30,
+          "long": 120,
+          "reach": 5
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "force"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "cover": null,
+        "ammunition": {},
+        "armor": {
+          "value": null
+        },
+        "proficient": null,
+        "crew": {
+          "value": []
+        },
+        "activities": {
+          "uQgeiDRcoBQsN1KB": {
+            "type": "attack",
+            "_id": "uQgeiDRcoBQsN1KB",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "name": "",
+            "img": null,
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "gRorMr5Ls3CGANbu",
+      "_key": "!actors.items!Va04YdmpzL0FEqAU.gRorMr5Ls3CGANbu",
+      "name": "Edino!",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The soulstitcher scatters three ethereal pin traps into unoccupied spaces it can see within 30 feet of it. The traps are immovable, can be suspended midair, and last until triggered or until the soulstitcher takes this action again. <em>Saving Throw:</em> DC 15 Dexterity, a creature that moves within 5 feet of the trap. <em>Failure:</em> 7 (2d6) Piercing damage. <em>Success:</em> Half damage. <em>Failure or Success:</em> The trap is destroyed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "2zhRdlkMZ9e0Fo6l",
+      "_key": "!actors.items!Va04YdmpzL0FEqAU.2zhRdlkMZ9e0Fo6l",
+      "name": "Hegale!",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The soulstitcher fills the air with a twisting spectral thread that cuts through the soul. <em>Saving Throw:</em> DC 15 Dexterity, each creature in a 30-foot Emanation originating from the soulstitcher. <em>Failure:</em> 11 (2d10) Necrotic damage, and the target's Hit Point maximum is reduced by the amount equal to the damage taken. <em>Success:</em> Half damage only.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    },
+    {
+      "_id": "2SdHySh4vHBwSpVX",
+      "_key": "!actors.items!Va04YdmpzL0FEqAU.2SdHySh4vHBwSpVX",
+      "name": "Garama!",
+      "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p><em>Trigger:</em> A creature the soulstitcher can see within 60 feet casts a level 1+ spell. <em>Response — Saving Throw:</em> DC 15 Dexterity, the triggering creature. <em>Failure:</em> 10 (3d6) Force damage, and the spell fails.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "requirements": "",
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "activities": {}
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Soulstitcher",
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/helianas-mechanics/assets/bestiary/soulstitcher-token.webp"
+    },
+    "actorLink": false,
+    "disposition": -1
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
