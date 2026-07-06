@@ -1,0 +1,4795 @@
+[
+  {
+    "slug": "ascent-of-the-sour-serpent",
+    "title": "Ascent of the Sour Serpent",
+    "tier": "APL 3/7/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      }
+    ]
+  },
+  {
+    "slug": "cold-blood-on-the-scorching-sand",
+    "title": "Cold Blood on the Scorching Sand",
+    "tier": "APL 3/7/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      },
+      {
+        "file": "p050.webp",
+        "pdfPage": 50
+      },
+      {
+        "file": "p051.webp",
+        "pdfPage": 51
+      },
+      {
+        "file": "p052.webp",
+        "pdfPage": 52
+      }
+    ]
+  },
+  {
+    "slug": "garden-of-dark-delights",
+    "title": "Garden of Dark Delights",
+    "tier": "APL 3/7/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      }
+    ]
+  },
+  {
+    "slug": "leaf-or-death",
+    "title": "Leaf Or Death",
+    "tier": "APL 3/7/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      }
+    ]
+  },
+  {
+    "slug": "the-twilight-hunter",
+    "title": "The Twilight Hunter",
+    "tier": "APL 3/7/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      }
+    ]
+  },
+  {
+    "slug": "wizards-of-the-toast",
+    "title": "Wizards of the Toast",
+    "tier": "APL 3/7/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      }
+    ]
+  },
+  {
+    "slug": "bloodfrost-of-the-fey",
+    "title": "Bloodfrost of the Fey",
+    "tier": "APL 4/8/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      }
+    ]
+  },
+  {
+    "slug": "flames-of-the-faithful",
+    "title": "Flames of the Faithful",
+    "tier": "APL 4/8/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      }
+    ]
+  },
+  {
+    "slug": "lure-of-the-shadowstalker",
+    "title": "Lure of the Shadowstalker",
+    "tier": "APL 4/8/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      }
+    ]
+  },
+  {
+    "slug": "march-of-the-living-oasis",
+    "title": "March of the Living Oasis",
+    "tier": "APL 4/8/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      },
+      {
+        "file": "p050.webp",
+        "pdfPage": 50
+      },
+      {
+        "file": "p051.webp",
+        "pdfPage": 51
+      },
+      {
+        "file": "p052.webp",
+        "pdfPage": 52
+      },
+      {
+        "file": "p053.webp",
+        "pdfPage": 53
+      },
+      {
+        "file": "p054.webp",
+        "pdfPage": 54
+      },
+      {
+        "file": "p055.webp",
+        "pdfPage": 55
+      },
+      {
+        "file": "p056.webp",
+        "pdfPage": 56
+      },
+      {
+        "file": "p057.webp",
+        "pdfPage": 57
+      },
+      {
+        "file": "p058.webp",
+        "pdfPage": 58
+      },
+      {
+        "file": "p059.webp",
+        "pdfPage": 59
+      },
+      {
+        "file": "p060.webp",
+        "pdfPage": 60
+      },
+      {
+        "file": "p061.webp",
+        "pdfPage": 61
+      }
+    ]
+  },
+  {
+    "slug": "the-good-the-bad-and-the-oni",
+    "title": "The Good, The Bad, and the Oni",
+    "tier": "APL 4/8/12",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      }
+    ]
+  },
+  {
+    "slug": "bones-n-roses",
+    "title": "Bones N' Roses",
+    "tier": "APL 5/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      }
+    ]
+  },
+  {
+    "slug": "chaos-at-the-coral-court",
+    "title": "Chaos at the Coral Court",
+    "tier": "APL 5/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      },
+      {
+        "file": "p050.webp",
+        "pdfPage": 50
+      },
+      {
+        "file": "p051.webp",
+        "pdfPage": 51
+      },
+      {
+        "file": "p052.webp",
+        "pdfPage": 52
+      },
+      {
+        "file": "p053.webp",
+        "pdfPage": 53
+      }
+    ]
+  },
+  {
+    "slug": "dark-wings-gleaming-gems",
+    "title": "Dark Wings Gleaming Gems",
+    "tier": "APL 5/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      },
+      {
+        "file": "p050.webp",
+        "pdfPage": 50
+      },
+      {
+        "file": "p051.webp",
+        "pdfPage": 51
+      },
+      {
+        "file": "p052.webp",
+        "pdfPage": 52
+      },
+      {
+        "file": "p053.webp",
+        "pdfPage": 53
+      },
+      {
+        "file": "p054.webp",
+        "pdfPage": 54
+      },
+      {
+        "file": "p055.webp",
+        "pdfPage": 55
+      },
+      {
+        "file": "p056.webp",
+        "pdfPage": 56
+      },
+      {
+        "file": "p057.webp",
+        "pdfPage": 57
+      },
+      {
+        "file": "p058.webp",
+        "pdfPage": 58
+      },
+      {
+        "file": "p059.webp",
+        "pdfPage": 59
+      },
+      {
+        "file": "p060.webp",
+        "pdfPage": 60
+      },
+      {
+        "file": "p061.webp",
+        "pdfPage": 61
+      },
+      {
+        "file": "p062.webp",
+        "pdfPage": 62
+      },
+      {
+        "file": "p063.webp",
+        "pdfPage": 63
+      },
+      {
+        "file": "p064.webp",
+        "pdfPage": 64
+      }
+    ]
+  },
+  {
+    "slug": "queen-of-shadow-and-thorn",
+    "title": "Queen of Shadow and Thorn",
+    "tier": "APL 5/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      }
+    ]
+  },
+  {
+    "slug": "release-the-kraken",
+    "title": "Release the Kraken",
+    "tier": "APL 5/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      }
+    ]
+  },
+  {
+    "slug": "spectres-of-midwinter",
+    "title": "Spectres of Midwinter",
+    "tier": "APL 5/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      }
+    ]
+  },
+  {
+    "slug": "the-timekeepers-trials",
+    "title": "The Timekeeper's Trials",
+    "tier": "APL 5/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      }
+    ]
+  },
+  {
+    "slug": "just-desserts",
+    "title": "Just Desserts",
+    "tier": "APL 6/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      }
+    ]
+  },
+  {
+    "slug": "scourge-of-the-coral-hive",
+    "title": "Scourge of the Coral Hive",
+    "tier": "APL 6/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      }
+    ]
+  },
+  {
+    "slug": "throne-of-the-devourer",
+    "title": "Throne of the Devourer",
+    "tier": "APL 6/10/15",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      }
+    ]
+  },
+  {
+    "slug": "den-of-the-deceiver",
+    "title": "Den of the Deceiver",
+    "tier": "APL 7/12/17",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      },
+      {
+        "file": "p050.webp",
+        "pdfPage": 50
+      },
+      {
+        "file": "p051.webp",
+        "pdfPage": 51
+      },
+      {
+        "file": "p052.webp",
+        "pdfPage": 52
+      },
+      {
+        "file": "p053.webp",
+        "pdfPage": 53
+      },
+      {
+        "file": "p054.webp",
+        "pdfPage": 54
+      },
+      {
+        "file": "p055.webp",
+        "pdfPage": 55
+      },
+      {
+        "file": "p056.webp",
+        "pdfPage": 56
+      },
+      {
+        "file": "p057.webp",
+        "pdfPage": 57
+      },
+      {
+        "file": "p058.webp",
+        "pdfPage": 58
+      },
+      {
+        "file": "p059.webp",
+        "pdfPage": 59
+      },
+      {
+        "file": "p060.webp",
+        "pdfPage": 60
+      },
+      {
+        "file": "p061.webp",
+        "pdfPage": 61
+      },
+      {
+        "file": "p062.webp",
+        "pdfPage": 62
+      },
+      {
+        "file": "p063.webp",
+        "pdfPage": 63
+      }
+    ]
+  },
+  {
+    "slug": "forge-of-the-divine-machine",
+    "title": "Forge of the Divine Machine",
+    "tier": "APL 7/12/17",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      }
+    ]
+  },
+  {
+    "slug": "lair-of-the-spoiled-dragonfruit",
+    "title": "Lair of the Spoiled Dragonfruit",
+    "tier": "APL 7/12/17",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      }
+    ]
+  },
+  {
+    "slug": "the-synaptic-shiver",
+    "title": "The Synaptic Shiver",
+    "tier": "APL 7/12/17",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      }
+    ]
+  },
+  {
+    "slug": "tomb-of-the-timeless-tyrant",
+    "title": "Tomb of the Timeless Tyrant",
+    "tier": "APL 9/14/19",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      },
+      {
+        "file": "p050.webp",
+        "pdfPage": 50
+      },
+      {
+        "file": "p051.webp",
+        "pdfPage": 51
+      },
+      {
+        "file": "p052.webp",
+        "pdfPage": 52
+      },
+      {
+        "file": "p053.webp",
+        "pdfPage": 53
+      },
+      {
+        "file": "p054.webp",
+        "pdfPage": 54
+      },
+      {
+        "file": "p055.webp",
+        "pdfPage": 55
+      },
+      {
+        "file": "p056.webp",
+        "pdfPage": 56
+      },
+      {
+        "file": "p057.webp",
+        "pdfPage": 57
+      },
+      {
+        "file": "p058.webp",
+        "pdfPage": 58
+      },
+      {
+        "file": "p059.webp",
+        "pdfPage": 59
+      },
+      {
+        "file": "p060.webp",
+        "pdfPage": 60
+      },
+      {
+        "file": "p061.webp",
+        "pdfPage": 61
+      },
+      {
+        "file": "p062.webp",
+        "pdfPage": 62
+      }
+    ]
+  },
+  {
+    "slug": "end-times",
+    "title": "End Times",
+    "tier": "APL 10/15/20",
+    "pages": [
+      {
+        "file": "p001.webp",
+        "pdfPage": 1
+      },
+      {
+        "file": "p003.webp",
+        "pdfPage": 3
+      },
+      {
+        "file": "p004.webp",
+        "pdfPage": 4
+      },
+      {
+        "file": "p005.webp",
+        "pdfPage": 5
+      },
+      {
+        "file": "p006.webp",
+        "pdfPage": 6
+      },
+      {
+        "file": "p007.webp",
+        "pdfPage": 7
+      },
+      {
+        "file": "p008.webp",
+        "pdfPage": 8
+      },
+      {
+        "file": "p009.webp",
+        "pdfPage": 9
+      },
+      {
+        "file": "p010.webp",
+        "pdfPage": 10
+      },
+      {
+        "file": "p011.webp",
+        "pdfPage": 11
+      },
+      {
+        "file": "p012.webp",
+        "pdfPage": 12
+      },
+      {
+        "file": "p013.webp",
+        "pdfPage": 13
+      },
+      {
+        "file": "p014.webp",
+        "pdfPage": 14
+      },
+      {
+        "file": "p015.webp",
+        "pdfPage": 15
+      },
+      {
+        "file": "p016.webp",
+        "pdfPage": 16
+      },
+      {
+        "file": "p017.webp",
+        "pdfPage": 17
+      },
+      {
+        "file": "p018.webp",
+        "pdfPage": 18
+      },
+      {
+        "file": "p019.webp",
+        "pdfPage": 19
+      },
+      {
+        "file": "p020.webp",
+        "pdfPage": 20
+      },
+      {
+        "file": "p021.webp",
+        "pdfPage": 21
+      },
+      {
+        "file": "p022.webp",
+        "pdfPage": 22
+      },
+      {
+        "file": "p023.webp",
+        "pdfPage": 23
+      },
+      {
+        "file": "p024.webp",
+        "pdfPage": 24
+      },
+      {
+        "file": "p025.webp",
+        "pdfPage": 25
+      },
+      {
+        "file": "p026.webp",
+        "pdfPage": 26
+      },
+      {
+        "file": "p027.webp",
+        "pdfPage": 27
+      },
+      {
+        "file": "p028.webp",
+        "pdfPage": 28
+      },
+      {
+        "file": "p029.webp",
+        "pdfPage": 29
+      },
+      {
+        "file": "p030.webp",
+        "pdfPage": 30
+      },
+      {
+        "file": "p031.webp",
+        "pdfPage": 31
+      },
+      {
+        "file": "p032.webp",
+        "pdfPage": 32
+      },
+      {
+        "file": "p033.webp",
+        "pdfPage": 33
+      },
+      {
+        "file": "p034.webp",
+        "pdfPage": 34
+      },
+      {
+        "file": "p035.webp",
+        "pdfPage": 35
+      },
+      {
+        "file": "p036.webp",
+        "pdfPage": 36
+      },
+      {
+        "file": "p037.webp",
+        "pdfPage": 37
+      },
+      {
+        "file": "p038.webp",
+        "pdfPage": 38
+      },
+      {
+        "file": "p039.webp",
+        "pdfPage": 39
+      },
+      {
+        "file": "p040.webp",
+        "pdfPage": 40
+      },
+      {
+        "file": "p041.webp",
+        "pdfPage": 41
+      },
+      {
+        "file": "p042.webp",
+        "pdfPage": 42
+      },
+      {
+        "file": "p043.webp",
+        "pdfPage": 43
+      },
+      {
+        "file": "p044.webp",
+        "pdfPage": 44
+      },
+      {
+        "file": "p045.webp",
+        "pdfPage": 45
+      },
+      {
+        "file": "p046.webp",
+        "pdfPage": 46
+      },
+      {
+        "file": "p047.webp",
+        "pdfPage": 47
+      },
+      {
+        "file": "p048.webp",
+        "pdfPage": 48
+      },
+      {
+        "file": "p049.webp",
+        "pdfPage": 49
+      },
+      {
+        "file": "p050.webp",
+        "pdfPage": 50
+      },
+      {
+        "file": "p051.webp",
+        "pdfPage": 51
+      },
+      {
+        "file": "p052.webp",
+        "pdfPage": 52
+      },
+      {
+        "file": "p053.webp",
+        "pdfPage": 53
+      },
+      {
+        "file": "p054.webp",
+        "pdfPage": 54
+      },
+      {
+        "file": "p055.webp",
+        "pdfPage": 55
+      },
+      {
+        "file": "p056.webp",
+        "pdfPage": 56
+      },
+      {
+        "file": "p057.webp",
+        "pdfPage": 57
+      },
+      {
+        "file": "p058.webp",
+        "pdfPage": 58
+      },
+      {
+        "file": "p059.webp",
+        "pdfPage": 59
+      },
+      {
+        "file": "p060.webp",
+        "pdfPage": 60
+      },
+      {
+        "file": "p061.webp",
+        "pdfPage": 61
+      },
+      {
+        "file": "p062.webp",
+        "pdfPage": 62
+      },
+      {
+        "file": "p063.webp",
+        "pdfPage": 63
+      },
+      {
+        "file": "p064.webp",
+        "pdfPage": 64
+      },
+      {
+        "file": "p065.webp",
+        "pdfPage": 65
+      },
+      {
+        "file": "p066.webp",
+        "pdfPage": 66
+      },
+      {
+        "file": "p067.webp",
+        "pdfPage": 67
+      },
+      {
+        "file": "p068.webp",
+        "pdfPage": 68
+      },
+      {
+        "file": "p069.webp",
+        "pdfPage": 69
+      }
+    ]
+  }
+]

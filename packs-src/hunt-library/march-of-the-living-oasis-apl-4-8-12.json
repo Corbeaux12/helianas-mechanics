@@ -1,0 +1,1274 @@
+{
+  "_id": "BUcjNUY0ltHskozO",
+  "_key": "!journal!BUcjNUY0ltHskozO",
+  "name": "March of the Living Oasis (APL 4/8/12)",
+  "pages": [
+    {
+      "_id": "UfptXbYcWLuvrWH1",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.UfptXbYcWLuvrWH1",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Nc5D18oJYTOmYIzX",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.Nc5D18oJYTOmYIzX",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7lODEQSE2BDJXtLI",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.7lODEQSE2BDJXtLI",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MOZvLgIOW788oib6",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.MOZvLgIOW788oib6",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J2JHwBzAV8t4gPiR",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.J2JHwBzAV8t4gPiR",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AZ5P2XzKddh47ICf",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.AZ5P2XzKddh47ICf",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "R4g6I2H4BO6PErRR",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.R4g6I2H4BO6PErRR",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EF6nJFyey27RywJt",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.EF6nJFyey27RywJt",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XAfwg2MnEbPgFYsb",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.XAfwg2MnEbPgFYsb",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1zB5bOLdupK3DV2b",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.1zB5bOLdupK3DV2b",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "v03YlI2XJot8U8IR",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.v03YlI2XJot8U8IR",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "t9S9AaqzJdEnx2ai",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.t9S9AaqzJdEnx2ai",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7CdtpfBjqbR5ra2c",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.7CdtpfBjqbR5ra2c",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dJmT8D2DTeTzXrNu",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.dJmT8D2DTeTzXrNu",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zPpWQid68GCt3lOT",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.zPpWQid68GCt3lOT",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3YrgnhuR0X9P7905",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.3YrgnhuR0X9P7905",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f7bmodjP3sIYodOK",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.f7bmodjP3sIYodOK",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "35ld5QjKBiq5jgdr",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.35ld5QjKBiq5jgdr",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Kayn2VajQ1HQ67ZM",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.Kayn2VajQ1HQ67ZM",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "POms5mhgAKfWFGWL",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.POms5mhgAKfWFGWL",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yCECygdv8A6cvwqx",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.yCECygdv8A6cvwqx",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UISXspDPpHSMtGJK",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.UISXspDPpHSMtGJK",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OUsGaGAxTB5e98Vn",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.OUsGaGAxTB5e98Vn",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6hIFkGmq8W5ej45N",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.6hIFkGmq8W5ej45N",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "m5Wy34og3qRXimq3",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.m5Wy34og3qRXimq3",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HDdhN0sifdfOtOh1",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.HDdhN0sifdfOtOh1",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ErDZ5wGdt1Cist2f",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.ErDZ5wGdt1Cist2f",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8I7ZjFHDeOoKAe33",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.8I7ZjFHDeOoKAe33",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6Ii53qTYr2d9XsPy",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.6Ii53qTYr2d9XsPy",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hLz4j3ASlbBr1lxj",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.hLz4j3ASlbBr1lxj",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Eu0Q6W3G0i02J0Id",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.Eu0Q6W3G0i02J0Id",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6PSkZ2Skrrvbv7c8",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.6PSkZ2Skrrvbv7c8",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IhxpD1s14fa2Sgp5",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.IhxpD1s14fa2Sgp5",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "11AYBTezZW4iMQ83",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.11AYBTezZW4iMQ83",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WSIsUA0eaNqGGxHb",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.WSIsUA0eaNqGGxHb",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2iZ7NIrjBw6Uu7wg",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.2iZ7NIrjBw6Uu7wg",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1Z8T77ykHEJG7Lzo",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.1Z8T77ykHEJG7Lzo",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4LAgiHh3aHXdLVnv",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.4LAgiHh3aHXdLVnv",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "73tVNh65p0cXK2Lj",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.73tVNh65p0cXK2Lj",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FDnxzp2SpWQyV7ga",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.FDnxzp2SpWQyV7ga",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2nu252izOfVgI5yP",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.2nu252izOfVgI5yP",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "js7f4qmo7gn9mRNX",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.js7f4qmo7gn9mRNX",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H3BRi9IecKy4vnRA",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.H3BRi9IecKy4vnRA",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5wSCzO66LPB4y9iz",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.5wSCzO66LPB4y9iz",
+      "name": "Page 45",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p045.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3BucCkBespzgikzh",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.3BucCkBespzgikzh",
+      "name": "Page 46",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p046.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "e4xlOSI6MG89Eo02",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.e4xlOSI6MG89Eo02",
+      "name": "Page 47",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p047.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wuv5Bb5d9b40Ah5F",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.wuv5Bb5d9b40Ah5F",
+      "name": "Page 48",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p048.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tSE2Er4gxVXd41hR",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.tSE2Er4gxVXd41hR",
+      "name": "Page 49",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p049.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l0pTKX3jtDg3cBWr",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.l0pTKX3jtDg3cBWr",
+      "name": "Page 50",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p050.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6khY9cfEPIo2vAXb",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.6khY9cfEPIo2vAXb",
+      "name": "Page 51",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p051.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Rd1VNVOJGhjPOaVz",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.Rd1VNVOJGhjPOaVz",
+      "name": "Page 52",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p052.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BiHAwDIW8BQFOpgr",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.BiHAwDIW8BQFOpgr",
+      "name": "Page 53",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p053.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fHzVdslgUvTKU4O0",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.fHzVdslgUvTKU4O0",
+      "name": "Page 54",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p054.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sA0NwSGzOq6VodfD",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.sA0NwSGzOq6VodfD",
+      "name": "Page 55",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p055.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qJSAHeFVIXnEz2Gp",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.qJSAHeFVIXnEz2Gp",
+      "name": "Page 56",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p056.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "S4dz4woHhtYQqIuw",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.S4dz4woHhtYQqIuw",
+      "name": "Page 57",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p057.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EEAGHfit5BGSZ7et",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.EEAGHfit5BGSZ7et",
+      "name": "Page 58",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p058.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "11hn9J42L3GK2Q2L",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.11hn9J42L3GK2Q2L",
+      "name": "Page 59",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p059.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "189T3ef2PCDtlE0N",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.189T3ef2PCDtlE0N",
+      "name": "Page 60",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p060.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FiHfp5Kf5bxzSpJg",
+      "_key": "!journal.pages!BUcjNUY0ltHskozO.FiHfp5Kf5bxzSpJg",
+      "name": "Page 61",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/march-of-the-living-oasis/p061.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,1442 @@
+{
+  "_id": "xhrN47O7yQ1NKM52",
+  "_key": "!journal!xhrN47O7yQ1NKM52",
+  "name": "End Times (APL 10/15/20)",
+  "pages": [
+    {
+      "_id": "fkGRNyMMuC6ABlyS",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.fkGRNyMMuC6ABlyS",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WOHp6m0yCDMChN35",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.WOHp6m0yCDMChN35",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4s07BLDYBWqvKUPS",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.4s07BLDYBWqvKUPS",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Zq3Sb0MzUDZvWhzK",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.Zq3Sb0MzUDZvWhzK",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DCI8jWOz4c8yReiN",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.DCI8jWOz4c8yReiN",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cHry0ZnvLoS3gU3M",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.cHry0ZnvLoS3gU3M",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VJd7cdiEoOAhC0xG",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.VJd7cdiEoOAhC0xG",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tQqvGl6d6CPPBnk7",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.tQqvGl6d6CPPBnk7",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1uS7j5aK08yUNaDA",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.1uS7j5aK08yUNaDA",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0ebn1PKPPum252dG",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.0ebn1PKPPum252dG",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aSXDl101PCp27uW8",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.aSXDl101PCp27uW8",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sz0Bi0sP74wkMAzv",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.Sz0Bi0sP74wkMAzv",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bjn30wVUA09lyZDq",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.bjn30wVUA09lyZDq",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gdtWw4fZiRGyn3mI",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.gdtWw4fZiRGyn3mI",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TsW2ziZOnLrpEFl4",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.TsW2ziZOnLrpEFl4",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Xnx30lWn5K4krKC2",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.Xnx30lWn5K4krKC2",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Smo09MBxDgoy4pOd",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.Smo09MBxDgoy4pOd",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DME7lFsZG1R66mRy",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.DME7lFsZG1R66mRy",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hfUS5kM7Oq3OECDA",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.hfUS5kM7Oq3OECDA",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PG7sfRZ5zuWZGhzB",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.PG7sfRZ5zuWZGhzB",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aJuNLA1tELAUKAbf",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.aJuNLA1tELAUKAbf",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Mq6l65JZOB745kpy",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.Mq6l65JZOB745kpy",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "97vEpsRdiUbh3Brc",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.97vEpsRdiUbh3Brc",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RxOj1Vmj20ax2KVU",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.RxOj1Vmj20ax2KVU",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fsumvTYquPtCesEQ",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.fsumvTYquPtCesEQ",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2XnOGoTQQYhZWpht",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.2XnOGoTQQYhZWpht",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mPT0GMPdH3fGtniz",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.mPT0GMPdH3fGtniz",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wZbWHY8R1H84Jx4x",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.wZbWHY8R1H84Jx4x",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SOexkHpWGeVtsqjg",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.SOexkHpWGeVtsqjg",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tYh0bEq3Lp6Z8tdb",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.tYh0bEq3Lp6Z8tdb",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ouOR96GXdXKIeXUB",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.ouOR96GXdXKIeXUB",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ouSugubkTTQIMQOe",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.ouSugubkTTQIMQOe",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "48curfKqLLOncxul",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.48curfKqLLOncxul",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "G39ll6dN24v96koK",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.G39ll6dN24v96koK",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Seipvo1JxJCqp7Ig",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.Seipvo1JxJCqp7Ig",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MxCwLji6tsPYPsb2",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.MxCwLji6tsPYPsb2",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pRKDOJpyo6sMAkwI",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.pRKDOJpyo6sMAkwI",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "782mLQi8rM88uuuO",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.782mLQi8rM88uuuO",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5QBKYU7f2nYO9yN5",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.5QBKYU7f2nYO9yN5",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "B82Mf4icjynAR0O2",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.B82Mf4icjynAR0O2",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7iE24q0feCAlMryq",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.7iE24q0feCAlMryq",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4XjVPKuirMYb0YF8",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.4XjVPKuirMYb0YF8",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "X6kXOm7Ms0RGELss",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.X6kXOm7Ms0RGELss",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iMyaF837kroIV6nC",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.iMyaF837kroIV6nC",
+      "name": "Page 45",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p045.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4003rLmLpGio1haF",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.4003rLmLpGio1haF",
+      "name": "Page 46",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p046.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J8QneoEqGO2rEz3G",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.J8QneoEqGO2rEz3G",
+      "name": "Page 47",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p047.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hhBCYAs7fIrNCtSd",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.hhBCYAs7fIrNCtSd",
+      "name": "Page 48",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p048.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VEJshvknRU1WE8sr",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.VEJshvknRU1WE8sr",
+      "name": "Page 49",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p049.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rGkbNGnx4xWnfUbz",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.rGkbNGnx4xWnfUbz",
+      "name": "Page 50",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p050.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1L1y5j4xhZc1dPkr",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.1L1y5j4xhZc1dPkr",
+      "name": "Page 51",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p051.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hdv2bv6KZesKeHxU",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.hdv2bv6KZesKeHxU",
+      "name": "Page 52",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p052.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hQYhm9uP9wRmrCDp",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.hQYhm9uP9wRmrCDp",
+      "name": "Page 53",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p053.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3ppzFSxBsaul6Jr2",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.3ppzFSxBsaul6Jr2",
+      "name": "Page 54",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p054.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6wYdFczHSI2Tul9h",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.6wYdFczHSI2Tul9h",
+      "name": "Page 55",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p055.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RnnVQodjj4Iq09Vj",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.RnnVQodjj4Iq09Vj",
+      "name": "Page 56",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p056.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dRxo9iw9uUzxlBY7",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.dRxo9iw9uUzxlBY7",
+      "name": "Page 57",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p057.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "z9yIBBB6vmjcBkyz",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.z9yIBBB6vmjcBkyz",
+      "name": "Page 58",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p058.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "i9h9f5CmJ2YKDZhi",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.i9h9f5CmJ2YKDZhi",
+      "name": "Page 59",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p059.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mgPZ9QWTWpP3LAlY",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.mgPZ9QWTWpP3LAlY",
+      "name": "Page 60",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p060.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BAaHYriaWe4gyYmo",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.BAaHYriaWe4gyYmo",
+      "name": "Page 61",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p061.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2L6Y6qazSicwhyP2",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.2L6Y6qazSicwhyP2",
+      "name": "Page 62",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p062.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sm6fjr3jE1JKxdaH",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.Sm6fjr3jE1JKxdaH",
+      "name": "Page 63",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p063.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4NfgeuwzDWPAvq93",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.4NfgeuwzDWPAvq93",
+      "name": "Page 64",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p064.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LMe2UGdkbMyzsxo1",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.LMe2UGdkbMyzsxo1",
+      "name": "Page 65",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p065.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "smtl5yLEuRsWByWC",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.smtl5yLEuRsWByWC",
+      "name": "Page 66",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p066.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sQ80srku9rUTAijr",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.sQ80srku9rUTAijr",
+      "name": "Page 67",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p067.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mii1zU21ymrnYbKj",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.mii1zU21ymrnYbKj",
+      "name": "Page 68",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p068.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b1bxqppofbi9Uty1",
+      "_key": "!journal.pages!xhrN47O7yQ1NKM52.b1bxqppofbi9Uty1",
+      "name": "Page 69",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/end-times/p069.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2700,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

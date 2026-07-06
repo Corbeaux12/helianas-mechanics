@@ -1,0 +1,812 @@
+{
+  "_id": "7n7G3tOZj4lls9nF",
+  "_key": "!journal!7n7G3tOZj4lls9nF",
+  "name": "Leaf Or Death (APL 3/7/12)",
+  "pages": [
+    {
+      "_id": "YJBCi1D14y3J0k48",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.YJBCi1D14y3J0k48",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b115Fz39jL4bw5yZ",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.b115Fz39jL4bw5yZ",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aXNZnL4cfIMUCkfY",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.aXNZnL4cfIMUCkfY",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oZVXQ0jVcBx4CEhv",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.oZVXQ0jVcBx4CEhv",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VsCQkfOOkyOBQpyf",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.VsCQkfOOkyOBQpyf",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "G3gdZyzEE1zfwVHi",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.G3gdZyzEE1zfwVHi",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "edZ010nVWGvimYDq",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.edZ010nVWGvimYDq",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jWJ46cstkeyP7UtC",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.jWJ46cstkeyP7UtC",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DbdVYJpiYCHQj3PR",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.DbdVYJpiYCHQj3PR",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6nRnUSua1wQQbiei",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.6nRnUSua1wQQbiei",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ie6for3FqhKTO2jN",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.Ie6for3FqhKTO2jN",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZeYQ6fUT9ghrmDdF",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.ZeYQ6fUT9ghrmDdF",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "P7jyDlw2CrvhF9tS",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.P7jyDlw2CrvhF9tS",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UQEVXcwCyGeJwPRS",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.UQEVXcwCyGeJwPRS",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gk2ksWqem7mqL9X4",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.gk2ksWqem7mqL9X4",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "x9xjOV29gsu09Onx",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.x9xjOV29gsu09Onx",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RhECOjkBDk8yxTku",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.RhECOjkBDk8yxTku",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Qde5unU3xs21TD7q",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.Qde5unU3xs21TD7q",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WABiJgODVhA3rGIn",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.WABiJgODVhA3rGIn",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9Q2hj5VZqmzCd7u6",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.9Q2hj5VZqmzCd7u6",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0hlj2jJOlPW4azQB",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.0hlj2jJOlPW4azQB",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5Cmz4d4lY1djv1vj",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.5Cmz4d4lY1djv1vj",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "L5sFt6vC9c67hiO1",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.L5sFt6vC9c67hiO1",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Wh2sZyQ3nPcoiWdO",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.Wh2sZyQ3nPcoiWdO",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Z9DjhLsg5blx1KIX",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.Z9DjhLsg5blx1KIX",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "g0af5JwRyQsUePfx",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.g0af5JwRyQsUePfx",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "S2FyRv7IFkqJl1mL",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.S2FyRv7IFkqJl1mL",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "B3JM9xYYdDc4zy5t",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.B3JM9xYYdDc4zy5t",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SzVgtVp6X5s1L8i2",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.SzVgtVp6X5s1L8i2",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Y01iu0aOg4I2h09v",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.Y01iu0aOg4I2h09v",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4o8997XKx0CkPvdM",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.4o8997XKx0CkPvdM",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "q42l9faqTnm44MD8",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.q42l9faqTnm44MD8",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TFGW56Jzq3iFHwH0",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.TFGW56Jzq3iFHwH0",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dJKd43Gv6UfKNub5",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.dJKd43Gv6UfKNub5",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cDfBKEtMBwbdz3sN",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.cDfBKEtMBwbdz3sN",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0KTM7QcrwEwY7gtc",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.0KTM7QcrwEwY7gtc",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "I65KaC5qBH69rqFF",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.I65KaC5qBH69rqFF",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UEPj56xWXgrzCwde",
+      "_key": "!journal.pages!7n7G3tOZj4lls9nF.UEPj56xWXgrzCwde",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/leaf-or-death/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

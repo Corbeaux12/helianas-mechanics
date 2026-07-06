@@ -1,0 +1,749 @@
+{
+  "_id": "u6fPRMgNL8XVuqhJ",
+  "_key": "!journal!u6fPRMgNL8XVuqhJ",
+  "name": "Release the Kraken (APL 5/10/15)",
+  "pages": [
+    {
+      "_id": "1qVmK1PFoK2kWAZY",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.1qVmK1PFoK2kWAZY",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vamMMqmUkM3NrI9d",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.vamMMqmUkM3NrI9d",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "puoTw3eMeQTGBo3D",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.puoTw3eMeQTGBo3D",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OiNUL9hJOAw2c5mP",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.OiNUL9hJOAw2c5mP",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jsydH19gGnw6EJG4",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.jsydH19gGnw6EJG4",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "66E7f3UbXoN1IgR3",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.66E7f3UbXoN1IgR3",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fr69YfKHlGndP52u",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.fr69YfKHlGndP52u",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Lpn2Mr78EFUMNYQZ",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.Lpn2Mr78EFUMNYQZ",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VDcNIestu1JcUMrx",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.VDcNIestu1JcUMrx",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gkJClDRb9x6OqjCp",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.gkJClDRb9x6OqjCp",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "W8u6on3iUljMhilc",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.W8u6on3iUljMhilc",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uIpoDqPb34NsNwuG",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.uIpoDqPb34NsNwuG",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cP31SmPk10mbcgQp",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.cP31SmPk10mbcgQp",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ACekhh7YaOT4CdI6",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.ACekhh7YaOT4CdI6",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wPdp0G7MviHRb36K",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.wPdp0G7MviHRb36K",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OeZirZOnfkzG4R5g",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.OeZirZOnfkzG4R5g",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1XvQ9tD5p2B5Y25b",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.1XvQ9tD5p2B5Y25b",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "JgpXoVhCO5uk21vL",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.JgpXoVhCO5uk21vL",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2AKpZswhAlNpLO81",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.2AKpZswhAlNpLO81",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DEhn5kbn2HuO8VrF",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.DEhn5kbn2HuO8VrF",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wpNAtSYJcmav54DF",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.wpNAtSYJcmav54DF",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nnUo7rLW7nd9sa41",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.nnUo7rLW7nd9sa41",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l1pfs09BT4MgWni3",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.l1pfs09BT4MgWni3",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0Q3Elm9LGI527T4e",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.0Q3Elm9LGI527T4e",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HQ9rjcJ6GQtartgL",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.HQ9rjcJ6GQtartgL",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bjRt6ZlJeD8Qv3KP",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.bjRt6ZlJeD8Qv3KP",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qjqQQL86r2eeKugm",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.qjqQQL86r2eeKugm",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EzbDhFvG46xb1EQ2",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.EzbDhFvG46xb1EQ2",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qUbCnLUJ6HYNQZaw",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.qUbCnLUJ6HYNQZaw",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GPzbqlXAZtZkw58N",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.GPzbqlXAZtZkw58N",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "L29ka1uFMqo2q4XR",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.L29ka1uFMqo2q4XR",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "90qCr74soyKAU5Uw",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.90qCr74soyKAU5Uw",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PegNwQI8nJGPH6BM",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.PegNwQI8nJGPH6BM",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "huurcAJ13qp5K8UW",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.huurcAJ13qp5K8UW",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IZub2VzdwgzrdRaI",
+      "_key": "!journal.pages!u6fPRMgNL8XVuqhJ.IZub2VzdwgzrdRaI",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/release-the-kraken/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,602 @@
+{
+  "_id": "Nasuxu0oT2YyW5d9",
+  "_key": "!journal!Nasuxu0oT2YyW5d9",
+  "name": "Bloodfrost of the Fey (APL 4/8/12)",
+  "pages": [
+    {
+      "_id": "A9Ze0T96062KHe1Z",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.A9Ze0T96062KHe1Z",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "45bbgOzXxGE93vzf",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.45bbgOzXxGE93vzf",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4uw5qdotHDw8r0cB",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.4uw5qdotHDw8r0cB",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1blDJDHzsVJ1htmi",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.1blDJDHzsVJ1htmi",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eodPzl8vEpO2A4g8",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.eodPzl8vEpO2A4g8",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QDUHUYNHWGekdUOo",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.QDUHUYNHWGekdUOo",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rqMPsuZ8BbFxV4n2",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.rqMPsuZ8BbFxV4n2",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sPuNoCeG5NaQFlJm",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.sPuNoCeG5NaQFlJm",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "S2jiE2mqVsmDiGxc",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.S2jiE2mqVsmDiGxc",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KnXEein5LHML0yX6",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.KnXEein5LHML0yX6",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QLV3vBHVP9QBiAxX",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.QLV3vBHVP9QBiAxX",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tlVpAOLY0OYapJE3",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.tlVpAOLY0OYapJE3",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OTGkA6qqVNvs0PXZ",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.OTGkA6qqVNvs0PXZ",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "So3PH4XrFs4KN8RL",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.So3PH4XrFs4KN8RL",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZGvJoRiDl4pGuuFD",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.ZGvJoRiDl4pGuuFD",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QSRrnEWK3JqdtcMQ",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.QSRrnEWK3JqdtcMQ",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yVtQb3rBrZlfAJXc",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.yVtQb3rBrZlfAJXc",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BS1SVIwcq6S35OyE",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.BS1SVIwcq6S35OyE",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "teozJx2iNuY7NeDX",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.teozJx2iNuY7NeDX",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fh57t6U8BHL2hYGL",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.fh57t6U8BHL2hYGL",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ep1dDm6WuKLmcx0l",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.ep1dDm6WuKLmcx0l",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fej2QA5NP0unZTLK",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.fej2QA5NP0unZTLK",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "u6tXs28HcLO1fHuZ",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.u6tXs28HcLO1fHuZ",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XGEGZnCfcTtw14Kk",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.XGEGZnCfcTtw14Kk",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "p2fR9Nma6FDED8JT",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.p2fR9Nma6FDED8JT",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "so2DsJVIQDgEJuOk",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.so2DsJVIQDgEJuOk",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7tR33h3WlIcghFi6",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.7tR33h3WlIcghFi6",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "W2uPtUYs0vwJqPcx",
+      "_key": "!journal.pages!Nasuxu0oT2YyW5d9.W2uPtUYs0vwJqPcx",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/bloodfrost-of-the-fey/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

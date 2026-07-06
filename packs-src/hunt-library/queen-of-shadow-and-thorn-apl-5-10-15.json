@@ -1,0 +1,686 @@
+{
+  "_id": "5tIpW1SnrJEED2q3",
+  "_key": "!journal!5tIpW1SnrJEED2q3",
+  "name": "Queen of Shadow and Thorn (APL 5/10/15)",
+  "pages": [
+    {
+      "_id": "1KKBmUvokQwoHTkY",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.1KKBmUvokQwoHTkY",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "w2ZZZIf8W0rP3CH7",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.w2ZZZIf8W0rP3CH7",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UervjyaPD2Buf16D",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.UervjyaPD2Buf16D",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tRZSF92CntdeWaVc",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.tRZSF92CntdeWaVc",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "g7MrZHJZdPfORpqI",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.g7MrZHJZdPfORpqI",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YjuB37PA7R9yHUKO",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.YjuB37PA7R9yHUKO",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rl41vkAabNCc4HjO",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.rl41vkAabNCc4HjO",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ki41ThiEoNdldRKt",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.ki41ThiEoNdldRKt",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3UNymCD2YI615y9W",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.3UNymCD2YI615y9W",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fbU4H2O2lJTTLXCJ",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.fbU4H2O2lJTTLXCJ",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wvc56f5jHsBNGNAu",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.wvc56f5jHsBNGNAu",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HWZKcizguDPKqTf5",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.HWZKcizguDPKqTf5",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6cjR4evyWveVCxu0",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.6cjR4evyWveVCxu0",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lneiLqAJ4Orj7Zff",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.lneiLqAJ4Orj7Zff",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "F7okbR1WqCJibS6l",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.F7okbR1WqCJibS6l",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7ud4J42XrhJk6zlj",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.7ud4J42XrhJk6zlj",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zQybWho4DrPl8G5M",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.zQybWho4DrPl8G5M",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0IvQc2t8eakwhxno",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.0IvQc2t8eakwhxno",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Dno2BB2HsoaVMj4g",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.Dno2BB2HsoaVMj4g",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cJBTjs2tM50n5Id8",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.cJBTjs2tM50n5Id8",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EEewRK3nuKzFDIH6",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.EEewRK3nuKzFDIH6",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sa32ErfJ26QCo4VH",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.Sa32ErfJ26QCo4VH",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Zdwp0U3pOOHkAZXe",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.Zdwp0U3pOOHkAZXe",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RBHFq6psD5BEAkOJ",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.RBHFq6psD5BEAkOJ",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IqitJ9fp4OPFGWJo",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.IqitJ9fp4OPFGWJo",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ktenCY6olkoK0AFA",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.ktenCY6olkoK0AFA",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3TSdRn5lN9tjM1VA",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.3TSdRn5lN9tjM1VA",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xaeOt4bqj1E08j1B",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.xaeOt4bqj1E08j1B",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jRk4eq3cJH8twAP4",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.jRk4eq3cJH8twAP4",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "K8R1xfp4GYLKQMPp",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.K8R1xfp4GYLKQMPp",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ie5iRs13EnTcI1E8",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.Ie5iRs13EnTcI1E8",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ECQNJkFWefdapDeV",
+      "_key": "!journal.pages!5tIpW1SnrJEED2q3.ECQNJkFWefdapDeV",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/queen-of-shadow-and-thorn/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

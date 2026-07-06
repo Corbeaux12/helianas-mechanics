@@ -1,0 +1,770 @@
+{
+  "_id": "ABrFUldvftwOs42L",
+  "_key": "!journal!ABrFUldvftwOs42L",
+  "name": "The Good, The Bad, and the Oni (APL 4/8/12)",
+  "pages": [
+    {
+      "_id": "YBlQevSA0gf045Pj",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.YBlQevSA0gf045Pj",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5FWHP4QyudDfW4Jb",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.5FWHP4QyudDfW4Jb",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LvDMlCFk0ygADIBI",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.LvDMlCFk0ygADIBI",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "11PrZDYk1AxUb1zO",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.11PrZDYk1AxUb1zO",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "o0NWDcP95b5I6Qte",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.o0NWDcP95b5I6Qte",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jopJdbTPF1efEAkI",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.jopJdbTPF1efEAkI",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Wws3abGW7CCbC0Om",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.Wws3abGW7CCbC0Om",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OI0pHbTJECwIWJX6",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.OI0pHbTJECwIWJX6",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6DnQVHaLGA2E5V8L",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.6DnQVHaLGA2E5V8L",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dl7sKol6bw7WjB6u",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.dl7sKol6bw7WjB6u",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ianhaenXrC6fZpiF",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.ianhaenXrC6fZpiF",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NQjGInpWOQhKQJVi",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.NQjGInpWOQhKQJVi",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8s8tWn31yFjvQIhk",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.8s8tWn31yFjvQIhk",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hKr4sZvcsYOqrBgg",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.hKr4sZvcsYOqrBgg",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VZ7AG1VSVuujZE7U",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.VZ7AG1VSVuujZE7U",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CwXgTfnCbNVeivVE",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.CwXgTfnCbNVeivVE",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "viIy1FNwSlW87Uqi",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.viIy1FNwSlW87Uqi",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qJzqF6YrKYrKRqoL",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.qJzqF6YrKYrKRqoL",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HAbC6O85E52wcYsK",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.HAbC6O85E52wcYsK",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TNO6gG0300IDWRnT",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.TNO6gG0300IDWRnT",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "btkP72cges8kncZ4",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.btkP72cges8kncZ4",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3ks8ifZ8RhRi2YAX",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.3ks8ifZ8RhRi2YAX",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "R8F7RL2n5pY5jhjd",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.R8F7RL2n5pY5jhjd",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sd71KH494fqlwxR7",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.sd71KH494fqlwxR7",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l7JF95lsTskTck47",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.l7JF95lsTskTck47",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cazF5Fo1T1hg9r5z",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.cazF5Fo1T1hg9r5z",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HYFZUpUB7XvPmIAI",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.HYFZUpUB7XvPmIAI",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3e3pdFtok8QBzOVu",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.3e3pdFtok8QBzOVu",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FQjG7YlkuHIzVrSO",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.FQjG7YlkuHIzVrSO",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "12O63Ippnkb9GD1R",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.12O63Ippnkb9GD1R",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GTwutOVthCTSsR8W",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.GTwutOVthCTSsR8W",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dKTB5B66hU23QGE6",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.dKTB5B66hU23QGE6",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Mu9obySVWUZQs6h3",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.Mu9obySVWUZQs6h3",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ajzMZ4jIuJ5vovWf",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.ajzMZ4jIuJ5vovWf",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GTlzluB2z5F3u5Rm",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.GTlzluB2z5F3u5Rm",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "A7zeqDN1BIKBG1pH",
+      "_key": "!journal.pages!ABrFUldvftwOs42L.A7zeqDN1BIKBG1pH",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-good-the-bad-and-the-oni/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

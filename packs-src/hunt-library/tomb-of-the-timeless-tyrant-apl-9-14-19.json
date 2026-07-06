@@ -1,0 +1,1295 @@
+{
+  "_id": "4wf9CjZ6oyhCjmZy",
+  "_key": "!journal!4wf9CjZ6oyhCjmZy",
+  "name": "Tomb of the Timeless Tyrant (APL 9/14/19)",
+  "pages": [
+    {
+      "_id": "49mOXbv0rLojKhyk",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.49mOXbv0rLojKhyk",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HgfBxBMF5kWQMXS9",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.HgfBxBMF5kWQMXS9",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "k5V7TtTjRfIW5R84",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.k5V7TtTjRfIW5R84",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dYimZUXYLd8X35Vr",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.dYimZUXYLd8X35Vr",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UTGpoFRVXLt21O1s",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.UTGpoFRVXLt21O1s",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5fwfDgEQEdMc7Q1b",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.5fwfDgEQEdMc7Q1b",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "y5LCTJTVF4Zp4yKa",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.y5LCTJTVF4Zp4yKa",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "F9LmI9iYxWOGOnmL",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.F9LmI9iYxWOGOnmL",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BhPhqiG7T6mme7Cw",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.BhPhqiG7T6mme7Cw",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IccmDTbMUAeXdneI",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.IccmDTbMUAeXdneI",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mn77bN1Eobno3Jyt",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.mn77bN1Eobno3Jyt",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Eg6tXeQ774pMSaYm",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.Eg6tXeQ774pMSaYm",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jJ7adDBYE2qGhBWT",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.jJ7adDBYE2qGhBWT",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "q2icZSD932hg6oPO",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.q2icZSD932hg6oPO",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mKrA7gDPq2DVcU25",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.mKrA7gDPq2DVcU25",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZHFVvroIdWrG8DbN",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.ZHFVvroIdWrG8DbN",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dTbSrtt6KGH7N47X",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.dTbSrtt6KGH7N47X",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "069q2IapCP3UvEYh",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.069q2IapCP3UvEYh",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Uhoo5K8a2m7V2s36",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.Uhoo5K8a2m7V2s36",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KwXftaGBfF5Gpquz",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.KwXftaGBfF5Gpquz",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jJZcDUGi3P8ptEYn",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.jJZcDUGi3P8ptEYn",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "atDH4snELv0MFz9n",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.atDH4snELv0MFz9n",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "saBd0cwiTFPwzmWL",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.saBd0cwiTFPwzmWL",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UagjTFuqj6U0ziba",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.UagjTFuqj6U0ziba",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sslq0eDR110WrpzC",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.Sslq0eDR110WrpzC",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VOSkT9VG0roJCDxq",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.VOSkT9VG0roJCDxq",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CCvgtBn1RLRv8nJd",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.CCvgtBn1RLRv8nJd",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Fici7E03bjoK4g4z",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.Fici7E03bjoK4g4z",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3yegAqaramo7pcQD",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.3yegAqaramo7pcQD",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AW9MdIVV1G6Fjc66",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.AW9MdIVV1G6Fjc66",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NgAALvWZ9v7qIvBA",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.NgAALvWZ9v7qIvBA",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fMZJOUOv1SmSqxi4",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.fMZJOUOv1SmSqxi4",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hpMOylp1ahH96zyY",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.hpMOylp1ahH96zyY",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FlALOMoV8aS7kx1Q",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.FlALOMoV8aS7kx1Q",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tOl5s6kk1Ict3AHy",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.tOl5s6kk1Ict3AHy",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VChcIXDFEA39z1aM",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.VChcIXDFEA39z1aM",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "u6KjusHNthwgeUxc",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.u6KjusHNthwgeUxc",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "m2zcPxeHAUghiPfW",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.m2zcPxeHAUghiPfW",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tOsUslMFtr5SYcaK",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.tOsUslMFtr5SYcaK",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gK2jh66g47Iu5IUq",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.gK2jh66g47Iu5IUq",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l8BxCNZPrnqoY392",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.l8BxCNZPrnqoY392",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QViCOjz87JBTPBj1",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.QViCOjz87JBTPBj1",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qADZva0edKanL12h",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.qADZva0edKanL12h",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HP1txeDPYQHRJmPT",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.HP1txeDPYQHRJmPT",
+      "name": "Page 45",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p045.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Wq92yUeR3StKZISv",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.Wq92yUeR3StKZISv",
+      "name": "Page 46",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p046.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fIlAeVlqRwjEN0p6",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.fIlAeVlqRwjEN0p6",
+      "name": "Page 47",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p047.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BgI7d5TDaAzSDVNf",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.BgI7d5TDaAzSDVNf",
+      "name": "Page 48",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p048.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kf4WyrE7yBmmlGI2",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.kf4WyrE7yBmmlGI2",
+      "name": "Page 49",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p049.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EtdJduP2o4GtEEGF",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.EtdJduP2o4GtEEGF",
+      "name": "Page 50",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p050.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "usjp1dg71pqiSqmp",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.usjp1dg71pqiSqmp",
+      "name": "Page 51",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p051.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OREfejY2D2dXBLrF",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.OREfejY2D2dXBLrF",
+      "name": "Page 52",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p052.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qDrhuP3QiFNcWCwQ",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.qDrhuP3QiFNcWCwQ",
+      "name": "Page 53",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p053.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DdEummr5yzB18xij",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.DdEummr5yzB18xij",
+      "name": "Page 54",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p054.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EWwMVUmUDE58Fhwz",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.EWwMVUmUDE58Fhwz",
+      "name": "Page 55",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p055.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Zr5lGuJiC0ZYeTO5",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.Zr5lGuJiC0ZYeTO5",
+      "name": "Page 56",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p056.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "q6t0kuzXaUfz6nMu",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.q6t0kuzXaUfz6nMu",
+      "name": "Page 57",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p057.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TkSLayqcKAqe0NBz",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.TkSLayqcKAqe0NBz",
+      "name": "Page 58",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p058.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DkMhf15K6GDoQmsS",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.DkMhf15K6GDoQmsS",
+      "name": "Page 59",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p059.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ibNej8InQh65zJjw",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.ibNej8InQh65zJjw",
+      "name": "Page 60",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p060.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "t3xo2MgzyQvqG2Ej",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.t3xo2MgzyQvqG2Ej",
+      "name": "Page 61",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p061.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "q2WhhnNxDGGQR97C",
+      "_key": "!journal.pages!4wf9CjZ6oyhCjmZy.q2WhhnNxDGGQR97C",
+      "name": "Page 62",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/tomb-of-the-timeless-tyrant/p062.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2600,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

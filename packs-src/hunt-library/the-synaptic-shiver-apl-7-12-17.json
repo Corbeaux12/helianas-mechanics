@@ -1,0 +1,917 @@
+{
+  "_id": "CA57I5W5ocIJF0OR",
+  "_key": "!journal!CA57I5W5ocIJF0OR",
+  "name": "The Synaptic Shiver (APL 7/12/17)",
+  "pages": [
+    {
+      "_id": "inDy34H8iWypUJuT",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.inDy34H8iWypUJuT",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ErELdIj3m63LIe15",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.ErELdIj3m63LIe15",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "usI7VewzPBXAb4ip",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.usI7VewzPBXAb4ip",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Iersm5k1DaTpN3u4",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.Iersm5k1DaTpN3u4",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CTbYY8wdFGerwEZM",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.CTbYY8wdFGerwEZM",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qzUW45spkF24WnGx",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.qzUW45spkF24WnGx",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yvs56qolM0fQGdhe",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.yvs56qolM0fQGdhe",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NyEcLwB0N8mdoF46",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.NyEcLwB0N8mdoF46",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zaDdiCgdAjKKW3aq",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.zaDdiCgdAjKKW3aq",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5RfoOUep6Ig64UD3",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.5RfoOUep6Ig64UD3",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SmmqyVaPFbUN5M8u",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.SmmqyVaPFbUN5M8u",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cuk0iAqB7AYGkvkn",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.cuk0iAqB7AYGkvkn",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "M5LK6EFIxoUtQNPK",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.M5LK6EFIxoUtQNPK",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wb8U2RpF0SDj2uPi",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.wb8U2RpF0SDj2uPi",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f4Eu7Db020p4L6OH",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.f4Eu7Db020p4L6OH",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aN6djzrMRTV6DA2A",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.aN6djzrMRTV6DA2A",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dzjylJmhIUlbxZ3r",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.dzjylJmhIUlbxZ3r",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2VbM0tpoDOQ62Y9K",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.2VbM0tpoDOQ62Y9K",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "u2pIy1HiMstRVZxP",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.u2pIy1HiMstRVZxP",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sFmABy1dJNce58MH",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.sFmABy1dJNce58MH",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "JqXMW99me7T3e51T",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.JqXMW99me7T3e51T",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jt3ZX9eir6aUdlw4",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.jt3ZX9eir6aUdlw4",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ziymP1G0jyEmZ19J",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.ziymP1G0jyEmZ19J",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "g4JCW3FzmOy7agX7",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.g4JCW3FzmOy7agX7",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "P1GrPlbuxl4W3O6o",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.P1GrPlbuxl4W3O6o",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xGA4t0oWaaWLtTdK",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.xGA4t0oWaaWLtTdK",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6AEQu1XOa7KCHQsy",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.6AEQu1XOa7KCHQsy",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2mHGVc4iDZVGRM0w",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.2mHGVc4iDZVGRM0w",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GMGBPOeF4b2QUwuW",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.GMGBPOeF4b2QUwuW",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "x66ZePrL3lVBirr8",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.x66ZePrL3lVBirr8",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "u8XMt5N04PaocMDe",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.u8XMt5N04PaocMDe",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "y79JjDuaGwXGhZBV",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.y79JjDuaGwXGhZBV",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SN6z7U4ZoZYfzZOL",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.SN6z7U4ZoZYfzZOL",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "p6h2k9x6i0sTpWrH",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.p6h2k9x6i0sTpWrH",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MPy4axtrPbhaPH2y",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.MPy4axtrPbhaPH2y",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QIGkcMKyYzsIhqxb",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.QIGkcMKyYzsIhqxb",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1YvFuJ1rVcc9tw9m",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.1YvFuJ1rVcc9tw9m",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zGmRmZdawFlW8f7L",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.zGmRmZdawFlW8f7L",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dS3e0SuOrZZfh95j",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.dS3e0SuOrZZfh95j",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5JgSk4659t5jIvYV",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.5JgSk4659t5jIvYV",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0X4JERh7oUg0ly47",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.0X4JERh7oUg0ly47",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "r835BpzxqRVwQtKf",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.r835BpzxqRVwQtKf",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Z8fa70bkwMGjeKh5",
+      "_key": "!journal.pages!CA57I5W5ocIJF0OR.Z8fa70bkwMGjeKh5",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-synaptic-shiver/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2500,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,1022 @@
+{
+  "_id": "Tno1IGRxg3gbnNBg",
+  "_key": "!journal!Tno1IGRxg3gbnNBg",
+  "name": "The Timekeeper's Trials (APL 5/10/15)",
+  "pages": [
+    {
+      "_id": "vP84Jcq1IUxVeuFk",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.vP84Jcq1IUxVeuFk",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2SLVatwOMDg3z66s",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.2SLVatwOMDg3z66s",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1Wa617GmkggqzSpE",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.1Wa617GmkggqzSpE",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hsQWXL1hrE8P4G9v",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.hsQWXL1hrE8P4G9v",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QsWGngxUEyveBYr6",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.QsWGngxUEyveBYr6",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AZaFFsZXZE2qJEoo",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.AZaFFsZXZE2qJEoo",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eFsz0JlqMUZamaUA",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.eFsz0JlqMUZamaUA",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "o4B0A411MYShkBxc",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.o4B0A411MYShkBxc",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cblia22bbO4AcUuM",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.cblia22bbO4AcUuM",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GsQiZMXaJAmQ06IR",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.GsQiZMXaJAmQ06IR",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YBK2XS921hI1l7Ug",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.YBK2XS921hI1l7Ug",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PAmL7IAeOpMf4o8n",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.PAmL7IAeOpMf4o8n",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IEJ0ymIrxiuaDqNh",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.IEJ0ymIrxiuaDqNh",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rwRqQdu0VHzwSzLU",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.rwRqQdu0VHzwSzLU",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UydSfiMZ9NgjzfiB",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.UydSfiMZ9NgjzfiB",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oDTH6g02wgAOS57T",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.oDTH6g02wgAOS57T",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "JXgmVAFlBlsWLFrk",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.JXgmVAFlBlsWLFrk",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gWzWjBhlkLq5GJtw",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.gWzWjBhlkLq5GJtw",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KEjXMP427qyiTKvy",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.KEjXMP427qyiTKvy",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jS2Re5X4bB1t6Gqf",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.jS2Re5X4bB1t6Gqf",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "72d5IcR1CBAgBy4s",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.72d5IcR1CBAgBy4s",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Z3z4xbzZTAVLx38p",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.Z3z4xbzZTAVLx38p",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1cANUN3xE3pSu6nH",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.1cANUN3xE3pSu6nH",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "o4gEIj0SByQwEFVq",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.o4gEIj0SByQwEFVq",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bxHSGmFtI3R6s0vg",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.bxHSGmFtI3R6s0vg",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "97ZBh662dLLMjwDP",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.97ZBh662dLLMjwDP",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CSveNZbC4Udbyoz5",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.CSveNZbC4Udbyoz5",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WPadasVg60WsbzHh",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.WPadasVg60WsbzHh",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KCbyriJatRwqqYT9",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.KCbyriJatRwqqYT9",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SQ06cpv8e56ZNVrV",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.SQ06cpv8e56ZNVrV",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6lWqdd5RSplvYRQg",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.6lWqdd5RSplvYRQg",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WF5JzfmVRKGB9wl0",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.WF5JzfmVRKGB9wl0",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tl5gmhz7QYuEpVLq",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.tl5gmhz7QYuEpVLq",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "i1HZpTxusnj6uQFO",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.i1HZpTxusnj6uQFO",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mX5m5KXo2XR2coq9",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.mX5m5KXo2XR2coq9",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hpMR3jUR6DZzoX2J",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.hpMR3jUR6DZzoX2J",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QiQYK2S7TV5MwZaL",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.QiQYK2S7TV5MwZaL",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QHf0a2mB0w1LNMkg",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.QHf0a2mB0w1LNMkg",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vwaE5TqCNrIH664D",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.vwaE5TqCNrIH664D",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RJHR50NciuXCY4Dw",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.RJHR50NciuXCY4Dw",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "w52lD2gcr9YL1nPq",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.w52lD2gcr9YL1nPq",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ruBMPlJHH2ipK0nM",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.ruBMPlJHH2ipK0nM",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FhUGFfU635BkZ8es",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.FhUGFfU635BkZ8es",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Zc5AdPje3V9zmSYu",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.Zc5AdPje3V9zmSYu",
+      "name": "Page 45",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p045.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RdDJHBQPM9ldc91x",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.RdDJHBQPM9ldc91x",
+      "name": "Page 46",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p046.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tgSHM3D8F4Zdi7WG",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.tgSHM3D8F4Zdi7WG",
+      "name": "Page 47",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p047.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XO4HPajoBpCRsTD2",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.XO4HPajoBpCRsTD2",
+      "name": "Page 48",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p048.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "j02XjvNur12WvrIX",
+      "_key": "!journal.pages!Tno1IGRxg3gbnNBg.j02XjvNur12WvrIX",
+      "name": "Page 49",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/the-timekeepers-trials/p049.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

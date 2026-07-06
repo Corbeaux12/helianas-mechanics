@@ -1,0 +1,1316 @@
+{
+  "_id": "RtYq5XUk6kHhCGND",
+  "_key": "!journal!RtYq5XUk6kHhCGND",
+  "name": "Den of the Deceiver (APL 7/12/17)",
+  "pages": [
+    {
+      "_id": "GYh4zbonYMLWbo2p",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.GYh4zbonYMLWbo2p",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iofv38XNLuonaw4k",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.iofv38XNLuonaw4k",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IN8icAqRDO3LWkDE",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.IN8icAqRDO3LWkDE",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VWbmLbW6RJbQuaKC",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.VWbmLbW6RJbQuaKC",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fHLTlkQvybzRyPWz",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.fHLTlkQvybzRyPWz",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eUgqXpuxafSBgaI8",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.eUgqXpuxafSBgaI8",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9ESISqDFnDI9bR4Z",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.9ESISqDFnDI9bR4Z",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2PwhobkVHDPQb3FO",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.2PwhobkVHDPQb3FO",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "o1akPPj3VHJRsGRb",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.o1akPPj3VHJRsGRb",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Lh4evI9fHRkKw6n1",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.Lh4evI9fHRkKw6n1",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TXYpLzLof0t3cemg",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.TXYpLzLof0t3cemg",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MNJPaYaYKybaBVj5",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.MNJPaYaYKybaBVj5",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7vphNIpvv9PpC0in",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.7vphNIpvv9PpC0in",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OTXyEt7jJLSa2JRs",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.OTXyEt7jJLSa2JRs",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "A5n7Ih27DXjxnn3x",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.A5n7Ih27DXjxnn3x",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rhjll9RkABkYJuyS",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.rhjll9RkABkYJuyS",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RtoZ1SFrCPzXh3uB",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.RtoZ1SFrCPzXh3uB",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bF7Xr9Ucf1qcAWkX",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.bF7Xr9Ucf1qcAWkX",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BjMuhmEOCMY6kylq",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.BjMuhmEOCMY6kylq",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9GIh7LBPgi4WiM72",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.9GIh7LBPgi4WiM72",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "I61iz8vT1ZhlmcpN",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.I61iz8vT1ZhlmcpN",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "n378ZDn3IsgiEE56",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.n378ZDn3IsgiEE56",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H0ApZnc3SRkQ5IWa",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.H0ApZnc3SRkQ5IWa",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hFRb0zZAEl5dBxIa",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.hFRb0zZAEl5dBxIa",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ip5j7XDUmsUVaiSZ",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.ip5j7XDUmsUVaiSZ",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "z5WzJ2UAm7n5l4rN",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.z5WzJ2UAm7n5l4rN",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eIxlskmgXhUoxoSj",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.eIxlskmgXhUoxoSj",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "U8jnovJqgpQZsEv7",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.U8jnovJqgpQZsEv7",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XkNuITBh2Ov9qAqW",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.XkNuITBh2Ov9qAqW",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "52ze8VSJvduFQ1QB",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.52ze8VSJvduFQ1QB",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uNbrJBmu5mCnfcYv",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.uNbrJBmu5mCnfcYv",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hRRIczHZUYmAkDyW",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.hRRIczHZUYmAkDyW",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "w0LIpP8FQeIyUNo5",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.w0LIpP8FQeIyUNo5",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CVS0IEmC1EebMoff",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.CVS0IEmC1EebMoff",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qaMKfp1UObnmWAp0",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.qaMKfp1UObnmWAp0",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "S1E9wn4YUvfMZTFa",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.S1E9wn4YUvfMZTFa",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SR9O5CdggFx9rSty",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.SR9O5CdggFx9rSty",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aP9JAF4VUwkMsPQE",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.aP9JAF4VUwkMsPQE",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TcoCxTtGqdJ9KXio",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.TcoCxTtGqdJ9KXio",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aRPBhOPwPLoo6UQZ",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.aRPBhOPwPLoo6UQZ",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WcYlP2uD0ElON0DS",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.WcYlP2uD0ElON0DS",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vZ2maNV429buDXSe",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.vZ2maNV429buDXSe",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lNPPLgiAE82tFlBL",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.lNPPLgiAE82tFlBL",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3juc259ivQV1b9Oq",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.3juc259ivQV1b9Oq",
+      "name": "Page 45",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p045.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DWU1ixhiQSnKNfKh",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.DWU1ixhiQSnKNfKh",
+      "name": "Page 46",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p046.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZYUtFi7vFxf84l3J",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.ZYUtFi7vFxf84l3J",
+      "name": "Page 47",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p047.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VlVIG1V2TcARZftw",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.VlVIG1V2TcARZftw",
+      "name": "Page 48",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p048.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "drMINFWgiTYuWwmC",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.drMINFWgiTYuWwmC",
+      "name": "Page 49",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p049.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jh03HsNT6v9v4Jks",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.jh03HsNT6v9v4Jks",
+      "name": "Page 50",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p050.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HnWvLBFIKKqQrvOY",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.HnWvLBFIKKqQrvOY",
+      "name": "Page 51",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p051.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FKnGqCPidZMBVDYB",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.FKnGqCPidZMBVDYB",
+      "name": "Page 52",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p052.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qzX7wjfQV8ZJpb3D",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.qzX7wjfQV8ZJpb3D",
+      "name": "Page 53",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p053.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0xMWbdHB3LrTnHW0",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.0xMWbdHB3LrTnHW0",
+      "name": "Page 54",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p054.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1ASzZqpgmOAEo2OI",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.1ASzZqpgmOAEo2OI",
+      "name": "Page 55",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p055.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YbD5J9dc0esYrY2f",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.YbD5J9dc0esYrY2f",
+      "name": "Page 56",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p056.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IExL0neWvp4E6xht",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.IExL0neWvp4E6xht",
+      "name": "Page 57",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p057.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "d882dJVMe02irbQX",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.d882dJVMe02irbQX",
+      "name": "Page 58",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p058.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4kuyIJpqlEpXoIaf",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.4kuyIJpqlEpXoIaf",
+      "name": "Page 59",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p059.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bncMITqBL1Tx23QM",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.bncMITqBL1Tx23QM",
+      "name": "Page 60",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p060.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8cMOOYF9ZuXyzrgh",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.8cMOOYF9ZuXyzrgh",
+      "name": "Page 61",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p061.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AQC96KzHwPNqHQsj",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.AQC96KzHwPNqHQsj",
+      "name": "Page 62",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p062.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "100Ls3jiG8CIWFSp",
+      "_key": "!journal.pages!RtYq5XUk6kHhCGND.100Ls3jiG8CIWFSp",
+      "name": "Page 63",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/den-of-the-deceiver/p063.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

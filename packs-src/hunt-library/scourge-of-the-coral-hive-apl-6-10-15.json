@@ -1,0 +1,917 @@
+{
+  "_id": "PS0pclkJw8IWLFeh",
+  "_key": "!journal!PS0pclkJw8IWLFeh",
+  "name": "Scourge of the Coral Hive (APL 6/10/15)",
+  "pages": [
+    {
+      "_id": "8U33xMkcooyzc4wX",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.8U33xMkcooyzc4wX",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TAel8WEKPvn9u52N",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.TAel8WEKPvn9u52N",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8gjATOJ3Uo5V2Zle",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.8gjATOJ3Uo5V2Zle",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GeKzU0NL1mbK31Mw",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.GeKzU0NL1mbK31Mw",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YenjtjbAR4OGNyx0",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.YenjtjbAR4OGNyx0",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eD6FoJU5TySO5ULA",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.eD6FoJU5TySO5ULA",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xHvkQjT0e6znofsB",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.xHvkQjT0e6znofsB",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nIC89F6NcGO4yWzQ",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.nIC89F6NcGO4yWzQ",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QeuPjVTwqD8WWxi4",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.QeuPjVTwqD8WWxi4",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VIrqokp4KRU0NG8U",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.VIrqokp4KRU0NG8U",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cyxfiUgZNCL30BRy",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.cyxfiUgZNCL30BRy",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "v0Xei3JAeNzikAtk",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.v0Xei3JAeNzikAtk",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "S7Z1d399lCRB5k7U",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.S7Z1d399lCRB5k7U",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "I2f9NLxmELyomhZe",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.I2f9NLxmELyomhZe",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uYL4hVqX3tsPS32Q",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.uYL4hVqX3tsPS32Q",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XoD41HUc250VHllX",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.XoD41HUc250VHllX",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "S903MYXEbRhK0Ya3",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.S903MYXEbRhK0Ya3",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XWY1USQZCWlUrsSL",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.XWY1USQZCWlUrsSL",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "USpjgQmxkfJj1tQR",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.USpjgQmxkfJj1tQR",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7lkoZLBiCxufBvzV",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.7lkoZLBiCxufBvzV",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pwPYgBmdIk76Eejz",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.pwPYgBmdIk76Eejz",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6RFzHUkNSiErpLUH",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.6RFzHUkNSiErpLUH",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QNIR4jHakCi4FGaC",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.QNIR4jHakCi4FGaC",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0wTyUY9cipi8cQp3",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.0wTyUY9cipi8cQp3",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "weONCDLzubJkx9so",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.weONCDLzubJkx9so",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zPtgnv1iTr1x5UoV",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.zPtgnv1iTr1x5UoV",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EHu20uzQkIJUuzG6",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.EHu20uzQkIJUuzG6",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FiBO8s5M0WNpKvLU",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.FiBO8s5M0WNpKvLU",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sDoLKzF1VzMnRwrP",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.sDoLKzF1VzMnRwrP",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "41NaQFaZ9qyaN4eD",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.41NaQFaZ9qyaN4eD",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hAfcr4H1O75oJLUD",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.hAfcr4H1O75oJLUD",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NOd0WVCMmkod4yE5",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.NOd0WVCMmkod4yE5",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l3tryLnsZ3FVSdCK",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.l3tryLnsZ3FVSdCK",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "X48uAM2bL1jsb6Un",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.X48uAM2bL1jsb6Un",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NBxxB1i496aMj59N",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.NBxxB1i496aMj59N",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gQyhf1TDBjItgWZn",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.gQyhf1TDBjItgWZn",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hYq4QiIH9ePQO3e2",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.hYq4QiIH9ePQO3e2",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7hSDYppntQKZOFtu",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.7hSDYppntQKZOFtu",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NwcTWNwDzBWvBydC",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.NwcTWNwDzBWvBydC",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rwwVmPiz2Jmmyojl",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.rwwVmPiz2Jmmyojl",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "995UiYczdUaayGql",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.995UiYczdUaayGql",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f59k0qLTqqlb1rJt",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.f59k0qLTqqlb1rJt",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ErETUTUPGsA9gKsx",
+      "_key": "!journal.pages!PS0pclkJw8IWLFeh.ErETUTUPGsA9gKsx",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/scourge-of-the-coral-hive/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

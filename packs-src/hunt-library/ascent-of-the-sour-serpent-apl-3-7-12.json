@@ -1,0 +1,854 @@
+{
+  "_id": "jcfLRhW98b8O86J5",
+  "_key": "!journal!jcfLRhW98b8O86J5",
+  "name": "Ascent of the Sour Serpent (APL 3/7/12)",
+  "pages": [
+    {
+      "_id": "LLjA94uN0DJBH0pj",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.LLjA94uN0DJBH0pj",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WCA17ZPY4U9Z3n22",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.WCA17ZPY4U9Z3n22",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ah444lkglipZYRoE",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.Ah444lkglipZYRoE",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FN6STX0A0QUpgZUR",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.FN6STX0A0QUpgZUR",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IKCfHSHFRjsu0LXr",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.IKCfHSHFRjsu0LXr",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4MrciZ2qqwhG9Cda",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.4MrciZ2qqwhG9Cda",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "M950NmhxNYxa4q5S",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.M950NmhxNYxa4q5S",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Aj5aB0LguuMVZRS9",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.Aj5aB0LguuMVZRS9",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mkTiE35HLQYn7Blm",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.mkTiE35HLQYn7Blm",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wjn4ZM1JeIxTNJgH",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.wjn4ZM1JeIxTNJgH",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4VhQJwpQKVJMTBE8",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.4VhQJwpQKVJMTBE8",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QRUGSJU8F546sADh",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.QRUGSJU8F546sADh",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nx8r5xcCnsHs53T2",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.nx8r5xcCnsHs53T2",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CBQ2VQ4os7ftBSer",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.CBQ2VQ4os7ftBSer",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jBNVhTalVDfGIVUd",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.jBNVhTalVDfGIVUd",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pToxUWswy5RqVCJV",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.pToxUWswy5RqVCJV",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1biuS8QYcWo7KfYd",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.1biuS8QYcWo7KfYd",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Rs4StRGwLmcOn7sI",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.Rs4StRGwLmcOn7sI",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pLM5vqcdanqQxyUB",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.pLM5vqcdanqQxyUB",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "njWBwpbhZS0spaGM",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.njWBwpbhZS0spaGM",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l4GAzXGGFv7PGHtF",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.l4GAzXGGFv7PGHtF",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l4r7PEx3Wp5b6T57",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.l4r7PEx3Wp5b6T57",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "evEre7oua7Kcdn7f",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.evEre7oua7Kcdn7f",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2BubMBUNTAUn4YzI",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.2BubMBUNTAUn4YzI",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "E0ezp7UIkkp8HnV1",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.E0ezp7UIkkp8HnV1",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H9Oaa0jHMzBVwAB2",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.H9Oaa0jHMzBVwAB2",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "z4TgRUg70vOp4khV",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.z4TgRUg70vOp4khV",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xUQAp2WvQAqtzxi0",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.xUQAp2WvQAqtzxi0",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5ES1jS41luDp3GyC",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.5ES1jS41luDp3GyC",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cVKs7NGsmDmMokbd",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.cVKs7NGsmDmMokbd",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "esEq6nFvAysk6Ghp",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.esEq6nFvAysk6Ghp",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ER5xXsYBdtTBEJDx",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.ER5xXsYBdtTBEJDx",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "12IgWFbeVx1XmuJg",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.12IgWFbeVx1XmuJg",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7U6kOczKYI454ntk",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.7U6kOczKYI454ntk",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "69SolLTpIDmnZpjQ",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.69SolLTpIDmnZpjQ",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hhoezDCKqVvR5pOn",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.hhoezDCKqVvR5pOn",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PvsbWy28dyy4X1EY",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.PvsbWy28dyy4X1EY",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bo3BEJjr1HrzzFla",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.bo3BEJjr1HrzzFla",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "F5qio1SaK9aBELRK",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.F5qio1SaK9aBELRK",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rGGfLT6DZqhjbq63",
+      "_key": "!journal.pages!jcfLRhW98b8O86J5.rGGfLT6DZqhjbq63",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/ascent-of-the-sour-serpent/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

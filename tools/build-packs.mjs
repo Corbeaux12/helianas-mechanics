@@ -1103,6 +1103,44 @@ function buildBestiary() {
   });
 }
 
+// ------------------------------------------------------------- hunt library
+//
+// Full hunt adventures as journals of compressed page images. The webp pages
+// live in assets/hunts/<slug>/ and are produced by the (scratchpad) renderer
+// from the hunt PDFs — credits and legal pages are excluded at render time.
+// tools/data/hunt-library.json is the manifest the renderer writes.
+
+function buildHuntLibrary() {
+  let manifest = [];
+  try { manifest = JSON.parse(readFileSync(path.join(ROOT, "tools", "data", "hunt-library.json"), "utf8")); } catch { return []; }
+
+  return manifest.map((hunt, hi) => {
+    const jid = did(`huntlib:${hunt.slug}`);
+    const pages = hunt.pages.map((p, i) => {
+      const pid = did(`huntlibpage:${hunt.slug}:${p.pdfPage}`);
+      return {
+        _id: pid, _key: `!journal.pages!${jid}.${pid}`,
+        name: i === 0 ? "Cover" : `Page ${p.pdfPage}`,
+        type: "image",
+        src: `modules/helianas-mechanics/assets/hunts/${hunt.slug}/${p.file}`,
+        image: { caption: "" },
+        title: { show: false, level: 1 },
+        text: {}, video: {},
+        sort: (i + 1) * 100,
+        ownership: { default: -1 }, flags: {},
+      };
+    });
+    return {
+      _id: jid, _key: `!journal!${jid}`,
+      name: `${hunt.title} (${hunt.tier})`,
+      pages,
+      folder: null, sort: (hi + 1) * 100,
+      ownership: { default: 0, ASSISTANT: 3 },
+      flags: {},
+    };
+  });
+}
+
 // ------------------------------------------------------------------ build
 
 async function writeSourcesAndCompile(packName, docs) {
@@ -1128,5 +1166,6 @@ const huntPacks = buildHuntPacks();
 await writeSourcesAndCompile("recipe-collections", [...buildCollectionJournals(), ...huntPacks.journals]);
 await writeSourcesAndCompile("hunt-items", huntPacks.itemDocs);
 await writeSourcesAndCompile("hunt-bestiary", buildBestiary());
+await writeSourcesAndCompile("hunt-library", buildHuntLibrary());
 
 console.log("Done.");

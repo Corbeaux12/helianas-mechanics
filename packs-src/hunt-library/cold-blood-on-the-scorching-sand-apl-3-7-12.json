@@ -1,0 +1,1085 @@
+{
+  "_id": "f6aYFVNbtJwEdtmT",
+  "_key": "!journal!f6aYFVNbtJwEdtmT",
+  "name": "Cold Blood on the Scorching Sand (APL 3/7/12)",
+  "pages": [
+    {
+      "_id": "1npp0gcrUTX6kcGl",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.1npp0gcrUTX6kcGl",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f6BJ4uaQ4wafLxXs",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.f6BJ4uaQ4wafLxXs",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kK84gy1SmeiiYGCm",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.kK84gy1SmeiiYGCm",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tFvIeP5esN37GCSC",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.tFvIeP5esN37GCSC",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZSaYZZLgsZoQ6j4z",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.ZSaYZZLgsZoQ6j4z",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zWBQxNyXO0aQ355k",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.zWBQxNyXO0aQ355k",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "S2u4rTNINUmoH2SO",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.S2u4rTNINUmoH2SO",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uGyaEOvdXVR1GRum",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.uGyaEOvdXVR1GRum",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LhkV6HcgbjrkK06n",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.LhkV6HcgbjrkK06n",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "woL63xoYfVqAgPWv",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.woL63xoYfVqAgPWv",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8WjE6FO9lH19M2mJ",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.8WjE6FO9lH19M2mJ",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "d4x1fl1rjEqGVuQp",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.d4x1fl1rjEqGVuQp",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WH1CI1pOqeIoos1Z",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.WH1CI1pOqeIoos1Z",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1GWZ874AW0hNSWHQ",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.1GWZ874AW0hNSWHQ",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "N65fhoHW7LhpR47Y",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.N65fhoHW7LhpR47Y",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "A8X2InU34V67QFQQ",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.A8X2InU34V67QFQQ",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yxI5UdKObG7K8vqi",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.yxI5UdKObG7K8vqi",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xqWCxMgN0r3fnALK",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.xqWCxMgN0r3fnALK",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ydOX6Fmc3QSZCS6H",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.ydOX6Fmc3QSZCS6H",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2Vze3xfvYEZg49xX",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.2Vze3xfvYEZg49xX",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dNqp4h55LR0RsFqV",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.dNqp4h55LR0RsFqV",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZOUbQ6hAp09STLhB",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.ZOUbQ6hAp09STLhB",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4bN6IKLAxAJ10Buj",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.4bN6IKLAxAJ10Buj",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HXcghq7Eol7fuqOy",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.HXcghq7Eol7fuqOy",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1vVlLVsL6bD0wI7V",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.1vVlLVsL6bD0wI7V",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lXJn4vh0nWcwroI9",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.lXJn4vh0nWcwroI9",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6nvC0ZHPgUMP5VBZ",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.6nvC0ZHPgUMP5VBZ",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XVjYK0Mld18Q1vzI",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.XVjYK0Mld18Q1vzI",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Xw5dbxaMz3gK6cBT",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.Xw5dbxaMz3gK6cBT",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "a0xrEv7Mn2F3MH0v",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.a0xrEv7Mn2F3MH0v",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rRnJKWEdtikn94eF",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.rRnJKWEdtikn94eF",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mQ0Z7bEknwGFrDeQ",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.mQ0Z7bEknwGFrDeQ",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "moeoOmtOGP7brh5I",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.moeoOmtOGP7brh5I",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cAv5FVgOmljvusjH",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.cAv5FVgOmljvusjH",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sMAxpsw63X0Zh3kd",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.sMAxpsw63X0Zh3kd",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QqsRpbTnQnuWY0kv",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.QqsRpbTnQnuWY0kv",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "P5xdxOgQ44hq3VsU",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.P5xdxOgQ44hq3VsU",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YWho4dklylQ1VNEm",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.YWho4dklylQ1VNEm",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sc574m7Heg3p6R6V",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.Sc574m7Heg3p6R6V",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b6tYwMBsPiAArXS1",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.b6tYwMBsPiAArXS1",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lSxxNJhiSCKPHA0d",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.lSxxNJhiSCKPHA0d",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jvKO8ViW4mvmzAKD",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.jvKO8ViW4mvmzAKD",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "n8g5xTAxeS2abrOS",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.n8g5xTAxeS2abrOS",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SsoNad1G4xSyoZFa",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.SsoNad1G4xSyoZFa",
+      "name": "Page 45",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p045.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GoUl2WONCAB0QmrP",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.GoUl2WONCAB0QmrP",
+      "name": "Page 46",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p046.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EXQVFGwac9GYEtI7",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.EXQVFGwac9GYEtI7",
+      "name": "Page 47",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p047.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Irjw7LaVS0MXnilz",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.Irjw7LaVS0MXnilz",
+      "name": "Page 48",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p048.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ua2gJEh12DClMnhP",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.ua2gJEh12DClMnhP",
+      "name": "Page 49",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p049.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7reqJk03Q7xU6jxY",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.7reqJk03Q7xU6jxY",
+      "name": "Page 50",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p050.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CbPK3qJ5RQm3pH2a",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.CbPK3qJ5RQm3pH2a",
+      "name": "Page 51",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p051.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NOZi3bdRvhJiJjNR",
+      "_key": "!journal.pages!f6aYFVNbtJwEdtmT.NOZi3bdRvhJiJjNR",
+      "name": "Page 52",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/cold-blood-on-the-scorching-sand/p052.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

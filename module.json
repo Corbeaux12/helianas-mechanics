@@ -2,7 +2,7 @@
   "id": "helianas-mechanics",
   "title": "Heliana's Mechanics",
   "description": "A Foundry VTT module providing mechanics from Heliana's Guide to Monster Hunting.",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
@@ -91,6 +91,13 @@
       "type": "Actor",
       "system": "dnd5e",
       "ownership": { "PLAYER": "LIMITED", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "hunt-library",
+      "label": "Heliana's Hunt Library",
+      "path": "packs/hunt-library",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     }
   ],
   "relationships": {
@@ -112,7 +119,8 @@
         "cooking-recipes",
         "recipe-collections",
         "hunt-items",
-        "hunt-bestiary"
+        "hunt-bestiary",
+        "hunt-library"
       ]
     }
   ],

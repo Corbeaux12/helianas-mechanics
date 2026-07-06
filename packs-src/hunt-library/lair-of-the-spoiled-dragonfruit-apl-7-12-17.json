@@ -1,0 +1,791 @@
+{
+  "_id": "1D8pNxaVSuijEW1Y",
+  "_key": "!journal!1D8pNxaVSuijEW1Y",
+  "name": "Lair of the Spoiled Dragonfruit (APL 7/12/17)",
+  "pages": [
+    {
+      "_id": "MFX3mZ154AatIjPD",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.MFX3mZ154AatIjPD",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "10zxmF9MVF1kbRCw",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.10zxmF9MVF1kbRCw",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rNOjgk9vEnWSHCnm",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.rNOjgk9vEnWSHCnm",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "chAAh1aG5DNJBtQf",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.chAAh1aG5DNJBtQf",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rn0Nac03WKNF8Wcq",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.rn0Nac03WKNF8Wcq",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "p8AthgDCJx4JDFpv",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.p8AthgDCJx4JDFpv",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fiEp7CG3n9OZi1XX",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.fiEp7CG3n9OZi1XX",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Z9wdYEwOIBfLWBgY",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.Z9wdYEwOIBfLWBgY",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SxZ4pko262QBI3oK",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.SxZ4pko262QBI3oK",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uDfEREa6GhXtJHZs",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.uDfEREa6GhXtJHZs",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SyFhJ7JakHEKQOyI",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.SyFhJ7JakHEKQOyI",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MHHge3S7wbiqegcP",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.MHHge3S7wbiqegcP",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ab1uiVANHjiP1L48",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.ab1uiVANHjiP1L48",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mPIbeeIxS2iVob30",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.mPIbeeIxS2iVob30",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "35vH342bOFi2eQEk",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.35vH342bOFi2eQEk",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uzbFJUbC857Hhf7u",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.uzbFJUbC857Hhf7u",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ai5SWaiLsMPphT0D",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.Ai5SWaiLsMPphT0D",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7nEx99M08nYxLETC",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.7nEx99M08nYxLETC",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "unB9Q6MvpL3czFLe",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.unB9Q6MvpL3czFLe",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zGwtGfNaFte5wu8K",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.zGwtGfNaFte5wu8K",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jzERZkCdqqMGZPlv",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.jzERZkCdqqMGZPlv",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "r85xI4f5jT3RAEat",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.r85xI4f5jT3RAEat",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sms1eLGHSD5OMzFp",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.Sms1eLGHSD5OMzFp",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7lb0Qw8lYmuLuvsk",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.7lb0Qw8lYmuLuvsk",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3DXwnEDiGnGhbSvr",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.3DXwnEDiGnGhbSvr",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1SHWW35k8L48nFBi",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.1SHWW35k8L48nFBi",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Gee8pMcZMUmHe2vs",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.Gee8pMcZMUmHe2vs",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SqnjwCP0vBO61cHL",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.SqnjwCP0vBO61cHL",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3UW6iYnme3c5sbFO",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.3UW6iYnme3c5sbFO",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IQb6Ck5cULj2vOrn",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.IQb6Ck5cULj2vOrn",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LvxdL7235c0Vdx3Y",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.LvxdL7235c0Vdx3Y",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8CboEyTbtS6KKWrg",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.8CboEyTbtS6KKWrg",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cb3zwuv8Nm23dPck",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.cb3zwuv8Nm23dPck",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "e04zHkSghvFrM1aE",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.e04zHkSghvFrM1aE",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eLRyvxTYFI4VwzqL",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.eLRyvxTYFI4VwzqL",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0CfREzCe6JVSOUOr",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.0CfREzCe6JVSOUOr",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "STruGAIMVKMkxGo2",
+      "_key": "!journal.pages!1D8pNxaVSuijEW1Y.STruGAIMVKMkxGo2",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lair-of-the-spoiled-dragonfruit/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

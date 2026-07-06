@@ -1,0 +1,833 @@
+{
+  "_id": "KYIXsmk3FjtCISYq",
+  "_key": "!journal!KYIXsmk3FjtCISYq",
+  "name": "Forge of the Divine Machine (APL 7/12/17)",
+  "pages": [
+    {
+      "_id": "R911D3cdfGO6vqAp",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.R911D3cdfGO6vqAp",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kO271mp07BEBzcd1",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.kO271mp07BEBzcd1",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "G6G4OJnq9dGYMfqn",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.G6G4OJnq9dGYMfqn",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vKkQbg5H6VOypB5V",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.vKkQbg5H6VOypB5V",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jI4D7Vj0E7zwK8Fg",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.jI4D7Vj0E7zwK8Fg",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FrDqBget6iUEj5ME",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.FrDqBget6iUEj5ME",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5tB9eB9k3Ih1k6OG",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.5tB9eB9k3Ih1k6OG",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lnUxmf6Bk22ieyXJ",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.lnUxmf6Bk22ieyXJ",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tAhlgTC9k7fkgR9Z",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.tAhlgTC9k7fkgR9Z",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6JDo8r4k131Ipwbl",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.6JDo8r4k131Ipwbl",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LgGPBj2tKSsKHVaZ",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.LgGPBj2tKSsKHVaZ",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8wioqFl3VcT0KGmf",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.8wioqFl3VcT0KGmf",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "s3lNg6oky7IyV9pZ",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.s3lNg6oky7IyV9pZ",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "St0XIU5Q0LQVB3Qg",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.St0XIU5Q0LQVB3Qg",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IkJ5gpNt2BV4K4X4",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.IkJ5gpNt2BV4K4X4",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gktEdAxz27aD2rbw",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.gktEdAxz27aD2rbw",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xsvcN1W9Va9aJvNL",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.xsvcN1W9Va9aJvNL",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EznQJTi5aQr3NNSb",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.EznQJTi5aQr3NNSb",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fwiu1Ymu1BmJKapN",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.fwiu1Ymu1BmJKapN",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "C3CfeeEHdNMaQF5F",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.C3CfeeEHdNMaQF5F",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1ThEb19NyJKgfqHl",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.1ThEb19NyJKgfqHl",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H66J2fwSCRDlJ5fY",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.H66J2fwSCRDlJ5fY",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EBWTapD0S6M9A5LM",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.EBWTapD0S6M9A5LM",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KQHf986JYRHtOTfp",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.KQHf986JYRHtOTfp",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "98VWuEUOQib8BqSI",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.98VWuEUOQib8BqSI",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fe1BPdS8h0jSrAKu",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.fe1BPdS8h0jSrAKu",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QGEL9ATn3OvbQGHv",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.QGEL9ATn3OvbQGHv",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "e2ou2VX4F5fOHWRY",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.e2ou2VX4F5fOHWRY",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "efHcSBXX6F6XPWKQ",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.efHcSBXX6F6XPWKQ",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nwFzpZZhwy9FeGuR",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.nwFzpZZhwy9FeGuR",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mQOZbpT4M6gVfz3V",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.mQOZbpT4M6gVfz3V",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mMorX3R07hqZ6B5s",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.mMorX3R07hqZ6B5s",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "K6Z3FP38He9C6Xs5",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.K6Z3FP38He9C6Xs5",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "72hF8aCwV1VYlVcR",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.72hF8aCwV1VYlVcR",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ccyzJn6LDbBQw5ck",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.ccyzJn6LDbBQw5ck",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mVuZpMpgA0SEVpNM",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.mVuZpMpgA0SEVpNM",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uL4StL4lSDsp8phA",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.uL4StL4lSDsp8phA",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MmjmU0Wsn1soy8Kw",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.MmjmU0Wsn1soy8Kw",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VcdZHZvCcG3h63Hk",
+      "_key": "!journal.pages!KYIXsmk3FjtCISYq.VcdZHZvCcG3h63Hk",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/forge-of-the-divine-machine/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

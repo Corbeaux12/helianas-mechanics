@@ -1,0 +1,917 @@
+{
+  "_id": "b15egpJi6RxSWwhr",
+  "_key": "!journal!b15egpJi6RxSWwhr",
+  "name": "Lure of the Shadowstalker (APL 4/8/12)",
+  "pages": [
+    {
+      "_id": "uAzSl1Eu3d2J66Zj",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.uAzSl1Eu3d2J66Zj",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9fhddoqZgyu6k1RN",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.9fhddoqZgyu6k1RN",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "i1sRCOdMtWOUSmLF",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.i1sRCOdMtWOUSmLF",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hHAr39y05HxBOKKG",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.hHAr39y05HxBOKKG",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "htQ9ngPmjDXkVdBJ",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.htQ9ngPmjDXkVdBJ",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DxbSC35fBic0vpRq",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.DxbSC35fBic0vpRq",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "upGdiwoVdLb7j7Hd",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.upGdiwoVdLb7j7Hd",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HzP7NY8qqFmNrx0H",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.HzP7NY8qqFmNrx0H",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hzlHbP6FErzCdpwQ",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.hzlHbP6FErzCdpwQ",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YEJi2Bevss2PHEQe",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.YEJi2Bevss2PHEQe",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6W1uKEO3VZUDqKds",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.6W1uKEO3VZUDqKds",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "c1e5PuL0v20H5QnO",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.c1e5PuL0v20H5QnO",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4rktbsiQbhpYQ7UW",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.4rktbsiQbhpYQ7UW",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nUEZxIyg4XC5fhYZ",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.nUEZxIyg4XC5fhYZ",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gboOc9NTBDgUloL6",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.gboOc9NTBDgUloL6",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RRMsXTDQMb8tim2R",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.RRMsXTDQMb8tim2R",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hFd03gnRUOOmkO4i",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.hFd03gnRUOOmkO4i",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NnzJVQF8MgpvqFde",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.NnzJVQF8MgpvqFde",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ihGIJOjO0UUL4oxH",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.ihGIJOjO0UUL4oxH",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0ZRYdOR5lTDoiAMC",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.0ZRYdOR5lTDoiAMC",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ga72ZhcbeVojfrOa",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.ga72ZhcbeVojfrOa",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vpqjeLDf9kGj8gQE",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.vpqjeLDf9kGj8gQE",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aaD6Egf3V5v78LNF",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.aaD6Egf3V5v78LNF",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gPD0pcSLVGiy549D",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.gPD0pcSLVGiy549D",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "19kUeWUGVVFft22M",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.19kUeWUGVVFft22M",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5PVAiJl0A3xsiqAu",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.5PVAiJl0A3xsiqAu",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WN24DR6v1OFZDjAx",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.WN24DR6v1OFZDjAx",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "08ozJnLG0WFwqTY2",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.08ozJnLG0WFwqTY2",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qgCrmECVxW7yCz8p",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.qgCrmECVxW7yCz8p",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iuwPx9q5mQa5Pb9A",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.iuwPx9q5mQa5Pb9A",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sYb7NFGJPhvLpNen",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.sYb7NFGJPhvLpNen",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "x0zQXe0Snn5r7Wik",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.x0zQXe0Snn5r7Wik",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AOO8DCJ4azLc7pti",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.AOO8DCJ4azLc7pti",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pfkEsJ8cTZTpqliM",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.pfkEsJ8cTZTpqliM",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qQf9ge2Dk6LpExKs",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.qQf9ge2Dk6LpExKs",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OFGBgKdb27rarsqj",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.OFGBgKdb27rarsqj",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XiMZLbIvsEXyVi6U",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.XiMZLbIvsEXyVi6U",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kImS5z8sofKdVTmQ",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.kImS5z8sofKdVTmQ",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "a9RntvOCLYmzgNZ7",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.a9RntvOCLYmzgNZ7",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BtMeN2y8ibDFLy2k",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.BtMeN2y8ibDFLy2k",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jIndZasXMvrCNBH7",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.jIndZasXMvrCNBH7",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GYkbfb2oQUjYKzrT",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.GYkbfb2oQUjYKzrT",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "n1pTWSncVcCmCEay",
+      "_key": "!journal.pages!b15egpJi6RxSWwhr.n1pTWSncVcCmCEay",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/lure-of-the-shadowstalker/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

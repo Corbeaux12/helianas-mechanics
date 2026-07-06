@@ -1,0 +1,1337 @@
+{
+  "_id": "AirZKtEUUdoFlEsf",
+  "_key": "!journal!AirZKtEUUdoFlEsf",
+  "name": "Dark Wings Gleaming Gems (APL 5/10/15)",
+  "pages": [
+    {
+      "_id": "71Ochuj72rmyNHRs",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.71Ochuj72rmyNHRs",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KhdddnCFmy5vKKUv",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.KhdddnCFmy5vKKUv",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "81M9ztvb1CniU6US",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.81M9ztvb1CniU6US",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "U0D4SSBNmNzGvJZz",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.U0D4SSBNmNzGvJZz",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Yz2IrK7G5m32X788",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.Yz2IrK7G5m32X788",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l7vmydPgAT6ksW0R",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.l7vmydPgAT6ksW0R",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "03B4kOwfdX4hBS4k",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.03B4kOwfdX4hBS4k",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "epdUBuFqD2c8HbZd",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.epdUBuFqD2c8HbZd",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "i7IhQlxRKn7SSEMv",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.i7IhQlxRKn7SSEMv",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dc3lcnQmEJvCjY9D",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.dc3lcnQmEJvCjY9D",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CG2GcEv57CCvAu77",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.CG2GcEv57CCvAu77",
+      "name": "Page 12",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p012.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ow21zqkKP0PjjqN9",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.ow21zqkKP0PjjqN9",
+      "name": "Page 13",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p013.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ucUBZDxlcbxx7I4P",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.ucUBZDxlcbxx7I4P",
+      "name": "Page 14",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p014.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pt0shHqLGkbGmbLD",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.pt0shHqLGkbGmbLD",
+      "name": "Page 15",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p015.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xCby3uhX74SxDALa",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.xCby3uhX74SxDALa",
+      "name": "Page 16",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p016.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b3rT2843y2PEQxN9",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.b3rT2843y2PEQxN9",
+      "name": "Page 17",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p017.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ViyktnmmUg0eoygP",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.ViyktnmmUg0eoygP",
+      "name": "Page 18",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p018.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BfolKgBcs9TAEivV",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.BfolKgBcs9TAEivV",
+      "name": "Page 19",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p019.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "u6GItZICFdxTnoGK",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.u6GItZICFdxTnoGK",
+      "name": "Page 20",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p020.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gza7gkXPtxfxt4Qi",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.gza7gkXPtxfxt4Qi",
+      "name": "Page 21",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p021.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mOad9kmCVpE5E3Ru",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.mOad9kmCVpE5E3Ru",
+      "name": "Page 22",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p022.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yVZ0EdJSyMQwUCNI",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.yVZ0EdJSyMQwUCNI",
+      "name": "Page 23",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p023.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PHCVMtFSLWeN9OUz",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.PHCVMtFSLWeN9OUz",
+      "name": "Page 24",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p024.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TPjiaxGKXTCRkEgt",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.TPjiaxGKXTCRkEgt",
+      "name": "Page 25",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p025.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6pQUlVyWPi4WSQ1O",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.6pQUlVyWPi4WSQ1O",
+      "name": "Page 26",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p026.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "s4zwLCmZQcvsO7Vc",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.s4zwLCmZQcvsO7Vc",
+      "name": "Page 27",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p027.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EeidVWEHsa0IWtTM",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.EeidVWEHsa0IWtTM",
+      "name": "Page 28",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p028.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cQ65PsRgHsZF6yqj",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.cQ65PsRgHsZF6yqj",
+      "name": "Page 29",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p029.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XzJeUkZB5JI5Ce3j",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.XzJeUkZB5JI5Ce3j",
+      "name": "Page 30",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p030.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 2900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UWw7vwr5vD3GVzP4",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.UWw7vwr5vD3GVzP4",
+      "name": "Page 31",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p031.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pPuWZaxIAWwcTMQK",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.pPuWZaxIAWwcTMQK",
+      "name": "Page 32",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p032.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3pnqFJhLeFCQws3d",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.3pnqFJhLeFCQws3d",
+      "name": "Page 33",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p033.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qqyjsEprwVoeRCGc",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.qqyjsEprwVoeRCGc",
+      "name": "Page 34",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p034.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WbC7vjmz0gOEYSuU",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.WbC7vjmz0gOEYSuU",
+      "name": "Page 35",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p035.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "M71VhAL2dGG8igQn",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.M71VhAL2dGG8igQn",
+      "name": "Page 36",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p036.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xSFgjFJExjTttoO2",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.xSFgjFJExjTttoO2",
+      "name": "Page 37",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p037.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bws3st2o2bH03H2b",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.bws3st2o2bH03H2b",
+      "name": "Page 38",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p038.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "i2C8SjLeFbXstRs0",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.i2C8SjLeFbXstRs0",
+      "name": "Page 39",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p039.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "I8btEEelznrZSi5O",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.I8btEEelznrZSi5O",
+      "name": "Page 40",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p040.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 3900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "khEcL6WyvEaTN5s2",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.khEcL6WyvEaTN5s2",
+      "name": "Page 41",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p041.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YAofzMwzH797n8Gz",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.YAofzMwzH797n8Gz",
+      "name": "Page 42",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p042.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WeEjdXf5O3e7hhzP",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.WeEjdXf5O3e7hhzP",
+      "name": "Page 43",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p043.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UKVkJulcbw132mEp",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.UKVkJulcbw132mEp",
+      "name": "Page 44",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p044.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XkfxZvPF7hzA6av5",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.XkfxZvPF7hzA6av5",
+      "name": "Page 45",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p045.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jT5DaAZHslbxo3cn",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.jT5DaAZHslbxo3cn",
+      "name": "Page 46",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p046.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2447kSAP3Ho390Ve",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.2447kSAP3Ho390Ve",
+      "name": "Page 47",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p047.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "U836wQJaScuSFeOg",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.U836wQJaScuSFeOg",
+      "name": "Page 48",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p048.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VnLFmYz3u4DHWxrt",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.VnLFmYz3u4DHWxrt",
+      "name": "Page 49",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p049.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xC6ismeqAziKovxe",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.xC6ismeqAziKovxe",
+      "name": "Page 50",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p050.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 4900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1ggK5RahxudkCMNg",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.1ggK5RahxudkCMNg",
+      "name": "Page 51",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p051.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3KH9fzHx5esI40WF",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.3KH9fzHx5esI40WF",
+      "name": "Page 52",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p052.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PNxFEwBF1eko0oC1",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.PNxFEwBF1eko0oC1",
+      "name": "Page 53",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p053.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "boJh9Qj901tLt1gj",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.boJh9Qj901tLt1gj",
+      "name": "Page 54",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p054.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KPFI7W38OGr7rMUo",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.KPFI7W38OGr7rMUo",
+      "name": "Page 55",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p055.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aE21BFJW1r3SEzPV",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.aE21BFJW1r3SEzPV",
+      "name": "Page 56",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p056.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hbwCcKdhqfXYpZFZ",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.hbwCcKdhqfXYpZFZ",
+      "name": "Page 57",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p057.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oQ7pkGQvRKprGDUE",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.oQ7pkGQvRKprGDUE",
+      "name": "Page 58",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p058.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8G9T1WOpZx1HAXZJ",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.8G9T1WOpZx1HAXZJ",
+      "name": "Page 59",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p059.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7lYtjRl9sxWXCr6t",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.7lYtjRl9sxWXCr6t",
+      "name": "Page 60",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p060.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 5900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2mcyBo2RYKByMM5r",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.2mcyBo2RYKByMM5r",
+      "name": "Page 61",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p061.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ckpexvG8YyYCjrge",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.ckpexvG8YyYCjrge",
+      "name": "Page 62",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p062.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ce0HEILOE86nM016",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.Ce0HEILOE86nM016",
+      "name": "Page 63",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p063.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fk2OLuuRhTYjuAI5",
+      "_key": "!journal.pages!AirZKtEUUdoFlEsf.fk2OLuuRhTYjuAI5",
+      "name": "Page 64",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/hunts/dark-wings-gleaming-gems/p064.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 6300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}
