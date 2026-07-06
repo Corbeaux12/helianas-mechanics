@@ -1,0 +1,45 @@
+{
+  "_id": "715xuAkRrEcUNECp",
+  "_key": "!items!715xuAkRrEcUNECp",
+  "name": "Pepper Oni Horn",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a the good, the bad, and the oni (fiend). See The Good, The Bad, and the Oni (Loot Tavern hunt, APL 4/8/12).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 70,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "horn",
+        "pepper oni",
+        "fiend"
+      ]
+    }
+  }
+}

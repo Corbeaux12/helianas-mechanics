@@ -1,0 +1,552 @@
+{
+  "_id": "taFzcztEUa6SbqnE",
+  "_key": "!journal!taFzcztEUa6SbqnE",
+  "name": "The Good, The Bad, and the Oni Recipes",
+  "pages": [
+    {
+      "_id": "tScnGYIPPkRtMw2I",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>The Good, The Bad, and the Oni (Loot Tavern hunt, APL 4/8/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>10</td><td>Eye (2)</td></tr><tr><td>15</td><td>Horn (1)</td></tr><tr><td>20</td><td>Heart (1, volatile)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.iXPmRnzIP8DmbbL3]{Capsitoxin (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5ZtWhQhDpE6xhApM]{Capsitoxin (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.rAcOFVnuKxIqWKXv]{Capsitoxin (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.EvfosHHV7bam2U0w]{Pepper Pick (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.kxhOPoUrsJCJSHhI]{Pepper Pick (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.cA7zHo15jpR6fYzd]{Pepper Pick (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.hM9QqfTBHEnAIwSY]{Shotgum (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.U0jHFoLbn8v9f7WK]{Shotgum (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.w4vRSQOhJkLGJHN2]{Shotgum (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.tScnGYIPPkRtMw2I"
+    },
+    {
+      "_id": "hzD00DbdaszmaKqB",
+      "name": "The Good, The Bad, and the Oni (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/The Good, The Bad, and the Oni/The Good, The Bad, and the Oni v1.1 - PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.hzD00DbdaszmaKqB"
+    },
+    {
+      "_id": "px6gqkg1vBejRc3P",
+      "name": "Capsitoxin (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Capsitoxin (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.iXPmRnzIP8DmbbL3",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ROt8Vkv8zWVJzIlD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SxAY2rr4yIuxZG7P",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.wfy7y395fxvAhmUK",
+                "name": "Pepper Oni Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.px6gqkg1vBejRc3P"
+    },
+    {
+      "_id": "urti56ssFa6s2EAZ",
+      "name": "Capsitoxin (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Capsitoxin (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5ZtWhQhDpE6xhApM",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "27AuQWwsV2xlDZ2l",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rt6rsQtdUFxRGjaw",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.wfy7y395fxvAhmUK",
+                "name": "Pepper Oni Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.urti56ssFa6s2EAZ"
+    },
+    {
+      "_id": "dOuLEc2L4WVmDm58",
+      "name": "Capsitoxin (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Capsitoxin (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.rAcOFVnuKxIqWKXv",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "j54raWbzLw4Jbdsd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vi0xvFha860idpgK",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.wfy7y395fxvAhmUK",
+                "name": "Pepper Oni Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.dOuLEc2L4WVmDm58"
+    },
+    {
+      "_id": "KM55w51wae44HpeU",
+      "name": "Pepper Pick (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Pepper Pick (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.EvfosHHV7bam2U0w",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "HwlOgvH7OrvjK48j",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "KNe06JT2udWys8Jr",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.715xuAkRrEcUNECp",
+                "name": "Pepper Oni Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "horn",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.KM55w51wae44HpeU"
+    },
+    {
+      "_id": "muv2NsUCIN8dQrpp",
+      "name": "Pepper Pick (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Pepper Pick (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.kxhOPoUrsJCJSHhI",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "I0mtntii9l5zbvp5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "NgomuBwn7Sf9OsrD",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.715xuAkRrEcUNECp",
+                "name": "Pepper Oni Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "horn",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.muv2NsUCIN8dQrpp"
+    },
+    {
+      "_id": "hG7ZVkYqjvtGDiYJ",
+      "name": "Pepper Pick (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Pepper Pick (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.cA7zHo15jpR6fYzd",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WU3R4CfYGsAsChaT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "VEvGQYz7SEM49HqG",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.715xuAkRrEcUNECp",
+                "name": "Pepper Oni Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "horn",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.hG7ZVkYqjvtGDiYJ"
+    },
+    {
+      "_id": "QmipKvT0muSJLxNT",
+      "name": "Shotgum (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shotgum (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.hM9QqfTBHEnAIwSY",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "h9rTz3SAMoKVK2Qk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "6MDXzqj12OySF7RH",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.4BHNKWUPyMqwwsVO",
+                "name": "Pepper Oni Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.QmipKvT0muSJLxNT"
+    },
+    {
+      "_id": "jhyKRuEBc7tg1bLc",
+      "name": "Shotgum (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shotgum (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.U0jHFoLbn8v9f7WK",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "NZJCrFJCa6D4ctir",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "wkhT1ZQ5DRm8DglP",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.4BHNKWUPyMqwwsVO",
+                "name": "Pepper Oni Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.jhyKRuEBc7tg1bLc"
+    },
+    {
+      "_id": "VvrrSgcwV6yJ4Jb1",
+      "name": "Shotgum (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shotgum (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.w4vRSQOhJkLGJHN2",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "iHIcbgW4Jf8Qu53G",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "D5fxvbabG6KWP62l",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.4BHNKWUPyMqwwsVO",
+                "name": "Pepper Oni Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "pepper oni",
+                  "fiend"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!taFzcztEUa6SbqnE.VvrrSgcwV6yJ4Jb1"
+    }
+  ],
+  "folder": null,
+  "sort": 11100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

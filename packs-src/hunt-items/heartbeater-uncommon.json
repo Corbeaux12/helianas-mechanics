@@ -1,0 +1,37 @@
+{
+  "_id": "b4ah1cCJut6vlnY6",
+  "_key": "!items!b4ah1cCJut6vlnY6",
+  "name": "Heartbeater (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (flail), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> ooze (amalgamooze) heart</p><p>Carrying a heartbeater is an honour bestowed upon the most devoted of the Knights Penitent. It symbolises their eternal punishment, which is both an agonising cage and a source of great power. Only those willing to suffer for their convictions and sacrifice their own humanity can unlock the true power of this macabre weapon.</p><p>This flail has 3 charges and regains 1d3 expended charges daily at dawn.</p><p><strong>Rip Cage.</strong> While holding the flail, you can use an action to magically rip your own heart from your chest and transfer it to the cage in the weapon without killing yourself, taking 2d6 necrotic damage in the process. This damage can't be reduced or prevented in any way. While your heart is in the cage, your creature type is undead, and the flail deals an extra 1d6 necrotic damage on a hit. Your heart remains in the cage until you use a bonus action to take it back into yourself, or until you finish a short or long rest.</p><p><strong>Hollow Beat.</strong> While your heart is in the cage, you can cast the <em>chill touch</em> cantrip at will (save DC 15). When cast in this way, the spell creates a ghostly heart with writhing blood vessels instead of a skeletal hand. In addition, when you hit a creature with an attack using the flail, you can expend 1 charge to immediately cast the <em>chill touch</em> cantrip targeting that creature (save DC 15; no action required).</p><p><strong>Uncommon variant:</strong> The item doesn't have any charges or the Hollow Beat property. Reduce the extra damage dealt by the flail to 1d4, and the damage to yourself to 2d4.</p><p><strong>Very rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, the extra damage dealt by the flail to 1d8, and the damage to yourself to 2d8.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 800,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,720 @@
+{
+  "_id": "KI1FkYyjTH9fhI4o",
+  "_key": "!journal!KI1FkYyjTH9fhI4o",
+  "name": "Bones N' Roses Recipes",
+  "pages": [
+    {
+      "_id": "xCbmzTpMjAG6tZ51",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Bones N' Roses (Loot Tavern hunt, APL 5/10/15)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>10</td><td>Bone (3)</td></tr><tr><td>15</td><td>Vesicle (5, edible/volatile)</td></tr><tr><td>20</td><td>Heart (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ste4wKZQOuMG7OnA]{Amalgamask (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.4cWCy14p0QprJ6NM]{Amalgamask (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.TQ4DDR1Vg33wpHUs]{Amalgamask (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.b4ah1cCJut6vlnY6]{Heartbeater (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.fftQS1VEod9tUgFr]{Heartbeater (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.VHIcGAAIF8o6unbb]{Heartbeater (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.oMhhwDc04kzTHmX0]{Maiden's Tower (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.dWC0x5kNflTuBlAQ]{Maiden's Tower (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.T0o4nARKl71dkP0q]{Maiden's Tower (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Cr0f2pOaGIzn41Pv]{Liberator (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.TUuaUjDZ4Y3LgRLi]{Liberator (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.oU7x7Kl1Mp7aoGQW]{Liberator (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.xCbmzTpMjAG6tZ51"
+    },
+    {
+      "_id": "Agv6OeO6bx7Ku7v1",
+      "name": "Bones N' Roses (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/BloodNRoses/Bones N' Roses - v1.1-PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.Agv6OeO6bx7Ku7v1"
+    },
+    {
+      "_id": "qatYomJl455mU65A",
+      "name": "Amalgamask (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Amalgamask (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ste4wKZQOuMG7OnA",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZCW2nwSOzVIggL6T",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8Si7cTZgAIbLsqMS",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.032u5m4A6k3VZ2Ce",
+                "name": "Amalgamooze Vesicle",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "vesicle",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.qatYomJl455mU65A"
+    },
+    {
+      "_id": "JvmJEhaOz3C1v6q1",
+      "name": "Amalgamask (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Amalgamask (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.4cWCy14p0QprJ6NM",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "utt6kqrXr4H82mqW",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aexyEJilH6vuKX0B",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.032u5m4A6k3VZ2Ce",
+                "name": "Amalgamooze Vesicle",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "vesicle",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.JvmJEhaOz3C1v6q1"
+    },
+    {
+      "_id": "r1bHrDvsOp7GdVJX",
+      "name": "Amalgamask (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Amalgamask (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.TQ4DDR1Vg33wpHUs",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6QBaG2DQDURG7wWd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "poJoi7k7hZLFIKXx",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.032u5m4A6k3VZ2Ce",
+                "name": "Amalgamooze Vesicle",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "vesicle",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.r1bHrDvsOp7GdVJX"
+    },
+    {
+      "_id": "PBnnD6OKf6bSFb7l",
+      "name": "Heartbeater (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Heartbeater (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.b4ah1cCJut6vlnY6",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9TMEj7bZgvA75IhD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0zfy0tUmBe5GlpBb",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.BcxePB8bV1C2WgKq",
+                "name": "Amalgamooze Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.PBnnD6OKf6bSFb7l"
+    },
+    {
+      "_id": "S0TQm6qovxBhnuH3",
+      "name": "Heartbeater (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Heartbeater (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.fftQS1VEod9tUgFr",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9u6LsQPe54I67ZwO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "k9hkYqPLkWzanGxj",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.BcxePB8bV1C2WgKq",
+                "name": "Amalgamooze Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.S0TQm6qovxBhnuH3"
+    },
+    {
+      "_id": "LNcuatrnEl2jZV4A",
+      "name": "Heartbeater (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Heartbeater (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.VHIcGAAIF8o6unbb",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4cbsiGOKoGi7tPrJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RBnOD5GfZD8TGqm4",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.BcxePB8bV1C2WgKq",
+                "name": "Amalgamooze Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "heart",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.LNcuatrnEl2jZV4A"
+    },
+    {
+      "_id": "nb6ncq3exi3xkG8K",
+      "name": "Maiden's Tower (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Maiden's Tower (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.oMhhwDc04kzTHmX0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "H2tRN36vKw4Wjfye",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "cR2BGmOODzYBHrWo",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.7gIQq5YePWKdTb5t",
+                "name": "Amalgamooze Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.nb6ncq3exi3xkG8K"
+    },
+    {
+      "_id": "BKDPXn6HT5j6F5vV",
+      "name": "Maiden's Tower (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Maiden's Tower (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.dWC0x5kNflTuBlAQ",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fwQIvogeTJ533XFc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "nPRRwTuwL3Yobr0d",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.7gIQq5YePWKdTb5t",
+                "name": "Amalgamooze Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.BKDPXn6HT5j6F5vV"
+    },
+    {
+      "_id": "AvXvFZF48rK3kXIQ",
+      "name": "Maiden's Tower (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Maiden's Tower (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.T0o4nARKl71dkP0q",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Wi7yolDKCSxOmyhl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vWRJGIv4IK4yh67E",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.7gIQq5YePWKdTb5t",
+                "name": "Amalgamooze Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bone",
+                  "amalgamooze",
+                  "ooze"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.AvXvFZF48rK3kXIQ"
+    },
+    {
+      "_id": "puzeqhf3SMlTbolV",
+      "name": "Liberator (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Liberator (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Cr0f2pOaGIzn41Pv",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "D2S6yi1YkIIKjzAx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "438IHHIqoK0hm91c",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.OXzIMGFo0mABAkbE",
+                "name": "Pouch of Celestial Feathers",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "celestial",
+                  "feathers"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "ooze",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.puzeqhf3SMlTbolV"
+    },
+    {
+      "_id": "IqaYPQ3hizym1toI",
+      "name": "Liberator (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Liberator (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.TUuaUjDZ4Y3LgRLi",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5dvNXUHOFvQT5MU6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0Bg834wTHjzn1Gsp",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.OXzIMGFo0mABAkbE",
+                "name": "Pouch of Celestial Feathers",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "celestial",
+                  "feathers"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "ooze",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.IqaYPQ3hizym1toI"
+    },
+    {
+      "_id": "zXsZfp4yqmejfT3d",
+      "name": "Liberator (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Liberator (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.oU7x7Kl1Mp7aoGQW",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZLjGb6lYSSGCfF9Y",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5akIkPQRkokcWu8s",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.OXzIMGFo0mABAkbE",
+                "name": "Pouch of Celestial Feathers",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "celestial",
+                  "feathers"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "ooze",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!KI1FkYyjTH9fhI4o.zXsZfp4yqmejfT3d"
+    }
+  ],
+  "folder": null,
+  "sort": 10400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

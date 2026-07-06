@@ -1,0 +1,37 @@
+{
+  "_id": "T0o4nARKl71dkP0q",
+  "_key": "!items!T0o4nARKl71dkP0q",
+  "name": "Maiden's Tower (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (shield), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> ooze (amalgamooze) bone</p><p>The Order of the Knights Penitent believes that only constant punishment can keep sinful impulses at bay and lead to a life of righteousness. Perched atop this shield's spiked exterior is a serene, silver face. When the shield encases a creature, bloody tears pour from its empty eyes, and its cold metallic lips occasionally twitch into a smile when it causes a victim especially great agony.</p><p><strong>Share the Pain.</strong> When a creature hits you with a melee attack while you're holding the shield, its spikes extend to pierce that creature in return, dealing 1d8 piercing damage to it. Once this happens, it can't happen again until the end of your next turn.</p><p><strong>Locked In.</strong> While holding the shield, you can use an action to force a creature within 5 feet of you to make a DC 15 Charisma saving throw. On a failure, the shield opens like an iron maiden and swallows the target, which is transported to a torturous demiplane, as per the <em>banishment</em> spell, for 1 minute or until your concentration ends (as if concentrating on a spell). Once this property of the shield is used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> The shield doesn't have the Locked In property.</p><p><strong>Very rare variant:</strong> The Locked In property can be used twice, regaining all expended uses daily at dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 12500,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

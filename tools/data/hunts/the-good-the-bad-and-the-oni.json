@@ -1,0 +1,60 @@
+{
+  "name": "The Good, The Bad, and the Oni",
+  "source": "The Good, The Bad, and the Oni (Loot Tavern hunt, APL 4/8/12)",
+  "creatureType": "fiend",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/4th, 8th, & 12th/The Good, The Bad, and the Oni/The Good, The Bad, and the Oni v1.1 - PAGES.pdf",
+  "harvest": [
+    { "dc": 10, "components": ["Eye (2)"] },
+    { "dc": 15, "components": ["Horn (1)"] },
+    { "dc": 20, "components": ["Heart (1, volatile)"] }
+  ],
+  "components": [
+    { "name": "Pepper Oni Eye",   "tags": ["eye", "pepper oni", "fiend"],   "price": 40 },
+    { "name": "Pepper Oni Horn",  "tags": ["horn", "pepper oni", "fiend"],  "price": 70 },
+    { "name": "Pepper Oni Heart", "tags": ["heart", "pepper oni", "fiend"], "price": 110 }
+  ],
+  "items": [
+    {
+      "name": "Capsitoxin",
+      "itemType": "consumable",
+      "kind": "Potion",
+      "component": "Pepper Oni Eye",
+      "baseRecipe": "Potion Base",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 270 },
+        { "rarity": "rare",      "value": 960 },
+        { "rarity": "very rare", "value": 4960 }
+      ],
+      "description": "<p><em>Potion, uncommon / rare / very rare</em></p><p><strong>Component:</strong> fiend (pepper oni) eye</p><p>Don't let the friendly appearance of this bell-pepper-shaped bottle deceive you! Distilled from over a dozen carefully selected varieties of hot pepper and mixed with the eyes of a Fiend, this powerful poison is one of the spiciest substances in all of Y'ummm, and perhaps the world. Ingest at your own peril.</p><p>This poison can be delivered through ingestion, inhalation, or injury, and has different effects depending on the method.</p><p><strong>Ingestion.</strong> A creature that ingests this poison must succeed on a DC 15 Constitution saving throw or be poisoned for 1d4 hours. While poisoned in this way, the creature is blinded, as its eyes water endlessly from the spice, and takes 2d6 fire damage at the end of each hour.</p><p><strong>Inhalation.</strong> As an action, you can throw this poison at a point within 30 feet of you, causing it to burst into a 10-foot-radius sphere of spicy fumes that rapidly dissipate. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d6 fire damage and is poisoned until the end of its next turn. While a creature is poisoned in this way, it is also blinded. On a successful save, a creature takes half as much damage and isn't poisoned.</p><p><strong>Injury.</strong> As an action, you can apply this poison to a weapon that deals piercing or slashing damage. The poison stays potent for 1 hour or until a creature is hit with an attack roll using the coated weapon. A creature hit by the coated weapon must succeed on a DC 15 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, a creature takes 2d6 fire damage at the end of each of its turns.</p><p><strong>Uncommon variant:</strong> Reduce the DCs to 13, the duration of the ingested poison to 1 hour, and the damage of the inhaled poison to 1d6. A creature suffering the effects of the injury poison can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p><p><strong>Very rare variant:</strong> Increase the DCs to 16, the duration of the ingested poison to 3d4 hours, the damage of the inhaled poison to 6d6, and the damage of the injury poison to 3d6.</p>"
+    },
+    {
+      "name": "Pepper Pick",
+      "itemType": "weapon",
+      "kind": "Weapon (war pick)",
+      "component": "Pepper Oni Horn",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 790 },
+        { "rarity": "rare",      "value": 3200 },
+        { "rarity": "very rare", "value": 12650 }
+      ],
+      "description": "<p><em>Weapon (war pick), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> fiend (pepper oni) horn</p><p>\"Peter Pepper picked the pungent pepper pick to pick a peck of plump pickled peppers for a potent pepper potion.\" — Y'ummmite tongue twister</p><p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. The weapon has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Pepper Pop.</strong> When you hit a target with an attack roll using this weapon, you can expend 1 charge to release a portion of the pepper gas contained within and ignite it in a small, controlled explosion. Roll a d4. On a 3 or lower, the target takes an extra 1d6 fire damage. On a 4, the explosion is a little larger than anticipated, causing you to take 1d6 fire damage, and the target to take an extra 3d6 fire damage and make a DC 13 Strength saving throw. On a failed save, the target is pushed up to 10 feet directly away from you and knocked prone.</p><p><strong>Rare variant:</strong> Increase the charges to 6, the recharge to 1d4 + 2, the DC to 15, the damage the target takes on a 3 or lower to 2d6, and the damage the target takes on a 4 to 4d6.</p><p><strong>Very rare variant:</strong> Increase the attack and damage bonus to +2, the charges to 8, the recharge to 1d4 + 4, the DC to 16, the damage the target takes on a 3 or lower to 2d6, and the damage the target takes on a 4 to 4d6.</p>"
+    },
+    {
+      "name": "Shotgum",
+      "itemType": "weapon",
+      "kind": "Weapon (any firearm)",
+      "component": "Pepper Oni Heart",
+      "baseRecipe": "Magitech Firearm",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 630 },
+        { "rarity": "rare",      "value": 2870 },
+        { "rarity": "very rare", "value": 12580 }
+      ],
+      "description": "<p><em>Weapon (any firearm), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> fiend (pepper oni) heart</p><p>Dropping out of most barrels with all the impetus of a lethargic snail, Y'ummite gumballs are far too heavy to be used as ammunition by regular magitech firearms. To fix this issue, a shotgum's special firing mechanism combines a little powdered fiend heart and a lot of gunpowder, shooting each projectile out with the explosive force of a cannonball.</p><p><strong>Gumballs.</strong> This weapon deals bludgeoning damage instead of its normal damage type, and deals an extra 1d4 bludgeoning damage to each target it hits. Instead of bullets, it uses gumballs as ammunition. Gumballs can be purchased from stores in Y'ummm for the same price as bullets. When you hit a creature with an attack using this weapon, you can choose for the gumball to stick to that creature until it or another creature within reach uses an action to detach any gumballs on the target. A creature's speed is reduced by 5 feet for each gumball attached to it.</p><p><strong>Up.</strong> As a bonus action while holding this weapon, you can speak its command word, causing each gumball attached to a creature within 60 feet of you to inflate into a bubble. Each Medium or smaller creature with at least two gumballs attached to it must succeed on a DC 16 Strength saving throw or suffer the effects of the <em>levitate</em> spell as if you cast it (no concentration required). For each size category above Medium, a creature needs one additional gumball to be affected. Inflated gumballs can't be removed from a creature. The bubbles last for 1 minute before deflating, ending the effect and falling off the creature. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Remove the Up property. The weapon doesn't deal extra damage on a hit.</p><p><strong>Rare variant:</strong> Reduce the DC to 15. The weapon doesn't deal extra damage on a hit.</p>"
+    }
+  ]
+}

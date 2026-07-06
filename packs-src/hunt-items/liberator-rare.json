@@ -1,0 +1,37 @@
+{
+  "_id": "TUuaUjDZ4Y3LgRLi",
+  "_key": "!items!TUuaUjDZ4Y3LgRLi",
+  "name": "Liberator (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any sword), uncommon / rare / very rare</em></p><p><strong>Component:</strong> pouch of celestial feathers</p><p>It is said that in times of great oppression, divine messengers seek out those willing to rise up against their tormentors. These would-be heroes are presented with a gleaming blade, sharp enough to cut through the chains that bind them and light enough to let their spirits soar. Liberators have helped many revolutionaries and freedom seekers leave their mark throughout history.</p><p><strong>Chainbreaker Strike.</strong> You have advantage on attack rolls made with this sword against creatures that are grappling an unwilling target. The first time each turn you hit such a creature, you deal an extra 2d6 radiant damage to it, and the grappled creature can use its reaction to automatically escape from the grapple.</p><p><strong>Rare variant:</strong> Increase the damage to 4d6. The sword has the To the Rescue! property.</p><p><strong>To the Rescue!</strong> Once on each of your turns, you can move up to half your speed toward a hostile creature that is grappling an unwilling target, without expending any movement.</p><p><strong>Very rare variant:</strong> Increase the damage to 6d6. The sword has the To the Rescue! property. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><em>This item is a treasure reward (not harvested from the amalgamooze); its tiered values are estimated as the source book prints no price for it.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 2300,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

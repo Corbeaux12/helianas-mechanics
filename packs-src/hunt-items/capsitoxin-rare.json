@@ -1,0 +1,37 @@
+{
+  "_id": "5ZtWhQhDpE6xhApM",
+  "_key": "!items!5ZtWhQhDpE6xhApM",
+  "name": "Capsitoxin (Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, uncommon / rare / very rare</em></p><p><strong>Component:</strong> fiend (pepper oni) eye</p><p>Don't let the friendly appearance of this bell-pepper-shaped bottle deceive you! Distilled from over a dozen carefully selected varieties of hot pepper and mixed with the eyes of a Fiend, this powerful poison is one of the spiciest substances in all of Y'ummm, and perhaps the world. Ingest at your own peril.</p><p>This poison can be delivered through ingestion, inhalation, or injury, and has different effects depending on the method.</p><p><strong>Ingestion.</strong> A creature that ingests this poison must succeed on a DC 15 Constitution saving throw or be poisoned for 1d4 hours. While poisoned in this way, the creature is blinded, as its eyes water endlessly from the spice, and takes 2d6 fire damage at the end of each hour.</p><p><strong>Inhalation.</strong> As an action, you can throw this poison at a point within 30 feet of you, causing it to burst into a 10-foot-radius sphere of spicy fumes that rapidly dissipate. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 4d6 fire damage and is poisoned until the end of its next turn. While a creature is poisoned in this way, it is also blinded. On a successful save, a creature takes half as much damage and isn't poisoned.</p><p><strong>Injury.</strong> As an action, you can apply this poison to a weapon that deals piercing or slashing damage. The poison stays potent for 1 hour or until a creature is hit with an attack roll using the coated weapon. A creature hit by the coated weapon must succeed on a DC 15 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, a creature takes 2d6 fire damage at the end of each of its turns.</p><p><strong>Uncommon variant:</strong> Reduce the DCs to 13, the duration of the ingested poison to 1 hour, and the damage of the inhaled poison to 1d6. A creature suffering the effects of the injury poison can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p><p><strong>Very rare variant:</strong> Increase the DCs to 16, the duration of the ingested poison to 3d4 hours, the damage of the inhaled poison to 6d6, and the damage of the injury poison to 3d6.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 960,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

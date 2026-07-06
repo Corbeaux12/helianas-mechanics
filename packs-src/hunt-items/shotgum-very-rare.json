@@ -1,0 +1,37 @@
+{
+  "_id": "w4vRSQOhJkLGJHN2",
+  "_key": "!items!w4vRSQOhJkLGJHN2",
+  "name": "Shotgum (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any firearm), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> fiend (pepper oni) heart</p><p>Dropping out of most barrels with all the impetus of a lethargic snail, Y'ummite gumballs are far too heavy to be used as ammunition by regular magitech firearms. To fix this issue, a shotgum's special firing mechanism combines a little powdered fiend heart and a lot of gunpowder, shooting each projectile out with the explosive force of a cannonball.</p><p><strong>Gumballs.</strong> This weapon deals bludgeoning damage instead of its normal damage type, and deals an extra 1d4 bludgeoning damage to each target it hits. Instead of bullets, it uses gumballs as ammunition. Gumballs can be purchased from stores in Y'ummm for the same price as bullets. When you hit a creature with an attack using this weapon, you can choose for the gumball to stick to that creature until it or another creature within reach uses an action to detach any gumballs on the target. A creature's speed is reduced by 5 feet for each gumball attached to it.</p><p><strong>Up.</strong> As a bonus action while holding this weapon, you can speak its command word, causing each gumball attached to a creature within 60 feet of you to inflate into a bubble. Each Medium or smaller creature with at least two gumballs attached to it must succeed on a DC 16 Strength saving throw or suffer the effects of the <em>levitate</em> spell as if you cast it (no concentration required). For each size category above Medium, a creature needs one additional gumball to be affected. Inflated gumballs can't be removed from a creature. The bubbles last for 1 minute before deflating, ending the effect and falling off the creature. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Remove the Up property. The weapon doesn't deal extra damage on a hit.</p><p><strong>Rare variant:</strong> Reduce the DC to 15. The weapon doesn't deal extra damage on a hit.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 12580,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

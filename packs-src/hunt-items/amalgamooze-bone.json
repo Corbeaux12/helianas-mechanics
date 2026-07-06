@@ -1,0 +1,45 @@
+{
+  "_id": "7gIQq5YePWKdTb5t",
+  "_key": "!items!7gIQq5YePWKdTb5t",
+  "name": "Amalgamooze Bone",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a bones n' roses (ooze). See Bones N' Roses (Loot Tavern hunt, APL 5/10/15).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "bone",
+        "amalgamooze",
+        "ooze"
+      ]
+    }
+  }
+}
