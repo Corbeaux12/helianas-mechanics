@@ -1,0 +1,37 @@
+{
+  "_id": "IQbgkH34iIfS335U",
+  "_key": "!items!IQbgkH34iIfS335U",
+  "name": "Gift of Many Things (Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Krampus' soul</p><p>Sure, you could go to the market and spend your hard-earned gold on potions of healing, but a gift of many things could be anything! Even potions of healing! Why not inject some fun and chaos into your holidays with the gift so secret, not even Santa knows what it holds?</p><p><strong>Mystery Box.</strong> The contents of this magical gift are kept magically indeterminate, even against divination spells, until the box is opened as an action. Roll a d6 and consult the table below to determine what you find inside. If a creature of evil alignment opens the box, it must roll the die twice, taking the lower result. After the contents of the gift are removed from within, the box disappears in a shower of colourful sparkles.</p><p><strong>Uncommon (d6):</strong> 1 A lump of coal; 2 1d4 potions of healing; 3 1d4 random 1st-level spell scrolls; 4 1 random potion of resistance; 5 1 random 3rd-level spell scroll; 6 1 potion of frost giant strength.</p><p><strong>Rare variant (d8):</strong> 1 A lump of coal; 2 1 random potion of resistance; 3 1d4 potions of greater healing; 4 1d4 random 2nd-level spell scrolls; 5 1 random 5th-level spell scroll; 6 1 potion of frost giant strength; 7 1 chime of opening; 8 1 box of marvelous pigments.</p><p><strong>Very rare variant (d10):</strong> 1 A lump of coal; 2 1d4 potions of superior healing; 3 1d4 random 3rd-level spell scrolls; 4 2 random potions of resistance; 5 1 random 7th-level spell scroll; 6 2d8 + 5 +3 arrows; 7 1 box of marvelous pigments; 8 1 potion of flying; 9 1 very rare baumble; 10 1 ring of three wishes, with only 1 wish left.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1660,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

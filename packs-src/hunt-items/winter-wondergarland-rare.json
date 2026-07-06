@@ -1,0 +1,37 @@
+{
+  "_id": "t1g8R3Z5aMjosaqI",
+  "_key": "!items!t1g8R3Z5aMjosaqI",
+  "name": "Winter Wondergarland (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (whip), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Krampus' undying heart</p><p>Oh, the weather outside is frightful, and with the power of this seasonal whip, you can make it frightful inside as well. Crackling with electricity from a plethora of short-circuiting lights and covered with crusty fake snow, this flexible weapon can be used both as a last-resort Giftmas decoration and a festive implement of death!</p><p>Due to its sharp pine needles, this whip deals piercing damage instead of slashing damage.</p><p><strong>Thundersnow.</strong> As an action, you can crack the whip at a spot you can see within 10 feet of you, causing an unusual storm to form in a 20-foot radius sphere centred on that point. Pick up to two of the options below. Each creature other than you in the area must make a DC 13 Constitution saving throw, suffering the effects of the options chosen.</p><ul><li><strong>Thunder.</strong> A thunderous boom echoes through the area. On a failed save, a creature takes 3d6 thunder damage and is deafened until the start of your next turn. On a successful one, it takes half as much damage and isn't deafened.</li><li><strong>Snow.</strong> Frigid snow whips around in the area. On a failed save, a creature takes 3d6 cold damage and its speed is halved until the start of your next turn. On a successful one, it takes half as much damage and its speed isn't reduced.</li><li><strong>Lightning.</strong> Bolts of lightning arc erratically through the area. A creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one. Creatures made of metal or wearing metal armour have disadvantage on the saving throw.</li><li><strong>Hail.</strong> Large hailstones rain down from the sky in the area. A creature takes 4d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</li></ul><p>This property of the whip can be used twice, regaining all expended uses daily at dawn.</p><p><strong>Rare variant:</strong> Increase the DC to 15. The whip deals an extra 1d4 lightning damage to the first target it hits on each of your turns.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. You can pick up to three options when using the Thundersnow property. The whip deals an extra 1d4 lightning damage to the first target it hits on each of your turns.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 2980,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

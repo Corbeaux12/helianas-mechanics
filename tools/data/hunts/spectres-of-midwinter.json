@@ -1,0 +1,93 @@
+{
+  "name": "Spectres of Midwinter",
+  "source": "Spectres of Midwinter (Loot Tavern hunt, APL 5/10/15)",
+  "creatureType": "undead",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Spectres of Midwinter/Spectres of Midwinter - Version 1.3 PAGES.pdf",
+  "harvest": [
+    { "dc": 5, "components": ["Krampus' Eye (1)"] },
+    { "dc": 10, "components": ["Krampus' Marrow (1)"] },
+    { "dc": 15, "components": ["Krampus' Skin (1)"] },
+    { "dc": 20, "components": ["Krampus' Undying Heart (1)"] },
+    { "dc": 25, "components": ["Krampus' Soul (1)"] }
+  ],
+  "components": [
+    { "name": "Krampus' Eye",           "tags": ["eye", "krampus", "undead"],           "price": 15 },
+    { "name": "Krampus' Marrow",        "tags": ["marrow", "krampus", "undead"],        "price": 40 },
+    { "name": "Krampus' Skin",          "tags": ["skin", "krampus", "undead"],          "price": 70 },
+    { "name": "Krampus' Undying Heart", "tags": ["undying heart", "krampus", "undead"], "price": 110 },
+    { "name": "Krampus' Soul",          "tags": ["soul", "krampus", "undead"],          "price": 160 }
+  ],
+  "items": [
+    {
+      "name": "Armour of the Giftmas Killer",
+      "itemType": "equipment",
+      "kind": "Armour (any)",
+      "components": ["Krampus' Eye", "Krampus' Skin"],
+      "baseRecipe": "Leather Armor",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 650 },
+        { "rarity": "rare",      "value": 2100 },
+        { "rarity": "very rare", "value": 11500 }
+      ],
+      "description": "<p><em>Armour (any), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Krampus' eye, Krampus' skin</p><p>The residents of Frostford awoke one Giftmas morning to a seasonal surprise beyond compare. A bundle of new presents! For every child and grown-up! And no one had a clue who'd left them there. But joy soon turned to horror, upon close examination: they were made of human skin and teeth and hair! And news of nearby towns told of whole settlements slaughtered... butchered in their beds without a care.</p><p>The armour has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Down the Chimney.</strong> While wearing this armour, you can move through and stop in a space large enough for a creature one size smaller than you without squeezing. Additionally, as a bonus action while wearing this armour, you can expend 1 charge to make your body even more unnaturally malleable; until the end of your turn, you can move through spaces as narrow as 1 foot without squeezing, and you have advantage on ability checks made to escape being grappled.</p><p><strong>He Sees You When You're Sleeping.</strong> As an action while wearing this armour, you can cast the <em>scrying</em> spell (save DC 15). When cast in this way, the spell can only target a creature, and if the creature is awake, it automatically succeeds on its saving throw and you become aware of this. Once this property of the armour has been used, it can't be used again until the next dawn. If a creature succeeds on the saving throw due to being awake, the use of this property isn't expended.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 3 and the recharge to 1d3. Remove the He Sees You When You're Sleeping property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. While wearing this armour, you have resistance to cold damage.</p>"
+    },
+    {
+      "name": "Baumbles",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Krampus' Marrow",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 310 },
+        { "rarity": "rare",      "value": 830 },
+        { "rarity": "very rare", "value": 6650 },
+        { "rarity": "legendary", "value": 33230 }
+      ],
+      "description": "<p><em>Wondrous item, varies (uncommon / rare / very rare / legendary)</em></p><p><strong>Component:</strong> Krampus' marrow</p><p>One of many beautiful Giftmas tales tells the story of a child left alone in their home, who slaughtered a pair of burglars using convoluted booby traps made from holiday supplies. Not all children have quite as much guile or inventiveness, however, and to ensure their well-being, more straightforward ornamental explosives were developed. Baumbles are so easy to use that even a toddler could massacre a band of would-be thieves!</p><p>As an action, you can light the fuse on one of these explosive devices and throw it at a point within 30 feet of you, where it explodes in a 15-foot radius sphere and is destroyed. The effects of each baumble depend on its rarity and appearance, as described below.</p><ul><li><strong>Mistletoe Mistbomb (Uncommon).</strong> This baumble is solid pink, with a grainy texture. Upon detonation, it fills the area with a rosy, mistletoe-infused mist that quickly dissipates. Each creature in the area must succeed on a DC 13 Wisdom saving throw or be charmed by another random creature in the area for 1 minute. While charmed in this way, a creature can't willingly move away from the charmer, and can't target any creature but the charmer with spells and abilities that require a willing target. If only one creature is caught in the blast, this baumble has no effect. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li><li><strong>Smo-ho-hoke Bomb (Rare).</strong> This baumble is pearly white, with wispy patterns. Upon detonation, it fills the area with thick eggnog fumes that heavily obscure it for 1 minute or until dispersed by a wind of moderate or greater speed. A creature that starts its turn in the fumes or enters them for the first time on its turn must succeed on a DC 15 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li><li><strong>Giftwrapper (Very Rare).</strong> This baumble has stripes of red and green. Upon detonation, several strips of magically reinforced wrapping paper come flying out and attempt to constrict all creatures. Each creature in the area must succeed on a DC 16 Dexterity saving throw or be restrained by the paper, complete with a bow on top, for 1 minute. A restrained creature or another creature within reach of it can use its action to make a DC 16 Strength check, ending the restrained condition on a success. On a failed check, the restrained creature takes 2d6 bludgeoning damage as the wrapping tightens around it.</li><li><strong>Golden Gift (Legendary).</strong> This baumble has a golden outer shell in a square pattern. It detonates violently, and emanates an overpowering magical scent of frankincense and myrrh. Each creature in the area must make a DC 18 Constitution saving throw. On a failed save, a creature takes 4d6 force damage and is stunned by the smell until the start of your next turn. On a successful save, a creature takes half as much damage and isn't stunned. Creatures that have advantage on Wisdom (Perception) checks that rely on smell have disadvantage on the saving throw.</li></ul>"
+    },
+    {
+      "name": "Gift of Many Things",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Krampus' Soul",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 310 },
+        { "rarity": "rare",      "value": 1660 },
+        { "rarity": "very rare", "value": 9030 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare</em></p><p><strong>Component:</strong> Krampus' soul</p><p>Sure, you could go to the market and spend your hard-earned gold on potions of healing, but a gift of many things could be anything! Even potions of healing! Why not inject some fun and chaos into your holidays with the gift so secret, not even Santa knows what it holds?</p><p><strong>Mystery Box.</strong> The contents of this magical gift are kept magically indeterminate, even against divination spells, until the box is opened as an action. Roll a d6 and consult the table below to determine what you find inside. If a creature of evil alignment opens the box, it must roll the die twice, taking the lower result. After the contents of the gift are removed from within, the box disappears in a shower of colourful sparkles.</p><p><strong>Uncommon (d6):</strong> 1 A lump of coal; 2 1d4 potions of healing; 3 1d4 random 1st-level spell scrolls; 4 1 random potion of resistance; 5 1 random 3rd-level spell scroll; 6 1 potion of frost giant strength.</p><p><strong>Rare variant (d8):</strong> 1 A lump of coal; 2 1 random potion of resistance; 3 1d4 potions of greater healing; 4 1d4 random 2nd-level spell scrolls; 5 1 random 5th-level spell scroll; 6 1 potion of frost giant strength; 7 1 chime of opening; 8 1 box of marvelous pigments.</p><p><strong>Very rare variant (d10):</strong> 1 A lump of coal; 2 1d4 potions of superior healing; 3 1d4 random 3rd-level spell scrolls; 4 2 random potions of resistance; 5 1 random 7th-level spell scroll; 6 2d8 + 5 +3 arrows; 7 1 box of marvelous pigments; 8 1 potion of flying; 9 1 very rare baumble; 10 1 ring of three wishes, with only 1 wish left.</p>"
+    },
+    {
+      "name": "Winter Wondergarland",
+      "itemType": "weapon",
+      "kind": "Weapon (whip)",
+      "component": "Krampus' Undying Heart",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 1180 },
+        { "rarity": "rare",      "value": 2980 },
+        { "rarity": "very rare", "value": 12850 }
+      ],
+      "description": "<p><em>Weapon (whip), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Krampus' undying heart</p><p>Oh, the weather outside is frightful, and with the power of this seasonal whip, you can make it frightful inside as well. Crackling with electricity from a plethora of short-circuiting lights and covered with crusty fake snow, this flexible weapon can be used both as a last-resort Giftmas decoration and a festive implement of death!</p><p>Due to its sharp pine needles, this whip deals piercing damage instead of slashing damage.</p><p><strong>Thundersnow.</strong> As an action, you can crack the whip at a spot you can see within 10 feet of you, causing an unusual storm to form in a 20-foot radius sphere centred on that point. Pick up to two of the options below. Each creature other than you in the area must make a DC 13 Constitution saving throw, suffering the effects of the options chosen.</p><ul><li><strong>Thunder.</strong> A thunderous boom echoes through the area. On a failed save, a creature takes 3d6 thunder damage and is deafened until the start of your next turn. On a successful one, it takes half as much damage and isn't deafened.</li><li><strong>Snow.</strong> Frigid snow whips around in the area. On a failed save, a creature takes 3d6 cold damage and its speed is halved until the start of your next turn. On a successful one, it takes half as much damage and its speed isn't reduced.</li><li><strong>Lightning.</strong> Bolts of lightning arc erratically through the area. A creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one. Creatures made of metal or wearing metal armour have disadvantage on the saving throw.</li><li><strong>Hail.</strong> Large hailstones rain down from the sky in the area. A creature takes 4d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</li></ul><p>This property of the whip can be used twice, regaining all expended uses daily at dawn.</p><p><strong>Rare variant:</strong> Increase the DC to 15. The whip deals an extra 1d4 lightning damage to the first target it hits on each of your turns.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. You can pick up to three options when using the Thundersnow property. The whip deals an extra 1d4 lightning damage to the first target it hits on each of your turns.</p>"
+    },
+    {
+      "name": "Krampus' Fork",
+      "itemType": "weapon",
+      "kind": "Weapon (dagger)",
+      "component": "Fiend Horn",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 600 },
+        { "rarity": "rare",      "value": 2600 },
+        { "rarity": "very rare", "value": 9800 }
+      ],
+      "description": "<p><em>Weapon (dagger), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fiend horn</p><p>The visage carved into this dagger's hilt is remarkably unnerving. Its tongue is always unpleasantly slimy to the touch, and its eyes seem to follow you around, even if careful observation confirms beyond a doubt that they don't move. You might even get the feeling that there's something watching you through it... judging you... biding its time...</p><p>You gain a +1 bonus to attack and damage rolls made with this magic weapon, which has 3 charges and regains 1d3 expended charges daily at dawn. In addition, this dagger can be used as the material component for the <em>plane shift</em> spell; it is attuned to the Elemental Plane of Ice, where the Krampus' lair is located.</p><p><strong>Dooming Fork.</strong> As an action, you can tap this dagger against a metallic surface and expend 1 charge, causing it to produce a sound in a manner similar to a tuning fork. Instead of a clear note, however, the dagger produces your choice of one of the following sounds.</p><ul><li><strong>Screech.</strong> The dagger produces a blood-curdling screech. Each other creature within 30 feet of you must make a DC 15 Constitution saving throw, taking 4d6 thunder damage on a failed save, or half as much damage on a successful one.</li><li><strong>Cackle.</strong> The dagger produces a sinister, raspy cackle. Each other creature within 30 feet of you must make a DC 15 Wisdom saving throw, taking 4d6 psychic damage on a failed save, or half as much damage on a successful one.</li></ul><p>Regardless of what sound you chose, a creature that fails its save is also frightened of you until the end of its next turn.</p><p><strong>Uncommon variant:</strong> Reduce the DCs to 13 and the damage to 3d6. The Dooming Fork property can't frighten creatures.</p><p><strong>Very rare variant:</strong> Increase the attack and damage bonus to +2, the DCs to 16, and the damage to 7d6.</p><p><em>This weapon's gold values are estimated as the source book prints none for it.</em></p>"
+    }
+  ]
+}

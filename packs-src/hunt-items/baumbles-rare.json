@@ -1,0 +1,37 @@
+{
+  "_id": "jwojpsE4acQh80Po",
+  "_key": "!items!jwojpsE4acQh80Po",
+  "name": "Baumbles (Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, varies (uncommon / rare / very rare / legendary)</em></p><p><strong>Component:</strong> Krampus' marrow</p><p>One of many beautiful Giftmas tales tells the story of a child left alone in their home, who slaughtered a pair of burglars using convoluted booby traps made from holiday supplies. Not all children have quite as much guile or inventiveness, however, and to ensure their well-being, more straightforward ornamental explosives were developed. Baumbles are so easy to use that even a toddler could massacre a band of would-be thieves!</p><p>As an action, you can light the fuse on one of these explosive devices and throw it at a point within 30 feet of you, where it explodes in a 15-foot radius sphere and is destroyed. The effects of each baumble depend on its rarity and appearance, as described below.</p><ul><li><strong>Mistletoe Mistbomb (Uncommon).</strong> This baumble is solid pink, with a grainy texture. Upon detonation, it fills the area with a rosy, mistletoe-infused mist that quickly dissipates. Each creature in the area must succeed on a DC 13 Wisdom saving throw or be charmed by another random creature in the area for 1 minute. While charmed in this way, a creature can't willingly move away from the charmer, and can't target any creature but the charmer with spells and abilities that require a willing target. If only one creature is caught in the blast, this baumble has no effect. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li><li><strong>Smo-ho-hoke Bomb (Rare).</strong> This baumble is pearly white, with wispy patterns. Upon detonation, it fills the area with thick eggnog fumes that heavily obscure it for 1 minute or until dispersed by a wind of moderate or greater speed. A creature that starts its turn in the fumes or enters them for the first time on its turn must succeed on a DC 15 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li><li><strong>Giftwrapper (Very Rare).</strong> This baumble has stripes of red and green. Upon detonation, several strips of magically reinforced wrapping paper come flying out and attempt to constrict all creatures. Each creature in the area must succeed on a DC 16 Dexterity saving throw or be restrained by the paper, complete with a bow on top, for 1 minute. A restrained creature or another creature within reach of it can use its action to make a DC 16 Strength check, ending the restrained condition on a success. On a failed check, the restrained creature takes 2d6 bludgeoning damage as the wrapping tightens around it.</li><li><strong>Golden Gift (Legendary).</strong> This baumble has a golden outer shell in a square pattern. It detonates violently, and emanates an overpowering magical scent of frankincense and myrrh. Each creature in the area must make a DC 18 Constitution saving throw. On a failed save, a creature takes 4d6 force damage and is stunned by the smell until the start of your next turn. On a successful save, a creature takes half as much damage and isn't stunned. Creatures that have advantage on Wisdom (Perception) checks that rely on smell have disadvantage on the saving throw.</li></ul>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 830,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "RgTZTyMRNRwtuLoq",
+  "_key": "!items!RgTZTyMRNRwtuLoq",
+  "name": "Krampus' Fork (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (dagger), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fiend horn</p><p>The visage carved into this dagger's hilt is remarkably unnerving. Its tongue is always unpleasantly slimy to the touch, and its eyes seem to follow you around, even if careful observation confirms beyond a doubt that they don't move. You might even get the feeling that there's something watching you through it... judging you... biding its time...</p><p>You gain a +1 bonus to attack and damage rolls made with this magic weapon, which has 3 charges and regains 1d3 expended charges daily at dawn. In addition, this dagger can be used as the material component for the <em>plane shift</em> spell; it is attuned to the Elemental Plane of Ice, where the Krampus' lair is located.</p><p><strong>Dooming Fork.</strong> As an action, you can tap this dagger against a metallic surface and expend 1 charge, causing it to produce a sound in a manner similar to a tuning fork. Instead of a clear note, however, the dagger produces your choice of one of the following sounds.</p><ul><li><strong>Screech.</strong> The dagger produces a blood-curdling screech. Each other creature within 30 feet of you must make a DC 15 Constitution saving throw, taking 4d6 thunder damage on a failed save, or half as much damage on a successful one.</li><li><strong>Cackle.</strong> The dagger produces a sinister, raspy cackle. Each other creature within 30 feet of you must make a DC 15 Wisdom saving throw, taking 4d6 psychic damage on a failed save, or half as much damage on a successful one.</li></ul><p>Regardless of what sound you chose, a creature that fails its save is also frightened of you until the end of its next turn.</p><p><strong>Uncommon variant:</strong> Reduce the DCs to 13 and the damage to 3d6. The Dooming Fork property can't frighten creatures.</p><p><strong>Very rare variant:</strong> Increase the attack and damage bonus to +2, the DCs to 16, and the damage to 7d6.</p><p><em>This weapon's gold values are estimated as the source book prints none for it.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

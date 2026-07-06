@@ -1,0 +1,1004 @@
+{
+  "_id": "5142hxAW0CVjQx5j",
+  "_key": "!journal!5142hxAW0CVjQx5j",
+  "name": "Spectres of Midwinter Recipes",
+  "pages": [
+    {
+      "_id": "aTrc2M2B4EFGXTxD",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Spectres of Midwinter (Loot Tavern hunt, APL 5/10/15)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Krampus' Eye (1)</td></tr><tr><td>10</td><td>Krampus' Marrow (1)</td></tr><tr><td>15</td><td>Krampus' Skin (1)</td></tr><tr><td>20</td><td>Krampus' Undying Heart (1)</td></tr><tr><td>25</td><td>Krampus' Soul (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.1P53O7sjYZE31fcq]{Armour of the Giftmas Killer (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.pV0311HzCUgBwqAx]{Armour of the Giftmas Killer (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.mYDK3XmmyO7E0ghY]{Armour of the Giftmas Killer (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.oeLoHUiDeQkDbvRv]{Baumbles (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.jwojpsE4acQh80Po]{Baumbles (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.JHSax0tAfh7s8mQI]{Baumbles (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5atKi8ZVrpC3gFfQ]{Baumbles (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.gUhkD72YorCWmK9k]{Gift of Many Things (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.IQbgkH34iIfS335U]{Gift of Many Things (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.X3Cnn9nbh3qNFzCJ]{Gift of Many Things (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.olk01r2AGw0iNbB0]{Winter Wondergarland (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.t1g8R3Z5aMjosaqI]{Winter Wondergarland (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.57w4D41r57YhQwYZ]{Winter Wondergarland (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.RgTZTyMRNRwtuLoq]{Krampus' Fork (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.gvXS5V5amXr54mxw]{Krampus' Fork (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.1y1ENfGSm5TPs783]{Krampus' Fork (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.aTrc2M2B4EFGXTxD"
+    },
+    {
+      "_id": "QZUhMaf1OFDw6ZEJ",
+      "name": "Spectres of Midwinter (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Spectres of Midwinter/Spectres of Midwinter - Version 1.3 PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.QZUhMaf1OFDw6ZEJ"
+    },
+    {
+      "_id": "SwoqV774X9nZ5akj",
+      "name": "Armour of the Giftmas Killer (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Armour of the Giftmas Killer (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.1P53O7sjYZE31fcq",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eEc5IQtMuoAw4PJB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "WlKv6YhHfNJAgCgW",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.AqalQ6pB0027sfIM",
+                "name": "Krampus' Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "LU8Q7giWWBfUNRcM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qm9Ndu8sDU4xMKi5",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.qt7Yls6XyptOkK4f",
+                "name": "Krampus' Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "skin",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.SwoqV774X9nZ5akj"
+    },
+    {
+      "_id": "LTSYow3zC7T1pDtx",
+      "name": "Armour of the Giftmas Killer (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Armour of the Giftmas Killer (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.pV0311HzCUgBwqAx",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "skxhA0SyDxbGK3TE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "sJ1Mb6T88ONXggaS",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.AqalQ6pB0027sfIM",
+                "name": "Krampus' Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "HxjelMfMmyNrZHgI",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "y258Khf9YD5IdCIU",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.qt7Yls6XyptOkK4f",
+                "name": "Krampus' Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "skin",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.LTSYow3zC7T1pDtx"
+    },
+    {
+      "_id": "yKiZeCS0S92CYqX1",
+      "name": "Armour of the Giftmas Killer (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Armour of the Giftmas Killer (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.mYDK3XmmyO7E0ghY",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2HlhamzUFKS8Y8ix",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "373hELedfjLgoeUU",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.AqalQ6pB0027sfIM",
+                "name": "Krampus' Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "eye",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          },
+          {
+            "id": "U3apeumVjt1F7Hx9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4OhR85HeQ6bXO8lV",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.qt7Yls6XyptOkK4f",
+                "name": "Krampus' Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "skin",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ptmxaTGoSD5sOSws",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.yKiZeCS0S92CYqX1"
+    },
+    {
+      "_id": "DiM7gCLKAaNYEiWq",
+      "name": "Baumbles (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Baumbles (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.oeLoHUiDeQkDbvRv",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vgzIN3tRv3OPMJS2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "exJZ94uIixakYuZf",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.D888UBJ152Yydq21",
+                "name": "Krampus' Marrow",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "marrow",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.DiM7gCLKAaNYEiWq"
+    },
+    {
+      "_id": "OhHHOjAfDlzFG3zi",
+      "name": "Baumbles (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Baumbles (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.jwojpsE4acQh80Po",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8uHWP8UNLHEtHzoh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "W3hp5BpBfE3u2ttA",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.D888UBJ152Yydq21",
+                "name": "Krampus' Marrow",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "marrow",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.OhHHOjAfDlzFG3zi"
+    },
+    {
+      "_id": "XFvSE2NjgC3ibccc",
+      "name": "Baumbles (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Baumbles (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.JHSax0tAfh7s8mQI",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "kD4bwCjt4HbHhYEk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "qHS71jp151nZcABO",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.D888UBJ152Yydq21",
+                "name": "Krampus' Marrow",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "marrow",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.XFvSE2NjgC3ibccc"
+    },
+    {
+      "_id": "5NPSMI31wdoncB5O",
+      "name": "Baumbles (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Baumbles (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5atKi8ZVrpC3gFfQ",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "dw716rt9TklZ7msO",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "oYbgyIn6EfMAk0Kb",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.D888UBJ152Yydq21",
+                "name": "Krampus' Marrow",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "marrow",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "undead",
+        "rarity": "legendary",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.5NPSMI31wdoncB5O"
+    },
+    {
+      "_id": "5Wk3L9p5yxPJJthg",
+      "name": "Gift of Many Things (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gift of Many Things (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.gUhkD72YorCWmK9k",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Qs55l0NAbudZuBff",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JOUTYkWnSMi0z2TJ",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ALLo5CyAjPggk74R",
+                "name": "Krampus' Soul",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "soul",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.5Wk3L9p5yxPJJthg"
+    },
+    {
+      "_id": "1zk5XkBoOpnp4ga0",
+      "name": "Gift of Many Things (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gift of Many Things (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.IQbgkH34iIfS335U",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EAdXlouw2q334atX",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "stfzfL4vcGbQO27T",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ALLo5CyAjPggk74R",
+                "name": "Krampus' Soul",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "soul",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.1zk5XkBoOpnp4ga0"
+    },
+    {
+      "_id": "C9mXhheL6a9imx3y",
+      "name": "Gift of Many Things (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Gift of Many Things (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.X3Cnn9nbh3qNFzCJ",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2TjhlgVlcPn0wiCu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fU58ULWIPInjBmrN",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.ALLo5CyAjPggk74R",
+                "name": "Krampus' Soul",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "soul",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.C9mXhheL6a9imx3y"
+    },
+    {
+      "_id": "GKRi7rkiL5VDvJ2S",
+      "name": "Winter Wondergarland (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Winter Wondergarland (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.olk01r2AGw0iNbB0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Zk27XCNZ8P8vEaL6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PqmKZBehuzccP8aS",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.KGZQfZZUDs8Vnk0D",
+                "name": "Krampus' Undying Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undying heart",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.GKRi7rkiL5VDvJ2S"
+    },
+    {
+      "_id": "lY9hD8JUkr7DaOsr",
+      "name": "Winter Wondergarland (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Winter Wondergarland (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.t1g8R3Z5aMjosaqI",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1VD4OqRXTq8eXnOt",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TBkPsquLDbOoXeVy",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.KGZQfZZUDs8Vnk0D",
+                "name": "Krampus' Undying Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undying heart",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.lY9hD8JUkr7DaOsr"
+    },
+    {
+      "_id": "YcW4K8QSOhdUeJ0T",
+      "name": "Winter Wondergarland (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Winter Wondergarland (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.57w4D41r57YhQwYZ",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "aOItRVnZ1bj8pKAp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "J52e172P6NhRCQK0",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.KGZQfZZUDs8Vnk0D",
+                "name": "Krampus' Undying Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undying heart",
+                  "krampus",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.YcW4K8QSOhdUeJ0T"
+    },
+    {
+      "_id": "9ca5WnIHAUmfpWbn",
+      "name": "Krampus' Fork (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Krampus' Fork (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.RgTZTyMRNRwtuLoq",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ou4uVQDM2MQ5NXIi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "3M6G1ubhw0KzMYCr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ohUOCyBVcWk0pYvv",
+                "name": "Fiend Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.9ca5WnIHAUmfpWbn"
+    },
+    {
+      "_id": "mzp9K83gjQjkOJwr",
+      "name": "Krampus' Fork (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Krampus' Fork (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.gvXS5V5amXr54mxw",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3DAP4nXPLL01U2uq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7BuwgSpKxVTWo7lk",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ohUOCyBVcWk0pYvv",
+                "name": "Fiend Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.mzp9K83gjQjkOJwr"
+    },
+    {
+      "_id": "TQllan5kIGC03i40",
+      "name": "Krampus' Fork (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Krampus' Fork (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.1y1ENfGSm5TPs783",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1qAuFXQgDkIbU9i4",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "C9dxd72kx2d1v7bA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ohUOCyBVcWk0pYvv",
+                "name": "Fiend Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5142hxAW0CVjQx5j.TQllan5kIGC03i40"
+    }
+  ],
+  "folder": null,
+  "sort": 11300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

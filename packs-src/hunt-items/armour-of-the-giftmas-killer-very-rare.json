@@ -1,0 +1,37 @@
+{
+  "_id": "mYDK3XmmyO7E0ghY",
+  "_key": "!items!mYDK3XmmyO7E0ghY",
+  "name": "Armour of the Giftmas Killer (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (any), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Krampus' eye, Krampus' skin</p><p>The residents of Frostford awoke one Giftmas morning to a seasonal surprise beyond compare. A bundle of new presents! For every child and grown-up! And no one had a clue who'd left them there. But joy soon turned to horror, upon close examination: they were made of human skin and teeth and hair! And news of nearby towns told of whole settlements slaughtered... butchered in their beds without a care.</p><p>The armour has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Down the Chimney.</strong> While wearing this armour, you can move through and stop in a space large enough for a creature one size smaller than you without squeezing. Additionally, as a bonus action while wearing this armour, you can expend 1 charge to make your body even more unnaturally malleable; until the end of your turn, you can move through spaces as narrow as 1 foot without squeezing, and you have advantage on ability checks made to escape being grappled.</p><p><strong>He Sees You When You're Sleeping.</strong> As an action while wearing this armour, you can cast the <em>scrying</em> spell (save DC 15). When cast in this way, the spell can only target a creature, and if the creature is awake, it automatically succeeds on its saving throw and you become aware of this. Once this property of the armour has been used, it can't be used again until the next dawn. If a creature succeeds on the saving throw due to being awake, the use of this property isn't expended.</p><p><strong>Uncommon variant:</strong> Reduce the charges to 3 and the recharge to 1d3. Remove the He Sees You When You're Sleeping property.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. While wearing this armour, you have resistance to cold damage.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11500,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
