@@ -1,0 +1,37 @@
+{
+  "_id": "V6PBZsuswduxSGfM",
+  "_key": "!items!V6PBZsuswduxSGfM",
+  "name": "Verdure (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any axe), rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Bramble Queen) heart</p><p>Oddly light and perilously sharp, these axes are often a first choice for pranksters and mischief-makers. Little can compare to the joy of watching a foe flail pathetically in the air before plummeting back to earth, or the satisfying crunch that often follows.</p><p>This axe has 6 charges and regains 1d4 + 2 expended charges daily at dawn.</p><p><strong>Rising Leaves.</strong> As a bonus action while holding this weapon, you can expend 1 charge and swing it in the air to conjure a whirlwind of leaves in the space of a creature you can see within 30 feet of you, forcing it to make a DC 15 Strength saving throw. On a failed save, the creature is lifted 30 feet straight up into the air, after which it falls normally. A creature can choose to fail this saving throw.</p><p><strong>Falling Leaves.</strong> While holding this weapon, you can cast the <em>feather fall</em> spell at will, targeting only yourself. The spell ends early if you let go of the axe.</p><p><strong>Very rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, and the save DC to 16. You can target up to 5 creatures, as normal, when you use the axe to cast the <em>feather fall</em> spell.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11880,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

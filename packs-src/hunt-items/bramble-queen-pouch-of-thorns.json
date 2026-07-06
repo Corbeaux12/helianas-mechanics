@@ -1,0 +1,45 @@
+{
+  "_id": "11jBJ143namosAB4",
+  "_key": "!items!11jBJ143namosAB4",
+  "name": "Bramble Queen Pouch of Thorns",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a queen of shadow and thorn (fey). See Queen of Shadow and Thorn (Loot Tavern hunt, APL 5/9/13).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "thorns",
+        "bramble queen",
+        "fey"
+      ]
+    }
+  }
+}

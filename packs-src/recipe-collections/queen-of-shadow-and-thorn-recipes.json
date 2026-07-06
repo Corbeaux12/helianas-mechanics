@@ -1,0 +1,659 @@
+{
+  "_id": "j1RflXw9V4B73NST",
+  "_key": "!journal!j1RflXw9V4B73NST",
+  "name": "Queen of Shadow and Thorn Recipes",
+  "pages": [
+    {
+      "_id": "9tqRtoX07S4eq8cb",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Queen of Shadow and Thorn (Loot Tavern hunt, APL 5/9/13)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>10</td><td>Pouch of thorns (10)</td></tr><tr><td>20</td><td>Heart (1)</td></tr><tr><td>25</td><td>Psyche (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.YGHHLimRgXoeNg3I]{Black Bloom (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.4xLXd2g4FjndRA7o]{Black Bloom (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.jz5PICjMwbnqPAsj]{Black Bloom (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.bBoV0fzEBzJTfBJh]{Bramble Lace Gloves (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ghu59y6uyw3l8Nm4]{Bramble Lace Gloves (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.H7sl12Vu4DZlyH7f]{Bramble Lace Gloves (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.i2tDriwUXQvbKry9]{Verdure (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.V6PBZsuswduxSGfM]{Verdure (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.MJyY1igHECNKrblr]{Nature's Vengeance (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.wQBvQOm10AmPs0Lk]{Nature's Vengeance (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ZNjougexzXfG3xOs]{Nature's Vengeance (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.9tqRtoX07S4eq8cb"
+    },
+    {
+      "_id": "eEklvVbYWSJpfkFe",
+      "name": "Queen of Shadow and Thorn (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Queen of Shadow & Thorns/Queen of Shadow and Thorn v1.3-PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.eEklvVbYWSJpfkFe"
+    },
+    {
+      "_id": "en1hvbIlQIlzTquj",
+      "name": "Black Bloom (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Black Bloom (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.YGHHLimRgXoeNg3I",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9uIdBLgc8B55FAff",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dzD6w8GAM3dAHbht",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "psyche"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.en1hvbIlQIlzTquj"
+    },
+    {
+      "_id": "qjYuoZZe9MB0Ieuj",
+      "name": "Black Bloom (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Black Bloom (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.4xLXd2g4FjndRA7o",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "CuOPbC6Lq6H2GDVg",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "k004x8xiiSdGfIgk",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "psyche"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.qjYuoZZe9MB0Ieuj"
+    },
+    {
+      "_id": "qDFvpzin2T9QdzlS",
+      "name": "Black Bloom (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Black Bloom (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.jz5PICjMwbnqPAsj",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "0xKUGJy8ia32Ct8Y",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "eUQhzjsh92Md0VXy",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.PDhdqwQJBPS2VlA3",
+                "name": "Fey Psyche",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "psyche"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.qDFvpzin2T9QdzlS"
+    },
+    {
+      "_id": "jVJKL6PPXstCR2NM",
+      "name": "Bramble Lace Gloves (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bramble Lace Gloves (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.bBoV0fzEBzJTfBJh",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yK3s5nn9t6wlMBQb",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "oqLo1mONwyaFrqVO",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.11jBJ143namosAB4",
+                "name": "Bramble Queen Pouch of Thorns",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "thorns",
+                  "bramble queen",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.jVJKL6PPXstCR2NM"
+    },
+    {
+      "_id": "pJdhOqo1oePpyWjg",
+      "name": "Bramble Lace Gloves (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bramble Lace Gloves (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ghu59y6uyw3l8Nm4",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YcvRj004CRBBi9H9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "RDuJ2KkpRI4fUzJn",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.11jBJ143namosAB4",
+                "name": "Bramble Queen Pouch of Thorns",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "thorns",
+                  "bramble queen",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.pJdhOqo1oePpyWjg"
+    },
+    {
+      "_id": "3rQSZPfQ1UX5sC7P",
+      "name": "Bramble Lace Gloves (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bramble Lace Gloves (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.H7sl12Vu4DZlyH7f",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2TP6SQnSaXPLR1Qr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "aVDfEjc4jkdK2jqy",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.11jBJ143namosAB4",
+                "name": "Bramble Queen Pouch of Thorns",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "thorns",
+                  "bramble queen",
+                  "fey"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.3rQSZPfQ1UX5sC7P"
+    },
+    {
+      "_id": "RDfcoxi127UKld5d",
+      "name": "Verdure (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Verdure (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.i2tDriwUXQvbKry9",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "g5pzRDtNHOGmNWVJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "vE7wlMfKgkF0aEfM",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.0CJU10TbDGph88GY",
+                "name": "Fey Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.RDfcoxi127UKld5d"
+    },
+    {
+      "_id": "42ci8pOBc1zADFpW",
+      "name": "Verdure (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Verdure (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.V6PBZsuswduxSGfM",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hzlTTf0uAxbvxJbN",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ubJJ6xk4bEkmu4Iz",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.0CJU10TbDGph88GY",
+                "name": "Fey Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fey",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.42ci8pOBc1zADFpW"
+    },
+    {
+      "_id": "ZBZqDSQ9PwO0uhTx",
+      "name": "Nature's Vengeance (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Nature's Vengeance (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.MJyY1igHECNKrblr",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "5qlQS0vNAk3Rrdjj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2QJ81Xfkxcf0ePwQ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bundle",
+                  "plant",
+                  "roots"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fey",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.ZBZqDSQ9PwO0uhTx"
+    },
+    {
+      "_id": "kmVzNzyO7ir59zE8",
+      "name": "Nature's Vengeance (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Nature's Vengeance (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.wQBvQOm10AmPs0Lk",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1pDXlFiL1wWSpzJz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "J3Sxt7jTXTe5gs7o",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bundle",
+                  "plant",
+                  "roots"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fey",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.kmVzNzyO7ir59zE8"
+    },
+    {
+      "_id": "SoQexqPaIv69MFpO",
+      "name": "Nature's Vengeance (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Nature's Vengeance (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ZNjougexzXfG3xOs",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "c8t09Uep8q42qn1v",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JCnMb6tCIcIQJyDq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.oyHUdONgiF7nYpCa",
+                "name": "Bundle of Plant Roots",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "bundle",
+                  "plant",
+                  "roots"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fey",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!j1RflXw9V4B73NST.SoQexqPaIv69MFpO"
+    }
+  ],
+  "folder": null,
+  "sort": 11200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

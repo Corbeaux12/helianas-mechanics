@@ -1,0 +1,37 @@
+{
+  "_id": "H7sl12Vu4DZlyH7f",
+  "_key": "!items!H7sl12Vu4DZlyH7f",
+  "name": "Bramble Lace Gloves (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Bramble Queen) pouch of thorns</p><p>Despite the lack of soil or water, the dark roses on these luxurious gloves are alive, feeding gently off of the energy of their wearer. This symbiotic relationship has no adverse effects on the wearer aside from some aggravated tiredness at the end of the day — a small price to pay for the powerful fey magic held within.</p><p><strong>Overgrowth.</strong> As an action while wearing these gloves, you can touch a creature, forcing it to make a DC 13 Strength saving throw. On a failed save, the creature is restrained for 1 minute as brambles from one of the gloves spread to it, enveloping it in a mass of vines and thorns. A creature restrained in this way can use an action to make a DC 13 Strength check, ending the effect on a success. While the creature is restrained, you can use a bonus action to control the writhing brambles in one of the manners described below. Once this property of the gloves has been used, it can't be used again until the next dawn.</p><ul><li><strong>Constrict.</strong> The thorny brambles tighten around the restrained creature, dealing 2d6 piercing damage to it.</li><li><strong>Lash.</strong> A bramble whip lashes out against a different creature that you can see within 20 feet of the restrained one. Make a weapon attack roll against it (+5 to hit), dealing 4d6 slashing damage on a hit.</li></ul><p><strong>Rare variant:</strong> Increase the DCs to 15 and the attack bonus to +7. The Overgrowth property can be used twice — once for each glove — before the next dawn.</p><p><strong>Very rare variant:</strong> Increase the DCs to 16, the attack bonus to +9, the damage of Constrict to 4d6, and the damage of Lash to 6d6. The Overgrowth property can be used twice — once for each glove — before the next dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11800,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

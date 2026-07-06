@@ -1,0 +1,37 @@
+{
+  "_id": "YGHHLimRgXoeNg3I",
+  "_key": "!items!YGHHLimRgXoeNg3I",
+  "name": "Black Bloom (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, staff, or wand, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Bramble Queen) psyche</p><p>The black roses of the Plane of Fey thrive in the bodies of creatures; their roots pierce flesh and their vines strangle limbs in a dominating display. As much as Unseelie Fey enjoy tricks and subtle manipulation, a more forceful approach is sometimes required.</p><p>This item has 6 charges and regains 1d4 + 2 expended charges daily at dawn.</p><p><strong>Puppet of the Rose.</strong> As an action while holding this item, you can expend up to 2 charges. For each charge, one thin, thorny vine shoots towards a different creature you can see within 20 feet of you. Make a ranged spell attack against that creature (+5 to hit), which takes 2d6 piercing damage and must make a DC 13 Constitution saving throw on a hit. On a failed save, a black rose vine grows where the creature was hit and remains for 1 minute, wrapping around the creature's limbs.</p><p>While a creature is under this effect, you can manipulate those vines to exert limited control over it. Whenever it would be able to use its reaction, you can use your own reaction to force it to do so, treating all creatures as hostile for the purposes of opportunity attacks. A creature under this effect can't take reactions other than the ones you command it to, and it repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, the attack bonus to +7, the damage to 3d6, and the save DC to 15.</p><p><strong>Very rare variant:</strong> Increase the charges to 10, the recharge to 1d6 + 4, the attack bonus to +8, the damage to 4d6, and the save DC to 16.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

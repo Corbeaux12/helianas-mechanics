@@ -1,0 +1,71 @@
+{
+  "name": "Queen of Shadow and Thorn",
+  "source": "Queen of Shadow and Thorn (Loot Tavern hunt, APL 5/9/13)",
+  "creatureType": "fey",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/5th, 10th, & 15th/Queen of Shadow & Thorns/Queen of Shadow and Thorn v1.3-PAGES.pdf",
+  "harvest": [
+    { "dc": 10, "components": ["Pouch of thorns (10)"] },
+    { "dc": 20, "components": ["Heart (1)"] },
+    { "dc": 25, "components": ["Psyche (1)"] }
+  ],
+  "components": [
+    { "name": "Bramble Queen Pouch of Thorns", "tags": ["thorns", "bramble queen", "fey"], "price": 40 }
+  ],
+  "items": [
+    {
+      "name": "Black Bloom",
+      "itemType": "equipment",
+      "kind": "Rod, staff, or wand",
+      "component": "Fey Psyche",
+      "baseRecipe": "Rod",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 600 },
+        { "rarity": "rare",      "value": 2650 },
+        { "rarity": "very rare", "value": 10900 }
+      ],
+      "description": "<p><em>Rod, staff, or wand, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Bramble Queen) psyche</p><p>The black roses of the Plane of Fey thrive in the bodies of creatures; their roots pierce flesh and their vines strangle limbs in a dominating display. As much as Unseelie Fey enjoy tricks and subtle manipulation, a more forceful approach is sometimes required.</p><p>This item has 6 charges and regains 1d4 + 2 expended charges daily at dawn.</p><p><strong>Puppet of the Rose.</strong> As an action while holding this item, you can expend up to 2 charges. For each charge, one thin, thorny vine shoots towards a different creature you can see within 20 feet of you. Make a ranged spell attack against that creature (+5 to hit), which takes 2d6 piercing damage and must make a DC 13 Constitution saving throw on a hit. On a failed save, a black rose vine grows where the creature was hit and remains for 1 minute, wrapping around the creature's limbs.</p><p>While a creature is under this effect, you can manipulate those vines to exert limited control over it. Whenever it would be able to use its reaction, you can use your own reaction to force it to do so, treating all creatures as hostile for the purposes of opportunity attacks. A creature under this effect can't take reactions other than the ones you command it to, and it repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, the attack bonus to +7, the damage to 3d6, and the save DC to 15.</p><p><strong>Very rare variant:</strong> Increase the charges to 10, the recharge to 1d6 + 4, the attack bonus to +8, the damage to 4d6, and the save DC to 16.</p>"
+    },
+    {
+      "name": "Bramble Lace Gloves",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Bramble Queen Pouch of Thorns",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 590 },
+        { "rarity": "rare",      "value": 3200 },
+        { "rarity": "very rare", "value": 11800 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Bramble Queen) pouch of thorns</p><p>Despite the lack of soil or water, the dark roses on these luxurious gloves are alive, feeding gently off of the energy of their wearer. This symbiotic relationship has no adverse effects on the wearer aside from some aggravated tiredness at the end of the day — a small price to pay for the powerful fey magic held within.</p><p><strong>Overgrowth.</strong> As an action while wearing these gloves, you can touch a creature, forcing it to make a DC 13 Strength saving throw. On a failed save, the creature is restrained for 1 minute as brambles from one of the gloves spread to it, enveloping it in a mass of vines and thorns. A creature restrained in this way can use an action to make a DC 13 Strength check, ending the effect on a success. While the creature is restrained, you can use a bonus action to control the writhing brambles in one of the manners described below. Once this property of the gloves has been used, it can't be used again until the next dawn.</p><ul><li><strong>Constrict.</strong> The thorny brambles tighten around the restrained creature, dealing 2d6 piercing damage to it.</li><li><strong>Lash.</strong> A bramble whip lashes out against a different creature that you can see within 20 feet of the restrained one. Make a weapon attack roll against it (+5 to hit), dealing 4d6 slashing damage on a hit.</li></ul><p><strong>Rare variant:</strong> Increase the DCs to 15 and the attack bonus to +7. The Overgrowth property can be used twice — once for each glove — before the next dawn.</p><p><strong>Very rare variant:</strong> Increase the DCs to 16, the attack bonus to +9, the damage of Constrict to 4d6, and the damage of Lash to 6d6. The Overgrowth property can be used twice — once for each glove — before the next dawn.</p>"
+    },
+    {
+      "name": "Verdure",
+      "itemType": "weapon",
+      "kind": "Weapon (any axe)",
+      "component": "Fey Heart",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 3230 },
+        { "rarity": "very rare", "value": 11880 }
+      ],
+      "description": "<p><em>Weapon (any axe), rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fey (Bramble Queen) heart</p><p>Oddly light and perilously sharp, these axes are often a first choice for pranksters and mischief-makers. Little can compare to the joy of watching a foe flail pathetically in the air before plummeting back to earth, or the satisfying crunch that often follows.</p><p>This axe has 6 charges and regains 1d4 + 2 expended charges daily at dawn.</p><p><strong>Rising Leaves.</strong> As a bonus action while holding this weapon, you can expend 1 charge and swing it in the air to conjure a whirlwind of leaves in the space of a creature you can see within 30 feet of you, forcing it to make a DC 15 Strength saving throw. On a failed save, the creature is lifted 30 feet straight up into the air, after which it falls normally. A creature can choose to fail this saving throw.</p><p><strong>Falling Leaves.</strong> While holding this weapon, you can cast the <em>feather fall</em> spell at will, targeting only yourself. The spell ends early if you let go of the axe.</p><p><strong>Very rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, and the save DC to 16. You can target up to 5 creatures, as normal, when you use the axe to cast the <em>feather fall</em> spell.</p>"
+    },
+    {
+      "name": "Nature's Vengeance",
+      "itemType": "weapon",
+      "kind": "Weapon (sickle or scimitar)",
+      "component": "Bundle of Plant Roots",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 550 },
+        { "rarity": "rare",      "value": 2500 },
+        { "rarity": "very rare", "value": 10500 }
+      ],
+      "description": "<p><em>Weapon (sickle or scimitar), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> bundle of plant roots</p><p>When progress arrived with its axes and flame, the Circle of Thorns designed a weapon to recapture the life force the newcomers stole from the forest. Using the magic of this bent-bladed wood-and-bone weapon, they disguised themselves as irritable village elders allowing them to undertake a decades-long campaign of guerilla warfare.</p><p>This weapon has 8 charges and regains 1d6 + 2 expended charges daily at dawn.</p><p><strong>Illusory Appearance.</strong> As an action, you can disguise this weapon to look like a mundane walking stick with a magical illusion. The illusion lasts until you end it as a bonus action or you fall unconscious. The changes wrought by this effect fail to hold up to physical inspection. To discern that the weapon is disguised, a creature can use its action to inspect it and must succeed on a DC 20 Intelligence (Investigation) check.</p><p><strong>Steal Life.</strong> When you hit a non-construct creature with an attack roll using this weapon, you can spend 1 charge to syphon the target's life force. The target must make a DC 15 Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one. You regain hit points equal to half the necrotic damage taken.</p><p><strong>Uncommon variant:</strong> Reduce the save DC to 13 and the damage to 1d6.</p><p><strong>Very rare variant:</strong> Increase the save DC to 16 and the damage to 3d6.</p><p><em>This weapon is found already-forged on the corpse of the Queen of Brambles rather than crafted from her harvested remains; its rarity is tied to the hunt's level (Uncommon at 5th, Rare at 9th, Very Rare at 13th), and its gold values are estimated as the source book prints none.</em></p>"
+    }
+  ]
+}

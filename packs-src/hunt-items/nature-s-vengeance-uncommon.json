@@ -1,0 +1,37 @@
+{
+  "_id": "MJyY1igHECNKrblr",
+  "_key": "!items!MJyY1igHECNKrblr",
+  "name": "Nature's Vengeance (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (sickle or scimitar), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> bundle of plant roots</p><p>When progress arrived with its axes and flame, the Circle of Thorns designed a weapon to recapture the life force the newcomers stole from the forest. Using the magic of this bent-bladed wood-and-bone weapon, they disguised themselves as irritable village elders allowing them to undertake a decades-long campaign of guerilla warfare.</p><p>This weapon has 8 charges and regains 1d6 + 2 expended charges daily at dawn.</p><p><strong>Illusory Appearance.</strong> As an action, you can disguise this weapon to look like a mundane walking stick with a magical illusion. The illusion lasts until you end it as a bonus action or you fall unconscious. The changes wrought by this effect fail to hold up to physical inspection. To discern that the weapon is disguised, a creature can use its action to inspect it and must succeed on a DC 20 Intelligence (Investigation) check.</p><p><strong>Steal Life.</strong> When you hit a non-construct creature with an attack roll using this weapon, you can spend 1 charge to syphon the target's life force. The target must make a DC 15 Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one. You regain hit points equal to half the necrotic damage taken.</p><p><strong>Uncommon variant:</strong> Reduce the save DC to 13 and the damage to 1d6.</p><p><strong>Very rare variant:</strong> Increase the save DC to 16 and the damage to 3d6.</p><p><em>This weapon is found already-forged on the corpse of the Queen of Brambles rather than crafted from her harvested remains; its rarity is tied to the hunt's level (Uncommon at 5th, Rare at 9th, Very Rare at 13th), and its gold values are estimated as the source book prints none.</em></p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 550,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
