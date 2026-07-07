@@ -1,0 +1,127 @@
+{
+  "name": "End Times",
+  "source": "End Times (Loot Tavern hunt, APL 10/15/20)",
+  "creatureType": "dragon",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/10th, 15th, & 20th/End Times/End Times v0.99.pdf",
+  "harvest": [
+    { "dc": 5,  "components": ["Eye (6); Flesh (10); Phial of Blood (10)"] },
+    { "dc": 10, "components": ["Bone (10); Fat (10); Pouch of Claws (6); Pouch of Teeth (2)"] },
+    { "dc": 15, "components": ["Horn (3); Liver (1); Pouch of Feathers (6); Pouch of Scales (5)"] },
+    { "dc": 20, "components": ["Heart (1)"] },
+    { "dc": 25, "components": ["Breath Sac (1)"] }
+  ],
+  "components": [
+    { "name": "Paradox Dragon Pouch of Feathers", "tags": ["pouch of feathers", "paradox dragon", "dragon"], "price": 70 },
+    { "name": "Construct Gears",                  "tags": ["gears", "construct", "divine-infused"],       "price": 70 }
+  ],
+  "items": [
+    {
+      "name": "Bullet of Tomorrow",
+      "itemType": "consumable",
+      "kind": "Ammunition (bullet)",
+      "component": "Dragon Bone",
+      "baseRecipe": "Ammunition",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 230 },
+        { "rarity": "rare",      "value": 990 },
+        { "rarity": "very rare", "value": 4780 }
+      ],
+      "description": "<p><em>Ammunition (bullet), uncommon</em></p><p><strong>Component:</strong> Dragon (Paradox) bone</p><p>\"The question isn't where the assassin was hiding... it's when.\" — Kwi Klee, Kasabatian Guard Sergeant</p><p><strong>Shot Through Time.</strong> When you make an attack using this bullet, you can choose to shoot it at an unoccupied space within range. The bullet disappears when it reaches the space and is sent into the future. Make an attack roll and record the result. The first time that a creature enters the space within 1 hour, the bullet reappears and the creature becomes the target of the attack, which uses the recorded attack roll and deals an extra 2d8 Force damage on a hit. If no creature enters the space within the timeframe, the bullet reappears at the end of it and falls to the ground harmlessly.</p><p>After hitting a creature, the bullet becomes nonmagical.</p><p><strong>Rare variant:</strong> Increase the timeframe to 24 hours and the damage to 4d8. Instead of the bullet reappearing the first time that a creature enters the chosen space, you can choose to specify a visual or auditory occurrence to trigger the bullet's reappearance, such as a creature matching a specific description entering the space or a passphrase being spoken. When this trigger occurs within 30 feet of the chosen space, the bullet appears, and if there's a creature in the chosen space, that creature becomes the target of the attack.</p><p><strong>Very Rare variant:</strong> Increase the timeframe to 10 days and the damage to 6d8. You have Advantage on the attack roll made as part of sending the bullet into the future. Instead of the bullet reappearing the first time that a creature enters the chosen space, you can choose to specify a visual or auditory occurrence to trigger the bullet's reappearance, such as a creature matching a specific description entering the space or a passphrase being spoken. When this trigger occurs within 30 feet of the chosen space, the bullet appears, and if there's a creature in the chosen space, that creature becomes the target of the attack.</p>"
+    },
+    {
+      "name": "Chronocloak",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Paradox Dragon Pouch of Feathers",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 4470 },
+        { "rarity": "very rare", "value": 13080 },
+        { "rarity": "legendary", "value": 62300 }
+      ],
+      "description": "<p><em>Wondrous item, rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (Paradox) feathers</p><p><strong>Timelord's Regalia.</strong> While attuned to two or more of the Chronocloak, Tick & Tock, and Timelord Armour, each of the items gains the Master of Time property.</p><p><strong>Master of Time.</strong> When you or a creature you can see within 120 feet of you draws a card from the Paradox Deck for its Temporal Mishap or Creature Warp effect, you can take a Reaction to learn the card's effects before they take place. You can then choose to shuffle that card back into the Paradox Deck and draw another to replace it. Once this property of the item is used, it can't be used again until the next dawn.</p><p>The inside of this cloak is lined with the fabric of spacetime itself, each masterfully woven thread spun from the flaring core of a collapsing star and thrumming with the raw, unfiltered power of cosmic possibility. The outside is lined with the fluffiest feathers you've ever felt.</p><p><strong>Time-Travel Cloak.</strong> While wearing this cloak, you can cast the <em>Timewalk</em>* spell. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Practical Paradoxes.</strong> When you gain one or more Paradox Points, you can gain one of the benefits below for 1 hour. For each additional Paradox Point gained beyond the first, you can choose to either gain another of the benefits or increase the duration of a benefit you've already gained by 1 hour.</p><ul><li>You gain a +1 bonus to AC.</li><li>You gain 4d8 Temporary Hit Points.</li><li>You gain one illusory image as per the <em>Mirror Image</em> spell.</li></ul><p>Once a benefit has been gained, the same benefit can't be gained again until the next dawn.</p><p><strong>Very Rare variant:</strong> Increase the AC bonus to +2, the Temporary Hit Points to 6d8, and the number of illusory images gained to two.</p><p><strong>Legendary variant:</strong> Increase the AC bonus to +3, the Temporary Hit Points to 8d8, and the number of illusory images gained to three. Add the following option to the Practical Paradoxes property: you gain Advantage on the next attack roll you make, the next ability check you make, and the next saving throw you make.</p><p>*See Appendix B of End Times.</p>"
+    },
+    {
+      "name": "Chronocube",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Aberration Heart",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common",    "value": 30 },
+        { "rarity": "uncommon",  "value": 420 },
+        { "rarity": "rare",      "value": 1530 }
+      ],
+      "description": "<p><em>Wondrous item, common</em></p><p><strong>Component:</strong> Aberration (Paradox Jinn) heart</p><p>Different versions of this device, such as a Chronosphere and a Chronopyramid, were ultimately rejected for not being sufficiently alliterative. A Chronocone was briefly in consideration.</p><p><strong>Paradox Prevention.</strong> In its default state, this item glows with a soft blue colour. While you are holding or carrying the Chronocube and are involved in a situation where you may earn 1 or more Paradox Points, such as being in the vicinity of a past version of yourself or having a conversation that might result in leaking vital information to a creature in the past (GM's discretion), the cube's glow shifts to a vivid red.</p><p><strong>Uncommon variant:</strong> The item has the Retrocausal Shielding property.</p><p><strong>Retrocausal Shielding.</strong> While you are holding or carrying the Chronocube and gain 1 or more Paradox Points, you can take a Reaction to reduce the number of points gained by 1. Once you use this property, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> The item has the Retrocausal Shielding and Reality Mending properties.</p><p><strong>Reality Mending.</strong> While you are holding or carrying the Chronocube, you can use a Magic action to take 4d8 Force damage and lose 1 Paradox Point. This damage can't be reduced or prevented by any means. Once this property of the cube has been used, it can't be used again for 7 days.</p>"
+    },
+    {
+      "name": "Elixir of Eternity",
+      "itemType": "consumable",
+      "kind": "Potion",
+      "component": "Phial of Dragon Blood",
+      "baseRecipe": "Potion Base",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "legendary", "value": 27820 }
+      ],
+      "description": "<p><em>Potion, legendary</em></p><p><strong>Component:</strong> Phial of Dragon (Paradox) blood</p><p>This thick, syrupy elixir glimmers with a pleasant rosy hue and smells faintly of your favourite childhood memory. At face value, it's a much more pleasant alternative to lichdom, eldritch mutations, or fiendish pacts when it comes to prolonging one's life... but appearances can be deceiving, and longevity is never without risk.</p><p><strong>Ultimate Gamble.</strong> When you drink this potion, make a DC 20 Constitution saving throw. You can't automatically succeed on the saving throw or turn a failure into a success, such as by using the Legendary Resistance trait. On a failed save, you immediately die. This can't be prevented by effects that would prevent death, such as the <em>Death Ward</em> spell, and a creature that dies in this way can't be brought back to life by any means. On a successful save, your lifespan is doubled, you start aging at an appropriate rate for your new lifespan, and the save DC for any future Elixirs of Eternity you drink increases by 5.</p>"
+    },
+    {
+      "name": "Problem-Solver",
+      "itemType": "weapon",
+      "kind": "Weapon (any firearm)",
+      "component": "Construct Gears",
+      "baseRecipe": "Magitech Firearm",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 310 },
+        { "rarity": "rare",      "value": 1530 },
+        { "rarity": "very rare", "value": 6900 }
+      ],
+      "description": "<p><em>Weapon (any firearm), uncommon</em></p><p><strong>Component:</strong> Construct gears</p><p>Sure, the entire defining trait of a paradox is that it's unsolvable... But have you tried shooting it in the face yet?</p><p>While holding this weapon, you are considered proficient with it.</p><p><strong>Chronomarksmanship.</strong> When you perform the Omnishot technique as a result of hitting a creature with an attack using this weapon, you have Advantage on the required ability check.</p><p><strong>Unexplainable Shot.</strong> When you would gain one or more Paradox Points as a result of failing a saving throw while holding this weapon, you can take a Reaction to shoot the paradox before it forms. You expend one piece of ammunition from the weapon and gain 1 fewer Paradox Point (minimum of 0). You can't take this Reaction if you have no ammunition in the weapon. Once this property is used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><strong>Very Rare variant:</strong> You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.</p>"
+    },
+    {
+      "name": "Tick & Tock",
+      "itemType": "weapon",
+      "kind": "Weapon (dagger and shortsword)",
+      "component": "Dragon Horn",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 4800 },
+        { "rarity": "very rare", "value": 15060 },
+        { "rarity": "legendary", "value": 73640 }
+      ],
+      "description": "<p><em>Weapon (dagger and shortsword), very rare (requires attunement)</em></p><p><strong>Component:</strong> Dragon (Paradox) horn</p><p><strong>Timelord's Regalia.</strong> While attuned to two or more of the Chronocloak, Tick & Tock, and Timelord Armour, each of the items gains the Master of Time property.</p><p><strong>Master of Time.</strong> When you or a creature you can see within 120 feet of you draws a card from the Paradox Deck for its Temporal Mishap or Creature Warp effect, you can take a Reaction to learn the card's effects before they take place. You can then choose to shuffle that card back into the Paradox Deck and draw another to replace it. Once this property of the item is used, it can't be used again until the next dawn.</p><p>\"Back in my day, real adventurers used Flame Tongues and Sun Blades. Kids these days and their Tick & Tocks...\" — Hiro Gliff, Kasbat Azzaman's Resident Curmudgeon</p><p>This Dagger and Shortsword count as a single magic item with regard to the number of magic items to which you can attune. You gain a +1 bonus to attack rolls and damage rolls made with these magic weapons.</p><p><strong>The Clock Ticks.</strong> These weapons can hold a maximum of 12 charges. When you hit a creature that has a Challenge Rating of 1 or higher with an attack using either of these weapons, they gain 1 charge. When you gain one or more Paradox Points, the weapons gain an equal number of charges.</p><p><strong>The Clock Strikes Twelve.</strong> When these weapons gain their twelfth charge, they immediately lose 12 charges and you gain the benefits of the <em>Haste</em> spell until the end of your next turn. For the duration, these weapons deal an extra 1d4 Force damage on a hit. You don't suffer the wave of lethargy as a result of the effects of the <em>Haste</em> spell ending in this way.</p><p><strong>Rare variant:</strong> Remove the attack and damage bonus. The Clock Strikes Twelve property doesn't cause the weapons to deal extra Force damage.</p><p><strong>Legendary variant:</strong> Increase the attack and damage bonus to +2 and the damage to 1d6.</p>"
+    },
+    {
+      "name": "Timelord Armour",
+      "itemType": "equipment",
+      "kind": "Armour (any)",
+      "component": "Dragon Heart",
+      "baseRecipe": "Breastplate",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 3830 },
+        { "rarity": "very rare", "value": 11300 },
+        { "rarity": "legendary", "value": 54440 }
+      ],
+      "description": "<p><em>Armour (any), legendary (requires attunement)</em></p><p><strong>Component:</strong> Dragon (Paradox) heart</p><p><strong>Timelord's Regalia.</strong> While attuned to two or more of the Chronocloak, Tick & Tock, and Timelord Armour, each of the items gains the Master of Time property.</p><p><strong>Master of Time.</strong> When you or a creature you can see within 120 feet of you draws a card from the Paradox Deck for its Temporal Mishap or Creature Warp effect, you can take a Reaction to learn the card's effects before they take place. You can then choose to shuffle that card back into the Paradox Deck and draw another to replace it. Once this property of the item is used, it can't be used again until the next dawn.</p><p>\"In the city of Majinna, the blacksmith Zakia forges Timelord Armour sets for all those, and only those, who do not forge Timelord Armour sets for themselves. Does Zakia forge a set of Timelord Armour for herself?\" — Dissi Zalai, Chronophilosopher</p><p><strong>Paradox Powered.</strong> This armour can hold a maximum of 3 charges. While wearing the armour with less than 3 charges, you can take a Bonus Action to lose 1 Paradox Point and cause the armour to gain 1 charge. You can't use this property if you have no Paradox Points or if losing one would put you at a lower Paradox Tier. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Paradox Plate.</strong> While wearing this armour, you have a bonus to AC equal to the number of charges it has. While the armour has at least 1 charge, you also have Resistance to Force damage while wearing it.</p><p><strong>Paradox Pulse.</strong> While wearing this armour, you can take a Magic action to expend 3 charges, releasing all the temporal energy built up within in one powerful pulse. Each creature of your choice in a 30-foot Emanation originating from you makes a DC 17 Charisma saving throw. On a failed save, a creature takes 10d10 Force damage and is banished as per the <em>Banishment</em> spell until the start of your next turn. You then gain 3 Paradox Points, but add only one card to the Paradox Deck as a result of gaining these points.</p><p><strong>Rare variant:</strong> Reduce the size of the Emanation to 10 feet, the DC to 15, and the damage to 4d10. The Paradox Plate property grants a bonus to AC equal to the number of charges in the armour minus 2 (minimum 0).</p><p><strong>Very Rare variant:</strong> Reduce the size of the Emanation to 20 feet, the DC to 16, and the damage to 8d10. The Paradox Plate property grants a bonus to AC equal to the number of charges in the armour minus 1 (minimum 0).</p>"
+    },
+    {
+      "name": "Timetape",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Aberration Hide",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "very rare", "value": 5070 }
+      ],
+      "description": "<p><em>Wondrous item, very rare</em></p><p><strong>Component:</strong> Aberration (Anomaly) hide</p><p>\"To show you the power of Timetape... I broke reality in half!\" — Phillip Hasty, Temporal Repairman</p><p>While holding this item, you can take a Magic action to unroll the tape, which is automatically applied to the fabric of spacetime as you do. You then lose 1 Paradox Point and the item is destroyed as it fades into nothingness.</p>"
+    }
+  ]
+}

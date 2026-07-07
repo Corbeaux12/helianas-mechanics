@@ -1,0 +1,37 @@
+{
+  "_id": "0xSDt2AKi4Q0ZXcO",
+  "_key": "!items!0xSDt2AKi4Q0ZXcO",
+  "name": "Chronocloak (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (Paradox) feathers</p><p><strong>Timelord's Regalia.</strong> While attuned to two or more of the Chronocloak, Tick & Tock, and Timelord Armour, each of the items gains the Master of Time property.</p><p><strong>Master of Time.</strong> When you or a creature you can see within 120 feet of you draws a card from the Paradox Deck for its Temporal Mishap or Creature Warp effect, you can take a Reaction to learn the card's effects before they take place. You can then choose to shuffle that card back into the Paradox Deck and draw another to replace it. Once this property of the item is used, it can't be used again until the next dawn.</p><p>The inside of this cloak is lined with the fabric of spacetime itself, each masterfully woven thread spun from the flaring core of a collapsing star and thrumming with the raw, unfiltered power of cosmic possibility. The outside is lined with the fluffiest feathers you've ever felt.</p><p><strong>Time-Travel Cloak.</strong> While wearing this cloak, you can cast the <em>Timewalk</em>* spell. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Practical Paradoxes.</strong> When you gain one or more Paradox Points, you can gain one of the benefits below for 1 hour. For each additional Paradox Point gained beyond the first, you can choose to either gain another of the benefits or increase the duration of a benefit you've already gained by 1 hour.</p><ul><li>You gain a +1 bonus to AC.</li><li>You gain 4d8 Temporary Hit Points.</li><li>You gain one illusory image as per the <em>Mirror Image</em> spell.</li></ul><p>Once a benefit has been gained, the same benefit can't be gained again until the next dawn.</p><p><strong>Very Rare variant:</strong> Increase the AC bonus to +2, the Temporary Hit Points to 6d8, and the number of illusory images gained to two.</p><p><strong>Legendary variant:</strong> Increase the AC bonus to +3, the Temporary Hit Points to 8d8, and the number of illusory images gained to three. Add the following option to the Practical Paradoxes property: you gain Advantage on the next attack roll you make, the next ability check you make, and the next saving throw you make.</p><p>*See Appendix B of End Times.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 4470,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

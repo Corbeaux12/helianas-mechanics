@@ -1,0 +1,42 @@
+{
+  "_id": "VCiC7mKE7H4dMY8j",
+  "_key": "!items!VCiC7mKE7H4dMY8j",
+  "name": "End Times Hunt Notes",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Field notes on hunting and harvesting the end times, with crafting recipes for its unique items.</p><p>Source: End Times (Loot Tavern hunt, APL 10/15/20)</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "isRecipeBook": true,
+      "recipeBookJournalUuid": "Compendium.helianas-mechanics.recipe-collections.JournalEntry.8EWCfHZoAkxaGPWp"
+    }
+  }
+}

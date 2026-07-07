@@ -1,0 +1,37 @@
+{
+  "_id": "TA6VlUh98dgO5hYU",
+  "_key": "!items!TA6VlUh98dgO5hYU",
+  "name": "Problem-Solver (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any firearm), uncommon</em></p><p><strong>Component:</strong> Construct gears</p><p>Sure, the entire defining trait of a paradox is that it's unsolvable... But have you tried shooting it in the face yet?</p><p>While holding this weapon, you are considered proficient with it.</p><p><strong>Chronomarksmanship.</strong> When you perform the Omnishot technique as a result of hitting a creature with an attack using this weapon, you have Advantage on the required ability check.</p><p><strong>Unexplainable Shot.</strong> When you would gain one or more Paradox Points as a result of failing a saving throw while holding this weapon, you can take a Reaction to shoot the paradox before it forms. You expend one piece of ammunition from the weapon and gain 1 fewer Paradox Point (minimum of 0). You can't take this Reaction if you have no ammunition in the weapon. Once this property is used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><strong>Very Rare variant:</strong> You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 310,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

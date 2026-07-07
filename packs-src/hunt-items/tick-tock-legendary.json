@@ -1,0 +1,37 @@
+{
+  "_id": "bl6Exc838vZEEn5c",
+  "_key": "!items!bl6Exc838vZEEn5c",
+  "name": "Tick & Tock (Legendary)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (dagger and shortsword), very rare (requires attunement)</em></p><p><strong>Component:</strong> Dragon (Paradox) horn</p><p><strong>Timelord's Regalia.</strong> While attuned to two or more of the Chronocloak, Tick & Tock, and Timelord Armour, each of the items gains the Master of Time property.</p><p><strong>Master of Time.</strong> When you or a creature you can see within 120 feet of you draws a card from the Paradox Deck for its Temporal Mishap or Creature Warp effect, you can take a Reaction to learn the card's effects before they take place. You can then choose to shuffle that card back into the Paradox Deck and draw another to replace it. Once this property of the item is used, it can't be used again until the next dawn.</p><p>\"Back in my day, real adventurers used Flame Tongues and Sun Blades. Kids these days and their Tick & Tocks...\" — Hiro Gliff, Kasbat Azzaman's Resident Curmudgeon</p><p>This Dagger and Shortsword count as a single magic item with regard to the number of magic items to which you can attune. You gain a +1 bonus to attack rolls and damage rolls made with these magic weapons.</p><p><strong>The Clock Ticks.</strong> These weapons can hold a maximum of 12 charges. When you hit a creature that has a Challenge Rating of 1 or higher with an attack using either of these weapons, they gain 1 charge. When you gain one or more Paradox Points, the weapons gain an equal number of charges.</p><p><strong>The Clock Strikes Twelve.</strong> When these weapons gain their twelfth charge, they immediately lose 12 charges and you gain the benefits of the <em>Haste</em> spell until the end of your next turn. For the duration, these weapons deal an extra 1d4 Force damage on a hit. You don't suffer the wave of lethargy as a result of the effects of the <em>Haste</em> spell ending in this way.</p><p><strong>Rare variant:</strong> Remove the attack and damage bonus. The Clock Strikes Twelve property doesn't cause the weapons to deal extra Force damage.</p><p><strong>Legendary variant:</strong> Increase the attack and damage bonus to +2 and the damage to 1d6.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "legendary",
+    "attunement": "required",
+    "price": {
+      "value": 73640,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

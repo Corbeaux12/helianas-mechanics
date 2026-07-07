@@ -1,0 +1,37 @@
+{
+  "_id": "72JTgVky6HgvsSZ5",
+  "_key": "!items!72JTgVky6HgvsSZ5",
+  "name": "Timelord Armour (Legendary)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (any), legendary (requires attunement)</em></p><p><strong>Component:</strong> Dragon (Paradox) heart</p><p><strong>Timelord's Regalia.</strong> While attuned to two or more of the Chronocloak, Tick & Tock, and Timelord Armour, each of the items gains the Master of Time property.</p><p><strong>Master of Time.</strong> When you or a creature you can see within 120 feet of you draws a card from the Paradox Deck for its Temporal Mishap or Creature Warp effect, you can take a Reaction to learn the card's effects before they take place. You can then choose to shuffle that card back into the Paradox Deck and draw another to replace it. Once this property of the item is used, it can't be used again until the next dawn.</p><p>\"In the city of Majinna, the blacksmith Zakia forges Timelord Armour sets for all those, and only those, who do not forge Timelord Armour sets for themselves. Does Zakia forge a set of Timelord Armour for herself?\" — Dissi Zalai, Chronophilosopher</p><p><strong>Paradox Powered.</strong> This armour can hold a maximum of 3 charges. While wearing the armour with less than 3 charges, you can take a Bonus Action to lose 1 Paradox Point and cause the armour to gain 1 charge. You can't use this property if you have no Paradox Points or if losing one would put you at a lower Paradox Tier. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Paradox Plate.</strong> While wearing this armour, you have a bonus to AC equal to the number of charges it has. While the armour has at least 1 charge, you also have Resistance to Force damage while wearing it.</p><p><strong>Paradox Pulse.</strong> While wearing this armour, you can take a Magic action to expend 3 charges, releasing all the temporal energy built up within in one powerful pulse. Each creature of your choice in a 30-foot Emanation originating from you makes a DC 17 Charisma saving throw. On a failed save, a creature takes 10d10 Force damage and is banished as per the <em>Banishment</em> spell until the start of your next turn. You then gain 3 Paradox Points, but add only one card to the Paradox Deck as a result of gaining these points.</p><p><strong>Rare variant:</strong> Reduce the size of the Emanation to 10 feet, the DC to 15, and the damage to 4d10. The Paradox Plate property grants a bonus to AC equal to the number of charges in the armour minus 2 (minimum 0).</p><p><strong>Very Rare variant:</strong> Reduce the size of the Emanation to 20 feet, the DC to 16, and the damage to 8d10. The Paradox Plate property grants a bonus to AC equal to the number of charges in the armour minus 1 (minimum 0).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "legendary",
+    "attunement": "required",
+    "price": {
+      "value": 54440,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

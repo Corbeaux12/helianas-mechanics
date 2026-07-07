@@ -1,0 +1,37 @@
+{
+  "_id": "1I3q6G7THTiviTej",
+  "_key": "!items!1I3q6G7THTiviTej",
+  "name": "Elixir of Eternity (Legendary)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, legendary</em></p><p><strong>Component:</strong> Phial of Dragon (Paradox) blood</p><p>This thick, syrupy elixir glimmers with a pleasant rosy hue and smells faintly of your favourite childhood memory. At face value, it's a much more pleasant alternative to lichdom, eldritch mutations, or fiendish pacts when it comes to prolonging one's life... but appearances can be deceiving, and longevity is never without risk.</p><p><strong>Ultimate Gamble.</strong> When you drink this potion, make a DC 20 Constitution saving throw. You can't automatically succeed on the saving throw or turn a failure into a success, such as by using the Legendary Resistance trait. On a failed save, you immediately die. This can't be prevented by effects that would prevent death, such as the <em>Death Ward</em> spell, and a creature that dies in this way can't be brought back to life by any means. On a successful save, your lifespan is doubled, you start aging at an appropriate rate for your new lifespan, and the save DC for any future Elixirs of Eternity you drink increases by 5.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "legendary",
+    "attunement": "",
+    "price": {
+      "value": 27820,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

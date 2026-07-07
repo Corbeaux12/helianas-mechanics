@@ -1,0 +1,37 @@
+{
+  "_id": "A4DX26gEnaNaGYlM",
+  "_key": "!items!A4DX26gEnaNaGYlM",
+  "name": "Timetape (Very Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare</em></p><p><strong>Component:</strong> Aberration (Anomaly) hide</p><p>\"To show you the power of Timetape... I broke reality in half!\" — Phillip Hasty, Temporal Repairman</p><p>While holding this item, you can take a Magic action to unroll the tape, which is automatically applied to the fabric of spacetime as you do. You then lose 1 Paradox Point and the item is destroyed as it fades into nothingness.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 5070,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

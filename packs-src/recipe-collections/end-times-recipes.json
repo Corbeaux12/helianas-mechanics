@@ -1,0 +1,1155 @@
+{
+  "_id": "8EWCfHZoAkxaGPWp",
+  "_key": "!journal!8EWCfHZoAkxaGPWp",
+  "name": "End Times Recipes",
+  "pages": [
+    {
+      "_id": "XFK1DcQXI4HQoFK0",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>End Times (Loot Tavern hunt, APL 10/15/20)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Eye (6); Flesh (10); Phial of Blood (10)</td></tr><tr><td>10</td><td>Bone (10); Fat (10); Pouch of Claws (6); Pouch of Teeth (2)</td></tr><tr><td>15</td><td>Horn (3); Liver (1); Pouch of Feathers (6); Pouch of Scales (5)</td></tr><tr><td>20</td><td>Heart (1)</td></tr><tr><td>25</td><td>Breath Sac (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.jmK7US7PrFVhIH1S]{Bullet of Tomorrow (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.njxlzU242aF6wXrc]{Bullet of Tomorrow (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.0Gr8WnhmglFBcjbj]{Bullet of Tomorrow (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.0xSDt2AKi4Q0ZXcO]{Chronocloak (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Vv9DW4e68QnNjmev]{Chronocloak (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.HVSlGl9IaaxZfhQd]{Chronocloak (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.KEkEDyP3pJkGYlrf]{Chronocube (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.zg6yKbjWZ6Vo4MIN]{Chronocube (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.7dx2eH7hb6D7pgtD]{Chronocube (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.1I3q6G7THTiviTej]{Elixir of Eternity (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.TA6VlUh98dgO5hYU]{Problem-Solver (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.uqSRt2j1jAsg534R]{Problem-Solver (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.bwz4BzMUlZpDNo8N]{Problem-Solver (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.HfDHdjEUVhpKLWyC]{Tick & Tock (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.ZLkTukm0yVu73D0w]{Tick & Tock (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.bl6Exc838vZEEn5c]{Tick & Tock (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.R2BC2QaI13aiR6hV]{Timelord Armour (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.szYX5xeBvxYV1Rn3]{Timelord Armour (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.72JTgVky6HgvsSZ5]{Timelord Armour (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.A4DX26gEnaNaGYlM]{Timetape (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.XFK1DcQXI4HQoFK0"
+    },
+    {
+      "_id": "O5ibCiKGpiTszfoI",
+      "name": "End Times (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/10th, 15th, & 20th/End Times/End Times v0.99.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.O5ibCiKGpiTszfoI"
+    },
+    {
+      "_id": "bfndoxMDkxPcDu9W",
+      "name": "Bullet of Tomorrow (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bullet of Tomorrow (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.jmK7US7PrFVhIH1S",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "u20gWZ1M7b3R9ZOf",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "10JqKj16MQQomLg3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.EP1H0eT029WC1GDz",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.bfndoxMDkxPcDu9W"
+    },
+    {
+      "_id": "Nk1AknvFCg6UtAly",
+      "name": "Bullet of Tomorrow (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bullet of Tomorrow (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.njxlzU242aF6wXrc",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "e7T4I4kAyOjXaslm",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xNg214062OnOatKQ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.EP1H0eT029WC1GDz",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.Nk1AknvFCg6UtAly"
+    },
+    {
+      "_id": "3EvfJQ8VStfVSmol",
+      "name": "Bullet of Tomorrow (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Bullet of Tomorrow (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.0Gr8WnhmglFBcjbj",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "EwQKmwb0cvPvnRIT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0bm7NR8C1uUnjw3a",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.Wrf7F3joiws0LfKb",
+                "name": "Dragon Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.EP1H0eT029WC1GDz",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.3EvfJQ8VStfVSmol"
+    },
+    {
+      "_id": "Ou1nYxgRmy2nMn9y",
+      "name": "Chronocloak (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Chronocloak (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.0xSDt2AKi4Q0ZXcO",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "41i8kKn4oPe6wBuj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "eIMWwhFrjIagRfHW",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.edd3m36hQmmjsVyY",
+                "name": "Paradox Dragon Pouch of Feathers",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch of feathers",
+                  "paradox dragon",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.Ou1nYxgRmy2nMn9y"
+    },
+    {
+      "_id": "N5q4yTZaHfdLAwQO",
+      "name": "Chronocloak (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Chronocloak (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Vv9DW4e68QnNjmev",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "BKkhWf6RO6SfOdvc",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ShrNN0ATMWjXSE6j",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.edd3m36hQmmjsVyY",
+                "name": "Paradox Dragon Pouch of Feathers",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch of feathers",
+                  "paradox dragon",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.N5q4yTZaHfdLAwQO"
+    },
+    {
+      "_id": "Q8J1uSeJRfjN0t4d",
+      "name": "Chronocloak (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Chronocloak (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.HVSlGl9IaaxZfhQd",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rcgL0kzCWIiwuf5g",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "c0lqE4UE5vTXxZu5",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.edd3m36hQmmjsVyY",
+                "name": "Paradox Dragon Pouch of Feathers",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch of feathers",
+                  "paradox dragon",
+                  "dragon"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.Q8J1uSeJRfjN0t4d"
+    },
+    {
+      "_id": "Vw8z5beKfrhjDfeG",
+      "name": "Chronocube (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Chronocube (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.KEkEDyP3pJkGYlrf",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "C1nzaG8ito0A840Z",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "m145nC17hBJxHkl1",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VZR3zlnNU02IJ9ay",
+                "name": "Aberration Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "dragon",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.Vw8z5beKfrhjDfeG"
+    },
+    {
+      "_id": "LPrMeKWREoCs7K4O",
+      "name": "Chronocube (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Chronocube (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.zg6yKbjWZ6Vo4MIN",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fHlEKBUSbtrF44U1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yeS5V3Pw8P9UsUxD",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VZR3zlnNU02IJ9ay",
+                "name": "Aberration Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.LPrMeKWREoCs7K4O"
+    },
+    {
+      "_id": "vJK5Hhl9beVJkJ39",
+      "name": "Chronocube (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Chronocube (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.7dx2eH7hb6D7pgtD",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "x407ExfdAk5ayxc1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "w7W3jpaIdopeqaIi",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VZR3zlnNU02IJ9ay",
+                "name": "Aberration Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.vJK5Hhl9beVJkJ39"
+    },
+    {
+      "_id": "wnpKTGG8qh3Equjy",
+      "name": "Elixir of Eternity (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Elixir of Eternity (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.1I3q6G7THTiviTej",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "E0E9WcFNEpgemgtC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "okUYkBn1qpqfOf7x",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.eqFKrrfW66rlnFBx",
+                "name": "Phial of Dragon Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "dragon",
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.wnpKTGG8qh3Equjy"
+    },
+    {
+      "_id": "v3Zk8PDb2MCWWw4I",
+      "name": "Problem-Solver (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Problem-Solver (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.TA6VlUh98dgO5hYU",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "TqwWeeOCJlBISa78",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "8GVmILAJSMmvmHgy",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.xGYWkfx06mJTrUHQ",
+                "name": "Construct Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "gears",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.v3Zk8PDb2MCWWw4I"
+    },
+    {
+      "_id": "aydB3itti2eXXNHA",
+      "name": "Problem-Solver (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Problem-Solver (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.uqSRt2j1jAsg534R",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZfZ3yv224bMGa9s2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TlEpcoW5LxbkHwyt",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.xGYWkfx06mJTrUHQ",
+                "name": "Construct Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "gears",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.aydB3itti2eXXNHA"
+    },
+    {
+      "_id": "7ogQWNJA1VPH0iSJ",
+      "name": "Problem-Solver (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Problem-Solver (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.bwz4BzMUlZpDNo8N",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "T4PlnvEpvD9fHjLr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "1DFjt8Xi0ZlAduua",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.xGYWkfx06mJTrUHQ",
+                "name": "Construct Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "gears",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.7ogQWNJA1VPH0iSJ"
+    },
+    {
+      "_id": "25JMCKk6B632nWIj",
+      "name": "Tick & Tock (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tick & Tock (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.HfDHdjEUVhpKLWyC",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QeAU5sK6h1Mj53x7",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "15EyfghGxBk5e4Vd",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.25JMCKk6B632nWIj"
+    },
+    {
+      "_id": "4krgmpI30kOLlro4",
+      "name": "Tick & Tock (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tick & Tock (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.ZLkTukm0yVu73D0w",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "B9YD50QdT5O1krrk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "q61Mxfq8UiE0rbai",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.4krgmpI30kOLlro4"
+    },
+    {
+      "_id": "AzyMkj6ZuoKsVUEv",
+      "name": "Tick & Tock (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tick & Tock (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.bl6Exc838vZEEn5c",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mAr2pBg1S4rzFb1X",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "PACNvVLmCf4v8tVr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.VlOSYbeyg3iQKm08",
+                "name": "Dragon Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.AzyMkj6ZuoKsVUEv"
+    },
+    {
+      "_id": "U6TtAkAbijt6ytSQ",
+      "name": "Timelord Armour (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timelord Armour (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.R2BC2QaI13aiR6hV",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KQAXgRqbkV7NxmH5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "NUqVMNSEh4obXPY0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YU6uabBB9mAR4B5O",
+                "name": "Dragon Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.U6TtAkAbijt6ytSQ"
+    },
+    {
+      "_id": "aqEMbgrL1E9qilGh",
+      "name": "Timelord Armour (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timelord Armour (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.szYX5xeBvxYV1Rn3",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2MmPyte7zkZgThRh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "kL4DXKD5kh1de5gq",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YU6uabBB9mAR4B5O",
+                "name": "Dragon Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.aqEMbgrL1E9qilGh"
+    },
+    {
+      "_id": "7BHbM06ShbXqjgxy",
+      "name": "Timelord Armour (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timelord Armour (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.72JTgVky6HgvsSZ5",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mvXfSxPiq1qxCfvl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4fSnNXc2mohdEFQ3",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.YU6uabBB9mAR4B5O",
+                "name": "Dragon Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.7BHbM06ShbXqjgxy"
+    },
+    {
+      "_id": "Pb6zec3RhvN00TQk",
+      "name": "Timetape (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Timetape (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.A4DX26gEnaNaGYlM",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Z5s257gHswrNrq9C",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JBKCZ1Xv77fDzE2l",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.NzaynVVgPInD2LZv",
+                "name": "Aberration Hide",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "hide"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!8EWCfHZoAkxaGPWp.Pb6zec3RhvN00TQk"
+    }
+  ],
+  "folder": null,
+  "sort": 10900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

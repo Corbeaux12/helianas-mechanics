@@ -1,0 +1,37 @@
+{
+  "_id": "0Gr8WnhmglFBcjbj",
+  "_key": "!items!0Gr8WnhmglFBcjbj",
+  "name": "Bullet of Tomorrow (Very Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Ammunition (bullet), uncommon</em></p><p><strong>Component:</strong> Dragon (Paradox) bone</p><p>\"The question isn't where the assassin was hiding... it's when.\" — Kwi Klee, Kasabatian Guard Sergeant</p><p><strong>Shot Through Time.</strong> When you make an attack using this bullet, you can choose to shoot it at an unoccupied space within range. The bullet disappears when it reaches the space and is sent into the future. Make an attack roll and record the result. The first time that a creature enters the space within 1 hour, the bullet reappears and the creature becomes the target of the attack, which uses the recorded attack roll and deals an extra 2d8 Force damage on a hit. If no creature enters the space within the timeframe, the bullet reappears at the end of it and falls to the ground harmlessly.</p><p>After hitting a creature, the bullet becomes nonmagical.</p><p><strong>Rare variant:</strong> Increase the timeframe to 24 hours and the damage to 4d8. Instead of the bullet reappearing the first time that a creature enters the chosen space, you can choose to specify a visual or auditory occurrence to trigger the bullet's reappearance, such as a creature matching a specific description entering the space or a passphrase being spoken. When this trigger occurs within 30 feet of the chosen space, the bullet appears, and if there's a creature in the chosen space, that creature becomes the target of the attack.</p><p><strong>Very Rare variant:</strong> Increase the timeframe to 10 days and the damage to 6d8. You have Advantage on the attack roll made as part of sending the bullet into the future. Instead of the bullet reappearing the first time that a creature enters the chosen space, you can choose to specify a visual or auditory occurrence to trigger the bullet's reappearance, such as a creature matching a specific description entering the space or a passphrase being spoken. When this trigger occurs within 30 feet of the chosen space, the bullet appears, and if there's a creature in the chosen space, that creature becomes the target of the attack.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 4780,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

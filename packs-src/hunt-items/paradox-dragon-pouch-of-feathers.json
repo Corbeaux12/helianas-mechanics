@@ -1,0 +1,45 @@
+{
+  "_id": "edd3m36hQmmjsVyY",
+  "_key": "!items!edd3m36hQmmjsVyY",
+  "name": "Paradox Dragon Pouch of Feathers",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a end times (dragon). See End Times (Loot Tavern hunt, APL 10/15/20).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 70,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "pouch of feathers",
+        "paradox dragon",
+        "dragon"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "7dx2eH7hb6D7pgtD",
+  "_key": "!items!7dx2eH7hb6D7pgtD",
+  "name": "Chronocube (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em></p><p><strong>Component:</strong> Aberration (Paradox Jinn) heart</p><p>Different versions of this device, such as a Chronosphere and a Chronopyramid, were ultimately rejected for not being sufficiently alliterative. A Chronocone was briefly in consideration.</p><p><strong>Paradox Prevention.</strong> In its default state, this item glows with a soft blue colour. While you are holding or carrying the Chronocube and are involved in a situation where you may earn 1 or more Paradox Points, such as being in the vicinity of a past version of yourself or having a conversation that might result in leaking vital information to a creature in the past (GM's discretion), the cube's glow shifts to a vivid red.</p><p><strong>Uncommon variant:</strong> The item has the Retrocausal Shielding property.</p><p><strong>Retrocausal Shielding.</strong> While you are holding or carrying the Chronocube and gain 1 or more Paradox Points, you can take a Reaction to reduce the number of points gained by 1. Once you use this property, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> The item has the Retrocausal Shielding and Reality Mending properties.</p><p><strong>Reality Mending.</strong> While you are holding or carrying the Chronocube, you can use a Magic action to take 4d8 Force damage and lose 1 Paradox Point. This damage can't be reduced or prevented by any means. Once this property of the cube has been used, it can't be used again for 7 days.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1530,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
