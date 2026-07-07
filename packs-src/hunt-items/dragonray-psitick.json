@@ -1,0 +1,45 @@
+{
+  "_id": "EjA4bn4e7GKMLoVI",
+  "_key": "!items!EjA4bn4e7GKMLoVI",
+  "name": "Dragonray Psitick",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a synaptic shiver (dragon). See The Synaptick Shiver (Loot Tavern hunt, APL 7/12/17).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 110,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "psitick",
+        "dragonray",
+        "dragon"
+      ]
+    }
+  }
+}

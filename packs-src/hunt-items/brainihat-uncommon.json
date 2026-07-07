@@ -1,0 +1,37 @@
+{
+  "_id": "CcMWql2snwslH45k",
+  "_key": "!items!CcMWql2snwslH45k",
+  "name": "Brainihat (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare</em></p><p><strong>Component:</strong> Dragon (Dragonray) psitick</p><p>The highly-complex synthetic brain built into this strangely fashionable headwear serves as a host for psiticks, allowing the wearer to draw on their power without the unpleasant side effects. All this at a mere 1% chance that the false brain will spontaneously develop sentience and revolt against all humanoidkind!</p><p><strong>Open Mind.</strong> While wearing this hat, you can tap into the power of the psiticks in one of the following ways:</p><ul><li>You cast the <em>Detect Thoughts</em> spell (save DC 15).</li><li>You cast the <em>Mind Spike</em> spell (save DC 15).</li><li>As a Bonus Action, you gain the ability to see creatures with neurons within 60 feet of you as if you had Blindsight for 10 minutes. You must concentrate on this effect.</li></ul><p>While concentrating on a spell or effect produced by this property, you have Vulnerability to Psychic damage, and your Concentration ends if you remove the hat. Once a spell or effect is used, that spell or effect can't be used again until the next dawn.</p><p><strong>Food for Thought.</strong> As a Bonus Action while wearing this hat, you can let the psiticks within feed on your mental energy to replenish their own. You take 3d6 Psychic damage that can't be reduced or prevented in any way and regain the use of one of the expended effects of the Open Mind property. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13. The Open Mind property can't be used to cast the <em>Detect Thoughts</em> or <em>Mind Spike</em> spells.</p><p><strong>Very Rare variant:</strong> Increase the DC to 16. The item has the Psychic Feedback property.</p><p><strong>Psychic Feedback.</strong> When you use the Open Your Mind or Food for Thought property, each creature of your choice within 20 feet of you makes a DC 16 Wisdom saving throw, taking 3d6 Psychic damage on a failed save, or half as much damage on a successful one.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 440,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

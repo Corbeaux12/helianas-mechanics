@@ -1,10 +1,10 @@
 {
-  "_id": "KMZ2j4yeS5L44u6O",
-  "_key": "!journal!KMZ2j4yeS5L44u6O",
-  "name": "Wizards of the Toast Recipes",
+  "_id": "z46J8haYAFaa14JU",
+  "_key": "!journal!z46J8haYAFaa14JU",
+  "name": "Synaptic Shiver Recipes",
   "pages": [
     {
-      "_id": "dXhh9t2mYrG73dh7",
+      "_id": "96sJtH9c8UBn8Fni",
       "name": "Craftable Items",
       "type": "text",
       "title": {
@@ -13,20 +13,20 @@
       },
       "text": {
         "format": 1,
-        "content": "<p><em>Wizards of the Toast (Loot Tavern hunt, APL 3/7/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>15</td><td>Bread dragon crust (3)</td></tr><tr><td>15</td><td>Calcified corporate heart (1)</td></tr><tr><td>20</td><td>Phial of corporate cerebral fluid (5)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.7zR2FQVJn2XN1M37]{Emberink Stationery (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yLqEaQk5ojoXzbUE]{Emberink Stationery (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.uY55nu2hhXWtJqor]{Heart of Stone (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.l3CfUmGpbFkbN3yI]{Heart of Stone (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.MVrnBkg97815IAUq]{Heart of Stone (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.DFOeIf2G1OFzRzN0]{Wafer Shield (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.MYhy8NjiuJu3psen]{Buzzkill (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Vv6Iah4TqS5BlBFp]{Buzzkill (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.JMxnB04ransKmBye]{Buzzkill (Very Rare)}</p>"
+        "content": "<p><em>The Synaptick Shiver (Loot Tavern hunt, APL 7/12/17)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Flesh (10/3); Phial of Blood (10/3)</td></tr><tr><td>10</td><td>Barbed Tail (1/1); Bone (5/5); Fat (10/0); Pouch of Claws (2/2); Pouch of Teeth (1/1)</td></tr><tr><td>15</td><td>Liver (1/0); Pouch of Scales (5/2)</td></tr><tr><td>20</td><td>Heart (1/0); Psitick (5/2)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.CcMWql2snwslH45k]{Brainihat (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.hnZsUpY8qj0nfqSs]{Brainihat (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.EfCQjqqZq32HJx7F]{Brainihat (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.nztCnYy7FXIX3hDW]{Manta Mantle (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.YsmZ5wP4Qwl0IzML]{Manta Mantle (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.het4cNzN55E5IJuC]{Manta Mantle (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.fwWQLheU693mPgzZ]{Ray-Stinger (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.rkLEX6GN5dXlMbXT]{Ray-Stinger (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Q8zRrt4X4RWS82rz]{Ray-Stinger (Very Rare)}</p>"
       },
       "sort": 10,
       "ownership": {
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.dXhh9t2mYrG73dh7"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.96sJtH9c8UBn8Fni"
     },
     {
-      "_id": "EFN01Vbz7BCOBjiE",
-      "name": "Wizards of the Toast (PDF)",
+      "_id": "EhKb0bYGSLhR6ePm",
+      "name": "Synaptic Shiver (PDF)",
       "type": "pdf",
-      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Wizards of the Toast/Wizards_of_the_Toast - v1.3.pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/7th, 12th, & 17th/The Synaptic Shiver/The Synaptick Shiver v0.95.pdf",
       "title": {
         "show": true,
         "level": 1
@@ -36,39 +36,38 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.EFN01Vbz7BCOBjiE"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.EhKb0bYGSLhR6ePm"
     },
     {
-      "_id": "xuBsmcmWlXfVOErQ",
-      "name": "Emberink Stationery (Rare)",
+      "_id": "n9pdWjZyvB9A1NsB",
+      "name": "Brainihat (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Emberink Stationery (Rare)",
+        "resultName": "Brainihat (Uncommon)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.7zR2FQVJn2XN1M37",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.CcMWql2snwslH45k",
         "resultQuantity": 1,
-        "dc": 18,
-        "timeHours": 40,
+        "dc": 15,
+        "timeHours": 10,
         "toolKey": "",
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "kicjcMt01n2wRuf0",
+            "id": "nWVIWs9lW8uJFCX5",
             "name": "Monster Component",
             "components": [
               {
-                "id": "7DN7AmE5Ew2ZUjnb",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.fRAbmTBIwDja5Vmi",
-                "name": "Phial of Corporate Cerebral Fluid",
+                "id": "7c4pbFnI3AxEyf3Q",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.EjA4bn4e7GKMLoVI",
+                "name": "Dragonray Psitick",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "cerebral fluid",
-                  "brain",
-                  "fiend",
-                  "hasbrodeus"
+                  "psitick",
+                  "dragonray",
+                  "dragon"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -76,13 +75,13 @@
             ]
           }
         ],
-        "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
-        "rarity": "rare",
-        "attunement": "required",
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
-        "enchantingDc": 18,
-        "enchantingTimeHours": 40
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
       },
       "title": {
         "show": true,
@@ -93,39 +92,38 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.xuBsmcmWlXfVOErQ"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.n9pdWjZyvB9A1NsB"
     },
     {
-      "_id": "pdbZbELrDG1il7uh",
-      "name": "Emberink Stationery (Very Rare)",
+      "_id": "sh5MtyrRyBLBnbZe",
+      "name": "Brainihat (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Emberink Stationery (Very Rare)",
+        "resultName": "Brainihat (Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yLqEaQk5ojoXzbUE",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.hnZsUpY8qj0nfqSs",
         "resultQuantity": 1,
-        "dc": 21,
-        "timeHours": 160,
+        "dc": 18,
+        "timeHours": 40,
         "toolKey": "",
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "4JSJRFa6WnHDCDPM",
+            "id": "eMjQUY716uEBEgY2",
             "name": "Monster Component",
             "components": [
               {
-                "id": "0J1a4lW4gnxRzjde",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.fRAbmTBIwDja5Vmi",
-                "name": "Phial of Corporate Cerebral Fluid",
+                "id": "NETFZ8kyfttRrL0j",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.EjA4bn4e7GKMLoVI",
+                "name": "Dragonray Psitick",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "cerebral fluid",
-                  "brain",
-                  "fiend",
-                  "hasbrodeus"
+                  "psitick",
+                  "dragonray",
+                  "dragon"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -133,13 +131,13 @@
             ]
           }
         ],
-        "essenceTierRequired": "potent",
-        "componentCreatureType": "fiend",
-        "rarity": "very rare",
-        "attunement": "required",
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
-        "enchantingDc": 21,
-        "enchantingTimeHours": 160
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
       },
       "title": {
         "show": true,
@@ -150,38 +148,38 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.pdbZbELrDG1il7uh"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.sh5MtyrRyBLBnbZe"
     },
     {
-      "_id": "ZumkqH29MeU0APGa",
-      "name": "Heart of Stone (Uncommon)",
+      "_id": "dm4FpmynbH9Q1Q3X",
+      "name": "Brainihat (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Heart of Stone (Uncommon)",
+        "resultName": "Brainihat (Very Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.uY55nu2hhXWtJqor",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.EfCQjqqZq32HJx7F",
         "resultQuantity": 1,
-        "dc": 15,
-        "timeHours": 10,
+        "dc": 21,
+        "timeHours": 160,
         "toolKey": "",
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "6kvLfyvizSQ3llNn",
+            "id": "Czzd2YULWXz2Zs6X",
             "name": "Monster Component",
             "components": [
               {
-                "id": "MiLtbMtjlU5T2WxP",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.61u5Lk7O0pfHmR8T",
-                "name": "Calcified Corporate Heart",
+                "id": "qr7JFiJUmFmfw0h4",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.EjA4bn4e7GKMLoVI",
+                "name": "Dragonray Psitick",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "heart",
-                  "fiend",
-                  "hasbrodeus"
+                  "psitick",
+                  "dragonray",
+                  "dragon"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -189,13 +187,13 @@
             ]
           }
         ],
-        "essenceTierRequired": "frail",
-        "componentCreatureType": "fiend",
-        "rarity": "uncommon",
-        "attunement": "required",
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
-        "enchantingDc": 15,
-        "enchantingTimeHours": 10
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
       },
       "title": {
         "show": true,
@@ -206,17 +204,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.ZumkqH29MeU0APGa"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.dm4FpmynbH9Q1Q3X"
     },
     {
-      "_id": "nv67MDHEaxjj68RK",
-      "name": "Heart of Stone (Rare)",
+      "_id": "zTrwEoBC51p7dz2I",
+      "name": "Manta Mantle (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Heart of Stone (Rare)",
+        "resultName": "Manta Mantle (Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.l3CfUmGpbFkbN3yI",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.nztCnYy7FXIX3hDW",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -224,20 +222,20 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "gs2F8GxTUYLvdJrb",
+            "id": "7Fwck7BHjCPIpLa3",
             "name": "Monster Component",
             "components": [
               {
-                "id": "Ifuzdka6VQ9O4CvC",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.61u5Lk7O0pfHmR8T",
-                "name": "Calcified Corporate Heart",
+                "id": "wZ1FeTH5mOcDPGFK",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "heart",
-                  "fiend",
-                  "hasbrodeus"
+                  "pouch",
+                  "dragon",
+                  "scales"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -246,7 +244,7 @@
           }
         ],
         "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "dragon",
         "rarity": "rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
@@ -262,17 +260,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.nv67MDHEaxjj68RK"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.zTrwEoBC51p7dz2I"
     },
     {
-      "_id": "bLVrSFPwsCpztAs2",
-      "name": "Heart of Stone (Very Rare)",
+      "_id": "gLZP0zQwrrl7JWye",
+      "name": "Manta Mantle (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Heart of Stone (Very Rare)",
+        "resultName": "Manta Mantle (Very Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.MVrnBkg97815IAUq",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.YsmZ5wP4Qwl0IzML",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -280,20 +278,20 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "k0G0Xq5eehcCxerl",
+            "id": "zajCAxPkpi33CKK3",
             "name": "Monster Component",
             "components": [
               {
-                "id": "MYBkx46FgSYfFA70",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.61u5Lk7O0pfHmR8T",
-                "name": "Calcified Corporate Heart",
+                "id": "RVB4FBH8dPawyc0g",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "heart",
-                  "fiend",
-                  "hasbrodeus"
+                  "pouch",
+                  "dragon",
+                  "scales"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -302,7 +300,7 @@
           }
         ],
         "essenceTierRequired": "potent",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "dragon",
         "rarity": "very rare",
         "attunement": "required",
         "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
@@ -318,38 +316,38 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.bLVrSFPwsCpztAs2"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.gLZP0zQwrrl7JWye"
     },
     {
-      "_id": "doNC5EQPlKEfp60s",
-      "name": "Wafer Shield (Rare)",
+      "_id": "a15ovXmUTyXGak8C",
+      "name": "Manta Mantle (Legendary)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Wafer Shield (Rare)",
+        "resultName": "Manta Mantle (Legendary)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.DFOeIf2G1OFzRzN0",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.het4cNzN55E5IJuC",
         "resultQuantity": 1,
-        "dc": 18,
-        "timeHours": 40,
+        "dc": 25,
+        "timeHours": 640,
         "toolKey": "",
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "YKwHg5povLk6VfAr",
+            "id": "LS4gQYNQIM5RSXB4",
             "name": "Monster Component",
             "components": [
               {
-                "id": "vLsYalZzYEtzQYzQ",
-                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.vTAP3RPIEMwvzdFv",
-                "name": "Bread Dragon Crust",
+                "id": "IpMN3UfiEAbRmU6o",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "crust",
-                  "bread dragon",
-                  "construct"
+                  "pouch",
+                  "dragon",
+                  "scales"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -357,13 +355,13 @@
             ]
           }
         ],
-        "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
-        "rarity": "rare",
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
         "attunement": "required",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.Iz2JUqiD2c9iORyn",
-        "enchantingDc": 18,
-        "enchantingTimeHours": 40
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
       },
       "title": {
         "show": true,
@@ -374,17 +372,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.doNC5EQPlKEfp60s"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.a15ovXmUTyXGak8C"
     },
     {
-      "_id": "utWzOd5ouqz2lV3t",
-      "name": "Buzzkill (Uncommon)",
+      "_id": "3JODfWIDovfHDFx8",
+      "name": "Ray-Stinger (Uncommon)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Buzzkill (Uncommon)",
+        "resultName": "Ray-Stinger (Uncommon)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.MYhy8NjiuJu3psen",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.fwWQLheU693mPgzZ",
         "resultQuantity": 1,
         "dc": 15,
         "timeHours": 10,
@@ -392,19 +390,20 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "km7gUkzQ5swJCSSS",
+            "id": "TjyAcpSq6504KovK",
             "name": "Monster Component",
             "components": [
               {
-                "id": "vBI8YiMMQad63PjL",
-                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.UJuGOWu6UsP3grtl",
-                "name": "Beast Egg",
+                "id": "fqDNXbWyRvMOrOrg",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.yioFVLnMXn7Sm5uY",
+                "name": "Dragonray Barbed Tail",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "beast",
-                  "egg"
+                  "barbed tail",
+                  "dragonray",
+                  "dragon"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -413,10 +412,10 @@
           }
         ],
         "essenceTierRequired": "frail",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "dragon",
         "rarity": "uncommon",
         "attunement": "required",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "enchantingDc": 15,
         "enchantingTimeHours": 10
       },
@@ -429,17 +428,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.utWzOd5ouqz2lV3t"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.3JODfWIDovfHDFx8"
     },
     {
-      "_id": "BsI2IjF33pGWWf7A",
-      "name": "Buzzkill (Rare)",
+      "_id": "tpbm0ypXNRKi3xPJ",
+      "name": "Ray-Stinger (Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Buzzkill (Rare)",
+        "resultName": "Ray-Stinger (Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Vv6Iah4TqS5BlBFp",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.rkLEX6GN5dXlMbXT",
         "resultQuantity": 1,
         "dc": 18,
         "timeHours": 40,
@@ -447,19 +446,20 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "LjKTY4pRjbTe6w0l",
+            "id": "24Dw6vxxKzG84g1q",
             "name": "Monster Component",
             "components": [
               {
-                "id": "qG2yhtk3r3Q1AvmT",
-                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.UJuGOWu6UsP3grtl",
-                "name": "Beast Egg",
+                "id": "WXUcdbZ4TeDviYRD",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.yioFVLnMXn7Sm5uY",
+                "name": "Dragonray Barbed Tail",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "beast",
-                  "egg"
+                  "barbed tail",
+                  "dragonray",
+                  "dragon"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -468,10 +468,10 @@
           }
         ],
         "essenceTierRequired": "robust",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "dragon",
         "rarity": "rare",
         "attunement": "required",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "enchantingDc": 18,
         "enchantingTimeHours": 40
       },
@@ -484,17 +484,17 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.BsI2IjF33pGWWf7A"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.tpbm0ypXNRKi3xPJ"
     },
     {
-      "_id": "pHSngVjmME6WjnPe",
-      "name": "Buzzkill (Very Rare)",
+      "_id": "NbNoJTQUIl06RPp0",
+      "name": "Ray-Stinger (Very Rare)",
       "type": "helianas-mechanics.recipe",
       "system": {
         "recipeType": "forge",
-        "resultName": "Buzzkill (Very Rare)",
+        "resultName": "Ray-Stinger (Very Rare)",
         "resultImg": "",
-        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.JMxnB04ransKmBye",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Q8zRrt4X4RWS82rz",
         "resultQuantity": 1,
         "dc": 21,
         "timeHours": 160,
@@ -502,19 +502,20 @@
         "toolAbility": "",
         "ingredients": [
           {
-            "id": "6Z9z53vWFBJaw0Tm",
+            "id": "OM7c7yuncSjg405R",
             "name": "Monster Component",
             "components": [
               {
-                "id": "qQoU4kh2fzAklOtO",
-                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.UJuGOWu6UsP3grtl",
-                "name": "Beast Egg",
+                "id": "G9CvKYO6hNtoRhrI",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.yioFVLnMXn7Sm5uY",
+                "name": "Dragonray Barbed Tail",
                 "nameMode": "exact",
                 "img": "",
                 "quantity": 1,
                 "tags": [
-                  "beast",
-                  "egg"
+                  "barbed tail",
+                  "dragonray",
+                  "dragon"
                 ],
                 "mode": "some",
                 "resourcePath": ""
@@ -523,10 +524,10 @@
           }
         ],
         "essenceTierRequired": "potent",
-        "componentCreatureType": "fiend",
+        "componentCreatureType": "dragon",
         "rarity": "very rare",
         "attunement": "required",
-        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
         "enchantingDc": 21,
         "enchantingTimeHours": 160
       },
@@ -539,11 +540,11 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!KMZ2j4yeS5L44u6O.pHSngVjmME6WjnPe"
+      "_key": "!journal.pages!z46J8haYAFaa14JU.NbNoJTQUIl06RPp0"
     }
   ],
   "folder": null,
-  "sort": 12300,
+  "sort": 11900,
   "ownership": {
     "default": 0
   },

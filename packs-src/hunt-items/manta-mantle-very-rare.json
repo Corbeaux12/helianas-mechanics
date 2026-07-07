@@ -1,0 +1,37 @@
+{
+  "_id": "YsmZ5wP4Qwl0IzML",
+  "_key": "!items!YsmZ5wP4Qwl0IzML",
+  "name": "Manta Mantle (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (Dragonray) scales</p><p>Excellent for avoiding nasty falls, keeping enemies close, and keeping enemies far. Not so excellent for maintaining a good haircut, keeping clear of dust, or giving comfortable hugs.</p><p><strong>Static Field.</strong> As a Bonus Action while wearing this cloak, you can create a field of static electricity in a 10-foot Emanation originating from you, which lasts until the start of your next turn. Choose one of the following effects for the field:</p><ul><li><strong>Cage.</strong> When a creature attempts to move out of the Emanation, it makes a DC 16 Constitution saving throw. On a failed save, it takes 2d6 Lightning damage and its Speeds are reduced to 0 until the start of its next turn. On a successful save, it takes half as much damage only.</li><li><strong>Tide.</strong> When a creature attempts to move into the Emanation, it makes a DC 16 Constitution saving throw. On a failed save, it takes 2d6 Lightning damage and is pushed 10 feet directly away from you. On a successful save, it takes half as much damage only.</li></ul><p>Once this property of the item is used, it can't be used again until the next dawn.</p><p><strong>Dynamo Glide.</strong> When you fall while wearing this cloak, you can take a Reaction to open its flaps. If you do, you take no damage from falling that turn and can maneuver 1 foot horizontally for each 1 foot you fall (to a maximum of 60 feet). If you glide horizontally in this way at least 30 feet in one turn, the cloak builds up electricity, regaining the use of its Static Field property.</p><p><strong>Rare variant:</strong> Reduce the DCs to 15, the damage to 1d6, the Speed reduction to half of the creature's Speeds, and the distance pushed to 5 feet.</p><p><strong>Legendary variant:</strong> Increase the DCs to 17 and the damage to 4d6.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 12150,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

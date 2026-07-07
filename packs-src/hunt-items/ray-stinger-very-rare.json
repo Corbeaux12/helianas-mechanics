@@ -1,0 +1,37 @@
+{
+  "_id": "Q8zRrt4X4RWS82rz",
+  "_key": "!items!Q8zRrt4X4RWS82rz",
+  "name": "Ray-Stinger (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (pike or spear), uncommon (requires attunement)</em></p><p><strong>Component:</strong> Dragon (Dragonray) barbed tail</p><p>\"Hook 'em up, shock 'em good, reel 'em in.\" —Anne Gler, Rakin Spearfisher</p><p>This weapon has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Extendable Tip.</strong> When you make an attack using this weapon, you can expend 1 charge to increase its reach to 30 feet for that attack, causing its tip to fly at its target while remaining connected to the haft by a strand of electricity. Hit or miss, you can reel the tip back in (no action required).</p><p><strong>On the Hook.</strong> When you hit a creature with an attack using this weapon, you can embed the barbed tip into the target. The tip remains connected to the haft by a strand of electricity. While a creature has the tip embedded in it, it can't move away from you unless you allow it. The tip comes off if you choose to reel it in (no action required) or let go of the weapon, if the creature is ever farther than 30 feet from you, or if a creature within 5 feet of the tip takes a Utilise action to make a successful DC 13 Strength check to remove it.</p><p>While the tip is embedded in a creature, you can't make attacks using this weapon against other targets, and you can expend 1 charge as a Bonus Action to produce one of the following effects:</p><ul><li><strong>Shock.</strong> The creature must succeed on a DC 13 Constitution saving throw or take 3d8 Lightning damage.</li><li><strong>Yank.</strong> The creature must succeed on a DC 13 Strength saving throw or be pulled 15 feet directly towards you.</li></ul><p><strong>Rare variant:</strong> Increase the charges to 6, the recharge to 1d4 + 2, and the DCs to 15. You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><strong>Very Rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, and the DCs to 16. You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 11650,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

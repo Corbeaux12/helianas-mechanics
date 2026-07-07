@@ -1,0 +1,60 @@
+{
+  "name": "Synaptic Shiver",
+  "source": "The Synaptick Shiver (Loot Tavern hunt, APL 7/12/17)",
+  "creatureType": "dragon",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/7th, 12th, & 17th/The Synaptic Shiver/The Synaptick Shiver v0.95.pdf",
+  "harvest": [
+    { "dc": 5,  "components": ["Flesh (10/3); Phial of Blood (10/3)"] },
+    { "dc": 10, "components": ["Barbed Tail (1/1); Bone (5/5); Fat (10/0); Pouch of Claws (2/2); Pouch of Teeth (1/1)"] },
+    { "dc": 15, "components": ["Liver (1/0); Pouch of Scales (5/2)"] },
+    { "dc": 20, "components": ["Heart (1/0); Psitick (5/2)"] }
+  ],
+  "components": [
+    { "name": "Dragonray Psitick",     "tags": ["psitick", "dragonray", "dragon"],     "price": 110 },
+    { "name": "Dragonray Barbed Tail", "tags": ["barbed tail", "dragonray", "dragon"], "price": 40 }
+  ],
+  "items": [
+    {
+      "name": "Brainihat",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Dragonray Psitick",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 440 },
+        { "rarity": "rare",      "value": 1880 },
+        { "rarity": "very rare", "value": 10400 }
+      ],
+      "description": "<p><em>Wondrous item, rare</em></p><p><strong>Component:</strong> Dragon (Dragonray) psitick</p><p>The highly-complex synthetic brain built into this strangely fashionable headwear serves as a host for psiticks, allowing the wearer to draw on their power without the unpleasant side effects. All this at a mere 1% chance that the false brain will spontaneously develop sentience and revolt against all humanoidkind!</p><p><strong>Open Mind.</strong> While wearing this hat, you can tap into the power of the psiticks in one of the following ways:</p><ul><li>You cast the <em>Detect Thoughts</em> spell (save DC 15).</li><li>You cast the <em>Mind Spike</em> spell (save DC 15).</li><li>As a Bonus Action, you gain the ability to see creatures with neurons within 60 feet of you as if you had Blindsight for 10 minutes. You must concentrate on this effect.</li></ul><p>While concentrating on a spell or effect produced by this property, you have Vulnerability to Psychic damage, and your Concentration ends if you remove the hat. Once a spell or effect is used, that spell or effect can't be used again until the next dawn.</p><p><strong>Food for Thought.</strong> As a Bonus Action while wearing this hat, you can let the psiticks within feed on your mental energy to replenish their own. You take 3d6 Psychic damage that can't be reduced or prevented in any way and regain the use of one of the expended effects of the Open Mind property. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13. The Open Mind property can't be used to cast the <em>Detect Thoughts</em> or <em>Mind Spike</em> spells.</p><p><strong>Very Rare variant:</strong> Increase the DC to 16. The item has the Psychic Feedback property.</p><p><strong>Psychic Feedback.</strong> When you use the Open Your Mind or Food for Thought property, each creature of your choice within 20 feet of you makes a DC 16 Wisdom saving throw, taking 3d6 Psychic damage on a failed save, or half as much damage on a successful one.</p>"
+    },
+    {
+      "name": "Manta Mantle",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Pouch of Dragon Scales",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 3320 },
+        { "rarity": "very rare", "value": 12150 },
+        { "rarity": "legendary", "value": 62830 }
+      ],
+      "description": "<p><em>Wondrous item, very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (Dragonray) scales</p><p>Excellent for avoiding nasty falls, keeping enemies close, and keeping enemies far. Not so excellent for maintaining a good haircut, keeping clear of dust, or giving comfortable hugs.</p><p><strong>Static Field.</strong> As a Bonus Action while wearing this cloak, you can create a field of static electricity in a 10-foot Emanation originating from you, which lasts until the start of your next turn. Choose one of the following effects for the field:</p><ul><li><strong>Cage.</strong> When a creature attempts to move out of the Emanation, it makes a DC 16 Constitution saving throw. On a failed save, it takes 2d6 Lightning damage and its Speeds are reduced to 0 until the start of its next turn. On a successful save, it takes half as much damage only.</li><li><strong>Tide.</strong> When a creature attempts to move into the Emanation, it makes a DC 16 Constitution saving throw. On a failed save, it takes 2d6 Lightning damage and is pushed 10 feet directly away from you. On a successful save, it takes half as much damage only.</li></ul><p>Once this property of the item is used, it can't be used again until the next dawn.</p><p><strong>Dynamo Glide.</strong> When you fall while wearing this cloak, you can take a Reaction to open its flaps. If you do, you take no damage from falling that turn and can maneuver 1 foot horizontally for each 1 foot you fall (to a maximum of 60 feet). If you glide horizontally in this way at least 30 feet in one turn, the cloak builds up electricity, regaining the use of its Static Field property.</p><p><strong>Rare variant:</strong> Reduce the DCs to 15, the damage to 1d6, the Speed reduction to half of the creature's Speeds, and the distance pushed to 5 feet.</p><p><strong>Legendary variant:</strong> Increase the DCs to 17 and the damage to 4d6.</p>"
+    },
+    {
+      "name": "Ray-Stinger",
+      "itemType": "weapon",
+      "kind": "Weapon (pike or spear)",
+      "component": "Dragonray Barbed Tail",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 560 },
+        { "rarity": "rare",      "value": 3200 },
+        { "rarity": "very rare", "value": 11650 }
+      ],
+      "description": "<p><em>Weapon (pike or spear), uncommon (requires attunement)</em></p><p><strong>Component:</strong> Dragon (Dragonray) barbed tail</p><p>\"Hook 'em up, shock 'em good, reel 'em in.\" —Anne Gler, Rakin Spearfisher</p><p>This weapon has 4 charges and regains 1d4 expended charges daily at dawn.</p><p><strong>Extendable Tip.</strong> When you make an attack using this weapon, you can expend 1 charge to increase its reach to 30 feet for that attack, causing its tip to fly at its target while remaining connected to the haft by a strand of electricity. Hit or miss, you can reel the tip back in (no action required).</p><p><strong>On the Hook.</strong> When you hit a creature with an attack using this weapon, you can embed the barbed tip into the target. The tip remains connected to the haft by a strand of electricity. While a creature has the tip embedded in it, it can't move away from you unless you allow it. The tip comes off if you choose to reel it in (no action required) or let go of the weapon, if the creature is ever farther than 30 feet from you, or if a creature within 5 feet of the tip takes a Utilise action to make a successful DC 13 Strength check to remove it.</p><p>While the tip is embedded in a creature, you can't make attacks using this weapon against other targets, and you can expend 1 charge as a Bonus Action to produce one of the following effects:</p><ul><li><strong>Shock.</strong> The creature must succeed on a DC 13 Constitution saving throw or take 3d8 Lightning damage.</li><li><strong>Yank.</strong> The creature must succeed on a DC 13 Strength saving throw or be pulled 15 feet directly towards you.</li></ul><p><strong>Rare variant:</strong> Increase the charges to 6, the recharge to 1d4 + 2, and the DCs to 15. You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><strong>Very Rare variant:</strong> Increase the charges to 8, the recharge to 1d6 + 2, and the DCs to 16. You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.</p>"
+    }
+  ]
+}
