@@ -1,0 +1,161 @@
+{
+  "_id": "CqHdRCVJCeRD82mu",
+  "_key": "!journal!CqHdRCVJCeRD82mu",
+  "name": "Field Notes X-28: Bladeborne Mantiroar",
+  "pages": [
+    {
+      "_id": "bLd25b87IJyJMjgj",
+      "_key": "!journal.pages!CqHdRCVJCeRD82mu.bLd25b87IJyJMjgj",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-28/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rBdNUDjdU6TtBJ29",
+      "_key": "!journal.pages!CqHdRCVJCeRD82mu.rBdNUDjdU6TtBJ29",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-28/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MSriZ0AfvzAkFvKC",
+      "_key": "!journal.pages!CqHdRCVJCeRD82mu.MSriZ0AfvzAkFvKC",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-28/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "x9RP7HKtZxrr5UYo",
+      "_key": "!journal.pages!CqHdRCVJCeRD82mu.x9RP7HKtZxrr5UYo",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-28/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "k73VkDUA2EbPVYiz",
+      "_key": "!journal.pages!CqHdRCVJCeRD82mu.k73VkDUA2EbPVYiz",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-28/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VcDhLSYneSw4D9OG",
+      "_key": "!journal.pages!CqHdRCVJCeRD82mu.VcDhLSYneSw4D9OG",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-28/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FYnkrloeMIAQQNYW",
+      "_key": "!journal.pages!CqHdRCVJCeRD82mu.FYnkrloeMIAQQNYW",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-28/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

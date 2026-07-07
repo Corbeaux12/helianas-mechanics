@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Anima obsessio.</em> A goblin-shaped vessel animated by a single lingering obsession — destruction, escape, fame, knowledge, protection, or subterfuge — which dictates its abilities and behaviour. Habitat: Any.</p><p><em>Source: Heliana's Field Notes X-23 (Loot Tavern)</em></p>",
+        "value": "<p><em>Anima obsessio.</em> A goblin-shaped vessel animated by a single lingering obsession — destruction, escape, fame, knowledge, protection, or subterfuge — which dictates its abilities and behaviour. Habitat: Any.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.MlFiR7sQtV9nxTM0]{Heliana's Field Notes X-23 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Neutral",

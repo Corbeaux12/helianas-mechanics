@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Dolusailurus gelidus.</em> A fog-wreathed arctic feline that hides in its own illusory mists, freezes wet prey in place, and vanishes in a swirl of enticing images. Habitat: Arctic.</p><p><strong>Wet (new condition).</strong> A Wet creature has Disadvantage on saving throws against effects that deal Cold or Lightning damage and against extreme cold, and Advantage on saving throws against effects that deal Fire damage. The condition ends when the creature takes 5+ Fire damage in a single turn or spends 1 hour around a source of heat.</p><p><em>Source: Heliana's Field Notes X-27 (Loot Tavern)</em></p>",
+        "value": "<p><em>Dolusailurus gelidus.</em> A fog-wreathed arctic feline that hides in its own illusory mists, freezes wet prey in place, and vanishes in a swirl of enticing images. Habitat: Arctic.</p><p><strong>Wet (new condition).</strong> A Wet creature has Disadvantage on saving throws against effects that deal Cold or Lightning damage and against extreme cold, and Advantage on saving throws against effects that deal Fire damage. The condition ends when the creature takes 5+ Fire damage in a single turn or spends 1 hour around a source of heat.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.7ehpwrhaz7JDrACC]{Heliana's Field Notes X-27 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

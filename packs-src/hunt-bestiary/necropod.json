@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Phythia sanguidivina.</em> A blood-divining abyssal cephalopod that drinks vitality through its needle beak — glutted on stolen life, it glimpses the near future and detonates the stored necrotic energy in a pulse. Habitat: Ocean.</p><p><em>Source: Heliana's Field Notes X-31 (Loot Tavern)</em></p>",
+        "value": "<p><em>Phythia sanguidivina.</em> A blood-divining abyssal cephalopod that drinks vitality through its needle beak — glutted on stolen life, it glimpses the near future and detonates the stored necrotic energy in a pulse. Habitat: Ocean.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.L3lXSuqnMDd0m2pT]{Heliana's Field Notes X-31 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Evil",

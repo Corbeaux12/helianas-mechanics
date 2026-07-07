@@ -1,0 +1,182 @@
+{
+  "_id": "bwrGrSC7kXnT5ujL",
+  "_key": "!journal!bwrGrSC7kXnT5ujL",
+  "name": "Field Notes X-20: Painted Lady",
+  "pages": [
+    {
+      "_id": "VQ2eL8rR5y9Wkl9Z",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.VQ2eL8rR5y9Wkl9Z",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5wnH5Pc09svBBEl5",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.5wnH5Pc09svBBEl5",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ntiwt052r8odpjWT",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.Ntiwt052r8odpjWT",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pghYAyLfkiWwy5kb",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.pghYAyLfkiWwy5kb",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wQFxpe2oXcsCHvg3",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.wQFxpe2oXcsCHvg3",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iIdbE24CUJHc02Ln",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.iIdbE24CUJHc02Ln",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KtMXfeF0Gq29MyI2",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.KtMXfeF0Gq29MyI2",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fRhCDOjJpHu1hgV7",
+      "_key": "!journal.pages!bwrGrSC7kXnT5ujL.fRhCDOjJpHu1hgV7",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-20/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 3100,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

@@ -55,7 +55,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Psiocladia galera.</em> A hovering aberrant empath that reads every heart around it and pummels anyone whose emotions run too hot — rage, in particular, is answered with immediate violence. Habitat: The Low.</p><p><em>Source: Heliana's Field Notes P-009 (Loot Tavern)</em></p>",
+        "value": "<p><em>Psiocladia galera.</em> A hovering aberrant empath that reads every heart around it and pummels anyone whose emotions run too hot — rage, in particular, is answered with immediate violence. Habitat: The Low.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.sIpA7lQk7aVonYWq]{Heliana's Field Notes P-009 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Neutral",

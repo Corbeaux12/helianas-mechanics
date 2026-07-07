@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Chuul chuulverin.</em> A siege-engine chuul that boils the water around it, lobbing blobs of superheated sulfurous slurry that occasionally hatch into live chuuls. Habitat: Ocean.</p><p><em>Source: Heliana's Field Notes X-34 (Loot Tavern)</em></p>",
+        "value": "<p><em>Chuul chuulverin.</em> A siege-engine chuul that boils the water around it, lobbing blobs of superheated sulfurous slurry that occasionally hatch into live chuuls. Habitat: Ocean.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.TymRrqaqZiXxJXwP]{Heliana's Field Notes X-34 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Evil",

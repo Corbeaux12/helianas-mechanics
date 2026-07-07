@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Genia amorta.</em> A jinn impresario who trades in lifespans — every spell he casts for a 'willing' client costs them months of life, paid directly into his own. On stage he conducts swarms of vitality bats like an orchestra. Habitat: Urban.</p><p><em>Source: Heliana's Field Notes X-39 (Loot Tavern)</em></p>",
+        "value": "<p><em>Genia amorta.</em> A jinn impresario who trades in lifespans — every spell he casts for a 'willing' client costs them months of life, paid directly into his own. On stage he conducts swarms of vitality bats like an orchestra. Habitat: Urban.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.sUPUOxagRkR5LGNc]{Heliana's Field Notes X-39 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral Evil",

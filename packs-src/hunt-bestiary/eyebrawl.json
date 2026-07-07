@@ -55,7 +55,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Oculotyrannus manus.</em> A pugilist beholder-kin — a floating eye with massive fists whose punches leave targets coated in volatile slime that detonates in one of six random ways at the next blunt hit. Habitat: The Low &amp; Urban.</p><p><em>Source: Heliana's Field Notes X-52 (Loot Tavern)</em></p>",
+        "value": "<p><em>Oculotyrannus manus.</em> A pugilist beholder-kin — a floating eye with massive fists whose punches leave targets coated in volatile slime that detonates in one of six random ways at the next blunt hit. Habitat: The Low &amp; Urban.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.5sqHK7STFB5mSzgK]{Heliana's Field Notes X-52 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral Evil",

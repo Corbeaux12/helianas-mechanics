@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Sidaroderma dice.</em> A construct judge housing both infernal and divine power — its censer burns souls as fuel, and its damage type shifts with the alignment of whoever it judges (Necrotic for the good, Radiant for the evil, Force for everyone else). When destroyed, the pent-up duality detonates. Habitat: Extraplanar.</p><p><strong>Gear:</strong> Flail.</p><p><em>Source: Heliana's Field Notes X-44 (Loot Tavern)</em></p>",
+        "value": "<p><em>Sidaroderma dice.</em> A construct judge housing both infernal and divine power — its censer burns souls as fuel, and its damage type shifts with the alignment of whoever it judges (Necrotic for the good, Radiant for the evil, Force for everyone else). When destroyed, the pent-up duality detonates. Habitat: Extraplanar.</p><p><strong>Gear:</strong> Flail.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.WPxdiTIX7xhOXJr1]{Heliana's Field Notes X-44 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",

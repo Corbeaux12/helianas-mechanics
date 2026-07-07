@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Rattus hydra.</em> A many-headed rat-hydra that inflates its neck pouch into a toxic balloon — hovering, shrugging off blows, and blasting foes away with pressurised wind until someone punctures it. Habitat: Forest &amp; Hill.</p><p><em>Source: Heliana's Field Notes X-51 (Loot Tavern)</em></p>",
+        "value": "<p><em>Rattus hydra.</em> A many-headed rat-hydra that inflates its neck pouch into a toxic balloon — hovering, shrugging off blows, and blasting foes away with pressurised wind until someone punctures it. Habitat: Forest &amp; Hill.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.PY6ijd6Jc31fcvau]{Heliana's Field Notes X-51 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Evil",

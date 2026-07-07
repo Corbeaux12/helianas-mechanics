@@ -1,0 +1,119 @@
+{
+  "_id": "Rpg2KFYAuA6Ll5tV",
+  "_key": "!journal!Rpg2KFYAuA6Ll5tV",
+  "name": "Field Notes X-46: Poshengu",
+  "pages": [
+    {
+      "_id": "N2sNOoERuMvaswvO",
+      "_key": "!journal.pages!Rpg2KFYAuA6Ll5tV.N2sNOoERuMvaswvO",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-46/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qCy9dJpSJL4q85MN",
+      "_key": "!journal.pages!Rpg2KFYAuA6Ll5tV.qCy9dJpSJL4q85MN",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-46/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "a7fhoCAfGFmtLa6C",
+      "_key": "!journal.pages!Rpg2KFYAuA6Ll5tV.a7fhoCAfGFmtLa6C",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-46/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7UY3AazvmDT9e43G",
+      "_key": "!journal.pages!Rpg2KFYAuA6Ll5tV.7UY3AazvmDT9e43G",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-46/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gYiT0m2Nnyn0Aqr1",
+      "_key": "!journal.pages!Rpg2KFYAuA6Ll5tV.gYiT0m2Nnyn0Aqr1",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-46/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 3300,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

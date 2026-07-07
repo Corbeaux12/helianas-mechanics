@@ -1,0 +1,98 @@
+{
+  "_id": "sUPUOxagRkR5LGNc",
+  "_key": "!journal!sUPUOxagRkR5LGNc",
+  "name": "Field Notes X-39: Grand Maestro Sangrimm / Swarm of Vitality Bats",
+  "pages": [
+    {
+      "_id": "7vPMtGZgLf6eWuQE",
+      "_key": "!journal.pages!sUPUOxagRkR5LGNc.7vPMtGZgLf6eWuQE",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-39/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OFgq6ShE7PDt0Tl3",
+      "_key": "!journal.pages!sUPUOxagRkR5LGNc.OFgq6ShE7PDt0Tl3",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-39/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "e2Ffu2wnz98Yq3Lm",
+      "_key": "!journal.pages!sUPUOxagRkR5LGNc.e2Ffu2wnz98Yq3Lm",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-39/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J5TgSFdI7hkTjJgA",
+      "_key": "!journal.pages!sUPUOxagRkR5LGNc.J5TgSFdI7hkTjJgA",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-39/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

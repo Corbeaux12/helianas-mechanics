@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Caeruleum sextus.</em> A blue-flamed undead swordsman that flickers between shadows, carving foes with six searing blades and stealing their vitality — feed it fire and its blinding flare reignites. Habitat: Mountain.</p><p><em>Source: Heliana's Field Notes P-008 (Loot Tavern)</em></p>",
+        "value": "<p><em>Caeruleum sextus.</em> A blue-flamed undead swordsman that flickers between shadows, carving foes with six searing blades and stealing their vitality — feed it fire and its blinding flare reignites. Habitat: Mountain.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.ybxa920p29FUbIBv]{Heliana's Field Notes P-008 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Draconis arthromorphae.</em> An ancient lacewing dragon — a cathedral-sized weaver whose silk breath cocoons armies and whose marionette threads reach 120 feet. Habitat: Forest &amp; Jungle.</p><p><em>Source: Heliana's Field Notes X-47 (Loot Tavern)</em></p>",
+        "value": "<p><em>Draconis arthromorphae.</em> An ancient lacewing dragon — a cathedral-sized weaver whose silk breath cocoons armies and whose marionette threads reach 120 feet. Habitat: Forest &amp; Jungle.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.3KaHBqPimIWPl6Xq]{Heliana's Field Notes X-47 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

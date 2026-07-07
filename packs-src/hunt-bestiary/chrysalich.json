@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Lich khrusos.</em> A lich that traded its phylactery for a golden cocoon — it fights entirely through a silk puppet woven around a stolen corpse (AC 21 and Resistance to all damage while the puppet lives, Stealth +11 for the puppet). Destroy the cocoon and it simply spins a new one. Habitat: Mountain &amp; The Low.</p><p><em>Source: Heliana's Field Notes X-48 (Loot Tavern)</em></p>",
+        "value": "<p><em>Lich khrusos.</em> A lich that traded its phylactery for a golden cocoon — it fights entirely through a silk puppet woven around a stolen corpse (AC 21 and Resistance to all damage while the puppet lives, Stealth +11 for the puppet). Destroy the cocoon and it simply spins a new one. Habitat: Mountain &amp; The Low.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.OInRhP8Rwd7NDpQp]{Heliana's Field Notes X-48 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral Evil",

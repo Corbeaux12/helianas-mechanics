@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Modronos draconis.</em> A modron-made dragon of perfect order — every ability score exactly 20, no Advantage or Disadvantage permitted near it, and a reaction that flattens any die roll to a perfectly average 10. Habitat: Extraplanar.</p><p><em>Source: Heliana's Field Notes X-54 (Loot Tavern)</em></p>",
+        "value": "<p><em>Modronos draconis.</em> A modron-made dragon of perfect order — every ability score exactly 20, no Advantage or Disadvantage permitted near it, and a reaction that flattens any die roll to a perfectly average 10. Habitat: Extraplanar.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.A1BSKEITEgtGWk5K]{Heliana's Field Notes X-54 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",

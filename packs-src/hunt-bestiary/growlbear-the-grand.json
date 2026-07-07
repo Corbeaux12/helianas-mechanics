@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Noctursi grandis.</em> Once an esteemed wildshaper, now a slime-coated swamp tyrant that inhales prey four at a time and spits them back out as ammunition. The swallybogs of the Hungering Mire serve him out of terror. Habitat: Swamp.</p><p><em>Source: Heliana's Field Notes X-43 (Loot Tavern)</em></p>",
+        "value": "<p><em>Noctursi grandis.</em> Once an esteemed wildshaper, now a slime-coated swamp tyrant that inhales prey four at a time and spits them back out as ammunition. The swallybogs of the Hungering Mire serve him out of terror. Habitat: Swamp.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.sitQoMLTAsK83E81]{Heliana's Field Notes X-43 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral Evil",

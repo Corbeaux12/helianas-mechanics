@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Pice fumanima.</em> A tar-bodied elemental gargoyle. Heating its core (10+ Fire damage) drops its AC to 15 but grants a Fly Speed of 20 feet, ignites its Bite, and unlocks its Heat Beam — a trade attackers may regret triggering. Habitat: Mountain &amp; Planar.</p><p><em>Source: Heliana's Field Notes X-49 (Loot Tavern)</em></p>",
+        "value": "<p><em>Pice fumanima.</em> A tar-bodied elemental gargoyle. Heating its core (10+ Fire damage) drops its AC to 15 but grants a Fly Speed of 20 feet, ignites its Bite, and unlocks its Heat Beam — a trade attackers may regret triggering. Habitat: Mountain &amp; Planar.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.KoHrmT4UsNbFAjTY]{Heliana's Field Notes X-49 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

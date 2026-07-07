@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Animasaurus acervus.</em> A dragon that hoards not gold but living creatures, sealed shrunken in jars along its flanks — knocked-out victims are bottled, charmed by the next dawn, and released as loyal specimens when the hoarder needs muscle. Habitat: Mountains &amp; Underdark.</p><p><em>Source: Heliana's Field Notes X-37 (Loot Tavern)</em></p>",
+        "value": "<p><em>Animasaurus acervus.</em> A dragon that hoards not gold but living creatures, sealed shrunken in jars along its flanks — knocked-out victims are bottled, charmed by the next dawn, and released as loyal specimens when the hoarder needs muscle. Habitat: Mountains &amp; Underdark.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.Whg4zG1ZaBH4I3wg]{Heliana's Field Notes X-37 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Evil",

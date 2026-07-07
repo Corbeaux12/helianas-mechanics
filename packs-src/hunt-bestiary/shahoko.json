@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Homara minax.</em> A colossal lobster yokai whose shielded claw doubles as a rampart and whose other claw is a living water cannon, raining aimed elemental pulses on anyone who lingers. Habitat: Coast.</p><p><em>Source: Heliana's Field Notes P-011 (Loot Tavern)</em></p>",
+        "value": "<p><em>Homara minax.</em> A colossal lobster yokai whose shielded claw doubles as a rampart and whose other claw is a living water cannon, raining aimed elemental pulses on anyone who lingers. Habitat: Coast.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.BTWyiX8ektIh4eSF]{Heliana's Field Notes P-011 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Any Alignment",

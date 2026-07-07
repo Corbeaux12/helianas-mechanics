@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Gullible amphibious swamp-dwellers pressed into Growlbear the Grand's service — they hunt meat for their master and scout his trap-riddled Hungering Mire, hoping not to be eaten themselves.</p><p><strong>Gear:</strong> Blowgun, Hide Armour, Needles (6), Trident.</p><p><em>Source: Heliana's Field Notes X-43 (Loot Tavern)</em></p>",
+        "value": "<p>Gullible amphibious swamp-dwellers pressed into Growlbear the Grand's service — they hunt meat for their master and scout his trap-riddled Hungering Mire, hoping not to be eaten themselves.</p><p><strong>Gear:</strong> Blowgun, Hide Armour, Needles (6), Trident.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.sitQoMLTAsK83E81]{Heliana's Field Notes X-43 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Animus fibrastra.</em> The Embroidered Voidspawn Cloak — a gargantuan shroud of living night that drags its own pocket of warped spacetime with it, blotting out the sun, scattering movement, and sending pieces of itself out to smother minds in madness. Habitat: Any.</p><p><em>Source: Heliana's Field Notes X-30 (Loot Tavern)</em></p>",
+        "value": "<p><em>Animus fibrastra.</em> The Embroidered Voidspawn Cloak — a gargantuan shroud of living night that drags its own pocket of warped spacetime with it, blotting out the sun, scattering movement, and sending pieces of itself out to smother minds in madness. Habitat: Any.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.ezYDficfXKYC7WND]{Heliana's Field Notes X-30 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Evil",

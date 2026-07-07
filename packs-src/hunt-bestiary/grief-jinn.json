@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Genia dolor.</em> A jinn bound into four ceremonial jars, each depicting a different god — forge, storm, sun, and underworld. It rearranges its vessels mid-fight to change the elements it wields, and shattering them only frees something angrier. Defeating the jinn after its Shattered Form activates is worth an additional 7,200 XP (14,400 XP total). Habitat: Desert.</p><p><em>Source: Heliana's Field Notes P-003 (Loot Tavern)</em></p>",
+        "value": "<p><em>Genia dolor.</em> A jinn bound into four ceremonial jars, each depicting a different god — forge, storm, sun, and underworld. It rearranges its vessels mid-fight to change the elements it wields, and shattering them only frees something angrier. Defeating the jinn after its Shattered Form activates is worth an additional 7,200 XP (14,400 XP total). Habitat: Desert.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.r4T1cDx3kPZKzMFy]{Heliana's Field Notes P-003 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Neutral",

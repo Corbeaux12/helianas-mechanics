@@ -1,0 +1,98 @@
+{
+  "_id": "4ykyuK7HKPxW3d9K",
+  "_key": "!journal!4ykyuK7HKPxW3d9K",
+  "name": "Field Notes X-21: Magnétanque",
+  "pages": [
+    {
+      "_id": "kz5R4ByjQL8hLUBp",
+      "_key": "!journal.pages!4ykyuK7HKPxW3d9K.kz5R4ByjQL8hLUBp",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-21/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OV7yreYElDzIWAJk",
+      "_key": "!journal.pages!4ykyuK7HKPxW3d9K.OV7yreYElDzIWAJk",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-21/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tCDAtTZnDYifGMgt",
+      "_key": "!journal.pages!4ykyuK7HKPxW3d9K.tCDAtTZnDYifGMgt",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-21/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EM1NUUcesQRTCyM5",
+      "_key": "!journal.pages!4ykyuK7HKPxW3d9K.EM1NUUcesQRTCyM5",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-21/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2600,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

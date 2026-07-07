@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Mellarium eques.</em> An armoured ooze knight that flings chunks of itself as independent fighting blobs, absorbs them back to heal, and splits under heavy slashing blows. Habitat: Jungles.</p><p><strong>Gear:</strong> Mace.</p><p><em>Source: Heliana's Field Notes X-40 (Loot Tavern)</em></p>",
+        "value": "<p><em>Mellarium eques.</em> An armoured ooze knight that flings chunks of itself as independent fighting blobs, absorbs them back to heal, and splits under heavy slashing blows. Habitat: Jungles.</p><p><strong>Gear:</strong> Mace.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.E1FAo50qw6Q8TTGm]{Heliana's Field Notes X-40 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

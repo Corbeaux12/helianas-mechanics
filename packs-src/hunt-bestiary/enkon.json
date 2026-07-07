@@ -51,7 +51,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Pongo iracundis.</em> A blazing ape elemental whose flames burn hotter the angrier it gets — every heavy blow stokes its rage and upgrades its fire dice, and even death struggles to stick. Habitat: Jungle.</p><p><em>Source: Heliana's Field Notes P-012 (Loot Tavern)</em></p>",
+        "value": "<p><em>Pongo iracundis.</em> A blazing ape elemental whose flames burn hotter the angrier it gets — every heavy blow stokes its rage and upgrades its fire dice, and even death struggles to stick. Habitat: Jungle.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.V4AEpBw6uX7fHGah]{Heliana's Field Notes P-012 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Evil",

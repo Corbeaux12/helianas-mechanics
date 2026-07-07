@@ -51,7 +51,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>The zaptor matriarch leads herds of zaptors across the desert — swift, storm-charged raptors whose bodies crackle with accumulated static. Habitat: Desert.</p><p><em>Source: Heliana's Field Notes P-006 (Loot Tavern)</em></p>",
+        "value": "<p>The zaptor matriarch leads herds of zaptors across the desert — swift, storm-charged raptors whose bodies crackle with accumulated static. Habitat: Desert.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.sz4sgyHXCXbMIi3L]{Heliana's Field Notes P-006 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

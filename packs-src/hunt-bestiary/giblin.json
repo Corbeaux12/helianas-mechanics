@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Goblinoid gibli.</em> Rock-skinned fey goblinoids that swim through lava and launch themselves at foes like living cannonballs. Habitat: Hill &amp; Mountain.</p><p><em>Source: Heliana's Field Notes P-005 (Loot Tavern)</em></p>",
+        "value": "<p><em>Goblinoid gibli.</em> Rock-skinned fey goblinoids that swim through lava and launch themselves at foes like living cannonballs. Habitat: Hill &amp; Mountain.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.bHJC7tlWkasPutr4]{Heliana's Field Notes P-005 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Neutral",

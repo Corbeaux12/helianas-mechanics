@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Dynastes alchimia.</em> A beetle-like elemental alchemist that wanders between the planes, carrying beads of raw element it can throw singly or fuse into devastating combined blasts once wounded. Habitat: Extraplanar.</p><p><em>Source: Heliana's Field Notes X-41 (Loot Tavern)</em></p>",
+        "value": "<p><em>Dynastes alchimia.</em> A beetle-like elemental alchemist that wanders between the planes, carrying beads of raw element it can throw singly or fuse into devastating combined blasts once wounded. Habitat: Extraplanar.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.w062zdQGW82EJIN1]{Heliana's Field Notes X-41 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Neutral",

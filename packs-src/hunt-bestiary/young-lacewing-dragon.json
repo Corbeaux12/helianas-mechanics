@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>A young lacewing dragon, its silk breath already strong enough to cocoon whole hunting parties. Habitat: Forest &amp; Jungle.</p><p><em>Source: Heliana's Field Notes X-47 (Loot Tavern)</em></p>",
+        "value": "<p>A young lacewing dragon, its silk breath already strong enough to cocoon whole hunting parties. Habitat: Forest &amp; Jungle.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.3KaHBqPimIWPl6Xq]{Heliana's Field Notes X-47 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

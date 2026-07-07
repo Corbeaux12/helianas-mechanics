@@ -1,0 +1,98 @@
+{
+  "_id": "MlFiR7sQtV9nxTM0",
+  "_key": "!journal!MlFiR7sQtV9nxTM0",
+  "name": "Field Notes X-23: Somnoblin",
+  "pages": [
+    {
+      "_id": "udm3XtQRpi68jgoX",
+      "_key": "!journal.pages!MlFiR7sQtV9nxTM0.udm3XtQRpi68jgoX",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-23/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "htqpOmUXN3i21Y46",
+      "_key": "!journal.pages!MlFiR7sQtV9nxTM0.htqpOmUXN3i21Y46",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-23/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FlOsw2PKyfHjHHiU",
+      "_key": "!journal.pages!MlFiR7sQtV9nxTM0.FlOsw2PKyfHjHHiU",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-23/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ggj2DdYyDyHWedeG",
+      "_key": "!journal.pages!MlFiR7sQtV9nxTM0.ggj2DdYyDyHWedeG",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-23/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 4200,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

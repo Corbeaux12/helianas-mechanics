@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Pingvius erectus.</em> A silver-tongued pengkin jarl whose psionic whispers corrupt magical communication for sixty feet in every direction — and who is perfectly happy to settle arguments by sliding into you at speed. Habitat: Arctic.</p><p><strong>Gear:</strong> Quarterstaff.</p><p><em>Source: Heliana's Field Notes X-36 (Loot Tavern)</em></p>",
+        "value": "<p><em>Pingvius erectus.</em> A silver-tongued pengkin jarl whose psionic whispers corrupt magical communication for sixty feet in every direction — and who is perfectly happy to settle arguments by sliding into you at speed. Habitat: Arctic.</p><p><strong>Gear:</strong> Quarterstaff.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.8bDOoZ2669d8Cyvs]{Heliana's Field Notes X-36 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Neutral",

@@ -1,0 +1,119 @@
+{
+  "_id": "A1BSKEITEgtGWk5K",
+  "_key": "!journal!A1BSKEITEgtGWk5K",
+  "name": "Field Notes X-54: Dracodrone",
+  "pages": [
+    {
+      "_id": "VfahiEP0qAM9LIgl",
+      "_key": "!journal.pages!A1BSKEITEgtGWk5K.VfahiEP0qAM9LIgl",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-54/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Z6lVug7PN0oH42dv",
+      "_key": "!journal.pages!A1BSKEITEgtGWk5K.Z6lVug7PN0oH42dv",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-54/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "B1o2PkR16ikjKd2t",
+      "_key": "!journal.pages!A1BSKEITEgtGWk5K.B1o2PkR16ikjKd2t",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-54/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ap3gYtQVe7qF0B9p",
+      "_key": "!journal.pages!A1BSKEITEgtGWk5K.Ap3gYtQVe7qF0B9p",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-54/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NPGmphdHwQpQD4Yu",
+      "_key": "!journal.pages!A1BSKEITEgtGWk5K.NPGmphdHwQpQD4Yu",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-54/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>A fragment of a Hivebound Champion, flung or split off as an independent armoured ooze. Its Hit Points vary with how it was created (see the champion's Fling Form and Split features).</p><p><em>Source: Heliana's Field Notes X-40 (Loot Tavern)</em></p>",
+        "value": "<p>A fragment of a Hivebound Champion, flung or split off as an independent armoured ooze. Its Hit Points vary with how it was created (see the champion's Fling Form and Split features).</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.E1FAo50qw6Q8TTGm]{Heliana's Field Notes X-40 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

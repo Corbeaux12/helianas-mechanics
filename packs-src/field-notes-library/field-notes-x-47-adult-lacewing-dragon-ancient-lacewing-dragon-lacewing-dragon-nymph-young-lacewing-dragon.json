@@ -1,0 +1,140 @@
+{
+  "_id": "3KaHBqPimIWPl6Xq",
+  "_key": "!journal!3KaHBqPimIWPl6Xq",
+  "name": "Field Notes X-47: Adult Lacewing Dragon / Ancient Lacewing Dragon / Lacewing Dragon Nymph / Young Lacewing Dragon",
+  "pages": [
+    {
+      "_id": "5f7VbeIdLUcB6zW2",
+      "_key": "!journal.pages!3KaHBqPimIWPl6Xq.5f7VbeIdLUcB6zW2",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-47/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2meUgYlLYuINGMd4",
+      "_key": "!journal.pages!3KaHBqPimIWPl6Xq.2meUgYlLYuINGMd4",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-47/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GgUKmguytcCh1AED",
+      "_key": "!journal.pages!3KaHBqPimIWPl6Xq.GgUKmguytcCh1AED",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-47/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vqhDqB18Jle7gJ7u",
+      "_key": "!journal.pages!3KaHBqPimIWPl6Xq.vqhDqB18Jle7gJ7u",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-47/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wwc88aAJ5uElK72n",
+      "_key": "!journal.pages!3KaHBqPimIWPl6Xq.wwc88aAJ5uElK72n",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-47/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J8Z6OQlDRfhuv0sd",
+      "_key": "!journal.pages!3KaHBqPimIWPl6Xq.J8Z6OQlDRfhuv0sd",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-47/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

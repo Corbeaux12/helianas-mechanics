@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Lycanthropos daimon.</em> A moonfire-wielding lycanthrope that shifts between humanoid, dire wolf (Speed 40 ft.), and hybrid forms, scattering explosive lunar dust as it fights — and its bite spreads the full lycanthropy curse. Habitat: Forest, Hill &amp; Swamp.</p><p><em>Source: Heliana's Field Notes X-53 (Loot Tavern)</em></p>",
+        "value": "<p><em>Lycanthropos daimon.</em> A moonfire-wielding lycanthrope that shifts between humanoid, dire wolf (Speed 40 ft.), and hybrid forms, scattering explosive lunar dust as it fights — and its bite spreads the full lycanthropy curse. Habitat: Forest, Hill &amp; Swamp.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.vZe97RL8R77QhnBG]{Heliana's Field Notes X-53 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Evil",

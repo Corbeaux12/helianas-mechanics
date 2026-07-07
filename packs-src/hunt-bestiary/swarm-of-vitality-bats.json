@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>A Small swarm of Tiny fey bats made of crimson life essence, conjured and conducted by Grand Maestro Sangrimm's Sanguine Swarm attack.</p><p><em>Source: Heliana's Field Notes X-39 (Loot Tavern)</em></p>",
+        "value": "<p>A Small swarm of Tiny fey bats made of crimson life essence, conjured and conducted by Grand Maestro Sangrimm's Sanguine Swarm attack.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.sUPUOxagRkR5LGNc]{Heliana's Field Notes X-39 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

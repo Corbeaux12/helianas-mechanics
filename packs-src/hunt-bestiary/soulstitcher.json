@@ -55,7 +55,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Folliculi textor.</em> An incorporeal tailor-ghost that sees the weave of magic itself, hurls a soul-piercing needle that ignores cover, and snips hostile spells apart mid-cast. Habitat: Forest &amp; Urban.</p><p><em>Source: Heliana's Field Notes X-42 (Loot Tavern)</em></p>",
+        "value": "<p><em>Folliculi textor.</em> An incorporeal tailor-ghost that sees the weave of magic itself, hurls a soul-piercing needle that ignores cover, and snips hostile spells apart mid-cast. Habitat: Forest &amp; Urban.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.v5Qy9bGEJepC578q]{Heliana's Field Notes X-42 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",

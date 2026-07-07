@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Lapis pelecanoides.</em> A huge burrowing ambusher whose exposed teeth pass for ordinary stones — until the ground erupts and the graviturgic maw starts pulling prey in. Habitat: Deserts &amp; Hills.</p><p><em>Source: Heliana's Field Notes X-25 (Loot Tavern)</em></p>",
+        "value": "<p><em>Lapis pelecanoides.</em> A huge burrowing ambusher whose exposed teeth pass for ordinary stones — until the ground erupts and the graviturgic maw starts pulling prey in. Habitat: Deserts &amp; Hills.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.g6d2H7mE50Ed7DTp]{Heliana's Field Notes X-25 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Unaligned",

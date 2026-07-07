@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Magnes levirotunda.</em> A rotund magnetic elemental that senses iron through solid rock, locks armoured foes in its grip, and detonates arcanomagnetic pulses. Habitat: Hill &amp; Mountain.</p><p><em>Source: Heliana's Field Notes X-21 (Loot Tavern)</em></p>",
+        "value": "<p><em>Magnes levirotunda.</em> A rotund magnetic elemental that senses iron through solid rock, locks armoured foes in its grip, and detonates arcanomagnetic pulses. Habitat: Hill &amp; Mountain.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.4ykyuK7HKPxW3d9K]{Heliana's Field Notes X-21 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Neutral",

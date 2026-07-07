@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Canis zoros.</em> A many-tailed yokai grandmaster of the martial arts, each spectral tail transforming into a different golden weapon mid-flurry. Slain in anything less than honourable combat, it simply returns with the dawn. Habitat: Extraplanar.</p><p><em>Source: Heliana's Field Notes X-26 (Loot Tavern)</em></p>",
+        "value": "<p><em>Canis zoros.</em> A many-tailed yokai grandmaster of the martial arts, each spectral tail transforming into a different golden weapon mid-flurry. Slain in anything less than honourable combat, it simply returns with the dawn. Habitat: Extraplanar.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.EQarAFtXD50kgWXJ]{Heliana's Field Notes X-26 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",

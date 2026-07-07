@@ -51,7 +51,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Entominid clypeum.</em> A Formigan entomorph cleric of the Astringentum, the theocracy of metal-haters — the dish-like crown atop its head holds a pool of blessed acid it pours out to bless allies or dissolve armour. Its Speed is 25 ft. while the Caustic Pool is filled. Habitat: Any.</p><p><strong>Gear:</strong> Staff.</p><p><em>Source: Heliana's Field Notes X-24 (Loot Tavern)</em></p>",
+        "value": "<p><em>Entominid clypeum.</em> A Formigan entomorph cleric of the Astringentum, the theocracy of metal-haters — the dish-like crown atop its head holds a pool of blessed acid it pours out to bless allies or dissolve armour. Its Speed is 25 ft. while the Caustic Pool is filled. Habitat: Any.</p><p><strong>Gear:</strong> Staff.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.95wBAlll41GHi1zA]{Heliana's Field Notes X-24 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Evil",

@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Mantaurus macrotelum.</em> A winged manticore-lion honour-duellist that wreathes itself in golden light, sweeps its greatsword in radiant arcs, and roars apart the magic of anyone who fights dishonourably. Its lair is the Wartorn Ashes. Habitat: Battlefields.</p><p><strong>Gear:</strong> Greatsword.</p><p><em>Source: Heliana's Field Notes X-28 (Loot Tavern)</em></p>",
+        "value": "<p><em>Mantaurus macrotelum.</em> A winged manticore-lion honour-duellist that wreathes itself in golden light, sweeps its greatsword in radiant arcs, and roars apart the magic of anyone who fights dishonourably. Its lair is the Wartorn Ashes. Habitat: Battlefields.</p><p><strong>Gear:</strong> Greatsword.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.CqHdRCVJCeRD82mu]{Heliana's Field Notes X-28 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Evil",

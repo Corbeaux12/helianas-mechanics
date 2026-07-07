@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Gigantos aecora.</em> The Sea Giant Jotunbjerg — a gargantuan glacier-bodied wanderer that walks the water's surface, luring sailors in with its hypnotic Icy Deathlight and tracking the Titans across the planes. Habitat: Arctic &amp; Ocean.</p><p><em>Source: Heliana's Field Notes X-32 (Loot Tavern)</em></p>",
+        "value": "<p><em>Gigantos aecora.</em> The Sea Giant Jotunbjerg — a gargantuan glacier-bodied wanderer that walks the water's surface, luring sailors in with its hypnotic Icy Deathlight and tracking the Titans across the planes. Habitat: Arctic &amp; Ocean.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.4AM08bJ4vFG21uO0]{Heliana's Field Notes X-32 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

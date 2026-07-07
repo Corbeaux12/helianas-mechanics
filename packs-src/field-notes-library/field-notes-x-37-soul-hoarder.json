@@ -1,0 +1,98 @@
+{
+  "_id": "Whg4zG1ZaBH4I3wg",
+  "_key": "!journal!Whg4zG1ZaBH4I3wg",
+  "name": "Field Notes X-37: Soul Hoarder",
+  "pages": [
+    {
+      "_id": "6GOyaBg8XFMHwSYa",
+      "_key": "!journal.pages!Whg4zG1ZaBH4I3wg.6GOyaBg8XFMHwSYa",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-37/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iNIicMO7hCI0tQvG",
+      "_key": "!journal.pages!Whg4zG1ZaBH4I3wg.iNIicMO7hCI0tQvG",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-37/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zJE24J0ZdQzomj71",
+      "_key": "!journal.pages!Whg4zG1ZaBH4I3wg.zJE24J0ZdQzomj71",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-37/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cJq1QXqk46GnlJkc",
+      "_key": "!journal.pages!Whg4zG1ZaBH4I3wg.cJq1QXqk46GnlJkc",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-37/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 4300,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

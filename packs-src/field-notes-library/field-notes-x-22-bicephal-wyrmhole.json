@@ -1,0 +1,98 @@
+{
+  "_id": "lP7Kf1tHLx3GJj0e",
+  "_key": "!journal!lP7Kf1tHLx3GJj0e",
+  "name": "Field Notes X-22: Bicephal Wyrmhole",
+  "pages": [
+    {
+      "_id": "iT11rhF9nlQmIjXe",
+      "_key": "!journal.pages!lP7Kf1tHLx3GJj0e.iT11rhF9nlQmIjXe",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-22/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Qxp675RD2718rXoi",
+      "_key": "!journal.pages!lP7Kf1tHLx3GJj0e.Qxp675RD2718rXoi",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-22/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bEBu415tAy5exWWA",
+      "_key": "!journal.pages!lP7Kf1tHLx3GJj0e.bEBu415tAy5exWWA",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-22/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xK5RoS6IPmSji8oG",
+      "_key": "!journal.pages!lP7Kf1tHLx3GJj0e.xK5RoS6IPmSji8oG",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-22/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

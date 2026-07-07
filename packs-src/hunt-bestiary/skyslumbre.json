@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Couatlis lunaris.</em> A moonlit celestial serpent, invisible except in moonlight or during an eclipse, that lulls whole camps into slumber under its glow. Habitat: Jungle.</p><p><em>Source: Heliana's Field Notes P-004 (Loot Tavern)</em></p>",
+        "value": "<p><em>Couatlis lunaris.</em> A moonlit celestial serpent, invisible except in moonlight or during an eclipse, that lulls whole camps into slumber under its glow. Habitat: Jungle.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.a2crl1ju72ueM49J]{Heliana's Field Notes P-004 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral Good",

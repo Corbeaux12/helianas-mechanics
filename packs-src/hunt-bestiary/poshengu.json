@@ -51,7 +51,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Entominid vagus.</em> A wandering entomorph cartographer-warrior whose ricocheting chakrams never leave its hands for long — and who can read a decade of anyone's travels with a touch. Habitat: The Low.</p><p><strong>Gear:</strong> Cartographer's Tools, Chakram, Quarterstaff. Also proficient with Cartographer's Tools (+3).</p><p><em>Source: Heliana's Field Notes X-46 (Loot Tavern)</em></p>",
+        "value": "<p><em>Entominid vagus.</em> A wandering entomorph cartographer-warrior whose ricocheting chakrams never leave its hands for long — and who can read a decade of anyone's travels with a touch. Habitat: The Low.</p><p><strong>Gear:</strong> Cartographer's Tools, Chakram, Quarterstaff. Also proficient with Cartographer's Tools (+3).</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.Rpg2KFYAuA6Ll5tV]{Heliana's Field Notes X-46 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Any Alignment",

@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Dracopia cautus.</em> The zodiac dragon of the snake — a shapeshifting infiltrator that reads surface thoughts when wounded and grants uncanny intuition to its chosen. Its Fly Speed of 40 ft. applies in its true form only; its lucky number is 6. Habitat: Desert &amp; Forest.</p><p><em>Source: Heliana's Field Notes X-66 (Loot Tavern)</em></p>",
+        "value": "<p><em>Dracopia cautus.</em> The zodiac dragon of the snake — a shapeshifting infiltrator that reads surface thoughts when wounded and grants uncanny intuition to its chosen. Its Fly Speed of 40 ft. applies in its true form only; its lucky number is 6. Habitat: Desert &amp; Forest.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.l8HsPqu8NRGXmQcc]{Heliana's Field Notes X-66 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral Good",

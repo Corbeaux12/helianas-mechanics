@@ -1,0 +1,98 @@
+{
+  "_id": "E1FAo50qw6Q8TTGm",
+  "_key": "!journal!E1FAo50qw6Q8TTGm",
+  "name": "Field Notes X-40: Armoured Blob / Hivebound Champion",
+  "pages": [
+    {
+      "_id": "8MXZji07BuCH0S91",
+      "_key": "!journal.pages!E1FAo50qw6Q8TTGm.8MXZji07BuCH0S91",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-40/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4f2alJF5Y4grtlkd",
+      "_key": "!journal.pages!E1FAo50qw6Q8TTGm.4f2alJF5Y4grtlkd",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-40/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zNs7f7AIf7XBViZ7",
+      "_key": "!journal.pages!E1FAo50qw6Q8TTGm.zNs7f7AIf7XBViZ7",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-40/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Q2k0CwllmONnmppD",
+      "_key": "!journal.pages!E1FAo50qw6Q8TTGm.Q2k0CwllmONnmppD",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-40/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

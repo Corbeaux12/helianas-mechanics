@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Mellarium centurio.</em> A honey-hued ooze commander wearing a rapier, leading swarms of insects with barked stance orders — aggressive when attacking, near-impenetrable when defending. Habitat: Forest.</p><p><em>Source: Heliana's Field Notes P-001 (Loot Tavern)</em></p>",
+        "value": "<p><em>Mellarium centurio.</em> A honey-hued ooze commander wearing a rapier, leading swarms of insects with barked stance orders — aggressive when attacking, near-impenetrable when defending. Habitat: Forest.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.tEQXF7AA6bwpZOZ2]{Heliana's Field Notes P-001 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

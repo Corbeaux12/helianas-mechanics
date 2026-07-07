@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Monocero funiculus.</em> A storm-charged unicorn-beast whose horn is a living lightning rod — shocking it only reloads its Fulgurshot. Habitat: Coast &amp; Desert.</p><p><em>Source: Heliana's Field Notes X-50 (Loot Tavern)</em></p>",
+        "value": "<p><em>Monocero funiculus.</em> A storm-charged unicorn-beast whose horn is a living lightning rod — shocking it only reloads its Fulgurshot. Habitat: Coast &amp; Desert.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.sZgFzPqSVxdmf5UJ]{Heliana's Field Notes X-50 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Unaligned",

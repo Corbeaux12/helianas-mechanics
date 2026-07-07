@@ -1,0 +1,98 @@
+{
+  "_id": "95wBAlll41GHi1zA",
+  "_key": "!journal!95wBAlll41GHi1zA",
+  "name": "Field Notes X-24: High Priest of the Astringentum",
+  "pages": [
+    {
+      "_id": "AOCPhw44B0sm4RBw",
+      "_key": "!journal.pages!95wBAlll41GHi1zA.AOCPhw44B0sm4RBw",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-24/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XnixwSWxnFOc1bMl",
+      "_key": "!journal.pages!95wBAlll41GHi1zA.XnixwSWxnFOc1bMl",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-24/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0M4h2cgNJrMlQJ1C",
+      "_key": "!journal.pages!95wBAlll41GHi1zA.0M4h2cgNJrMlQJ1C",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-24/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bt8o7YID37J4r97s",
+      "_key": "!journal.pages!95wBAlll41GHi1zA.bt8o7YID37J4r97s",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-24/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}

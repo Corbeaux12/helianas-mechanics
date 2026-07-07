@@ -2,7 +2,7 @@
   "id": "helianas-mechanics",
   "title": "Heliana's Mechanics",
   "description": "A Foundry VTT module providing mechanics from Heliana's Guide to Monster Hunting.",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
@@ -98,6 +98,13 @@
       "path": "packs/hunt-library",
       "type": "JournalEntry",
       "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "field-notes-library",
+      "label": "Heliana's Field Notes Library",
+      "path": "packs/field-notes-library",
+      "type": "JournalEntry",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     }
   ],
   "relationships": {
@@ -120,7 +127,8 @@
         "recipe-collections",
         "hunt-items",
         "hunt-bestiary",
-        "hunt-library"
+        "hunt-library",
+        "field-notes-library"
       ]
     }
   ],

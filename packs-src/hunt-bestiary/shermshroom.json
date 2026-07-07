@@ -52,7 +52,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Petacia dacia.</em> A tiny bell-ringing mushroom medic that patches up wounded allies with mycelium salve and buffs the whole party with its spore songs. Habitat: Forest &amp; Mountain.</p><p><strong>Gear:</strong> Mallet (Light Hammer).</p><p><em>Source: Heliana's Field Notes X-45 (Loot Tavern)</em></p>",
+        "value": "<p><em>Petacia dacia.</em> A tiny bell-ringing mushroom medic that patches up wounded allies with mycelium salve and buffs the whole party with its spore songs. Habitat: Forest &amp; Mountain.</p><p><strong>Gear:</strong> Mallet (Light Hammer).</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.PQHfHgmEx91q1VN9]{Heliana's Field Notes X-45 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Good",

@@ -55,7 +55,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Dracopia fortis.</em> The zodiac dragon of the tiger — a storm-wreathed serpent whose 120-foot tempest slows and hides its allies, and whose lucky number 3 sends thunder coursing through the storm. Habitat: Arctic &amp; Jungle.</p><p><em>Source: Heliana's Field Notes X-63 (Loot Tavern)</em></p>",
+        "value": "<p><em>Dracopia fortis.</em> The zodiac dragon of the tiger — a storm-wreathed serpent whose 120-foot tempest slows and hides its allies, and whose lucky number 3 sends thunder coursing through the storm. Habitat: Arctic &amp; Jungle.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.rDg9Mbat0dgZDzry]{Heliana's Field Notes X-63 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral Good",

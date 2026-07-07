@@ -53,7 +53,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Oculotyrannus abyssalis.</em> An abyssal anglerfish-beholder whose dangling lures each shine with a different treacherous light — charming, pulling, freezing, blinding, binding, tormenting, confusing, or bleeding its prey before the bite. Habitat: Ocean.</p><p><em>Source: Heliana's Field Notes X-33 (Loot Tavern)</em></p>",
+        "value": "<p><em>Oculotyrannus abyssalis.</em> An abyssal anglerfish-beholder whose dangling lures each shine with a different treacherous light — charming, pulling, freezing, blinding, binding, tormenting, confusing, or bleeding its prey before the bite. Habitat: Ocean.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.eJHS4gsp22v0uiJo]{Heliana's Field Notes X-33 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Chaotic Evil",

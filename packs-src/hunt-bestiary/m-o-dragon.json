@@ -54,7 +54,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Dracopia luna.</em> The zodiac dragon of the rabbit — a moonlit healer that turns ethereal when wounded and whose lucky number 4 spills restorative light over its allies. Habitat: Forest &amp; Grassland.</p><p><em>Source: Heliana's Field Notes X-64 (Loot Tavern)</em></p>",
+        "value": "<p><em>Dracopia luna.</em> The zodiac dragon of the rabbit — a moonlit healer that turns ethereal when wounded and whose lucky number 4 spills restorative light over its allies. Habitat: Forest &amp; Grassland.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.n44fBS6XRScEvFby]{Heliana's Field Notes X-64 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Lawful Good",

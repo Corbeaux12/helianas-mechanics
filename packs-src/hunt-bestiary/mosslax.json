@@ -51,7 +51,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><em>Kourtinacissus rochalizo.</em> A gargantuan, deceptively placid mound of mossy plant matter that lures creatures close with inviting vines — then crushes and devours anything it can reach, weapons included. Habitat: Forest &amp; Plains.</p><p><em>Source: Heliana's Field Notes P-002 (Loot Tavern)</em></p>",
+        "value": "<p><em>Kourtinacissus rochalizo.</em> A gargantuan, deceptively placid mound of mossy plant matter that lures creatures close with inviting vines — then crushes and devours anything it can reach, weapons included. Habitat: Forest &amp; Plains.</p><p><em>Source: @UUID[Compendium.helianas-mechanics.field-notes-library.JournalEntry.V0kw9N72K1jtTt4i]{Heliana's Field Notes P-002 (Loot Tavern)}</em></p>",
         "public": ""
       },
       "alignment": "Neutral",

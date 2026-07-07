@@ -1079,7 +1079,10 @@ function buildBestiary() {
           senses: { units: "ft", ...(a.senses ?? {}) },
         },
         details: {
-          biography: { value: `${a.biography ?? ""}<p><em>Source: ${a.source}</em></p>`, public: "" },
+          biography: { value: `${a.biography ?? ""}<p><em>Source: ${(() => {
+            const fnSlug = fieldNotesSlugFromSource(a.source);
+            return fnSlug ? `@UUID[${fieldNotesJournalUuid(fnSlug)}]{${a.source}}` : a.source;
+          })()}</em></p>`, public: "" },
           alignment: a.alignment ?? "",
           type: { value: a.creatureType, subtype: a.subtype ?? "", custom: "" },
           cr: a.cr,
@@ -1103,6 +1106,57 @@ function buildBestiary() {
         actorLink: false, disposition: -1,
       },
       folder: null, sort: 0, ownership: { default: 0 }, flags: {},
+    };
+  });
+}
+
+// --------------------------------------------------------- field notes library
+//
+// Individual Field Notes PDFs (one per bestiary boss/creature) as journals of
+// compressed page images, mirroring the hunt library below. The webp pages
+// live in assets/fieldnotes/<slug>/ and are produced by the (scratchpad)
+// renderer from the Field Notes PDFs — credits/legal pages excluded at
+// render time. tools/data/field-notes-library.json is the manifest the
+// renderer writes. Multiple actors can share one entry (e.g. Zaptor +
+// Zaptor Matriarch both come from P-006) since they come from the same PDF.
+
+function fieldNotesSlugFromSource(source) {
+  const m = source?.match(/Field Notes ([A-Za-z]-?\d+)/i);
+  if (!m) return null;
+  return m[1].replace(/^([A-Za-z])(\d)/, "$1-$2").toLowerCase();
+}
+
+function fieldNotesJournalUuid(slug) {
+  return `Compendium.${MODULE_ID}.field-notes-library.JournalEntry.${did(`fieldnoteslib:${slug}`)}`;
+}
+
+function buildFieldNotesLibrary() {
+  let manifest = [];
+  try { manifest = JSON.parse(readFileSync(path.join(ROOT, "tools", "data", "field-notes-library.json"), "utf8")); } catch { return []; }
+
+  return manifest.map((entry, hi) => {
+    const jid = did(`fieldnoteslib:${entry.slug}`);
+    const pages = entry.pages.map((p, i) => {
+      const pid = did(`fieldnoteslibpage:${entry.slug}:${p.pdfPage}`);
+      return {
+        _id: pid, _key: `!journal.pages!${jid}.${pid}`,
+        name: i === 0 ? "Cover" : `Page ${p.pdfPage}`,
+        type: "image",
+        src: `modules/helianas-mechanics/assets/fieldnotes/${entry.slug}/${p.file}`,
+        image: { caption: "" },
+        title: { show: false, level: 1 },
+        text: {}, video: {},
+        sort: (i + 1) * 100,
+        ownership: { default: -1 }, flags: {},
+      };
+    });
+    return {
+      _id: jid, _key: `!journal!${jid}`,
+      name: `Field Notes ${entry.code}: ${entry.title}`,
+      pages,
+      folder: null, sort: (hi + 1) * 100,
+      ownership: { default: 0, ASSISTANT: 3 },
+      flags: {},
     };
   });
 }
@@ -1171,5 +1225,6 @@ await writeSourcesAndCompile("recipe-collections", [...buildCollectionJournals()
 await writeSourcesAndCompile("hunt-items", huntPacks.itemDocs);
 await writeSourcesAndCompile("hunt-bestiary", buildBestiary());
 await writeSourcesAndCompile("hunt-library", buildHuntLibrary());
+await writeSourcesAndCompile("field-notes-library", buildFieldNotesLibrary());
 
 console.log("Done.");

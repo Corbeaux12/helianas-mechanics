@@ -1,0 +1,245 @@
+{
+  "_id": "sitQoMLTAsK83E81",
+  "_key": "!journal!sitQoMLTAsK83E81",
+  "name": "Field Notes X-43: Growlbear the Grand / Swallybog",
+  "pages": [
+    {
+      "_id": "TsyxZPtmbbYQFVIj",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.TsyxZPtmbbYQFVIj",
+      "name": "Cover",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p001.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Lw605ShLvoPNoICP",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.Lw605ShLvoPNoICP",
+      "name": "Page 2",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p002.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mZFWN4Uz1m4EZCd0",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.mZFWN4Uz1m4EZCd0",
+      "name": "Page 3",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p003.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ERUNH06qbHTyBfSZ",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.ERUNH06qbHTyBfSZ",
+      "name": "Page 4",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p004.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "66RqDViF4F0q08jv",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.66RqDViF4F0q08jv",
+      "name": "Page 5",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p005.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ytRykd1WkC6GAOgi",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.ytRykd1WkC6GAOgi",
+      "name": "Page 6",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p006.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "13bwKQIQCt0ym4FZ",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.13bwKQIQCt0ym4FZ",
+      "name": "Page 7",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p007.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bvC6qwp2WYlQMIHd",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.bvC6qwp2WYlQMIHd",
+      "name": "Page 8",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p008.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6XKgjI9GY0j2dNTs",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.6XKgjI9GY0j2dNTs",
+      "name": "Page 9",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p009.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "78IxN5fu7KFOpNTM",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.78IxN5fu7KFOpNTM",
+      "name": "Page 10",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p010.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rmNZ32cuv5lOTk4E",
+      "_key": "!journal.pages!sitQoMLTAsK83E81.rmNZ32cuv5lOTk4E",
+      "name": "Page 11",
+      "type": "image",
+      "src": "modules/helianas-mechanics/assets/fieldnotes/x-43/p011.webp",
+      "image": {
+        "caption": ""
+      },
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {},
+      "video": {},
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0,
+    "ASSISTANT": 3
+  },
+  "flags": {}
+}
