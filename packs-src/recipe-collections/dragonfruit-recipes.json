@@ -1,0 +1,552 @@
+{
+  "_id": "bUeWhIgUVkQI0A8t",
+  "_key": "!journal!bUeWhIgUVkQI0A8t",
+  "name": "Dragonfruit Recipes",
+  "pages": [
+    {
+      "_id": "8ILDxl4zl5v2xn9Y",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Lair of the Spoiled Dragonfruit (Loot Tavern hunt, APL 7/12/17)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>10</td><td>Pouch of Claws</td></tr><tr><td>15</td><td>Pouch of Scales</td></tr><tr><td>20</td><td>Breath Sac</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.MLRTOJRnMYhv16Jf]{Draconic Rindplate (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.xYSaN64kHxIaR8Uk]{Draconic Rindplate (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.3NzwFttSCU316jmn]{Draconic Rindplate (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WQbWU9FiXDQVr3sn]{Fruit Punch (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.mxTIE51dS5o4Pmrz]{Fruit Punch (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.GSVbRCzA7LxPlP6e]{Fruit Punch (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.gFZOPj5h5qk3Zz2l]{Pomegrenade (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.v4qNKolmip7fTWD8]{Pomegrenade (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.KtlJ1EPT9rOZ4MDp]{Pomegrenade (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.8ILDxl4zl5v2xn9Y"
+    },
+    {
+      "_id": "8Hme2teyBLsfIJR7",
+      "name": "Dragonfruit (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/7th, 12th, & 17th/Lair of the Spoiled Dragonfruit/Dragonfruit_v1.1 - PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.8Hme2teyBLsfIJR7"
+    },
+    {
+      "_id": "zzdaQNnp7xYnrSeD",
+      "name": "Draconic Rindplate (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Draconic Rindplate (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.MLRTOJRnMYhv16Jf",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WMp3JouWH6nbV1zN",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0owR7QX8PhCCNHII",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "scales"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.zzdaQNnp7xYnrSeD"
+    },
+    {
+      "_id": "WOLnhhY1TozO2czz",
+      "name": "Draconic Rindplate (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Draconic Rindplate (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.xYSaN64kHxIaR8Uk",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "D8JjCuWRKV8Iu3EG",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fI9wbDW5Td5uKac4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "scales"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.WOLnhhY1TozO2czz"
+    },
+    {
+      "_id": "xmfMSppfW0g6uE1n",
+      "name": "Draconic Rindplate (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Draconic Rindplate (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.3NzwFttSCU316jmn",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "uoEpnO6K6KDUDOqN",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "YU9NGZlN4x4ytcKW",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.i78vqs99UxYefKCI",
+                "name": "Pouch of Dragon Scales",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "scales"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "dragon",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.xmfMSppfW0g6uE1n"
+    },
+    {
+      "_id": "Q4OobexADrmYQ17q",
+      "name": "Fruit Punch (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Fruit Punch (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WQbWU9FiXDQVr3sn",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "bROjbSQJy20qzsKb",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GwWMfZ29oZ9LwgJi",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZFt4UhHc5Mggky7H",
+                "name": "Pouch of Dragon Claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "claws"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.Q4OobexADrmYQ17q"
+    },
+    {
+      "_id": "z1np7X9JDu1fNBRH",
+      "name": "Fruit Punch (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Fruit Punch (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.mxTIE51dS5o4Pmrz",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "uI3FJImE15WIEfZp",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4wmnf12K7RLjav57",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZFt4UhHc5Mggky7H",
+                "name": "Pouch of Dragon Claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "claws"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.z1np7X9JDu1fNBRH"
+    },
+    {
+      "_id": "zPaxhiS4NKoTBfxm",
+      "name": "Fruit Punch (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Fruit Punch (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.GSVbRCzA7LxPlP6e",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ZbQepai84KnYcXAB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "lDCnuqYfv5m1mqEI",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZFt4UhHc5Mggky7H",
+                "name": "Pouch of Dragon Claws",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "dragon",
+                  "claws"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.zPaxhiS4NKoTBfxm"
+    },
+    {
+      "_id": "4gCESnw2xZmPzSsc",
+      "name": "Pomegrenade (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Pomegrenade (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.gFZOPj5h5qk3Zz2l",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zV9v1jYuZ3hjUXk2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Q4RdlHyWV9aYp6n8",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "breath",
+                  "sac"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "dragon",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.4gCESnw2xZmPzSsc"
+    },
+    {
+      "_id": "uwAg1aUTKreUkNcg",
+      "name": "Pomegrenade (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Pomegrenade (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.v4qNKolmip7fTWD8",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "93u5Woy6Le7Jmz1l",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "sWhR5Fu7onPHeLIX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "breath",
+                  "sac"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "dragon",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.uwAg1aUTKreUkNcg"
+    },
+    {
+      "_id": "N5IqZoUsul9JDwFm",
+      "name": "Pomegrenade (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Pomegrenade (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.KtlJ1EPT9rOZ4MDp",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rw4NTgGUL6323akf",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QsYs44r0IGyKT7Cv",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.7oXPZJip7vNsGcOT",
+                "name": "Dragon Breath Sac",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "dragon",
+                  "breath",
+                  "sac"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "dragon",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!bUeWhIgUVkQI0A8t.N5IqZoUsul9JDwFm"
+    }
+  ],
+  "folder": null,
+  "sort": 10800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

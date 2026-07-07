@@ -1,0 +1,37 @@
+{
+  "_id": "MLRTOJRnMYhv16Jf",
+  "_key": "!items!MLRTOJRnMYhv16Jf",
+  "name": "Draconic Rindplate (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (medium or heavy), very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (dragonfruit) scales</p><p>Closely hoarded, these sets of armour are either bestowed by a dragonfruit to worthy champions or stolen from a dragonfruit's lair by opportunistic thieves. With a hardened pink exterior and a soft white interior, this armour is as protective as it is comfortable to wear—as long as you can get over the stickiness, that is.</p><p>You have a +1 bonus to AC while wearing this armour.</p><p><strong>Sticky Pulp.</strong> While wearing this armour, it can't be removed from you unless you allow it.</p><p><strong>Aromatic Core.</strong> The armour emits a strong scent of fruit that reflects its condition. If you make a Charisma (Persuasion) check while you have more than half of your hit points remaining, you can use the armour's fragrant scent to gain advantage on the check. If you make a Charisma (Intimidation) check while you have half or fewer hit points remaining, you can use the armour's sour odorous scent to gain advantage on the check. Once the armour has granted advantage on an ability check, it can't grant advantage on that check again until the next dawn.</p><p><strong>Seasonal Varieties.</strong> This armour has several forms, each representing a different variety of fruit that grants a different benefit. You can use a bonus action to change the armour's form.</p><ul><li><strong>Pulpy.</strong> The armour's interior bursts with sticky pulp. When a creature within 5 feet of you hits you with an attack roll, its speed is reduced by 10 feet until the end of its next turn, to a minimum of 5 feet.</li><li><strong>Sugary Sweet.</strong> The armour's interior is high in fructose. Immediately after a creature hits you with an attack, you can use your reaction to move up to half your speed. This movement doesn't provoke opportunity attacks from the creature that attacked you.</li><li><strong>Tough Rind.</strong> The armour's rind rapidly hardens in response to damage. Immediately after a creature hits you with an attack roll, you gain a +2 bonus to your AC until the end of the turn.</li></ul><p><strong>Rare variant:</strong> Remove the bonus to AC.</p><p><strong>Legendary variant:</strong> Increase the bonus to AC to +2.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 4580,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

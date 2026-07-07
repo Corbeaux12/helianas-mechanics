@@ -1,0 +1,37 @@
+{
+  "_id": "KtlJ1EPT9rOZ4MDp",
+  "_key": "!items!KtlJ1EPT9rOZ4MDp",
+  "name": "Pomegrenade (Very Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Dragon (dragonfruit) breath sac</p><p>The pomegrenade is a peculiar fruit selectively bred by the barberryans of Fruitopia, prized for its explosive flavour... and explosive everything else. Its introduction during the Applacian-Orajah Wars changed the face of armed conflict for years, until its over-farming gave way to a devastating seven-year drought. Since then, pomegrenade production has been restricted only to those who obtain a pomelicense.</p><p><strong>Exquisite Clusters.</strong> When first found, this grenade has 1d4 + 1 seed clusters and grows 1 new cluster daily at dawn, up to a maximum of 5 seed clusters. You can use an action to pluck a cluster from the grenade and consume it or feed it to a willing creature within your reach. A creature that eats a cluster regains 1d4 hit points and is nourished for the day. Additionally, if it is suffering from a poison or disease that allows it to make a saving throw to end it, it can immediately make that saving throw with advantage. If failing this saving throw would have negative consequences other than continuing to be afflicted by the condition, you don't suffer those consequences.</p><p><strong>Explosive Clusters.</strong> Alternatively, you can use an action to throw this grenade at a point within 60 feet of you, where it immediately detonates with juicy, seedy shrapnel. Each creature within 10 feet of that point must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 2d4 piercing damage for each seed cluster in the grenade. On a successful save, a creature takes half as much damage. Once used this way, the grenade is destroyed.</p><p><strong>Rare variant:</strong> Increase the hit points regained by eating a seed cluster to 1d6, the DC to 15, and the damage to 2d6 for each seed cluster. You can consume a seed cluster as a bonus action.</p><p><strong>Very rare variant:</strong> Increase the hit points regained by eating a seed cluster to 1d8, the DC to 16, and the damage to 2d8 for each seed cluster. You can consume a seed cluster as a bonus action.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 3990,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

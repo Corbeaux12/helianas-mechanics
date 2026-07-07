@@ -1,0 +1,37 @@
+{
+  "_id": "GSVbRCzA7LxPlP6e",
+  "_key": "!items!GSVbRCzA7LxPlP6e",
+  "name": "Fruit Punch (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (spiked cestus), rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (dragonfruit) claws</p><p>\"To receive the honour of wielding the fruit punch, one must complete three difficult trials. First, one must demonstrate mastery of the melon brawl martial art to prove one's righteous skill. Then, one must sit motionless in pineapple juice for a full day to prove one's exceptional endurance. Finally, one must mix a really fine drink because one must also know how to party hard after all that.\" — From the training texts of the Order of the Punch Bowl</p><p>A spiked cestus is a simple melee weapon worn around the knuckles of one hand that deals 1d6 bludgeoning damage on a hit and has the Adaptable (piercing), Attached, and Pugilist properties.</p><p><strong>Fruit Medley.</strong> The complex mix of flavours in this weapon compound with each other for a powerful punch. The first time you hit a target with this weapon or with an unarmed strike using the hand wearing this weapon on your turn, you impart a lingering fruit flavour. If you hit the same target a second time before the end of your turn, you can roll the attack's damage dice again and choose either result. If you hit it a third time before the end of your turn, you can roll the attack's damage dice two additional times and choose a result from among them. Additional hits beyond the third grant no benefit.</p><p><strong>Burst of Flavour.</strong> The weapon is composed of three primary flavours: blood orange, durian, and pineapple. When you hit a creature with this weapon or with an unarmed strike using the hand wearing this weapon, you can impart your choice of one of the effects below (no action required). Once an effect has been used, it can't be used again until the next dawn.</p><ul><li><strong>Blood Orange.</strong> This fruit lives up to its name. The target must succeed on a DC 15 Constitution saving throw or be marked with bloodlust until the end of your next turn. While a target is marked, other creatures have advantage on the first attack roll they make against the target on their turn.</li><li><strong>Durian.</strong> This fruit's aroma isn't for everyone. The target must succeed on a DC 15 Constitution saving throw or be poisoned until the end of your next turn.</li><li><strong>Pineapple.</strong> This fruit is exceptionally sour. The target must succeed on a DC 15 Dexterity saving throw or be coated in acid and take 2d8 acid damage at the start of its next turn.</li></ul><p><strong>Uncommon variant:</strong> Remove the Burst of Flavour property.</p><p><strong>Very rare variant:</strong> Increase the DCs to 16. The weapon has the Fruit Fusion Blast property.</p><p><strong>Fruit Fusion Blast.</strong> With a strong squeeze, you can summon an incredibly sour deluge of fruit juices. While wearing this weapon, you can cast the <em>lightning bolt</em> spell from it (save DC 16), dealing acid damage instead of lightning damage. A creature that fails the saving throw is also pushed in a straight line up to 10 feet away from you. Once this property of the weapon has been used, it can't be used again until the next dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 13050,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

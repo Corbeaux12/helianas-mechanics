@@ -1,0 +1,56 @@
+{
+  "name": "Dragonfruit",
+  "source": "Lair of the Spoiled Dragonfruit (Loot Tavern hunt, APL 7/12/17)",
+  "creatureType": "dragon",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/7th, 12th, & 17th/Lair of the Spoiled Dragonfruit/Dragonfruit_v1.1 - PAGES.pdf",
+  "harvest": [
+    { "dc": 10, "components": ["Pouch of Claws"] },
+    { "dc": 15, "components": ["Pouch of Scales"] },
+    { "dc": 20, "components": ["Breath Sac"] }
+  ],
+  "components": [],
+  "items": [
+    {
+      "name": "Draconic Rindplate",
+      "itemType": "equipment",
+      "kind": "Armour (medium or heavy)",
+      "component": "Pouch of Dragon Scales",
+      "baseRecipe": "Breastplate",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 4580 },
+        { "rarity": "very rare", "value": 12450 },
+        { "rarity": "legendary", "value": 54970 }
+      ],
+      "description": "<p><em>Armour (medium or heavy), very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (dragonfruit) scales</p><p>Closely hoarded, these sets of armour are either bestowed by a dragonfruit to worthy champions or stolen from a dragonfruit's lair by opportunistic thieves. With a hardened pink exterior and a soft white interior, this armour is as protective as it is comfortable to wear—as long as you can get over the stickiness, that is.</p><p>You have a +1 bonus to AC while wearing this armour.</p><p><strong>Sticky Pulp.</strong> While wearing this armour, it can't be removed from you unless you allow it.</p><p><strong>Aromatic Core.</strong> The armour emits a strong scent of fruit that reflects its condition. If you make a Charisma (Persuasion) check while you have more than half of your hit points remaining, you can use the armour's fragrant scent to gain advantage on the check. If you make a Charisma (Intimidation) check while you have half or fewer hit points remaining, you can use the armour's sour odorous scent to gain advantage on the check. Once the armour has granted advantage on an ability check, it can't grant advantage on that check again until the next dawn.</p><p><strong>Seasonal Varieties.</strong> This armour has several forms, each representing a different variety of fruit that grants a different benefit. You can use a bonus action to change the armour's form.</p><ul><li><strong>Pulpy.</strong> The armour's interior bursts with sticky pulp. When a creature within 5 feet of you hits you with an attack roll, its speed is reduced by 10 feet until the end of its next turn, to a minimum of 5 feet.</li><li><strong>Sugary Sweet.</strong> The armour's interior is high in fructose. Immediately after a creature hits you with an attack, you can use your reaction to move up to half your speed. This movement doesn't provoke opportunity attacks from the creature that attacked you.</li><li><strong>Tough Rind.</strong> The armour's rind rapidly hardens in response to damage. Immediately after a creature hits you with an attack roll, you gain a +2 bonus to your AC until the end of the turn.</li></ul><p><strong>Rare variant:</strong> Remove the bonus to AC.</p><p><strong>Legendary variant:</strong> Increase the bonus to AC to +2.</p>"
+    },
+    {
+      "name": "Fruit Punch",
+      "itemType": "weapon",
+      "kind": "Weapon (spiked cestus)",
+      "component": "Pouch of Dragon Claws",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 790 },
+        { "rarity": "rare",      "value": 4350 },
+        { "rarity": "very rare", "value": 13050 }
+      ],
+      "description": "<p><em>Weapon (spiked cestus), rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Dragon (dragonfruit) claws</p><p>\"To receive the honour of wielding the fruit punch, one must complete three difficult trials. First, one must demonstrate mastery of the melon brawl martial art to prove one's righteous skill. Then, one must sit motionless in pineapple juice for a full day to prove one's exceptional endurance. Finally, one must mix a really fine drink because one must also know how to party hard after all that.\" — From the training texts of the Order of the Punch Bowl</p><p>A spiked cestus is a simple melee weapon worn around the knuckles of one hand that deals 1d6 bludgeoning damage on a hit and has the Adaptable (piercing), Attached, and Pugilist properties.</p><p><strong>Fruit Medley.</strong> The complex mix of flavours in this weapon compound with each other for a powerful punch. The first time you hit a target with this weapon or with an unarmed strike using the hand wearing this weapon on your turn, you impart a lingering fruit flavour. If you hit the same target a second time before the end of your turn, you can roll the attack's damage dice again and choose either result. If you hit it a third time before the end of your turn, you can roll the attack's damage dice two additional times and choose a result from among them. Additional hits beyond the third grant no benefit.</p><p><strong>Burst of Flavour.</strong> The weapon is composed of three primary flavours: blood orange, durian, and pineapple. When you hit a creature with this weapon or with an unarmed strike using the hand wearing this weapon, you can impart your choice of one of the effects below (no action required). Once an effect has been used, it can't be used again until the next dawn.</p><ul><li><strong>Blood Orange.</strong> This fruit lives up to its name. The target must succeed on a DC 15 Constitution saving throw or be marked with bloodlust until the end of your next turn. While a target is marked, other creatures have advantage on the first attack roll they make against the target on their turn.</li><li><strong>Durian.</strong> This fruit's aroma isn't for everyone. The target must succeed on a DC 15 Constitution saving throw or be poisoned until the end of your next turn.</li><li><strong>Pineapple.</strong> This fruit is exceptionally sour. The target must succeed on a DC 15 Dexterity saving throw or be coated in acid and take 2d8 acid damage at the start of its next turn.</li></ul><p><strong>Uncommon variant:</strong> Remove the Burst of Flavour property.</p><p><strong>Very rare variant:</strong> Increase the DCs to 16. The weapon has the Fruit Fusion Blast property.</p><p><strong>Fruit Fusion Blast.</strong> With a strong squeeze, you can summon an incredibly sour deluge of fruit juices. While wearing this weapon, you can cast the <em>lightning bolt</em> spell from it (save DC 16), dealing acid damage instead of lightning damage. A creature that fails the saving throw is also pushed in a straight line up to 10 feet away from you. Once this property of the weapon has been used, it can't be used again until the next dawn.</p>"
+    },
+    {
+      "name": "Pomegrenade",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Dragon Breath Sac",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 290 },
+        { "rarity": "rare",      "value": 1080 },
+        { "rarity": "very rare", "value": 3990 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Dragon (dragonfruit) breath sac</p><p>The pomegrenade is a peculiar fruit selectively bred by the barberryans of Fruitopia, prized for its explosive flavour... and explosive everything else. Its introduction during the Applacian-Orajah Wars changed the face of armed conflict for years, until its over-farming gave way to a devastating seven-year drought. Since then, pomegrenade production has been restricted only to those who obtain a pomelicense.</p><p><strong>Exquisite Clusters.</strong> When first found, this grenade has 1d4 + 1 seed clusters and grows 1 new cluster daily at dawn, up to a maximum of 5 seed clusters. You can use an action to pluck a cluster from the grenade and consume it or feed it to a willing creature within your reach. A creature that eats a cluster regains 1d4 hit points and is nourished for the day. Additionally, if it is suffering from a poison or disease that allows it to make a saving throw to end it, it can immediately make that saving throw with advantage. If failing this saving throw would have negative consequences other than continuing to be afflicted by the condition, you don't suffer those consequences.</p><p><strong>Explosive Clusters.</strong> Alternatively, you can use an action to throw this grenade at a point within 60 feet of you, where it immediately detonates with juicy, seedy shrapnel. Each creature within 10 feet of that point must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 2d4 piercing damage for each seed cluster in the grenade. On a successful save, a creature takes half as much damage. Once used this way, the grenade is destroyed.</p><p><strong>Rare variant:</strong> Increase the hit points regained by eating a seed cluster to 1d6, the DC to 15, and the damage to 2d6 for each seed cluster. You can consume a seed cluster as a bonus action.</p><p><strong>Very rare variant:</strong> Increase the hit points regained by eating a seed cluster to 1d8, the DC to 16, and the damage to 2d8 for each seed cluster. You can consume a seed cluster as a bonus action.</p>"
+    }
+  ]
+}

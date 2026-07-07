@@ -7,7 +7,7 @@ Handoff notes for continuing the content-import work in a fresh session (written
 - **Module version:** 1.12.0 deployed. Everything through commit `58583de` is live on the server.
 - **Hunt Bestiary: COMPLETE.** All 45 Field Notes PDFs → 57 actors in `tools/data/actors/*.json`. Don't touch unless fixing bugs.
 - **Hunt Library: COMPLETE.** All 27 hunt PDFs as image-page journals (`assets/hunts/`, manifest `tools/data/hunt-library.json`).
-- **Hunt items: 21 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Forge of the Divine Machine (Unit M3T4L and Creo, construct) — 6 items, 19 recipe pages, all verified linked. Two hunt-specific components (Construct Gears, Construct Arcanothermic Core — not generic; Construct Plating and Construct Instructions ARE generic). New gotcha: Tableturner's Common variant doesn't require attunement while its Rare/Very Rare variants do — the schema only has one attunement value per item (not per-tier), so used "required" since 2 of 3 tiers need it. Barrier Bracer only has Uncommon/Rare tiers.
+- **Hunt items: 22 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Dragonfruit (Lair of the Spoiled Dragonfruit) — 3 items, 11 recipe pages, all verified linked, zero hunt-specific components (Pouch of Dragon Scales/Claws, Dragon Breath Sac all already generic). Clean hunt, no conflicts. Draconic Rindplate skips the Uncommon tier (Rare/Very Rare/Legendary only).
 - **No batch currently in flight.** Nothing pending write — pick the next hunt fresh per the workflow below.
 
 ## Recurring gotcha: crafting-table vs. item-description component conflicts
@@ -16,7 +16,7 @@ At least three hunts so far (Queen of Shadow and Thorn, Spectres of Midwinter, T
 
 ## The per-batch workflow (repeat until done)
 
-1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: Dragonfruit, Synaptic Shiver, Timeless Tyrant, End Times. **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
+1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: Synaptic Shiver, Timeless Tyrant, End Times. **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
 2. Transcribe to `tools/data/hunts/<slug>.json` following the schema of `tools/data/hunts/bloodhound.json` (fields: name, source, creatureType, pdf, harvest[], components[], items[]; item fields: name, itemType, kind, component **or** components[], baseRecipe, attunement none/required/optional, tiers[{rarity,value}], description as HTML with `<em>/<strong>/<ul>` formatting).
 3. `npm run build:packs` then `npx vitest run` (152 tests must pass).
 4. **Verify links** — every recipe page must have linked components and result:
