@@ -1,0 +1,37 @@
+{
+  "_id": "4P786GjoPYbKsoft",
+  "_key": "!items!4P786GjoPYbKsoft",
+  "name": "Moon Oil (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Phial of Plant (moonbloom) sap</p><p>When carefully extracted and mixed with rare alchemical reagents, the sap of moonbloom flowers can be processed into a shimmering, silver oil that burns the flesh of shapechangers. It also works wonders as a moisturiser and skin cleanser!</p><p><strong>Moonburn.</strong> This oil can coat one piercing or slashing weapon, or up to five pieces of piercing or slashing ammunition. Applying the oil takes 1 minute. For 1 hour, attacks made with the coated item deal an extra 1d4 radiant damage to shapechangers.</p><p><strong>Common variant:</strong> Reduce the damage to 1.</p><p><strong>Rare variant:</strong> Increase the damage to 1d10.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

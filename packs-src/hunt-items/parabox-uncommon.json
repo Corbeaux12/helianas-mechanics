@@ -1,0 +1,37 @@
+{
+  "_id": "QoaIgWi1Skv2tlW8",
+  "_key": "!items!QoaIgWi1Skv2tlW8",
+  "name": "Parabox (Uncommon)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, common</em></p><p><strong>Component:</strong> Aberration bone</p><p>\"- So where did the sword come from? - The box. - But how did it get in the box? - You put it in there. - And where did I get it from? - The box.\"</p><p><strong>Closed Time-Circuit.</strong> This cubic box measures 1 foot on each side. As a bonus action while holding the empty box, you can reach into it and retrieve a mundane object, set of tools, or common magic item that could fit inside, which magically appears in the box, sent from the future. The received item is a generic item of its kind; for example, you can retrieve a key, but not the key to a specific door. Once an item has been retrieved from the box, no further items can be retrieved from it.</p><p>Within 8 hours of being pulled from the box, the same item must be returned to it. When this happens, the item disappears, appearing in the past when you first retrieved it. If the item is not returned to the box after that time, the creature that pulled it out takes 4d6 force damage as a minor paradox occurs, and the item disappears. The box loses its magic and becomes a mundane box when the item is returned or when the paradox occurs.</p><p><strong>Uncommon variant:</strong> The box doesn't lose its magic once an item retrieved from it with its Closed Time-Circuit property is returned to it. Once an item has been retrieved from the box, no further items can be retrieved from it until the next dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

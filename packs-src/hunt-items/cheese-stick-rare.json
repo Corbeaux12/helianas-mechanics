@@ -1,0 +1,37 @@
+{
+  "_id": "sj2o6rGztS7JPsDz",
+  "_key": "!items!sj2o6rGztS7JPsDz",
+  "name": "Cheese Stick (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, staff, or wand, very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of plant spores</p><p>Turophobia may be among the more unusual fears, but its trial at the caves of Fob-Ya is one of the most torturous ones. If you had to spend thirty consecutive days locked in a cheese pantry, breathing its mouldy stench, eating nothing but old curds... you'd probably be afraid of cheese as well.</p><p>This item has 10 charges and regains 1d6 + 4 expended charges daily at dawn.</p><p><strong>Cheesy Infusion.</strong> As a bonus action while holding this item, you can expend 1 charge to imbue a creature you can see within 30 feet of you with a property of a kind of cheese, choosing from one of the options below:</p><ul><li><strong>Swiss.</strong> You magically poke the creature full of holes. It must make a DC 16 Constitution saving throw, taking 4d6 piercing damage on a failed save, or half as much damage on a successful one.</li><li><strong>Limburger.</strong> You give the creature the foul odour of stinky cheese. Until the start of your next turn, each creature that starts its turn within 5 feet of the target must succeed on a DC 16 Constitution saving throw or be poisoned until the end of your next turn.</li><li><strong>Roquefort.</strong> You cover the creature in necrotic mould. It must succeed on a DC 16 Constitution saving throw or be riddled with mould until the end of its next turn. While this effect lasts, the creature takes an extra 1d4 necrotic damage each time it takes damage.</li></ul><p><strong>One With the Cheese.</strong> As an action while holding this item, you can cast the <em>true polymorph</em> spell (save DC 16), but only to transform a creature into a wheel of cheese. The effect of this spell can't become permanent—instead, a creature reverts back to its original form if the spell's duration ends or if the cheese is bitten or damaged in any way. Once this property of the item has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Remove the One With the Cheese property. Reduce the DCs to 13 and the damage of the Swiss option to 2d6. The Limburger option only affects the first creature that starts its turn within 5 feet of the target. A creature only takes the extra damage from the Roquefort option the first time it takes damage each turn.</p><p><strong>Rare variant:</strong> Remove the One With the Cheese property. Reduce the DCs to 15.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3200,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

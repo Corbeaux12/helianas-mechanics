@@ -1,0 +1,37 @@
+{
+  "_id": "25G1mGVqK6NH45U0",
+  "_key": "!items!25G1mGVqK6NH45U0",
+  "name": "Kaftar's Kiss (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Prosthesis, rare</em></p><p><strong>Component:</strong> Monstrosity (kaftar) tongue</p><p>Is it smart to graft the barbed, still-wriggling tongue of an evil, ravenous Monstrosity to your own body, indulging its seemingly insatiable thirst when you drain your foes dry for your own twisted benefit? Maybe. Maybe not. Only one way to find out for sure!</p><p><strong>Prosthesis Properties.</strong> This prosthesis can replace or enhance an arm. It has the Melee (1d6 piercing, Scourge) property and the Skewer Superior Strike*.</p><p><strong>Bloodsucking Embrace.</strong> While grappling a creature that has blood using this prosthesis, you can use a bonus action on your turn to have this prosthesis' barbed tongue bore into the creature's body and begin sucking its blood. While the creature remains grappled by you, it takes 2d6 necrotic damage at the start of each of its turns. You gain temporary hit points equal to half the necrotic damage taken in this way.</p><p><strong>Uncommon variant:</strong> Reduce the necrotic damage to 1d6.</p><p><strong>Very rare variant:</strong> Increase the necrotic damage to 2d10.</p><p><strong>Scourge.</strong> This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it.</p><p>*See Ryoko's Guide to the Yokai Realms.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 7370,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,1163 @@
+{
+  "_id": "cD2RSLNjqvJ00ThI",
+  "_key": "!journal!cD2RSLNjqvJ00ThI",
+  "name": "Cold Blood on the Scorching Sand Recipes",
+  "pages": [
+    {
+      "_id": "br3032kmvUkjfDFc",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Cold Blood on the Scorching Sand (Loot Tavern hunt, APL 3/7/12)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>10</td><td>Pouch of Teeth (4)</td></tr><tr><td>15</td><td>Tongue (1)</td></tr><tr><td>20</td><td>Pelt (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.9WxKmKIfNhYqXpHe]{Cacklecloak (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.NA7PZ42lg2maKShS]{Cacklecloak (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.4xasTK744Ngq1T3N]{Cacklecloak (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.673bboIunl8ZXS8Y]{Kaftar's Kiss (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.StNqgiXbivkCOFCa]{Kaftar's Kiss (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.25G1mGVqK6NH45U0]{Kaftar's Kiss (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.QdMxBmvy6qiMdikg]{Maw of Oumdabaa (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.j3KD0e9oRJzihu6f]{Maw of Oumdabaa (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.E17AGj3tMXuGPeRs]{Maw of Oumdabaa (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.FXvwpj2nwLqXIzw6]{Cheese Stick (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.sj2o6rGztS7JPsDz]{Cheese Stick (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.pkczfDOgQTkeUrLx]{Cheese Stick (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.OtHSYakx3ofE93H5]{Parabox (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.QoaIgWi1Skv2tlW8]{Parabox (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.1u9H0G50Hc78ww4L]{Moon Oil (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.4P786GjoPYbKsoft]{Moon Oil (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.uXP3F53db0PRqtsj]{Moon Oil (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.66WCV8yLsaFxgn0o]{Moonscreen (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.v5nQoOHUGWpRXrjy]{Moonscreen (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.M0ytONMfRGaZuWGG]{Moonscreen (Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.br3032kmvUkjfDFc"
+    },
+    {
+      "_id": "jwt4GWxOoF2vvBb4",
+      "name": "Cold Blood on the Scorching Sand (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Cold Blood on the Scorching Sand/Cold Blood on the Scorching Sand v1.3.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.jwt4GWxOoF2vvBb4"
+    },
+    {
+      "_id": "Gd00SwMWhrnCfehj",
+      "name": "Cacklecloak (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cacklecloak (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.9WxKmKIfNhYqXpHe",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "i2Ez9PCrkYUMnIgk",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "coUShBg5Tgr1jU03",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "pelt"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.Gd00SwMWhrnCfehj"
+    },
+    {
+      "_id": "tPMO9PICQdy85vnw",
+      "name": "Cacklecloak (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cacklecloak (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.NA7PZ42lg2maKShS",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "OBfTyilIumTgIlo6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "TY6Nfpu74mDWSJwK",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "pelt"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.tPMO9PICQdy85vnw"
+    },
+    {
+      "_id": "ZharJH5SSmITuydP",
+      "name": "Cacklecloak (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cacklecloak (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.4xasTK744Ngq1T3N",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Ww3aeAmBvocXUkyn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "b7jPMZBC0JKTeLJZ",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ZhZ3QEPTqCnxAbDb",
+                "name": "Monstrosity Pelt",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "monstrosity",
+                  "pelt"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.ZharJH5SSmITuydP"
+    },
+    {
+      "_id": "NPgmw41nMIH1oCGz",
+      "name": "Kaftar's Kiss (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Kaftar's Kiss (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.673bboIunl8ZXS8Y",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9tMSo2o8wpcBw7Im",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "BbsV8e02tqe1ntZ9",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.tCcIdbbZNfpDoKqD",
+                "name": "Kaftar Matriarch Tongue",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tongue",
+                  "kaftar matriarch",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.NPgmw41nMIH1oCGz"
+    },
+    {
+      "_id": "y4Kg19lAUb7UcFhu",
+      "name": "Kaftar's Kiss (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Kaftar's Kiss (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.StNqgiXbivkCOFCa",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4lpanCtxODSOjwYr",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GbmtYdaaMxDo37q7",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.tCcIdbbZNfpDoKqD",
+                "name": "Kaftar Matriarch Tongue",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tongue",
+                  "kaftar matriarch",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.y4Kg19lAUb7UcFhu"
+    },
+    {
+      "_id": "SoJfxnC3X1TqzJ23",
+      "name": "Kaftar's Kiss (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Kaftar's Kiss (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.25G1mGVqK6NH45U0",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "w5t3Td0zWl7A7Vy9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9Xha095I7RzYkt6F",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.tCcIdbbZNfpDoKqD",
+                "name": "Kaftar Matriarch Tongue",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "tongue",
+                  "kaftar matriarch",
+                  "monstrosity"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.SoJfxnC3X1TqzJ23"
+    },
+    {
+      "_id": "dXqjgHtHnsqufsQ7",
+      "name": "Maw of Oumdabaa (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Maw of Oumdabaa (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.QdMxBmvy6qiMdikg",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "f3k0mFXSwrlx1U0c",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ivPPmvO2o5TSI0O4",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "monstrosity",
+                  "teeth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.dXqjgHtHnsqufsQ7"
+    },
+    {
+      "_id": "Qhp9eT9W8et2vzAi",
+      "name": "Maw of Oumdabaa (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Maw of Oumdabaa (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.j3KD0e9oRJzihu6f",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "K5pWMLyZA9kMPUIh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "eaCB5Prjlpl464eL",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "monstrosity",
+                  "teeth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.Qhp9eT9W8et2vzAi"
+    },
+    {
+      "_id": "ap7Ow2VVxmia1dLS",
+      "name": "Maw of Oumdabaa (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Maw of Oumdabaa (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.E17AGj3tMXuGPeRs",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Vk6NvJw9M4y26WFq",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jNllH7SFVIqIs4hX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.AiCeQyy4udhdOFVs",
+                "name": "Pouch of Monstrosity Teeth",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "monstrosity",
+                  "teeth"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.ap7Ow2VVxmia1dLS"
+    },
+    {
+      "_id": "bbZEhegkK0AKQKgZ",
+      "name": "Cheese Stick (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cheese Stick (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.FXvwpj2nwLqXIzw6",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pQEE5MGQSFkFVRwV",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "FGm4gySwY4Ks5PHL",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "plant",
+                  "spores"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.bbZEhegkK0AKQKgZ"
+    },
+    {
+      "_id": "X5Erm6aWy7NfF0Cf",
+      "name": "Cheese Stick (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cheese Stick (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.sj2o6rGztS7JPsDz",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "H8VuhYxftvqqMgxY",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2kUJCI389trd32OH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "plant",
+                  "spores"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.X5Erm6aWy7NfF0Cf"
+    },
+    {
+      "_id": "i5Sje1mxVJHotnIk",
+      "name": "Cheese Stick (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Cheese Stick (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.pkczfDOgQTkeUrLx",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zIjBAgGCrQG3PuW1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xIEJA1JRAtKbj72d",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1U4aEXFOooBJTC93",
+                "name": "Pouch of Plant Spores",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "pouch",
+                  "plant",
+                  "spores"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "monstrosity",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.i5Sje1mxVJHotnIk"
+    },
+    {
+      "_id": "V0K4EkrVNj4m5KzW",
+      "name": "Parabox (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Parabox (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.OtHSYakx3ofE93H5",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7pOjCDGYc4cHxbs8",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "4MEhkfU8PlrZQHAO",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.d7A1YuHfTxhACcuj",
+                "name": "Aberration Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "monstrosity",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.V0K4EkrVNj4m5KzW"
+    },
+    {
+      "_id": "niKeBZRofJmKPyms",
+      "name": "Parabox (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Parabox (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.QoaIgWi1Skv2tlW8",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3ld7XHmAEsYImm4l",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "i4vA3l5ajzP4QT6c",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.d7A1YuHfTxhACcuj",
+                "name": "Aberration Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "aberration",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.niKeBZRofJmKPyms"
+    },
+    {
+      "_id": "KoGn0KdeEPZUFecc",
+      "name": "Moon Oil (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Moon Oil (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.1u9H0G50Hc78ww4L",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "fFMVKyCFHn1X1EZK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Y58CwBZwJLwh7fhd",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "plant",
+                  "sap"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "monstrosity",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.KoGn0KdeEPZUFecc"
+    },
+    {
+      "_id": "thQExbSdI85mIqYX",
+      "name": "Moon Oil (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Moon Oil (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.4P786GjoPYbKsoft",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "xjKWer5lzbnlHD0d",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mkuwp44fMS1innOf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "plant",
+                  "sap"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.thQExbSdI85mIqYX"
+    },
+    {
+      "_id": "MjBrYGdGJYzQFmD0",
+      "name": "Moon Oil (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Moon Oil (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.uXP3F53db0PRqtsj",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "pg2VY7MQvAet5yRn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "9OKLYzouXlDKnU7j",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "plant",
+                  "sap"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.MjBrYGdGJYzQFmD0"
+    },
+    {
+      "_id": "Hyrh1O6Ty3fm46bk",
+      "name": "Moonscreen (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Moonscreen (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.66WCV8yLsaFxgn0o",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2ac5bgRkDBRPkXSl",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zGidq0dNNcRvLxsl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "plant",
+                  "sap"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "monstrosity",
+        "rarity": "common",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.Hyrh1O6Ty3fm46bk"
+    },
+    {
+      "_id": "hqSsIPmiOk3pmRu1",
+      "name": "Moonscreen (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Moonscreen (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.v5nQoOHUGWpRXrjy",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "7779aDJVgTXXM1jn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "0Ax5Nm1isNE1thd0",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "plant",
+                  "sap"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "monstrosity",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.hqSsIPmiOk3pmRu1"
+    },
+    {
+      "_id": "HG8yPic3lyFzbbAU",
+      "name": "Moonscreen (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Moonscreen (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.M0ytONMfRGaZuWGG",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eG6k7wOTQiwXSqla",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Iwds7kI6BQypreuf",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ClhLDzU87z4DlE11",
+                "name": "Phial of Plant Sap",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "plant",
+                  "sap"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "monstrosity",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 2100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!cD2RSLNjqvJ00ThI.HG8yPic3lyFzbbAU"
+    }
+  ],
+  "folder": null,
+  "sort": 10500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

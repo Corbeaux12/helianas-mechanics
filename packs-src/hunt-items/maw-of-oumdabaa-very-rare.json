@@ -1,0 +1,37 @@
+{
+  "_id": "E17AGj3tMXuGPeRs",
+  "_key": "!items!E17AGj3tMXuGPeRs",
+  "name": "Maw of Oumdabaa (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (glaive, halberd, or pike), very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Monstrosity (kaftar) teeth</p><p>A kaftar's thirst for blood is so bottomless, so absolute, that it can transcend even death. When you soak the formidable fangs of this weapon in the blood of your enemies, you can almost swear you see it... grinning.</p><p>You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals piercing damage instead of its normal damage type.</p><p><strong>Blood Fangs.</strong> When you reduce a Small or larger creature that has blood to 0 hit points using this weapon, the blood of that creature magically adheres to the weapon's teeth, causing them to become larger and sharper for a short time. For 10 minutes, the bonus to attack and damage rolls made with this weapon increases to +3.</p><p><strong>Hungry for More.</strong> Once per turn, when you score a critical hit with this weapon against a creature that has blood, you can immediately make another attack with this weapon against the same creature as part of the same action. You have advantage on the attack roll, and deal an extra 2d6 necrotic damage on a hit.</p><p><strong>Uncommon variant:</strong> Remove the Hungry for More property. Reduce the weapon's attack and damage bonus to +1, and the attack and damage bonus of the Blood Fangs property to +2.</p><p><strong>Rare variant:</strong> Remove the Hungry for More property.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 9600,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

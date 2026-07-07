@@ -1,0 +1,37 @@
+{
+  "_id": "66WCV8yLsaFxgn0o",
+  "_key": "!items!66WCV8yLsaFxgn0o",
+  "name": "Moonscreen (Common)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Phial of Plant (moonbloom) sap</p><p>Boasting an EPF (evil protecting factor) of 50 and a UV (unspeakable vileness) blocking formula, moonscreen is one of the most effective ways to guard yourself against the nefarious forces of darkness. Arcanodermatologists recommend reapplying it every hour, even on sunny days.</p><p>This jar contains one dose of a protective cream, which can be applied to a creature's skin over the course of 1 minute. The cream has 20 charges, which last for 1 hour after it's applied.</p><p><strong>Protective Balm.</strong> When you would take necrotic damage, expend charges equal to the necrotic damage or your remaining hit points (whichever is lowest). The necrotic damage is then reduced by that same amount.</p><p><strong>Horrible Taste.</strong> When a creature hits you with a Bite attack (or similar attack at the GM's discretion), expend 5 charges. That creature must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.</p><p><strong>Common variant:</strong> Reduce the charges to 10. Remove the Horrible Taste property.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the charges to 30.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "attunement": "",
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

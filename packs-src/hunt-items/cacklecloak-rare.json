@@ -1,0 +1,37 @@
+{
+  "_id": "NA7PZ42lg2maKShS",
+  "_key": "!items!NA7PZ42lg2maKShS",
+  "name": "Cacklecloak (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (kaftar) pelt</p><p>Wearing this cloak makes the world seem substantially funnier. The quiet snickering that constantly escapes its hood, audible only to the wearer, can turn a comrade's injury into silly slapstick or a dire request for help into a hilarious joke. It's only when the wearer removes the cloak that they're overcome by the sudden realisation that it might have been laughing at them, instead of with them.</p><p><strong>Infectious Laughter.</strong> While wearing this cloak, you can use an action to start laughing, selecting one of the options below. Other creatures within 20 feet of you that can hear you must succeed on a DC 13 Wisdom saving throw or suffer the effects of the chosen option. Creatures with an Intelligence score of 4 or less aren't affected. Once an option has been used, that option can't be used again until the next dawn.</p><ul><li><strong>Hideous Cackle.</strong> The creature suffers the effects of the <em>hideous laughter</em> spell until the end of your next turn.</li><li><strong>Joyous Roar.</strong> The creature starts roaring with laughter, and is charmed by you until the end of your next turn, or until you damage the creature or target it with a harmful effect.</li><li><strong>Sinister Chuckle.</strong> The creature starts chuckling nervously, and is frightened of you until the end of your next turn.</li></ul><p><strong>Rare variant:</strong> Increase the DC to 15. The Infectious Laughter property can be used as a bonus action instead of an action. In addition, creatures affected by it take 2d6 psychic damage on a failed save, or half as much on a successful one. This damage doesn't end the charmed condition imposed by the Joyous Roar option.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. The Infectious Laughter property can be used as a bonus action instead of an action. In addition, creatures affected by it take 4d6 psychic damage on a failed save, or half as much on a successful one. This damage doesn't end the charmed condition imposed by the Joyous Roar option.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3050,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

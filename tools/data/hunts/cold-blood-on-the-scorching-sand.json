@@ -1,0 +1,113 @@
+{
+  "name": "Cold Blood on the Scorching Sand",
+  "source": "Cold Blood on the Scorching Sand (Loot Tavern hunt, APL 3/7/12)",
+  "creatureType": "monstrosity",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/3rd, 7th, & 12th/Cold Blood on the Scorching Sand/Cold Blood on the Scorching Sand v1.3.pdf",
+  "harvest": [
+    { "dc": 10, "components": ["Pouch of Teeth (4)"] },
+    { "dc": 15, "components": ["Tongue (1)"] },
+    { "dc": 20, "components": ["Pelt (1)"] }
+  ],
+  "components": [
+    { "name": "Kaftar Matriarch Tongue", "tags": ["tongue", "kaftar matriarch", "monstrosity"], "price": 70 }
+  ],
+  "items": [
+    {
+      "name": "Cacklecloak",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Monstrosity Pelt",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 550 },
+        { "rarity": "rare",      "value": 3050 },
+        { "rarity": "very rare", "value": 9500 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon (requires attunement)</em></p><p><strong>Component:</strong> Monstrosity (kaftar) pelt</p><p>Wearing this cloak makes the world seem substantially funnier. The quiet snickering that constantly escapes its hood, audible only to the wearer, can turn a comrade's injury into silly slapstick or a dire request for help into a hilarious joke. It's only when the wearer removes the cloak that they're overcome by the sudden realisation that it might have been laughing at them, instead of with them.</p><p><strong>Infectious Laughter.</strong> While wearing this cloak, you can use an action to start laughing, selecting one of the options below. Other creatures within 20 feet of you that can hear you must succeed on a DC 13 Wisdom saving throw or suffer the effects of the chosen option. Creatures with an Intelligence score of 4 or less aren't affected. Once an option has been used, that option can't be used again until the next dawn.</p><ul><li><strong>Hideous Cackle.</strong> The creature suffers the effects of the <em>hideous laughter</em> spell until the end of your next turn.</li><li><strong>Joyous Roar.</strong> The creature starts roaring with laughter, and is charmed by you until the end of your next turn, or until you damage the creature or target it with a harmful effect.</li><li><strong>Sinister Chuckle.</strong> The creature starts chuckling nervously, and is frightened of you until the end of your next turn.</li></ul><p><strong>Rare variant:</strong> Increase the DC to 15. The Infectious Laughter property can be used as a bonus action instead of an action. In addition, creatures affected by it take 2d6 psychic damage on a failed save, or half as much on a successful one. This damage doesn't end the charmed condition imposed by the Joyous Roar option.</p><p><strong>Very rare variant:</strong> Increase the DC to 16. The Infectious Laughter property can be used as a bonus action instead of an action. In addition, creatures affected by it take 4d6 psychic damage on a failed save, or half as much on a successful one. This damage doesn't end the charmed condition imposed by the Joyous Roar option.</p>"
+    },
+    {
+      "name": "Kaftar's Kiss",
+      "itemType": "equipment",
+      "kind": "Prosthesis",
+      "component": "Kaftar Matriarch Tongue",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 390 },
+        { "rarity": "rare",      "value": 1580 },
+        { "rarity": "very rare", "value": 7370 }
+      ],
+      "description": "<p><em>Prosthesis, rare</em></p><p><strong>Component:</strong> Monstrosity (kaftar) tongue</p><p>Is it smart to graft the barbed, still-wriggling tongue of an evil, ravenous Monstrosity to your own body, indulging its seemingly insatiable thirst when you drain your foes dry for your own twisted benefit? Maybe. Maybe not. Only one way to find out for sure!</p><p><strong>Prosthesis Properties.</strong> This prosthesis can replace or enhance an arm. It has the Melee (1d6 piercing, Scourge) property and the Skewer Superior Strike*.</p><p><strong>Bloodsucking Embrace.</strong> While grappling a creature that has blood using this prosthesis, you can use a bonus action on your turn to have this prosthesis' barbed tongue bore into the creature's body and begin sucking its blood. While the creature remains grappled by you, it takes 2d6 necrotic damage at the start of each of its turns. You gain temporary hit points equal to half the necrotic damage taken in this way.</p><p><strong>Uncommon variant:</strong> Reduce the necrotic damage to 1d6.</p><p><strong>Very rare variant:</strong> Increase the necrotic damage to 2d10.</p><p><strong>Scourge.</strong> This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it.</p><p>*See Ryoko's Guide to the Yokai Realms.</p>"
+    },
+    {
+      "name": "Maw of Oumdabaa",
+      "itemType": "weapon",
+      "kind": "Weapon (glaive, halberd, or pike)",
+      "component": "Pouch of Monstrosity Teeth",
+      "baseRecipe": "Martial Weapon",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 670 },
+        { "rarity": "rare",      "value": 3540 },
+        { "rarity": "very rare", "value": 9600 }
+      ],
+      "description": "<p><em>Weapon (glaive, halberd, or pike), very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of Monstrosity (kaftar) teeth</p><p>A kaftar's thirst for blood is so bottomless, so absolute, that it can transcend even death. When you soak the formidable fangs of this weapon in the blood of your enemies, you can almost swear you see it... grinning.</p><p>You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals piercing damage instead of its normal damage type.</p><p><strong>Blood Fangs.</strong> When you reduce a Small or larger creature that has blood to 0 hit points using this weapon, the blood of that creature magically adheres to the weapon's teeth, causing them to become larger and sharper for a short time. For 10 minutes, the bonus to attack and damage rolls made with this weapon increases to +3.</p><p><strong>Hungry for More.</strong> Once per turn, when you score a critical hit with this weapon against a creature that has blood, you can immediately make another attack with this weapon against the same creature as part of the same action. You have advantage on the attack roll, and deal an extra 2d6 necrotic damage on a hit.</p><p><strong>Uncommon variant:</strong> Remove the Hungry for More property. Reduce the weapon's attack and damage bonus to +1, and the attack and damage bonus of the Blood Fangs property to +2.</p><p><strong>Rare variant:</strong> Remove the Hungry for More property.</p>"
+    },
+    {
+      "name": "Cheese Stick",
+      "itemType": "weapon",
+      "kind": "Rod, staff, or wand",
+      "component": "Pouch of Plant Spores",
+      "baseRecipe": "Rod",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 700 },
+        { "rarity": "rare",      "value": 3200 },
+        { "rarity": "very rare", "value": 9800 }
+      ],
+      "description": "<p><em>Rod, staff, or wand, very rare (requires attunement)</em></p><p><strong>Component:</strong> Pouch of plant spores</p><p>Turophobia may be among the more unusual fears, but its trial at the caves of Fob-Ya is one of the most torturous ones. If you had to spend thirty consecutive days locked in a cheese pantry, breathing its mouldy stench, eating nothing but old curds... you'd probably be afraid of cheese as well.</p><p>This item has 10 charges and regains 1d6 + 4 expended charges daily at dawn.</p><p><strong>Cheesy Infusion.</strong> As a bonus action while holding this item, you can expend 1 charge to imbue a creature you can see within 30 feet of you with a property of a kind of cheese, choosing from one of the options below:</p><ul><li><strong>Swiss.</strong> You magically poke the creature full of holes. It must make a DC 16 Constitution saving throw, taking 4d6 piercing damage on a failed save, or half as much damage on a successful one.</li><li><strong>Limburger.</strong> You give the creature the foul odour of stinky cheese. Until the start of your next turn, each creature that starts its turn within 5 feet of the target must succeed on a DC 16 Constitution saving throw or be poisoned until the end of your next turn.</li><li><strong>Roquefort.</strong> You cover the creature in necrotic mould. It must succeed on a DC 16 Constitution saving throw or be riddled with mould until the end of its next turn. While this effect lasts, the creature takes an extra 1d4 necrotic damage each time it takes damage.</li></ul><p><strong>One With the Cheese.</strong> As an action while holding this item, you can cast the <em>true polymorph</em> spell (save DC 16), but only to transform a creature into a wheel of cheese. The effect of this spell can't become permanent—instead, a creature reverts back to its original form if the spell's duration ends or if the cheese is bitten or damaged in any way. Once this property of the item has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Remove the One With the Cheese property. Reduce the DCs to 13 and the damage of the Swiss option to 2d6. The Limburger option only affects the first creature that starts its turn within 5 feet of the target. A creature only takes the extra damage from the Roquefort option the first time it takes damage each turn.</p><p><strong>Rare variant:</strong> Remove the One With the Cheese property. Reduce the DCs to 15.</p>"
+    },
+    {
+      "name": "Parabox",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Aberration Bone",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common",   "value": 40 },
+        { "rarity": "uncommon", "value": 300 }
+      ],
+      "description": "<p><em>Wondrous item, common</em></p><p><strong>Component:</strong> Aberration bone</p><p>\"- So where did the sword come from? - The box. - But how did it get in the box? - You put it in there. - And where did I get it from? - The box.\"</p><p><strong>Closed Time-Circuit.</strong> This cubic box measures 1 foot on each side. As a bonus action while holding the empty box, you can reach into it and retrieve a mundane object, set of tools, or common magic item that could fit inside, which magically appears in the box, sent from the future. The received item is a generic item of its kind; for example, you can retrieve a key, but not the key to a specific door. Once an item has been retrieved from the box, no further items can be retrieved from it.</p><p>Within 8 hours of being pulled from the box, the same item must be returned to it. When this happens, the item disappears, appearing in the past when you first retrieved it. If the item is not returned to the box after that time, the creature that pulled it out takes 4d6 force damage as a minor paradox occurs, and the item disappears. The box loses its magic and becomes a mundane box when the item is returned or when the paradox occurs.</p><p><strong>Uncommon variant:</strong> The box doesn't lose its magic once an item retrieved from it with its Closed Time-Circuit property is returned to it. Once an item has been retrieved from the box, no further items can be retrieved from it until the next dawn.</p>"
+    },
+    {
+      "name": "Moon Oil",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Phial of Plant Sap",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common",   "value": 40 },
+        { "rarity": "uncommon", "value": 200 },
+        { "rarity": "rare",     "value": 900 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Phial of Plant (moonbloom) sap</p><p>When carefully extracted and mixed with rare alchemical reagents, the sap of moonbloom flowers can be processed into a shimmering, silver oil that burns the flesh of shapechangers. It also works wonders as a moisturiser and skin cleanser!</p><p><strong>Moonburn.</strong> This oil can coat one piercing or slashing weapon, or up to five pieces of piercing or slashing ammunition. Applying the oil takes 1 minute. For 1 hour, attacks made with the coated item deal an extra 1d4 radiant damage to shapechangers.</p><p><strong>Common variant:</strong> Reduce the damage to 1.</p><p><strong>Rare variant:</strong> Increase the damage to 1d10.</p>"
+    },
+    {
+      "name": "Moonscreen",
+      "itemType": "consumable",
+      "kind": "Wondrous item",
+      "component": "Phial of Plant Sap",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "common",   "value": 40 },
+        { "rarity": "uncommon", "value": 220 },
+        { "rarity": "rare",     "value": 950 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Phial of Plant (moonbloom) sap</p><p>Boasting an EPF (evil protecting factor) of 50 and a UV (unspeakable vileness) blocking formula, moonscreen is one of the most effective ways to guard yourself against the nefarious forces of darkness. Arcanodermatologists recommend reapplying it every hour, even on sunny days.</p><p>This jar contains one dose of a protective cream, which can be applied to a creature's skin over the course of 1 minute. The cream has 20 charges, which last for 1 hour after it's applied.</p><p><strong>Protective Balm.</strong> When you would take necrotic damage, expend charges equal to the necrotic damage or your remaining hit points (whichever is lowest). The necrotic damage is then reduced by that same amount.</p><p><strong>Horrible Taste.</strong> When a creature hits you with a Bite attack (or similar attack at the GM's discretion), expend 5 charges. That creature must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.</p><p><strong>Common variant:</strong> Reduce the charges to 10. Remove the Horrible Taste property.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the charges to 30.</p>"
+    }
+  ]
+}
