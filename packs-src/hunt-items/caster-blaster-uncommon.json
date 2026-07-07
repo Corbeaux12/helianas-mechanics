@@ -1,0 +1,37 @@
+{
+  "_id": "uCeCLAsD4tukkZYQ",
+  "_key": "!items!uCeCLAsD4tukkZYQ",
+  "name": "Caster Blaster (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any firearm), uncommon</em></p><p><strong>Component:</strong> Construct (divine-infused) arcanothermic core</p><p>Are you jealous of magic? Do you wish you too could shoot bolts of arcane energy at your enemies? Wish no more! Built to replicate the feeling of some of the most popular cantrips, the caster blaster condenses all of the offensive capacity of a junior mage into one sleek, convenient package. The caster blaster: making magical firepower available to those able to pay for it.</p><p>This weapon has 30 charges and regains all expended charges daily at dawn. The firearm doesn't have the ammunition or reload properties. Instead, it shoots rays of magical energy, dealing force damage instead of its normal damage type, and you must expend 1 charge each time you make an attack with it.</p><p><strong>Hex-Rays.</strong> A few of the crystals in this weapon have been infused with elemental magic. When you make an attack with this weapon, you can choose to empower it with one of the following options. Once an option has been used, it can't be used again until the next dawn.</p><ul><li><strong>Cold.</strong> The attack deals an extra 2d6 cold damage and the target's speed is halved until the start of your next turn.</li><li><strong>Fire.</strong> The attack deals an extra 3d6 fire damage.</li><li><strong>Lightning.</strong> The attack deals an extra 2d6 lightning damage and it's made with advantage if the target is wearing armour made of metal.</li><li><strong>Poison.</strong> The attack deals an extra 1d6 poison damage and the target is poisoned until the start of your next turn.</li></ul><p><strong>Hextech Recharge.</strong> As an action, you can slot a gemstone worth 50 gp or more into the firearm, which immediately destroys the gemstone and regains 10 charges. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the charges to 35. Each option from the Hex-Rays property can be used twice, regaining all expended uses daily at dawn.</p><p><strong>Very rare variant:</strong> Increase the charges to 40. Each option from the Hex-Rays property can be used three times, regaining all expended uses daily at dawn. You can choose to empower an attack with up to two of the available options simultaneously.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 430,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

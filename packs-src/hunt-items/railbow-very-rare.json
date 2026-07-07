@@ -1,0 +1,37 @@
+{
+  "_id": "wMyGgxs3GRBm1krG",
+  "_key": "!items!wMyGgxs3GRBm1krG",
+  "name": "Railbow (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (any bow), rare (requires attunement)</em></p><p><strong>Component:</strong> Construct (divine-infused) arcanothermic core</p><p>In defiance of all logic, projectiles fired from this bow actually accelerate as they fly. Their movement in flight is somehow able to generate a net gain of electrical power, and many a physicist has tearfully resigned when faced with this affront to the law of conservation of energy.</p><p>This bow has 3 charges and regains all expended charges daily at dawn.</p><p><strong>Hexxeleration.</strong> Attacks made with this bow deal an extra 1d6 lightning damage if the target is more than 30 feet away from you. In addition, attacking at long range doesn't impose disadvantage on your attack rolls made with this bow.</p><p><strong>Cover Blower.</strong> As a bonus action while holding the bow, you can expend 1 charge to supercharge it, in preparation for a devastating shot. The next attack roll you make with the bow before the end of your turn can target a creature through total cover and ignores the effects of the shield spell and nonmagical cover thinner than 1 foot, piercing through it to hit the target on the other side. In addition, if the target is more than 30 feet away from you, the attack deals an extra 4d6 lightning damage instead of 1d6.</p><p><strong>Hextech Recharge.</strong> As an action, you can slot a gemstone worth 50 gp or more into the bow, which immediately destroys the gemstone and regains 1 charge. Once this property of the bow has been used, it can't be used again until the next dawn.</p><p><strong>Uncommon variant:</strong> Reduce the extra damage of Hexxeleration to 1d4. Remove the charges, as well as the Cover Blower and Hextech Recharge properties.</p><p><strong>Very rare variant:</strong> Increase the extra damage of Hexxeleration to 1d8 and of Cover Blower to 4d8.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 12330,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

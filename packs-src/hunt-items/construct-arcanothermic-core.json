@@ -1,0 +1,45 @@
+{
+  "_id": "Z5LQL9RG41Ey3moG",
+  "_key": "!items!Z5LQL9RG41Ey3moG",
+  "name": "Construct Arcanothermic Core",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a forge of the divine machine (construct). See Forge of the Divine Machine (Loot Tavern hunt, APL 8/13/18).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 110,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "arcanothermic core",
+        "construct",
+        "divine-infused"
+      ]
+    }
+  }
+}

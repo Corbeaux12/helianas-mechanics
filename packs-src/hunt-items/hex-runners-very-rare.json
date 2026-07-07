@@ -1,0 +1,37 @@
+{
+  "_id": "V07WMjFp8YTTDfwZ",
+  "_key": "!items!V07WMjFp8YTTDfwZ",
+  "name": "Hex Runners (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon (requires attunement)</em></p><p><strong>Component:</strong> Construct (divine-infused) gears</p><p>Fast. Sleek. Powerful. Cast off your feeble flesh legs for Branton Quark's brand new hex runners, and get a 'leg up' on your competition today! (Self-mutilation is not necessary to enjoy this product. Branton Quark is not responsible for any accidents or injuries that may occur as a result of this advertisement.)</p><p>This item can function as a pair of prosthetic legs or can encase already existing legs. Either way, it can't be removed against your will while you remain attuned to it. While wearing the legs, your walking speed is increased by 5 feet.</p><p><strong>Kick into Overdrive.</strong> As a bonus action while wearing this item, you can force the arcane crystals to pump even more energy into them. You take 1d4 fire damage as they overheat, and your walking speed increases by 15 feet until the start of your next turn.</p><p><strong>Rare variant:</strong> This item has 4 charges and regains all expended charges daily at dawn. The legs have the Pulse Kick and Hextech Recharge properties.</p><p><strong>Pulse Kick.</strong> When you make an unarmed strike using your legs, you can expend 1 charge (no action required) to eject a pulse of energy from the crystals and propel your leg, adding more speed and power to your attack. On a hit, the attack deals an extra 1d8 bludgeoning damage and, if the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</p><p><strong>Hextech Recharge.</strong> As an action, you can slot a gemstone worth 50 gp or more into the item, which immediately destroys the gemstone and regains 1 charge. Once this property of the item has been used, it can't be used again until the next dawn.</p><p><strong>Very rare variant:</strong> The item has 4 charges and regains all expended charges daily at dawn. The legs have the Pulse Kick and Hextech Recharge properties. Increase the DC of Pulse Kick to 16 and the speed increase of Kick into Overdrive to 20 feet.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 12710,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

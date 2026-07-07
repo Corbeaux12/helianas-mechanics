@@ -1,0 +1,995 @@
+{
+  "_id": "d7pPjObRBIXM3g0m",
+  "_key": "!journal!d7pPjObRBIXM3g0m",
+  "name": "Forge of the Divine Machine Recipes",
+  "pages": [
+    {
+      "_id": "Y7nTCNakRbFRq9ns",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Forge of the Divine Machine (Loot Tavern hunt, APL 8/13/18)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>10</td><td>Plating (10)</td></tr><tr><td>15</td><td>Gears (10)</td></tr><tr><td>20</td><td>Arcanothermic Core (5); Brain (1); Instructions (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.4BMMWVN9tVs4IOzK]{Barrier Bracer (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.V13CEv0fs62495uK]{Barrier Bracer (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.uCeCLAsD4tukkZYQ]{Caster Blaster (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.obuCKw635WKBmddy]{Caster Blaster (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.LLueKAgs76cZvfZU]{Caster Blaster (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.2ejaW4Ste6xvEwia]{Hex Runners (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.yOpf72K0MjqJZ1HP]{Hex Runners (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.V07WMjFp8YTTDfwZ]{Hex Runners (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.hsUVPgcQ1vz0Rl5D]{Railbow (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.wgaFNRaoPt2VSKVP]{Railbow (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.wMyGgxs3GRBm1krG]{Railbow (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.FUBrpvjwkT2nP1Y5]{Stungunblade (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.sB5p0lJ1fp4IMgc7]{Stungunblade (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.602n0mzK2tadbV0X]{Stungunblade (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.1RRXghlUWbfv2EAy]{Tableturner (Common)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.VOuYVgBKy41PxDzW]{Tableturner (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.v3i7iPQV0qGn7RKk]{Tableturner (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.Y7nTCNakRbFRq9ns"
+    },
+    {
+      "_id": "HZLiokXY1zymGnEx",
+      "name": "Forge of the Divine Machine (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/8th, 13th, & 18th/Forge of the Divine Machine/Forge of the Divine Machine v1.2 - PAGES.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.HZLiokXY1zymGnEx"
+    },
+    {
+      "_id": "w8uBVJgEmbmjO6bs",
+      "name": "Barrier Bracer (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Barrier Bracer (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.4BMMWVN9tVs4IOzK",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QlqcQP9RPAC5t5p3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Dv2s1JsMJcbsiRpL",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "plating"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.w8uBVJgEmbmjO6bs"
+    },
+    {
+      "_id": "R7BwymH9uobY5EvN",
+      "name": "Barrier Bracer (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Barrier Bracer (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.V13CEv0fs62495uK",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3k7dWhab3oKa90CT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SBDCgigA1SexVd2z",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.87bCx26JGVjaY5SS",
+                "name": "Construct Plating",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "plating"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.R7BwymH9uobY5EvN"
+    },
+    {
+      "_id": "nbO7vYCS3FVS1fph",
+      "name": "Caster Blaster (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Caster Blaster (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.uCeCLAsD4tukkZYQ",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "NTLtRQAxve3W83hw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xidRYIvqt8MnwAgn",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.nbO7vYCS3FVS1fph"
+    },
+    {
+      "_id": "F0mCC7BFEtQ3uDzT",
+      "name": "Caster Blaster (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Caster Blaster (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.obuCKw635WKBmddy",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8O72MrQQrCpZhs0N",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mtkXj53VGbGOs2VP",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.F0mCC7BFEtQ3uDzT"
+    },
+    {
+      "_id": "uXH207o6QbBTZUq4",
+      "name": "Caster Blaster (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Caster Blaster (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.LLueKAgs76cZvfZU",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LP1MvkXo82yiD62N",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zzo8jpL959d1kABM",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.uXH207o6QbBTZUq4"
+    },
+    {
+      "_id": "0VShB3bInjzx1KhV",
+      "name": "Hex Runners (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hex Runners (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.2ejaW4Ste6xvEwia",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "zE5IVAxwAmZUN5RL",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "f1SLn2gfL1veqoC0",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.X6aa7XA5opV64ygw",
+                "name": "Construct Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "gears",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.0VShB3bInjzx1KhV"
+    },
+    {
+      "_id": "cf9RrB7MvkFxK4c4",
+      "name": "Hex Runners (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hex Runners (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.yOpf72K0MjqJZ1HP",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "LbYubmtTdgYQTpv9",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "HxEpMIGZENtCDgT0",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.X6aa7XA5opV64ygw",
+                "name": "Construct Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "gears",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.cf9RrB7MvkFxK4c4"
+    },
+    {
+      "_id": "KY745jitKITDQXWa",
+      "name": "Hex Runners (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hex Runners (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.V07WMjFp8YTTDfwZ",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "2s2h6rEAEPa1fZAi",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "rhVsp3QG4MBxaABc",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.X6aa7XA5opV64ygw",
+                "name": "Construct Gears",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "gears",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.KY745jitKITDQXWa"
+    },
+    {
+      "_id": "MAkkEwqHbCqUYYs4",
+      "name": "Railbow (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Railbow (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.hsUVPgcQ1vz0Rl5D",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4X5HVOAWWWIBwCxR",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "QLOhHA6TASCeG8v0",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.MAkkEwqHbCqUYYs4"
+    },
+    {
+      "_id": "nK8unzZQl7cCzFN7",
+      "name": "Railbow (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Railbow (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.wgaFNRaoPt2VSKVP",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "n1U9bD4sHerw48XJ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "iZr4Vxxoz0tbm4oR",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.nK8unzZQl7cCzFN7"
+    },
+    {
+      "_id": "3LxCTM2QyYCK6KD2",
+      "name": "Railbow (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Railbow (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.wMyGgxs3GRBm1krG",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "mMLs1a1xbv0iGQL6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SzVoAax6tCpgqAa2",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.3LxCTM2QyYCK6KD2"
+    },
+    {
+      "_id": "YShJLDGeH9Oh3cp7",
+      "name": "Stungunblade (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Stungunblade (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.FUBrpvjwkT2nP1Y5",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "U5vSOQLotGbL4DUv",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "ZRrKGPybBeTDBQPm",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "construct",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.YShJLDGeH9Oh3cp7"
+    },
+    {
+      "_id": "ba3QUtZo5tweu42g",
+      "name": "Stungunblade (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Stungunblade (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.sB5p0lJ1fp4IMgc7",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ppezoA0pmIuDzLSa",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "sMXRWU22G3SfFcbS",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.ba3QUtZo5tweu42g"
+    },
+    {
+      "_id": "bT8vMct0xudMUQWW",
+      "name": "Stungunblade (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Stungunblade (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.602n0mzK2tadbV0X",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "eAhcmXXXAYc9B4Kj",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "dMMmJCbeKnia0Sg7",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.Z5LQL9RG41Ey3moG",
+                "name": "Construct Arcanothermic Core",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "arcanothermic core",
+                  "construct",
+                  "divine-infused"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.bT8vMct0xudMUQWW"
+    },
+    {
+      "_id": "G29nOzdeU7rsX9KO",
+      "name": "Tableturner (Common)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tableturner (Common)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.1RRXghlUWbfv2EAy",
+        "resultQuantity": 1,
+        "dc": 12,
+        "timeHours": 1,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "c1E13jP7x67Ay2vD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "47RVnl4RpSrM2CHj",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "instructions"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "",
+        "componentCreatureType": "construct",
+        "rarity": "common",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 12,
+        "enchantingTimeHours": 1
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.G29nOzdeU7rsX9KO"
+    },
+    {
+      "_id": "hEeQEhu75gg2kIMx",
+      "name": "Tableturner (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tableturner (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.VOuYVgBKy41PxDzW",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "1BWD25Cxw1E1RR15",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Krl5mtjvChnY8KZH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "instructions"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "construct",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.hEeQEhu75gg2kIMx"
+    },
+    {
+      "_id": "IEaeL83SiPb0HtU6",
+      "name": "Tableturner (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tableturner (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.v3i7iPQV0qGn7RKk",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "y95YZP9Eoc4oRLkP",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "x8cCnocPQanwImly",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cHnLGG1O2TftyNOu",
+                "name": "Construct Instructions",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "construct",
+                  "instructions"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "construct",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!d7pPjObRBIXM3g0m.IEaeL83SiPb0HtU6"
+    }
+  ],
+  "folder": null,
+  "sort": 10900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
