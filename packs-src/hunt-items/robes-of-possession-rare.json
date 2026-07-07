@@ -1,0 +1,37 @@
+{
+  "_id": "pZjwpo0dnHsuwUJf",
+  "_key": "!items!pZjwpo0dnHsuwUJf",
+  "name": "Robes of Possession (Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare / very rare / legendary (requires attunement)</em></p><p><strong>Component:</strong> Fiend (shaitan) skin</p><p>The best way to control and manipulate is from within. This shaitan adage applies equally to settlements, organisations... and people.</p><p>While wearing these robes, you gain a +1 bonus to AC and Immunity to being possessed.</p><p><strong>Absolute Domination.</strong> While wearing these robes, you can cast the <em>Dominate Person</em> spell (save DC 16). If the target of the spell fails its saving throw against it, you can choose to possess the target by disappearing and entering its body until the spell ends or the target is reduced to 0 Hit Points. When the spell ends, you exit the creature's body into an unoccupied space within 10 feet of it.</p><p>While within the target's body, you share its senses and speak with its voice, can't take Reactions or Bonus Actions, and the only action you can take is to take total and precise control of the target, as per the spell. In addition, you can't be targeted by attacks or abilities and can't take damage. Once this property has been used, it can't be used again until the next dawn.</p><p><strong>Rare variant:</strong> Reduce the DC to 15. Remove the bonus to AC.</p><p><strong>Legendary variant:</strong> Increase the bonus to AC to +2 and the DC to 17. The robes can be used to cast the <em>Dominate Monster</em> spell instead of <em>Dominate Person</em>.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3620,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

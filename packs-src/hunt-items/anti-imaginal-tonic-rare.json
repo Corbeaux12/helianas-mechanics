@@ -1,0 +1,37 @@
+{
+  "_id": "zmMp9jnufiZECdzV",
+  "_key": "!items!zmMp9jnufiZECdzV",
+  "name": "Anti-Imaginal Tonic (Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, uncommon / rare</em></p><p><strong>Component:</strong> Phial of Aberration (jinn) blood</p><p>\"Matter over mind.\" — Motto of the Anti-Almansi Accord</p><p>You can drink this potion as an action, and its effects last for 1 hour. During this time, when you're forced to make a Charisma, Intelligence, or Wisdom saving throw, you can make a Strength or Dexterity saving throw instead. Once you've done so, the potion's effect ends.</p><p><strong>Rare variant:</strong> Increase the duration to 8 hours. You can replace a saving throw up to three times while the potion lasts, after which its effect ends.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1880,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

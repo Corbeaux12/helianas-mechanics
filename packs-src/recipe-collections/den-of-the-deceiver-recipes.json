@@ -1,0 +1,826 @@
+{
+  "_id": "6BWwJyTnkWHdX54C",
+  "_key": "!journal!6BWwJyTnkWHdX54C",
+  "name": "Den of the Deceiver Recipes",
+  "pages": [
+    {
+      "_id": "gb2iGIVMShyTFtdL",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Den of the Deceiver (Loot Tavern hunt, APL 7/12/17)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Eye (2); Flesh (3); Hair (5); Phial of Blood (3); Pouch of Dust (3)</td></tr><tr><td>10</td><td>Bone (3); Horn (2); Pouch of Claws (2); Pouch of Teeth (1)</td></tr><tr><td>15</td><td>Fat (2); Heart (1); Liver (1)</td></tr><tr><td>20</td><td>Brain (1); Skin (1)</td></tr><tr><td>25</td><td>Soul (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.057EzuCaefoNKHtA]{Anti-Imaginal Tonic (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.zmMp9jnufiZECdzV]{Anti-Imaginal Tonic (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.XgNx80woudqranOr]{Blades of the Infernal Sun (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.h67b7W1ZTBB31NTg]{Blades of the Infernal Sun (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.WLriqGqM9D6kysBc]{Blades of the Infernal Sun (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.kbrzjN4i9Ze3tYRV]{Double Whammy (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.5Gp0ByoZcvX64wes]{Double Whammy (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.3YpexXMiY1VIMOD8]{Double Whammy (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.pZjwpo0dnHsuwUJf]{Robes of Possession (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.jfAPT9rRHp4S8bxk]{Robes of Possession (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.00ub60MPsucJm4TD]{Robes of Possession (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.J0ug4Q6N6ucjy1W9]{Shaitan's Snakestaff (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.k7cnRoTrqjZNtm7l]{Shaitan's Snakestaff (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.qzdsbK1HwmnBjTKp]{Shaitan's Snakestaff (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.gb2iGIVMShyTFtdL"
+    },
+    {
+      "_id": "cBtemyGQXlDOTDYV",
+      "name": "Den of the Deceiver (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/7th, 12th, & 17th/Den of the Deciever/Den of the Deceiver v0.99.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.cBtemyGQXlDOTDYV"
+    },
+    {
+      "_id": "7MnnUKac7V2688VE",
+      "name": "Anti-Imaginal Tonic (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Anti-Imaginal Tonic (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.057EzuCaefoNKHtA",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "WgRHoOgRCTDW0GqE",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "cEs14hleJdAy1lJi",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dbdH3VbRd1W2ucXF",
+                "name": "Phial of Aberration Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "aberration",
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.7MnnUKac7V2688VE"
+    },
+    {
+      "_id": "47zylZBV7pvAoWf0",
+      "name": "Anti-Imaginal Tonic (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Anti-Imaginal Tonic (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.zmMp9jnufiZECdzV",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "6AdD47sAyOefLnb3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xZKYa0GwU6C7WErm",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.dbdH3VbRd1W2ucXF",
+                "name": "Phial of Aberration Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "aberration",
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.47zylZBV7pvAoWf0"
+    },
+    {
+      "_id": "jVafIV0t1jpPJ8ZE",
+      "name": "Blades of the Infernal Sun (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Blades of the Infernal Sun (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.XgNx80woudqranOr",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Hzu23lMfhm75DZDx",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "JrFkAdHYQ7Evxdfj",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ohUOCyBVcWk0pYvv",
+                "name": "Fiend Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.jVafIV0t1jpPJ8ZE"
+    },
+    {
+      "_id": "PWcCrHjEgLwKStps",
+      "name": "Blades of the Infernal Sun (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Blades of the Infernal Sun (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.h67b7W1ZTBB31NTg",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "qDoKBNjaYQ7wJXWN",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "MVtPTkEFk68dcIpn",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ohUOCyBVcWk0pYvv",
+                "name": "Fiend Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.PWcCrHjEgLwKStps"
+    },
+    {
+      "_id": "2SDcXaRtpLGGlW5u",
+      "name": "Blades of the Infernal Sun (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Blades of the Infernal Sun (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.WLriqGqM9D6kysBc",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "exCVmxomM6Y3dY7Q",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "I0ntlzMHLrcOuW5z",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ohUOCyBVcWk0pYvv",
+                "name": "Fiend Horn",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "horn"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.ncs660Nb6YH2RLuM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.2SDcXaRtpLGGlW5u"
+    },
+    {
+      "_id": "KnJx8sdv5XRSvc0I",
+      "name": "Double Whammy (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Double Whammy (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.kbrzjN4i9Ze3tYRV",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "283mFC3FTYW38Z0m",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yVtdDhI40A2Lsj2X",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ipqCzs5yfdZshALV",
+                "name": "Volatile Mote of Elemental Fire",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "fire"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.KnJx8sdv5XRSvc0I"
+    },
+    {
+      "_id": "XzIbMzt8sbrP5no2",
+      "name": "Double Whammy (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Double Whammy (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.5Gp0ByoZcvX64wes",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Arb2a89jh4lfgmS5",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "fO2grJZeZ7zSRWUE",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ipqCzs5yfdZshALV",
+                "name": "Volatile Mote of Elemental Fire",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "fire"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.XzIbMzt8sbrP5no2"
+    },
+    {
+      "_id": "6FTzDsZAs0s8XrIs",
+      "name": "Double Whammy (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Double Whammy (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.3YpexXMiY1VIMOD8",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "usvaT05UkXHtvChT",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "5DcLJEdEhFU4T8PH",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.ipqCzs5yfdZshALV",
+                "name": "Volatile Mote of Elemental Fire",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "fire"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.fEVJgQtmmxVLRGMI",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.6FTzDsZAs0s8XrIs"
+    },
+    {
+      "_id": "la86xax0rDkhunny",
+      "name": "Robes of Possession (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Robes of Possession (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.pZjwpo0dnHsuwUJf",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "rUk4KWOjxJglWW6U",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "z79BB6EJdSvUMC84",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "skin"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.la86xax0rDkhunny"
+    },
+    {
+      "_id": "OEHGDCs2rpl9HTrq",
+      "name": "Robes of Possession (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Robes of Possession (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.jfAPT9rRHp4S8bxk",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "PQ0SPTztizHl5shD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Fq0OEXA5DXBGlT83",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "skin"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.OEHGDCs2rpl9HTrq"
+    },
+    {
+      "_id": "CUemDLEYflsFzP7q",
+      "name": "Robes of Possession (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Robes of Possession (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.00ub60MPsucJm4TD",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vlJY8Wd64HNeafQu",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "hITKNcMAcBY7l1fh",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.XFSxdDal8TdWSaA9",
+                "name": "Fiend Skin",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "skin"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "fiend",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.CUemDLEYflsFzP7q"
+    },
+    {
+      "_id": "oYPDJG8cq7EskRWi",
+      "name": "Shaitan's Snakestaff (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shaitan's Snakestaff (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.J0ug4Q6N6ucjy1W9",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "R0cit5HaRjhoCfdM",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "59CnxLcYAQN4sypA",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "fiend",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.oYPDJG8cq7EskRWi"
+    },
+    {
+      "_id": "7kN5sggunCdrrDg2",
+      "name": "Shaitan's Snakestaff (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shaitan's Snakestaff (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.k7cnRoTrqjZNtm7l",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "KksOAaX2eLk9BZGz",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "zLJVEeVNYvejqcli",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "fiend",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.7kN5sggunCdrrDg2"
+    },
+    {
+      "_id": "ETH1wt7vtI9quvJA",
+      "name": "Shaitan's Snakestaff (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Shaitan's Snakestaff (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.qzdsbK1HwmnBjTKp",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "IX6ivZCHOW6qr4s0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "B4RHvg8zqm5OnN9m",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.1OdKcBvQY8R40hyC",
+                "name": "Fiend Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "fiend",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "fiend",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6BWwJyTnkWHdX54C.ETH1wt7vtI9quvJA"
+    }
+  ],
+  "folder": null,
+  "sort": 10700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "k7cnRoTrqjZNtm7l",
+  "_key": "!items!k7cnRoTrqjZNtm7l",
+  "name": "Shaitan's Snakestaff (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, uncommon / rare / very rare (requires attunement by a spellcaster)</em></p><p><strong>Component:</strong> Fiend (shaitan) bone</p><p>This staff is the strongest magical item in the world. This staff is not magical at all. You are loved and feared while in possession of this staff. You are laughed at and mocked while in possession of this staff. You are everything. You are nothing.</p><p>This staff has 5 charges and regains 1d4 + 1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes nonmagical, but still appears as magical to spells such as <em>Detect Magic</em> and <em>Identify</em>.</p><p>You have Advantage on Charisma (Deception) checks made while holding this staff.</p><p><strong>Spells.</strong> While holding this staff, you can expend 1 or more charges to cast one of the following spells from it (save DC 15): <em>Breath of Betrayal</em>* (3 charges), <em>Major Image</em> (3 charges), <em>Mirror Image</em> (2 charges), <em>Modify Memory</em> (5 charges), or <em>Suggestion</em> (2 charges).</p><p><strong>Fed on Lies.</strong> Whenever you expend a spell slot or any of the staff's charges to cast an Enchantment or Illusion spell, you gain 1d8 Temporary Hit Points, which last for 1 minute.</p><p><strong>Uncommon variant:</strong> Reduce the DC to 13. Remove the Fed on Lies property and <em>Modify Memory</em> from the Spells property's list of spells. The staff doesn't grant Advantage on Charisma (Deception) checks.</p><p><strong>Very rare variant:</strong> Increase the DC to 16, the charges to 8, the recharge to 1d4 + 4, and the Temporary Hit Points to 2d8. Add <em>Mass Suggestion</em> (6 charges) and <em>Programmed Illusion</em> (6 charges) to the Spells property's list of spells.</p><p>*See Appendix B of Den of the Deceiver.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 3670,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

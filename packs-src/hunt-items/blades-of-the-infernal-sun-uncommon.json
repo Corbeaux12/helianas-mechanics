@@ -1,0 +1,37 @@
+{
+  "_id": "XgNx80woudqranOr",
+  "_key": "!items!XgNx80woudqranOr",
+  "name": "Blades of the Infernal Sun (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (scimitar), uncommon / rare / very rare (requires attunement)</em></p><p><strong>Component:</strong> Fiend (shaitan) horn</p><p>It's said that when the sun sets between the horns of a shaitan, the gates of the Hells open. Make sure you're not around when that happens — you don't want to see who's at the door.</p><p>These two Scimitars count as a single magic item with regard to the number of magic items to which you can attune. An orange sun hovers constantly between them when they're unsheathed, feeding their blades with fiery rays. While the sun persists, each scimitar deals an extra 1d4 Fire damage to the first target it hits on each of your turns.</p><p><strong>Open the Gates.</strong> When you're reduced to 0 Hit Points while holding these weapons with the scimitar's sun present and shining, the scimitar's sun sets and disappears, and a metallic creak echoes through the air. A Hell Hound appears in an unoccupied space within 5 feet of you. It's an ally to you and your companions and shares your Initiative count in combat, taking its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it attacks the hostile creature nearest to you. The hell hound remains for 1 minute or until it's reduced to 0 Hit Points.</p><p>The sun reappears between the scimitars the first time they're drawn after the next dawn.</p><p><strong>Rare variant:</strong> Increase the damage to 1d8. The Open the Gates property summons a Barbed Devil instead of a hell hound.</p><p><strong>Very rare variant:</strong> Increase the damage to 1d12. The Open the Gates property summons a Chain Devil instead of a hell hound.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "required",
+    "price": {
+      "value": 740,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -4,10 +4,10 @@ Handoff notes for continuing the content-import work in a fresh session (written
 
 ## Where things stand
 
-- **Module version:** 1.12.0 deployed. Everything through commit `cd3e164` is live on the server.
+- **Module version:** 1.12.0 deployed. Everything through commit `58583de` is live on the server.
 - **Hunt Bestiary: COMPLETE.** All 45 Field Notes PDFs → 57 actors in `tools/data/actors/*.json`. Don't touch unless fixing bugs.
 - **Hunt Library: COMPLETE.** All 27 hunt PDFs as image-page journals (`assets/hunts/`, manifest `tools/data/hunt-library.json`).
-- **Hunt items: 18 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Scourge of the Coral Hive (Valtharyx, a Coral Dragon Turtle) — 5 items, 11 recipe pages, all verified linked. New pattern seen here: one item (Glasscap Crown) is a foraged fungus harvested via a flat DC check with NO monster component at all — modeled with an invented raw-material component so it still fits the recipe pipeline. If a future hunt has a similar "found in the wild, not from the boss" item, use the same approach: invent a component, price it by analogy, footnote it.
+- **Hunt items: 20 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Den of the Deceiver (Shaitan) — 5 items, 16 recipe pages, all verified linked. Second hunt in a row with zero hunt-specific components (all five resolve to pre-existing generics: Phial of Aberration Blood, Fiend Horn/Skin/Bone, Volatile Mote of Elemental Fire). Also had a table-vs-description conflict on Shaitan's Snakestaff (table's "bone" matched the Harvest Table, description's "snaketail" didn't — table won) and a 2-column PDF reading-order artifact on Double Whammy (variant text printed on an earlier page than its own header — reassembled into the correct order).
 - **No batch currently in flight.** Nothing pending write — pick the next hunt fresh per the workflow below.
 
 ## Recurring gotcha: crafting-table vs. item-description component conflicts
@@ -16,7 +16,7 @@ At least three hunts so far (Queen of Shadow and Thorn, Spectres of Midwinter, T
 
 ## The per-batch workflow (repeat until done)
 
-1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: Throne of the Devourer, Den of the Deceiver, Forge of the Divine Machine, Dragonfruit, Synaptic Shiver, Timeless Tyrant, End Times. **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
+1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: Forge of the Divine Machine, Dragonfruit, Synaptic Shiver, Timeless Tyrant, End Times. **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
 2. Transcribe to `tools/data/hunts/<slug>.json` following the schema of `tools/data/hunts/bloodhound.json` (fields: name, source, creatureType, pdf, harvest[], components[], items[]; item fields: name, itemType, kind, component **or** components[], baseRecipe, attunement none/required/optional, tiers[{rarity,value}], description as HTML with `<em>/<strong>/<ul>` formatting).
 3. `npm run build:packs` then `npx vitest run` (152 tests must pass).
 4. **Verify links** — every recipe page must have linked components and result:

@@ -1,0 +1,37 @@
+{
+  "_id": "3YpexXMiY1VIMOD8",
+  "_key": "!items!3YpexXMiY1VIMOD8",
+  "name": "Double Whammy (Very Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (pistol), uncommon / rare / very rare</em></p><p><strong>Component:</strong> Elemental (jinn) volatile mote of fire</p><p>If the gun jams, just follow the instructions in Zakia Hadad's Easy One-Step Guide to Fixing Any Magitech Device: give it a couple of solid thwacks. Better yet, give it a couple of solid thwacks over someone else's head!</p><p>This firearm can also be used as a Light Hammer. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><strong>Calculated Malfunction.</strong> When you roll a 20 on an attack roll made using this weapon as a Pistol, the target takes an extra 4d6 Fire damage. In addition, the target must succeed on a DC 15 Strength saving throw or be pushed up to 15 feet away from you in a straight line and fall Prone. After this happens, the weapon jams, and can't be used as a Pistol until you use an action to unjam it or hit a target with a melee attack using the weapon.</p><p><strong>Uncommon variant:</strong> Reduce the damage to 2d6 and the DC to 13. Remove the attack and damage bonus.</p><p><strong>Very rare variant:</strong> Increase the attack and damage bonus to +2 and the DC to 16. The item has the Magic Touch property.</p><p><strong>Magic Touch.</strong> When you roll a 20 on a melee attack roll made using this weapon, you gain Advantage on the next attack roll made using this weapon as a pistol within 1 minute.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 8010,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
