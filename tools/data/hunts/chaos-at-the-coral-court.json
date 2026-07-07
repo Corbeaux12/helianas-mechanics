@@ -1,0 +1,86 @@
+{
+  "name": "Chaos at the Coral Court",
+  "source": "Chaos at the Coral Court (Loot Tavern hunt, v1.1)",
+  "creatureType": "humanoid",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/Chaos at the Coral Court/Chaos at the Coral Court - PAGES v1.1.pdf",
+  "harvest": [
+    { "dc": 5,  "components": ["Pelagia: Eye (2); Phial of Blood (5); Reefwalker: Phial of Blood (5)"] },
+    { "dc": 10, "components": ["Pelagia: Bone (5); Pouch of Teeth (1); Reefwalker: Coral Shards (5)"] },
+    { "dc": 15, "components": ["Pelagia: Heart (1); Liver (1); Pouch of Scales (2); Reefwalker: Heart (1)"] },
+    { "dc": 20, "components": ["Pelagia: Brain (1); Skin (1)"] },
+    { "dc": 25, "components": ["Reefwalker: Lifespark (1)"] }
+  ],
+  "components": [
+    { "name": "Reefwalker Coral Shards", "tags": ["coral shards", "reefwalker", "construct"], "price": 40 }
+  ],
+  "items": [
+    {
+      "name": "Fishbone Sceptre",
+      "itemType": "weapon",
+      "kind": "Rod",
+      "component": "Beast Bone",
+      "baseRecipe": "Rod",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 460 },
+        { "rarity": "rare",      "value": 1870 },
+        { "rarity": "very rare", "value": 9470 }
+      ],
+      "description": "<p><em>Rod, uncommon</em></p><p><strong>Component:</strong> Beast (giant shark) bone</p><p>The ocean brims with microscopic life—countless tiny organisms populating each drop of water, unseen yet vital to the delicate balance of the ecosystem. It's upon these minuscule beings that this sceptre feeds, syphoning their life force to convert into powerful pulses of malevolent energy.</p><p>This sceptre has 4 charges. When the last charge is expended, the sceptre is destroyed.</p><p><strong>Necrotic Pulse.</strong> As an action while holding this sceptre, you can expend 1 charge to release a pulse of necrotic energy, which affects a 10-foot-radius Sphere centred on you. Each other creature within the sphere must make a DC 13 Constitution saving throw, taking 3d6 Necrotic damage on a failed save, or half as much damage on a successful one. If a creature rolls a 1 on this saving throw, its skin becomes flakey and brittle until the end of its next turn. When a creature with brittle skin takes any damage other than psychic damage, it takes an extra 3d6 damage of the same type, after which its skin returns to normal.</p><p>Nonmagical plants in the area that aren't creatures, such as coral and algae, wither and die instantly.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and both instances of damage to 6d6.</p><p><strong>Very rare variant:</strong> Increase the DC to 16 and both instances of damage to 8d6.</p>"
+    },
+    {
+      "name": "Mermalian Elixir",
+      "itemType": "consumable",
+      "kind": "Potion",
+      "component": "Volatile Mote of Elemental Water",
+      "baseRecipe": "Potion Base",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "rare", "value": 1120 }
+      ],
+      "description": "<p><em>Potion, rare</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>Experience the wonders of the ocean unburdened by inefficient land-walking appendages. The mermalian elixir: made by mermalians... for non-mermalians.</p><p><strong>Aquatic Form.</strong> For 24 hours after you drink this potion, you can use a Bonus Action to transform into an aquatic form reminiscent of a mermalian, or to revert to your original shape. While in aquatic form, your lower body fuses into a mermaid's tail, granting you a Swimming Speed equal to your Walking Speed. In addition, you grow gills, making you able to breathe water, but not air, and you can speak and understand Aquan.</p>"
+    },
+    {
+      "name": "Reefplate",
+      "itemType": "equipment",
+      "kind": "Armour (any)",
+      "component": "Reefwalker Coral Shards",
+      "baseRecipe": "Breastplate",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 440 },
+        { "rarity": "rare",      "value": 1710 },
+        { "rarity": "very rare", "value": 7400 }
+      ],
+      "description": "<p><em>Armour (any), rare</em></p><p><strong>Component:</strong> Construct (reefwalker) coral shards</p><p>The wearer of this vibrant armour is sure to stand out in the battlefield, drawing the attention—and aggression—of their enemies. Little do those poor, unfortunate souls know that's all part of the plan...</p><p><strong>Palytoxin.</strong> When a creature hits you with a melee attack while you're wearing this armour, it takes 1d6 poison damage. Once this property has triggered, it can't trigger again until the start of your next turn. If the attack was a critical hit, the attacker is also poisoned until the end of your next turn.</p><p><strong>Defensive Bleaching.</strong> When you take necrotic damage while wearing this armour, you can use your Reaction to let the coral in the armour absorb the brunt of it. You reduce the damage taken by 3d10, and the coral in your armour becomes discoloured. While the armour is discoloured, the Palytoxin property can't trigger. The armour regains its colour after spending 1 hour completely submerged in clean water.</p><p><strong>Uncommon variant:</strong> Reduce the poison damage to 1d4. Remove the Defensive Bleaching property.</p><p><strong>Very rare variant:</strong> Increase the poison damage to 1d12 and the damage reduction to 4d10.</p>"
+    },
+    {
+      "name": "Selachian Staff",
+      "itemType": "weapon",
+      "kind": "Staff",
+      "component": "Humanoid Heart",
+      "baseRecipe": "Staff",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 2810 },
+        { "rarity": "very rare", "value": 12350 },
+        { "rarity": "legendary", "value": 79600 }
+      ],
+      "description": "<p><em>Staff, very rare (requires attunement by a spellcaster)</em></p><p><strong>Component:</strong> Humanoid (shark queen) heart</p><p>Experience a shark's hunger... smell the intoxicating scent of rich blood mixing with briney water... feel in your bones the power that the thirst brings... Only then will you know the struggle of all sharkin, and understand the Deepfathom's choice to give in.</p><p>This staff has 8 charges, and regains 1d4 + 4 expended charges daily at dawn. While holding it, you can cast the <em>primal scent</em>* cantrip.</p><p><strong>Spells.</strong> While holding this staff, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 16): <em>control water</em> (4 charges), <em>coralskin</em>* (2 charges), <em>create or destroy water</em> (1 charge), <em>exsanguinate</em>* (3 charges), <em>riptide</em>* (2 charges), or <em>white water wall</em>* (5 charges).</p><p><strong>Mystical Bloodlust.</strong> When you cast one of the spells from the staff, you can imbue it with one of the following special properties, which can only affect one creature below half of its hit point maximum. If a property could affect multiple creatures, you choose one creature to which it applies. Once a special property has been used, it can't be used again until the next dawn.</p><ul><li><strong>Awaken Bloodlust.</strong> The first time that the creature fails its saving throw against the spell, it must immediately use its Reaction to make a melee weapon attack against a creature of your choice within its reach.</li><li><strong>Drain Strength.</strong> The first time that the creature takes damage from the spell, you gain 4d6 Temporary Hit Points, which last for 1 minute.</li><li><strong>Induce Weakness.</strong> The first time that the creature makes a saving throw against the spell, it has Disadvantage on it.</li></ul><p><strong>Rare variant:</strong> Reduce the charges to 4 and the DC to 15. The staff regains all expended charges daily at dawn. Remove <em>white water wall</em> from the Spells property's list of spells.</p><p><strong>Legendary variant:</strong> Increase the charges to 10, the recharge to 1d6 + 4, and the DC to 17. You have resistance to Cold damage while holding this staff.</p><p>*See Appendix B of Chaos at the Coral Court.</p>"
+    },
+    {
+      "name": "Sharksong",
+      "itemType": "weapon",
+      "kind": "Weapon (greatclub)",
+      "component": "Phial of Humanoid Blood",
+      "baseRecipe": "Simple Weapon",
+      "attunement": "optional",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 660 },
+        { "rarity": "rare",      "value": 2970 },
+        { "rarity": "very rare", "value": 12700 }
+      ],
+      "description": "<p><em>Weapon (greatclub), uncommon (optional attunement)</em></p><p><strong>Component:</strong> Phial of Humanoid (shark queen) blood</p><p>\"Sharks are actually great appreciators of music... we think. So far, they've eaten every artist who's performed for them... but that was probably just some biting criticism.\" — Christopher Tacian, maestro at Queen Silverfathom's court</p><p><strong>Selachian Servant.</strong> When you make an attack with this weapon and you don't have Disadvantage on the attack roll, you can choose to impose Disadvantage on it to swing the conch in a complex pattern that produces a unique melody. Regardless of whether the attack hits or misses, the song summons a hunter shark, which appears in an unoccupied space within 5 feet of you, and lasts for 1 minute or until it's reduced to 0 Hit Points. You can choose to summon it underneath you so that you are mounted on it when it appears, as long as you are of an appropriate size. The shark is an ally to you and your companions. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Optional Attunement.</strong> You can choose to attune to this item. If you do, when you summon a shark with the Selachian Servant property, the shark can breathe both air and water, and has a Flying Speed equal to its Swimming Speed. In addition, when the shark disappears, roll a d6. On a 5 or higher, you can use the Selachian Servant property again.</p><p><strong>Rare variant:</strong> The Selachian Servant property summons a giant shark instead of a hunter shark.</p><p><strong>Very rare variant:</strong> The Selachian Servant property summons a giant shark instead of a hunter shark. This weapon deals an extra 1d4 Bludgeoning damage to creatures that don't have all of their Hit Points.</p>"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "qQkNreM57AhIYTnq",
+  "_key": "!items!qQkNreM57AhIYTnq",
+  "name": "Reefplate (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Armour (any), rare</em></p><p><strong>Component:</strong> Construct (reefwalker) coral shards</p><p>The wearer of this vibrant armour is sure to stand out in the battlefield, drawing the attention—and aggression—of their enemies. Little do those poor, unfortunate souls know that's all part of the plan...</p><p><strong>Palytoxin.</strong> When a creature hits you with a melee attack while you're wearing this armour, it takes 1d6 poison damage. Once this property has triggered, it can't trigger again until the start of your next turn. If the attack was a critical hit, the attacker is also poisoned until the end of your next turn.</p><p><strong>Defensive Bleaching.</strong> When you take necrotic damage while wearing this armour, you can use your Reaction to let the coral in the armour absorb the brunt of it. You reduce the damage taken by 3d10, and the coral in your armour becomes discoloured. While the armour is discoloured, the Palytoxin property can't trigger. The armour regains its colour after spending 1 hour completely submerged in clean water.</p><p><strong>Uncommon variant:</strong> Reduce the poison damage to 1d4. Remove the Defensive Bleaching property.</p><p><strong>Very rare variant:</strong> Increase the poison damage to 1d12 and the damage reduction to 4d10.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 7400,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

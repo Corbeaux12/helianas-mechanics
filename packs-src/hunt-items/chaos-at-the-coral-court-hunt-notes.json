@@ -1,0 +1,42 @@
+{
+  "_id": "8iXmBDNAN7z5Hekk",
+  "_key": "!items!8iXmBDNAN7z5Hekk",
+  "name": "Chaos at the Coral Court Hunt Notes",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Field notes on hunting and harvesting the chaos at the coral court, with crafting recipes for its unique items.</p><p>Source: Chaos at the Coral Court (Loot Tavern hunt, v1.1)</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "isRecipeBook": true,
+      "recipeBookJournalUuid": "Compendium.helianas-mechanics.recipe-collections.JournalEntry.WB4ExRNLIo6jPMIC"
+    }
+  }
+}

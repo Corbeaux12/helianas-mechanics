@@ -1,0 +1,37 @@
+{
+  "_id": "dC0fVIqRKv07jdtq",
+  "_key": "!items!dC0fVIqRKv07jdtq",
+  "name": "Selachian Staff (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Staff, very rare (requires attunement by a spellcaster)</em></p><p><strong>Component:</strong> Humanoid (shark queen) heart</p><p>Experience a shark's hunger... smell the intoxicating scent of rich blood mixing with briney water... feel in your bones the power that the thirst brings... Only then will you know the struggle of all sharkin, and understand the Deepfathom's choice to give in.</p><p>This staff has 8 charges, and regains 1d4 + 4 expended charges daily at dawn. While holding it, you can cast the <em>primal scent</em>* cantrip.</p><p><strong>Spells.</strong> While holding this staff, you can expend 1 or more of its charges to cast one of the following spells from it (save DC 16): <em>control water</em> (4 charges), <em>coralskin</em>* (2 charges), <em>create or destroy water</em> (1 charge), <em>exsanguinate</em>* (3 charges), <em>riptide</em>* (2 charges), or <em>white water wall</em>* (5 charges).</p><p><strong>Mystical Bloodlust.</strong> When you cast one of the spells from the staff, you can imbue it with one of the following special properties, which can only affect one creature below half of its hit point maximum. If a property could affect multiple creatures, you choose one creature to which it applies. Once a special property has been used, it can't be used again until the next dawn.</p><ul><li><strong>Awaken Bloodlust.</strong> The first time that the creature fails its saving throw against the spell, it must immediately use its Reaction to make a melee weapon attack against a creature of your choice within its reach.</li><li><strong>Drain Strength.</strong> The first time that the creature takes damage from the spell, you gain 4d6 Temporary Hit Points, which last for 1 minute.</li><li><strong>Induce Weakness.</strong> The first time that the creature makes a saving throw against the spell, it has Disadvantage on it.</li></ul><p><strong>Rare variant:</strong> Reduce the charges to 4 and the DC to 15. The staff regains all expended charges daily at dawn. Remove <em>white water wall</em> from the Spells property's list of spells.</p><p><strong>Legendary variant:</strong> Increase the charges to 10, the recharge to 1d6 + 4, and the DC to 17. You have resistance to Cold damage while holding this staff.</p><p>*See Appendix B of Chaos at the Coral Court.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 2810,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

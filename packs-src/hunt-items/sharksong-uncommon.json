@@ -1,0 +1,37 @@
+{
+  "_id": "gM4wMIOje5YgOJN0",
+  "_key": "!items!gM4wMIOje5YgOJN0",
+  "name": "Sharksong (Uncommon)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Weapon (greatclub), uncommon (optional attunement)</em></p><p><strong>Component:</strong> Phial of Humanoid (shark queen) blood</p><p>\"Sharks are actually great appreciators of music... we think. So far, they've eaten every artist who's performed for them... but that was probably just some biting criticism.\" — Christopher Tacian, maestro at Queen Silverfathom's court</p><p><strong>Selachian Servant.</strong> When you make an attack with this weapon and you don't have Disadvantage on the attack roll, you can choose to impose Disadvantage on it to swing the conch in a complex pattern that produces a unique melody. Regardless of whether the attack hits or misses, the song summons a hunter shark, which appears in an unoccupied space within 5 feet of you, and lasts for 1 minute or until it's reduced to 0 Hit Points. You can choose to summon it underneath you so that you are mounted on it when it appears, as long as you are of an appropriate size. The shark is an ally to you and your companions. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger. Once this property of the weapon has been used, it can't be used again until the next dawn.</p><p><strong>Optional Attunement.</strong> You can choose to attune to this item. If you do, when you summon a shark with the Selachian Servant property, the shark can breathe both air and water, and has a Flying Speed equal to its Swimming Speed. In addition, when the shark disappears, roll a d6. On a 5 or higher, you can use the Selachian Servant property again.</p><p><strong>Rare variant:</strong> The Selachian Servant property summons a giant shark instead of a hunter shark.</p><p><strong>Very rare variant:</strong> The Selachian Servant property summons a giant shark instead of a hunter shark. This weapon deals an extra 1d4 Bludgeoning damage to creatures that don't have all of their Hit Points.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 660,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

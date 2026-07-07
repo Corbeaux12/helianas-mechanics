@@ -1,0 +1,771 @@
+{
+  "_id": "WB4ExRNLIo6jPMIC",
+  "_key": "!journal!WB4ExRNLIo6jPMIC",
+  "name": "Chaos at the Coral Court Recipes",
+  "pages": [
+    {
+      "_id": "XU6LBMWOqT8Bkiw6",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Chaos at the Coral Court (Loot Tavern hunt, v1.1)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Pelagia: Eye (2); Phial of Blood (5); Reefwalker: Phial of Blood (5)</td></tr><tr><td>10</td><td>Pelagia: Bone (5); Pouch of Teeth (1); Reefwalker: Coral Shards (5)</td></tr><tr><td>15</td><td>Pelagia: Heart (1); Liver (1); Pouch of Scales (2); Reefwalker: Heart (1)</td></tr><tr><td>20</td><td>Pelagia: Brain (1); Skin (1)</td></tr><tr><td>25</td><td>Reefwalker: Lifespark (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.P83f4pOi6j1W6wpX]{Fishbone Sceptre (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.lhpPwAmxK30wkpqO]{Fishbone Sceptre (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.OXzXuqYPejsRCB8S]{Fishbone Sceptre (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.EDvKjqitOmGWdhMo]{Mermalian Elixir (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.gKuezCfeYzklrtFn]{Reefplate (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.fOBG4ju30dJyidfl]{Reefplate (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.qQkNreM57AhIYTnq]{Reefplate (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.dC0fVIqRKv07jdtq]{Selachian Staff (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.6iTCedLRBZYE7V9R]{Selachian Staff (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.tffS89WjlNkKpPa7]{Selachian Staff (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.gM4wMIOje5YgOJN0]{Sharksong (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.crAgFzdTAJiAmjQH]{Sharksong (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.r3WoP57EkKPtOdAP]{Sharksong (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.XU6LBMWOqT8Bkiw6"
+    },
+    {
+      "_id": "XV2fuIErmdEh5yvB",
+      "name": "Chaos at the Coral Court (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/Chaos at the Coral Court/Chaos at the Coral Court - PAGES v1.1.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.XV2fuIErmdEh5yvB"
+    },
+    {
+      "_id": "1rRR0fvPU7fR2qKk",
+      "name": "Fishbone Sceptre (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Fishbone Sceptre (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.P83f4pOi6j1W6wpX",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "TjumY7MC9h9zzsMw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "yNzFNhoDBf3J4itC",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cYW1f8CLLOvfAv4Z",
+                "name": "Beast Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beast",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.1rRR0fvPU7fR2qKk"
+    },
+    {
+      "_id": "QaMrz0wWaBCebV3y",
+      "name": "Fishbone Sceptre (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Fishbone Sceptre (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.lhpPwAmxK30wkpqO",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "YdEbKxoVksl9fbdB",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "2SnqdOusVkcG6FEs",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cYW1f8CLLOvfAv4Z",
+                "name": "Beast Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beast",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.QaMrz0wWaBCebV3y"
+    },
+    {
+      "_id": "Z0qLD7un0XXcig1F",
+      "name": "Fishbone Sceptre (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Fishbone Sceptre (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.OXzXuqYPejsRCB8S",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "AtpSqshw3ZTfWYjh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "pczhatM5K96e5ClX",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.cYW1f8CLLOvfAv4Z",
+                "name": "Beast Bone",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "beast",
+                  "bone"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "humanoid",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.Z0qLD7un0XXcig1F"
+    },
+    {
+      "_id": "zx1Z3ugXD0kpRiN4",
+      "name": "Mermalian Elixir (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Mermalian Elixir (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.EDvKjqitOmGWdhMo",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "ehqPgDJgysvE2DVd",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OykBx0Ziiy4S7d63",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.5vG0Jr4gXLm77iQJ",
+                "name": "Volatile Mote of Elemental Water",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "volatile",
+                  "mote",
+                  "elemental",
+                  "water"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.D3al85ivKdcBw21g",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.zx1Z3ugXD0kpRiN4"
+    },
+    {
+      "_id": "j0q5IIYMVlnTpppc",
+      "name": "Reefplate (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Reefplate (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.gKuezCfeYzklrtFn",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "R4LX7t3ySWmnYQT6",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "cUCisVdzAqFZIrQx",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.4fOxqnkDhMi4UB6b",
+                "name": "Reefwalker Coral Shards",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "coral shards",
+                  "reefwalker",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.j0q5IIYMVlnTpppc"
+    },
+    {
+      "_id": "f63pLORCBsIlHZGg",
+      "name": "Reefplate (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Reefplate (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.fOBG4ju30dJyidfl",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "i4TdBu9bBJhK3oG2",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "obwZKaFLJa1n3YV6",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.4fOxqnkDhMi4UB6b",
+                "name": "Reefwalker Coral Shards",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "coral shards",
+                  "reefwalker",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.f63pLORCBsIlHZGg"
+    },
+    {
+      "_id": "LP5w8Gs08YqE9k69",
+      "name": "Reefplate (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Reefplate (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.qQkNreM57AhIYTnq",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Px1kk6LdzPpnJqIK",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "Wg5odEDFch1xnoPV",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.4fOxqnkDhMi4UB6b",
+                "name": "Reefwalker Coral Shards",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "coral shards",
+                  "reefwalker",
+                  "construct"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "humanoid",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.WzbsZ0y90f9rcXpM",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.LP5w8Gs08YqE9k69"
+    },
+    {
+      "_id": "ij5Ya61j7p1HNcQT",
+      "name": "Selachian Staff (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Selachian Staff (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.dC0fVIqRKv07jdtq",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "FFp0wtNBmgI9R3Rw",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "xgANimikW3S64YNM",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IQty2wmvgO8Mkh5u",
+                "name": "Humanoid Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "humanoid",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.ij5Ya61j7p1HNcQT"
+    },
+    {
+      "_id": "gOmL599wRkO0d21d",
+      "name": "Selachian Staff (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Selachian Staff (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.6iTCedLRBZYE7V9R",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "yX4PUAITRl2q5gj0",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "D4psZg5C1QkH5TOV",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IQty2wmvgO8Mkh5u",
+                "name": "Humanoid Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "humanoid",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "humanoid",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.gOmL599wRkO0d21d"
+    },
+    {
+      "_id": "5fcvGptZYVa4W3F3",
+      "name": "Selachian Staff (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Selachian Staff (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.tffS89WjlNkKpPa7",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "8EhUTVqh0nKUjgpt",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "APSz2hIv9Gf494pl",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.IQty2wmvgO8Mkh5u",
+                "name": "Humanoid Heart",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "humanoid",
+                  "heart"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "humanoid",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.hMAiblmPcjkEUXoD",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.5fcvGptZYVa4W3F3"
+    },
+    {
+      "_id": "oC55TdB9ObEO48Zz",
+      "name": "Sharksong (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sharksong (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.gM4wMIOje5YgOJN0",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "QTjHnqQIhLBa6i0F",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7y7id1Tq4fUwRbqr",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.79aJ7ySW6dmb0635",
+                "name": "Phial of Humanoid Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "humanoid",
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "humanoid",
+        "rarity": "uncommon",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.oC55TdB9ObEO48Zz"
+    },
+    {
+      "_id": "nzAvbcz96BJCcGZ6",
+      "name": "Sharksong (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sharksong (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.crAgFzdTAJiAmjQH",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4qrxjtdoigeAYmiC",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "jfcK3z2afXMcURpY",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.79aJ7ySW6dmb0635",
+                "name": "Phial of Humanoid Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "humanoid",
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "humanoid",
+        "rarity": "rare",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.nzAvbcz96BJCcGZ6"
+    },
+    {
+      "_id": "cJ1X3d6GmM1FORFu",
+      "name": "Sharksong (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sharksong (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.r3WoP57EkKPtOdAP",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "hNnnfykegvpII685",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OpdiPVimddiaSL5U",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.79aJ7ySW6dmb0635",
+                "name": "Phial of Humanoid Blood",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "phial",
+                  "humanoid",
+                  "blood"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "humanoid",
+        "rarity": "very rare",
+        "attunement": "optional",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.HK7X1aAesYlpzbdi",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!WB4ExRNLIo6jPMIC.cJ1X3d6GmM1FORFu"
+    }
+  ],
+  "folder": null,
+  "sort": 10500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

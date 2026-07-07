@@ -1,0 +1,37 @@
+{
+  "_id": "EDvKjqitOmGWdhMo",
+  "_key": "!items!EDvKjqitOmGWdhMo",
+  "name": "Mermalian Elixir (Rare)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Potion, rare</em></p><p><strong>Component:</strong> Elemental volatile mote of water</p><p>Experience the wonders of the ocean unburdened by inefficient land-walking appendages. The mermalian elixir: made by mermalians... for non-mermalians.</p><p><strong>Aquatic Form.</strong> For 24 hours after you drink this potion, you can use a Bonus Action to transform into an aquatic form reminiscent of a mermalian, or to revert to your original shape. While in aquatic form, your lower body fuses into a mermaid's tail, granting you a Swimming Speed equal to your Walking Speed. In addition, you grow gills, making you able to breathe water, but not air, and you can speak and understand Aquan.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "",
+    "price": {
+      "value": 1120,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
