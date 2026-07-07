@@ -1,0 +1,72 @@
+{
+  "name": "Timeless Tyrant",
+  "source": "Tomb of the Timeless Tyrant (Loot Tavern hunt, APL 9/14/19)",
+  "creatureType": "undead",
+  "pdf": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/9th, 14th, & 19th/Tomb of the Timeless Tyrant/Tomb of the Timeless Tyrant v0.99.pdf",
+  "harvest": [
+    { "dc": 5,  "components": ["Bone (5); Eye (10); Phial of Congealed Blood (3); Rancid Fat (3)"] },
+    { "dc": 10, "components": ["Marrow (3); Pouch of Teeth (2); Wrappings (5); Undying Flesh (2)"] },
+    { "dc": 20, "components": ["Main Eye (1)"] }
+  ],
+  "components": [
+    { "name": "Tomb Tyrant Wrappings", "tags": ["wrappings", "tomb tyrant", "undead"], "price": 40 },
+    { "name": "Tomb Tyrant Main Eye",  "tags": ["main eye", "tomb tyrant", "undead"],  "price": 110 }
+  ],
+  "items": [
+    {
+      "name": "Hail & Fire",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Tomb Tyrant Wrappings",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 460 },
+        { "rarity": "rare",      "value": 1340 },
+        { "rarity": "very rare", "value": 8880 }
+      ],
+      "description": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) wrappings</p><p>Your average mage would craft a staff that let them rain hail and fire down upon their enemies from the skies. But you, an intellectual, know that this would only rob you of the incomparable satisfaction of doing so with your own two fists.</p><p>These wraps can be worn around your fists, feet, or tail.</p><p><strong>One-Two Combo.</strong> As a Bonus Action while wearing both wraps on separate free appendages, you can imbue them with fire and ice for 1 minute. The effect ends early if you remove them or wield a weapon or Shield in one of the wrapped appendages. For the duration, Unarmed Strikes you make with your wrapped appendages deal an extra 1d6 Cold or Fire damage on a hit (your choice each time).</p><p>In addition, as a Magic action while the wraps are imbued, you can cause bandages to shoot out from the wraps to a Large or smaller creature within 30 feet of you, forcing it to make a DC 13 Strength saving throw. On a failed save, the creature is pulled up to 30 feet directly towards you and is Grappled by you (escape DC 13). The grapple ends early if the wraps are no longer imbued or if you use this action again. Until the grapple ends, you can't make Unarmed Strikes using the wrapped appendages against a different target. A creature Grappled in this way has Disadvantage on ability checks made to escape the grapple and takes 1d6 Fire damage and 1d6 Cold damage at the start of each of its turns.</p><p>Once the wraps have been imbued, they can't be imbued again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the DCs to 15 and all instances of Cold and Fire damage to 1d8. A creature Grappled by the One-Two Combo property is also Restrained while the grapple lasts.</p><p><strong>Very Rare variant:</strong> Increase the DCs to 16 and all instances of Cold and Fire damage to 1d8. A creature Grappled by the One-Two Combo property is also Restrained while the grapple lasts. The One-Two Combo property can be used twice, regaining all expended uses daily at dawn.</p>"
+    },
+    {
+      "name": "Sandblight Sceptres",
+      "itemType": "weapon",
+      "kind": "Rod",
+      "component": "Tomb Tyrant Main Eye",
+      "baseRecipe": "Rod",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "rare",      "value": 2650 },
+        { "rarity": "very rare", "value": 11400 },
+        { "rarity": "legendary", "value": 67810 }
+      ],
+      "description": "<p><em>Rod, very rare (requires attunement by a spellcaster)</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) main eye</p><p>Wielding the mighty powers of the ancient plagues is all fun and games until the prices of meat and grain skyrocket and no one from the farmers' guild is willing to help you for some reason. How rude of them.</p><p>These two rods count as a single magic item with regard to the number of magic items to which you can attune.</p><p><strong>Plague Master.</strong> While holding the sceptres, you can cast one of the following spells from it, using your spell save DC: <em>Acid Rain</em>*, <em>Insect Plague</em>, or <em>Sleet Storm</em>. When you cast a spell from the sceptres, you can choose one creature to be protected from its effect. A protected creature doesn't take damage from the spell, but suffers its other effects as normal. Once the sceptres have been used to cast a spell, they can't be used to cast the same spell again until the next dawn.</p><p><strong>Rare variant:</strong> Remove <em>Insect Plague</em> from the Plague Master property's list of spells.</p><p><strong>Legendary variant:</strong> Add <em>Cloudkill</em> to the Plague Master property's list of spells. The sceptres have the Unending Torment property.</p><p><strong>Unending Torment.</strong> When a spell cast using the sceptres ends, you can take a Reaction to cast another spell using the sceptres.</p><p>*See Appendix B of Tomb of the Timeless Tyrant.</p>"
+    },
+    {
+      "name": "Tyrant's Gaze",
+      "itemType": "consumable",
+      "kind": "Ammunition (bullet)",
+      "component": "Undead Eye",
+      "baseRecipe": "Ammunition",
+      "attunement": "none",
+      "tiers": [
+        { "rarity": "uncommon", "value": 220 },
+        { "rarity": "rare",     "value": 980 }
+      ],
+      "description": "<p><em>Ammunition (bullet), uncommon</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) eye</p><p>\"Patient was admitted with sudden coughing fits, fatigue, nausea, and three phantasmagoric eyes that no one other than the patient is able to see persistently and menacingly hovering over its head. My professional opinion? Lupus.\" — Dr. Abode, Incompetent Physician</p><p><strong>Sudden Onset.</strong> When you hit a creature with an attack using this bullet, the target makes a DC 13 Constitution saving throw. On a failed save, noxious plagues begin to incubate within the target, represented by three ethereal eyes that appear above its head that only you and the target can see. When a creature with eyes above its head within 60 feet of you makes an attack roll or ability check, you can take a Reaction to activate one of the plagues, causing the creature to take 2d6 Poison damage and suffer Disadvantage on the roll. One of the eyes then closes and disappears. After 1 hour, any remaining eyes disappear.</p><p>After dealing its damage to a creature, the bullet becomes nonmagical.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the damage to 4d6.</p>"
+    },
+    {
+      "name": "Wraps of the Royal Dead",
+      "itemType": "equipment",
+      "kind": "Wondrous item",
+      "component": "Tomb Tyrant Wrappings",
+      "baseRecipe": "Wondrous Item",
+      "attunement": "required",
+      "tiers": [
+        { "rarity": "uncommon",  "value": 760 },
+        { "rarity": "rare",      "value": 4500 },
+        { "rarity": "very rare", "value": 14000 }
+      ],
+      "description": "<p><em>Wondrous item, rare (requires attunement)</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) wrappings</p><p>Necromancy has always been a topic of contentious debate. On the one hand, rotting flesh exudes a profoundly unpleasant odour. On the other hand, it's a fantastic home for hundreds of tiny friends!</p><p>These robes have 5 charges and regain 1d4 + 1 expended charges daily at dawn.</p><p><strong>Flesh to Swarm.</strong> When you take damage from a melee weapon attack while wearing these robes, you can take a Reaction to expend 1 charge and release a swarm of scarabs from the wound, which appears in an unoccupied space within 5 feet of you and uses the statistics of a Swarm of Insects.</p><p>The swarm is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger. When you create the swarm, its Hit Point maximum is increased by an amount equal to the triggering damage (maximum of 20). The swarm lasts for 1 hour, until you dismiss it, or until you use this property again.</p><p><strong>Curse.</strong> This item is cursed, and attuning to it extends the curse to you. While cursed in this way, you can't willingly remove the robes. Your skin becomes withered and dry in patches, and you always feel mildly parched, no matter how much you drink.</p><p><strong>Uncommon variant:</strong> Reduce the Temporary Hit Points to half the triggering damage (maximum of 10).</p><p><strong>Very Rare variant:</strong> Increase the charges to 7, the recharge to 1d6 + 1, and the maximum Temporary Hit Points to 30. The robes have the Soul Swarm property.</p><p><strong>Soul Swarm.</strong> Whenever you are targeted by a spell cast by another creature while wearing these robes and have a swarm created by the Flesh to Swarm property within 30 feet of you, you can expend 3 charges to make your swarm the target of the spell instead.</p>"
+    }
+  ]
+}

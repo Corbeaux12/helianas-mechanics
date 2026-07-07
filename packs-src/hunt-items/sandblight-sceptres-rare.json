@@ -1,0 +1,37 @@
+{
+  "_id": "UDTQaVYikVYmE4Dj",
+  "_key": "!items!UDTQaVYikVYmE4Dj",
+  "name": "Sandblight Sceptres (Rare)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Rod, very rare (requires attunement by a spellcaster)</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) main eye</p><p>Wielding the mighty powers of the ancient plagues is all fun and games until the prices of meat and grain skyrocket and no one from the farmers' guild is willing to help you for some reason. How rude of them.</p><p>These two rods count as a single magic item with regard to the number of magic items to which you can attune.</p><p><strong>Plague Master.</strong> While holding the sceptres, you can cast one of the following spells from it, using your spell save DC: <em>Acid Rain</em>*, <em>Insect Plague</em>, or <em>Sleet Storm</em>. When you cast a spell from the sceptres, you can choose one creature to be protected from its effect. A protected creature doesn't take damage from the spell, but suffers its other effects as normal. Once the sceptres have been used to cast a spell, they can't be used to cast the same spell again until the next dawn.</p><p><strong>Rare variant:</strong> Remove <em>Insect Plague</em> from the Plague Master property's list of spells.</p><p><strong>Legendary variant:</strong> Add <em>Cloudkill</em> to the Plague Master property's list of spells. The sceptres have the Unending Torment property.</p><p><strong>Unending Torment.</strong> When a spell cast using the sceptres ends, you can take a Reaction to cast another spell using the sceptres.</p><p>*See Appendix B of Tomb of the Timeless Tyrant.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "attunement": "required",
+    "price": {
+      "value": 2650,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

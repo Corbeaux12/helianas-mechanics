@@ -1,0 +1,37 @@
+{
+  "_id": "Xg4bvm4iJe3f0nlc",
+  "_key": "!items!Xg4bvm4iJe3f0nlc",
+  "name": "Wraps of the Royal Dead (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, rare (requires attunement)</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) wrappings</p><p>Necromancy has always been a topic of contentious debate. On the one hand, rotting flesh exudes a profoundly unpleasant odour. On the other hand, it's a fantastic home for hundreds of tiny friends!</p><p>These robes have 5 charges and regain 1d4 + 1 expended charges daily at dawn.</p><p><strong>Flesh to Swarm.</strong> When you take damage from a melee weapon attack while wearing these robes, you can take a Reaction to expend 1 charge and release a swarm of scarabs from the wound, which appears in an unoccupied space within 5 feet of you and uses the statistics of a Swarm of Insects.</p><p>The swarm is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger. When you create the swarm, its Hit Point maximum is increased by an amount equal to the triggering damage (maximum of 20). The swarm lasts for 1 hour, until you dismiss it, or until you use this property again.</p><p><strong>Curse.</strong> This item is cursed, and attuning to it extends the curse to you. While cursed in this way, you can't willingly remove the robes. Your skin becomes withered and dry in patches, and you always feel mildly parched, no matter how much you drink.</p><p><strong>Uncommon variant:</strong> Reduce the Temporary Hit Points to half the triggering damage (maximum of 10).</p><p><strong>Very Rare variant:</strong> Increase the charges to 7, the recharge to 1d6 + 1, and the maximum Temporary Hit Points to 30. The robes have the Soul Swarm property.</p><p><strong>Soul Swarm.</strong> Whenever you are targeted by a spell cast by another creature while wearing these robes and have a swarm created by the Flesh to Swarm property within 30 feet of you, you can expend 3 charges to make your swarm the target of the spell instead.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "required",
+    "price": {
+      "value": 14000,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

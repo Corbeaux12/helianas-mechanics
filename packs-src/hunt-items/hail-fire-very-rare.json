@@ -1,0 +1,37 @@
+{
+  "_id": "czEP7vSL0tqMnF4j",
+  "_key": "!items!czEP7vSL0tqMnF4j",
+  "name": "Hail & Fire (Very Rare)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item, uncommon</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) wrappings</p><p>Your average mage would craft a staff that let them rain hail and fire down upon their enemies from the skies. But you, an intellectual, know that this would only rob you of the incomparable satisfaction of doing so with your own two fists.</p><p>These wraps can be worn around your fists, feet, or tail.</p><p><strong>One-Two Combo.</strong> As a Bonus Action while wearing both wraps on separate free appendages, you can imbue them with fire and ice for 1 minute. The effect ends early if you remove them or wield a weapon or Shield in one of the wrapped appendages. For the duration, Unarmed Strikes you make with your wrapped appendages deal an extra 1d6 Cold or Fire damage on a hit (your choice each time).</p><p>In addition, as a Magic action while the wraps are imbued, you can cause bandages to shoot out from the wraps to a Large or smaller creature within 30 feet of you, forcing it to make a DC 13 Strength saving throw. On a failed save, the creature is pulled up to 30 feet directly towards you and is Grappled by you (escape DC 13). The grapple ends early if the wraps are no longer imbued or if you use this action again. Until the grapple ends, you can't make Unarmed Strikes using the wrapped appendages against a different target. A creature Grappled in this way has Disadvantage on ability checks made to escape the grapple and takes 1d6 Fire damage and 1d6 Cold damage at the start of each of its turns.</p><p>Once the wraps have been imbued, they can't be imbued again until the next dawn.</p><p><strong>Rare variant:</strong> Increase the DCs to 15 and all instances of Cold and Fire damage to 1d8. A creature Grappled by the One-Two Combo property is also Restrained while the grapple lasts.</p><p><strong>Very Rare variant:</strong> Increase the DCs to 16 and all instances of Cold and Fire damage to 1d8. A creature Grappled by the One-Two Combo property is also Restrained while the grapple lasts. The One-Two Combo property can be used twice, regaining all expended uses daily at dawn.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "veryRare",
+    "attunement": "",
+    "price": {
+      "value": 8880,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

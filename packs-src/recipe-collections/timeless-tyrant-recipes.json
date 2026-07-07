@@ -1,0 +1,662 @@
+{
+  "_id": "TZyJ3q29ZXDxDF9v",
+  "_key": "!journal!TZyJ3q29ZXDxDF9v",
+  "name": "Timeless Tyrant Recipes",
+  "pages": [
+    {
+      "_id": "ujyVzBl3dGMIgzuW",
+      "name": "Craftable Items",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Tomb of the Timeless Tyrant (Loot Tavern hunt, APL 9/14/19)</em></p><h2>Harvest Table</h2><table><thead><tr><th>DC</th><th>Components</th></tr></thead><tbody><tr><td>5</td><td>Bone (5); Eye (10); Phial of Congealed Blood (3); Rancid Fat (3)</td></tr><tr><td>10</td><td>Marrow (3); Pouch of Teeth (2); Wrappings (5); Undying Flesh (2)</td></tr><tr><td>20</td><td>Main Eye (1)</td></tr></tbody></table><h2>Craftable Items</h2><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.P867XjmeSKlo5XRQ]{Hail & Fire (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.VghIpo471NVEyWO6]{Hail & Fire (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.czEP7vSL0tqMnF4j]{Hail & Fire (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.UDTQaVYikVYmE4Dj]{Sandblight Sceptres (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.H4746f28KQNs3uzT]{Sandblight Sceptres (Very Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.xsLH2CcrqNsEN5jD]{Sandblight Sceptres (Legendary)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.mxKlyNv70sC1JNfv]{Tyrant's Gaze (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.XfRskzzkCQB7tmJP]{Tyrant's Gaze (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.702aNADCCVaWhveM]{Wraps of the Royal Dead (Uncommon)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.W8Iag20gkLZQGjSG]{Wraps of the Royal Dead (Rare)}</p><p>@UUID[Compendium.helianas-mechanics.hunt-items.Item.Xg4bvm4iJe3f0nlc]{Wraps of the Royal Dead (Very Rare)}</p>"
+      },
+      "sort": 10,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.ujyVzBl3dGMIgzuW"
+    },
+    {
+      "_id": "6UldUNeVu1ikAg25",
+      "name": "Timeless Tyrant (PDF)",
+      "type": "pdf",
+      "src": "DndAssets/DNDe5/DMContent/Adventures/Hunts/Multi-level/9th, 14th, & 19th/Tomb of the Timeless Tyrant/Tomb of the Timeless Tyrant v0.99.pdf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 20,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.6UldUNeVu1ikAg25"
+    },
+    {
+      "_id": "xaeUpyb30HyQRfEt",
+      "name": "Hail & Fire (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hail & Fire (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.P867XjmeSKlo5XRQ",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "joAw6JkRv4IFBySo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OQeDurN9xAci2LNt",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9PkLGuFRigMg9V8q",
+                "name": "Tomb Tyrant Wrappings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wrappings",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.xaeUpyb30HyQRfEt"
+    },
+    {
+      "_id": "SFBSRTwRlr4PgCmK",
+      "name": "Hail & Fire (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hail & Fire (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.VghIpo471NVEyWO6",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "vYuEispVARE7PRPZ",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "GcUc9PKQD2Z3pBJK",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9PkLGuFRigMg9V8q",
+                "name": "Tomb Tyrant Wrappings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wrappings",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 300,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.SFBSRTwRlr4PgCmK"
+    },
+    {
+      "_id": "Ea7Q9Pw8ha65Qe4p",
+      "name": "Hail & Fire (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Hail & Fire (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.czEP7vSL0tqMnF4j",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "o0LVQxTuBZQ2FBbh",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "DldZ6Jcsq5WY0F6S",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9PkLGuFRigMg9V8q",
+                "name": "Tomb Tyrant Wrappings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wrappings",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 400,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.Ea7Q9Pw8ha65Qe4p"
+    },
+    {
+      "_id": "zE0w9qU1V3wOhp2M",
+      "name": "Sandblight Sceptres (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sandblight Sceptres (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.UDTQaVYikVYmE4Dj",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "4lEp1xPNXw96AEvo",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "mAL42YDiBLKP4J04",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.kZmqOAtCV88roK9u",
+                "name": "Tomb Tyrant Main Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "main eye",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 500,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.zE0w9qU1V3wOhp2M"
+    },
+    {
+      "_id": "FCkB4ewzEFv8wxnf",
+      "name": "Sandblight Sceptres (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sandblight Sceptres (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.H4746f28KQNs3uzT",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "cQjqF6niJb9Va2j1",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "7zw4maitTx7rVRUr",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.kZmqOAtCV88roK9u",
+                "name": "Tomb Tyrant Main Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "main eye",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 600,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.FCkB4ewzEFv8wxnf"
+    },
+    {
+      "_id": "vO8FstCMdl70M0ui",
+      "name": "Sandblight Sceptres (Legendary)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Sandblight Sceptres (Legendary)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.xsLH2CcrqNsEN5jD",
+        "resultQuantity": 1,
+        "dc": 25,
+        "timeHours": 640,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "woUqP2App7AkBjXn",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "j2K2gBaUmfn0eE7N",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.kZmqOAtCV88roK9u",
+                "name": "Tomb Tyrant Main Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "main eye",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "mythic",
+        "componentCreatureType": "undead",
+        "rarity": "legendary",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.0bp87EadOLnfu79L",
+        "enchantingDc": 25,
+        "enchantingTimeHours": 640
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 700,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.vO8FstCMdl70M0ui"
+    },
+    {
+      "_id": "m1zVzEGZT2H6GlZn",
+      "name": "Tyrant's Gaze (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tyrant's Gaze (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.mxKlyNv70sC1JNfv",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "3qbphdK45xM0RQbD",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "OS4vExh3DehQKv4w",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.8RVwd96ncBeqkOZF",
+                "name": "Undead Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undead",
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.EP1H0eT029WC1GDz",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 800,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.m1zVzEGZT2H6GlZn"
+    },
+    {
+      "_id": "JwJczM8wjG2ATSxi",
+      "name": "Tyrant's Gaze (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Tyrant's Gaze (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.XfRskzzkCQB7tmJP",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "h3soXL7bO3nmnNct",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "gCk8maI8yvP5n5T7",
+                "uuid": "Compendium.helianas-harvesting.dnd5e-components.Item.8RVwd96ncBeqkOZF",
+                "name": "Undead Eye",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "undead",
+                  "eye"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "none",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.EP1H0eT029WC1GDz",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 900,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.JwJczM8wjG2ATSxi"
+    },
+    {
+      "_id": "a49cv2PKfd9KHbcT",
+      "name": "Wraps of the Royal Dead (Uncommon)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Wraps of the Royal Dead (Uncommon)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.702aNADCCVaWhveM",
+        "resultQuantity": 1,
+        "dc": 15,
+        "timeHours": 10,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "9vbG0JDjQCL5Hu11",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "SJ8JCkTX9tBRnTQ4",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9PkLGuFRigMg9V8q",
+                "name": "Tomb Tyrant Wrappings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wrappings",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "frail",
+        "componentCreatureType": "undead",
+        "rarity": "uncommon",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 15,
+        "enchantingTimeHours": 10
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.a49cv2PKfd9KHbcT"
+    },
+    {
+      "_id": "SuYmcH2nwVWKi9RR",
+      "name": "Wraps of the Royal Dead (Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Wraps of the Royal Dead (Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.W8Iag20gkLZQGjSG",
+        "resultQuantity": 1,
+        "dc": 18,
+        "timeHours": 40,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "JCAuh1TGTrBASv87",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "A7swK2OsBK5zprxj",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9PkLGuFRigMg9V8q",
+                "name": "Tomb Tyrant Wrappings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wrappings",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "robust",
+        "componentCreatureType": "undead",
+        "rarity": "rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 18,
+        "enchantingTimeHours": 40
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1100,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.SuYmcH2nwVWKi9RR"
+    },
+    {
+      "_id": "BheEjm25XUSrSaqn",
+      "name": "Wraps of the Royal Dead (Very Rare)",
+      "type": "helianas-mechanics.recipe",
+      "system": {
+        "recipeType": "forge",
+        "resultName": "Wraps of the Royal Dead (Very Rare)",
+        "resultImg": "",
+        "resultUuid": "Compendium.helianas-mechanics.hunt-items.Item.Xg4bvm4iJe3f0nlc",
+        "resultQuantity": 1,
+        "dc": 21,
+        "timeHours": 160,
+        "toolKey": "",
+        "toolAbility": "",
+        "ingredients": [
+          {
+            "id": "Osd5WL1NXcWoqpq3",
+            "name": "Monster Component",
+            "components": [
+              {
+                "id": "gh3zUCbHP9kZQ8QT",
+                "uuid": "Compendium.helianas-mechanics.hunt-items.Item.9PkLGuFRigMg9V8q",
+                "name": "Tomb Tyrant Wrappings",
+                "nameMode": "exact",
+                "img": "",
+                "quantity": 1,
+                "tags": [
+                  "wrappings",
+                  "tomb tyrant",
+                  "undead"
+                ],
+                "mode": "some",
+                "resourcePath": ""
+              }
+            ]
+          }
+        ],
+        "essenceTierRequired": "potent",
+        "componentCreatureType": "undead",
+        "rarity": "very rare",
+        "attunement": "required",
+        "baseItemRecipeUuid": "Compendium.helianas-mechanics.manufacturing-recipes.JournalEntry.W1EWHyk9IlLYQwEx.JournalEntryPage.UFaNSpsjvKULF5Il",
+        "enchantingDc": 21,
+        "enchantingTimeHours": 160
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "sort": 1200,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!TZyJ3q29ZXDxDF9v.BheEjm25XUSrSaqn"
+    }
+  ],
+  "folder": null,
+  "sort": 12300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

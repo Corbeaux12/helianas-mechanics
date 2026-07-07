@@ -1,0 +1,37 @@
+{
+  "_id": "mxKlyNv70sC1JNfv",
+  "_key": "!items!mxKlyNv70sC1JNfv",
+  "name": "Tyrant's Gaze (Uncommon)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Ammunition (bullet), uncommon</em></p><p><strong>Component:</strong> Undead (Tomb Tyrant) eye</p><p>\"Patient was admitted with sudden coughing fits, fatigue, nausea, and three phantasmagoric eyes that no one other than the patient is able to see persistently and menacingly hovering over its head. My professional opinion? Lupus.\" — Dr. Abode, Incompetent Physician</p><p><strong>Sudden Onset.</strong> When you hit a creature with an attack using this bullet, the target makes a DC 13 Constitution saving throw. On a failed save, noxious plagues begin to incubate within the target, represented by three ethereal eyes that appear above its head that only you and the target can see. When a creature with eyes above its head within 60 feet of you makes an attack roll or ability check, you can take a Reaction to activate one of the plagues, causing the creature to take 2d6 Poison damage and suffer Disadvantage on the roll. One of the eyes then closes and disappears. After 1 hour, any remaining eyes disappear.</p><p>After dealing its damage to a creature, the bullet becomes nonmagical.</p><p><strong>Rare variant:</strong> Increase the DC to 15 and the damage to 4d6.</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "attunement": "",
+    "price": {
+      "value": 220,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

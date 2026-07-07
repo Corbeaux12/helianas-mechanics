@@ -1,0 +1,45 @@
+{
+  "_id": "9PkLGuFRigMg9V8q",
+  "_key": "!items!9PkLGuFRigMg9V8q",
+  "name": "Tomb Tyrant Wrappings",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Harvested from a timeless tyrant (undead). See Tomb of the Timeless Tyrant (Loot Tavern hunt, APL 9/14/19).</p>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "rarity": "",
+    "attunement": "",
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "properties": [],
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "tags": [
+        "wrappings",
+        "tomb tyrant",
+        "undead"
+      ]
+    }
+  }
+}

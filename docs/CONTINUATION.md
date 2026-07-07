@@ -7,7 +7,7 @@ Handoff notes for continuing the content-import work in a fresh session (written
 - **Module version:** 1.12.0 deployed. Everything through commit `58583de` is live on the server.
 - **Hunt Bestiary: COMPLETE.** All 45 Field Notes PDFs → 57 actors in `tools/data/actors/*.json`. Don't touch unless fixing bugs.
 - **Hunt Library: COMPLETE.** All 27 hunt PDFs as image-page journals (`assets/hunts/`, manifest `tools/data/hunt-library.json`).
-- **Hunt items: 23 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Synaptic Shiver (The Synaptick Shiver, Storm Dragonray) — 3 items, 11 recipe pages, all verified linked. Clean hunt, table and description components matched on all three items (a nice change of pace). Pouch of Dragon Scales generic; Dragonray Psitick and Dragonray Barbed Tail hunt-specific. Note: this hunt's `.craft.txt` carve in the scratchpad was mis-bounded (missing the harvest table and summary table) — had to grep the full `.txt` for "Harvest Table"/"Dragonray" to find the real crafting section around line 1316. If another hunt's `.craft.txt` looks truncated or starts mid-sentence, check the full `.txt` the same way before assuming data is missing.
+- **Hunt items: 24 of 27 hunts imported** (`tools/data/hunts/*.json`). Latest: Timeless Tyrant (Tomb of the Timeless Tyrant, Tomb Tyrant) — 4 items, 13 recipe pages, all verified linked. New conflict variant: the Harvest Table has both a common "Eye" (DC 5) and a separate rare "Main Eye" (DC 20, the adventure's hook item) — Sandblight Sceptres' table row says "Eye" but its own description says "Main Eye"; trusted the description since it's the hunt's top-rarity item and thematically fits the unique component. Also: this hunt's `.craft.txt` carve was mis-bounded again (missing harvest table) — same fix as Synaptic Shiver, grep the full `.txt` for "Harvest"/creature name. This is now the second hunt in a row with this issue — check the full `.txt` proactively on the next hunt too before assuming the `.craft.txt` is complete.
 - **No batch currently in flight.** Nothing pending write — pick the next hunt fresh per the workflow below.
 
 ## Recurring gotcha: crafting-table vs. item-description component conflicts
@@ -16,7 +16,7 @@ At least three hunts so far (Queen of Shadow and Thorn, Spectres of Midwinter, T
 
 ## The per-batch workflow (repeat until done)
 
-1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: Timeless Tyrant, End Times. **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
+1. Pick next `*.craft.txt` from the scratchpad (see below) — work APL-ascending. Remaining: End Times (last multi-level hunt!). **Cold Blood on the Scorching Sand + Chaos at the Coral Court need manual carving** (different layout — carve from the full `.txt` next to the `.craft.txt`).
 2. Transcribe to `tools/data/hunts/<slug>.json` following the schema of `tools/data/hunts/bloodhound.json` (fields: name, source, creatureType, pdf, harvest[], components[], items[]; item fields: name, itemType, kind, component **or** components[], baseRecipe, attunement none/required/optional, tiers[{rarity,value}], description as HTML with `<em>/<strong>/<ul>` formatting).
 3. `npm run build:packs` then `npx vitest run` (152 tests must pass).
 4. **Verify links** — every recipe page must have linked components and result:
