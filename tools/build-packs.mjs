@@ -1161,6 +1161,70 @@ function buildFieldNotesLibrary() {
   });
 }
 
+// ---------------------------------------------------------------- lair scenes
+//
+// Battle-map Scenes for hunt bosses / bestiary actors with a lair, matched
+// purely by name against the DndAssets Maps/Scene Images libraries (see
+// docs/lair-scenes-plan.md). "hunt-map-pack" entries are the creature's own
+// official map pack (every variant); "preview-map" is a single watermarked
+// preview JPG when no full pack exists; "thematic-match" is a same-vibe
+// generic pack substituted when no official map exists at all — not the
+// creature's own art. The webp files live in assets/scenes/<slug>/, written
+// by a one-off converter script in the session scratchpad (not committed;
+// re-derive from this function's asset-path convention if needed again).
+// tools/data/scene-library.json is the manifest.
+
+function buildScenes() {
+  let manifest = [];
+  try { manifest = JSON.parse(readFileSync(path.join(ROOT, "tools", "data", "scene-library.json"), "utf8")); } catch { return []; }
+
+  const docs = [];
+  manifest.forEach((entry, ei) => {
+    entry.images.forEach((img, ii) => {
+      const _id = did(`scene:${entry.slug}:${img.file}`);
+      const variantSuffix = entry.images.length > 1 ? ` — ${img.label}` : "";
+      const name = `${entry.creature}${variantSuffix}`;
+      docs.push({
+        _id, _key: `!scenes!${_id}`,
+        name,
+        active: false,
+        navigation: false, navOrder: 0, navName: "",
+        background: {
+          src: `modules/${MODULE_ID}/assets/scenes/${entry.slug}/${img.file}`,
+          offsetX: 0, offsetY: 0, rotation: 0, scaleX: 1, scaleY: 1, tint: "#ffffff",
+        },
+        foreground: null, foregroundElevation: 20,
+        thumb: null,
+        width: img.width, height: img.height,
+        padding: 0.1,
+        initial: null,
+        backgroundColor: "#999999",
+        grid: { type: 1, size: 100, style: "solidLines", thickness: 1, color: "#000000", alpha: 0.2, distance: 5, units: "ft" },
+        tokenVision: true,
+        fog: { exploration: true, reset: null, overlay: null, colors: {} },
+        environment: {
+          darknessLevel: 0, darknessLock: false,
+          globalLight: { enabled: false, alpha: 0.5, bright: false, color: null, coloration: 1, luminosity: 0, saturation: 0, contrast: 0, shadows: 0, darkness: { min: 0, max: 1 } },
+          cycle: true, base: { hue: 0, intensity: 0, luminosity: 0, saturation: 0, shadows: 0 }, dark: { hue: 0, intensity: 0, luminosity: 0, saturation: 0, shadows: 0 },
+        },
+        drawings: [], tokens: [], lights: [], notes: [], sounds: [], regions: [], templates: [], tiles: [], walls: [],
+        playlist: null, playlistSound: null, journal: null, journalEntryPage: null,
+        weather: "",
+        folder: null, sort: (ei + 1) * 1000 + (ii + 1) * 10,
+        ownership: { default: 0 },
+        flags: {
+          [MODULE_ID]: {
+            lairCreature: entry.creature, lairHunt: entry.hunt,
+            sourceType: entry.sourceType, matchedPack: entry.matchedPack ?? null,
+            gridSquares: entry.gridSquares ?? null,
+          },
+        },
+      });
+    });
+  });
+  return docs;
+}
+
 // ------------------------------------------------------------- hunt library
 //
 // Full hunt adventures as journals of compressed page images. The webp pages
@@ -1226,5 +1290,6 @@ await writeSourcesAndCompile("hunt-items", huntPacks.itemDocs);
 await writeSourcesAndCompile("hunt-bestiary", buildBestiary());
 await writeSourcesAndCompile("hunt-library", buildHuntLibrary());
 await writeSourcesAndCompile("field-notes-library", buildFieldNotesLibrary());
+await writeSourcesAndCompile("lair-scenes", buildScenes());
 
 console.log("Done.");

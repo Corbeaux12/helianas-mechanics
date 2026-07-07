@@ -1,0 +1,108 @@
+{
+  "_id": "SKyR97nZa0ZI0lV5",
+  "_key": "!scenes!SKyR97nZa0ZI0lV5",
+  "name": "Paradox Dragon — Gl Chronochaosruins Timemachinepowereddown",
+  "active": false,
+  "navigation": false,
+  "navOrder": 0,
+  "navName": "",
+  "background": {
+    "src": "modules/helianas-mechanics/assets/scenes/end-times/gl-chronochaosruins-timemachinepowereddown.webp",
+    "offsetX": 0,
+    "offsetY": 0,
+    "rotation": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "tint": "#ffffff"
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 3000,
+  "height": 6000,
+  "padding": 0.1,
+  "initial": null,
+  "backgroundColor": "#999999",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "reset": null,
+    "overlay": null,
+    "colors": {}
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": false,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "folder": null,
+  "sort": 7200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "lairCreature": "Paradox Dragon",
+      "lairHunt": "End Times",
+      "sourceType": "hunt-map-pack",
+      "matchedPack": null,
+      "gridSquares": [
+        28,
+        56
+      ]
+    }
+  }
+}

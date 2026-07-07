@@ -1,0 +1,105 @@
+{
+  "_id": "TTxe6TIWkD0d4p5i",
+  "_key": "!scenes!TTxe6TIWkD0d4p5i",
+  "name": "Laceleaf Mantid — Hbh Map Festersap Glade Cp Exp Nowm",
+  "active": false,
+  "navigation": false,
+  "navOrder": 0,
+  "navName": "",
+  "background": {
+    "src": "modules/helianas-mechanics/assets/scenes/leaf-or-death/hbh-map-festersap-glade-cp-exp-nowm.webp",
+    "offsetX": 0,
+    "offsetY": 0,
+    "rotation": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "tint": "#ffffff"
+  },
+  "foreground": null,
+  "foregroundElevation": 20,
+  "thumb": null,
+  "width": 6000,
+  "height": 5111,
+  "padding": 0.1,
+  "initial": null,
+  "backgroundColor": "#999999",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true,
+    "reset": null,
+    "overlay": null,
+    "colors": {}
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": false,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "folder": null,
+  "sort": 13010,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "helianas-mechanics": {
+      "lairCreature": "Laceleaf Mantid",
+      "lairHunt": "Leaf Or Death",
+      "sourceType": "hunt-map-pack",
+      "matchedPack": null,
+      "gridSquares": null
+    }
+  }
+}

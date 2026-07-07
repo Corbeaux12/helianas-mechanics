@@ -1,15 +1,15 @@
-2026/07/07-10:44:36.673 112fc Recovering log #188
-2026/07/07-10:44:36.679 112fc Delete type=0 #188
-2026/07/07-10:44:36.679 112fc Delete type=3 #186
-2026/07/07-10:44:36.840 12620 Level-0 table #194: started
-2026/07/07-10:44:36.847 12620 Level-0 table #194: 480436 bytes OK
-2026/07/07-10:44:36.847 12620 Delete type=0 #192
-2026/07/07-10:44:36.848 12620 Manual compaction at level-0 from '!items!00QCUVYSNjDyCwwO' @ 72057594037927935 : 1 .. '!items!zmMp9jnufiZECdzV' @ 0 : 0; will stop at (end)
-2026/07/07-10:44:36.848 12620 Manual compaction at level-1 from '!items!00QCUVYSNjDyCwwO' @ 72057594037927935 : 1 .. '!items!zmMp9jnufiZECdzV' @ 0 : 0; will stop at '!items!zmMp9jnufiZECdzV' @ 7654 : 1
-2026/07/07-10:44:36.848 12620 Compacting 1@1 + 1@2 files
-2026/07/07-10:44:36.857 12620 Generated table #195@1: 435 keys, 480436 bytes
-2026/07/07-10:44:36.857 12620 Compacted 1@1 + 1@2 files => 480436 bytes
-2026/07/07-10:44:36.858 12620 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/07/07-10:44:36.858 12620 Delete type=2 #190
-2026/07/07-10:44:36.858 12620 Delete type=2 #194
-2026/07/07-10:44:36.858 12620 Manual compaction at level-1 from '!items!zmMp9jnufiZECdzV' @ 7654 : 1 .. '!items!zmMp9jnufiZECdzV' @ 0 : 0; will stop at (end)
+2026/07/07-15:45:47.794 f600 Recovering log #203
+2026/07/07-15:45:47.798 f600 Delete type=0 #203
+2026/07/07-15:45:47.798 f600 Delete type=3 #201
+2026/07/07-15:45:47.962 13b98 Level-0 table #209: started
+2026/07/07-15:45:47.969 13b98 Level-0 table #209: 480433 bytes OK
+2026/07/07-15:45:47.969 13b98 Delete type=0 #207
+2026/07/07-15:45:47.970 13b98 Manual compaction at level-0 from '!items!00QCUVYSNjDyCwwO' @ 72057594037927935 : 1 .. '!items!zmMp9jnufiZECdzV' @ 0 : 0; will stop at (end)
+2026/07/07-15:45:47.970 13b98 Manual compaction at level-1 from '!items!00QCUVYSNjDyCwwO' @ 72057594037927935 : 1 .. '!items!zmMp9jnufiZECdzV' @ 0 : 0; will stop at '!items!zmMp9jnufiZECdzV' @ 8959 : 1
+2026/07/07-15:45:47.970 13b98 Compacting 1@1 + 1@2 files
+2026/07/07-15:45:47.978 13b98 Generated table #210@1: 435 keys, 480433 bytes
+2026/07/07-15:45:47.978 13b98 Compacted 1@1 + 1@2 files => 480433 bytes
+2026/07/07-15:45:47.979 13b98 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/07-15:45:47.979 13b98 Delete type=2 #205
+2026/07/07-15:45:47.980 13b98 Delete type=2 #209
+2026/07/07-15:45:47.980 13b98 Manual compaction at level-1 from '!items!zmMp9jnufiZECdzV' @ 8959 : 1 .. '!items!zmMp9jnufiZECdzV' @ 0 : 0; will stop at (end)

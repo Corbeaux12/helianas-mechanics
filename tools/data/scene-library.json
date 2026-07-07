@@ -1,0 +1,769 @@
+[
+  {
+    "slug": "bladeborne-mantiroar",
+    "creature": "Bladeborne Mantiroar",
+    "hunt": "Field Notes X-28 (lair)",
+    "sourceType": "thematic-match",
+    "matchedPack": "Ancient Battlefield",
+    "gridSquares": [
+      25,
+      45
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 3333,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "bloodfrost-of-the-fey",
+    "creature": "Jorfraust",
+    "hunt": "Bloodfrost of the Fey",
+    "sourceType": "thematic-match",
+    "matchedPack": "Melting Glacier",
+    "gridSquares": [
+      21,
+      27
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 2940,
+        "height": 3780
+      }
+    ]
+  },
+  {
+    "slug": "bones-n-roses",
+    "creature": "Amalgamooze",
+    "hunt": "Bones N' Roses",
+    "sourceType": "thematic-match",
+    "matchedPack": "Dragon's Hoard",
+    "gridSquares": [
+      29,
+      59
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 2949,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "cold-blood",
+    "creature": "Kaftar Matriarch (Oumdabaa)",
+    "hunt": "Cold Blood on the Scorching Sand",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "kaftar-map-the-last-laugh-extended.webp",
+        "label": "Kaftar Map The Last Laugh Extended",
+        "width": 6000,
+        "height": 5887
+      },
+      {
+        "file": "kaftar-map-the-last-laugh-gridded.webp",
+        "label": "Kaftar Map The Last Laugh Gridded",
+        "width": 3692,
+        "height": 6000
+      },
+      {
+        "file": "kaftar-map-the-last-laugh-gridless.webp",
+        "label": "Kaftar Map The Last Laugh Gridless",
+        "width": 3692,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "den-of-the-deceiver",
+    "creature": "Shaitan",
+    "hunt": "Den of the Deceiver",
+    "sourceType": "preview-map",
+    "images": [
+      {
+        "file": "map-the-almansion-gl-wm.webp",
+        "label": "Map The Almansion Gl Wm",
+        "width": 4304,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "draconimbus",
+    "creature": "Draconimbus",
+    "hunt": "Field Notes X-35 (lair)",
+    "sourceType": "thematic-match",
+    "matchedPack": "Black Dragon Lair",
+    "gridSquares": [
+      41,
+      45
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 5467,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "end-times",
+    "creature": "Paradox Dragon",
+    "hunt": "End Times",
+    "sourceType": "hunt-map-pack",
+    "gridSquares": [
+      28,
+      56
+    ],
+    "images": [
+      {
+        "file": "gl-chronochaosruins-destruction-day.webp",
+        "label": "Gl Chronochaosruins Destruction Day",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-destruction-night.webp",
+        "label": "Gl Chronochaosruins Destruction Night",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-drained.webp",
+        "label": "Gl Chronochaosruins Drained",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-emerald.webp",
+        "label": "Gl Chronochaosruins Emerald",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-galaxypool.webp",
+        "label": "Gl Chronochaosruins Galaxypool",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-garnet.webp",
+        "label": "Gl Chronochaosruins Garnet",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-nebula.webp",
+        "label": "Gl Chronochaosruins Nebula",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-nexus.webp",
+        "label": "Gl Chronochaosruins Nexus",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-original-day.webp",
+        "label": "Gl Chronochaosruins Original Day",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-original-night.webp",
+        "label": "Gl Chronochaosruins Original Night",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-outbreak.webp",
+        "label": "Gl Chronochaosruins Outbreak",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-portal.webp",
+        "label": "Gl Chronochaosruins Portal",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-rain.webp",
+        "label": "Gl Chronochaosruins Rain",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-sandsoftime-day.webp",
+        "label": "Gl Chronochaosruins Sandsoftime Day",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-sandsoftime-night.webp",
+        "label": "Gl Chronochaosruins Sandsoftime Night",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-sunkencity.webp",
+        "label": "Gl Chronochaosruins Sunkencity",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-timebreak.webp",
+        "label": "Gl Chronochaosruins Timebreak",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-timedeath.webp",
+        "label": "Gl Chronochaosruins Timedeath",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-timemachineactivated.webp",
+        "label": "Gl Chronochaosruins Timemachineactivated",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-timemachinepowereddown.webp",
+        "label": "Gl Chronochaosruins Timemachinepowereddown",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-timestop.webp",
+        "label": "Gl Chronochaosruins Timestop",
+        "width": 3000,
+        "height": 6000
+      },
+      {
+        "file": "gl-chronochaosruins-topaz.webp",
+        "label": "Gl Chronochaosruins Topaz",
+        "width": 3000,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "flames-of-the-faithful",
+    "creature": "Pontiff",
+    "hunt": "Flames of the Faithful",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "flames-of-the-faithful-map-grand-cathedral-lower-floor-extended.webp",
+        "label": "Flames Of The Faithful Map Grand Cathedral Lower Floor Extended",
+        "width": 6000,
+        "height": 4966
+      },
+      {
+        "file": "flames-of-the-faithful-map-grand-cathedral-lower-floor-gridded.webp",
+        "label": "Flames Of The Faithful Map Grand Cathedral Lower Floor Gridded",
+        "width": 4625,
+        "height": 6000
+      },
+      {
+        "file": "flames-of-the-faithful-map-grand-cathedral-lower-floor-gridless.webp",
+        "label": "Flames Of The Faithful Map Grand Cathedral Lower Floor Gridless",
+        "width": 4625,
+        "height": 6000
+      },
+      {
+        "file": "flames-of-the-faithful-map-grand-cathedral-upper-floor-extended.webp",
+        "label": "Flames Of The Faithful Map Grand Cathedral Upper Floor Extended",
+        "width": 6000,
+        "height": 4966
+      },
+      {
+        "file": "flames-of-the-faithful-map-grand-cathedral-upper-floor-gridded.webp",
+        "label": "Flames Of The Faithful Map Grand Cathedral Upper Floor Gridded",
+        "width": 4625,
+        "height": 6000
+      },
+      {
+        "file": "flames-of-the-faithful-map-grand-cathedral-upper-floor-gridless.webp",
+        "label": "Flames Of The Faithful Map Grand Cathedral Upper Floor Gridless",
+        "width": 4625,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "forge-of-the-divine-machine",
+    "creature": "Unit M3T4L and Creo",
+    "hunt": "Forge of the Divine Machine",
+    "sourceType": "thematic-match",
+    "matchedPack": "Steampunk Warforged Factory",
+    "gridSquares": [
+      33,
+      41
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 4620,
+        "height": 5740
+      }
+    ]
+  },
+  {
+    "slug": "garden-of-dark-delights",
+    "creature": "Adelifae & Scarab",
+    "hunt": "Garden of Dark Delights",
+    "sourceType": "thematic-match",
+    "matchedPack": "Fey Vineyard",
+    "gridSquares": [
+      33,
+      46
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 4304,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "growlbear-the-grand",
+    "creature": "Growlbear the Grand & Swallybog",
+    "hunt": "Field Notes X-43 (lair)",
+    "sourceType": "thematic-match",
+    "matchedPack": "Bullywug Swamp",
+    "gridSquares": [
+      51,
+      45
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 5294,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "just-desserts",
+    "creature": "Ice Queen",
+    "hunt": "Just Desserts",
+    "sourceType": "thematic-match",
+    "matchedPack": "Candy Castle",
+    "gridSquares": [
+      33,
+      48
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 4125,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "leaf-or-death",
+    "creature": "Laceleaf Mantid",
+    "hunt": "Leaf Or Death",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "hbh-map-festersap-glade-cp-exp-nowm.webp",
+        "label": "Hbh Map Festersap Glade Cp Exp Nowm",
+        "width": 6000,
+        "height": 5111
+      },
+      {
+        "file": "hbh-map-festersap-glade-cp-g-nowm.webp",
+        "label": "Hbh Map Festersap Glade Cp G Nowm",
+        "width": 4304,
+        "height": 6000
+      },
+      {
+        "file": "hbh-map-festersap-glade-cp-gl-nowm.webp",
+        "label": "Hbh Map Festersap Glade Cp Gl Nowm",
+        "width": 4304,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "lure-of-the-shadowstalker",
+    "creature": "Anglir",
+    "hunt": "Lure of the Shadowstalker",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "anglir-map-excavation-site-expanded.webp",
+        "label": "Anglir Map Excavation Site Expanded",
+        "width": 6000,
+        "height": 4225
+      },
+      {
+        "file": "anglir-map-excavation-site-gridded.webp",
+        "label": "Anglir Map Excavation Site Gridded",
+        "width": 6000,
+        "height": 6000
+      },
+      {
+        "file": "anglir-map-excavation-site-gridless.webp",
+        "label": "Anglir Map Excavation Site Gridless",
+        "width": 6000,
+        "height": 6000
+      },
+      {
+        "file": "anglir-map-solverne-void-expanded.webp",
+        "label": "Anglir Map Solverne Void Expanded",
+        "width": 6000,
+        "height": 4379
+      },
+      {
+        "file": "anglir-map-solverne-void-gridded.webp",
+        "label": "Anglir Map Solverne Void Gridded",
+        "width": 3640,
+        "height": 5320
+      },
+      {
+        "file": "anglir-map-solverne-void-gridless.webp",
+        "label": "Anglir Map Solverne Void Gridless",
+        "width": 3640,
+        "height": 5320
+      }
+    ]
+  },
+  {
+    "slug": "march-of-the-living-oasis",
+    "creature": "Dunedrinker",
+    "hunt": "March of the Living Oasis",
+    "sourceType": "thematic-match",
+    "matchedPack": "Oasis Expedition",
+    "gridSquares": [
+      33,
+      46
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 4304,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "painted-lady",
+    "creature": "Painted Lady",
+    "hunt": "Field Notes X-20 (lair)",
+    "sourceType": "thematic-match",
+    "matchedPack": "Grand Opera House",
+    "gridSquares": [
+      42,
+      79
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 3190,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "queen-of-shadow-and-thorn",
+    "creature": "Queen of Brambles",
+    "hunt": "Queen of Shadow and Thorn",
+    "sourceType": "thematic-match",
+    "matchedPack": "Flooded Fey Ruins",
+    "gridSquares": [
+      29,
+      58
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 3000,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "reef-avatar",
+    "creature": "Reef Avatar",
+    "hunt": "Field Notes X-29 (lair)",
+    "sourceType": "thematic-match",
+    "matchedPack": "Deep Sea Temple",
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 3840,
+        "height": 2160
+      }
+    ]
+  },
+  {
+    "slug": "release-the-kraken",
+    "creature": "Cracker Kraken",
+    "hunt": "Release the Kraken",
+    "sourceType": "thematic-match",
+    "matchedPack": "Beached Kraken",
+    "gridSquares": [
+      78,
+      23
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 6000,
+        "height": 1769
+      }
+    ]
+  },
+  {
+    "slug": "scourge-of-the-coral-hive",
+    "creature": "Valtharyx (Coral Dragon Turtle)",
+    "hunt": "Scourge of the Coral Hive",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "vsea-map-coralspire-reef-mlm-g-labelled.webp",
+        "label": "Vsea Map Coralspire Reef Mlm G Labelled",
+        "width": 6000,
+        "height": 6000
+      },
+      {
+        "file": "vsea-map-coralspire-reef-mlm-g-nowm.webp",
+        "label": "Vsea Map Coralspire Reef Mlm G Nowm",
+        "width": 6000,
+        "height": 6000
+      },
+      {
+        "file": "vsea-map-coralspire-reef-mlm-gl-nowm.webp",
+        "label": "Vsea Map Coralspire Reef Mlm Gl Nowm",
+        "width": 6000,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "spectres-of-midwinter",
+    "creature": "The Krampus",
+    "hunt": "Spectres of Midwinter",
+    "sourceType": "thematic-match",
+    "matchedPack": "Lich Catacomb",
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 3840,
+        "height": 2160
+      }
+    ]
+  },
+  {
+    "slug": "synaptic-shiver",
+    "creature": "Storm Dragonray",
+    "hunt": "The Synaptick Shiver",
+    "sourceType": "preview-map",
+    "images": [
+      {
+        "file": "hbh-map-windwhistle-cliffs-cp-gl-wm.webp",
+        "label": "Hbh Map Windwhistle Cliffs Cp Gl Wm",
+        "width": 3447,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "the-good-the-bad-and-the-oni",
+    "creature": "Pepper Oni",
+    "hunt": "The Good, The Bad, and the Oni",
+    "sourceType": "thematic-match",
+    "matchedPack": "Oni Hideout",
+    "gridSquares": [
+      32,
+      46
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 4174,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "throne-of-the-devourer",
+    "creature": "Celestial Devourer",
+    "hunt": "Throne of the Devourer",
+    "sourceType": "thematic-match",
+    "matchedPack": "Celestial Realm",
+    "gridSquares": [
+      32,
+      45
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 4267,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "timekeepers-trials",
+    "creature": "Chronosphinx",
+    "hunt": "The Timekeeper's Trials",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "sphinx-map-horological-headquarters-extended-crop.webp",
+        "label": "Sphinx Map Horological Headquarters Extended Crop",
+        "width": 6000,
+        "height": 5002
+      },
+      {
+        "file": "sphinx-map-horological-headquarters-extended.webp",
+        "label": "Sphinx Map Horological Headquarters Extended",
+        "width": 4299,
+        "height": 6000
+      },
+      {
+        "file": "sphinx-map-horological-headquarters-gridded-crop.webp",
+        "label": "Sphinx Map Horological Headquarters Gridded Crop",
+        "width": 3780,
+        "height": 5602
+      },
+      {
+        "file": "sphinx-map-horological-headquarters-gridded.webp",
+        "label": "Sphinx Map Horological Headquarters Gridded",
+        "width": 2418,
+        "height": 6000
+      },
+      {
+        "file": "sphinx-map-horological-headquarters-gridless-crop.webp",
+        "label": "Sphinx Map Horological Headquarters Gridless Crop",
+        "width": 3780,
+        "height": 5602
+      },
+      {
+        "file": "sphinx-map-horological-headquarters-gridless.webp",
+        "label": "Sphinx Map Horological Headquarters Gridless",
+        "width": 2418,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "tomb-of-the-timeless-tyrant",
+    "creature": "Tomb Tyrant (Firaain)",
+    "hunt": "Tomb of the Timeless Tyrant",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "zget-map-firaain-s-sanctum-mad-gl-wm.webp",
+        "label": "Zget Map Firaain S Sanctum Mad Gl Wm",
+        "width": 5000,
+        "height": 6000
+      },
+      {
+        "file": "zget-map-the-false-tomb-mad-gl-wm.webp",
+        "label": "Zget Map The False Tomb Mad Gl Wm",
+        "width": 5279,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "twilight-hunter",
+    "creature": "Bloodhound",
+    "hunt": "The Twilight Hunter",
+    "sourceType": "thematic-match",
+    "matchedPack": "Village Hunting Guild",
+    "gridSquares": [
+      30,
+      48
+    ],
+    "images": [
+      {
+        "file": "thematic-match.webp",
+        "label": "Thematic Match",
+        "width": 3750,
+        "height": 6000
+      }
+    ]
+  },
+  {
+    "slug": "wizards-of-the-toast",
+    "creature": "Bread Dragon & Hasbrodeus",
+    "hunt": "Wizards of the Toast",
+    "sourceType": "hunt-map-pack",
+    "images": [
+      {
+        "file": "toast-map-factory-extended.webp",
+        "label": "Toast Map Factory Extended",
+        "width": 6000,
+        "height": 4328
+      },
+      {
+        "file": "toast-map-factory-floor1-gridded.webp",
+        "label": "Toast Map Factory Floor1 Gridded",
+        "width": 5600,
+        "height": 3080
+      },
+      {
+        "file": "toast-map-factory-floor1-gridless.webp",
+        "label": "Toast Map Factory Floor1 Gridless",
+        "width": 5600,
+        "height": 3080
+      },
+      {
+        "file": "toast-map-factory-floor2-gridded.webp",
+        "label": "Toast Map Factory Floor2 Gridded",
+        "width": 5600,
+        "height": 3080
+      },
+      {
+        "file": "toast-map-factory-floor2-gridless.webp",
+        "label": "Toast Map Factory Floor2 Gridless",
+        "width": 5600,
+        "height": 3080
+      },
+      {
+        "file": "toast-map-factory-gridded.webp",
+        "label": "Toast Map Factory Gridded",
+        "width": 5455,
+        "height": 6000
+      },
+      {
+        "file": "toast-map-factory-gridless.webp",
+        "label": "Toast Map Factory Gridless",
+        "width": 5455,
+        "height": 6000
+      }
+    ]
+  }
+]
